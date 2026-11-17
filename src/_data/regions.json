@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "vice-city",
+    "name": "Vice City",
+    "kind": "Hub city",
+    "summary": "The big city and the heart of the map: sun, money and excess, split into neighbourhoods such as Ocean Beach, Little Cuba and VC Port.",
+    "places": [
+      "Ocean Beach",
+      "Little Cuba",
+      "VC Port",
+      "Tisha-Wocka flea market"
+    ],
+    "status": "confirmed",
+    "gallery": 23,
+    "details": [
+      "Rockstar's modern take on Miami, rebuilt and expanded since the 2002 game.",
+      "Neighbourhoods named so far: Ocean Beach with its art deco hotels and white sand, Little Cuba's panaderías, the Tisha-Wocka flea market, and VC Port, the cruise ship capital of the world.",
+      "Other places named by Rockstar: Shore Drive, Washington Beach, Stockyard and Southside Vice City.",
+      "Flash FM is the city's pop institution."
+    ]
+  },
+  {
+    "slug": "leonida-keys",
+    "name": "Leonida Keys",
+    "kind": "Island chain",
+    "summary": "A tropical island chain at the edge of the state. Easygoing on land, with dangerous water all around it.",
+    "places": [],
+    "status": "confirmed",
+    "gallery": 7,
+    "details": [
+      "Leonida's version of the Florida Keys, where Jason works for local drug runners.",
+      "Brian Heder runs his boat yard here, and lets Jason live in one of his properties.",
+      "Reefs for scuba diving, with sharks, rays, turtles and jellyfish offshore."
+    ]
+  },
+  {
+    "slug": "grassrivers",
+    "name": "Grassrivers",
+    "kind": "Wetlands",
+    "summary": "Leonida's wetlands: mangroves, alligators and other wildlife you would rather not meet on foot.",
+    "places": [],
+    "status": "confirmed",
+    "gallery": 8,
+    "details": [
+      "Leonida's take on the Everglades: mangroves, swamps and alligators.",
+      "Airboats are the way to get around. Back Country Radio's reporter Mud Dog Mike broadcasts from one."
+    ]
+  },
+  {
+    "slug": "port-gellhorn",
+    "name": "Port Gellhorn",
+    "kind": "Faded coast",
+    "summary": "A former holiday coast in decline, now running on a rougher, drug-fuelled economy.",
+    "places": [],
+    "status": "confirmed",
+    "gallery": 6,
+    "details": [
+      "Stands in for Florida's struggling tourist-trap towns.",
+      "Expect abandoned attractions, cheap motels and run-down strip malls, on a rough, drug-fuelled economy.",
+      "Back Country Radio reaches out here too."
+    ]
+  },
+  {
+    "slug": "ambrosia",
+    "name": "Ambrosia",
+    "kind": "Industry town",
+    "summary": "A town built around a sugar refinery, where a local biker gang has a say in how things run.",
+    "places": [],
+    "status": "confirmed",
+    "gallery": 6,
+    "details": [
+      "A town built around a sugar refinery.",
+      "A local biker gang has a big say in how things run."
+    ]
+  },
+  {
+    "slug": "mount-kalaga",
+    "name": "Mount Kalaga National Park",
+    "short": "Mount Kalaga",
+    "kind": "Wilderness",
+    "summary": "Wild country along Leonida's northern border: hunting, fishing and remote, isolated communities.",
+    "places": [],
+    "status": "confirmed",
+    "gallery": 6,
+    "details": [
+      "Wild country on the northern border with Gloriana, Leonida's take on the Florida–Georgia line.",
+      "Lumber industry and cleared forest, private-jet communities with their own airstrips, and struggling west-coast towns.",
+      "Built for the outdoors: ATV trails, mud parks, demolition derbies, mountain biking, farms, ranches, golf and bass fishing.",
+      "The Ultimate Edition's Dominator Buggy is made for these backwoods, and One-Eyed Willie's mod shop sits by Lake Leonida."
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+title: Characters
+seoTitle: "GTA 6 Characters: Jason, Lucia and the Confirmed Cast"
+description: "The GTA 6 characters Rockstar has introduced so far: playable leads Jason Duval and Lucia Caminos, and the supporting cast. Spoiler-free."
+updated: 2026-11-17
+---
+<header class="mast" style="--glow:var(--pink)">
+  <div class="wrap">
+    <p class="kicker">The cast</p>
+    <h1>Jason and Lucia</h1>
+    <p class="tagline">You play two leads, Jason Duval and Lucia Caminos. These are the characters Rockstar has introduced ahead of launch.</p>
+    <div class="chips"><span class="chip ok dot">Confirmed by Rockstar</span><span class="chip plain">Spoiler-free</span></div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="cards two">
+      {%- for c in cast %}{% if c.lead %}
+      <div class="card lead has-img {{ c.lead }}"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3>{{ c.name }}</h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p></div></div>
+      {%- endif %}{% endfor %}
+    </div>
+    <h2 class="sec-h sm" style="margin-top:34px">Supporting cast</h2>
+    <div class="cards three">
+      {%- for c in cast %}{% if not c.lead %}
+      <div class="card has-img"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3>{{ c.name }}</h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p></div></div>
+      {%- endif %}{% endfor %}
+    </div>
+    <p class="fig-credit">Screenshots: Rockstar Games</p>
+    <h2 class="sec-h sm" style="margin-top:40px">Official artwork</h2>
+    <p class="lede">Rockstar's illustrated key art for the cast. Tap to see it full size.</p>
+    <div class="gallery big">
+      {%- for a in [["jl-01","Jason and Lucia"],["jl-beach","Jason and Lucia at the beach"],["jl-rooftop","Jason and Lucia on a rooftop"],["jl-lock-and-load","Jason and Lucia, Lock and Load"],["jl-robbery","Jason and Lucia, Robbery"],["jl-02","Jason and Lucia on the dock"],["jl-motel","Jason and Lucia at the motel"],["cal-hampton","Cal Hampton"],["boobie-ike","Boobie Ike"],["drequan-priest","Dre'Quan Priest"],["real-dimez","Real Dimez"],["raul-bautista","Raul Bautista"],["brian-heder","Brian Heder"]] %}
+      <figure><img data-zoom="art" src="/assets/img/art/{{ a[0] }}.webp" data-full="/assets/img/full/art-{{ a[0] }}.webp" alt="{{ a[1] }}, official GTA 6 artwork" width="800" height="450" loading="lazy"><figcaption>{{ a[1] }}</figcaption></figure>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Artwork: Rockstar Games</p>
+    <p class="lede" style="margin-top:22px">After launch, anything about what happens to these characters goes behind a spoiler block.</p>
+  </div>
+</section>

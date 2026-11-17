@@ -1,0 +1,91 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "db.kinds", size: 1, alias: "k", addAllPagesToCollections: true },
+  permalink: (data) => `${data.k.slug}/`,
+  eleventyComputed: {
+    title: (data) => data.k.name,
+    seoTitle: (data) => data.k.seoTitle,
+    description: (data) => `${data.k.intro} Stats, prices and locations for GTA 6 ${data.k.slug}.`,
+    sample: (data) => !!data.k.sample,
+    updated: (data) => data.k.updated,
+  },
+}
+---
+<header class="mast" style="--glow:var(--{{ k.glow }})">
+  <div class="wrap">
+    <p class="kicker">{{ k.name }}</p>
+    <h1>{{ k.headline }}</h1>
+    <p class="tagline">{{ k.intro }}</p>
+  </div>
+</header>
+
+{%- if not k.items.length %}
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker">Opens at launch</p>
+      <h2 class="sec-h sm">The {{ k.singular }} list starts on November 19</h2>
+      <p>Every {{ k.singular }} gets a page with its stats, price and where to find it, added once we have used it in the game. No leaked lists and no guessed numbers.</p>
+    </div>
+  </div>
+</section>
+{%- set kn = known[k.slug] %}
+{%- if kn %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Confirmed so far</p>
+    <h2 class="sec-h">Named by Rockstar</h2>
+    <p class="lede">{{ kn.lede }}</p>
+    <div class="kcards">
+      {%- for c in kn.items %}
+      <article class="kcard has-img">
+        <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="known-{{ k.slug }}" alt="{{ c.t }}, official GTA 6 image" width="800" height="450" loading="lazy">
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p><p class="kmeta"><span class="chip ok dot">Confirmed</span><span>Rockstar</span></p></div>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- if kn.seen %}
+    <h2 class="sec-h sm" style="margin-top:34px">Types seen in official footage</h2>
+    <div class="castlist">{% for p in kn.seen %}<span>{{ p }}</span>{% endfor %}</div>
+    {%- endif %}
+    <p class="kicker" style="margin-top:34px">Sources</p>
+    <ul class="sources">{% for s in kn.sources %}<li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a></li>{% endfor %}</ul>
+    <p class="fig-credit">Images: Rockstar Games</p>
+  </div>
+</section>
+{%- endif %}
+{%- else %}
+<section class="sec">
+  <div class="wrap">
+    <div class="finder">
+      <label class="vh" for="q-{{ k.slug }}">Search {{ k.slug }}</label>
+      <input class="search" type="search" id="q-{{ k.slug }}" data-search="{{ k.slug }}" placeholder="Search {{ k.items.length }} {{ k.slug }}" autocomplete="off">
+      <div class="filters" data-filter-group="{{ k.slug }}" role="group" aria-label="Filter by class">
+        <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
+        {%- for c in k.classes %}
+        <button type="button" class="fchip" data-filter="{{ c | slugify }}" aria-pressed="false">{{ c }}</button>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="db" data-filter-list="{{ k.slug }}">
+      {%- for e in k.items %}
+      <article class="entry {{ k.slug }}" data-tags="{{ e.class | slugify }}" data-text="{{ e.name | lower }} {{ e.class | lower }}">
+        <div class="top">
+          <div><h2><a href="/{{ k.slug }}/{{ e.slug }}/">{{ e.name }}</a></h2><div class="mk">{{ e.blurb }}</div></div>
+          <span class="cls c-{{ e.class | slugify }}">{{ e.class }}</span>
+        </div>
+        <div class="stats">
+          {%- for s in k.stats %}
+          {%- set val = e.stats[s.key] %}
+          <div class="stat"><span class="lab">{{ s.label }}</span><span class="meter"><i style="width:{{ ((val / (s.max or 100)) * 100) | round }}%"></i></span><span class="num">{{ val }}</span></div>
+          {%- endfor %}
+        </div>
+        {%- if e.note %}<p class="note">{{ e.note }}</p>{% endif %}
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="{{ k.slug }}" hidden>Nothing matches. Clear the search or pick another class.</p>
+  </div>
+</section>
+{%- endif %}

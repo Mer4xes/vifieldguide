@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" data-launch="{{ site.launch }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- set isHome = page.url == "/" %}
+{%- set metaTitle = seoTitle or title %}
+{%- set metaDesc = description or summary or site.description %}
+<title>{% if isHome %}{{ metaTitle }}{% else %}{{ metaTitle }} | {{ site.name }}{% endif %}</title>
+<meta name="description" content="{{ metaDesc }}">
+{%- if sample or noindex %}
+<meta name="robots" content="noindex">
+{%- else %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{%- endif %}
+<meta property="og:site_name" content="{{ site.longName }}">
+<meta property="og:type" content="{% if schema == 'article' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{%- if site.ogImage %}
+<meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
+<meta name="twitter:card" content="summary_large_image">
+{%- endif %}
+<meta name="theme-color" content="#0b0711">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css?v={{ site.buildId }}">
+<script>(function(){var r=document.documentElement;try{var p=JSON.parse(localStorage.getItem("vfg.prefs.v1")||"{}");if(p.spoilers)r.classList.add("spoilers-on");if(p.hideAhead)r.classList.add("hide-ahead")}catch(e){}if(Date.now()>=new Date(r.getAttribute("data-launch")).getTime())r.classList.add("is-live")})()</script>
+{% ldjson title, metaTitle, metaDesc, crumbParent, schema, updated, published %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="brand" href="/">VI&nbsp;Field&nbsp;Guide</a>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav class="nav-links" id="nav-links" aria-label="Sections">
+      {%- for item in site.nav %}
+      <a href="{{ item.url }}"{% if page.url and page.url.startsWith(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+      <button type="button" class="sp-toggle" data-pref="spoilers" aria-pressed="false" data-on="Spoilers shown" data-off="Spoilers hidden"><span class="dot" aria-hidden="true"></span><span data-label>Spoilers hidden</span></button>
+    </nav>
+  </div>
+</header>
+<div id="page" data-route="{{ page.url }}"><!--page:start-->
+{%- if sample %}
+<div class="fiction">
+  <div class="wrap">
+    <span class="tag">Fictional sample</span>
+    <p>{{ sampleNote or "Invented content that shows the page format. It is not real game content, and it is left out of the live site." }}</p>
+  </div>
+</div>
+{%- endif %}
+{%- if not isHome and not hideCrumbs %}
+<nav class="crumbs" aria-label="Breadcrumb">
+  <div class="wrap">
+    <a href="/">Home</a>
+    {%- if crumbParent and crumbParent.url %}<span aria-hidden="true">/</span><a href="{{ crumbParent.url }}">{{ crumbParent.label }}</a>{% endif -%}
+    <span aria-hidden="true">/</span><span aria-current="page">{{ title }}</span>
+  </div>
+</nav>
+{%- endif %}
+<main id="main">
+{{ content | safe }}
+</main>
+<!--page:end--></div>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <p class="foot-brand">The VI Field Guide</p>
+        <p class="foot-note">Checklists and progress are saved in this browser only. Nothing is sent anywhere.</p>
+      </div>
+      <nav class="foot-links" aria-label="More">
+        <a href="/guides/launch-guide/">Launch guide</a>
+        <a href="/characters/">Characters</a>
+        <a href="/videos/">Trailers and videos</a>
+        <a href="/how-it-plays/">How it plays</a>
+        <a href="/activities/">Activities</a>
+        <a href="/wildlife/">Wildlife and weather</a>
+        <a href="/music/">Music</a>
+        <a href="/about/">About and spoiler policy</a>
+      </nav>
+    </div>
+    <p class="disc">{{ site.disclaimer }}</p>
+  </div>
+</footer>
+<script src="/assets/site.js?v={{ site.buildId }}" defer></script>
+</body>
+</html>

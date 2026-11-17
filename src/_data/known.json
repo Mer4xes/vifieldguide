@@ -1,0 +1,115 @@
+{
+  "vehicles": {
+    "lede": "Every vehicle Rockstar has named so far, with where it comes from. The full list, with stats and where to find each one, starts on November 19.",
+    "items": [
+      {
+        "t": "'95 Grotti Cheetah",
+        "tag": "Sports · Ultimate Edition",
+        "img": "ue-grotti-cheetah-01",
+        "d": "Grotti's mid-'90s sports car with a minimalist, retro-futuristic livery. Unlocks for later-stage action."
+      },
+      {
+        "t": "'55 Vapid Stanier",
+        "tag": "Sedan · Pre-order bonus",
+        "img": "vvc-vapid-stanier-01",
+        "d": "A classic sedan from the Vintage Vice City Pack, with a garage at Shore Court by Ocean Beach."
+      },
+      {
+        "t": "'67 Vapid Dominator Buggy",
+        "tag": "Off-road · Ultimate Edition",
+        "img": "ue-vapid-buggy-01",
+        "d": "A Mud Club monster for the backwoods of Mount Kalaga, stored at the Paradise Garage in Watson Bay."
+      },
+      {
+        "t": "Vapid Ganado",
+        "tag": "Pickup · Jason's truck",
+        "img": "ue-vapid-ganado-retro-build-01",
+        "d": "Jason's well-worn low-riding pickup. The Ultimate Edition adds a Retro Build mod kit."
+      },
+      {
+        "t": "Dinka Enduro",
+        "tag": "Motorcycle · Ultimate Edition",
+        "img": "ue-safehouse-vehicles-02",
+        "d": "An Army fatigue-styled dirt bike at Jason's safehouse."
+      },
+      {
+        "t": "Crest Kayak",
+        "tag": "Water · Ultimate Edition",
+        "img": "ue-safehouse-vehicles-03",
+        "d": "A kayak kept at Jason's safehouse."
+      },
+      {
+        "t": "Shitzu Squalo",
+        "tag": "Boat · Ultimate Edition",
+        "img": "ue-squalo-01",
+        "d": "A pink and blue fishing boat docked at Washington Beach, ready for Gambit Bay, with an explosives-laden weapons crate."
+      }
+    ],
+    "seen": [
+      "Sports and super cars",
+      "Muscle cars and classics",
+      "Pickups and SUVs",
+      "Police cruisers",
+      "Motorcycles and dirt bikes",
+      "ATVs and quad bikes",
+      "Airboats",
+      "Jet skis",
+      "Speedboats and yachts",
+      "Kayaks",
+      "Helicopters",
+      "Planes and seaplanes"
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games: Ultimate Edition and Vintage Vice City Pack",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "Game Informer: Welcome to Leonida",
+        "url": "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida"
+      }
+    ]
+  },
+  "weapons": {
+    "lede": "Every weapon Rockstar has named so far. The full list, with where to get each gun and what it is good for, starts on November 19.",
+    "items": [
+      {
+        "t": "Hawk & Little Morgan Revolvers",
+        "tag": "Revolvers · Ultimate Edition",
+        "img": "ue-hawk-and-little-morgan-revolvers-01",
+        "d": "His and hers revolvers styled after the Vercetti Estate, with palm-tree grips, engraving and a high-performance scope."
+      },
+      {
+        "t": "Girardi ES9 Pistol",
+        "tag": "Pistol · Jason",
+        "img": "ue-weapon-variants-01",
+        "d": "Jason's sidearm. The Ultimate Edition adds an engraved personal variant."
+      },
+      {
+        "t": "Klose K17 Pistol",
+        "tag": "Pistol · Lucia",
+        "img": "ue-weapon-variants-01",
+        "d": "Lucia's sidearm, also with an engraved Ultimate Edition variant."
+      },
+      {
+        "t": "Channel the Original Kingpin",
+        "tag": "Weapon pattern · Pre-order bonus",
+        "img": "vvc-weapon-pattern-01",
+        "d": "A tropical finish for most guns, based on Tommy Vercetti's palm-tree shirt."
+      }
+    ],
+    "seen": [
+      "Pistols",
+      "Revolvers",
+      "Assault rifles",
+      "Shotguns",
+      "Equipment in the weapon wheel"
+    ],
+    "sources": [
+      {
+        "label": "Rockstar Games: Ultimate Edition and Vintage Vice City Pack",
+        "url": "https://www.rockstargames.com/VI"
+      }
+    ]
+  }
+}

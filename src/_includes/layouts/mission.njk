@@ -1,0 +1,109 @@
+---
+layout: layouts/base.njk
+schema: article
+crumbParent:
+  label: Walkthrough
+  url: /walkthrough/
+---
+{%- set whoLabel = { jason: "Jason", lucia: "Lucia", both: "Jason and Lucia" } %}
+{%- set diffNames = ["Intro", "Medium", "Hard"] %}
+{%- set regionData = regions | where("slug", region) | first %}
+{%- set nSteps = content | stepCount %}
+{%- set prev = collections.missions | getPreviousCollectionItem %}
+{%- set next = collections.missions | getNextCollectionItem %}
+<header class="mast" style="--glow:var(--pink)">
+  <div class="wrap">
+    <p class="mno">Story mission {{ order | pad }}{% if chapter %} · {{ chapter }}{% endif %}</p>
+    <h1>{{ title }}</h1>
+    {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
+    <div class="chips">
+      {%- if protagonist %}<span class="chip who {{ protagonist }}">{{ whoLabel[protagonist] }}</span>{% endif %}
+      {%- if verified %}<span class="chip ok dot">Verified on v{{ verified }}</span>{% else %}<span class="chip rum dot">First pass, not yet verified</span>{% endif %}
+      <span class="chip plain">Spoilers: this mission only</span>
+    </div>
+    <dl class="meta">
+      {%- if giver %}<div><dt>Giver</dt><dd>{{ giver }}</dd></div>{% endif %}
+      {%- if regionData %}<div><dt>Area</dt><dd><a href="/map/{{ regionData.slug }}/">{{ regionData.short or regionData.name }}</a></dd></div>{% endif %}
+      {%- if unlocks %}<div><dt>Unlocks</dt><dd>{{ unlocks }}</dd></div>{% endif %}
+      {%- if difficulty %}<div><dt>Difficulty</dt><dd><span class="dots" aria-hidden="true">{% for i in range(0, 3) %}{% if i < difficulty %}●{% else %}○{% endif %}{% endfor %}</span> {{ diffNames[difficulty - 1] }}</dd></div>{% endif %}
+      {%- if time %}<div><dt>Time</dt><dd>{{ time }}</dd></div>{% endif %}
+    </dl>
+    {%- if nSteps %}
+    <div class="progress" data-progress="step:{{ slug }}:" data-total="{{ nSteps }}">
+      <div class="row"><span class="lab">Your run</span><span class="pct"><span data-done>0</span> / {{ nSteps }} steps</span></div>
+      <div class="bar"><i></i></div>
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if missables and missables.length %}
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="tip miss">
+      <span class="lab">Missable</span>
+      <div class="tip-body">
+        <p><b>Read before you start.</b> You cannot come back for these after the mission ends.</p>
+        <ul>{% for m in missables %}<li>{{ m | md | safe }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if objectives and objectives.length %}
+<section class="sec" id="objectives">
+  <div class="wrap">
+    <p class="kicker">Mission objectives</p>
+    <h2 class="sec-h">What the game asks of you</h2>
+    <ol class="objs">{% for o in objectives %}<li><span>{{ o }}</span></li>{% endfor %}</ol>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec" id="walkthrough">
+  <div class="wrap">
+    <p class="kicker">Step by step</p>
+    <h2 class="sec-h">The walkthrough</h2>
+    <p class="lede">Tap a step number to tick it off. Your place is saved in this browser.</p>
+    {{ content | callouts | steps(slug) | safe }}
+  </div>
+</section>
+
+{%- if bonus and bonus.length %}
+<section class="sec" id="bonus">
+  <div class="wrap">
+    <div class="perfect">
+      <p class="kicker">Optional</p>
+      <h2 class="sec-h sm">Bonus objectives</h2>
+      <p class="lede">The extra targets for a full-completion run of this mission.</p>
+      <ul class="track">
+        {%- for b in bonus %}
+        <li data-track-row><label><input class="cb violet" type="checkbox" data-track="bonus:{{ slug }}:{{ loop.index }}"><span class="txt">{{ b.goal }}</span>{% if b.target %}<span class="goal">{{ b.target }}</span>{% endif %}</label></li>
+        {%- endfor %}
+      </ul>
+      <button class="reset" type="button" data-reset="bonus:{{ slug }}:">Reset tracker</button>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec" id="rewards">
+  <div class="wrap">
+    <p class="kicker">Payoff</p>
+    <h2 class="sec-h">Rewards and what's next</h2>
+    {%- if rewards and rewards.length %}
+    <div class="rewards">{% for r in rewards %}<div class="rw"><div class="k">{{ r.label }}</div><div class="v">{{ r.value }}</div></div>{% endfor %}</div>
+    {%- endif %}
+    <label class="complete" data-track-row>
+      <input class="cb" type="checkbox" data-track="mission:{{ slug }}">
+      <span><b>Mark mission complete</b><small>Updates your progress on the walkthrough page.</small></span>
+    </label>
+    <nav class="pager" aria-label="Missions">
+      {%- if prev %}<a class="pg prev" href="{{ prev.url }}"><span class="l">Previous mission</span><span class="t">{{ prev.data.order | pad }} · {{ prev.data.title }}</span></a>{% endif %}
+      {%- if next %}<a class="pg next" href="{{ next.url }}"><span class="l">Next mission</span><span class="t">{{ next.data.order | pad }} · {{ next.data.title }}</span></a>
+      {%- else %}<a class="pg next" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
+    </nav>
+    {%- if updated %}<p class="stamp">Last updated {{ updated | niceDate }}</p>{% endif %}
+  </div>
+</section>

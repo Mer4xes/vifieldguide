@@ -1,0 +1,65 @@
+{
+  "sample": true,
+  "updated": "2026-11-17",
+  "types": [
+    {
+      "slug": "hidden-icons",
+      "name": "Hidden Icons",
+      "desc": "Neon markers tucked across every district.",
+      "reward": "A slice of your 100% and a cash bonus per ten found.",
+      "total": 50,
+      "items": [
+        { "n": 1, "region": "vice-city", "name": "Ocean Beach lifeguard tower", "where": "On the roof of the pink tower at the north end of the sand. Climb the ladder at the back." },
+        { "n": 2, "region": "vice-city", "name": "VC Port crane", "where": "At the top of the tallest yellow crane. Take the stairs inside the frame, not the ladder." },
+        { "n": 3, "region": "leonida-keys", "name": "End of the road", "where": "Behind the sign where the highway stops, facing the water." },
+        { "n": 4, "region": "mount-kalaga", "name": "Ranger lookout", "where": "Inside the fire lookout cabin at the summit trailhead.", "mission": "dead-calm" }
+      ]
+    },
+    {
+      "slug": "vice-tapes",
+      "name": "Vice Tapes",
+      "desc": "Lost cassettes that add tracks to the radio.",
+      "reward": "Each tape unlocks a track. A full set unlocks a station.",
+      "total": 30,
+      "items": [
+        { "n": 1, "region": "vice-city", "name": "Little Cuba bakery", "where": "On the counter next to the register." },
+        { "n": 2, "region": "port-gellhorn", "name": "Boardwalk arcade", "where": "Under the broken claw machine at the back." },
+        { "n": 3, "region": "leonida-keys", "name": "Dockside bar", "where": "Behind the jukebox." }
+      ]
+    },
+    {
+      "slug": "street-art",
+      "name": "Street Art",
+      "desc": "Murals worth photographing around the state.",
+      "reward": "Photograph all of them for an outfit.",
+      "total": 20,
+      "items": [
+        { "n": 1, "region": "vice-city", "name": "Underpass mural", "where": "On the north pillar under the causeway." },
+        { "n": 2, "region": "port-gellhorn", "name": "Motel wall", "where": "The side wall of the closed motel, facing the parking lot." },
+        { "n": 3, "region": "ambrosia", "name": "Refinery gate", "where": "On the water tank left of the main gate." }
+      ]
+    },
+    {
+      "slug": "gator-nests",
+      "name": "Gator Nests",
+      "desc": "Hidden out in the Grassrivers swampland.",
+      "reward": "Counts toward 100%.",
+      "total": 15,
+      "items": [
+        { "n": 1, "region": "grassrivers", "name": "Airboat dock", "where": "In the reeds twenty metres east of the dock. Approach by boat." },
+        { "n": 2, "region": "grassrivers", "name": "Sunken pickup", "where": "On the mud bank beside the half-sunk truck." }
+      ]
+    },
+    {
+      "slug": "time-capsules",
+      "name": "Time Capsules",
+      "desc": "Buried throwbacks out in the backcountry.",
+      "reward": "Each one holds a vintage item.",
+      "total": 10,
+      "items": [
+        { "n": 1, "region": "mount-kalaga", "name": "Old campsite", "where": "Under the stone ring of the abandoned fire pit." },
+        { "n": 2, "region": "grassrivers", "name": "Hunter's blind", "where": "At the foot of the wooden blind, on the dry side." }
+      ]
+    }
+  ]
+}

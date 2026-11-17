@@ -1,0 +1,96 @@
+---js
+{
+  layout: "layouts/base.njk",
+  title: "Trophies",
+  seoTitle: "GTA 6 Trophy Guide and Platinum Roadmap: All Trophies and Achievements",
+  description: "Every GTA 6 trophy and achievement with a platinum roadmap, missable warnings and a checklist that saves your progress.",
+  eleventyComputed: {
+    sample: (data) => !!data.db.trophies.sample,
+    updated: (data) => data.db.trophies.updated,
+  },
+}
+---
+{%- set t = db.trophies %}
+{%- set gradeName = { platinum: "Platinum", gold: "Gold", silver: "Silver", bronze: "Bronze" } %}
+<header class="mast" style="--glow:var(--plat)">
+  <div class="wrap">
+    <p class="kicker">Trophies and achievements</p>
+    <h1>The Platinum Road</h1>
+    <p class="tagline">A phased route to the platinum, and a trophy list you can tick off as you go.</p>
+    {%- if t.items.length %}
+    <div class="tiles">
+      <div class="tile p"><div class="v">{{ t.counts.platinum }}</div><div class="k">Platinum</div></div>
+      <div class="tile g"><div class="v">{{ t.counts.gold }}</div><div class="k">Gold</div></div>
+      <div class="tile"><div class="v">{{ t.counts.silver }}</div><div class="k">Silver</div></div>
+      <div class="tile"><div class="v">{{ t.counts.bronze }}</div><div class="k">Bronze</div></div>
+      {%- if t.estimate and t.estimate.time %}<div class="tile"><div class="v">{{ t.estimate.time }}</div><div class="k">Est. time</div></div>{% endif %}
+    </div>
+    <div class="progress" data-progress="trophy:" data-total="{{ t.items.length }}">
+      <div class="row"><span class="lab">Your progress</span><span class="pct"><span data-done>0</span> / {{ t.items.length }} · <span data-pct>0%</span></span></div>
+      <div class="bar"><i></i></div>
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if not t.items.length %}
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker">Waiting for the real list</p>
+      <h2 class="sec-h sm">No official trophy list yet</h2>
+      <p>When this page was last updated, on November 17, 2026, no official GTA 6 trophy or achievement list had been published. A list of 55 trophies has been passed around online, but nobody has been able to verify it, so you will not find it here.</p>
+      <p>The real list goes up on this page, with a platinum roadmap and missable warnings, as soon as it appears on the consoles.</p>
+    </div>
+  </div>
+</section>
+{%- else %}
+{%- if t.roadmap and t.roadmap.length %}
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h">The roadmap</h2>
+    <p class="lede">The efficient order: play the story first, mop up the open world, then clean up what is left.</p>
+    <div class="phases">
+      {%- for p in t.roadmap %}
+      <div class="phase"><div class="num">{{ loop.index }}</div><div><h3>{{ p.title }}</h3><p>{{ p.text }}</p></div></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h">Trophy list</h2>
+    <p class="lede">Hidden trophies stay blurred until you reveal them or turn spoilers on.</p>
+    <div class="filters" data-filter-group="trophies" role="group" aria-label="Filter trophies">
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not earned</button>
+      <button type="button" class="fchip" data-filter="missable" aria-pressed="false">Missable</button>
+      <button type="button" class="fchip" data-filter="story" aria-pressed="false">Story</button>
+      <button type="button" class="fchip" data-filter="open-world" aria-pressed="false">Open world</button>
+      <button type="button" class="fchip" data-filter="collectibles" aria-pressed="false">Collectibles</button>
+    </div>
+    <div class="trophies" data-filter-list="trophies">
+      {%- for tr in t.items %}
+      <div class="tr{% if tr.hidden %} is-secret{% endif %}" data-track-row data-tags="{{ tr.tags | join(' ') }}{% if tr.missable %} missable{% endif %}{% if tr.hidden %} hidden{% endif %}">
+        <input class="cb" type="checkbox" id="t-{{ tr.id }}" data-track="trophy:{{ tr.id }}" aria-label="Mark trophy {{ loop.index }} earned">
+        <div class="body">
+          <div class="name"><span class="secret">{{ tr.name }}</span></div>
+          <div class="desc"><span class="secret">{{ tr.desc }}</span></div>
+          {%- if tr.how %}<details class="how"><summary>How to get it</summary><p>{{ tr.how | md | safe }}</p></details>{% endif %}
+          {%- if tr.link and not tr.hidden %}<a class="more" href="{{ tr.link }}">Related guide</a>{% endif %}
+        </div>
+        <div class="side">
+          <span class="rar {{ tr.grade }}">{{ gradeName[tr.grade] }}</span>
+          {%- if tr.missable %}<span class="flag">Missable</span>{% endif %}
+          {%- if tr.hidden %}<button type="button" class="flag hid" data-reveal>Hidden · reveal</button>{% endif %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="trophies" hidden>No trophies match that filter.</p>
+    <button class="reset" type="button" data-reset="trophy:">Reset tracker</button>
+  </div>
+</section>
+{%- endif %}

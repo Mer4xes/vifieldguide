@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+---
+<header class="mast" style="--glow:var(--{{ glow or 'violet' }})">
+  <div class="wrap">
+    {%- if kicker %}<p class="kicker">{{ kicker }}</p>{% endif %}
+    <h1>{{ headline or title }}</h1>
+    {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
+  </div>
+</header>
+<section class="sec">
+  <div class="wrap prose">
+{{ content | callouts | safe }}
+  </div>
+</section>

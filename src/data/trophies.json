@@ -1,0 +1,34 @@
+{
+  "sample": true,
+  "updated": "2026-11-17",
+  "estimate": { "time": "~60h", "difficulty": "4/10", "playthroughs": "1" },
+  "roadmap": [
+    {
+      "title": "Play the story naturally",
+      "text": "Run the campaign start to finish without chasing trophies. Several unlock on their own, and you learn the map you need for phase two."
+    },
+    {
+      "title": "Sweep the open world",
+      "text": "With free roam fully open, clear collectibles and region milestones in passes by area: Vice City, the Keys, Grassrivers, the park."
+    },
+    {
+      "title": "Cleanup and grind",
+      "text": "Replay any missions you did not 100% the first time, finish the money and stat trophies, and take the Platinum."
+    }
+  ],
+  "items": [
+    { "id": "homecoming", "name": "Homecoming", "desc": "Complete the opening mission.", "grade": "bronze", "tags": ["story"], "link": "/walkthrough/homecoming/" },
+    { "id": "welcome-to-the-keys", "name": "Welcome to the Keys", "desc": "Set foot in the Leonida Keys for the first time.", "grade": "bronze", "tags": ["open-world"] },
+    { "id": "two-to-tango", "name": "Two to Tango", "desc": "Switch between Jason and Lucia 50 times.", "grade": "bronze", "tags": ["open-world"], "how": "You will get most of the way there by playing normally. Finish it off by swapping back and forth while standing still." },
+    { "id": "sunset-pier", "name": "Sunset Pier", "desc": "Watch a full sunset from the Vice City boardwalk.", "grade": "bronze", "tags": ["open-world"], "hidden": true },
+    { "id": "short-count", "name": "Short Count", "desc": "Finish the mission that sets everything in motion.", "grade": "bronze", "tags": ["story"], "missable": true, "link": "/walkthrough/short-count/" },
+    { "id": "clean-hands", "name": "Clean Hands", "desc": "Complete any story mission without taking damage.", "grade": "silver", "tags": ["story"] },
+    { "id": "high-roller", "name": "High Roller", "desc": "Hold $1,000,000 in cash at once.", "grade": "silver", "tags": ["open-world"] },
+    { "id": "state-of-leonida", "name": "State of Leonida", "desc": "Discover every district on the map.", "grade": "silver", "tags": ["open-world"] },
+    { "id": "the-long-way-down", "name": "The Long Way Down", "desc": "Make a one-time story choice in the final act.", "grade": "gold", "tags": ["story"], "missable": true, "hidden": true },
+    { "id": "collector", "name": "Collector", "desc": "Find every Hidden Icon across the state.", "grade": "gold", "tags": ["collectibles"], "link": "/collectibles/hidden-icons/" },
+    { "id": "perfect-record", "name": "Perfect Record", "desc": "Earn 100% on every story mission.", "grade": "gold", "tags": ["story"] },
+    { "id": "the-sun-also-sets", "name": "The Sun Also Sets", "desc": "Complete the main story.", "grade": "gold", "tags": ["story"] },
+    { "id": "100-leonida", "name": "100% Leonida", "desc": "Reach full game completion. Earn every other trophy.", "grade": "platinum", "tags": [] }
+  ]
+}

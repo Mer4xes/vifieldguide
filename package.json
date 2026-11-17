@@ -1,0 +1,17 @@
+{
+  "name": "gta6guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The VI Field Guide: unofficial GTA 6 walkthrough site (vifieldguide.com)",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "preview": "node scripts/make-preview.mjs",
+    "check": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.8",
+    "markdown-it": "^15.0.3"
+  }
+}

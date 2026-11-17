@@ -1,0 +1,73 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "db.entries", size: 1, alias: "e", addAllPagesToCollections: true },
+  permalink: (data) => `${data.e.kind}/${data.e.slug}/`,
+  eleventyComputed: {
+    title: (data) => data.e.name,
+    seoTitle: (data) => `${data.e.name}: GTA 6 ${data.e.class} ${data.e.singular}, Stats and Where to Get It`,
+    description: (data) =>
+      `${data.e.name} in GTA 6: stats, price and where to find this ${data.e.class.toLowerCase()} ${data.e.singular}.`,
+    crumbParent: (data) => ({ label: data.e.kindName, url: `/${data.e.kind}/` }),
+    sample: (data) => !!data.e.sample,
+    updated: (data) => data.e.updated,
+  },
+}
+---
+{%- set kind = db.kinds | where("slug", e.kind) | first %}
+<header class="mast" style="--glow:var(--{{ kind.glow }})">
+  <div class="wrap">
+    <p class="kicker">{{ e.class }} {{ e.singular }}</p>
+    <h1>{{ e.name }}</h1>
+    {%- if e.blurb %}<p class="tagline">{{ e.blurb }}</p>{% endif %}
+    <dl class="meta">
+      <div><dt>Class</dt><dd>{{ e.class }}</dd></div>
+      {%- if e.price %}<div><dt>Price</dt><dd>{{ e.price }}</dd></div>{% endif %}
+      {%- if e.seats %}<div><dt>Seats</dt><dd>{{ e.seats }}</dd></div>{% endif %}
+    </dl>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h">Stats</h2>
+    <div class="entry {{ e.kind }} solo">
+      <div class="stats">
+        {%- for s in e.statDefs %}
+        {%- set val = e.stats[s.key] %}
+        <div class="stat"><span class="lab">{{ s.label }}</span><span class="meter"><i style="width:{{ ((val / (s.max or 100)) * 100) | round }}%"></i></span><span class="num">{{ val }}</span></div>
+        {%- endfor %}
+      </div>
+      {%- if e.note %}<p class="note">{{ e.note }}</p>{% endif %}
+    </div>
+  </div>
+</section>
+
+{%- if e.howToGet %}
+<section class="sec">
+  <div class="wrap prose">
+    <h2>Where to get it</h2>
+    <p>{{ e.howToGet | md | safe }}</p>
+    {%- if e.image %}<img src="{{ e.image }}" alt="{{ e.name }} in GTA 6" loading="lazy" decoding="async">{% endif %}
+  </div>
+</section>
+{%- endif %}
+
+{%- set siblings = kind.items | where("class", e.class) %}
+{%- if siblings.length > 1 %}
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h sm">More {{ e.class | lower }} {{ e.kind }}</h2>
+    <ul class="updates">
+      {%- for s in siblings %}{% if s.slug != e.slug %}<li><a href="/{{ s.kind }}/{{ s.slug }}/">{{ s.name }}</a><span>{{ s.blurb }}</span></li>{% endif %}{% endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec">
+  <div class="wrap">
+    <a class="btn" href="/{{ e.kind }}/">All {{ e.kind }}</a>
+    {%- if e.updated %}<p class="stamp">Last updated {{ e.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>

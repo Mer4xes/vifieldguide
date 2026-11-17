@@ -1,0 +1,50 @@
+<section class="sec" id="editions">
+  <div class="wrap">
+    <p class="kicker">Editions</p>
+    <h2 class="sec-h">Standard or Ultimate?</h2>
+    <div class="ed-hero">
+      <img src="/assets/img/misc/cover-art.webp" data-full="/assets/img/full/cover-art.webp" data-zoom="cover" alt="The official Grand Theft Auto VI cover art" width="720" height="1280" loading="lazy">
+      <div>
+        <p class="lede" style="margin-top:0">The official cover art, revealed June 18. There are two editions. Anything bought before November 20 also gets the Vintage Vice City Pack.</p>
+        <div class="price-row">
+          <div class="price"><span class="lab">Standard Edition</span><div class="big">$79.99</div><p>The full game.</p></div>
+          <div class="price ult"><span class="lab">Ultimate Edition</span><div class="big">$99.99</div><p>The game plus vehicles, weapons, looks, shops and side content spread through the story. Also sold as an upgrade.</p></div>
+        </div>
+        <p class="fig-credit">Cover art: Rockstar Games</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Ultimate Edition</p>
+    <h2 class="sec-h sm">What the extra $20 gets you</h2>
+    <p class="lede">New items unlock as you progress through each chapter. Shops marked "Ultimate only" stay closed without it.</p>
+    <div class="kcards">
+      {%- for c in editionItems.ultimate %}
+      <article class="kcard has-img">
+        <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="ultimate" alt="{{ c.t }}, Ultimate Edition" width="800" height="450" loading="lazy">
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p></div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Pre-order bonus</p>
+    <h2 class="sec-h sm">Vintage Vice City Pack</h2>
+    <p class="lede">Included with every edition bought before November 20. A nod to 2002's Vice City.</p>
+    <div class="kcards">
+      {%- for c in editionItems.vintage %}
+      <article class="kcard has-img">
+        <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="vintage" alt="{{ c.t }}, Vintage Vice City Pack" width="800" height="450" loading="lazy">
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p></div>
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Images: Rockstar Games</p>
+  </div>
+</section>

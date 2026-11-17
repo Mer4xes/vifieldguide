@@ -1,0 +1,123 @@
+---
+layout: layouts/base.njk
+schema: article
+crumbParent:
+  label: Guides
+  url: /guides/
+---
+<header class="mast{% if image %} photo{% endif %}" style="--glow:var(--{{ glow or 'pink' }})">
+  {%- if image %}<img class="mast-img" src="{{ image }}" alt="" width="1600" height="900" fetchpriority="high">{% endif %}
+  <div class="wrap">
+    <p class="kicker">{{ kicker or "Guide" }}</p>
+    <h1>{{ headline or title }}</h1>
+    {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
+    <div class="chips">
+      {%- if spoilerFree %}<span class="chip ok dot">Spoiler-free</span>{% endif %}
+      {%- if updated %}<span class="chip plain">Updated {{ updated | niceDate }}</span>{% endif %}
+    </div>
+    {%- if facts %}
+    <div class="facts">
+      {%- for f in facts %}
+      <div class="fact"><div class="k">{{ f.k }}</div><div class="v sm">{{ f.v }}</div>{% if f.status %}<span class="chip {% if f.status == 'Confirmed' %}ok{% else %}rum{% endif %} dot">{{ f.status }}</span>{% endif %}</div>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+  {%- if image %}<span class="credit">Image: Rockstar Games</span>{% endif %}
+</header>
+
+{%- if tldr %}
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="tldr">
+      <p class="kicker">In short</p>
+      <ul>{% for t in tldr %}<li>{{ t | md | safe }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if editions %}{% include "partials/editions.njk" %}{% endif %}
+
+{%- if tips %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">{{ tipsKicker or "Do these first" }}</p>
+    <h2 class="sec-h">{{ tipsTitle or "Start here" }}</h2>
+    {%- if tipsLede %}<p class="lede">{{ tipsLede }}</p>{% endif %}
+    <div class="tips">
+      {%- for t in tips %}
+      <div class="tipcard"><div class="n">{{ loop.index | pad }}</div><h3>{{ t.title }}</h3><p>{{ t.text }}</p></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if methods %}
+<section class="sec">
+  <div class="wrap">
+    <div class="money">
+      <p class="kicker">{{ methodsKicker or "Early money" }}</p>
+      <h2 class="sec-h sm">{{ methodsTitle or "Low-risk first earners" }}</h2>
+      {%- if methodsLede %}<p class="lede">{{ methodsLede }}</p>{% endif %}
+      <div class="methods">
+        {%- for m in methods %}
+        <div class="method"><span class="mi" aria-hidden="true">{{ m.icon or "$" }}</span><div><h3>{{ m.title }}</h3><p>{{ m.text }}</p></div><div class="pay">{{ m.pay }}{% if m.risk %}<small>{{ m.risk }}</small>{% endif %}</div></div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if content | trim %}
+<section class="sec">
+  <div class="wrap prose">
+{{ content | callouts | safe }}
+  </div>
+</section>
+{%- endif %}
+
+{%- if panels %}
+<section class="sec">
+  <div class="wrap">
+    <div class="duo">
+      {%- for p in panels %}
+      <div class="panel{% if p.muted %} muted{% endif %}">
+        <h2>{{ p.title }}</h2>
+        <ul>{% for i in p.items %}<li><div><b>{{ i.t }}</b>{% if i.d %}<small>{{ i.d }}</small>{% endif %}</div></li>{% endfor %}</ul>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if faq %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ faq | faqld | safe }}</script>
+{%- endif %}
+
+{%- if sources %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Sources</p>
+    <ul class="sources">
+      {%- for s in sources %}
+      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}

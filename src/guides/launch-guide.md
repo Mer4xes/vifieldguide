@@ -1,0 +1,86 @@
+---
+title: Launch guide
+headline: Launch Guide
+kicker: Before you play
+seoTitle: "GTA 6 Release Time, Preload, File Size and Editions"
+description: "When GTA 6 unlocks, how preload works on PS5 and Xbox Series X|S, how much space you need, and what the Standard and Ultimate editions include."
+summary: When the game unlocks, how big the download is, and what each edition includes. Every line is marked confirmed or reported.
+order: 1
+glow: gold
+image: /assets/img/launch-guide.webp
+editions: true
+faq:
+  - q: "What time does GTA 6 come out?"
+    a: "At midnight in your own time zone on Thursday, November 19, 2026, on PS5 and Xbox Series X|S."
+  - q: "Can I preload GTA 6?"
+    a: "Yes. Digital pre-orders have been able to preload since November 10. You still can't play before the unlock."
+  - q: "How big is the GTA 6 download?"
+    a: "Up to 212 GB, depending on your console."
+  - q: "How much does GTA 6 cost?"
+    a: "$79.99 for the Standard Edition and $99.99 for the Ultimate Edition. Standard owners can buy the Ultimate Edition Upgrade later."
+  - q: "What is in the Vintage Vice City Pack?"
+    a: "A '55 Vapid Stanier with a garage near Ocean Beach, retro outfits and hairstyles for Jason and Lucia, and a tropical weapon pattern. You get it with any purchase before November 20."
+  - q: "Is GTA 6 on PC?"
+    a: "No PC version has been announced. It launches on PS5 and Xbox Series X|S, and can also be played through Xbox Cloud Gaming."
+  - q: "Does GTA 6 have online multiplayer?"
+    a: "Rockstar describes GTA VI as a single player experience. Nothing about an online mode has been announced."
+  - q: "Does the boxed version have a disc?"
+    a: "No. The box holds a download code, so you need the full download either way."
+spoilerFree: true
+updated: 2026-11-17
+facts:
+  - { k: Release, v: "Thu, Nov 19, 2026", status: Confirmed }
+  - { k: Unlocks, v: "Midnight, local time", status: Confirmed }
+  - { k: Platforms, v: "PS5, Xbox Series X|S", status: Confirmed }
+  - { k: Download, v: "Up to 212 GB", status: Confirmed }
+  - { k: Standard Edition, v: "$79.99", status: Confirmed }
+  - { k: Ultimate Edition, v: "$99.99", status: Confirmed }
+tldr:
+  - "GTA 6 unlocks at **midnight local time on Thursday, November 19, 2026**, on PS5 and Xbox Series X|S."
+  - "Preload has been open since **November 10**. Clear **212 GB** before you start."
+  - "Pre-order **before November 20** to get the Vintage Vice City Pack with either edition."
+sources:
+  - label: "Forbes: GTA VI release date and time on PS5 and Xbox Series X"
+    url: "https://www.forbes.com/sites/erikkain/2026/11/16/gta-6-release-date-time-ps5-xbox-series-x-download-size-day-one-update/"
+    note: "Release time, preload size. Nov 16, 2026."
+  - label: "TechPowerUp: GTA 6 will need up to 212 GB of storage, pre-load now starts November 10"
+    url: "https://www.techpowerup.com/354448/gta-6-will-need-up-to-212-gb-of-storage-pre-load-now-starts-november-10"
+    note: "Preload date change and start times."
+  - label: "Rockstar Games: Pre-Load Grand Theft Auto VI Now"
+    url: "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+    note: "Frame rate, PS5 Pro, cloud. Nov 10, 2026."
+  - label: "Rockstar Games: official GTA VI site"
+    url: "https://www.rockstargames.com/VI"
+    note: "Release date, platforms, setting, Ultimate Edition and Vintage Vice City Pack."
+---
+
+## When does GTA 6 unlock?
+
+The game unlocks at midnight in your own time zone on Thursday, November 19, 2026. That applies to both PlayStation 5 and Xbox Series X|S, so the release rolls around the world region by region instead of going live everywhere at once.
+
+## Preload
+
+Digital pre-orders have been able to download since Tuesday, November 10. Rockstar moved that date forward by two days from the November 12 it first announced.
+
+- **PS5:** preload opened at midnight local time on November 10.
+- **Xbox Series X|S:** preload opened for everyone at once, at 12 a.m. GMT on November 10.
+
+Preloading only puts the files on your console. You still cannot start the game before the unlock time.
+
+## How much space do you need?
+
+Rockstar says the preload needs up to 212 GB, depending on your console. Free that much before you begin so the download does not stall halfway.
+
+> **Tip:** Turn on automatic updates. Patches have already been going out before launch, and you want them installed before midnight.
+
+## Editions
+
+See the [editions breakdown](#editions) above, with everything in the Ultimate Edition and the Vintage Vice City Pack.
+
+## What is not confirmed
+
+> **Note:** Reviews are reported to go live on November 18, the day before launch. Rockstar has not announced a review date.
+
+> **Note:** No PC version has been announced.
+
+> **Note:** There is no official trophy or achievement list yet. A list of 55 trophies is circulating, but it is unverified, so we are not using it.

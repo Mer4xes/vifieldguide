@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Lucia Caminos",
+    "role": "Playable lead",
+    "lead": "lucia",
+    "text": "Just out of prison and set on building a better life. One of the two characters you play.",
+    "img": "/assets/img/cast-lucia-caminos.webp"
+  },
+  {
+    "name": "Jason Duval",
+    "role": "Playable lead",
+    "lead": "jason",
+    "text": "Ex-Army, now working for drug runners in the Keys. The other character you play.",
+    "img": "/assets/img/cast-jason-duval.webp"
+  },
+  {
+    "name": "Cal Hampton",
+    "role": "Jason's friend",
+    "text": "Paranoid and mostly at home, tuned in to radio chatter and conspiracy theories.",
+    "img": "/assets/img/cast-cal-hampton.webp"
+  },
+  {
+    "name": "Boobie Ike",
+    "role": "Vice City businessman",
+    "text": "Has real estate, a strip club and a recording studio to his name.",
+    "img": "/assets/img/cast-boobie-ike.webp"
+  },
+  {
+    "name": "Dre'Quan Priest",
+    "role": "Music producer",
+    "text": "Works with Boobie Ike at the label Only Raw Records.",
+    "img": "/assets/img/cast-drequan-priest.webp"
+  },
+  {
+    "name": "Real Dimez",
+    "role": "Rap duo",
+    "text": "Bae-Luxe and Roxy, friends turned rap and social media act, signed to Only Raw Records.",
+    "img": "/assets/img/cast-real-dimez.webp"
+  },
+  {
+    "name": "Raul Bautista",
+    "role": "Bank robber",
+    "text": "A veteran who runs a heist crew and is always recruiting for it.",
+    "img": "/assets/img/cast-raul-bautista.webp"
+  },
+  {
+    "name": "Brian Heder",
+    "role": "Keys smuggler",
+    "text": "A long-time drug runner with a boat yard, who lets Jason live on one of his properties.",
+    "img": "/assets/img/cast-brian-heder.webp"
+  }
+]

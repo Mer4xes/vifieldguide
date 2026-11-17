@@ -1,0 +1,76 @@
+---js
+{
+  layout: "layouts/base.njk",
+  title: "Collectibles",
+  seoTitle: "GTA 6 Collectibles: All Locations and 100% Checklist",
+  description: "Every GTA 6 collectible set with locations grouped by region and a checklist that saves your progress toward 100%.",
+  eleventyComputed: {
+    sample: (data) => !!data.db.collectibles.sample,
+    updated: (data) => data.db.collectibles.updated,
+  },
+}
+---
+{%- set c = db.collectibles %}
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">Collectibles and 100%</p>
+    <h1>Hidden Leonida</h1>
+    <p class="tagline">Everything scattered across the state, counted in one place. Tick items off on each set's page and the totals here follow.</p>
+    {%- if c.types.length %}
+    <div class="progress total" data-progress="col:" data-total="{{ c.total }}">
+      <div class="total-row"><span class="big" data-done>0</span><span class="of">of {{ c.total }} collectibles found</span></div>
+      <div class="bar"><i></i></div>
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if not c.types.length %}
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker">Opens at launch</p>
+      <h2 class="sec-h sm">Collectibles get mapped as we find them</h2>
+      <p>Rockstar has not said which collectibles GTA 6 has or how many. Each set gets its own page here, with locations grouped by region and a checklist, once we have found it in the game.</p>
+    </div>
+  </div>
+</section>
+{%- else %}
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h">The sets</h2>
+    <p class="lede">Open a set for locations and its checklist.</p>
+    <div class="types">
+      {%- for t in c.types %}
+      <div class="type" data-progress="col:{{ t.slug }}:" data-total="{{ t.total }}">
+        <div class="head">
+          <div><h3><a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a></h3><p class="desc">{{ t.desc }}</p></div>
+          <span class="count"><b data-done>0</b> / {{ t.total }}</span>
+        </div>
+        <div class="bar thin"><i></i></div>
+        <p class="type-foot"><span>{{ t.items.length }} of {{ t.total }} mapped so far</span><a href="/collectibles/{{ t.slug }}/">Locations and checklist</a></p>
+      </div>
+      {%- endfor %}
+    </div>
+    <button class="reset" type="button" data-reset="col:">Reset all collectibles</button>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h">Where to look</h2>
+    <p class="lede">Which sets turn up in which region, for clearing the map one area at a time.</p>
+    <div class="regions">
+      {%- for r in regions %}
+      <div class="region">
+        <span class="pin">◉ {{ r.kind }}</span>
+        <h3><a href="/map/{{ r.slug }}/">{{ r.short or r.name }}</a></h3>
+        <div class="here">
+          {%- for t in c.types %}{% if r.slug in t.regions %}<a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a>{% endif %}{% endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

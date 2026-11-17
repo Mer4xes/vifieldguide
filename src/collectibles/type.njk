@@ -1,0 +1,64 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "db.collectibles.types", size: 1, alias: "t", addAllPagesToCollections: true },
+  permalink: (data) => `collectibles/${data.t.slug}/`,
+  crumbParent: { label: "Collectibles", url: "/collectibles/" },
+  eleventyComputed: {
+    title: (data) => data.t.name,
+    seoTitle: (data) => `All ${data.t.total} ${data.t.name} Locations in GTA 6`,
+    description: (data) =>
+      `Locations for all ${data.t.total} ${data.t.name} in GTA 6, grouped by region, with a checklist that saves your progress.`,
+    sample: (data) => !!data.t.sample,
+    updated: (data) => data.t.updated,
+  },
+}
+---
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">Collectible set</p>
+    <h1>{{ t.name }}</h1>
+    <p class="tagline">{{ t.desc }}</p>
+    <dl class="meta">
+      <div><dt>In the game</dt><dd>{{ t.total }}</dd></div>
+      <div><dt>Mapped here</dt><dd>{{ t.items.length }}</dd></div>
+      {%- if t.reward %}<div class="wide"><dt>Reward</dt><dd>{{ t.reward }}</dd></div>{% endif %}
+    </dl>
+    <div class="progress" data-progress="col:{{ t.slug }}:" data-total="{{ t.total }}">
+      <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ t.total }}</span></div>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    {%- if not t.items.length %}
+    <div class="empty"><p>No locations mapped yet. They are added here as we find them.</p></div>
+    {%- endif %}
+    {%- for r in regions %}
+    {%- set here = t.items | where("region", r.slug) %}
+    {%- if here.length %}
+    <div class="chapter">
+      <h2 class="chapter-h"><a href="/map/{{ r.slug }}/">{{ r.short or r.name }}</a><span>{{ here.length }}</span></h2>
+      <ul class="items">
+        {%- for i in here %}
+        <li class="item" data-track-row id="n-{{ i.n }}">
+          <input class="cb" type="checkbox" id="c-{{ t.slug }}-{{ i.n }}" data-track="col:{{ t.slug }}:{{ i.n }}" aria-label="Mark number {{ i.n }} found">
+          <span class="item-no">{{ i.n | pad }}</span>
+          <div class="item-body">
+            <label for="c-{{ t.slug }}-{{ i.n }}" class="item-name">{{ i.name }}</label>
+            <p>{{ i.where | md | safe }}</p>
+            {%- if i.image %}<img src="{{ i.image }}" alt="Location of {{ t.name }} number {{ i.n }}: {{ i.name }}" loading="lazy" decoding="async">{% endif %}
+            {%- if i.mission %}<a class="more" href="/walkthrough/{{ i.mission }}/">Reachable during a mission</a>{% endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+    <button class="reset" type="button" data-reset="col:{{ t.slug }}:">Reset this set</button>
+    {%- if t.updated %}<p class="stamp">Last updated {{ t.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>

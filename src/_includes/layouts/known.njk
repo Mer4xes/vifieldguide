@@ -1,0 +1,94 @@
+---
+layout: layouts/base.njk
+schema: article
+---
+<header class="mast{% if image %} photo{% endif %}" style="--glow:var(--{{ glow or 'pink' }})">
+  {%- if image %}<img class="mast-img" src="{{ image }}" alt="" width="1600" height="900" fetchpriority="high">{% endif %}
+  <div class="wrap">
+    <p class="kicker">{{ kicker or "What we know" }}</p>
+    <h1>{{ headline or title }}</h1>
+    {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
+    <div class="chips">
+      <span class="chip ok dot">Confirmed before launch</span>
+      {%- if updated %}<span class="chip plain">Updated {{ updated | niceDate }}</span>{% endif %}
+    </div>
+    {%- if facts %}
+    <div class="facts">
+      {%- for f in facts %}
+      <div class="fact"><div class="k">{{ f.k }}</div><div class="v sm">{{ f.v }}</div>{% if f.status %}<span class="chip {% if f.status == 'Confirmed' %}ok{% else %}rum{% endif %} dot">{{ f.status }}</span>{% endif %}</div>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+  {%- if image %}<span class="credit">Image: Rockstar Games</span>{% endif %}
+</header>
+
+{%- if tldr %}
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="tldr">
+      <p class="kicker">In short</p>
+      <ul>{% for t in tldr %}<li>{{ t | md | safe }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- for s in sections %}
+<section class="sec" id="{{ s.title | slugify }}">
+  <div class="wrap">
+    {%- if s.kicker %}<p class="kicker">{{ s.kicker }}</p>{% endif %}
+    <h2 class="sec-h">{{ s.title }}</h2>
+    {%- if s.lede %}<p class="lede">{{ s.lede | md | safe }}</p>{% endif %}
+    {%- if s.cards %}
+    <div class="kcards{% if s.compact %} compact{% endif %}">
+      {%- for c in s.cards %}
+      <article class="kcard{% if c.img %} has-img{% endif %}">
+        {%- if c.img %}<img src="{{ c.img }}" {% if c.full %}data-full="{{ c.full }}" {% endif %}data-zoom="{{ s.title | slugify }}" alt="{{ c.alt or c.t }}" width="800" height="450" loading="lazy">{% endif %}
+        <div class="kbody">
+          {%- if c.tag %}<p class="pin">{{ c.tag }}</p>{% endif %}
+          <h3>{{ c.t }}</h3>
+          {%- if c.d %}<p>{{ c.d | md | safe }}</p>{% endif %}
+          {%- if c.status or c.src %}<p class="kmeta">{% if c.status %}<span class="chip {% if c.status == 'Reported' %}rum{% else %}ok{% endif %} dot">{{ c.status }}</span>{% endif %}{% if c.src %}<span>{{ c.src }}</span>{% endif %}</p>{% endif %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    {%- if s.list %}
+    <ul class="klist">{% for i in s.list %}<li>{{ i | md | safe }}</li>{% endfor %}</ul>
+    {%- endif %}
+    {%- if s.chips %}
+    <div class="castlist">{% for p in s.chips %}<span>{{ p }}</span>{% endfor %}</div>
+    {%- endif %}
+  </div>
+</section>
+{%- endfor %}
+
+{%- if content | trim %}
+<section class="sec"><div class="wrap prose">{{ content | callouts | safe }}</div></section>
+{%- endif %}
+
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker pre-only">After launch</p><p class="kicker post-only">In progress</p>
+      <h2 class="sec-h sm">This page grows once the game is out</h2>
+      <p>Everything above comes from Rockstar or from press that spoke to Rockstar. Once we have played it, each item gets checked in the game and expanded with locations and tips.</p>
+    </div>
+  </div>
+</section>
+
+{%- if sources %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Sources</p>
+    <ul class="sources">
+      {%- for s in sources %}
+      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+    <p class="fig-credit">Images: Rockstar Games</p>
+  </div>
+</section>
+{%- endif %}

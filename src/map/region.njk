@@ -1,0 +1,84 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "regions", size: 1, alias: "r", addAllPagesToCollections: true },
+  permalink: (data) => `map/${data.r.slug}/`,
+  crumbParent: { label: "Map", url: "/map/" },
+  updated: "2026-11-17",
+  eleventyComputed: {
+    title: (data) => data.r.name,
+    seoTitle: (data) => `${data.r.name}: GTA 6 Region Guide`,
+    description: (data) => `${data.r.name} in GTA 6: what kind of place it is, plus the missions and collectibles found there.`,
+  },
+}
+---
+{%- set missionsHere = collections.missions | where("data.region", r.slug) %}
+<header class="mast photo" style="--glow:var(--cyan)">
+  <img class="mast-img" src="/assets/img/region-{{ r.slug }}.webp" alt="" width="1600" height="900" fetchpriority="high">
+  <div class="wrap">
+    <p class="kicker">{{ r.kind }}</p>
+    <h1>{{ r.name }}</h1>
+    <p class="tagline">{{ r.summary }}</p>
+    <div class="chips"><span class="chip ok dot">Confirmed by Rockstar</span></div>
+    {%- if r.places and r.places.length %}
+    <div class="castlist">{% for p in r.places %}<span>{{ p }}</span>{% endfor %}</div>
+    {%- endif %}
+  </div>
+  <span class="credit">Image: Rockstar Games</span>
+</header>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <p class="kicker">What we know</p>
+    <h2 class="sec-h sm">About {{ r.short or r.name }}</h2>
+    <ul class="klist">{% for d in r.details %}<li>{{ d }}</li>{% endfor %}</ul>
+    <figure class="postcard"><img src="/assets/img/post/{{ r.slug }}.webp" data-zoom="post-{{ r.slug }}" alt="Official {{ r.name }} postcard artwork" width="1200" height="675" loading="lazy"></figure>
+    <p class="fig-credit">Postcard artwork: Rockstar Games</p>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">{{ r.short or r.name }} in pictures</h2>
+    <p class="lede">{{ r.gallery }} official screenshots. Tap any of them to see it full size.</p>
+    <div class="gallery big">
+      {%- for i in range(1, r.gallery + 1) %}
+      <figure><img data-zoom="region" src="/assets/img/gal/{{ r.slug }}-{{ i | pad }}.webp" data-full="/assets/img/full/{{ r.slug }}-{{ i | pad }}.webp" alt="{{ r.name }}, official GTA 6 screenshot {{ i }}" width="640" height="360" loading="lazy"></figure>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Screenshots: Rockstar Games</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h sm">Missions here</h2>
+    {%- if missionsHere.length %}
+    <ul class="updates">
+      {%- for m in missionsHere %}<li><a href="{{ m.url }}">{{ m.data.order | pad }} · {{ m.data.title }}</a><span>{{ m.data.chapter }}</span></li>{% endfor %}
+    </ul>
+    {%- else %}
+    <p class="lede">Missions set in {{ r.short or r.name }} are listed here as their walkthroughs go up.</p>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <h2 class="sec-h sm">Collectibles here</h2>
+    {%- set any = false %}
+    <ul class="updates">
+      {%- for t in db.collectibles.types %}
+      {%- set here = t.items | where("region", r.slug) %}
+      {%- if here.length %}{% set any = true %}<li><a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a><span>{{ here.length }} mapped</span></li>{% endif %}
+      {%- endfor %}
+    </ul>
+    {%- if not any %}<p class="lede">Collectibles found in {{ r.short or r.name }} are listed here once they are mapped.</p>{% endif %}
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <a class="btn" href="/map/">All regions</a>
+  </div>
+</section>

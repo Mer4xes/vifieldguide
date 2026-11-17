@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+title: Map
+seoTitle: "GTA 6 Map: The Regions of Leonida"
+description: "The confirmed regions of Leonida in GTA 6, from Vice City to Mount Kalaga, with the missions and collectibles found in each one."
+updated: 2026-11-17
+---
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">The world</p>
+    <h1>Leonida</h1>
+    <p class="tagline">GTA 6 takes place across the state of Leonida, with Vice City at its centre. Rockstar has named six regions so far.</p>
+    <div class="chips"><span class="chip ok dot">Regions confirmed by Rockstar</span></div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="cards three">
+      {%- for r in regions %}
+      <a class="card link region has-img" href="/map/{{ r.slug }}/"><img class="card-img" src="/assets/img/post/{{ r.slug }}.webp" alt="{{ r.name }} postcard, official GTA 6 artwork" width="1200" height="675" loading="lazy"><div class="card-body"><span class="pin">◉ {{ r.kind }}</span><h3>{{ r.name }}</h3><p>{{ r.summary }}</p></div></a>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Postcard artwork: Rockstar Games</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">The state</p>
+    <h2 class="sec-h">Leonida at a glance</h2>
+    <div class="facts">
+      <div class="fact"><div class="k">Size</div><div class="v sm">About 2×<br><span class="u">GTA V's map</span></div><span class="chip ok dot">Confirmed</span></div>
+      <div class="fact"><div class="k">Regions</div><div class="v">6</div><span class="chip ok dot">Confirmed</span></div>
+      <div class="fact"><div class="k">Interiors</div><div class="v sm">Most in<br><span class="u">the series</span></div><span class="chip ok dot">Confirmed</span></div>
+      <div class="fact"><div class="k">Neighbour</div><div class="v sm">Gloriana<br><span class="u">to the north</span></div><span class="chip ok dot">Confirmed</span></div>
+    </div>
+    <h2 class="sec-h sm" style="margin-top:34px">Places Rockstar has named</h2>
+    <div class="castlist">{% for p in ["Ocean Beach","Little Cuba","VC Port","Tisha-Wocka flea market","Shore Drive","Washington Beach","Stockyard","Southside Vice City","Watson Bay","Gambit Bay","Lake Leonida","Leonida Penitentiary","Vercetti Estate","Shore Court","Mana Wynwood (real venue, launch festival)"] %}{% if not loop.last %}<span>{{ p }}</span>{% endif %}{% endfor %}</div>
+    <p class="lede" style="margin-top:22px">More on the land and the weather on <a href="/wildlife/">Wildlife and weather</a>, and things to do on <a href="/activities/">Activities</a>.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker pre-only">Opens at launch</p>
+      <p class="kicker post-only">In progress</p>
+      <h2 class="sec-h sm">A full map comes after launch</h2>
+      <p>Rockstar has not released an official map. Once the game is out, each region page fills in with its missions, collectibles and places worth knowing.</p>
+      <p style="margin-top:12px">Until then, the fan-made <a href="https://map.stateofleonida.net/" rel="noopener">State of Leonida map</a> pieces the state together from the trailers. It is a community project, not official.</p>
+    </div>
+  </div>
+</section>

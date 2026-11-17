@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+title: Guides
+seoTitle: "GTA 6 Guides: Launch, Beginner Tips, Money and More"
+description: "GTA 6 guides: launch time and preload details, first steps, early money and more. Clear answers, with sources."
+updated: 2026-11-17
+---
+<header class="mast" style="--glow:var(--gold)">
+  <div class="wrap">
+    <p class="kicker">Guides</p>
+    <h1>Know-how</h1>
+    <p class="tagline">Straight answers to the questions that come up while you play.</p>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="cards two">
+      {%- for g in collections.guides %}
+      <a class="card link" href="{{ g.url }}"><span class="pin">{{ g.data.kicker or "Guide" }}</span><h3>{{ g.data.title }}</h3><p>{{ g.data.summary }}</p></a>
+      {%- endfor %}
+    </div>
+    <p class="lede" style="margin-top:22px">More guides are added as we play: first steps, early money, the wanted system and switching between Jason and Lucia.</p>
+  </div>
+</section>

@@ -1,0 +1,145 @@
+---
+layout: layouts/base.njk
+title: The VI Field Guide
+seoTitle: "GTA 6 Walkthrough and Guide: Missions, Trophies, Collectibles | The VI Field Guide"
+description: "Unofficial GTA 6 walkthrough and 100% guide. Story missions step by step, trophies, collectibles, vehicles and weapons. Spoiler-safe, with progress tracking."
+updated: 2026-11-17
+---
+{%- set vehicles = db.kinds[0] %}
+{%- set weapons = db.kinds[1] %}
+{%- set sections = [
+  { title: "Walkthrough", url: "/walkthrough/", n: collections.missions.length, unit: "missions", text: "Story missions in order, step by step, with missable warnings." },
+  { title: "Trophies", url: "/trophies/", n: db.trophies.items.length, unit: "trophies", text: "The full list and a clean route to the platinum." },
+  { title: "Collectibles", url: "/collectibles/", n: db.collectibles.mapped, unit: "locations", text: "Every set, mapped by region, with a checklist." },
+  { title: "Vehicles", url: "/vehicles/", n: vehicles.items.length, unit: "vehicles", text: "Where to find each ride and how it handles." },
+  { title: "Weapons", url: "/weapons/", n: weapons.items.length, unit: "weapons", text: "What each gun is good for and where to get it." },
+  { title: "Map", url: "/map/", n: regions.length, unit: "regions", text: "The regions of Leonida and what is in each one." },
+  { title: "Guides", url: "/guides/", n: collections.guides.length, unit: "guides", text: "Launch details, first steps, money and more." },
+  { title: "Videos", url: "/videos/", n: videos.length, unit: "videos", text: "Every official trailer and video from Rockstar." }
+] %}
+<header class="hero has-photo">
+  <div class="hero-bg" aria-hidden="true">
+    <img class="hero-photo" src="/assets/img/home-hero.webp" alt="" width="1920" height="1080" fetchpriority="high">
+    <div class="sky"></div>
+    <div class="grid-floor"></div>
+    <div class="sun"></div>
+  </div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Unofficial GTA 6 walkthrough and 100% guide</p>
+    <h1>The&nbsp;<span class="vi">VI</span><br>Field Guide</h1>
+    <p class="hero-sub pre-only">Grand Theft Auto VI lands on <b>November&nbsp;19, 2026</b>. The walkthrough starts the moment the game does.</p>
+    <p class="hero-sub post-only">Grand Theft Auto VI is out. Pick up the story where you are, or start from the first mission.</p>
+    <div class="countdown pre-only" aria-label="Countdown to launch">
+      <div class="unit"><span class="num" data-cd="d">00</span><span class="lbl">Days</span></div>
+      <div class="unit"><span class="num" data-cd="h">00</span><span class="lbl">Hours</span></div>
+      <div class="unit"><span class="num" data-cd="m">00</span><span class="lbl">Minutes</span></div>
+      <div class="unit"><span class="num" data-cd="s">00</span><span class="lbl">Seconds</span></div>
+    </div>
+    <p class="cd-note pre-only">Counting down to midnight on November 19, your local time.</p>
+    <div class="btns">
+      <a class="btn primary pre-only" href="/guides/launch-guide/">Launch guide: time, preload, size</a>
+      <a class="btn primary post-only" href="/walkthrough/">Start the walkthrough</a>
+      <a class="btn" href="/about/">How the spoiler controls work</a>
+    </div>
+  </div>
+  <span class="credit">Image: Rockstar Games</span>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">The guide</p>
+    <h2 class="sec-h">Pick a section</h2>
+    <p class="lede">Sections fill in as we play. A count means it is live; a dashed card means we are not there yet.</p>
+    <div class="cards four">
+      {%- for s in sections %}
+      {%- if s.n %}
+      <a class="card link" href="{{ s.url }}"><span class="pin">{{ s.n }} {{ s.unit }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></a>
+      {%- else %}
+      <a class="lock" href="{{ s.url }}"><span class="tag"><span class="pre-only">Opens Nov 19</span><span class="post-only">In progress</span></span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></a>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Before launch</p>
+    <h2 class="sec-h">What we know so far</h2>
+    <p class="lede">Only what Rockstar has shown or said, every line with a source. No leaks, no rumours.</p>
+    <div class="kcards compact">
+      {%- for t in [
+        { u: "/how-it-plays/", img: "feat-switch", t: "How it plays", n: "Heat, switching, WAiNK" },
+        { u: "/activities/", img: "act-scuba", t: "Activities", n: "20+ confirmed" },
+        { u: "/wildlife/", img: "wl-gator", t: "Wildlife and weather", n: "170+ species" },
+        { u: "/map/", img: "act-boats", t: "Places", n: "6 regions, 56 screenshots" },
+        { u: "/vehicles/", img: "act-carmeet", t: "Vehicles", n: known.vehicles.items.length + " named so far" },
+        { u: "/weapons/", img: "feat-heat", t: "Weapons", n: known.weapons.items.length + " named so far" },
+        { u: "/music/", img: "music-radio", t: "Music", n: "6 stations, 2 albums" },
+        { u: "/characters/", img: "music-studio", t: "Characters", n: cast.length + " confirmed" },
+        { u: "/guides/launch-guide/", img: "act-heli", t: "Editions and launch", n: "Ultimate vs Standard" },
+        { u: "/videos/", img: "act-billiards", t: "Trailers", n: videos.length + " official videos" }
+      ] %}
+      <a class="kcard has-img tile" href="{{ t.u }}"><img src="/assets/img/misc/{{ t.img }}.webp" alt="" width="800" height="450" loading="lazy"><div class="kbody"><p class="pin">{{ t.n }}</p><h3>{{ t.t }}</h3></div></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Watch</p>
+    <h2 class="sec-h">The launch trailer</h2>
+    {%- set v = videos[0] %}{% set poster = "/assets/img/video-launch.webp" %}
+    <div class="home-trailer">
+      {% include "partials/yt.njk" %}
+      <div>
+        <p class="lede" style="margin-top:0">{{ v.text }} Plus Trailer 1, Trailer 2 and the 26-minute Extended Look.</p>
+        <a class="btn" href="/videos/" style="margin-top:16px">All trailers and videos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">The essentials</p>
+    <h2 class="sec-h">Fast facts</h2>
+    <p class="lede">Confirmed by Rockstar. Details and sources are in the <a href="/guides/launch-guide/">launch guide</a>.</p>
+    <div class="facts">
+      <div class="fact"><div class="k">Release</div><div class="v">Nov 19<br>2026</div></div>
+      <div class="fact"><div class="k">Unlocks</div><div class="v sm">Midnight,<br><span class="u">local time</span></div></div>
+      <div class="fact"><div class="k">Platforms</div><div class="v sm">PS5 ·<br>Xbox <span class="u">Series X|S</span></div></div>
+      <div class="fact"><div class="k">Download</div><div class="v sm">Up to<br><span class="u">212 GB</span></div></div>
+      <div class="fact"><div class="k">Setting</div><div class="v sm">Leonida<br><span class="u">(Vice City)</span></div></div>
+      <div class="fact"><div class="k">Leads</div><div class="v sm">Jason and<br>Lucia</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">How this guide works</p>
+    <h2 class="sec-h">Built for playing along</h2>
+    <div class="cards three">
+      <div class="card"><h3>Spoiler-safe</h3><p>Story details sit behind a tap. Each mission page only covers that mission, and you can hide the names of missions you have not reached.</p></div>
+      <div class="card"><h3>Keeps your place</h3><p>Tick off steps, missions, trophies and collectibles. Progress is saved in your browser, with no account.</p></div>
+      <div class="card"><h3>Says what it knows</h3><p>Pages are marked verified once they have been checked in the game. Until then they say so. No leaks, no guesses.</p></div>
+    </div>
+  </div>
+</section>
+
+{%- set latest = collections.all | recent(5) %}
+{%- if latest.length %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Latest</p>
+    <h2 class="sec-h">Recently updated</h2>
+    <ul class="updates">
+      {%- for p in latest %}
+      <li><a href="{{ p.url }}">{{ p.data.title }}</a><span>{{ p.data.updated | niceDate }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}

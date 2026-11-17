@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: Walkthrough
+seoTitle: "GTA 6 Walkthrough: All Story Missions, Step by Step"
+description: "Step-by-step walkthroughs for every GTA 6 story mission, in order, with bonus objectives, missable warnings and a progress tracker. Spoiler-safe by default."
+updated: 2026-11-17
+---
+{%- set missions = collections.missions %}
+{%- set whoShort = { jason: "Jason", lucia: "Lucia", both: "Both" } %}
+<header class="mast" style="--glow:var(--pink)">
+  <div class="wrap">
+    <p class="kicker">Story walkthrough</p>
+    <h1>The Walkthrough</h1>
+    <p class="tagline">Every story mission in order. Tick missions off as you finish them and this page keeps your place.</p>
+    {%- if missions.length %}
+    <div class="progress" data-progress="mission:" data-total="{{ missions.length }}">
+      <div class="row"><span class="lab">Story progress</span><span class="pct"><span data-done>0</span> / {{ missions.length }} missions</span></div>
+      <div class="bar"><i></i></div>
+    </div>
+    <div class="toolbar">
+      <button type="button" class="toggle" data-pref="hideAhead" aria-pressed="false" data-on="Names of missions ahead are hidden" data-off="Hide names of missions ahead"><span class="sw" aria-hidden="true"></span><span data-label>Hide names of missions ahead</span></button>
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if not missions.length %}
+<section class="sec">
+  <div class="wrap">
+    <div class="empty">
+      <p class="kicker">Opens at launch</p>
+      <h2 class="sec-h sm">Mission guides start on November 19</h2>
+      <p>Each walkthrough is written from the game itself, in story order, and published as soon as the mission has been played. Nothing here comes from leaks or guesses, so this list stays empty until the game is out.</p>
+      <p><a class="btn" href="/guides/launch-guide/">Read the launch guide</a></p>
+    </div>
+  </div>
+</section>
+{%- else %}
+<section class="sec">
+  <div class="wrap">
+    {%- for group in missions | groupBy("data.chapter") %}
+    <div class="chapter">
+      <h2 class="chapter-h">{{ group.key or "Story missions" }}</h2>
+      <ol class="mlist">
+        {%- for m in group.items %}
+        <li class="mrow" data-track-row>
+          <input class="cb" type="checkbox" id="m-{{ m.data.slug }}" data-track="mission:{{ m.data.slug }}" aria-label="Mark {{ m.data.title }} complete">
+          <span class="mrow-no">{{ m.data.order | pad }}</span>
+          <a class="mrow-title" href="{{ m.url }}"><span class="t">{{ m.data.title }}</span></a>
+          <span class="mrow-tags">
+            {%- if m.data.missables and m.data.missables.length %}<span class="flag">Missable</span>{% endif %}
+            {%- if m.data.protagonist %}<span class="chip who {{ m.data.protagonist }}">{{ whoShort[m.data.protagonist] }}</span>{% endif %}
+          </span>
+        </li>
+        {%- endfor %}
+      </ol>
+    </div>
+    {%- endfor %}
+    <button class="reset" type="button" data-reset="mission:">Reset story progress</button>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Reading these pages</p>
+    <h2 class="sec-h">What the labels mean</h2>
+    <div class="cards three">
+      <div class="card"><span class="flag">Missable</span><h3>Things you can lose</h3><p>The mission has an item, trophy or choice you cannot return for. The page opens with a warning.</p></div>
+      <div class="card"><span class="chip ok dot">Verified</span><h3>Checked in the game</h3><p>The steps were replayed and confirmed on the game version shown. Pages not yet checked say so.</p></div>
+      <div class="card"><span class="chip who both">Both</span><h3>Who you play</h3><p>Shows whether the mission is Jason's, Lucia's or one you play as both.</p></div>
+    </div>
+  </div>
+</section>

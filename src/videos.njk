@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+title: Videos
+seoTitle: "GTA 6 Trailers and Videos: Every Official Rockstar Video"
+description: "Every official GTA 6 trailer and video from Rockstar Games in one place: Trailer 1, Trailer 2, An Extended Look and the Launch Trailer."
+updated: 2026-11-17
+---
+<header class="mast" style="--glow:var(--violet)">
+  <div class="wrap">
+    <p class="kicker">Watch</p>
+    <h1>Trailers and videos</h1>
+    <p class="tagline">Every official GTA 6 video from Rockstar Games, newest first. Videos play from Rockstar's YouTube channel and only load when you press play.</p>
+    <div class="chips"><span class="chip ok dot">Official Rockstar videos</span><span class="chip plain">Spoiler-free</span></div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="vids">
+      {%- for v in videos %}
+      <article class="vid{% if loop.first %} vid-main{% endif %}">
+        {%- set poster = "/assets/img/video-" + v.slug + ".webp" %}
+        {% include "partials/yt.njk" %}
+        <div class="vid-body">
+          <p class="pin">{{ v.date | niceDate }} · {{ v.length }}</p>
+          <h2>{{ v.title }}</h2>
+          <p>{{ v.text }}</p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Videos and stills: Rockstar Games</p>
+  </div>
+</section>
