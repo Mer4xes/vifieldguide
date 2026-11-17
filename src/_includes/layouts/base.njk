@@ -9,21 +9,36 @@
 <title>{% if isHome %}{{ metaTitle }}{% else %}{{ metaTitle }} | {{ site.name }}{% endif %}</title>
 <meta name="description" content="{{ metaDesc }}">
 {%- if sample or noindex %}
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, nofollow">
 {%- else %}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 {%- endif %}
+{%- if site.googleSiteVerification %}
+<meta name="google-site-verification" content="{{ site.googleSiteVerification }}">
+{%- endif %}
+{%- if site.bingSiteVerification %}
+<meta name="msvalidate.01" content="{{ site.bingSiteVerification }}">
+{%- endif %}
 <meta property="og:site_name" content="{{ site.longName }}">
+<meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="{% if schema == 'article' %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{{ metaTitle }}">
 <meta property="og:description" content="{{ metaDesc }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {%- if site.ogImage %}
 <meta property="og:image" content="{{ site.url }}{{ site.ogImage }}">
+<meta property="og:image:width" content="{{ site.ogImageW }}">
+<meta property="og:image:height" content="{{ site.ogImageH }}">
+<meta property="og:image:alt" content="{{ site.longName }} — GTA 6 walkthrough and guide">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ metaTitle }}">
+<meta name="twitter:description" content="{{ metaDesc }}">
+<meta name="twitter:image" content="{{ site.url }}{{ site.ogImage }}">
 {%- endif %}
 <meta name="theme-color" content="#0b0711">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site.longName }} — updates" href="/feed.xml">
 <link rel="preload" href="/assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v={{ site.buildId }}">

@@ -6,6 +6,7 @@ Unofficial, non-commercial GTA 6 guide owned by Hauk. Claude writes and publishe
 - Eleventy 3 static site. `npm install`, `npm run build` (output `dist/`), `npm run check` (internal links, must be 0 broken).
 - Push to `main` → Cloudflare Pages project `vifieldguide-site` builds and publishes automatically. No other deploy step.
 - Commit messages end with the attribution lines the session gives you.
+- After a content push is live, ping IndexNow so new/changed pages get crawled fast: `node scripts/indexnow.mjs <the URLs you just published>`. See DEPLOY.md.
 
 ## Where content lives
 | What | File |

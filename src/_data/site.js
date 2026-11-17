@@ -21,8 +21,31 @@ export default {
   // Shown on the About page when filled in.
   contactEmail: "",
 
+  // Content language, used for og:locale and <html lang>.
+  locale: "en_US",
+
   // Set to "/assets/og.png" (1200x630) once you have a share image.
   ogImage: "/assets/og.png",
+  ogImageW: 1200,
+  ogImageH: 630,
+
+  // Square logo for Organization structured data (Google Knowledge Graph).
+  logo: "/assets/logo.png",
+
+  // Public profiles, listed as Organization.sameAs once they exist
+  // (e.g. "https://www.tiktok.com/@vifieldguide", "https://www.youtube.com/@vifieldguide").
+  social: [],
+
+  // Search engine verification. Paste the token from the "HTML tag" method and
+  // the matching <meta> tag is emitted automatically. Leave empty if you verify
+  // by DNS instead (recommended — see DEPLOY.md). The Google value is only the
+  // content string, not the whole tag.
+  googleSiteVerification: "",
+  bingSiteVerification: "",
+
+  // IndexNow key (Bing/Yandex instant indexing). Served at /<key>.txt.
+  // Change it by editing this value; keep it in sync with the key file.
+  indexNowKey: "a7f3c92e4b8d41f6a0c5e9d2b6481730",
 
   disclaimer:
     "Unofficial fan guide. Grand Theft Auto and GTA VI are trademarks of Rockstar Games / Take-Two Interactive. This site is not affiliated with or endorsed by them. Screenshots and artwork are official Rockstar Games media.",

@@ -106,6 +106,31 @@ export default function (eleventyConfig) {
     mainEntity: (faq || []).map((q) => ({ "@type": "Question", name: q.q,
       acceptedAnswer: { "@type": "Answer", text: md.renderInline(String(q.a)).replace(/<[^>]+>/g, "") } })),
   }).replace(/</g, "\\u003c"));
+  // ItemList of VideoObject for the trailers page (richer video results).
+  eleventyConfig.addFilter("videold", (videos) => {
+    const toDur = (s) => {
+      const p = String(s ?? "").split(":").map(Number);
+      let h = 0, m = 0, sec = 0;
+      if (p.length === 3) [h, m, sec] = p;
+      else if (p.length === 2) [m, sec] = p;
+      else sec = p[0] || 0;
+      return "PT" + (h ? h + "H" : "") + (m ? m + "M" : "") + (sec ? sec + "S" : "") || "PT0S";
+    };
+    const items = (videos || []).map((v, i) => ({
+      "@type": "ListItem", position: i + 1,
+      item: {
+        "@type": "VideoObject",
+        name: v.title,
+        description: v.text,
+        thumbnailUrl: ["https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg"],
+        uploadDate: v.date,
+        duration: toDur(v.length),
+        embedUrl: "https://www.youtube.com/embed/" + v.id,
+        publisher: { "@type": "Organization", name: "Rockstar Games" },
+      },
+    }));
+    return JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList", itemListElement: items }).replace(/</g, "\\u003c");
+  });
   eleventyConfig.addFilter("pad", (n, len = 2) => String(n ?? "").padStart(len, "0"));
   eleventyConfig.addFilter("isoDate", (d) => iso(d));
   eleventyConfig.addFilter("niceDate", (d) =>
@@ -137,8 +162,17 @@ export default function (eleventyConfig) {
     const base = site.url;
     const url = base + this.page.url;
     const out = [];
+    const orgLogo = site.logo ? { "@type": "ImageObject", url: base + site.logo } : undefined;
+    const sameAs = site.social && site.social.length ? site.social : undefined;
+    const org = { "@type": "Organization", name: site.longName, url: base + "/", logo: orgLogo, sameAs };
     if (this.page.url === "/") {
-      out.push({ "@context": "https://schema.org", "@type": "WebSite", name: site.longName, url: base + "/" });
+      out.push({
+        "@context": "https://schema.org", "@type": "WebSite",
+        name: site.longName, alternateName: site.name, url: base + "/",
+        description: site.description, inLanguage: "en-US",
+        publisher: { "@type": "Organization", name: site.longName, url: base + "/" },
+      });
+      out.push({ "@context": "https://schema.org", ...org });
     } else {
       const trail = [{ name: "Home", item: base + "/" }];
       if (parent && parent.url) trail.push({ name: parent.label, item: base + parent.url });
@@ -150,13 +184,14 @@ export default function (eleventyConfig) {
       });
     }
     if (schema === "article") {
-      const org = { "@type": "Organization", name: site.longName, url: base + "/" };
       out.push({
         "@context": "https://schema.org",
         "@type": "Article",
         headline: headline || title,
         description,
+        image: site.ogImage ? [base + site.ogImage] : undefined,
         mainEntityOfPage: url,
+        inLanguage: "en-US",
         dateModified: iso(updated),
         datePublished: iso(published || updated),
         author: org,

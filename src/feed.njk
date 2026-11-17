@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+{%- set entries = collections.all | recent(25) -%}
+{%- set lastUpd = entries[0].data.updated if entries.length else site.launch -%}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.longName }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <id>{{ site.url }}/</id>
+  <updated>{{ lastUpd | isoDate }}T00:00:00Z</updated>
+  <author><name>{{ site.longName }}</name></author>
+{%- for p in entries %}
+  <entry>
+    <title>{{ p.data.seoTitle or p.data.title }}</title>
+    <link href="{{ site.url }}{{ p.url }}" rel="alternate" type="text/html"/>
+    <id>{{ site.url }}{{ p.url }}</id>
+    <updated>{{ p.data.updated | isoDate }}T00:00:00Z</updated>
+    <summary>{{ (p.data.description or p.data.summary or "") }}</summary>
+  </entry>
+{%- endfor %}
+</feed>
