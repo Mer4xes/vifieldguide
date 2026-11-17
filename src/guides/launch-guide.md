@@ -24,6 +24,8 @@ faq:
     a: "No PC version has been announced. It launches on PS5 and Xbox Series X|S, and can also be played through Xbox Cloud Gaming."
   - q: "Does GTA 6 have online multiplayer?"
     a: "Rockstar describes GTA VI as a single player experience. Nothing about an online mode has been announced."
+  - q: "Is there a GTA 6 day one patch?"
+    a: "Two updates have already gone out to preloaded copies, reportedly about 1 GB on November 13 and about 600 MB on PS5 (1.6 GB on Xbox) from November 16. Rockstar has not published patch notes or confirmed a separate day one patch. Check for updates before the unlock."
   - q: "Does the boxed version have a disc?"
     a: "No. The box holds a download code, so you need the full download either way."
 spoilerFree: true
@@ -35,6 +37,7 @@ facts:
   - { k: Download, v: "Up to 212 GB", status: Confirmed }
   - { k: Standard Edition, v: "$79.99", status: Confirmed }
   - { k: Ultimate Edition, v: "$99.99", status: Confirmed }
+  - { k: Latest update, v: "1.002.001", status: Reported }
 tldr:
   - "GTA 6 unlocks at **midnight local time on Thursday, November 19, 2026**, on PS5 and Xbox Series X|S."
   - "Preload has been open since **November 10**. Clear **212 GB** before you start."
@@ -49,6 +52,15 @@ sources:
   - label: "Rockstar Games: Pre-Load Grand Theft Auto VI Now"
     url: "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
     note: "Frame rate, PS5 Pro, cloud. Nov 10, 2026."
+  - label: "Vice: GTA 6 gets a second day one patch on PS5 and Xbox"
+    url: "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/"
+    note: "Update 1.002.001 sizes and PS5 rollout. Nov 16, 2026."
+  - label: "Tech Times: GTA 6 gets second pre-launch update, still no patch notes"
+    url: "https://www.techtimes.com/articles/330886/20261117/gta-6-gets-second-pre-launch-update-602-mb-ps5-16-gb-xbox-still-no-patch-notes.htm"
+    note: "Update sizes, no patch notes or day one patch confirmed. Nov 17, 2026."
+  - label: "Vice: GTA 6 day one patch is already rolling out on PS5"
+    url: "https://www.vice.com/en/article/gta-6-day-one-patch-ps5-version-1002/"
+    note: "First update, version 1.002. Nov 13, 2026."
   - label: "Rockstar Games: official GTA VI site"
     url: "https://www.rockstargames.com/VI"
     note: "Release date, platforms, setting, Ultimate Edition and Vintage Vice City Pack."
@@ -72,6 +84,17 @@ Preloading only puts the files on your console. You still cannot start the game 
 Rockstar says the preload needs up to 212 GB, depending on your console. Free that much before you begin so the download does not stall halfway.
 
 > **Tip:** Turn on automatic updates. Patches have already been going out before launch, and you want them installed before midnight.
+
+## Updates before launch
+
+Preloaded copies have already received two updates, according to press reports based on console update trackers. Rockstar has not published patch notes for either of them, and it has not said whether a separate day one patch is coming.
+
+- **November 13:** version 1.002, roughly 1 GB on PS5.
+- **From November 16:** version 1.002.001, roughly 600 MB on PS5 and 1.6 GB on Xbox Series X|S. On PS5 it went out in waves and had reached everyone by the morning of November 17, US time.
+
+On PS5 you can force a check: highlight the game, press Options and choose **Check for Update**. On Xbox, open **My games & apps** and look under **Updates**.
+
+> **Note:** Version numbers and sizes above are reported, not confirmed by Rockstar. We will replace them with official patch notes if Rockstar publishes any.
 
 ## Editions
 

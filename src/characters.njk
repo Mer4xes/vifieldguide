@@ -9,7 +9,7 @@ updated: 2026-11-17
   <div class="wrap">
     <p class="kicker">The cast</p>
     <h1>Jason and Lucia</h1>
-    <p class="tagline">You play two leads, Jason Duval and Lucia Caminos. These are the characters Rockstar has introduced ahead of launch.</p>
+    <p class="tagline">You play two leads, Jason Duval and Lucia Caminos. These are the characters Rockstar has introduced ahead of launch. Open any of them for a full profile.</p>
     <div class="chips"><span class="chip ok dot">Confirmed by Rockstar</span><span class="chip plain">Spoiler-free</span></div>
   </div>
 </header>
@@ -18,13 +18,13 @@ updated: 2026-11-17
   <div class="wrap">
     <div class="cards two">
       {%- for c in cast %}{% if c.lead %}
-      <div class="card lead has-img {{ c.lead }}"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3>{{ c.name }}</h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p></div></div>
+      <div class="card lead has-img {{ c.lead }}"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3><a href="/characters/{{ c.slug }}/">{{ c.name }}</a></h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p><a class="more" href="/characters/{{ c.slug }}/">Full profile →</a></div></div>
       {%- endif %}{% endfor %}
     </div>
     <h2 class="sec-h sm" style="margin-top:34px">Supporting cast</h2>
     <div class="cards three">
       {%- for c in cast %}{% if not c.lead %}
-      <div class="card has-img"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3>{{ c.name }}</h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p></div></div>
+      <div class="card has-img"><img class="card-img" data-zoom="cast" src="{{ c.img }}" alt="{{ c.name }} in an official GTA 6 screenshot" width="960" height="540" loading="lazy"><div class="card-body"><h3><a href="/characters/{{ c.slug }}/">{{ c.name }}</a></h3><span class="role">{{ c.role }}</span><p>{{ c.text }}</p><a class="more" href="/characters/{{ c.slug }}/">Full profile →</a></div></div>
       {%- endif %}{% endfor %}
     </div>
     <p class="fig-credit">Screenshots: Rockstar Games</p>

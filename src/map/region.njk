@@ -50,6 +50,20 @@
   </div>
 </section>
 
+{%- set peopleHere = cast | where("region", r.slug) %}
+{%- if peopleHere.length %}
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">People here</h2>
+    <div class="cast-strip">
+      {%- for o in peopleHere %}
+      <a class="cast-mini" href="/characters/{{ o.slug }}/"><img src="{{ o.img }}" alt="" width="240" height="135" loading="lazy"><b>{{ o.name }}</b><small>{{ o.role }}</small></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h sm">Missions here</h2>

@@ -1,0 +1,120 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "cast", size: 1, alias: "c", addAllPagesToCollections: true },
+  permalink: (data) => `characters/${data.c.slug}/`,
+  crumbParent: { label: "Characters", url: "/characters/" },
+  updated: "2026-11-17",
+  sources: [
+    { label: "Rockstar Games: official GTA VI site, character profiles", url: "https://www.rockstargames.com/VI", note: "Primary source for every profile." },
+    { label: "VGC: GTA 6's cast of characters revealed", url: "https://www.videogameschronicle.com/news/gta-6s-cast-of-characters-revealed/", note: "Reports Rockstar's profiles, May 2025." },
+    { label: "Push Square: Meet the cast of GTA 6", url: "https://www.pushsquare.com/news/2025/05/meet-the-cast-of-gta-6-ps5s-craziest-group-of-criminal-misfits-yet", note: "Cross-check, May 2025." },
+    { label: "GamesRadar+: All the GTA 6 characters we know of", url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-characters", note: "Cross-check." }
+  ],
+  eleventyComputed: {
+    title: (data) => data.c.name,
+    seoTitle: (data) => `${data.c.name} in GTA 6: Who ${data.c.slug === "real-dimez" ? "Are" : "Is"} ${data.c.name}?`,
+    description: (data) => `${data.c.name} in GTA 6: ${data.c.role.toLowerCase()}. Background, connections to the rest of the cast and official artwork, spoiler-free.`,
+  },
+}
+---
+{%- set region = regions | where("slug", c.region) | first if c.region else null %}
+{%- set missionsWith = collections.missions | castMissions(c) %}
+<header class="mast photo" style="--glow:var(--{{ 'cyan' if c.lead == 'jason' else 'pink' }})">
+  <img class="mast-img" src="{{ c.img }}" alt="" width="960" height="540" fetchpriority="high">
+  <div class="wrap">
+    <p class="kicker">{{ c.role }}</p>
+    <h1>{{ c.name }}</h1>
+    <p class="tagline">{{ c.text }}</p>
+    <div class="chips"><span class="chip ok dot">Confirmed by Rockstar</span><span class="chip plain">Spoiler-free</span>{% if c.lead %}<span class="chip plain">Playable</span>{% endif %}</div>
+  </div>
+  <span class="credit">Image: Rockstar Games</span>
+</header>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <div class="who">
+      <div>
+        <p class="kicker">What Rockstar has told us</p>
+        <h2 class="sec-h sm">Who {{ "are" if c.slug == "real-dimez" else "is" }} {{ c.short }}?</h2>
+        <ul class="klist one">{% for f in c.facts %}<li>{{ f }}</li>{% endfor %}</ul>
+      </div>
+      <aside class="who-side">
+        <dl class="who-dl">
+          <div><dt>Role</dt><dd>{{ c.role }}</dd></div>
+          <div><dt>Playable</dt><dd>{{ "Yes" if c.lead else "No" }}</dd></div>
+          {%- if region %}<div><dt>Based in</dt><dd><a href="/map/{{ region.slug }}/">{{ region.name }}</a></dd></div>{% endif %}
+        </dl>
+        {%- if c.links.length %}
+        <p class="kicker" style="margin-top:18px">Connected to</p>
+        <ul class="who-links">
+          {%- for l in c.links %}{% set o = cast | where("slug", l.slug) | first %}
+          <li><a href="/characters/{{ o.slug }}/"><img src="{{ o.img }}" alt="" width="96" height="54" loading="lazy"><span><b>{{ o.name }}</b><small>{{ l.why }}</small></span></a></li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">Official artwork</h2>
+    <p class="lede">Tap to see it full size.</p>
+    <div class="gallery big">
+      {%- for a in c.art %}
+      <figure><img data-zoom="art" src="/assets/img/art/{{ a[0] }}.webp" data-full="/assets/img/full/art-{{ a[0] }}.webp" alt="{{ a[1] }}, official GTA 6 artwork" width="800" height="450" loading="lazy"><figcaption>{{ a[1] }}</figcaption></figure>
+      {%- endfor %}
+    </div>
+    <p class="fig-credit">Artwork: Rockstar Games</p>
+  </div>
+</section>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">Missions with {{ c.short }}</h2>
+    {%- if missionsWith.length %}
+    <ul class="updates">
+      {%- for m in missionsWith %}<li><a href="{{ m.url }}">{{ m.data.order | pad }} · {{ m.data.title }}</a><span>{{ m.data.chapter }}</span></li>{% endfor %}
+    </ul>
+    {%- else %}
+    <p class="lede">Missions {{ "featuring" if not c.lead else "you play as" }} {{ c.short }} are listed here as the walkthrough goes up after launch on November 19. Story details stay behind spoiler blocks.</p>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h sm">Quick answers</h2>
+    <div class="faq">
+      {%- for q in c.faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ c.faq | faqld | safe }}</script>
+
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">More of the cast</h2>
+    <div class="cast-strip">
+      {%- for o in cast %}{% if o.slug != c.slug %}
+      <a class="cast-mini" href="/characters/{{ o.slug }}/"><img src="{{ o.img }}" alt="" width="240" height="135" loading="lazy"><b>{{ o.name }}</b><small>{{ o.role }}</small></a>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Sources</p>
+    <ul class="sources">
+      {%- for s in sources %}
+      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

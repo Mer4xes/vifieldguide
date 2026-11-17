@@ -138,6 +138,10 @@ export default function (eleventyConfig) {
       ? new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
       : ""
   );
+  // Missions a cast member appears in: as the giver, or as the protagonist you play.
+  eleventyConfig.addFilter("castMissions", (missions, c) => (missions || []).filter((m) =>
+    m.data.giver === c.name || m.data.giver === c.short ||
+    (c.lead && (m.data.protagonist === c.lead || m.data.protagonist === "both"))));
   eleventyConfig.addFilter("where", (arr, path, value) => (arr || []).filter((x) => get(x, path) === value));
   eleventyConfig.addFilter("groupBy", (arr, path) => {
     const groups = [];

@@ -1,52 +1,181 @@
 [
   {
-    "name": "Lucia Caminos",
-    "role": "Playable lead",
-    "lead": "lucia",
-    "text": "Just out of prison and set on building a better life. One of the two characters you play.",
-    "img": "/assets/img/cast-lucia-caminos.webp"
-  },
-  {
+    "slug": "jason-duval",
     "name": "Jason Duval",
+    "short": "Jason",
     "role": "Playable lead",
     "lead": "jason",
     "text": "Ex-Army, now working for drug runners in the Keys. The other character you play.",
-    "img": "/assets/img/cast-jason-duval.webp"
+    "img": "/assets/img/cast-jason-duval.webp",
+    "region": "leonida-keys",
+    "art": [["jl-01","Jason and Lucia"],["jl-beach","Jason and Lucia at the beach"],["jl-rooftop","Jason and Lucia on a rooftop"],["jl-lock-and-load","Jason and Lucia, Lock and Load"],["jl-robbery","Jason and Lucia, Robbery"],["jl-02","Jason and Lucia on the dock"],["jl-motel","Jason and Lucia at the motel"]],
+    "facts": [
+      "One of the two characters you play, alongside Lucia Caminos.",
+      "He grew up surrounded by small-time crooks and con artists.",
+      "He joined the Army to put a rough teenage stretch behind him.",
+      "After the Army he ended up in the Leonida Keys, doing what he knows: working for local drug runners.",
+      "What he really wants is an easy life.",
+      "He lives rent-free in a property owned by Brian Heder, and pays his way by helping Brian lean on people."
+    ],
+    "links": [
+      { "slug": "lucia-caminos", "why": "The other playable lead" },
+      { "slug": "cal-hampton", "why": "His friend" },
+      { "slug": "brian-heder", "why": "His landlord" }
+    ],
+    "faq": [
+      { "q": "Who is Jason Duval in GTA 6?", "a": "Jason is one of GTA 6's two playable leads. He grew up around crooks, did a stint in the Army, and now works for drug runners in the Leonida Keys." },
+      { "q": "Is Jason playable in GTA 6?", "a": "Yes. You play as both Jason Duval and Lucia Caminos." }
+    ]
   },
   {
+    "slug": "lucia-caminos",
+    "name": "Lucia Caminos",
+    "short": "Lucia",
+    "role": "Playable lead",
+    "lead": "lucia",
+    "text": "Just out of prison and set on building a better life. One of the two characters you play.",
+    "img": "/assets/img/cast-lucia-caminos.webp",
+    "art": [["jl-01","Jason and Lucia"],["jl-beach","Jason and Lucia at the beach"],["jl-rooftop","Jason and Lucia on a rooftop"],["jl-lock-and-load","Jason and Lucia, Lock and Load"],["jl-robbery","Jason and Lucia, Robbery"],["jl-02","Jason and Lucia on the dock"],["jl-motel","Jason and Lucia at the motel"]],
+    "facts": [
+      "One of the two characters you play, alongside Jason Duval.",
+      "Her father taught her to fight from a young age.",
+      "Fighting for her family is what put her in Leonida Penitentiary, and she got out more through luck than anything else.",
+      "She and her mother once lived in Liberty City.",
+      "She wants the good life her mother has dreamed of for years, and plans to get it herself instead of waiting for it."
+    ],
+    "links": [
+      { "slug": "jason-duval", "why": "The other playable lead" }
+    ],
+    "faq": [
+      { "q": "Who is Lucia Caminos in GTA 6?", "a": "Lucia is one of GTA 6's two playable leads. A fighter since childhood, she has just got out of Leonida Penitentiary and wants a better life for herself and her mother." },
+      { "q": "Is Lucia playable in GTA 6?", "a": "Yes. You play as both Lucia Caminos and Jason Duval." }
+    ]
+  },
+  {
+    "slug": "cal-hampton",
     "name": "Cal Hampton",
+    "short": "Cal",
     "role": "Jason's friend",
     "text": "Paranoid and mostly at home, tuned in to radio chatter and conspiracy theories.",
-    "img": "/assets/img/cast-cal-hampton.webp"
+    "img": "/assets/img/cast-cal-hampton.webp",
+    "art": [["cal-hampton","Cal Hampton"]],
+    "facts": [
+      "Jason's friend and associate.",
+      "He feels safest at home, with a few beers and the Coast Guard's radio traffic playing in the background.",
+      "He is content with a low-key life near the bottom of the ladder, while Jason has bigger plans."
+    ],
+    "links": [
+      { "slug": "jason-duval", "why": "His friend" }
+    ],
+    "faq": [
+      { "q": "Who is Cal Hampton in GTA 6?", "a": "Cal is Jason Duval's friend. He prefers to stay home, listening in on Coast Guard radio and happy with a quiet life." }
+    ]
   },
   {
+    "slug": "boobie-ike",
     "name": "Boobie Ike",
+    "short": "Boobie",
     "role": "Vice City businessman",
     "text": "Has real estate, a strip club and a recording studio to his name.",
-    "img": "/assets/img/cast-boobie-ike.webp"
+    "img": "/assets/img/cast-boobie-ike.webp",
+    "region": "vice-city",
+    "art": [["boobie-ike","Boobie Ike"]],
+    "facts": [
+      "A Vice City legend who came up on the street.",
+      "He turned that past into a legitimate business empire: real estate, a strip club and a recording studio.",
+      "He is in business with Dre'Quan Priest on the record label Only Raw Records.",
+      "Friendly and easygoing, right up until it is time to talk business."
+    ],
+    "links": [
+      { "slug": "drequan-priest", "why": "Business partner at Only Raw Records" },
+      { "slug": "real-dimez", "why": "Signed to Only Raw Records" }
+    ],
+    "faq": [
+      { "q": "Who is Boobie Ike in GTA 6?", "a": "Boobie Ike is a Vice City businessman with real estate, a strip club and a recording studio, and a partner in the label Only Raw Records." }
+    ]
   },
   {
+    "slug": "drequan-priest",
     "name": "Dre'Quan Priest",
+    "short": "Dre'Quan",
     "role": "Music producer",
     "text": "Works with Boobie Ike at the label Only Raw Records.",
-    "img": "/assets/img/cast-drequan-priest.webp"
+    "img": "/assets/img/cast-drequan-priest.webp",
+    "art": [["drequan-priest","Dre'Quan Priest"]],
+    "facts": [
+      "Always more of a hustler than a gangster.",
+      "He dealt drugs to pay the bills while he chased a career in music.",
+      "He signed the rap duo Real Dimez to Only Raw Records.",
+      "He has been booking acts into Boobie Ike's strip club."
+    ],
+    "links": [
+      { "slug": "boobie-ike", "why": "Business partner at Only Raw Records" },
+      { "slug": "real-dimez", "why": "The act he signed" }
+    ],
+    "faq": [
+      { "q": "Who is Dre'Quan Priest in GTA 6?", "a": "Dre'Quan is a hustler turned music man who works with Boobie Ike at Only Raw Records and signed the rap duo Real Dimez." }
+    ]
   },
   {
+    "slug": "real-dimez",
     "name": "Real Dimez",
+    "short": "Real Dimez",
     "role": "Rap duo",
     "text": "Bae-Luxe and Roxy, friends turned rap and social media act, signed to Only Raw Records.",
-    "img": "/assets/img/cast-real-dimez.webp"
+    "img": "/assets/img/cast-real-dimez.webp",
+    "art": [["real-dimez","Real Dimez"]],
+    "facts": [
+      "A duo: Bae-Luxe and Roxy, friends since high school.",
+      "Their history includes shaking down local dealers, rapping, and building a following on social media.",
+      "They had a viral hit, DWNPLY, about five years ago.",
+      "They are now signed to Only Raw Records, Dre'Quan Priest's label."
+    ],
+    "links": [
+      { "slug": "drequan-priest", "why": "Signed them" },
+      { "slug": "boobie-ike", "why": "Partner in their label" }
+    ],
+    "faq": [
+      { "q": "Who are Real Dimez in GTA 6?", "a": "Real Dimez are Bae-Luxe and Roxy, a rap duo who have been friends since high school. They had a viral hit years ago and are now signed to Only Raw Records." }
+    ]
   },
   {
+    "slug": "raul-bautista",
     "name": "Raul Bautista",
+    "short": "Raul",
     "role": "Bank robber",
     "text": "A veteran who runs a heist crew and is always recruiting for it.",
-    "img": "/assets/img/cast-raul-bautista.webp"
+    "img": "/assets/img/cast-raul-bautista.webp",
+    "art": [["raul-bautista","Raul Bautista"]],
+    "facts": [
+      "A seasoned bank robber.",
+      "He is always on the lookout for new talent for his crew.",
+      "His recklessness keeps raising the stakes, so the people working with him have to go all in or get out."
+    ],
+    "links": [],
+    "faq": [
+      { "q": "Who is Raul Bautista in GTA 6?", "a": "Raul is a veteran bank robber who is always recruiting, and whose recklessness keeps raising the stakes for his crew." }
+    ]
   },
   {
+    "slug": "brian-heder",
     "name": "Brian Heder",
+    "short": "Brian",
     "role": "Keys smuggler",
     "text": "A long-time drug runner with a boat yard, who lets Jason live on one of his properties.",
-    "img": "/assets/img/cast-brian-heder.webp"
+    "img": "/assets/img/cast-brian-heder.webp",
+    "region": "leonida-keys",
+    "art": [["brian-heder","Brian Heder"]],
+    "facts": [
+      "An old-school drug runner from the heyday of smuggling in the Keys, and still at it.",
+      "He runs a boat yard, which he uses to move product.",
+      "He is married to his third wife, Lori.",
+      "He lets Jason live rent-free in one of his properties, in return for help with shakedowns."
+    ],
+    "links": [
+      { "slug": "jason-duval", "why": "His tenant" }
+    ],
+    "faq": [
+      { "q": "Who is Brian Heder in GTA 6?", "a": "Brian is a veteran drug runner in the Leonida Keys with a boat yard. He is Jason Duval's landlord." }
+    ]
   }
 ]
