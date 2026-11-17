@@ -22,6 +22,15 @@ Unofficial, non-commercial GTA 6 guide owned by Hauk. Claude writes and publishe
 
 Files marked `"sample": true` (and sample mission files) are fictional templates that are never published. When real content replaces a section, remove `"sample": true` and the fictional entries, or delete the sample mission files.
 
+## Improving the site (every run)
+Besides adding facts, look for one or two concrete improvements per run and ship them when they are clearly better:
+- New subpages when content makes it natural: e.g. one page per character (`/characters/<slug>/`), per activity (`/activities/<slug>/`), per region topic, per collectible set, per trophy group, money and beginner guides. Link them from the parent page, the home page tiles and the footer where it fits.
+- Richer presentation: detail popups or expandable cards, comparison tables, checklists with progress tracking, region filters, "related" links between missions, regions, characters and activities.
+- SEO: descriptive titles and descriptions, FAQ blocks with FAQPage schema where people ask questions, internal links, sitemap stays correct.
+- Keep the existing design system (site.css components, dark Vice City look, Anton/Hanken Grotesk/Space Mono). Reuse layouts and partials; add CSS at the end of site.css. Mobile must work.
+- Before pushing, render changed pages in headless Chrome (Playwright is available) at 1280px and 390px wide and look at the screenshots. No console errors, no broken layout, `npm run check` clean.
+- Do not remove working features. Keep pages fast: WebP images, lazy loading, no heavy libraries.
+
 ## Editorial rules (non-negotiable)
 - No leaks, no datamined content before launch, no guessing. If a fact is not cross-checked, leave it out.
 - Every fact needs at least two independent sources, or one primary source (Rockstar, PlayStation/Xbox trophy lists, Game Informer interviews with Rockstar).
