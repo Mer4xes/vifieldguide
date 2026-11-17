@@ -34,7 +34,13 @@ export default {
 
   // Public profiles, listed as Organization.sameAs once they exist
   // (e.g. "https://www.tiktok.com/@vifieldguide", "https://www.youtube.com/@vifieldguide").
-  social: ["https://www.youtube.com/@vifieldguide"],
+  social: [
+    { label: "YouTube", url: "https://www.youtube.com/@vifieldguide" },
+    { label: "TikTok", url: "https://www.tiktok.com/@the.vi.field.guide" },
+    { label: "Instagram", url: "https://www.instagram.com/the_vi_field_guide/" },
+    { label: "X", url: "https://x.com/vifieldguide" },
+    { label: "Reddit", url: "https://www.reddit.com/user/VI_Field_Guide/" },
+  ],
 
   // Search engine verification. Paste the token from the "HTML tag" method and
   // the matching <meta> tag is emitted automatically. Leave empty if you verify

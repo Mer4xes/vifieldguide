@@ -575,3 +575,8 @@ a.kcard.tile{color:inherit;text-decoration:none;transition:border-color .15s,tra
 a.kcard.tile:hover{border-color:var(--pink);transform:translateY(-2px)}
 a.kcard.tile h3::after{content:" →";color:var(--pink)}
 .foot-links{display:grid;grid-template-columns:repeat(2,auto);gap:6px 24px}
+
+/* Footer social links */
+.foot-social { margin-top: .6rem; font-size: .9rem; color: var(--muted, #9b8fc9); }
+.foot-social a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.foot-social a:hover { color: #00e5ff; }

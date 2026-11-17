@@ -163,7 +163,7 @@ export default function (eleventyConfig) {
     const url = base + this.page.url;
     const out = [];
     const orgLogo = site.logo ? { "@type": "ImageObject", url: base + site.logo } : undefined;
-    const sameAs = site.social && site.social.length ? site.social : undefined;
+    const sameAs = site.social && site.social.length ? site.social.map((x) => x.url || x) : undefined;
     const org = { "@type": "Organization", name: site.longName, url: base + "/", logo: orgLogo, sameAs };
     if (this.page.url === "/") {
       out.push({
