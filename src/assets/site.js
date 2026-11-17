@@ -262,3 +262,55 @@ document.addEventListener("click", (e) => {
     else if (e.key === "ArrowRight") step(1);
   });
 })();
+
+// Detail popups on "What we know" cards (<dialog class="kdlg">), linkable as #card-id.
+(() => {
+  const dlgFor = (id) => id && document.getElementById("dlg-" + id);
+  const open = (d, push) => {
+    if (!d || d.open) return;
+    if (typeof d.showModal === "function") d.showModal(); else d.setAttribute("open", "");
+    document.body.style.overflow = "hidden";
+    const id = d.id.slice(4);
+    if (push && location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+    d.querySelector(".kdlg-x")?.focus();
+  };
+  const close = (d) => {
+    if (!d) return;
+    if (d.open) { if (typeof d.close === "function") d.close(); else d.removeAttribute("open"); }
+  };
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-dlg]");
+    if (btn) { e.preventDefault(); open(document.getElementById(btn.dataset.dlg), true); return; }
+    const d = e.target.closest("dialog.kdlg");
+    if (d && (e.target === d || e.target.closest("[data-close]"))) close(d);
+  });
+  document.addEventListener("close", (e) => {
+    if (!e.target.matches?.("dialog.kdlg")) return;
+    document.body.style.overflow = "";
+    const id = e.target.id.slice(4);
+    if (location.hash === "#" + id) history.replaceState(null, "", location.pathname + location.search);
+    document.querySelector('[data-dlg="' + e.target.id + '"]')?.focus({ preventScroll: true });
+  }, true);
+  const fromHash = () => open(dlgFor(decodeURIComponent(location.hash.slice(1))), false);
+  window.addEventListener("hashchange", fromHash);
+  document.addEventListener("DOMContentLoaded", fromHash);
+
+  // Region filter on pages with data-kfilter buttons.
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest(".kfilter [data-kfilter]");
+    if (!b) return;
+    const f = b.dataset.kfilter;
+    b.parentElement.querySelectorAll("[data-kfilter]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    let shown = 0;
+    document.querySelectorAll(".kcard[data-region]").forEach((c) => {
+      const ok = f === "all" || c.dataset.region.split(" ").includes(f);
+      c.hidden = !ok; if (ok) shown++;
+    });
+    document.querySelectorAll(".ksec").forEach((s) => {
+      const cards = s.querySelectorAll(".kcard[data-region]");
+      s.hidden = cards.length > 0 && [...cards].every((c) => c.hidden);
+    });
+    const n = document.querySelector(".kfilter-n");
+    if (n) n.textContent = f === "all" ? "" : shown + (shown === 1 ? " activity" : " activities");
+  });
+})();

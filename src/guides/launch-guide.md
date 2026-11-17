@@ -12,6 +12,8 @@ editions: true
 faq:
   - q: "What time does GTA 6 come out?"
     a: "At midnight in your own time zone on Thursday, November 19, 2026, on PS5 and Xbox Series X|S."
+  - q: "What time does GTA 6 unlock on the US West Coast?"
+    a: "Reportedly 9 p.m. Pacific on Wednesday, November 18. The US PlayStation Store listing goes by midnight Eastern for the whole country. Rockstar has not published US times, and Xbox has not been confirmed."
   - q: "Can I preload GTA 6?"
     a: "Yes. Digital pre-orders have been able to preload since November 10. You still can't play before the unlock."
   - q: "How big is the GTA 6 download?"
@@ -29,7 +31,7 @@ faq:
   - q: "Does the boxed version have a disc?"
     a: "No. The box holds a download code, so you need the full download either way."
 spoilerFree: true
-updated: 2026-11-17
+updated: 2026-11-18
 facts:
   - { k: Release, v: "Thu, Nov 19, 2026", status: Confirmed }
   - { k: Unlocks, v: "Midnight, local time", status: Confirmed }
@@ -52,6 +54,12 @@ sources:
   - label: "Rockstar Games: Pre-Load Grand Theft Auto VI Now"
     url: "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
     note: "Frame rate, PS5 Pro, cloud. Nov 10, 2026."
+  - label: "Vice: GTA 6 release date explained"
+    url: "https://www.vice.com/en/article/gta-6-release-date-faq/"
+    note: "PlayStation Store US unlock at 9 p.m. PT, Nov 18. Nov 15, 2026."
+  - label: "Forbes: GTA 6 unlocks at midnight on November 19, but millions of Americans can start the night before"
+    url: "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/"
+    note: "US stores keyed to Eastern time. Nov 12, 2026."
   - label: "Vice: GTA 6 gets a second day one patch on PS5 and Xbox"
     url: "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/"
     note: "Update 1.002.001 sizes and PS5 rollout. Nov 16, 2026."
@@ -69,6 +77,8 @@ sources:
 ## When does GTA 6 unlock?
 
 The game unlocks at midnight in your own time zone on Thursday, November 19, 2026. That applies to both PlayStation 5 and Xbox Series X|S, so the release rolls around the world region by region instead of going live everywhere at once.
+
+> **Note:** In the US the clock that counts is Eastern time. The PlayStation Store lists the unlock at 9 p.m. Pacific on Wednesday, November 18, which is midnight Eastern, so players further west get in on Wednesday evening. Rockstar has not published US times, and Xbox's US unlock has not been confirmed.
 
 ## Preload
 

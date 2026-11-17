@@ -50,6 +50,17 @@
   </div>
 </section>
 
+{%- set thingsHere = collections.all | activitiesIn(r.slug) %}
+{%- if thingsHere.length %}
+<section class="sec sec-tight">
+  <div class="wrap">
+    <h2 class="sec-h sm">Things to do here</h2>
+    <ul class="updates">
+      {%- for a in thingsHere %}<li><a href="/activities/#{{ a.id }}">{{ a.t }}</a><span>{{ a.section }}</span></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
 {%- set peopleHere = cast | where("region", r.slug) %}
 {%- if peopleHere.length %}
 <section class="sec sec-tight">

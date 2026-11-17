@@ -142,6 +142,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("castMissions", (missions, c) => (missions || []).filter((m) =>
     m.data.giver === c.name || m.data.giver === c.short ||
     (c.lead && (m.data.protagonist === c.lead || m.data.protagonist === "both"))));
+  // Activities (cards on /activities/) tagged with a region, for "Things to do here" on region pages.
+  eleventyConfig.addFilter("activitiesIn", (all, region) => {
+    const page = (all || []).find((p) => p.url === "/activities/");
+    const out = [];
+    for (const sec of page?.data?.sections || [])
+      for (const c of sec.cards || [])
+        if ((c.region || []).includes(region))
+          out.push({ t: c.t, id: c.id || eleventyConfig.getFilter("slugify")(c.t), section: sec.title, img: c.img });
+    return out;
+  });
   eleventyConfig.addFilter("where", (arr, path, value) => (arr || []).filter((x) => get(x, path) === value));
   eleventyConfig.addFilter("groupBy", (arr, path) => {
     const groups = [];
