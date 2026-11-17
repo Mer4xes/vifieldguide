@@ -34,7 +34,7 @@ export default {
 
   // Public profiles, listed as Organization.sameAs once they exist
   // (e.g. "https://www.tiktok.com/@vifieldguide", "https://www.youtube.com/@vifieldguide").
-  social: [],
+  social: ["https://www.youtube.com/@vifieldguide"],
 
   // Search engine verification. Paste the token from the "HTML tag" method and
   // the matching <meta> tag is emitted automatically. Leave empty if you verify
