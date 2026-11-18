@@ -664,3 +664,9 @@ a.kcard.tile h3::after{content:" →";color:var(--pink)}
 .sres-empty .filters{margin-top:12px}
 .sres-empty .fchip{text-decoration:none}
 @media(max-width:520px){.sbox .btn{padding-inline:14px}}
+
+/* ---------- release-times table ---------- */
+.rollout td[data-local]{white-space:nowrap}
+.rollout tr.is-out td:first-child{color:var(--fg);font-weight:700}
+.rollout .chip{margin-left:6px;vertical-align:middle}
+@media(max-width:520px){.rollout td[data-local]{white-space:normal}}

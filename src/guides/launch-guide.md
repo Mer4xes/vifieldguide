@@ -2,8 +2,8 @@
 title: Launch guide
 headline: Launch Guide
 kicker: Before you play
-seoTitle: "GTA 6 Release Time, Preload, File Size and Editions"
-description: "When GTA 6 unlocks, how preload works on PS5 and Xbox Series X|S, how much space you need, and what the Standard and Ultimate editions include."
+seoTitle: "GTA 6 Release Time by Region, Preload, File Size and Editions"
+description: "When GTA 6 unlocks in every region, how preload works on PS5 and Xbox Series X|S, how much space you need, and what the Standard and Ultimate editions include."
 summary: When the game unlocks, how big the download is, and what each edition includes. Every line is marked confirmed or reported.
 order: 1
 glow: gold
@@ -12,6 +12,10 @@ editions: true
 faq:
   - q: "What time does GTA 6 come out?"
     a: "At midnight in your own time zone on Thursday, November 19, 2026, on PS5 and Xbox Series X|S."
+  - q: "Is GTA 6 out yet?"
+    a: "It is rolling out now. New Zealand got it first, at midnight local time (11:00 UTC on November 18), and every other region follows at its own midnight on November 19."
+  - q: "What is GTA 6's Metacritic score?"
+    a: "Shortly after reviews went live on November 18, Metacritic and OpenCritic both showed an average of 99. The number can move as more reviews arrive."
   - q: "What time does GTA 6 unlock on the US West Coast?"
     a: "It is not settled. Rockstar says midnight local time, and AP and Forbes read that as midnight in each US time zone. The US PlayStation Store listing reportedly shows a single unlock at midnight Eastern, which would be 9 p.m. Pacific on Wednesday, November 18. Rockstar has not published US times, so check your console from 9 p.m. Pacific."
   - q: "When does GTA 6 start on Xbox Cloud Gaming?"
@@ -43,11 +47,24 @@ facts:
   - { k: Standard Edition, v: "$79.99", status: Confirmed }
   - { k: Ultimate Edition, v: "$99.99", status: Confirmed }
   - { k: Latest update, v: "1.002.001", status: Reported }
+  - { k: Reviews, v: "99 average", status: Reported }
 tldr:
-  - "GTA 6 unlocks at **midnight local time on Thursday, November 19, 2026**, on PS5 and Xbox Series X|S."
+  - "GTA 6 unlocks at **midnight local time on Thursday, November 19, 2026**, on PS5 and Xbox Series X|S. **New Zealand went first**, at 11:00 UTC on November 18."
   - "Preload has been open since **November 10**. Clear **212 GB** before you start."
   - "Pre-order **before November 20** to get the Vintage Vice City Pack with either edition."
 sources:
+  - label: "Rockstar Support: GTA VI regional pre-load and release times on PS5 and Xbox Series X|S"
+    url: "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s"
+    note: "Midnight local time in all regions, both consoles. Updated Nov 3, 2026."
+  - label: "Vice: GTA 6 is now out in New Zealand"
+    url: "https://www.vice.com/en/article/gta-6-new-zealand-worldwide-release-times/"
+    note: "New Zealand unlock and regional times. Nov 18, 2026."
+  - label: "Tom's Guide: GTA 6 review roundup (live)"
+    url: "https://www.tomsguide.com/news/live/gta-6-review-roundup-live-updates"
+    note: "Metacritic and OpenCritic averages, outlet scores. Nov 18, 2026."
+  - label: "Vice: GTA 6 review roundup"
+    url: "https://www.vice.com/en/article/gta-6-review-roundup/"
+    note: "Outlet scores. Nov 18, 2026."
   - label: "Forbes: GTA VI release date and time on PS5 and Xbox Series X"
     url: "https://www.forbes.com/sites/erikkain/2026/11/16/gta-6-release-date-time-ps5-xbox-series-x-download-size-day-one-update/"
     note: "Release time, preload size. Nov 16, 2026."
@@ -88,9 +105,34 @@ sources:
 
 ## When does GTA 6 unlock?
 
-The game unlocks at midnight in your own time zone on Thursday, November 19, 2026. That applies to both PlayStation 5 and Xbox Series X|S, so the release rolls around the world region by region instead of going live everywhere at once.
+The game unlocks at midnight in your own time zone on Thursday, November 19, 2026. Rockstar's support page says this applies in all regions on both PlayStation 5 and Xbox Series X|S, so the release rolls around the world region by region instead of going live everywhere at once.
 
-> **Note:** The US is the one place where the time is not settled. Rockstar says midnight local time, and AP and Forbes take that to mean midnight in each US time zone. The US PlayStation Store listing, though, reportedly shows one unlock for the whole country at midnight Eastern, which would let Central, Mountain and Pacific players in on Wednesday evening (9 p.m. Pacific). Rockstar has not published a US table. If you are west of the East Coast, check your console from 9 p.m. Pacific on November 18.
+The rollout has started: New Zealand was first, at midnight local time, which was 11:00 UTC on Wednesday, November 18.
+
+## Release times around the world
+
+Each row is midnight local time on November 19, with the same moment in UTC. The last column shows it in your own time zone and marks the places where the game is already out.
+
+<div class="tablewrap"><table class="rollout" data-rollout>
+<thead><tr><th>Where</th><th>UTC</th><th>Your time</th></tr></thead>
+<tbody>
+<tr data-utc="2026-11-18T11:00:00Z"><td>New Zealand (Auckland)</td><td>Wed 18 Nov, 11:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T13:00:00Z"><td>Australia (Sydney, Melbourne)</td><td>Wed 18 Nov, 13:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T15:00:00Z"><td>Japan, South Korea</td><td>Wed 18 Nov, 15:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T16:00:00Z"><td>Hong Kong, Singapore</td><td>Wed 18 Nov, 16:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T18:30:00Z"><td>India</td><td>Wed 18 Nov, 18:30</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T20:00:00Z"><td>UAE</td><td>Wed 18 Nov, 20:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-18T23:00:00Z"><td>Central Europe (Paris, Berlin, Oslo)</td><td>Wed 18 Nov, 23:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-19T00:00:00Z"><td>UK, Ireland, Portugal</td><td>Thu 19 Nov, 00:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-19T03:00:00Z"><td>Brazil (São Paulo)</td><td>Thu 19 Nov, 03:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-19T05:00:00Z"><td>US East Coast</td><td>Thu 19 Nov, 05:00</td><td data-local>–</td></tr>
+<tr data-utc="2026-11-19T08:00:00Z"><td>US West Coast*</td><td>Thu 19 Nov, 08:00</td><td data-local>–</td></tr>
+</tbody>
+</table></div>
+
+\* By Rockstar's midnight rule. The US stores may instead unlock everyone at midnight Eastern, see the note below.
+
+> **Note:** The US is the one place where the time is not settled. Rockstar's support page says midnight local time in all regions, and AP and Forbes take that to mean midnight in each US time zone. The US PlayStation Store listing, though, reportedly shows one unlock for the whole country at midnight Eastern, which would let Central, Mountain and Pacific players in on Wednesday evening (9 p.m. Pacific). Rockstar has not published a US table. If you are west of the East Coast, check your console from 9 p.m. Pacific on November 18.
 
 ## Xbox Cloud Gaming
 
@@ -126,10 +168,14 @@ On PS5 you can force a check: highlight the game, press Options and choose **Che
 
 See the [editions breakdown](#editions) above, with everything in the Ultimate Edition and the Vintage Vice City Pack.
 
-## What is not confirmed
+## Reviews
 
-> **Note:** Reviews are reported to go live on November 18, the day before launch. Rockstar has not announced a review date.
+Reviews went live on November 18, the day before launch, and they are close to unanimous. Shortly after the embargo lifted, both Metacritic and OpenCritic showed an average of 99. IGN, GameSpot, Game Informer and Push Square gave it 10/10, and Eurogamer, VGC and The Guardian gave it five stars.
+
+> **Note:** Aggregate scores move as more reviews come in. The numbers above are from the morning of November 18 (UTC).
+
+## What is not confirmed
 
 > **Note:** No PC version has been announced.
 
-> **Note:** There is no official trophy or achievement list yet. A list of 55 trophies is circulating, but it is unverified, so we are not using it.
+> **Note:** There is no confirmed trophy or achievement list yet. Since the New Zealand unlock, several sites have posted a list of 55 trophies, but none says where it comes from and they disagree on the grades. We add it to the [trophies page](/trophies/) once it can be checked against the consoles.

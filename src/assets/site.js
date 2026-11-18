@@ -429,3 +429,24 @@ document.addEventListener("click", (e) => {
   const q0 = new URLSearchParams(location.search).get("q") || "";
   if (q0) { input.value = q0; run(); } else if (matchMedia("(hover:hover)").matches) input.focus();
 })();
+
+// Release-times table: show each unlock moment in the visitor's own time zone and mark the ones already passed.
+(() => {
+  const table = document.querySelector("[data-rollout]");
+  if (!table) return;
+  const fmt = new Intl.DateTimeFormat(undefined, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  const paint = () => {
+    const now = Date.now();
+    table.querySelectorAll("tr[data-utc]").forEach((row) => {
+      const t = new Date(row.dataset.utc);
+      const cell = row.querySelector("[data-local]");
+      const live = now >= t.getTime();
+      row.classList.toggle("is-out", live);
+      cell.innerHTML = "";
+      cell.append(fmt.format(t));
+      if (live) { const c = document.createElement("span"); c.className = "chip ok dot"; c.textContent = "Out now"; cell.append(" ", c); }
+    });
+  };
+  paint();
+  setInterval(paint, 30000);
+})();

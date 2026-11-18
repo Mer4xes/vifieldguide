@@ -5,10 +5,10 @@ headline: How it plays
 kicker: Systems and features
 seoTitle: "GTA 6 Gameplay: Wanted Levels, Heat, Character Switching and Every Confirmed System"
 description: "How GTA 6 plays, based on what Rockstar has shown: six-star wanted levels, the new Heat system, switching between Jason and Lucia, their relationship, stealing cars with WAiNK, RydeMe fast travel and more."
-summary: The systems behind Jason and Lucia's Leonida, from the police to the phone in your pocket. Only what Rockstar has shown or said.
+summary: The systems behind Jason and Lucia's Leonida, from the police to the phone in your pocket. What Rockstar has shown or said, plus what several reviews agree on.
 glow: violet
 image: /assets/img/full/feat-switch.webp
-updated: 2026-11-17
+updated: 2026-11-18
 facts:
   - { k: Players, v: "Single player", status: Confirmed }
   - { k: Wanted level, v: "Up to 6 stars", status: Confirmed }
@@ -46,6 +46,15 @@ sections:
       - { t: Snapmatic, d: "The social app is back. Jason and Lucia can scroll it, but as wanted criminals they never post.", status: Confirmed, src: Game Informer }
       - { t: Radio on foot, d: "Radio and, for the first time, on-demand podcasts play in cars and on foot through headphones and earbuds paired to your phone.", status: Confirmed, src: Rockstar }
       - { t: Music, d: "Six radio stations revealed so far, an original album and an adaptive score by Justice. See [Music](/music/).", status: Confirmed, src: Rockstar }
+  - title: What the reviews add
+    kicker: Launch reviews
+    cards:
+      - { t: Focus, d: "Aiming can slow time for a moment so you can line up precise shots.", status: Reported, src: "VGC, TechRadar" }
+      - { t: Shots that don't kill, d: "You can put someone down without killing them by aiming for a leg, a knee or an elbow.", status: Reported, src: "VGC, TechRadar, Kotaku" }
+      - { t: Criminal Profile, d: "The game keeps track of how you behave as criminals, and reviewers say the story takes it into account. How far it reaches is best found out in play.", status: Reported, src: "VGC, TechRadar, Kotaku" }
+      - { t: More than one ending, d: "There is more than one way the story can end, and your choices along the way count.", status: Reported, src: "VGC, Kotaku" }
+      - { t: Keep in touch, d: "When you are playing one lead, you can text or call the other from the phone.", status: Reported, src: "VGC, Kotaku" }
+      - { t: Frame rate in practice, d: "The 30 fps target holds most of the time, with dips in packed parts of Vice City and in big police shootouts.", status: Reported, src: "VGC, Kotaku" }
   - title: World and tech
     cards:
       - { t: Twice the size, d: "Rockstar's Aaron Garbut says Leonida is about twice as big as GTA V's map, and denser, with far more interiors.", status: Confirmed, src: Game Informer }
@@ -58,6 +67,9 @@ sources:
   - { label: "Rockstar Games: Pre-Load Grand Theft Auto VI Now", url: "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now", note: "Frame rate, PS5 Pro, cloud. Nov 10, 2026." }
   - { label: "Rockstar Games: Pre-Order Grand Theft Auto VI on June 25", url: "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25", note: "Single player." }
   - { label: "Rockstar Games: The Music of Grand Theft Auto VI: In-Game Radio Stations", url: "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations" }
+  - { label: "VGC: Grand Theft Auto 6 review", url: "https://www.videogameschronicle.com/review/grand-theft-auto-6/", note: "Played on PS5. Nov 18, 2026." }
+  - { label: "Kotaku: Grand Theft Auto 6, the Kotaku review", url: "https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842", note: "Played on PS5 Pro. Nov 18, 2026." }
+  - { label: "TechRadar: GTA 6 review", url: "https://www.techradar.com/gaming/gta-6-review", note: "Nov 18, 2026." }
   - { label: "Red Bull: GTA 6 Extended Look, everything we learned", url: "https://www.redbull.com/us-en/gta-6-extended-look-everything-revealed" }
   - { label: "Dexerto: Everything revealed in GTA 6's Extended Look", url: "https://www.dexerto.com/gta/everything-revealed-in-gta-6-netflix-extended-look-3403132/" }
 ---

@@ -53,6 +53,7 @@ sections:
       - { t: Basketball, d: "Jason shoots hoops outside his house in the Extended Look.", status: Confirmed, src: "Extended Look" }
       - { t: Firing range, d: "Lucia runs a timed course at a gun range.", status: Confirmed, src: "Extended Look" }
       - { t: Farms and ranches, d: "Livestock farms, agriculture and high-end ranches fill the north of the map.", status: Confirmed, src: "Game Informer", region: [mount-kalaga] }
+      - { t: Hunting, d: "Hunt wildlife out in the wild and sell what you bring back for cash.", status: Reported, src: "Kotaku, TechRadar reviews", links: [{ l: "Wildlife and weather", u: "/wildlife/" }] }
       - { t: Petting dogs, d: "Yes, you can pet the dog. You can also tell it off.", status: Confirmed, src: "Extended Look", links: [{ l: "Dogs on the Wildlife page", u: "/wildlife/#dogs" }] }
   - title: Ultimate Edition extras
     kicker: Only with the Ultimate Edition
@@ -62,6 +63,8 @@ sections:
       - { t: PTT Youngin$ compound, img: /assets/img/ed/ue-ptt-store-01.webp, full: /assets/img/full/ue-ptt-store-01.webp, d: "Raid a Southside Vice City gang compound for special items and contraband.", status: Confirmed, src: Rockstar, region: [vice-city], more: ["The compound is in Southside Vice City.", "Only available with the Ultimate Edition."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
       - { t: Electric Fang Tattoo, img: /assets/img/ed/ue-electric-fang-01.webp, full: /assets/img/full/ue-electric-fang-01.webp, d: "Over 50 tattoos designed by the artist collective FAILE.", status: Confirmed, src: Rockstar, more: ["A tattoo shop that only opens with the Ultimate Edition."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
 sources:
+  - { label: "Kotaku: Grand Theft Auto 6, the Kotaku review", url: "https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842", note: "Hunting and selling. Nov 18, 2026." }
+  - { label: "TechRadar: GTA 6 review", url: "https://www.techradar.com/gaming/gta-6-review", note: "Hunting. Nov 18, 2026." }
   - { label: "Game Informer: Grand Theft Auto VI – Welcome to Leonida (cover story)", url: "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida", note: "Activities sidebar and designer interviews. Sep 29, 2026." }
   - { label: "Rockstar Games: Grand Theft Auto VI: An Extended Look", url: "https://www.rockstargames.com/newswire/article/4k138k8okkk483/grand-theft-auto-vi-an-extended-look-now-playing", note: "In-game footage, Aug 27, 2026." }
   - { label: "Dexerto: Everything revealed in GTA 6's Extended Look", url: "https://www.dexerto.com/gta/everything-revealed-in-gta-6-netflix-extended-look-3403132/", note: "Recap of the footage and IGN's preview." }
