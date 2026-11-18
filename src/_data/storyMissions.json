@@ -82,15 +82,35 @@
     },
     {
      "t": "Buck Me",
-     "no": 12
+     "no": 12,
+     "opens": [
+      {
+       "t": "BuckMe app and Family Savings"
+      },
+      {
+       "t": "Depositing cash at ATMs"
+      }
+     ]
     },
     {
      "t": "Clean Up After Donnie",
-     "no": 13
+     "no": 13,
+     "opens": [
+      {
+       "t": "Donnie's trailer drop as a fence",
+       "u": "/guides/activities-and-collectibles/#fences"
+      }
+     ]
     },
     {
      "t": "Down to Earth",
-     "no": 14
+     "no": 14,
+     "opens": [
+      {
+       "t": "Meditation with Lucia",
+       "u": "/trophies/#positive-mental-attitude"
+      }
+     ]
     },
     {
      "t": "Clear Skies",

@@ -143,7 +143,7 @@ Clearing 25 gang operations with your partner unlocks the **Pinhole** cheat.
 
 <h2 id="fences">Fences</h2>
 
-Stolen goods go to fences. **Moses** and **Randy** take cars; **Tyrone**, **Yasmani** and **Dunk** take narcotics, jewelry and marked bills. Brian's lockup works as a fence from [Lab Fees](/walkthrough/lab-fees/) in Chapter 1. **Dime on the Dollar** needs $250,000 in Marked Bills laundered, the same figure as on the 100% checklist, which also wants $100,000 each in narcotics and jewelry and $200,000 in vehicles fenced.
+Stolen goods go to fences. **Moses** and **Randy** take cars; **Tyrone**, **Yasmani** and **Dunk** take narcotics, jewelry and marked bills. Brian's lockup works as a fence from [Lab Fees](/walkthrough/lab-fees/) in Chapter 1, and the drop behind Donnie's trailer in Key Lento takes narcotics from [Clean Up After Donnie](/walkthrough/clean-up-after-donnie/). **Dime on the Dollar** needs $250,000 in Marked Bills laundered, the same figure as on the 100% checklist, which also wants $100,000 each in narcotics and jewelry and $200,000 in vehicles fenced.
 
 <h2 id="garages">Garages and Scooter Bros</h2>
 
