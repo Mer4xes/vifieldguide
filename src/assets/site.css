@@ -746,3 +746,7 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 .kbody .kwhere b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;font-weight:400}
 .kbody .kmeta a{color:var(--cyan);text-decoration:none;margin-left:auto}
 .kcard:not(.has-img) .kbody{padding-top:16px}
+
+/* 100% checklist: total in the game next to the target */
+.pctlist .side{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.pctlist .of{font-family:var(--mono);font-size:10px;color:var(--faint);white-space:nowrap}

@@ -31,7 +31,7 @@ updated: 2026-11-18
         <div class="ctr-top"><a href="{{ it.u }}">{{ it.n }}</a><span class="ctr-v"><span data-val>0</span>/{{ it.max }}</span></div>
         <div class="bar"><i></i></div>
         <div class="ctr-row">
-          <span class="ctr-meta">{% if it.pct %}100%: {{ it.pct }}{% endif %}{% if it.pct and it.trophy %} · {% endif %}{% if it.trophy %}<span class="ctr-tr">Trophy: {{ it.trophy }} ({{ it.tmax }})</span>{% endif %}</span>
+          <span class="ctr-meta">{% if it.pct %}100%: {{ it.pct }}{% endif %}{% if it.pct and it.trophy %} · {% endif %}{% if it.trophy %}<span class="ctr-tr">Trophy: {{ it.trophy }} ({{ it.tmax }})</span>{% endif %}{% if it.total %} · {{ it.total }} in the game{% endif %}</span>
           <span class="ctr-btns"><button type="button" data-dec aria-label="One less {{ it.n }}">−</button><input type="number" inputmode="numeric" min="0" max="{{ it.max }}" value="0" aria-label="{{ it.n }} found"><button type="button" data-inc aria-label="One more {{ it.n }}">+</button></span>
         </div>
       </div>

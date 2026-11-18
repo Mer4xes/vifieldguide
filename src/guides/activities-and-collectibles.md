@@ -72,13 +72,13 @@ sources:
 
 Jason and Lucia can meditate at set spots around Leonida. There are **18**. The **Positive Mental Attitude** trophy needs every one of them; the 100% checklist settles for 15.
 
-You can meditate more than once: the **Fast Forward** cheat unlocks after 50 meditations.
+You can meditate more than once, and Jason and Lucia can both meditate at the same spot. The **Fast Forward** cheat unlocks after 50 meditations. Your count is under Progress, Collections, Exploration, Meditations.
 
 > **Watch out:** Unconfirmed, but worth knowing. One guide reports that a meditation Lucia offers at Jason's house during Chapter 1 may count toward the trophy and may not come back later. Accept it if she asks, just in case.
 
 <h2 id="collectible-cards">Collectible cards</h2>
 
-Cards are hidden around the map and come in themed sets, including sports teams like the **Vice City Flamingos** (24 cards). **Don't Touch My Deck** needs 3 complete sets; the 100% checklist needs 15. Completing the Vice City Flamingos set also unlocks the **Bubblegum** cheat.
+There are **480 cards** in **18 sets**, hidden around the map. The sets are themed, including sports teams like the **Vice City Flamingos** (24 cards). **Don't Touch My Deck** needs 3 complete sets; the 100% checklist needs 15. Completing the Vice City Flamingos set also unlocks the **Bubblegum** cheat.
 
 <h2 id="waink">WAiNK scans</h2>
 
@@ -90,23 +90,23 @@ Top Fun runs drone races at **14 locations**. **Top Fun** (the trophy) needs a w
 
 <h2 id="shooting-ranges">Shooting ranges</h2>
 
-The shooting range challenges hand out **42 gold medals** in total. **The Shootist** needs every gold, and the checklist wants the same 42.
+There are two ranges, **Griffin Shooting Range** and **Rodgers Ranch**, and their challenges hand out **42 gold medals** in total. **The Shootist** needs every gold, and the checklist wants the same 42.
 
 <h2 id="stunts">Stunts</h2>
 
-Stunts include stunt jumps among other types. **Cunning Stunts** needs 250 and the 100% checklist 300, so the trophy pops on the way. 50 stunt jumps also unlock the **unlimited nitrous** cheat.
+There are **397 stunts**: ramp jumps, flying under bridges, base jumps and more. **Cunning Stunts** needs 250 and the 100% checklist 300, so the trophy pops on the way. 50 stunt jumps also unlock the **unlimited nitrous** cheat.
 
 <h2 id="cocaine-flamingos">Cocaine Flamingos</h2>
 
-Flamingo ornaments placed around the map for you to destroy. The 100% checklist wants 100 of them, and 50 unlock the **Inflatable Flamingo** spawn cheat.
+Pink flamingo ornaments placed around the map. Shoot one and it drops a parcel of cocaine you can sell to a fence. There are **125**; the 100% checklist wants 100 of them, and 50 unlock the **Inflatable Flamingo** spawn cheat.
 
 <h2 id="underwater">Diving and underwater discoveries</h2>
 
-Treasure diving opens with **Kenton** in [Island Dreams](/walkthrough/island-dreams/). Dive with the metal detector: it signals green and beeps faster as you close in. The 100% checklist counts 33 underwater discoveries and 5 of Kenton's sets, and Kenton's final mission earns **This Was No Boat Accident**.
+Treasure diving opens with **Kenton** in [Island Dreams](/walkthrough/island-dreams/). Dive with the metal detector: it signals green and beeps faster as you close in. The 100% checklist counts 33 underwater discoveries and 5 of Kenton's 7 sets, and Kenton's final mission earns **This Was No Boat Accident**.
 
 <h2 id="reading">Magazines, books and comics</h2>
 
-Magazines, books and comics are found around Leonida. The 100% checklist needs 30 different ones.
+Magazines, books and comics are found around Leonida. There are 34 different ones and the 100% checklist needs 30. Duplicates don't count.
 
 <h2 id="races">Races</h2>
 
@@ -125,7 +125,7 @@ The first three are on the console at home ([Feng Shui](/walkthrough/feng-shui/)
 
 <h2 id="pool-golf-basketball">Pool, mini golf and basketball</h2>
 
-The 100% checklist wants 5 pool opponents beaten, 2 mini golf courses played and 90 basketball hoops. **Master of None** asks you to try each of 9 activity types once, and these are among the easiest to tick off.
+The 100% checklist wants 5 of the 7 pool opponents beaten (look in bars), 2 of the 3 mini golf courses played (**Dino Golf Challenge**, **Frontier Adventure Golf** and **King Gator Adventure Golf**) and 90 of the 100 basketball hoops. **Master of None** asks you to try each of 9 activity types once, and these are among the easiest to tick off.
 
 <h2 id="challenges">Challenges</h2>
 

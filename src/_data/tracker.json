@@ -12,7 +12,8 @@
      "pct": 15,
      "trophy": "Positive Mental Attitude",
      "tmax": 18,
-     "u": "/guides/activities-and-collectibles/#meditation"
+     "u": "/guides/activities-and-collectibles/#meditation",
+     "total": 18
     },
     {
      "id": "waink",
@@ -30,14 +31,16 @@
      "pct": 15,
      "trophy": "Don't Touch My Deck",
      "tmax": 3,
-     "u": "/guides/activities-and-collectibles/#collectible-cards"
+     "u": "/guides/activities-and-collectibles/#collectible-cards",
+     "total": 18
     },
     {
      "id": "flamingos",
      "n": "Cocaine Flamingos",
      "max": 100,
      "pct": 100,
-     "u": "/guides/activities-and-collectibles/#cocaine-flamingos"
+     "u": "/guides/activities-and-collectibles/#cocaine-flamingos",
+     "total": 125
     },
     {
      "id": "underwater",
@@ -51,14 +54,16 @@
      "n": "Kenton sets",
      "max": 5,
      "pct": 5,
-     "u": "/guides/side-contacts/#kenton"
+     "u": "/guides/side-contacts/#kenton",
+     "total": 7
     },
     {
      "id": "reading",
      "n": "Magazines, books and comics",
      "max": 30,
      "pct": 30,
-     "u": "/guides/activities-and-collectibles/#reading"
+     "u": "/guides/activities-and-collectibles/#reading",
+     "total": 34
     },
     {
      "id": "stunts",
@@ -67,7 +72,8 @@
      "pct": 300,
      "trophy": "Cunning Stunts",
      "tmax": 250,
-     "u": "/guides/activities-and-collectibles/#stunts"
+     "u": "/guides/activities-and-collectibles/#stunts",
+     "total": 397
     },
     {
      "id": "areas",
@@ -84,14 +90,16 @@
      "pct": 200,
      "trophy": "Whip It Good",
      "tmax": 100,
-     "u": "/guides/activities-and-collectibles/#waink"
+     "u": "/guides/activities-and-collectibles/#waink",
+     "total": 277
     },
     {
      "id": "animals",
      "n": "Animals studied",
      "max": 100,
      "pct": 100,
-     "u": "/guides/activities-and-collectibles/#fishing-hunting-gyms"
+     "u": "/guides/activities-and-collectibles/#fishing-hunting-gyms",
+     "total": 255
     }
    ]
   },
@@ -121,7 +129,8 @@
      "pct": 42,
      "trophy": "The Shootist",
      "tmax": 42,
-     "u": "/guides/activities-and-collectibles/#shooting-ranges"
+     "u": "/guides/activities-and-collectibles/#shooting-ranges",
+     "total": 42
     },
     {
      "id": "races",
@@ -130,35 +139,40 @@
      "pct": 30,
      "trophy": "Earn Cash, Not Kudos",
      "tmax": 20,
-     "u": "/guides/activities-and-collectibles/#races"
+     "u": "/guides/activities-and-collectibles/#races",
+     "total": 40
     },
     {
      "id": "racegolds",
      "n": "Race challenge golds",
      "max": 10,
      "pct": 10,
-     "u": "/guides/activities-and-collectibles/#races"
+     "u": "/guides/activities-and-collectibles/#races",
+     "total": 13
     },
     {
      "id": "pool",
      "n": "Pool opponents beaten",
      "max": 5,
      "pct": 5,
-     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball",
+     "total": 7
     },
     {
      "id": "golf",
      "n": "Mini golf courses",
      "max": 2,
      "pct": 2,
-     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball",
+     "total": 3
     },
     {
      "id": "hoops",
      "n": "Basketball hoops",
      "max": 90,
      "pct": 90,
-     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball",
+     "total": 100
     },
     {
      "id": "games",
@@ -223,14 +237,16 @@
      "n": "Smash 'N' Grabs",
      "max": 34,
      "pct": 34,
-     "u": "/guides/activities-and-collectibles/#robberies"
+     "u": "/guides/activities-and-collectibles/#robberies",
+     "total": 35
     },
     {
      "id": "stickups",
      "n": "Stick ups",
      "max": 50,
      "pct": 50,
-     "u": "/guides/activities-and-collectibles/#robberies"
+     "u": "/guides/activities-and-collectibles/#robberies",
+     "total": 91
     },
     {
      "id": "vaults",
