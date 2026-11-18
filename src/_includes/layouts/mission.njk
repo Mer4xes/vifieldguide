@@ -107,3 +107,17 @@ crumbParent:
     {%- if updated %}<p class="stamp">Last updated {{ updated | niceDate }}</p>{% endif %}
   </div>
 </section>
+{%- if sources and sources.length %}
+<section class="sec" id="sources">
+  <div class="wrap">
+    <p class="kicker">Sources</p>
+    <h2 class="sec-h sm">Checked against</h2>
+    <p class="lede">Facts on this page agree in at least two independent walkthroughs. The steps are written in our own words.</p>
+    <ul class="sources">
+      {%- for s in sources %}
+      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
