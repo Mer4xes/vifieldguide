@@ -65,7 +65,7 @@ schema: article
           {%- if c.tag %}<p class="pin">{{ c.tag }}</p>{% endif %}
           <h3>{{ c.t }}</h3>
           {%- if c.d %}<p>{{ c.d | md | safe }}</p>{% endif %}
-          {%- if c.status or c.src %}<p class="kmeta">{% if c.status %}<span class="chip {% if c.status == 'Reported' %}rum{% else %}ok{% endif %} dot">{{ c.status }}</span>{% endif %}{% if c.src %}<span>{{ c.src }}</span>{% endif %}</p>{% endif %}
+          {%- if c.status %}<p class="kmeta">{% if c.status %}<span class="chip {% if c.status == 'Reported' %}rum{% else %}ok{% endif %} dot">{{ c.status }}</span>{% endif %}</p>{% endif %}
           {%- if hasDlg %}<a class="kmore" href="#{{ cid }}" data-dlg="dlg-{{ cid }}" aria-haspopup="dialog">Details<span aria-hidden="true"> →</span></a>{% endif %}
         </div>
         {%- if hasDlg %}
@@ -80,7 +80,7 @@ schema: article
               {%- if c.more %}<ul class="klist one">{% for m in c.more %}<li>{{ m | md | safe }}</li>{% endfor %}</ul>{% endif %}
               <dl class="who-dl kdlg-dl">
                 <div><dt>Where</dt><dd>{% if c.region %}{% for r in c.region %}{% set rg = regions | where("slug", r) | first %}<a href="/map/{{ r }}/">{{ rg.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% else %}Not pinned down yet{% endif %}</dd></div>
-                {%- if c.status %}<div><dt>Status</dt><dd>{{ c.status }}{% if c.src %} · <span class="kdlg-src">{{ c.src }}</span>{% endif %}</dd></div>{% endif %}
+                {%- if c.status %}<div><dt>Status</dt><dd>{{ c.status }}</dd></div>{% endif %}
               </dl>
               {%- if detailNote %}<div class="tip"><span class="lab">Tip</span><div class="tip-body"><p>{{ detailNote }}</p></div></div>{% endif %}
               <div class="kdlg-soon"><p class="kicker">Added after launch</p><p>Map location, how to unlock it, rewards and tips, once we have checked them in the game.</p></div>
@@ -117,16 +117,4 @@ schema: article
   </div>
 </section>
 
-{%- if sources %}
-<section class="sec">
-  <div class="wrap">
-    <p class="kicker">Sources</p>
-    <ul class="sources">
-      {%- for s in sources %}
-      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
-      {%- endfor %}
-    </ul>
-    <p class="fig-credit">Images: Rockstar Games</p>
-  </div>
-</section>
-{%- endif %}
+<section class="sec sec-tight"><div class="wrap"><p class="fig-credit">Images: Rockstar Games</p></div></section>

@@ -6,11 +6,11 @@ description: "Every GTA 6 story mission in order across all five chapters, with 
 updated: 2026-11-18
 faq:
   - q: "How many story missions are in GTA 6?"
-    a: "About 90, spread over five chapters. Press Start counts 93 in the in-game story recap, and PC Gamer lists 91."
+    a: "About 90, spread over five chapters. The in-game story recap lists 93, and some guides count 91."
   - q: "How many chapters does GTA 6 have?"
     a: "Five. Each one earns a trophy when you finish it, the last one through the final mission."
   - q: "How long is the GTA 6 story?"
-    a: "Roughly 50 to 80 hours for the main story, depending on who you ask: Press Start says just under 50, VGC around 60 and PowerPyx 60 to 80."
+    a: "Roughly 50 to 80 hours for the main story, depending on how much you do on the side. Reported times range from just under 50 to around 80."
   - q: "Is there a point of no return in GTA 6?"
     a: "Yes, at the end of Chapter 1. After Recalibration the story runs straight through Tourist Trap, Home Sweet Home and Discharge Time with no free roam, and Jason is out of action for a long time. Make a separate manual save first and deposit your cash, since money in your pocket is lost and Jason's house in Key Lento is gone for good. Side jobs such as Kenton's dives come back later."
   - q: "How do you end Chapter 2 in GTA 6?"
@@ -42,7 +42,7 @@ faq:
 {%- if storyTotal %}
 <section class="sec">
   <div class="wrap">
-    <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: built from Press Start, PC Gamer and PowerPyx, keeping only missions that at least two of them list, and not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
+    <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: we keep only missions that at least two independent lists agree on, and it is not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
     {%- for c in story.chapters %}
     <div class="chapter" id="chapter-{{ c.n }}">
       {%- set nGuides = c.missions | guidesIn(missions) %}

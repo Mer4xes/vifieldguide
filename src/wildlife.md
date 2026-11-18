@@ -21,7 +21,7 @@ tldr:
 sections:
   - title: Animals Rockstar has named
     kicker: On land
-    lede: "Florida's real wildlife, invasive species included. Rockstar's art team singled these out to Game Informer."
+    lede: "Florida's real wildlife, invasive species included. Rockstar's art team singled these out."
     cards:
       - { t: Alligators, img: /assets/img/misc/wl-gator.webp, full: /assets/img/full/wl-gator.webp, d: "The Grassrivers favourite. Alligator hunting showed up in the Extended Look.", status: Confirmed, src: "Game Informer, Extended Look" }
       - { t: Green iguanas, img: /assets/img/misc/wl-iguana.webp, full: /assets/img/full/wl-iguana.webp, d: "One of several invasive species, alongside feral cats, cane toads, nine-banded armadillos and rhesus macaque monkeys.", status: Confirmed, src: Game Informer }

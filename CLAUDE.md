@@ -38,7 +38,7 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - Never copy text, step order wording, tables or structure from another guide. Gather facts from several sources, then write original steps in our own words and our own template. Quotes: none, or one short line with attribution.
 - New pages and steps stay "First pass" (no `verified` field) until Hauk or someone has confirmed them in the game.
 - Story details only inside spoiler blocks. A mission page covers only that mission.
-- Use "GTA 6" in titles and search-facing text. Add sources in front matter `sources` where the layout supports it.
-- Mission pages and the walkthrough list do not display sources (Hauk's call, Nov 18). Keep `sources` in mission front matter as our own record; the page shows only the status: Reported (two sources agree, first pass) or Verified (checked in-game).
+- Use "GTA 6" in titles and search-facing text. Record sources in front matter `sources` (not shown on the site).
+- The site does not display sources anywhere (Hauk's call, Nov 18): no source lists, no outlet names on cards, no "X says" attributions in text. Keep `sources`/`src` in front matter and data as our own record; pages show only the status: Confirmed (Rockstar/platform data), Reported (two independent sources agree) or Verified (checked in-game). Tell Hauk in the run report which sources were used and that they are safe.
 - Images: only official Rockstar Games media, credited "Image: Rockstar Games". Never screenshots taken from other sites or YouTube.
 - The site is non-commercial: no ads, affiliate links or sponsored content.

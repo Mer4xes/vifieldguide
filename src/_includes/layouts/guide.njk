@@ -109,15 +109,4 @@ crumbParent:
 <script type="application/ld+json">{{ faq | faqld | safe }}</script>
 {%- endif %}
 
-{%- if sources %}
-<section class="sec">
-  <div class="wrap">
-    <p class="kicker">Sources</p>
-    <ul class="sources">
-      {%- for s in sources %}
-      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
-      {%- endfor %}
-    </ul>
-  </div>
-</section>
-{%- endif %}
+
