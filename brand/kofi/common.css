@@ -1,0 +1,12 @@
+@font-face{font-family:"Anton";src:url("../../src/assets/fonts/anton-latin-400-normal.woff2")}
+@font-face{font-family:"Space Mono";src:url("../../src/assets/fonts/space-mono-latin-700-normal.woff2");font-weight:700}
+@font-face{font-family:"Hanken Grotesk";src:url("../../src/assets/fonts/hanken-grotesk-latin-wght-normal.woff2");font-weight:100 900}
+*{margin:0;box-sizing:border-box}
+body{background:#0b0711;overflow:hidden}
+.sun{position:absolute;border-radius:50%;background:linear-gradient(180deg,#ffcf7a 0%,#ffb24d 25%,#ff7a59 60%,#ff2e88 100%);
+ -webkit-mask:repeating-linear-gradient(180deg,#000 0 var(--b),transparent var(--b) calc(var(--b) + var(--g)));
+ mask:linear-gradient(180deg,#000 0 38%,transparent 38%) , repeating-linear-gradient(180deg,#000 0 var(--b),transparent var(--b) calc(var(--b) + var(--g)));}
+.floor{position:absolute;left:-10%;right:-10%;bottom:0;transform-origin:bottom;transform:perspective(var(--p)) rotateX(62deg);
+ background-image:linear-gradient(rgba(255,46,136,.55) 2px,transparent 2px),linear-gradient(90deg,rgba(39,226,212,.45) 2px,transparent 2px);
+ background-size:var(--cell) var(--cell);background-position:center bottom}
+.glow{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 100%,rgba(255,46,136,.35),transparent 60%)}
