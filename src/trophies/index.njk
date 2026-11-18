@@ -79,7 +79,7 @@
           <div class="name"><span class="secret">{{ tr.name }}</span></div>
           <div class="desc"><span class="secret">{{ tr.desc }}</span>{% if tr.target %} <span class="trk" title="Target tracked on PSN">0/{{ tr.target }}</span>{% endif %}</div>
           {%- if tr.how %}<details class="how"><summary>How to get it</summary><p>{{ tr.how | md | safe }}</p></details>{% endif %}
-          {%- if tr.link and not tr.hidden %}<a class="more" href="{{ tr.link }}">Related guide</a>{% endif %}
+          {%- if tr.link %}<a class="more" href="{{ tr.link }}">{% if tr.hidden %}<span class="secret">{{ tr.linkLabel or "Related guide" }}</span>{% else %}{{ tr.linkLabel or "Related guide" }}{% endif %} →</a>{% endif %}
         </div>
         <div class="side">
           <span class="rar {{ tr.grade }}">{{ gradeName[tr.grade] }}</span>

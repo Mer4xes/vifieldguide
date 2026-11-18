@@ -33,7 +33,8 @@
    "name": "Vice Got a Price!",
    "desc": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "tags": []
+   "tags": [],
+   "how": "Earn every other trophy. There are no online trophies, so it is all single player."
   },
   {
    "id": "just-like-paradise",
@@ -43,7 +44,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Unlocks when you finish the first mission as Jason.",
+   "link": "/walkthrough/gone-fishing/",
+   "linkLabel": "Gone Fishing walkthrough"
   },
   {
    "id": "paradise-lost",
@@ -53,7 +57,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story trophy for finishing Chapter 1. It cannot be missed.",
+   "link": "/walkthrough/#chapter-1",
+   "linkLabel": "Chapter 1 missions"
   },
   {
    "id": "t-s-ass-drug-money",
@@ -63,7 +70,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story trophy for finishing Chapter 2.",
+   "link": "/walkthrough/#chapter-2",
+   "linkLabel": "Chapter 2 missions"
   },
   {
    "id": "vice-city-baby",
@@ -73,7 +83,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story trophy for finishing Chapter 3.",
+   "link": "/walkthrough/#chapter-3",
+   "linkLabel": "Chapter 3 missions"
   },
   {
    "id": "top-of-the-world-ma",
@@ -83,7 +96,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story trophy for finishing Chapter 4.",
+   "link": "/walkthrough/#chapter-4",
+   "linkLabel": "Chapter 4 missions"
   },
   {
    "id": "you-gotta-know-when-to-get-off",
@@ -93,7 +109,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story trophy for the last mission of the game.",
+   "link": "/walkthrough/#chapter-5",
+   "linkLabel": "Chapter 5 missions"
   },
   {
    "id": "trust",
@@ -103,7 +122,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story mission in Chapter 2.",
+   "link": "/walkthrough/#chapter-2",
+   "linkLabel": "Chapter 2 missions"
   },
   {
    "id": "break-the-bank",
@@ -113,7 +135,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "The heist that closes Chapter 3.",
+   "link": "/walkthrough/#chapter-3",
+   "linkLabel": "Chapter 3 missions"
   },
   {
    "id": "family-matters",
@@ -123,7 +148,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story mission in Chapter 4.",
+   "link": "/walkthrough/#chapter-4",
+   "linkLabel": "Chapter 4 missions"
   },
   {
    "id": "dwnfall",
@@ -133,7 +161,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story mission in Chapter 4.",
+   "link": "/walkthrough/#chapter-4",
+   "linkLabel": "Chapter 4 missions"
   },
   {
    "id": "hi-jacked",
@@ -143,7 +174,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "The big Chapter 4 heist.",
+   "link": "/walkthrough/#chapter-4",
+   "linkLabel": "Chapter 4 missions"
   },
   {
    "id": "snow-storm",
@@ -153,7 +187,10 @@
    "tags": [
     "story"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Story mission in Chapter 5.",
+   "link": "/walkthrough/#chapter-5",
+   "linkLabel": "Chapter 5 missions"
   },
   {
    "id": "a-long-road",
@@ -163,8 +200,10 @@
    "tags": [
     "open-world"
    ],
-   "how": "PSN tracks this one as a percentage (0/100). Everything else on the list feeds into it.",
-   "target": "100"
+   "target": "100",
+   "how": "Reach 100% on the in-game checklist. It only appears after the credits, and it has 35 items. Every other trophy on this list helps along the way.",
+   "link": "/guides/100-percent-checklist/",
+   "linkLabel": "100% checklist"
   },
   {
    "id": "cunning-stunts",
@@ -174,7 +213,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "250"
+   "target": "250",
+   "how": "You need 250 stunts. The 100% checklist wants 300, so this pops on the way there. Stunt jumps count, and 50 of them also unlock the unlimited nitrous cheat.",
+   "link": "/guides/activities-and-collectibles/#stunts",
+   "linkLabel": "Stunts"
   },
   {
    "id": "master-of-none",
@@ -184,8 +226,10 @@
    "tags": [
     "open-world"
    ],
-   "link": "/activities/",
-   "target": "9"
+   "target": "9",
+   "how": "There are 9 activity types. Try each once: the activities guide lists the ones that count toward 100%, like pool, mini golf, basketball, races, shooting ranges, fishing and video games.",
+   "link": "/guides/activities-and-collectibles/",
+   "linkLabel": "Activities and collectibles"
   },
   {
    "id": "the-shootist",
@@ -195,8 +239,10 @@
    "tags": [
     "open-world"
    ],
-   "link": "/activities/#firing-range",
-   "target": "42"
+   "target": "42",
+   "how": "Gold in every shooting range challenge, 42 medals in all. The 100% checklist needs the same 42.",
+   "link": "/guides/activities-and-collectibles/#shooting-ranges",
+   "linkLabel": "Shooting ranges"
   },
   {
    "id": "top-fun",
@@ -206,7 +252,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "14"
+   "target": "14",
+   "how": "Win a Top Fun drone race at each of the 14 locations. The 100% checklist goes further and counts 42 drone time trials.",
+   "link": "/guides/activities-and-collectibles/#drone-races",
+   "linkLabel": "Drone races"
   },
   {
    "id": "earn-cash-not-kudos",
@@ -216,8 +265,10 @@
    "tags": [
     "open-world"
    ],
-   "link": "/activities/#street-racing-and-car-meets",
-   "target": "20"
+   "target": "20",
+   "how": "Win 20 different races; repeating one does not help. Venues include Gellhorn Raceway, the Thrillbilly Mud Club and Boone Speedway. The 100% checklist wants 30.",
+   "link": "/guides/activities-and-collectibles/#races",
+   "linkLabel": "Races"
   },
   {
    "id": "baited-my-tackle",
@@ -227,7 +278,9 @@
    "tags": [
     "open-world"
    ],
-   "link": "/characters/cal-hampton/"
+   "how": "Cal, Jason's fishing buddy from the first missions, challenges you to a fishing contest. Win one.",
+   "link": "/guides/side-contacts/#contacts",
+   "linkLabel": "Side contacts"
   },
   {
    "id": "stick-fiddler",
@@ -236,7 +289,10 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Finish one of the four in-game video games. Three are on the console at Jason's house; Bang For Your Buck is on arcade cabinets.",
+   "link": "/guides/activities-and-collectibles/#video-games",
+   "linkLabel": "Video games"
   },
   {
    "id": "road-to-rehabilitation",
@@ -246,7 +302,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Finish Andy's side strand.",
+   "link": "/guides/side-contacts/#contacts",
+   "linkLabel": "Side contacts"
   },
   {
    "id": "this-was-no-boat-accident",
@@ -256,7 +315,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Finish Kenton's treasure-diving strand. It starts with Island Dreams in Chapter 1.",
+   "link": "/guides/side-contacts/#kenton",
+   "linkLabel": "Kenton and the shipwrecks"
   },
   {
    "id": "the-lone-rider",
@@ -266,7 +328,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Finish Billy's side strand.",
+   "link": "/guides/side-contacts/#contacts",
+   "linkLabel": "Side contacts"
   },
   {
    "id": "strangers-and-freaks",
@@ -276,7 +341,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "8"
+   "target": "8",
+   "how": "Finish 8 stranger strands. Not every contact counts, so check the trophy tracker after each final mission.",
+   "link": "/guides/side-contacts/#strangers-and-freaks",
+   "linkLabel": "Strangers & Freaks"
   },
   {
    "id": "supply-and-demand",
@@ -286,7 +354,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Finish Randy's car strand. It starts in Chapter 3 with the Zorrusso job, which also gets you the key cloner.",
+   "link": "/guides/side-contacts/#randy",
+   "linkLabel": "Randy and the key cloner"
   },
   {
    "id": "spin-on-this",
@@ -296,7 +367,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Finish Tyrone's strand about shutting down the Kitty Litter operation. It starts in Chapter 3.",
+   "link": "/guides/side-contacts/#tyrone",
+   "linkLabel": "Tyrone"
   },
   {
    "id": "positive-mental-attitude",
@@ -307,7 +381,10 @@
     "open-world",
     "collectibles"
    ],
-   "target": "18"
+   "target": "18",
+   "how": "Meditate at all 18 spots. The 100% checklist only needs 15. Unconfirmed: one guide reports that a meditation Lucia offers at Jason's house in Chapter 1 may count and may not come back, so accept it if she asks.",
+   "link": "/guides/activities-and-collectibles/#meditation",
+   "linkLabel": "Meditation"
   },
   {
    "id": "fair-game",
@@ -317,7 +394,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Bret, the hunting contact, asks for a unique animal. Hunt it for him.",
+   "link": "/guides/side-contacts/#bret",
+   "linkLabel": "Bret and hunting"
   },
   {
    "id": "dont-touch-my-deck",
@@ -328,7 +408,10 @@
     "open-world",
     "collectibles"
    ],
-   "target": "3"
+   "target": "3",
+   "how": "Complete 3 card sets. The 100% checklist needs 15.",
+   "link": "/guides/activities-and-collectibles/#collectible-cards",
+   "linkLabel": "Collectible cards"
   },
   {
    "id": "you-wainker",
@@ -339,7 +422,10 @@
     "open-world",
     "collectibles"
    ],
-   "target": "100"
+   "target": "100",
+   "how": "Scan landmarks, statues and art with the WAiNK phone app at 100 locations. The 100% checklist needs the same 100.",
+   "link": "/guides/activities-and-collectibles/#waink",
+   "linkLabel": "WAiNK scans"
   },
   {
    "id": "one-last-thing",
@@ -349,7 +435,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "50"
+   "target": "50",
+   "how": "Challenges come in eight categories, from Combat to Vehicle. You need 50; the 100% checklist wants 70.",
+   "link": "/guides/activities-and-collectibles/#challenges",
+   "linkLabel": "Challenges"
   },
   {
    "id": "hot-together",
@@ -359,7 +448,9 @@
    "tags": [
     "open-world"
    ],
-   "link": "/how-it-plays/#the-heat-system"
+   "how": "Both leads have to be together (you can text or call your partner from the phone). Reach four stars, then get away. To shake the police, change what they are looking for: clothes, car or the way you look.",
+   "link": "/how-it-plays/#the-heat-system",
+   "linkLabel": "The Heat system"
   },
   {
    "id": "retail-therapy",
@@ -369,7 +460,9 @@
    "tags": [
     "open-world"
    ],
-   "link": "/how-it-plays/#loud-or-quiet"
+   "how": "Team up with your partner and rob three shops in a row without letting the wanted level drop.",
+   "link": "/guides/activities-and-collectibles/#robberies",
+   "linkLabel": "Robberies"
   },
   {
    "id": "whip-it-good",
@@ -380,8 +473,10 @@
     "open-world",
     "collectibles"
    ],
-   "link": "/how-it-plays/#waink",
-   "target": "100"
+   "target": "100",
+   "how": "Scanning a car with WAiNK counts as discovering it; you don't have to drive it. The 100% checklist wants 200 base models.",
+   "link": "/guides/activities-and-collectibles/#waink",
+   "linkLabel": "WAiNK scans"
   },
   {
    "id": "gunslinger",
@@ -391,8 +486,9 @@
    "tags": [
     "open-world"
    ],
-   "how": "Combat Focus slows time while you aim. Line up five takedowns before it runs out. See [Focus](/how-it-plays/#focus).",
-   "link": "/how-it-plays/#focus"
+   "how": "Combat Focus slows time while you aim (L3 and R3 together). Line up five takedowns before it runs out.",
+   "link": "/how-it-plays/#focus",
+   "linkLabel": "Focus"
   },
   {
    "id": "catch-me-if-you-can",
@@ -420,7 +516,10 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Rob a jewelry store without being spotted. Jewelry stores are part of the Smash 'N' Grabs on the 100% checklist.",
+   "link": "/guides/activities-and-collectibles/#robberies",
+   "linkLabel": "Robberies"
   },
   {
    "id": "maximum-withdrawal",
@@ -430,7 +529,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "5"
+   "target": "5",
+   "how": "Rob five bank vaults and get away. The 100% checklist wants all 8.",
+   "link": "/guides/activities-and-collectibles/#robberies",
+   "linkLabel": "Robberies"
   },
   {
    "id": "a-classic-blitz-play",
@@ -439,7 +541,10 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Rob an armored truck and escape.",
+   "link": "/guides/activities-and-collectibles/#robberies",
+   "linkLabel": "Robberies"
   },
   {
    "id": "the-goodtime-state",
@@ -450,8 +555,10 @@
     "open-world",
     "collectibles"
    ],
+   "target": "52",
+   "how": "Explore all of Leonida. PSN tracks it as 52 parts of the map, so fly or drive into every corner.",
    "link": "/map/",
-   "target": "52"
+   "linkLabel": "Map of Leonida"
   },
   {
    "id": "pest-control",
@@ -461,7 +568,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "9"
+   "target": "9",
+   "how": "There are 9 gangs. Rob one illegal operation belonging to each. The 100% checklist wants 39 gang operations in total.",
+   "link": "/guides/activities-and-collectibles/#robberies",
+   "linkLabel": "Robberies"
   },
   {
    "id": "in-the-beginning",
@@ -512,7 +622,10 @@
     "open-world"
    ],
    "hidden": true,
-   "target": "500"
+   "target": "500",
+   "how": "PSN counts 500 choices that shape your criminal profile. They add up as you play.",
+   "link": "/how-it-plays/#criminal-profile",
+   "linkLabel": "Criminal Profile"
   },
   {
    "id": "bad-luck-i-guess",
@@ -551,7 +664,10 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Launder $250,000 of Marked Bills through fences. It is the same figure the 100% checklist asks for.",
+   "link": "/guides/activities-and-collectibles/#fences",
+   "linkLabel": "Fences"
   },
   {
    "id": "treat-yo-self",
@@ -570,8 +686,10 @@
    "tags": [
     "open-world"
    ],
-   "link": "/how-it-plays/#garages-that-fence",
-   "target": "8"
+   "target": "8",
+   "how": "Buy all 8 garage properties.",
+   "link": "/guides/activities-and-collectibles/#garages",
+   "linkLabel": "Garages"
   },
   {
    "id": "on-the-spot",
@@ -581,7 +699,10 @@
    "tags": [
     "open-world"
    ],
-   "target": "10"
+   "target": "10",
+   "how": "Register 10 vehicles in the Scooter Bros app.",
+   "link": "/guides/activities-and-collectibles/#garages",
+   "linkLabel": "Garages and Scooter Bros"
   }
  ]
 }

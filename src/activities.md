@@ -21,6 +21,7 @@ facts:
   - { k: Relationship, v: "Activities together build it", status: Confirmed }
   - { k: Ultimate Edition, v: "Extra shops and a car hunt", status: Confirmed }
 tldr:
+  - "**The game is out.** For counts, trophies and the 100% checklist, see [activities and collectibles](/guides/activities-and-collectibles/). This page keeps what Rockstar showed before launch."
   - "Game Informer's cover story lists **base jumping, billiards, gyms, kayaking, mini golf, scuba diving, street and off-road racing, zoos, airboating and jet skiing** as confirmed."
   - "Rockstar's level designers describe a northern countryside built for **ATV trails, mud parties, demolition derbies, mountain biking, motocross, golf and bass fishing**."
   - "Inviting your partner to an activity, and saying yes when they ask, is one of the ways Jason and Lucia grow closer."
