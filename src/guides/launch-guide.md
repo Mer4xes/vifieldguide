@@ -174,8 +174,10 @@ Reviews went live on November 18, the day before launch, and they are close to u
 
 > **Note:** Aggregate scores move as more reviews come in. The numbers above are from the morning of November 18 (UTC).
 
+## Trophies
+
+The trophy list went live with the game: 55 trophies, with 1 platinum, 2 gold, 6 silver and 46 bronze. See the [trophy list](/trophies/) and the [100% checklist](/guides/100-percent-checklist/).
+
 ## What is not confirmed
 
 > **Note:** No PC version has been announced.
-
-> **Note:** There is no confirmed trophy or achievement list yet. Since the New Zealand unlock, several sites have posted a list of 55 trophies, but none says where it comes from and they disagree on the grades. We add it to the [trophies page](/trophies/) once it can be checked against the consoles.

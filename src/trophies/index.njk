@@ -52,7 +52,7 @@
     <p class="lede">The efficient order: play the story first, mop up the open world, then clean up what is left.</p>
     <div class="phases">
       {%- for p in t.roadmap %}
-      <div class="phase"><div class="num">{{ loop.index }}</div><div><h3>{{ p.title }}</h3><p>{{ p.text }}</p></div></div>
+      <div class="phase"><div class="num">{{ loop.index }}</div><div><h3>{{ p.title }}</h3><p>{{ p.text | md | safe }}</p></div></div>
       {%- endfor %}
     </div>
   </div>
@@ -62,7 +62,7 @@
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h">Trophy list</h2>
-    <p class="lede">Hidden trophies stay blurred until you reveal them or turn spoilers on.</p>
+    <p class="lede">Story trophies and secret ones stay blurred until you reveal them or turn spoilers on. Numbers show the target PSN tracks.</p>
     <div class="filters" data-filter-group="trophies" role="group" aria-label="Filter trophies">
       <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
       <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not earned</button>
@@ -77,7 +77,7 @@
         <input class="cb" type="checkbox" id="t-{{ tr.id }}" data-track="trophy:{{ tr.id }}" aria-label="Mark trophy {{ loop.index }} earned">
         <div class="body">
           <div class="name"><span class="secret">{{ tr.name }}</span></div>
-          <div class="desc"><span class="secret">{{ tr.desc }}</span></div>
+          <div class="desc"><span class="secret">{{ tr.desc }}</span>{% if tr.target %} <span class="trk" title="Target tracked on PSN">0/{{ tr.target }}</span>{% endif %}</div>
           {%- if tr.how %}<details class="how"><summary>How to get it</summary><p>{{ tr.how | md | safe }}</p></details>{% endif %}
           {%- if tr.link and not tr.hidden %}<a class="more" href="{{ tr.link }}">Related guide</a>{% endif %}
         </div>
@@ -91,6 +91,9 @@
     </div>
     <p class="nomatch" data-nomatch="trophies" hidden>No trophies match that filter.</p>
     <button class="reset" type="button" data-reset="trophy:">Reset tracker</button>
+    {%- if t.source %}
+    <p class="tsrc">Trophy list: <a href="{{ t.source.url }}" rel="noopener">{{ t.source.label }}</a>. {{ t.source.note }} Xbox achievements and Gamerscore not checked yet. Tips are first pass until we have earned them ourselves.</p>
+    {%- endif %}
   </div>
 </section>
 {%- endif %}

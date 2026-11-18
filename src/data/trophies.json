@@ -1,34 +1,587 @@
 {
-  "sample": true,
-  "updated": "2026-11-17",
-  "estimate": { "time": "~60h", "difficulty": "4/10", "playthroughs": "1" },
-  "roadmap": [
-    {
-      "title": "Play the story naturally",
-      "text": "Run the campaign start to finish without chasing trophies. Several unlock on their own, and you learn the map you need for phase two."
-    },
-    {
-      "title": "Sweep the open world",
-      "text": "With free roam fully open, clear collectibles and region milestones in passes by area: Vice City, the Keys, Grassrivers, the park."
-    },
-    {
-      "title": "Cleanup and grind",
-      "text": "Replay any missions you did not 100% the first time, finish the money and stat trophies, and take the Platinum."
-    }
-  ],
-  "items": [
-    { "id": "homecoming", "name": "Homecoming", "desc": "Complete the opening mission.", "grade": "bronze", "tags": ["story"], "link": "/walkthrough/homecoming/" },
-    { "id": "welcome-to-the-keys", "name": "Welcome to the Keys", "desc": "Set foot in the Leonida Keys for the first time.", "grade": "bronze", "tags": ["open-world"] },
-    { "id": "two-to-tango", "name": "Two to Tango", "desc": "Switch between Jason and Lucia 50 times.", "grade": "bronze", "tags": ["open-world"], "how": "You will get most of the way there by playing normally. Finish it off by swapping back and forth while standing still." },
-    { "id": "sunset-pier", "name": "Sunset Pier", "desc": "Watch a full sunset from the Vice City boardwalk.", "grade": "bronze", "tags": ["open-world"], "hidden": true },
-    { "id": "short-count", "name": "Short Count", "desc": "Finish the mission that sets everything in motion.", "grade": "bronze", "tags": ["story"], "missable": true, "link": "/walkthrough/short-count/" },
-    { "id": "clean-hands", "name": "Clean Hands", "desc": "Complete any story mission without taking damage.", "grade": "silver", "tags": ["story"] },
-    { "id": "high-roller", "name": "High Roller", "desc": "Hold $1,000,000 in cash at once.", "grade": "silver", "tags": ["open-world"] },
-    { "id": "state-of-leonida", "name": "State of Leonida", "desc": "Discover every district on the map.", "grade": "silver", "tags": ["open-world"] },
-    { "id": "the-long-way-down", "name": "The Long Way Down", "desc": "Make a one-time story choice in the final act.", "grade": "gold", "tags": ["story"], "missable": true, "hidden": true },
-    { "id": "collector", "name": "Collector", "desc": "Find every Hidden Icon across the state.", "grade": "gold", "tags": ["collectibles"], "link": "/collectibles/hidden-icons/" },
-    { "id": "perfect-record", "name": "Perfect Record", "desc": "Earn 100% on every story mission.", "grade": "gold", "tags": ["story"] },
-    { "id": "the-sun-also-sets", "name": "The Sun Also Sets", "desc": "Complete the main story.", "grade": "gold", "tags": ["story"] },
-    { "id": "100-leonida", "name": "100% Leonida", "desc": "Reach full game completion. Earn every other trophy.", "grade": "platinum", "tags": [] }
-  ]
+ "updated": "2026-11-18",
+ "source": {
+  "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
+  "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+  "note": "PS5 list, checked Nov 18, 2026. Names and descriptions as shown on PSN."
+ },
+ "roadmap": [
+  {
+   "title": "Play the story",
+   "text": "A dozen trophies are tied to the story: one per chapter, one for the final mission and several for named missions. Story choices also count toward Actions Speak Louder as you go, so play normally."
+  },
+  {
+   "title": "Strangers and side people",
+   "text": "Finish 8 stranger mission strands for Strangers & Freaks. Several strands have a hidden trophy of their own for the last mission. Beat Cal in a fishing challenge while you are at it."
+  },
+  {
+   "title": "Sweep Leonida",
+   "text": "Explore all 52 areas, meditate at all 18 spots, WAiNK It at 100 locations, finish 3 card sets and discover 100 vehicles. Work region by region and pick up drone races (14 locations), shooting range golds (42) and stunts (250) on the way."
+  },
+  {
+   "title": "Crime and money",
+   "text": "Rob 5 bank vaults, an armored truck, a jewelry store unseen and an illegal operation from each gang (9). Launder $250,000 in Marked Bills, spend $100,000 in shops, buy all 8 garages and register 10 cars with Scooter Bros."
+  },
+  {
+   "title": "Finish the 100% checklist",
+   "text": "The 100% checklist only shows up after the credits roll. Work through it with our [100% checklist](/guides/100-percent-checklist/). A Long Road unlocks the platinum."
+  }
+ ],
+ "items": [
+  {
+   "id": "vice-got-a-price",
+   "name": "Vice Got a Price!",
+   "desc": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "tags": []
+  },
+  {
+   "id": "just-like-paradise",
+   "name": "Just Like Paradise",
+   "desc": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "paradise-lost",
+   "name": "Paradise Lost",
+   "desc": "Complete Chapter 1.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "t-s-ass-drug-money",
+   "name": "T**s Ass Drug Money",
+   "desc": "Complete Chapter 2.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "vice-city-baby",
+   "name": "Vice City, Baby!",
+   "desc": "Complete Chapter 3.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "top-of-the-world-ma",
+   "name": "Top Of The World, Ma",
+   "desc": "Complete Chapter 4.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "you-gotta-know-when-to-get-off",
+   "name": "You Gotta Know When to Get Off",
+   "desc": "Complete the final mission.",
+   "grade": "gold",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "trust",
+   "name": "Trust",
+   "desc": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "break-the-bank",
+   "name": "Break the Bank",
+   "desc": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "family-matters",
+   "name": "Family Matters",
+   "desc": "Complete Child's Play.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "dwnfall",
+   "name": "DWNFALL",
+   "desc": "Complete Headliners.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "hi-jacked",
+   "name": "Hi-Jacked",
+   "desc": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "snow-storm",
+   "name": "Snow Storm",
+   "desc": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "tags": [
+    "story"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "a-long-road",
+   "name": "A Long Road",
+   "desc": "Attain 100% Completion.",
+   "grade": "gold",
+   "tags": [
+    "open-world"
+   ],
+   "how": "PSN tracks this one as a percentage (0/100). Everything else on the list feeds into it.",
+   "target": "100"
+  },
+  {
+   "id": "cunning-stunts",
+   "name": "Cunning Stunts",
+   "desc": "Complete 250 Stunts.",
+   "grade": "silver",
+   "tags": [
+    "open-world"
+   ],
+   "target": "250"
+  },
+  {
+   "id": "master-of-none",
+   "name": "Master of None",
+   "desc": "Try each type of activity once.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/activities/",
+   "target": "9"
+  },
+  {
+   "id": "the-shootist",
+   "name": "The Shootist",
+   "desc": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/activities/#firing-range",
+   "target": "42"
+  },
+  {
+   "id": "top-fun",
+   "name": "Top Fun",
+   "desc": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "target": "14"
+  },
+  {
+   "id": "earn-cash-not-kudos",
+   "name": "Earn Cash, Not Kudos",
+   "desc": "Win 20 different races.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/activities/#street-racing-and-car-meets",
+   "target": "20"
+  },
+  {
+   "id": "baited-my-tackle",
+   "name": "Baited My Tackle",
+   "desc": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/characters/cal-hampton/"
+  },
+  {
+   "id": "stick-fiddler",
+   "name": "Stick Fiddler",
+   "desc": "Complete an arcade game.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "road-to-rehabilitation",
+   "name": "Road to Rehabilitation",
+   "desc": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "this-was-no-boat-accident",
+   "name": "This Was No Boat Accident",
+   "desc": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "the-lone-rider",
+   "name": "The Lone Rider",
+   "desc": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "strangers-and-freaks",
+   "name": "Strangers & Freaks",
+   "desc": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "tags": [
+    "open-world"
+   ],
+   "target": "8"
+  },
+  {
+   "id": "supply-and-demand",
+   "name": "Supply & Demand",
+   "desc": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "spin-on-this",
+   "name": "Spin On This!",
+   "desc": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "positive-mental-attitude",
+   "name": "Positive Mental Attitude",
+   "desc": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "tags": [
+    "open-world",
+    "collectibles"
+   ],
+   "target": "18"
+  },
+  {
+   "id": "fair-game",
+   "name": "Fair Game",
+   "desc": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "dont-touch-my-deck",
+   "name": "Don't Touch My Deck",
+   "desc": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "tags": [
+    "open-world",
+    "collectibles"
+   ],
+   "target": "3"
+  },
+  {
+   "id": "you-wainker",
+   "name": "You WAiNKer!",
+   "desc": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "tags": [
+    "open-world",
+    "collectibles"
+   ],
+   "target": "100"
+  },
+  {
+   "id": "one-last-thing",
+   "name": "One Last Thing",
+   "desc": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "target": "50"
+  },
+  {
+   "id": "hot-together",
+   "name": "Hot Together",
+   "desc": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/how-it-plays/#the-heat-system"
+  },
+  {
+   "id": "retail-therapy",
+   "name": "Retail Therapy",
+   "desc": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/how-it-plays/#loud-or-quiet"
+  },
+  {
+   "id": "whip-it-good",
+   "name": "Whip It Good",
+   "desc": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "tags": [
+    "open-world",
+    "collectibles"
+   ],
+   "link": "/how-it-plays/#waink",
+   "target": "100"
+  },
+  {
+   "id": "gunslinger",
+   "name": "Gunslinger",
+   "desc": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "how": "Combat Focus slows time while you aim. Line up five takedowns before it runs out. See [Focus](/how-it-plays/#focus).",
+   "link": "/how-it-plays/#focus"
+  },
+  {
+   "id": "catch-me-if-you-can",
+   "name": "Catch Me If You Can",
+   "desc": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "challenging-tank",
+   "name": "Challenging Tank",
+   "desc": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "sneakthief",
+   "name": "Sneakthief",
+   "desc": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "maximum-withdrawal",
+   "name": "Maximum Withdrawal",
+   "desc": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "tags": [
+    "open-world"
+   ],
+   "target": "5"
+  },
+  {
+   "id": "a-classic-blitz-play",
+   "name": "A Classic Blitz Play",
+   "desc": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "the-goodtime-state",
+   "name": "The Goodtime State",
+   "desc": "Explore all of Leonida.",
+   "grade": "bronze",
+   "tags": [
+    "open-world",
+    "collectibles"
+   ],
+   "link": "/map/",
+   "target": "52"
+  },
+  {
+   "id": "pest-control",
+   "name": "Pest Control",
+   "desc": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "target": "9"
+  },
+  {
+   "id": "in-the-beginning",
+   "name": "In The Beginning…",
+   "desc": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "capital-offense",
+   "name": "Capital Offense",
+   "desc": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "lets-go-bowling",
+   "name": "Let’s Go Bowling",
+   "desc": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "personal-best",
+   "name": "Personal Best",
+   "desc": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "actions-speak-louder",
+   "name": "Actions Speak Louder",
+   "desc": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true,
+   "target": "500"
+  },
+  {
+   "id": "bad-luck-i-guess",
+   "name": "Bad Luck, I Guess",
+   "desc": "Second time's the charm.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "the-truth-is-out-there",
+   "name": "The Truth Is Out There",
+   "desc": "What the hell just happened?",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "ten-pin",
+   "name": "Ten Pin",
+   "desc": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "hidden": true
+  },
+  {
+   "id": "dime-on-the-dollar",
+   "name": "Dime on the Dollar",
+   "desc": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "treat-yo-self",
+   "name": "Treat Yo Self",
+   "desc": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ]
+  },
+  {
+   "id": "little-boxes",
+   "name": "Little Boxes",
+   "desc": "Purchase all garage properties.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "link": "/how-it-plays/#garages-that-fence",
+   "target": "8"
+  },
+  {
+   "id": "on-the-spot",
+   "name": "On the Spot",
+   "desc": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "tags": [
+    "open-world"
+   ],
+   "target": "10"
+  }
+ ]
 }
