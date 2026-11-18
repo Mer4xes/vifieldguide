@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+title: Search
+seoTitle: "Search The VI Field Guide: GTA 6 Missions, Trophies, Places and Characters"
+description: "Search every page of The VI Field Guide: GTA 6 missions, trophies, collectibles, regions, characters, activities and launch details."
+noindex: true
+eleventyExcludeFromCollections: true
+---
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">Search</p>
+    <h1>Find it fast</h1>
+    <p class="tagline">Missions, trophies, places, people and activities. Spoiler blocks are never searched, so results stay spoiler-safe.</p>
+    <form class="sbox" action="/search/" method="get" role="search" data-sitesearch>
+      <label class="sr" for="sq">Search the guide</label>
+      <input class="search" id="sq" type="search" name="q" placeholder="Try airboat, Lucia, file size…" autocomplete="off" spellcheck="false" enterkeyhint="search">
+      <button class="btn primary" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+<section class="sec">
+  <div class="wrap">
+    <p class="sres-n" data-sres-n aria-live="polite"></p>
+    <ol class="sres" data-sres></ol>
+    <div class="sres-empty" data-sres-empty>
+      <p class="kicker">Jump to</p>
+      <div class="filters">
+        <a class="fchip" href="/guides/launch-guide/">Release time</a>
+        <a class="fchip" href="/guides/launch-guide/#editions">Editions</a>
+        <a class="fchip" href="/characters/">Characters</a>
+        <a class="fchip" href="/map/">Regions</a>
+        <a class="fchip" href="/activities/">Activities</a>
+        <a class="fchip" href="/how-it-plays/">How it plays</a>
+      </div>
+    </div>
+    <noscript><p class="nomatch">Search needs JavaScript. Every section is also linked from the menu at the top.</p></noscript>
+  </div>
+</section>

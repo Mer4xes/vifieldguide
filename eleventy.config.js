@@ -185,6 +185,11 @@ export default function (eleventyConfig) {
         name: site.longName, alternateName: site.name, url: base + "/",
         description: site.description, inLanguage: "en-US",
         publisher: { "@type": "Organization", name: site.longName, url: base + "/" },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: { "@type": "EntryPoint", urlTemplate: base + "/search/?q={search_term_string}" },
+          "query-input": "required name=search_term_string",
+        },
       });
       out.push({ "@context": "https://schema.org", ...org });
     } else {
@@ -219,6 +224,64 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData("env", () => ({ samples: includeSamples() }));
+
+  // Site search: after each build, write /search.json from the rendered pages.
+  // One entry per page, plus one per anchored card, section and FAQ question.
+  // Spoiler blocks, popups and scripts are left out so search never reveals story details.
+  eleventyConfig.on("eleventy.after", async ({ dir, results }) => {
+    const fs = await import("node:fs/promises");
+    const path = await import("node:path");
+    const ent = { amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'", "#x27": "'", nbsp: " ", rsquo: "’", lsquo: "‘", ldquo: "“", rdquo: "”", ndash: "–", mdash: "—", hellip: "…" };
+    const text = (h) => String(h || "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&(#?\w+);/g, (m, k) => ent[k] ?? (k[0] === "#" ? String.fromCharCode(k[1] === "x" ? parseInt(k.slice(2), 16) : +k.slice(1)) : m))
+      .replace(/\s+/g, " ").trim();
+    const safe = (h) => String(h)
+      .replace(/<(script|style|noscript)\b[\s\S]*?<\/\1>/g, " ")
+      .replace(/<details class="spoiler"[\s\S]*?<\/details>/g, " ")
+      .replace(/<(nav|figcaption)\b[\s\S]*?<\/\1>/g, " ");
+    const clean = (h) => String(h).replace(/<dialog\b[\s\S]*?<\/dialog>/g, " ");
+    const chrome = (h) => String(h)
+      .replace(/<p class="(kmeta|kicker)"[\s\S]*?<\/p>/g, " ")
+      .replace(/<(a|button) class="(kmore|kdlg-x)"[\s\S]*?<\/\1>/g, " ");
+    const kinds = { walkthrough: "Mission", guides: "Guide", characters: "Character", map: "Map", vehicles: "Vehicle",
+      weapons: "Weapon", trophies: "Trophies", collectibles: "Collectibles", activities: "Activities", "how-it-plays": "How it plays",
+      wildlife: "Wildlife", music: "Music", videos: "Videos", about: "About" };
+    const out = [];
+    for (const r of results || []) {
+      if (!r.url || !r.url.endsWith("/") || !r.content || r.url === "/search/") continue;
+      const html = r.content;
+      if (/<meta name="robots" content="noindex/.test(html)) continue;
+      const title = text((html.match(/<title>([\s\S]*?)<\/title>/) || [])[1]).replace(/ \| VI Field Guide$/, "");
+      const desc = text((html.match(/<meta name="description" content="([^"]*)"/) || [])[1]);
+      const h1 = text((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1]);
+      const raw = safe((html.match(/<main id="main">([\s\S]*?)<\/main>/) || [])[1] || "");
+      const main = clean(raw);
+      const seg = r.url.split("/")[1];
+      const isIndex = r.url === "/" + seg + "/";
+      const kind = r.url === "/" ? "Home" : isIndex && seg !== "guides" ? "Section" : kinds[seg] || "Page";
+      const name = r.url === "/" ? "The VI Field Guide" : (h1 && h1.length < 60 ? h1 : title);
+      out.push({ u: r.url, t: name, k: kind, d: desc, h: title, x: text(chrome(main)).slice(0, 6000) });
+      // Cards on "What we know" pages (linkable as #id; activity cards open their popup).
+      for (const m of raw.matchAll(/<article class="kcard[^"]*" id="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)) {
+        const card = clean(m[2]);
+        const t = text((card.match(/<h3[^>]*>([\s\S]*?)<\/h3>/) || [])[1]);
+        const d = text((card.match(/<h3[^>]*>[\s\S]*?<\/h3>\s*<p>([\s\S]*?)<\/p>/) || [])[1]);
+        const more = text(chrome((m[2].match(/<dialog\b([\s\S]*?)<\/dialog>/) || [])[1] || "").replace(/<h3[^>]*>[\s\S]*?<\/h3>/g, " "));
+        if (t) out.push({ u: r.url + "#" + m[1], t, k: name, d, x: more.slice(0, 1500) });
+      }
+      // Sections with an id and a heading.
+      for (const m of main.matchAll(/<section class="sec[^"]*" id="([^"]+)"[^>]*>[\s\S]*?<h2[^>]*>([\s\S]*?)<\/h2>/g)) {
+        const t = text(m[2]);
+        if (t && m[1] !== "faq") out.push({ u: r.url + "#" + m[1], t, k: name, d: "" });
+      }
+      // FAQ questions.
+      const faq = (main.match(/<section class="sec" id="faq">([\s\S]*?)<\/section>/) || [])[1] || "";
+      for (const m of faq.matchAll(/<details[^>]*><summary>([\s\S]*?)<\/summary><div>([\s\S]*?)<\/div><\/details>/g))
+        out.push({ u: r.url + "#faq", t: text(m[1]), k: name + " · FAQ", d: text(m[2]).slice(0, 400) });
+    }
+    await fs.writeFile(path.join(dir.output, "search.json"), JSON.stringify(out));
+  });
 
   return {
     dir: { input: "src", output: outputDir(), includes: "_includes", data: "_data" },

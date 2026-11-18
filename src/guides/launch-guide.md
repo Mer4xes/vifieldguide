@@ -13,7 +13,9 @@ faq:
   - q: "What time does GTA 6 come out?"
     a: "At midnight in your own time zone on Thursday, November 19, 2026, on PS5 and Xbox Series X|S."
   - q: "What time does GTA 6 unlock on the US West Coast?"
-    a: "Reportedly 9 p.m. Pacific on Wednesday, November 18. The US PlayStation Store listing goes by midnight Eastern for the whole country. Rockstar has not published US times, and Xbox has not been confirmed."
+    a: "It is not settled. Rockstar says midnight local time, and AP and Forbes read that as midnight in each US time zone. The US PlayStation Store listing reportedly shows a single unlock at midnight Eastern, which would be 9 p.m. Pacific on Wednesday, November 18. Rockstar has not published US times, so check your console from 9 p.m. Pacific."
+  - q: "When does GTA 6 start on Xbox Cloud Gaming?"
+    a: "Xbox says cloud streaming starts at 1 a.m. Eastern on Thursday, November 19. That is 10 p.m. Pacific on Wednesday, November 18. It streams at Xbox Series S settings, so it also runs on Xbox One."
   - q: "Can I preload GTA 6?"
     a: "Yes. Digital pre-orders have been able to preload since November 10. You still can't play before the unlock."
   - q: "How big is the GTA 6 download?"
@@ -36,6 +38,7 @@ facts:
   - { k: Release, v: "Thu, Nov 19, 2026", status: Confirmed }
   - { k: Unlocks, v: "Midnight, local time", status: Confirmed }
   - { k: Platforms, v: "PS5, Xbox Series X|S", status: Confirmed }
+  - { k: Xbox Cloud, v: "1 a.m. ET, Nov 19", status: Confirmed }
   - { k: Download, v: "Up to 212 GB", status: Confirmed }
   - { k: Standard Edition, v: "$79.99", status: Confirmed }
   - { k: Ultimate Edition, v: "$99.99", status: Confirmed }
@@ -60,6 +63,15 @@ sources:
   - label: "Forbes: GTA 6 unlocks at midnight on November 19, but millions of Americans can start the night before"
     url: "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/"
     note: "US stores keyed to Eastern time. Nov 12, 2026."
+  - label: "AP via PBS NewsHour: what to know about the release of Grand Theft Auto VI"
+    url: "https://www.pbs.org/newshour/arts/the-long-wait-is-almost-over-heres-what-to-know-about-the-upcoming-release-of-grand-theft-auto-vi"
+    note: "Midnight local time per Rockstar, read as each US time zone. Nov 17, 2026."
+  - label: "Forbes: Xbox revealed the exact hour GTA 6 starts streaming"
+    url: "https://www.forbes.com/sites/brianmazique/2026/11/16/xbox-just-revealed-the-exact-hour-gta-6-starts-streaming-and-it-isnt-midnight/"
+    note: "Xbox Cloud Gaming start, 1 a.m. ET. Nov 16, 2026."
+  - label: "Tech Times: West Coast players may start at 9 p.m. Wednesday"
+    url: "https://www.techtimes.com/articles/330648/20261113/gta-6-release-time-west-coast-players-may-start-9-pm-wednesday-not-midnight-thursday.htm"
+    note: "Conflict between midnight local and the single US listing; cloud start time. Nov 13, 2026."
   - label: "Vice: GTA 6 gets a second day one patch on PS5 and Xbox"
     url: "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/"
     note: "Update 1.002.001 sizes and PS5 rollout. Nov 16, 2026."
@@ -78,7 +90,11 @@ sources:
 
 The game unlocks at midnight in your own time zone on Thursday, November 19, 2026. That applies to both PlayStation 5 and Xbox Series X|S, so the release rolls around the world region by region instead of going live everywhere at once.
 
-> **Note:** In the US the clock that counts is Eastern time. The PlayStation Store lists the unlock at 9 p.m. Pacific on Wednesday, November 18, which is midnight Eastern, so players further west get in on Wednesday evening. Rockstar has not published US times, and Xbox's US unlock has not been confirmed.
+> **Note:** The US is the one place where the time is not settled. Rockstar says midnight local time, and AP and Forbes take that to mean midnight in each US time zone. The US PlayStation Store listing, though, reportedly shows one unlock for the whole country at midnight Eastern, which would let Central, Mountain and Pacific players in on Wednesday evening (9 p.m. Pacific). Rockstar has not published a US table. If you are west of the East Coast, check your console from 9 p.m. Pacific on November 18.
+
+## Xbox Cloud Gaming
+
+Cloud streaming does not follow the midnight rule. Xbox says it starts at **1 a.m. Eastern on Thursday, November 19**, which is 10 p.m. Pacific on Wednesday, November 18. The cloud version runs at Xbox Series S settings, so you can also stream it on Xbox One.
 
 ## Preload
 

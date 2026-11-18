@@ -50,6 +50,7 @@
 <header class="nav">
   <div class="wrap nav-row">
     <a class="brand" href="/">VI&nbsp;Field&nbsp;Guide</a>
+    <a class="nav-search" href="/search/" aria-label="Search the guide" title="Search (press /)"{% if page.url == "/search/" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></a>
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
     <nav class="nav-links" id="nav-links" aria-label="Sections">
       {%- for item in site.nav %}
@@ -99,6 +100,7 @@
         <a href="/activities/">Activities</a>
         <a href="/wildlife/">Wildlife and weather</a>
         <a href="/music/">Music</a>
+        <a href="/search/">Search</a>
         <a href="/about/">About and spoiler policy</a>
       </nav>
     </div>

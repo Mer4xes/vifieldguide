@@ -314,3 +314,118 @@ document.addEventListener("click", (e) => {
     if (n) n.textContent = f === "all" ? "" : shown + (shown === 1 ? " activity" : " activities");
   });
 })();
+
+// Site search (/search/): loads /search.json on demand and ranks matches in the browser.
+// Press "/" anywhere to jump to search.
+(() => {
+  const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[’']/g, "");
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const words = (q) => norm(q).split(/[^a-z0-9$]+/).filter((w) => w.length > 0);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const t = e.target;
+    if (t.closest && t.closest("input,textarea,select,[contenteditable]")) return;
+    const box = document.querySelector("[data-sitesearch] input");
+    e.preventDefault();
+    if (box) box.focus(); else location.href = "/search/";
+  });
+
+  const form = document.querySelector("[data-sitesearch]");
+  if (!form) return;
+  const input = form.querySelector("input");
+  const list = document.querySelector("[data-sres]");
+  const count = document.querySelector("[data-sres-n]");
+  const empty = document.querySelector("[data-sres-empty]");
+  let index = null, loading = null;
+
+  const load = () => loading || (loading = fetch("/search.json", { cache: "no-cache" })
+    .then((r) => r.json())
+    .then((d) => (index = d.map((e) => ({ ...e, nt: norm(e.t), nd: norm(e.d), nh: norm(e.h), nx: norm(e.x), nk: norm(e.k) }))))
+    .catch(() => (index = [])));
+
+  // Every word must start a word somewhere in the entry ("airboat" finds "airboats", "file" does not find "profile").
+  const score = (e, ws, phrase) => {
+    let s = 0;
+    for (const w of ws) {
+      const re = new RegExp("(^|[^a-z0-9])" + w.replace(/[$]/g, "\\$"));
+      const inT = re.test(e.nt), inD = re.test(e.nd), inH = re.test(e.nh), inX = re.test(e.nx), inK = re.test(e.nk);
+      if (!inT && !inD && !inH && !inX && !inK) return 0;
+      s += (inT ? 12 : 0) + (inH ? 6 : 0) + (inD ? 4 : 0) + (inX ? 1 : 0) + (inK ? 1 : 0);
+    }
+    if (e.nt === phrase) s += 40;
+    else if (e.nt.startsWith(phrase)) s += 20;
+    else if (e.nt.includes(phrase)) s += 10;
+    else if (e.nh.includes(phrase) || e.nd.includes(phrase)) s += 8;
+    else if (ws.length > 1 && e.nx.includes(phrase)) s += 4;
+    if (!e.u.includes("#")) s += 2; // a whole page beats a card with the same score
+    return s;
+  };
+
+  const snippet = (e, ws) => {
+    const hit = (t) => t && ws.some((w) => norm(t).includes(w));
+    const src = (hit(e.d) || !hit(e.x) ? e.d : e.x) || e.x || "";
+    const n = src.toLowerCase();
+    let at = -1;
+    for (const w of ws) { at = n.indexOf(w); if (at >= 0) break; }
+    let cut = src;
+    if (src.length > 190) {
+      const start = Math.max(0, (at < 0 ? 0 : at) - 60);
+      cut = (start > 0 ? "…" : "") + src.slice(start, start + 190).trim() + (start + 190 < src.length ? "…" : "");
+    }
+    return mark(cut, ws);
+  };
+  // Escapes raw text and wraps word-start matches in <mark>.
+  function mark(raw, ws) {
+    const list = ws.filter((w) => w.length > 1).map((w) => w.replace(/[$]/g, "\\$"));
+    if (!list.length) return esc(raw);
+    const re = new RegExp("(^|[^a-z0-9])(" + list.join("|") + ")", "gi");
+    let out = "", last = 0, m;
+    const n = norm(raw).length === raw.length ? norm(raw) : raw.toLowerCase();
+    while ((m = re.exec(n))) {
+      const at = m.index + m[1].length, end = at + m[2].length;
+      out += esc(raw.slice(last, at)) + "<mark>" + esc(raw.slice(at, end)) + "</mark>";
+      last = end;
+      if (m[0].length === 0) re.lastIndex++;
+    }
+    return out + esc(raw.slice(last));
+  }
+
+  const render = (q) => {
+    const ws = words(q);
+    const has = ws.length > 0;
+    empty.hidden = has;
+    if (!has) { list.innerHTML = ""; count.textContent = ""; return; }
+    const phrase = norm(q).trim();
+    const hits = index.map((e) => [score(e, ws, phrase), e]).filter((x) => x[0] > 0).sort((a, b) => b[0] - a[0]);
+    const seen = new Set();
+    const top = [];
+    for (const [, e] of hits) {
+      const key = e.u + "|" + e.t;
+      if (seen.has(key)) continue;
+      seen.add(key); top.push(e);
+      if (top.length >= 30) break;
+    }
+    count.textContent = top.length
+      ? (hits.length > 30 ? "Top 30 of " + hits.length : top.length) + (top.length === 1 ? " result" : " results") + " for “" + q.trim() + "”"
+      : "Nothing found for “" + q.trim() + "”. Try a shorter word, or a place or character name.";
+    list.innerHTML = top.map((e) =>
+      '<li><a class="sres-a" href="' + esc(e.u) + '"><span class="sres-k">' + esc(e.k) + "</span>" +
+      '<span class="sres-t">' + mark(e.t, ws) + "</span>" +
+      (e.d || e.x ? '<span class="sres-d">' + snippet(e, ws) + "</span>" : "") + "</a></li>").join("");
+  };
+
+  let timer;
+  const run = () => {
+    const q = input.value;
+    const url = q.trim() ? "/search/?q=" + encodeURIComponent(q.trim()) : "/search/";
+    history.replaceState(null, "", url);
+    (index ? Promise.resolve() : load()).then(() => render(q));
+  };
+  input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 120); });
+  input.addEventListener("focus", load, { once: true });
+  form.addEventListener("submit", (e) => { e.preventDefault(); clearTimeout(timer); run(); input.blur(); });
+
+  const q0 = new URLSearchParams(location.search).get("q") || "";
+  if (q0) { input.value = q0; run(); } else if (matchMedia("(hover:hover)").matches) input.focus();
+})();

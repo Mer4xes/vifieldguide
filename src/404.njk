@@ -11,6 +11,11 @@ eleventyExcludeFromCollections: true
     <p class="kicker">404</p>
     <h1>Wrong turn</h1>
     <p class="tagline">That page does not exist, or it has not been written yet.</p>
+    <form class="sbox" action="/search/" method="get" role="search">
+      <label class="sr" for="q404">Search the guide</label>
+      <input class="search" id="q404" type="search" name="q" placeholder="Search the guide" autocomplete="off">
+      <button class="btn primary" type="submit">Search</button>
+    </form>
     <div class="btns">
       <a class="btn primary" href="/walkthrough/">Go to the walkthrough</a>
       <a class="btn" href="/">Home</a>

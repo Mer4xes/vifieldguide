@@ -14,7 +14,7 @@
   eleventyComputed: {
     title: (data) => data.c.name,
     seoTitle: (data) => `${data.c.name} in GTA 6: Who ${data.c.slug === "real-dimez" ? "Are" : "Is"} ${data.c.name}?`,
-    description: (data) => `${data.c.name} in GTA 6: ${data.c.role.toLowerCase()}. Background, connections to the rest of the cast and official artwork, spoiler-free.`,
+    description: (data) => `${data.c.name} in GTA 6: ${data.c.role.replace(/^\w/, (ch) => ch.toLowerCase()).replace(/\bjason\b/g, "Jason").replace(/\blucia\b/g, "Lucia").replace(/\bvice city\b/gi, "Vice City").replace(/\bkeys\b/g, "Keys")}. Background, connections to the rest of the cast and official artwork, spoiler-free.`,
   },
 }
 ---
