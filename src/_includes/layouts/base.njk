@@ -91,6 +91,9 @@
         {%- if site.social and site.social.length %}
         <p class="foot-social">Follow:{% for s in site.social %} <a href="{{ s.url }}" rel="me noopener" target="_blank">{{ s.label }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}</p>
         {%- endif %}
+        {%- if site.donate and site.donate.url %}
+        <p class="foot-donate"><a class="btn-donate" href="{{ site.donate.url }}" rel="noopener" target="_blank">♥ {{ site.donate.label }}</a><span>Free to use. If it helped, a small tip keeps it going.</span></p>
+        {%- endif %}
       </div>
       <nav class="foot-links" aria-label="More">
         <a href="/guides/launch-guide/">Launch guide</a>

@@ -6,7 +6,7 @@ kicker: About
 seoTitle: "About The VI Field Guide and Its Spoiler Policy"
 description: "How The VI Field Guide handles spoilers, what the verified labels mean, and how your progress is stored."
 summary: An unofficial, fan-made guide to Grand Theft Auto VI. Here is how it handles spoilers, accuracy and your progress.
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 ## Spoilers
@@ -21,10 +21,10 @@ The guide is written so you can use it without having the story spoiled.
 
 ## Accuracy
 
-- Pages marked **Verified** have been checked in the game on the version shown.
-- Pages marked **First pass** were written while playing and have not been replayed yet.
-- Before launch, facts are marked **Confirmed** when they come from Rockstar and **Reported** when they come from the press.
-- Leaks and rumoured lists are not used.
+- **Confirmed** facts come from Rockstar or the official trophy list.
+- **Reported** facts agree in at least two independent sources, checked before they go up. Steps are written in our own words.
+- **First pass** means a page has not been checked in our own game yet. Pages marked **Verified** have been, on the version shown.
+- Leaks, datamined content and rumoured lists are not used.
 
 ## Your progress
 
@@ -33,5 +33,11 @@ Ticked steps, missions, trophies and collectibles are stored in your browser. Th
 ## Who makes this
 
 The VI Field Guide is an independent fan project. It is not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.
+
+{% if site.donate and site.donate.url %}
+## Support the guide
+
+The guide is free, with no ads and no sponsored content. If it saved you some time, you can leave a small tip: [{{ site.donate.label }}]({{ site.donate.url }}). It is entirely voluntary and changes nothing on the site.
+{% endif %}
 
 {% if site.contactEmail %}Found a mistake? Write to [{{ site.contactEmail }}](mailto:{{ site.contactEmail }}).{% endif %}

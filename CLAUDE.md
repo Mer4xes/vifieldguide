@@ -41,4 +41,4 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - Use "GTA 6" in titles and search-facing text. Record sources in front matter `sources` (not shown on the site).
 - The site does not display sources anywhere (Hauk's call, Nov 18): no source lists, no outlet names on cards, no "X says" attributions in text. Keep `sources`/`src` in front matter and data as our own record; pages show only the status: Confirmed (Rockstar/platform data), Reported (two independent sources agree) or Verified (checked in-game). Tell Hauk in the run report which sources were used and that they are safe.
 - Images: only official Rockstar Games media, credited "Image: Rockstar Games". Never screenshots taken from other sites or YouTube.
-- The site is non-commercial: no ads, affiliate links or sponsored content.
+- The site is non-commercial: no ads, affiliate links or sponsored content. The one exception is a voluntary donation link (Hauk's call, Nov 18): `site.donate.url` in `src/_data/site.js`, shown as a plain link in the footer and on the About page. No widgets, popups, perks or paywalled content.
