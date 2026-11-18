@@ -8,7 +8,7 @@ updated: 2026-11-17
 {%- set vehicles = db.kinds[0] %}
 {%- set weapons = db.kinds[1] %}
 {%- set sections = [
-  { title: "Walkthrough", url: "/walkthrough/", n: collections.missions.length, unit: "missions", text: "Story missions in order, step by step, with missable warnings." },
+  { title: "Walkthrough", url: "/walkthrough/", n: (storyMissions.total or collections.missions.length), unit: "missions", text: "Every story mission in order with a tracker. Step-by-step guides follow as we play." },
   { title: "Trophies", url: "/trophies/", n: db.trophies.items.length, unit: "trophies", text: "The full list and a clean route to the platinum." },
   { title: "Collectibles", url: "/collectibles/", n: db.collectibles.mapped, unit: "locations", text: "Every set, mapped by region, with a checklist." },
   { title: "Vehicles", url: "/vehicles/", n: vehicles.items.length, unit: "vehicles", text: "Where to find each ride and how it handles." },

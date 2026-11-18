@@ -683,3 +683,4 @@ html.spoilers-on .is-secret .trk{visibility:visible}
 .pctlist .tr{cursor:pointer}
 .need{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--gold);white-space:nowrap}
 .tr.is-done .need{color:var(--faint)}
+.wt-note{margin-bottom:30px}

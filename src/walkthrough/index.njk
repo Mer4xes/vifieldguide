@@ -2,19 +2,30 @@
 layout: layouts/base.njk
 title: Walkthrough
 seoTitle: "GTA 6 Walkthrough: All Story Missions, Step by Step"
-description: "Step-by-step walkthroughs for every GTA 6 story mission, in order, with bonus objectives, missable warnings and a progress tracker. Spoiler-safe by default."
-updated: 2026-11-17
+description: "Every GTA 6 story mission in order across all five chapters, with a progress tracker, an option to hide mission names ahead of you, and step-by-step walkthroughs as they are written."
+updated: 2026-11-18
+faq:
+  - q: "How many story missions are in GTA 6?"
+    a: "About 90, spread over five chapters. Press Start counts 93 in the in-game story recap, and PC Gamer lists 91."
+  - q: "How many chapters does GTA 6 have?"
+    a: "Five. Each one earns a trophy when you finish it, the last one through the final mission."
+  - q: "How long is the GTA 6 story?"
+    a: "Roughly 50 to 80 hours for the main story, depending on who you ask: Press Start says just under 50, VGC around 60 and PowerPyx 60 to 80."
+  - q: "Do you have to play the missions in this order?"
+    a: "No. Within a chapter several missions can be done in a different order. This list follows the order of the in-game story recap."
 ---
 {%- set missions = collections.missions %}
+{%- set story = storyMissions %}
+{%- set storyTotal = story.total or 0 %}
 {%- set whoShort = { jason: "Jason", lucia: "Lucia", both: "Both" } %}
 <header class="mast" style="--glow:var(--pink)">
   <div class="wrap">
     <p class="kicker">Story walkthrough</p>
     <h1>The Walkthrough</h1>
     <p class="tagline">Every story mission in order. Tick missions off as you finish them and this page keeps your place.</p>
-    {%- if missions.length %}
-    <div class="progress" data-progress="mission:" data-total="{{ missions.length }}">
-      <div class="row"><span class="lab">Story progress</span><span class="pct"><span data-done>0</span> / {{ missions.length }} missions</span></div>
+    {%- if storyTotal or missions.length %}
+    <div class="progress" data-progress="mission:" data-total="{{ storyTotal or missions.length }}">
+      <div class="row"><span class="lab">Story progress</span><span class="pct"><span data-done>0</span> / {{ storyTotal or missions.length }} missions</span></div>
       <div class="bar"><i></i></div>
     </div>
     <div class="toolbar">
@@ -24,7 +35,44 @@ updated: 2026-11-17
   </div>
 </header>
 
-{%- if not missions.length %}
+{%- if storyTotal %}
+<section class="sec">
+  <div class="wrap">
+    <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: built from Press Start, PC Gamer and PowerPyx, keeping only missions that at least two of them list, and not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
+    {%- for c in story.chapters %}
+    <div class="chapter" id="chapter-{{ c.n }}">
+      <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions</span></h2>
+      {%- if c.n == 5 %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Final chapter mission names</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
+      <ol class="mlist">
+        {%- for m in c.missions %}
+        {%- set ms = m.t | slugify %}
+        {%- set mp = (missions | where("data.slug", ms))[0] %}
+        <li class="mrow" data-track-row>
+          <input class="cb" type="checkbox" id="m-{{ ms }}" data-track="mission:{{ ms }}" aria-label="Mark {{ m.t }} complete">
+          <span class="mrow-no">{{ m.no | pad }}</span>
+          {%- if mp %}
+          <a class="mrow-title" href="{{ mp.url }}"><span class="t">{{ m.t }}</span></a>
+          {%- else %}
+          <span class="mrow-title"><span class="t">{{ m.t }}</span></span>
+          {%- endif %}
+          {%- if m.optional or mp %}
+          <span class="mrow-tags">
+            {%- if m.optional %}<span class="chip plain">Side job</span>{% endif %}
+            {%- if mp and mp.data.missables and mp.data.missables.length %}<span class="flag">Missable</span>{% endif %}
+            {%- if mp and mp.data.protagonist %}<span class="chip who {{ mp.data.protagonist }}">{{ whoShort[mp.data.protagonist] }}</span>{% endif %}
+            {%- if mp %}<span class="chip ok dot">Guide</span>{% endif %}
+          </span>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ol>
+      {%- if c.n == 5 %}</div></details>{% endif %}
+    </div>
+    {%- endfor %}
+    <button class="reset" type="button" data-reset="mission:">Reset story progress</button>
+  </div>
+</section>
+{%- elif not missions.length %}
 <section class="sec">
   <div class="wrap">
     <div class="empty">
@@ -70,5 +118,30 @@ updated: 2026-11-17
       <div class="card"><span class="chip ok dot">Verified</span><h3>Checked in the game</h3><p>The steps were replayed and confirmed on the game version shown. Pages not yet checked say so.</p></div>
       <div class="card"><span class="chip who both">Both</span><h3>Who you play</h3><p>Shows whether the mission is Jason's, Lucia's or one you play as both.</p></div>
     </div>
+  </div>
+</section>
+
+{%- if faq %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ faq | faqld | safe }}</script>
+{%- endif %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Sources</p>
+    <ul class="sources">
+      <li><a href="https://press-start.com.au/news/2026/11/18/heres-how-many-story-missions-are-in-grand-theft-auto-6/" rel="noopener">Press Start: how many story missions are in Grand Theft Auto 6</a> <span>Story recap list, length. Nov 18, 2026.</span></li>
+      <li><a href="https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/" rel="noopener">PC Gamer: GTA 6 mission list</a> <span>Chapters and missions. Nov 18, 2026.</span></li>
+      <li><a href="https://www.powerpyx.com/gta-6-full-walkthrough-all-missions" rel="noopener">PowerPyx: GTA 6 full walkthrough</a> <span>Missions incl. side jobs, length. Nov 18, 2026.</span></li>
+    </ul>
   </div>
 </section>

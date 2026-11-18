@@ -1,0 +1,405 @@
+{
+ "updated": "2026-11-18",
+ "chapters": [
+  {
+   "n": 1,
+   "missions": [
+    {
+     "t": "Prologue",
+     "no": 1
+    },
+    {
+     "t": "Gone Fishing",
+     "no": 2
+    },
+    {
+     "t": "Gear Up",
+     "no": 3
+    },
+    {
+     "t": "Just a Scratch",
+     "no": 4
+    },
+    {
+     "t": "Lab Fees",
+     "no": 5
+    },
+    {
+     "t": "Unwanted Attention",
+     "no": 6
+    },
+    {
+     "t": "Pipework",
+     "no": 7
+    },
+    {
+     "t": "Hey Arnold!",
+     "no": 8
+    },
+    {
+     "t": "Island Dreams",
+     "no": 9
+    },
+    {
+     "t": "Feng Shui",
+     "no": 10
+    },
+    {
+     "t": "Coming Home",
+     "no": 11
+    },
+    {
+     "t": "Buck Me",
+     "no": 12
+    },
+    {
+     "t": "Clean Up After Donnie",
+     "no": 13
+    },
+    {
+     "t": "Down to Earth",
+     "no": 14
+    },
+    {
+     "t": "Clear Skies",
+     "no": 15
+    },
+    {
+     "t": "Day Release",
+     "no": 16
+    },
+    {
+     "t": "Swamped",
+     "no": 17
+    },
+    {
+     "t": "Don Gone",
+     "no": 18
+    },
+    {
+     "t": "Recalibration",
+     "no": 19
+    },
+    {
+     "t": "Tourist Trap",
+     "no": 20
+    },
+    {
+     "t": "Home Sweet Home",
+     "no": 21
+    },
+    {
+     "t": "Discharge Time",
+     "no": 22
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "missions": [
+    {
+     "t": "What's in the Bag?",
+     "no": 23
+    },
+    {
+     "t": "Ambulance Chaser",
+     "no": 24
+    },
+    {
+     "t": "Just Moved In",
+     "no": 25
+    },
+    {
+     "t": "Girls' Trip",
+     "no": 26
+    },
+    {
+     "t": "Moses",
+     "no": 27
+    },
+    {
+     "t": "Daily Driver",
+     "no": 28
+    },
+    {
+     "t": "Slam Dunk",
+     "no": 29
+    },
+    {
+     "t": "Breakfast Run",
+     "no": 30
+    },
+    {
+     "t": "Coffee Break",
+     "no": 31
+    },
+    {
+     "t": "Afternoon Delight",
+     "no": 32
+    },
+    {
+     "t": "Thrillbillies",
+     "optional": true,
+     "no": 33
+    },
+    {
+     "t": "Twist Wrist, Smash, Grab",
+     "optional": true,
+     "no": 34
+    },
+    {
+     "t": "Checking Out",
+     "no": 35
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "missions": [
+    {
+     "t": "Welcome to Vice City",
+     "no": 36
+    },
+    {
+     "t": "Dealer's Choice",
+     "no": 37
+    },
+    {
+     "t": "Meet the Heders",
+     "no": 38
+    },
+    {
+     "t": "Dubious Provenance",
+     "no": 39
+    },
+    {
+     "t": "Mami Knows Best",
+     "no": 40
+    },
+    {
+     "t": "South Leonida Real Estate",
+     "no": 41
+    },
+    {
+     "t": "Tyrone",
+     "no": 42
+    },
+    {
+     "t": "Here, Kitty Kitty",
+     "no": 43
+    },
+    {
+     "t": "Car Service",
+     "no": 44
+    },
+    {
+     "t": "Top Billing",
+     "no": 45
+    },
+    {
+     "t": "Boobie Time",
+     "no": 46
+    },
+    {
+     "t": "First Impressions",
+     "no": 47
+    },
+    {
+     "t": "Caught Slipping",
+     "no": 48
+    },
+    {
+     "t": "Crosstown Traffic",
+     "no": 49
+    },
+    {
+     "t": "Credit Check",
+     "no": 50
+    },
+    {
+     "t": "Steal the Zorrusso for Randy",
+     "no": 51
+    },
+    {
+     "t": "Sinfrontera National Bank",
+     "no": 52
+    },
+    {
+     "t": "Security Expert",
+     "no": 53
+    },
+    {
+     "t": "Ride or Die",
+     "no": 54
+    },
+    {
+     "t": "Company Property",
+     "no": 55
+    },
+    {
+     "t": "The Missing Link",
+     "no": 56
+    },
+    {
+     "t": "Safe Word",
+     "no": 57
+    },
+    {
+     "t": "Cooties",
+     "no": 58
+    },
+    {
+     "t": "Bricked Up",
+     "no": 59
+    },
+    {
+     "t": "Hidden Charges",
+     "no": 60
+    },
+    {
+     "t": "The Cartel Heist",
+     "no": 61
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "missions": [
+    {
+     "t": "Ocean Beach",
+     "no": 62
+    },
+    {
+     "t": "Another Life",
+     "no": 63
+    },
+    {
+     "t": "Company Cars",
+     "no": 64
+    },
+    {
+     "t": "Lawyer Up",
+     "no": 65
+    },
+    {
+     "t": "Party Hard",
+     "no": 66
+    },
+    {
+     "t": "Heavy Lifting",
+     "no": 67
+    },
+    {
+     "t": "Photo/Shoot",
+     "no": 68
+    },
+    {
+     "t": "Making Gainz",
+     "no": 69
+    },
+    {
+     "t": "Watch It",
+     "no": 70
+    },
+    {
+     "t": "Cash Injections",
+     "no": 71
+    },
+    {
+     "t": "Amateur Hour",
+     "no": 72
+    },
+    {
+     "t": "Dirty Work",
+     "no": 73
+    },
+    {
+     "t": "Too Much Baggage",
+     "no": 74
+    },
+    {
+     "t": "Adventures in Babysitting",
+     "no": 75
+    },
+    {
+     "t": "Fresh Evidence",
+     "no": 76
+    },
+    {
+     "t": "Power Play",
+     "no": 77
+    },
+    {
+     "t": "Child's Play",
+     "no": 78
+    },
+    {
+     "t": "Headliners",
+     "no": 79
+    },
+    {
+     "t": "Close Surveillance",
+     "no": 80
+    },
+    {
+     "t": "Delivery Method",
+     "no": 81
+    },
+    {
+     "t": "Team Building",
+     "no": 82
+    },
+    {
+     "t": "Fully Catered",
+     "no": 83
+    },
+    {
+     "t": "VCIA Takedown",
+     "no": 84
+    },
+    {
+     "t": "Sunset",
+     "no": 85
+    },
+    {
+     "t": "Starting From Zero",
+     "no": 86
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "missions": [
+    {
+     "t": "Bird in the Hand",
+     "no": 87
+    },
+    {
+     "t": "Taking Liberties",
+     "no": 88
+    },
+    {
+     "t": "VC Baby",
+     "no": 89
+    },
+    {
+     "t": "Doggie Bag",
+     "no": 90
+    },
+    {
+     "t": "Operation Savage Glory",
+     "no": 91
+    },
+    {
+     "t": "Protective Custody",
+     "no": 92
+    },
+    {
+     "t": "The End of the Road",
+     "no": 93
+    }
+   ]
+  }
+ ],
+ "total": 93
+}
