@@ -34,7 +34,7 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 
 ## Editorial rules (non-negotiable)
 - No leaks, no datamined content before launch, no guessing. If a fact is not cross-checked, leave it out.
-- Every fact needs at least two independent sources, or one primary source (Rockstar, PlayStation/Xbox trophy lists, Game Informer interviews with Rockstar). Promptowy (promptowy.com, Polish walkthroughs) counts as an independent second source next to PowerPyx when the two agree (Hauk, Nov 18).
+- Every fact needs at least two independent sources, or one primary source (Rockstar, PlayStation/Xbox trophy lists, Game Informer interviews with Rockstar). Promptowy (promptowy.com, Polish walkthroughs) counts as an independent second source next to PowerPyx when the two agree (Hauk, Nov 18). IGN (ign.com/wikis/gta-6) and Rock Paper Shotgun are approved independent sources too, but both block fetching from cloud runs (checked Nov 18): don't try to get around it; use them when Hauk pastes content or a run has his computer.
 - Never copy text, step order wording, tables or structure from another guide. Gather facts from several sources, then write original steps in our own words and our own template. Quotes: none, or one short line with attribution.
 - New pages and steps stay "First pass" (no `verified` field) until Hauk or someone has confirmed them in the game.
 - Story details only inside spoiler blocks. A mission page covers only that mission.
