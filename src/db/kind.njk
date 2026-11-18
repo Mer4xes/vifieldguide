@@ -24,9 +24,9 @@
 <section class="sec">
   <div class="wrap">
     <div class="empty">
-      <p class="kicker">Opens at launch</p>
-      <h2 class="sec-h sm">The {{ k.singular }} list starts on November 19</h2>
-      <p>Every {{ k.singular }} gets a page with its stats, price and where to find it, added once we have used it in the game. No leaked lists and no guessed numbers.</p>
+      <p class="kicker">Being filled in</p>
+      <h2 class="sec-h sm">Full {{ k.singular }} pages are on the way</h2>
+      <p>Every {{ k.singular }} gets a page with its stats, price and where to find it once we have used it in the game. No leaked lists and no guessed numbers. Below is what is already confirmed.</p>
     </div>
   </div>
 </section>
@@ -41,10 +41,21 @@
       {%- for c in kn.items %}
       <article class="kcard has-img">
         <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="known-{{ k.slug }}" alt="{{ c.t }}, official GTA 6 image" width="800" height="450" loading="lazy">
-        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p><p class="kmeta"><span class="chip ok dot">Confirmed</span><span>Rockstar</span></p></div>
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p>{% if c.where %}<p class="kwhere"><b>Where</b>{{ c.where }}</p>{% endif %}<p class="kmeta"><span class="chip ok dot">Confirmed</span>{% if c.where %}<span class="chip rum dot">Location reported</span>{% endif %}</p></div>
       </article>
       {%- endfor %}
     </div>
+    {%- if kn.found and kn.found.length %}
+    <h2 class="sec-h sm" style="margin-top:34px">Found in the game so far</h2>
+    <p class="lede">Picked up along the story and side jobs. First pass, not yet checked in our own game.</p>
+    <div class="kcards compact">
+      {%- for c in kn.found %}
+      <article class="kcard">
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p><p class="kmeta"><span class="chip rum dot">Reported</span>{% if c.u %}<a href="{{ c.u }}">Details →</a>{% endif %}</p></div>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- endif %}
     {%- if kn.seen %}
     <h2 class="sec-h sm" style="margin-top:34px">Types seen in official footage</h2>
     <div class="castlist">{% for p in kn.seen %}<span>{{ p }}</span>{% endfor %}</div>

@@ -740,3 +740,9 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 /* Trophy rows are link targets (/trophies/#trophy-id) */
 .tr{scroll-margin-top:90px}
 .tr:target{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+
+/* Known items: where to collect, found-in-game cards */
+.kbody .kwhere{margin-top:10px;font-size:14px;color:var(--muted);line-height:1.5}
+.kbody .kwhere b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:2px;font-weight:400}
+.kbody .kmeta a{color:var(--cyan);text-decoration:none;margin-left:auto}
+.kcard:not(.has-img) .kbody{padding-top:16px}

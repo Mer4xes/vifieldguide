@@ -1,12 +1,13 @@
 {
   "vehicles": {
-    "lede": "Every vehicle Rockstar has named so far, with where it comes from. The full list, with stats and where to find each one, starts on November 19.",
+    "lede": "Every vehicle Rockstar named before launch, now with where and when you collect the edition bonuses. Stats and prices follow once we have driven them ourselves.",
     "items": [
       {
         "t": "'95 Grotti Cheetah",
         "tag": "Sports · Ultimate Edition",
         "img": "ue-grotti-cheetah-01",
-        "d": "Grotti's mid-'90s sports car with a minimalist, retro-futuristic livery. Unlocks for later-stage action."
+        "d": "Grotti's mid-'90s sports car with a minimalist, retro-futuristic livery. Unlocks for later-stage action.",
+        "where": "Chapter 5, in the garage under the Pegassi Residences in Vice City."
       },
       {
         "t": "'55 Vapid Stanier",
@@ -18,31 +19,36 @@
         "t": "'67 Vapid Dominator Buggy",
         "tag": "Off-road · Ultimate Edition",
         "img": "ue-vapid-buggy-01",
-        "d": "A Mud Club monster for the backwoods of Mount Kalaga, stored at the Paradise Garage in Watson Bay."
+        "d": "A Mud Club monster for the backwoods of Mount Kalaga, stored at the Paradise Garage in Watson Bay.",
+        "where": "Chapter 2. Lucia meets Wyman at the motel, he takes her to the Thrillbilly Mud Club, and after a dirt track race the buggy and its garage are yours."
       },
       {
         "t": "Vapid Ganado",
         "tag": "Pickup · Jason's truck",
         "img": "ue-vapid-ganado-retro-build-01",
-        "d": "Jason's well-worn low-riding pickup. The Ultimate Edition adds a Retro Build mod kit."
+        "d": "Jason's well-worn low-riding pickup. The Ultimate Edition adds a Retro Build mod kit.",
+        "where": "Chapter 1. The Retro Build is a full kit at Coastal Auto Care in Key Lento, under Pro Builds."
       },
       {
         "t": "Dinka Enduro",
         "tag": "Motorcycle · Ultimate Edition",
         "img": "ue-safehouse-vehicles-02",
-        "d": "An Army fatigue-styled dirt bike at Jason's safehouse."
+        "d": "An Army fatigue-styled dirt bike at Jason's safehouse.",
+        "where": "Chapter 1, parked at Jason's house in Key Lento."
       },
       {
         "t": "Crest Kayak",
         "tag": "Water · Ultimate Edition",
         "img": "ue-safehouse-vehicles-03",
-        "d": "A kayak kept at Jason's safehouse."
+        "d": "A kayak kept at Jason's safehouse.",
+        "where": "Chapter 1, behind Jason's house in Key Lento."
       },
       {
         "t": "Shitzu Squalo",
         "tag": "Boat · Ultimate Edition",
         "img": "ue-squalo-01",
-        "d": "A pink and blue fishing boat docked at Washington Beach, ready for Gambit Bay, with an explosives-laden weapons crate."
+        "d": "A pink and blue fishing boat docked at Washington Beach, ready for Gambit Bay, with an explosives-laden weapons crate.",
+        "where": "Chapter 4, docked in a canal at Washington Beach. It shows under Personal on the map index."
       }
     ],
     "seen": [
@@ -67,29 +73,64 @@
       {
         "label": "Game Informer: Welcome to Leonida",
         "url": "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida"
+      },
+      {
+        "label": "PC Gamer: Ultimate Edition bonuses",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/"
+      },
+      {
+        "label": "GamesRadar: pre-order and Ultimate Edition bonus locations",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
+      },
+      {
+        "label": "PowerPyx + Promptowy Chapter 2 walkthroughs (found vehicles)",
+        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      }
+    ],
+    "found": [
+      {
+        "t": "Sanchez and Manchez",
+        "tag": "Dirt bikes · Thrillbillies",
+        "d": "Rented at the Thrillbilly Mud Club for Billy's first race. The Sanchez is the better pick.",
+        "u": "/walkthrough/coffee-break/#step-4"
+      },
+      {
+        "t": "'82 Crawler",
+        "tag": "Off-road · Daily Driver",
+        "d": "The white jeep Moses sends Lucia to steal in Port Gellhorn. Deliver it undamaged for a $500 bonus.",
+        "u": "/walkthrough/daily-driver/"
+      },
+      {
+        "t": "Montagne XL",
+        "tag": "SUV · Moses",
+        "d": "The car Moses uses to show Lucia how the Slim Jim works.",
+        "u": "/walkthrough/moses/"
       }
     ]
   },
   "weapons": {
-    "lede": "Every weapon Rockstar has named so far. The full list, with where to get each gun and what it is good for, starts on November 19.",
+    "lede": "Every weapon Rockstar named before launch, now with when the edition bonuses unlock. Stats and prices follow once we have used them ourselves.",
     "items": [
       {
         "t": "Hawk & Little Morgan Revolvers",
         "tag": "Revolvers · Ultimate Edition",
         "img": "ue-hawk-and-little-morgan-revolvers-01",
-        "d": "His and hers revolvers styled after the Vercetti Estate, with palm-tree grips, engraving and a high-performance scope."
+        "d": "His and hers revolvers styled after the Vercetti Estate, with palm-tree grips, engraving and a high-performance scope.",
+        "where": "Chapter 2, from the weapon locker at any Ammu-Nation."
       },
       {
         "t": "Girardi ES9 Pistol",
         "tag": "Pistol · Jason",
         "img": "ue-weapon-variants-01",
-        "d": "Jason's sidearm. The Ultimate Edition adds an engraved personal variant."
+        "d": "Jason's sidearm. The Ultimate Edition adds an engraved personal variant.",
+        "where": "The engraved version is free from the Ammu-Nation weapon locker from Chapter 1."
       },
       {
         "t": "Klose K17 Pistol",
         "tag": "Pistol · Lucia",
         "img": "ue-weapon-variants-01",
-        "d": "Lucia's sidearm, also with an engraved Ultimate Edition variant."
+        "d": "Lucia's sidearm, also with an engraved Ultimate Edition variant.",
+        "where": "The engraved version is free from the Ammu-Nation weapon locker from Chapter 2."
       },
       {
         "t": "Channel the Original Kingpin",
@@ -109,6 +150,50 @@
       {
         "label": "Rockstar Games: Ultimate Edition and Vintage Vice City Pack",
         "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "label": "PC Gamer: Ultimate Edition bonuses",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/"
+      },
+      {
+        "label": "GamesRadar: pre-order and Ultimate Edition bonus locations",
+        "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
+      },
+      {
+        "label": "PowerPyx + Promptowy (unique weapons), PowerPyx + nettoge (H&L .38)",
+        "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      }
+    ],
+    "found": [
+      {
+        "t": "Donnie's H&L .38",
+        "tag": "Unique revolver · Chapter 1",
+        "d": "In the trunk of Donnie's car in Don Gone. Missable: take it before the car is gone.",
+        "u": "/walkthrough/don-gone/"
+      },
+      {
+        "t": "Gutterball Moreland 850",
+        "tag": "Unique shotgun · Chapter 2",
+        "d": "On the pool table in the northeast of Kingpin Bowling, during the Hit Kingpin Bowling side job. One of the three items for Let's Go Bowling.",
+        "u": "/trophies/#lets-go-bowling"
+      },
+      {
+        "t": "Killtelligence SM-69",
+        "tag": "Unique hunting rifle · Chapter 2",
+        "d": "Bret's reward for Veteran Hunted, Jason's first hunt in Lummox County after Coffee Break. Comes with $500.",
+        "u": "/guides/side-contacts/#bret"
+      },
+      {
+        "t": "Sticky bombs",
+        "tag": "Explosive · Ammu-Nation",
+        "d": "Sold at Ammu-Nation. You need them to blow the office safe at Kingpin Bowling.",
+        "u": "/trophies/#lets-go-bowling"
+      },
+      {
+        "t": "Slim Jim",
+        "tag": "Tool · Chapter 2",
+        "d": "Moses gives it to Lucia. Opens locked car doors.",
+        "u": "/walkthrough/moses/"
       }
     ]
   }
