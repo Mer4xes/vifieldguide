@@ -42,6 +42,12 @@ sources:
   - label: "VGC: Island Dreams walkthrough"
     url: "https://www.videogameschronicle.com/guide/gta-6-island-dreams-walkthrough/"
     note: "Kenton and treasure diving. Nov 18, 2026."
+  - label: "PowerPyx: Veteran Hunted"
+    url: "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/"
+    note: "Bret's first hunt. Nov 18, 2026."
+  - label: "Promptowy (Polish): Prepare for Vice City"
+    url: "https://promptowy.com/gta-6-solucja-prepare-for-vice-city/"
+    note: "Chapter 2 side jobs, Veteran Hunted. Nov 18, 2026."
   - label: "PSNProfiles: Grand Theft Auto VI trophies"
     url: "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
     note: "Trophy names and descriptions, synced from PSN."
@@ -55,15 +61,15 @@ sources:
 |---|---|---|---|
 | **Cal Hampton** | Jason's friend, fishing | Chapter 1, [Gone Fishing](/walkthrough/gone-fishing/) | Baited My Tackle: beat him in a fishing challenge |
 | **Kenton Rees** | Deep-water treasure diving; buys doubloons and meteorites | Chapter 1, [Island Dreams](/walkthrough/island-dreams/) | This Was No Boat Accident (hidden) |
-| **Moses Watkins** | Car fence | Chapter 2, the mission *Moses* | |
-| **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Side contact | Fair Game (hidden): hunt a unique animal for him |
+| **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) | |
+| **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
 | **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions *Tyrone* and *Here, Kitty Kitty* | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
 | **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Side contact | |
-| **Dunk Porter** | Drug fence; robbery tips | Side contact | |
+| **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Jobs flying drug drops | Side contact | |
 | **Andy** | Side strand | Side contact | Road to Rehabilitation (hidden) |
-| **Billy** | Side strand | Side contact | The Lone Rider (hidden) |
+| **Billy** | Dirt-bike races and jobs | Chapter 2, *Thrillbillies* after [Coffee Break](/walkthrough/coffee-break/) | The Lone Rider (hidden) |
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
@@ -84,5 +90,7 @@ Tyrone buys drugs, and his strand is about shutting down an operation called Kit
 <h2 id="bret">Bret and hunting</h2>
 
 Bret's hunting business hands out Target Decks, hunts for specific animals. The 100% checklist needs all 15, and **Fair Game** is for a unique animal he asks for.
+
+Jason meets him in Chapter 2: after [Coffee Break](/walkthrough/coffee-break/) Bret texts Jason about a deer hunt in Lummox County, *Veteran Hunted*. Go alone. It pays $500 and a unique hunting rifle, the Killtelligence SM-69, and opens more hunting jobs.
 
 See the [trophy list](/trophies/) for the full set, and [activities and collectibles](/guides/activities-and-collectibles/) for fences, robberies and everything else that counts toward 100%.

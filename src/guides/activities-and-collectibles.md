@@ -55,6 +55,12 @@ sources:
   - label: "PowerPyx: GTA 6 collectible guide and progress database"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
     note: "Location lists for every collectible type, still being filled in. Nov 18, 2026."
+  - label: "PowerPyx: Moses, Daily Driver and Slam Dunk walkthroughs"
+    url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+    note: "Chapter 2 unlocks: Scooter Bros, Port Gellhorn garage, Dunk as a fence. Nov 18, 2026."
+  - label: "Promptowy (Polish): Chapter 2 walkthroughs"
+    url: "https://promptowy.com/gta-6-solucja-slam-dunk/"
+    note: "Same Chapter 2 unlocks. Nov 18, 2026."
   - label: "PSNProfiles: Grand Theft Auto VI trophies"
     url: "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
     note: "Trophy names and targets, synced from PSN."
@@ -143,9 +149,13 @@ Clearing 25 gang operations with your partner unlocks the **Pinhole** cheat.
 
 <h2 id="fences">Fences</h2>
 
+In Chapter 2, Moses buys cars without a tracker from [Moses](/walkthrough/moses/) on, and **Dunk's trailer** in Port Gellhorn takes stolen goods from [Slam Dunk](/walkthrough/slam-dunk/) on. Dunk also marks two robbery targets on your map the day after.
+
 Stolen goods go to fences. **Moses** and **Randy** take cars; **Tyrone**, **Yasmani** and **Dunk** take narcotics, jewelry and marked bills. Brian's lockup works as a fence from [Lab Fees](/walkthrough/lab-fees/) in Chapter 1, and the drop behind Donnie's trailer in Key Lento takes narcotics from [Clean Up After Donnie](/walkthrough/clean-up-after-donnie/). **Dime on the Dollar** needs $250,000 in Marked Bills laundered, the same figure as on the 100% checklist, which also wants $100,000 each in narcotics and jewelry and $200,000 in vehicles fenced.
 
 <h2 id="garages">Garages and Scooter Bros</h2>
+
+Cars come into play in Chapter 2. [Moses](/walkthrough/moses/) gives Lucia the Slim Jim and the **Scooter Bros** app and lets her register one car as her own. After [Daily Driver](/walkthrough/daily-driver/) Moses hands over a free garage in Port Gellhorn, and the **Vice City Real Estate** app opens for buying more.
 
 **Little Boxes** needs all 8 garage properties bought. **On the Spot** needs 10 vehicles registered in the Scooter Bros app, the service that delivers your car to you.
 

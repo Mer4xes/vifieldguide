@@ -176,24 +176,82 @@
       {
        "t": "Moses, the car fence",
        "u": "/guides/side-contacts/#contacts"
+      },
+      {
+       "t": "Slim Jim and car registration",
+       "u": "/walkthrough/moses/#step-7"
+      },
+      {
+       "t": "Scooter Bros app",
+       "u": "/guides/activities-and-collectibles/#garages"
       }
      ]
     },
     {
      "t": "Daily Driver",
-     "no": 28
+     "no": 28,
+     "opens": [
+      {
+       "t": "Free garage in Port Gellhorn",
+       "u": "/guides/activities-and-collectibles/#garages"
+      },
+      {
+       "t": "Vice City Real Estate app",
+       "u": "/guides/activities-and-collectibles/#garages"
+      }
+     ]
     },
     {
      "t": "Slam Dunk",
-     "no": 29
+     "no": 29,
+     "opens": [
+      {
+       "t": "Dunk's trailer as a fence",
+       "u": "/guides/activities-and-collectibles/#fences"
+      },
+      {
+       "t": "Two robbery tips from Dunk",
+       "u": "/guides/activities-and-collectibles/#robberies"
+      }
+     ]
     },
     {
      "t": "Breakfast Run",
-     "no": 30
+     "no": 30,
+     "opens": [
+      {
+       "t": "A car of their own for Jason and Lucia"
+      }
+     ]
     },
     {
      "t": "Coffee Break",
-     "no": 31
+     "no": 31,
+     "opens": [
+      {
+       "t": "Switching between Jason and Lucia"
+      },
+      {
+       "t": "Thrillbillies (Billy)",
+       "u": "/guides/side-contacts/#contacts"
+      },
+      {
+       "t": "Hit Avery Pawn",
+       "u": "/walkthrough/coffee-break/#step-4"
+      },
+      {
+       "t": "Hit Kingpin Bowling",
+       "u": "/trophies/#lets-go-bowling"
+      },
+      {
+       "t": "Impounded Vehicle",
+       "u": "/walkthrough/coffee-break/#step-4"
+      },
+      {
+       "t": "Veteran Hunted (Bret, Jason only)",
+       "u": "/guides/side-contacts/#bret"
+      }
+     ]
     },
     {
      "t": "Afternoon Delight",
@@ -211,7 +269,11 @@
     },
     {
      "t": "Checking Out",
-     "no": 35
+     "no": 35,
+     "warn": {
+      "t": "Have $15,000 banked and save before this one",
+      "u": "/walkthrough/checking-out/#before-you-start"
+     }
     }
    ]
   },

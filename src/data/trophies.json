@@ -601,7 +601,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "The bowling alley is **Kingpin Bowling** in Port Gellhorn, a Kolt & Associates hangout. Robbing it is a side job that opens after [Coffee Break](/walkthrough/coffee-break/) in Chapter 2.\n\nThe trophy wants all three valuables inside: a **luxury watch** in a room on the southeast side, the unique **Gutterball Moreland 850** shotgun in the northeast, and the **safe in the northeast office**, which you blow open with a sticky bomb. Buy sticky bombs at Ammu-Nation first, bring body armor and healing, and take your partner along.\n\nNot missable: the job comes back later in the story if you leave something behind.",
+   "link": "/walkthrough/coffee-break/#step-4",
+   "linkLabel": "Where the job opens"
   },
   {
    "id": "personal-best",

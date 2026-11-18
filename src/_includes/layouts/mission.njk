@@ -57,7 +57,7 @@ crumbParent:
     <div class="pnr">
       <p class="pnr-k">Point of no return</p>
       <h2 class="sec-h sm">Do this before you start</h2>
-      <p class="lede">Free roam closes around this mission and does not open again until Chapter 2. Tick each one off as you go.</p>
+      <p class="lede">{{ prepLede or "Free roam closes around this mission and does not open again until Chapter 2." }} Tick each one off as you go.</p>
       <ul class="track">
         {%- for p in prep %}
         <li data-track-row><label><input class="cb" type="checkbox" data-track="prep:{{ slug }}:{{ loop.index }}"><span class="txt">{{ p | md | safe }}</span></label></li>
