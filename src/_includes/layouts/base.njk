@@ -51,6 +51,9 @@
   <div class="wrap nav-row">
     <a class="brand" href="/">VI&nbsp;Field&nbsp;Guide</a>
     <a class="nav-search" href="/search/" aria-label="Search the guide" title="Search (press /)"{% if page.url == "/search/" %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></a>
+    {%- if site.donate and site.donate.url %}
+    <a class="nav-support" href="{{ site.donate.url }}" rel="noopener" target="_blank" aria-label="Support the guide on Ko-fi" title="Support the guide on Ko-fi"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.2 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.6 0 5.7 3.7 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg><span>Support</span></a>
+    {%- endif %}
     <button type="button" class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
     <nav class="nav-links" id="nav-links" aria-label="Sections">
       {%- for item in site.nav %}
@@ -81,6 +84,18 @@
 <main id="main">
 {{ content | safe }}
 </main>
+{%- if site.donate and site.donate.url and not hideSupport %}
+<aside class="support-band" aria-label="Support the guide">
+  <div class="wrap support-row">
+    <div class="support-ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.2 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.6 0 5.7 3.7 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg></div>
+    <div class="support-txt">
+      <p class="support-h">Found this useful?</p>
+      <p>The VI Field Guide is free, with no ads and no paywall. If it saved you some time in Leonida, a small tip helps keep it updated.</p>
+    </div>
+    <a class="btn-support" href="{{ site.donate.url }}" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.2 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6.8-1.4 2.3-2.6 4.4-2.6 3.6 0 5.7 3.7 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg><span>{{ site.donate.label }} on Ko-fi</span></a>
+  </div>
+</aside>
+{%- endif %}
 <!--page:end--></div>
 <footer class="foot">
   <div class="wrap">
@@ -91,7 +106,7 @@
         {%- if site.social and site.social.length %}
         <p class="foot-social">Follow:{% for s in site.social %} <a href="{{ s.url }}" rel="me noopener" target="_blank">{{ s.label }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}</p>
         {%- endif %}
-        {%- if site.donate and site.donate.url %}
+        {%- if site.donate and site.donate.url and hideSupport %}
         <p class="foot-donate"><a class="btn-donate" href="{{ site.donate.url }}" rel="noopener" target="_blank">♥ {{ site.donate.label }}</a><span>Free to use. If it helped, a small tip keeps it going.</span></p>
         {%- endif %}
       </div>

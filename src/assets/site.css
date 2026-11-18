@@ -771,3 +771,26 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 .foot-donate span{font-size:13px;color:var(--faint)}
 .btn-donate{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,46,136,.45);color:var(--pink);text-decoration:none;font-family:var(--mono);font-size:12px;letter-spacing:.04em}
 .btn-donate:hover{background:rgba(255,46,136,.1)}
+
+/* Support (Ko-fi): header heart, band above the footer, filled footer button */
+.nav-support{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 12px;border-radius:999px;flex:none;order:2;
+  color:#fff;background:linear-gradient(92deg,var(--pink),#ff5a9e);border:0;font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.03em;
+  box-shadow:0 0 18px rgba(255,46,136,.35)}
+.nav-support:hover{text-decoration:none;filter:brightness(1.08)}
+.nav-support svg{width:15px;height:15px}
+@media(max-width:1040px){.nav-support{order:1}}
+@media(max-width:420px){.nav-support{width:36px;padding:0;justify-content:center}.nav-support span{display:none}}
+.support-band{border-top:1px solid var(--line);background:linear-gradient(100deg,rgba(255,46,136,.12),rgba(168,119,255,.08) 60%,transparent)}
+.support-row{display:flex;align-items:center;gap:18px;padding-top:26px;padding-bottom:26px}
+.support-ic{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;color:var(--pink);background:rgba(255,46,136,.14);border:1px solid rgba(255,46,136,.35)}
+.support-ic svg{width:22px;height:22px}
+.support-txt{flex:1;min-width:0}
+.support-h{font-family:var(--display);font-size:22px;text-transform:uppercase;letter-spacing:.02em;margin-bottom:4px}
+.support-txt p:not(.support-h){color:var(--muted);font-size:15px;line-height:1.5}
+.btn-support{flex:none;display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;color:#fff;text-decoration:none;
+  background:linear-gradient(92deg,var(--pink),#ff5a9e);font-family:var(--mono);font-size:12.5px;font-weight:700;letter-spacing:.03em;box-shadow:0 0 24px rgba(255,46,136,.35)}
+.btn-support:hover{text-decoration:none;filter:brightness(1.08)}
+.btn-support svg{width:16px;height:16px}
+@media(max-width:700px){.support-row{flex-wrap:wrap}.support-ic{display:none}.btn-support{width:100%;justify-content:center}}
+.btn-donate{background:linear-gradient(92deg,var(--pink),#ff5a9e);color:#fff!important;border-color:transparent;font-weight:700}
+.btn-donate:hover{background:linear-gradient(92deg,var(--pink),#ff5a9e);filter:brightness(1.08)}
