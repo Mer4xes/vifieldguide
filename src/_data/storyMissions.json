@@ -10,7 +10,16 @@
     },
     {
      "t": "Gone Fishing",
-     "no": 2
+     "no": 2,
+     "opens": [
+      {
+       "t": "Jason's house in Key Lento"
+      },
+      {
+       "t": "Focus mode and the criminal profile",
+       "u": "/how-it-plays/#criminal-profile"
+      }
+     ]
     },
     {
      "t": "Gear Up",
@@ -22,11 +31,22 @@
     },
     {
      "t": "Lab Fees",
-     "no": 5
+     "no": 5,
+     "opens": [
+      {
+       "t": "Brian's lockup as a fence",
+       "u": "/guides/activities-and-collectibles/#fences"
+      }
+     ]
     },
     {
      "t": "Unwanted Attention",
-     "no": 6
+     "no": 6,
+     "opens": [
+      {
+       "t": "Police scanner app"
+      }
+     ]
     },
     {
      "t": "Pipework",
@@ -38,11 +58,23 @@
     },
     {
      "t": "Island Dreams",
-     "no": 9
+     "no": 9,
+     "opens": [
+      {
+       "t": "Kenton's treasure dives",
+       "u": "/guides/side-contacts/#kenton"
+      }
+     ]
     },
     {
      "t": "Feng Shui",
-     "no": 10
+     "no": 10,
+     "opens": [
+      {
+       "t": "Video games on the TV at home",
+       "u": "/guides/activities-and-collectibles/#video-games"
+      }
+     ]
     },
     {
      "t": "Coming Home",
@@ -115,7 +147,13 @@
     },
     {
      "t": "Moses",
-     "no": 27
+     "no": 27,
+     "opens": [
+      {
+       "t": "Moses, the car fence",
+       "u": "/guides/side-contacts/#contacts"
+      }
+     ]
     },
     {
      "t": "Daily Driver",
@@ -182,7 +220,13 @@
     },
     {
      "t": "Tyrone",
-     "no": 42
+     "no": 42,
+     "opens": [
+      {
+       "t": "Tyrone's Kitty Litter strand",
+       "u": "/guides/side-contacts/#tyrone"
+      }
+     ]
     },
     {
      "t": "Here, Kitty Kitty",
@@ -218,7 +262,13 @@
     },
     {
      "t": "Steal the Zorrusso for Randy",
-     "no": 51
+     "no": 51,
+     "opens": [
+      {
+       "t": "Key cloner and Randy's car list",
+       "u": "/guides/side-contacts/#randy"
+      }
+     ]
     },
     {
      "t": "Sinfrontera National Bank",

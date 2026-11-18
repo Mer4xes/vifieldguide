@@ -684,3 +684,11 @@ html.spoilers-on .is-secret .trk{visibility:visible}
 .need{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--gold);white-space:nowrap}
 .tr.is-done .need{color:var(--faint)}
 .wt-note{margin-bottom:30px}
+
+/* ---------- walkthrough: what a mission opens up ---------- */
+.mopens{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:-3px 0 2px 70px;font-size:13.5px;color:var(--muted)}
+.mopens-k{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.mopens a,.mopens span:not(.mopens-k){background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--fg)}
+.mopens a:hover{border-color:var(--cyan);text-decoration:none}
+@media(max-width:620px){.mopens{margin-left:14px}}
+html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
