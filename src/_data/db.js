@@ -24,8 +24,12 @@ export default function () {
 
   // Collectibles
   const collectibles = gate(load("collectibles"), "types");
+  const tracker = JSON.parse(fs.readFileSync(new URL("./tracker.json", import.meta.url), "utf8"));
+  const ctrs = {};
+  for (const g of tracker.groups) for (const it of g.items) ctrs[`${g.id}:${it.id}`] = it;
   collectibles.types = collectibles.types.map((t) => ({
     ...t,
+    ctr: t.counter ? { key: t.counter, ...ctrs[t.counter] } : null,
     items: t.items || [],
     regions: [...new Set((t.items || []).map((i) => i.region).filter(Boolean))],
     sample: collectibles.sample,

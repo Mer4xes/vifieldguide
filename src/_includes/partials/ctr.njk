@@ -1,0 +1,10 @@
+{#- One collection counter. Expects `ctr` = { key, n, max, pct, trophy, tmax, total }.
+    Shares vfg.counts.v1 with the map tracker, so counts stay in sync. -#}
+<div class="ctr" data-count="{{ ctr.key }}" data-max="{{ ctr.max }}">
+  <div class="ctr-top"><span>{{ label or ctr.n }}</span><span class="ctr-v"><span data-val>0</span>/{{ ctr.max }}</span></div>
+  <div class="bar"><i></i></div>
+  <div class="ctr-row">
+    <span class="ctr-meta">{% if ctr.pct %}100%: {{ ctr.pct }}{% endif %}{% if ctr.pct and ctr.trophy %} · {% endif %}{% if ctr.trophy %}<span class="ctr-tr">Trophy: {{ ctr.trophy }} ({{ ctr.tmax }})</span>{% endif %}{% if ctr.total %} · {{ ctr.total }} in the game{% endif %}</span>
+    <span class="ctr-btns"><button type="button" data-dec aria-label="One less">−</button><input type="number" inputmode="numeric" min="0" max="{{ ctr.max }}" value="0" aria-label="{{ label or ctr.n }}"><button type="button" data-inc aria-label="One more">+</button></span>
+  </div>
+</div>

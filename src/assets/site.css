@@ -750,3 +750,18 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 /* 100% checklist: total in the game next to the target */
 .pctlist .side{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
 .pctlist .of{font-family:var(--mono);font-size:10px;color:var(--faint);white-space:nowrap}
+
+/* Collectibles: set cards with counters, how-it-works list */
+.ctypes{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:22px}
+.ctype{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.ctype h3{font-size:18px}
+.ctype h3 a{color:inherit;text-decoration:none}
+.ctype .desc{color:var(--muted);font-size:14.5px;line-height:1.5}
+.ctype .ctr{background:transparent;border:0;padding:0}
+.ctype .more{margin-top:auto;font-family:var(--mono);font-size:11px;color:var(--cyan);text-decoration:none;letter-spacing:.04em}
+.cfacts{display:flex;gap:18px;margin:0}
+.cfacts dt{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+.cfacts dd{margin:2px 0 0;font-family:var(--display, inherit);font-size:20px;color:var(--gold)}
+.ctrs.one{grid-template-columns:1fr;max-width:520px;margin-top:18px}
+.howlist{margin:16px 0 0;padding-left:20px;max-width:760px;display:grid;gap:10px;line-height:1.6}
+.howlist a{color:var(--cyan)}

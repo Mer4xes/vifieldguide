@@ -6,9 +6,9 @@
   crumbParent: { label: "Collectibles", url: "/collectibles/" },
   eleventyComputed: {
     title: (data) => data.t.name,
-    seoTitle: (data) => `All ${data.t.total} ${data.t.name} Locations in GTA 6`,
+    seoTitle: (data) => data.t.total ? `GTA 6 ${data.t.name}: All ${data.t.total} and What 100% Needs` : `GTA 6 ${data.t.name}: How They Work and What 100% Needs`,
     description: (data) =>
-      `Locations for all ${data.t.total} ${data.t.name} in GTA 6, grouped by region, with a checklist that saves your progress.`,
+      `${data.t.name} in GTA 6: ${data.t.total ? data.t.total + " in the game, " : ""}${data.t.need ? data.t.need + " for 100%" : ""}${data.t.trophy ? ", the " + data.t.trophy.replace(/ \(.*\)$/, "") + " trophy" : ""}. How to find them, with a counter that saves your progress.`,
     sample: (data) => !!data.t.sample,
     updated: (data) => data.t.updated,
   },
@@ -19,22 +19,48 @@
     <p class="kicker">Collectible set</p>
     <h1>{{ t.name }}</h1>
     <p class="tagline">{{ t.desc }}</p>
+    <div class="chips"><span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span></div>
     <dl class="meta">
-      <div><dt>In the game</dt><dd>{{ t.total }}</dd></div>
-      <div><dt>Mapped here</dt><dd>{{ t.items.length }}</dd></div>
+      {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
+      {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% endif %}
+      {%- if t.trophy %}<div class="wide"><dt>Trophy</dt><dd>{{ t.trophy }}</dd></div>{% endif %}
+      {%- if t.items.length %}<div><dt>Mapped here</dt><dd>{{ t.items.length }}</dd></div>{% endif %}
       {%- if t.reward %}<div class="wide"><dt>Reward</dt><dd>{{ t.reward }}</dd></div>{% endif %}
     </dl>
+    {%- if t.items.length %}
     <div class="progress" data-progress="col:{{ t.slug }}:" data-total="{{ t.total }}">
       <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ t.total }}</span></div>
       <div class="bar"><i></i></div>
     </div>
+    {%- elif t.ctr %}
+    <div class="ctrs one">{% set ctr = t.ctr %}{% set label = t.counterLabel %}{% include "partials/ctr.njk" %}</div>
+    {%- endif %}
   </div>
 </header>
+
+{%- if t.how and t.how.length %}
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">How it works</p>
+    <h2 class="sec-h">Finding {{ t.name | lower }}</h2>
+    <ul class="howlist">
+      {%- for h in t.how %}<li>{{ h | md | safe }}</li>{% endfor %}
+    </ul>
+    {%- if t.note %}
+    <div class="tip warn"><span class="lab">Watch out</span><div class="tip-body"><p>{{ t.note | md | safe }}</p></div></div>
+    {%- endif %}
+    {%- if t.sets and t.sets.length %}
+    <h2 class="sec-h sm" style="margin-top:30px">The {{ t.sets.length }} sets</h2>
+    <div class="castlist">{% for x in t.sets %}<span>{{ x }}</span>{% endfor %}</div>
+    {%- endif %}
+  </div>
+</section>
+{%- endif %}
 
 <section class="sec">
   <div class="wrap">
     {%- if not t.items.length %}
-    <div class="empty"><p>No locations mapped yet. They are added here as we find them.</p></div>
+    <div class="empty"><p>No locations listed yet. We add them once at least two independent sources agree on where they are, so you won't be sent to the wrong place.</p></div>
     {%- endif %}
     {%- for r in regions %}
     {%- set here = t.items | where("region", r.slug) %}
@@ -58,7 +84,8 @@
     </div>
     {%- endif %}
     {%- endfor %}
-    <button class="reset" type="button" data-reset="col:{{ t.slug }}:">Reset this set</button>
+    {%- if t.items.length %}<button class="reset" type="button" data-reset="col:{{ t.slug }}:">Reset this set</button>{% endif %}
+    <p class="lede" style="margin-top:22px">See all <a href="/collectibles/">collectible sets</a>, the <a href="/map/#tracker">map tracker</a> or the <a href="/guides/100-percent-checklist/">100% checklist</a>.</p>
     {%- if t.updated %}<p class="stamp">Last updated {{ t.updated | niceDate }}</p>{% endif %}
   </div>
 </section>

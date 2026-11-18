@@ -2,8 +2,8 @@
 {
   layout: "layouts/base.njk",
   title: "Collectibles",
-  seoTitle: "GTA 6 Collectibles: All Locations and 100% Checklist",
-  description: "Every GTA 6 collectible set with locations grouped by region and a checklist that saves your progress toward 100%.",
+  seoTitle: "GTA 6 Collectibles: Every Set, How Many and What 100% Needs",
+  description: "Every GTA 6 collectible set: 480 cards in 18 sets, 125 Cocaine Flamingos, 18 meditation spots, WAiNK scans and more, with what 100% needs and a counter that saves your progress.",
   eleventyComputed: {
     sample: (data) => !!data.db.collectibles.sample,
     updated: (data) => data.db.collectibles.updated,
@@ -15,10 +15,10 @@
   <div class="wrap">
     <p class="kicker">Collectibles and 100%</p>
     <h1>Hidden Leonida</h1>
-    <p class="tagline">Everything scattered across the state, counted in one place. Tick items off on each set's page and the totals here follow.</p>
+    <p class="tagline">Every collectible set in GTA 6, how many there are, what the 100% checklist wants and how to find them. Count as you go; the numbers are shared with the map tracker.</p>
     {%- if c.types.length %}
-    <div class="progress total" data-progress="col:" data-total="{{ c.total }}">
-      <div class="total-row"><span class="big" data-done>0</span><span class="of">of {{ c.total }} collectibles found</span></div>
+    <div class="progress" data-ctr-total>
+      <div class="row"><span class="lab">Toward 100%</span><span class="pct"><span data-ctr-done>0</span> / <span data-ctr-max>0</span> · <span data-ctr-pct>0%</span></span></div>
       <div class="bar"><i></i></div>
     </div>
     {%- endif %}
@@ -29,9 +29,9 @@
 <section class="sec">
   <div class="wrap">
     <div class="empty">
-      <p class="kicker">Opens at launch</p>
+      <p class="kicker">Being filled in</p>
       <h2 class="sec-h sm">Collectibles get mapped as we find them</h2>
-      <p>Rockstar has not said which collectibles GTA 6 has or how many. Each set gets its own page here, with locations grouped by region and a checklist, once we have found it in the game.</p>
+      <p>Each set gets its own page here, with locations grouped by region and a checklist, once we have confirmed it.</p>
     </div>
   </div>
 </section>
@@ -39,23 +39,31 @@
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h">The sets</h2>
-    <p class="lede">Open a set for locations and its checklist.</p>
-    <div class="types">
+    <p class="lede">{{ c.types.length }} collectible sets count toward 100%. Open one for how it works and what counts. Location lists are added once we have confirmed them.</p>
+    <div class="ctypes">
       {%- for t in c.types %}
-      <div class="type" data-progress="col:{{ t.slug }}:" data-total="{{ t.total }}">
-        <div class="head">
-          <div><h3><a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a></h3><p class="desc">{{ t.desc }}</p></div>
-          <span class="count"><b data-done>0</b> / {{ t.total }}</span>
-        </div>
-        <div class="bar thin"><i></i></div>
-        <p class="type-foot"><span>{{ t.items.length }} of {{ t.total }} mapped so far</span><a href="/collectibles/{{ t.slug }}/">Locations and checklist</a></p>
-      </div>
+      <article class="ctype">
+        <h3><a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a></h3>
+        <p class="desc">{{ t.desc }}</p>
+        <dl class="cfacts">
+          {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
+          {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% endif %}
+        </dl>
+        {%- if t.ctr %}{% set ctr = t.ctr %}{% set label = t.counterLabel %}{% include "partials/ctr.njk" %}{% endif %}
+        <a class="more" href="/collectibles/{{ t.slug }}/">How to find them →</a>
+      </article>
       {%- endfor %}
     </div>
-    <button class="reset" type="button" data-reset="col:">Reset all collectibles</button>
   </div>
 </section>
 
+<section class="sec sec-tight">
+  <div class="wrap">
+    <p class="lede">More to count: stunts, races, robberies and the rest of the 100% list are on the <a href="/map/#tracker">map tracker</a> and the <a href="/guides/100-percent-checklist/">100% checklist</a>. For activities and cheats, see <a href="/guides/activities-and-collectibles/">activities and collectibles</a>.</p>
+  </div>
+</section>
+
+{%- if c.mapped %}
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h">Where to look</h2>
@@ -73,4 +81,5 @@
     </div>
   </div>
 </section>
+{%- endif %}
 {%- endif %}

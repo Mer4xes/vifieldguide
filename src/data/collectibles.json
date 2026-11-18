@@ -1,65 +1,158 @@
 {
-  "sample": true,
-  "updated": "2026-11-17",
-  "types": [
-    {
-      "slug": "hidden-icons",
-      "name": "Hidden Icons",
-      "desc": "Neon markers tucked across every district.",
-      "reward": "A slice of your 100% and a cash bonus per ten found.",
-      "total": 50,
-      "items": [
-        { "n": 1, "region": "vice-city", "name": "Ocean Beach lifeguard tower", "where": "On the roof of the pink tower at the north end of the sand. Climb the ladder at the back." },
-        { "n": 2, "region": "vice-city", "name": "VC Port crane", "where": "At the top of the tallest yellow crane. Take the stairs inside the frame, not the ladder." },
-        { "n": 3, "region": "leonida-keys", "name": "End of the road", "where": "Behind the sign where the highway stops, facing the water." },
-        { "n": 4, "region": "mount-kalaga", "name": "Ranger lookout", "where": "Inside the fire lookout cabin at the summit trailhead.", "mission": "dead-calm" }
-      ]
-    },
-    {
-      "slug": "vice-tapes",
-      "name": "Vice Tapes",
-      "desc": "Lost cassettes that add tracks to the radio.",
-      "reward": "Each tape unlocks a track. A full set unlocks a station.",
-      "total": 30,
-      "items": [
-        { "n": 1, "region": "vice-city", "name": "Little Cuba bakery", "where": "On the counter next to the register." },
-        { "n": 2, "region": "port-gellhorn", "name": "Boardwalk arcade", "where": "Under the broken claw machine at the back." },
-        { "n": 3, "region": "leonida-keys", "name": "Dockside bar", "where": "Behind the jukebox." }
-      ]
-    },
-    {
-      "slug": "street-art",
-      "name": "Street Art",
-      "desc": "Murals worth photographing around the state.",
-      "reward": "Photograph all of them for an outfit.",
-      "total": 20,
-      "items": [
-        { "n": 1, "region": "vice-city", "name": "Underpass mural", "where": "On the north pillar under the causeway." },
-        { "n": 2, "region": "port-gellhorn", "name": "Motel wall", "where": "The side wall of the closed motel, facing the parking lot." },
-        { "n": 3, "region": "ambrosia", "name": "Refinery gate", "where": "On the water tank left of the main gate." }
-      ]
-    },
-    {
-      "slug": "gator-nests",
-      "name": "Gator Nests",
-      "desc": "Hidden out in the Grassrivers swampland.",
-      "reward": "Counts toward 100%.",
-      "total": 15,
-      "items": [
-        { "n": 1, "region": "grassrivers", "name": "Airboat dock", "where": "In the reeds twenty metres east of the dock. Approach by boat." },
-        { "n": 2, "region": "grassrivers", "name": "Sunken pickup", "where": "On the mud bank beside the half-sunk truck." }
-      ]
-    },
-    {
-      "slug": "time-capsules",
-      "name": "Time Capsules",
-      "desc": "Buried throwbacks out in the backcountry.",
-      "reward": "Each one holds a vintage item.",
-      "total": 10,
-      "items": [
-        { "n": 1, "region": "mount-kalaga", "name": "Old campsite", "where": "Under the stone ring of the abandoned fire pit." },
-        { "n": 2, "region": "grassrivers", "name": "Hunter's blind", "where": "At the foot of the wooden blind, on the dry side." }
-      ]
-    }
-  ]
+ "updated": "2026-11-18",
+ "types": [
+  {
+   "slug": "collectible-cards",
+   "name": "Collectible Cards",
+   "desc": "Trading cards in 18 themed sets, picked up around Leonida.",
+   "total": 480,
+   "unit": "cards",
+   "need": "15 complete sets",
+   "trophy": "Don't Touch My Deck (3 sets)",
+   "counter": "explore:cards",
+   "counterLabel": "Card sets completed",
+   "how": [
+    "There are **480 cards** split over **18 sets**, from sports teams to dancers and comics.",
+    "Cards are lying around indoors and out. Pick one up and it goes into your collection.",
+    "Finishing the **Vice City Flamingos** set (24 cards) unlocks the **Bubblegum** cheat.",
+    "Track them under Progress, Collections, Collectible Cards."
+   ],
+   "sets": [
+    "Vice City Flamingos",
+    "Vice City Narcos",
+    "Vice City Manatees",
+    "Vice City Club De Futbol",
+    "Liberty City Swingers",
+    "Liberty City Penetrators",
+    "Liberty City Wrath",
+    "Los Santos Corkers",
+    "Los Santos Panic",
+    "Los Santos Pounders",
+    "Backyard Wrestling",
+    "America's Next Top Hooker",
+    "Delights Dancers",
+    "Jack of Hearts Dancers",
+    "Nine1Nine Dancers",
+    "The Legends of Ratface",
+    "Right Wing: America's Hero",
+    "Ed Comics Universe"
+   ],
+   "items": []
+  },
+  {
+   "slug": "waink-locations",
+   "name": "WAiNK Locations",
+   "desc": "Landmarks, sculptures and oddities you scan with the WAiNK app on your phone.",
+   "need": "100",
+   "trophy": "You WAiNKer! (100)",
+   "counter": "explore:waink",
+   "counterLabel": "WAiNK locations scanned",
+   "how": [
+    "Open WAiNK on your phone, point it at the spot and scan.",
+    "Scans come in four kinds: **landmarks**, **sculptures**, **curiosities** and **utility markings**.",
+    "The same app scans cars (for the vehicle count) and posters (for the unique playlists).",
+    "Track them under Progress, Collections, WAiNK Locations."
+   ],
+   "items": []
+  },
+  {
+   "slug": "cocaine-flamingos",
+   "name": "Cocaine Flamingos",
+   "desc": "Pink flamingo ornaments with cocaine hidden inside. Shoot them.",
+   "total": 125,
+   "unit": "flamingos",
+   "need": "100",
+   "counter": "explore:flamingos",
+   "counterLabel": "Cocaine Flamingos destroyed",
+   "how": [
+    "Shoot a flamingo and it drops a parcel of cocaine.",
+    "The cocaine is worth money: sell it to a [fence](/guides/activities-and-collectibles/#fences). It also counts toward the $100,000 of narcotics the 100% checklist wants.",
+    "Destroying 50 unlocks the **Inflatable Flamingo** spawn cheat.",
+    "Track them under Progress, Collections, Exploration, Cocaine Flamingos."
+   ],
+   "items": []
+  },
+  {
+   "slug": "meditation-spots",
+   "name": "Meditation Spots",
+   "desc": "Quiet places to sit and meditate, spread over 10 locations.",
+   "total": 18,
+   "unit": "spots",
+   "need": "15",
+   "trophy": "Positive Mental Attitude (18)",
+   "counter": "explore:meditation",
+   "counterLabel": "Meditation spots",
+   "how": [
+    "There are **18 spots** at **10 locations**, so several locations have more than one.",
+    "Jason and Lucia can both meditate at the same spot. Bring your partner along.",
+    "The trophy needs all 18, the 100% checklist only 15.",
+    "Fifty meditations unlock the **Fast Forward** cheat.",
+    "Track them under Progress, Collections, Exploration, Meditations."
+   ],
+   "note": "Unconfirmed, but worth knowing: Lucia offers a meditation at Jason's house in Chapter 1, after [Down to Earth](/walkthrough/down-to-earth/). It may count toward the trophy, and it can't be done once Chapter 2 starts. Accept it if she asks.",
+   "items": []
+  },
+  {
+   "slug": "underwater-discoveries",
+   "name": "Underwater Discoveries",
+   "desc": "Wrecks and other sights on the sea floor.",
+   "total": 33,
+   "unit": "discoveries",
+   "need": "33",
+   "counter": "explore:underwater",
+   "counterLabel": "Underwater discoveries",
+   "how": [
+    "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. Discoveries include wrecks and other sights under water.",
+    "The 100% checklist wants every one of them.",
+    "Track them under Progress, Collections, Exploration, Underwater Discoveries."
+   ],
+   "items": []
+  },
+  {
+   "slug": "magazines-books-comics",
+   "name": "Magazines, Books and Comics",
+   "desc": "Reading material left around the state, including book swaps.",
+   "total": 34,
+   "unit": "titles",
+   "need": "30",
+   "counter": "explore:reading",
+   "counterLabel": "Magazines, books and comics",
+   "how": [
+    "Only different titles count. Picking up the same one twice doesn't help.",
+    "Book swaps count too.",
+    "Track them under Progress, Collections, Exploration."
+   ],
+   "items": []
+  },
+  {
+   "slug": "discovered-styles",
+   "name": "Discovered Styles",
+   "desc": "Tattoo designs from magazines, and luxury watches.",
+   "total": 79,
+   "unit": "styles",
+   "need": "70",
+   "counter": "explore:styles",
+   "counterLabel": "Styles discovered",
+   "how": [
+    "Styles come in four groups: Jason's magazine tattoos, Lucia's magazine tattoos, shared magazine tattoos and luxury watches.",
+    "Track them under Progress, Collections, Discovered Styles."
+   ],
+   "items": []
+  },
+  {
+   "slug": "unique-playlists",
+   "name": "Unique Playlists",
+   "desc": "Two music playlists you unlock by scanning posters.",
+   "total": 2,
+   "unit": "playlists",
+   "need": "2",
+   "counter": "explore:playlists",
+   "counterLabel": "Unique playlists",
+   "how": [
+    "Scan the right posters with WAiNK to add a playlist.",
+    "Track them under Progress, Collections, Exploration, Unique Playlists."
+   ],
+   "items": []
+  }
+ ]
 }

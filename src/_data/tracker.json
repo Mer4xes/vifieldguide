@@ -12,7 +12,7 @@
      "pct": 15,
      "trophy": "Positive Mental Attitude",
      "tmax": 18,
-     "u": "/guides/activities-and-collectibles/#meditation",
+     "u": "/collectibles/meditation-spots/",
      "total": 18
     },
     {
@@ -22,7 +22,7 @@
      "pct": 100,
      "trophy": "You WAiNKer!",
      "tmax": 100,
-     "u": "/guides/activities-and-collectibles/#waink"
+     "u": "/collectibles/waink-locations/"
     },
     {
      "id": "cards",
@@ -31,7 +31,7 @@
      "pct": 15,
      "trophy": "Don't Touch My Deck",
      "tmax": 3,
-     "u": "/guides/activities-and-collectibles/#collectible-cards",
+     "u": "/collectibles/collectible-cards/",
      "total": 18
     },
     {
@@ -39,7 +39,7 @@
      "n": "Cocaine Flamingos",
      "max": 100,
      "pct": 100,
-     "u": "/guides/activities-and-collectibles/#cocaine-flamingos",
+     "u": "/collectibles/cocaine-flamingos/",
      "total": 125
     },
     {
@@ -47,7 +47,7 @@
      "n": "Underwater discoveries",
      "max": 33,
      "pct": 33,
-     "u": "/guides/activities-and-collectibles/#underwater"
+     "u": "/collectibles/underwater-discoveries/"
     },
     {
      "id": "kenton",
@@ -62,8 +62,24 @@
      "n": "Magazines, books and comics",
      "max": 30,
      "pct": 30,
-     "u": "/guides/activities-and-collectibles/#reading",
+     "u": "/collectibles/magazines-books-comics/",
      "total": 34
+    },
+    {
+     "id": "styles",
+     "n": "Styles discovered",
+     "max": 70,
+     "pct": 70,
+     "total": 79,
+     "u": "/collectibles/discovered-styles/"
+    },
+    {
+     "id": "playlists",
+     "n": "Unique playlists",
+     "max": 2,
+     "pct": 2,
+     "total": 2,
+     "u": "/collectibles/unique-playlists/"
     },
     {
      "id": "stunts",
