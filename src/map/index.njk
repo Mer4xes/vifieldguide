@@ -1,18 +1,86 @@
 ---
 layout: layouts/base.njk
 title: Map
-seoTitle: "GTA 6 Map: The Regions of Leonida"
-description: "The confirmed regions of Leonida in GTA 6, from Vice City to Mount Kalaga, with the missions and collectibles found in each one."
-updated: 2026-11-17
+seoTitle: "GTA 6 Map and Checklist: Regions of Leonida and a Collection Tracker"
+description: "GTA 6 map checklist: track every collectible and activity count toward 100% and the trophies, and tick off the missions and things to do in each region of Leonida."
+updated: 2026-11-18
 ---
 <header class="mast" style="--glow:var(--cyan)">
   <div class="wrap">
     <p class="kicker">The world</p>
     <h1>Leonida</h1>
     <p class="tagline">GTA 6 takes place across the state of Leonida, with Vice City at its centre. Rockstar has named six regions so far.</p>
-    <div class="chips"><span class="chip ok dot">Regions confirmed by Rockstar</span></div>
+    <div class="chips"><span class="chip ok dot">Regions confirmed by Rockstar</span><a class="chip plain" href="#tracker">Collection tracker</a><a class="chip plain" href="#regions">Region checklist</a></div>
   </div>
 </header>
+
+<section class="sec" id="tracker">
+  <div class="wrap">
+    <p class="kicker">Map checklist</p>
+    <h2 class="sec-h">Collection tracker</h2>
+    <p class="lede">Count what you have found as you play. Each line shows what the 100% checklist and the trophy want. Type a number or use the buttons; it is saved in this browser.</p>
+    <div class="progress" data-ctr-total>
+      <div class="row"><span class="lab">Everything tracked</span><span class="pct"><span data-ctr-done>0</span> / <span data-ctr-max>0</span> · <span data-ctr-pct>0%</span></span></div>
+      <div class="bar"><i></i></div>
+    </div>
+    {%- for g in tracker.groups %}
+    <h3 class="ctr-h">{{ g.title }}</h3>
+    <div class="ctrs">
+      {%- for it in g.items %}
+      <div class="ctr" data-count="{{ g.id }}:{{ it.id }}" data-max="{{ it.max }}">
+        <div class="ctr-top"><a href="{{ it.u }}">{{ it.n }}</a><span class="ctr-v"><span data-val>0</span>/{{ it.max }}</span></div>
+        <div class="bar"><i></i></div>
+        <div class="ctr-row">
+          <span class="ctr-meta">{% if it.pct %}100%: {{ it.pct }}{% endif %}{% if it.pct and it.trophy %} · {% endif %}{% if it.trophy %}<span class="ctr-tr">Trophy: {{ it.trophy }} ({{ it.tmax }})</span>{% endif %}</span>
+          <span class="ctr-btns"><button type="button" data-dec aria-label="One less {{ it.n }}">−</button><input type="number" inputmode="numeric" min="0" max="{{ it.max }}" value="0" aria-label="{{ it.n }} found"><button type="button" data-inc aria-label="One more {{ it.n }}">+</button></span>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+    <p class="tsrc">Targets from the in-game 100% checklist (Press Start, PowerPyx) and the PSN trophy list. Location lists are linked from <a href="/guides/activities-and-collectibles/">activities and collectibles</a>. <button class="reset" type="button" data-ctr-reset>Reset tracker</button></p>
+  </div>
+</section>
+
+<section class="sec" id="regions">
+  <div class="wrap">
+    <p class="kicker">Map checklist</p>
+    <h2 class="sec-h">Region checklist</h2>
+    <p class="lede">Pick a region to see the missions and things to do there, and tick them off. Ticks are shared with the walkthrough.</p>
+    <div class="rtabs" role="tablist" aria-label="Regions">
+      {%- for r in regions %}<button type="button" role="tab" class="rtab" data-rtab="{{ r.slug }}" aria-selected="{{ 'true' if loop.first else 'false' }}" aria-controls="rp-{{ r.slug }}">{{ r.short or r.name }}</button>{% endfor %}
+    </div>
+    {%- for r in regions %}
+    {%- set ms = collections.missions | where("data.region", r.slug) %}
+    {%- set acts = collections.all | activitiesIn(r.slug) %}
+    {%- set ppl = cast | where("region", r.slug) %}
+    <div class="rpanel" id="rp-{{ r.slug }}" role="tabpanel" data-rpanel="{{ r.slug }}"{% if not loop.first %} hidden{% endif %}>
+      <div class="rpanel-head">
+        <img src="/assets/img/post/{{ r.slug }}.webp" alt="{{ r.name }} postcard, official GTA 6 artwork" width="1200" height="675" loading="lazy">
+        <div><p class="kicker">{{ r.kind }}</p><h3>{{ r.name }}</h3><p>{{ r.summary }}</p><a class="more" href="/map/{{ r.slug }}/">Region guide →</a></div>
+      </div>
+      <div class="rcols">
+        <div>
+          <h4>Missions here <span>{{ ms.length }}</span></h4>
+          {%- if ms.length %}
+          <ul class="rlist">{% for m in ms %}<li data-track-row><label><input class="cb" type="checkbox" data-track="mission:{{ m.data.slug }}"><a href="{{ m.url }}">{{ m.data.title }}</a></label></li>{% endfor %}</ul>
+          {%- else %}<p class="nomatch">No mission guides placed here yet.</p>{% endif %}
+        </div>
+        <div>
+          <h4>Things to do <span>{{ acts.length }}</span></h4>
+          {%- if acts.length %}
+          <ul class="rlist">{% for a in acts %}<li data-track-row><label><input class="cb violet" type="checkbox" data-track="try:{{ a.id }}"><a href="/activities/#{{ a.id }}">{{ a.t }}</a></label></li>{% endfor %}</ul>
+          {%- else %}<p class="nomatch">Nothing tagged here yet.</p>{% endif %}
+          {%- if ppl.length %}
+          <h4>People here</h4>
+          <ul class="rlist plain">{% for o in ppl %}<li><a href="/characters/{{ o.slug }}/">{{ o.name }}</a> <small>{{ o.role }}</small></li>{% endfor %}</ul>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
 
 <section class="sec">
   <div class="wrap">
@@ -44,11 +112,10 @@ updated: 2026-11-17
 <section class="sec">
   <div class="wrap">
     <div class="empty">
-      <p class="kicker pre-only">Opens at launch</p>
-      <p class="kicker post-only">In progress</p>
-      <h2 class="sec-h sm">A full map comes after launch</h2>
-      <p>Rockstar has not released an official map. Once the game is out, each region page fills in with its missions, collectibles and places worth knowing.</p>
-      <p style="margin-top:12px">Until then, the fan-made <a href="https://map.stateofleonida.net/" rel="noopener">State of Leonida map</a> pieces the state together from the trailers. It is a community project, not official.</p>
+      <p class="kicker">Coming next</p>
+      <h2 class="sec-h sm">An interactive map with pins</h2>
+      <p>Rockstar has not put an official map online yet, and we only use official Rockstar images. As soon as there is one we can use, the tracker above gets a clickable map with a pin for every confirmed location.</p>
+      <p style="margin-top:12px">For now, the fan-made <a href="https://map.stateofleonida.net/" rel="noopener">State of Leonida map</a> is a community project, not official.</p>
     </div>
   </div>
 </section>

@@ -450,3 +450,68 @@ document.addEventListener("click", (e) => {
   paint();
   setInterval(paint, 30000);
 })();
+
+// Map checklist: collection counters (vfg.counts.v1) and region tabs.
+(() => {
+  const KEY = "vfg.counts.v1";
+  const boxes = [...document.querySelectorAll("[data-count]")];
+  const tabs = [...document.querySelectorAll("[data-rtab]")];
+  if (!boxes.length && !tabs.length) return;
+  let counts = {};
+  try { counts = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { counts = {}; }
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(counts)); } catch (e) {} };
+  const total = document.querySelector("[data-ctr-total]");
+  const paint = () => {
+    let done = 0, max = 0;
+    boxes.forEach((b) => {
+      const k = b.dataset.count, m = +b.dataset.max || 0;
+      const v = Math.max(0, Math.min(m, counts[k] | 0));
+      done += v; max += m;
+      b.querySelector("[data-val]").textContent = v;
+      const inp = b.querySelector("input");
+      if (document.activeElement !== inp) inp.value = v;
+      b.querySelector(".bar > i").style.width = (m ? (v / m) * 100 : 0) + "%";
+      b.classList.toggle("is-done", m > 0 && v >= m);
+    });
+    if (total) {
+      total.querySelector("[data-ctr-done]").textContent = done;
+      total.querySelector("[data-ctr-max]").textContent = max;
+      const pct = max ? Math.round((done / max) * 100) : 0;
+      total.querySelector("[data-ctr-pct]").textContent = pct + "%";
+      total.querySelector(".bar > i").style.width = pct + "%";
+    }
+  };
+  const set = (b, v) => {
+    const m = +b.dataset.max || 0;
+    v = Math.max(0, Math.min(m, Math.round(+v || 0)));
+    if (v) counts[b.dataset.count] = v; else delete counts[b.dataset.count];
+    save(); paint();
+  };
+  boxes.forEach((b) => {
+    b.querySelector("[data-inc]").addEventListener("click", () => set(b, (counts[b.dataset.count] | 0) + 1));
+    b.querySelector("[data-dec]").addEventListener("click", () => set(b, (counts[b.dataset.count] | 0) - 1));
+    const inp = b.querySelector("input");
+    inp.addEventListener("change", () => set(b, inp.value));
+    inp.addEventListener("keydown", (e) => { if (e.key === "Enter") inp.blur(); });
+  });
+  const reset = document.querySelector("[data-ctr-reset]");
+  if (reset) reset.addEventListener("click", () => {
+    if (!reset.classList.contains("armed")) {
+      reset.classList.add("armed"); reset.dataset.label = reset.textContent; reset.textContent = "Tap again to clear";
+      setTimeout(() => { if (reset.classList.contains("armed")) { reset.classList.remove("armed"); reset.textContent = reset.dataset.label; } }, 4000);
+      return;
+    }
+    counts = {}; save(); paint(); reset.classList.remove("armed"); reset.textContent = reset.dataset.label;
+  });
+  window.addEventListener("storage", (e) => { if (e.key === KEY) { try { counts = JSON.parse(e.newValue || "{}") || {}; } catch (x) {} paint(); } });
+  paint();
+
+  const show = (slug, focus) => {
+    tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.rtab === slug)));
+    document.querySelectorAll("[data-rpanel]").forEach((p) => { p.hidden = p.dataset.rpanel !== slug; });
+    if (focus) history.replaceState(null, "", "#region-" + slug);
+  };
+  tabs.forEach((t) => t.addEventListener("click", () => show(t.dataset.rtab, true)));
+  const h = location.hash.match(/^#region-(.+)$/);
+  if (h && tabs.some((t) => t.dataset.rtab === h[1])) show(h[1], false);
+})();

@@ -1,0 +1,263 @@
+{
+ "updated": "2026-11-18",
+ "groups": [
+  {
+   "id": "explore",
+   "title": "Explore and collect",
+   "items": [
+    {
+     "id": "meditation",
+     "n": "Meditation spots",
+     "max": 18,
+     "pct": 15,
+     "trophy": "Positive Mental Attitude",
+     "tmax": 18,
+     "u": "/guides/activities-and-collectibles/#meditation"
+    },
+    {
+     "id": "waink",
+     "n": "WAiNK locations",
+     "max": 100,
+     "pct": 100,
+     "trophy": "You WAiNKer!",
+     "tmax": 100,
+     "u": "/guides/activities-and-collectibles/#waink"
+    },
+    {
+     "id": "cards",
+     "n": "Card sets completed",
+     "max": 15,
+     "pct": 15,
+     "trophy": "Don't Touch My Deck",
+     "tmax": 3,
+     "u": "/guides/activities-and-collectibles/#collectible-cards"
+    },
+    {
+     "id": "flamingos",
+     "n": "Cocaine Flamingos",
+     "max": 100,
+     "pct": 100,
+     "u": "/guides/activities-and-collectibles/#cocaine-flamingos"
+    },
+    {
+     "id": "underwater",
+     "n": "Underwater discoveries",
+     "max": 33,
+     "pct": 33,
+     "u": "/guides/activities-and-collectibles/#underwater"
+    },
+    {
+     "id": "kenton",
+     "n": "Kenton sets",
+     "max": 5,
+     "pct": 5,
+     "u": "/guides/side-contacts/#kenton"
+    },
+    {
+     "id": "reading",
+     "n": "Magazines, books and comics",
+     "max": 30,
+     "pct": 30,
+     "u": "/guides/activities-and-collectibles/#reading"
+    },
+    {
+     "id": "stunts",
+     "n": "Stunts",
+     "max": 300,
+     "pct": 300,
+     "trophy": "Cunning Stunts",
+     "tmax": 250,
+     "u": "/guides/activities-and-collectibles/#stunts"
+    },
+    {
+     "id": "areas",
+     "n": "Map areas explored",
+     "max": 52,
+     "trophy": "The Goodtime State",
+     "tmax": 52,
+     "u": "/trophies/"
+    },
+    {
+     "id": "vehicles",
+     "n": "Base model vehicles scanned",
+     "max": 200,
+     "pct": 200,
+     "trophy": "Whip It Good",
+     "tmax": 100,
+     "u": "/guides/activities-and-collectibles/#waink"
+    },
+    {
+     "id": "animals",
+     "n": "Animals studied",
+     "max": 100,
+     "pct": 100,
+     "u": "/guides/activities-and-collectibles/#fishing-hunting-gyms"
+    }
+   ]
+  },
+  {
+   "id": "activities",
+   "title": "Activities",
+   "items": [
+    {
+     "id": "drone",
+     "n": "Drone time trials",
+     "max": 42,
+     "pct": 42,
+     "u": "/guides/activities-and-collectibles/#drone-races"
+    },
+    {
+     "id": "dronelocs",
+     "n": "Drone locations won",
+     "max": 14,
+     "trophy": "Top Fun",
+     "tmax": 14,
+     "u": "/guides/activities-and-collectibles/#drone-races"
+    },
+    {
+     "id": "range",
+     "n": "Shooting range golds",
+     "max": 42,
+     "pct": 42,
+     "trophy": "The Shootist",
+     "tmax": 42,
+     "u": "/guides/activities-and-collectibles/#shooting-ranges"
+    },
+    {
+     "id": "races",
+     "n": "Unique races won",
+     "max": 30,
+     "pct": 30,
+     "trophy": "Earn Cash, Not Kudos",
+     "tmax": 20,
+     "u": "/guides/activities-and-collectibles/#races"
+    },
+    {
+     "id": "racegolds",
+     "n": "Race challenge golds",
+     "max": 10,
+     "pct": 10,
+     "u": "/guides/activities-and-collectibles/#races"
+    },
+    {
+     "id": "pool",
+     "n": "Pool opponents beaten",
+     "max": 5,
+     "pct": 5,
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+    },
+    {
+     "id": "golf",
+     "n": "Mini golf courses",
+     "max": 2,
+     "pct": 2,
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+    },
+    {
+     "id": "hoops",
+     "n": "Basketball hoops",
+     "max": 90,
+     "pct": 90,
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+    },
+    {
+     "id": "games",
+     "n": "Video games played",
+     "max": 4,
+     "pct": 4,
+     "u": "/guides/activities-and-collectibles/#video-games"
+    },
+    {
+     "id": "challenges",
+     "n": "Challenges",
+     "max": 70,
+     "pct": 70,
+     "trophy": "One Last Thing",
+     "tmax": 50,
+     "u": "/guides/activities-and-collectibles/#challenges"
+    },
+    {
+     "id": "decks",
+     "n": "Bret's Target Decks",
+     "max": 15,
+     "pct": 15,
+     "u": "/guides/side-contacts/#bret"
+    }
+   ]
+  },
+  {
+   "id": "crime",
+   "title": "Crime and property",
+   "items": [
+    {
+     "id": "gangops",
+     "n": "Gang operations",
+     "max": 39,
+     "pct": 39,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "gangs",
+     "n": "Gangs robbed (one each)",
+     "max": 9,
+     "trophy": "Pest Control",
+     "tmax": 9,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "banks",
+     "n": "Bank jobs",
+     "max": 22,
+     "pct": 22,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "payday",
+     "n": "Payday loans",
+     "max": 7,
+     "pct": 7,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "smash",
+     "n": "Smash 'N' Grabs",
+     "max": 34,
+     "pct": 34,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "stickups",
+     "n": "Stick ups",
+     "max": 50,
+     "pct": 50,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "vaults",
+     "n": "Bank vaults",
+     "max": 8,
+     "pct": 8,
+     "trophy": "Maximum Withdrawal",
+     "tmax": 5,
+     "u": "/guides/activities-and-collectibles/#robberies"
+    },
+    {
+     "id": "garages",
+     "n": "Garages bought",
+     "max": 8,
+     "trophy": "Little Boxes",
+     "tmax": 8,
+     "u": "/guides/activities-and-collectibles/#garages"
+    },
+    {
+     "id": "scooter",
+     "n": "Cars registered (Scooter Bros)",
+     "max": 10,
+     "trophy": "On the Spot",
+     "tmax": 10,
+     "u": "/guides/activities-and-collectibles/#garages"
+    }
+   ]
+  }
+ ]
+}
