@@ -39,5 +39,6 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - New pages and steps stay "First pass" (no `verified` field) until Hauk or someone has confirmed them in the game.
 - Story details only inside spoiler blocks. A mission page covers only that mission.
 - Use "GTA 6" in titles and search-facing text. Add sources in front matter `sources` where the layout supports it.
+- Mission pages and the walkthrough list do not display sources (Hauk's call, Nov 18). Keep `sources` in mission front matter as our own record; the page shows only the status: Reported (two sources agree, first pass) or Verified (checked in-game).
 - Images: only official Rockstar Games media, credited "Image: Rockstar Games". Never screenshots taken from other sites or YouTube.
 - The site is non-commercial: no ads, affiliate links or sponsored content.

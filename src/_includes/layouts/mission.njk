@@ -18,7 +18,7 @@ crumbParent:
     {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
     <div class="chips">
       {%- if protagonist %}<span class="chip who {{ protagonist }}">{{ whoLabel[protagonist] }}</span>{% endif %}
-      {%- if verified %}<span class="chip ok dot">Verified on v{{ verified }}</span>{% else %}<span class="chip rum dot">First pass, not yet verified</span>{% endif %}
+      {%- if verified %}<span class="chip ok dot">Verified on v{{ verified }}</span>{% else %}<span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span>{% endif %}
       <span class="chip plain">Spoilers: this mission only</span>
     </div>
     <dl class="meta">
@@ -122,20 +122,7 @@ crumbParent:
       {%- if next %}<a class="pg next" href="{{ next.url }}"><span class="l">Next mission</span><span class="t">{{ next.data.order | pad }} · {{ next.data.title }}</span></a>
       {%- else %}<a class="pg next" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
     </nav>
-    {%- if updated %}<p class="stamp">Last updated {{ updated | niceDate }}</p>{% endif %}
+    <p class="stamp">{% if verified %}Confirmed in the game.{% else %}Reported: every fact here agrees in at least two independent walkthroughs.{% endif %} Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>
   </div>
 </section>
-{%- if sources and sources.length %}
-<section class="sec" id="sources">
-  <div class="wrap">
-    <p class="kicker">Sources</p>
-    <h2 class="sec-h sm">Checked against</h2>
-    <p class="lede">Facts on this page agree in at least two independent walkthroughs. The steps are written in our own words.</p>
-    <ul class="sources">
-      {%- for s in sources %}
-      <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% if s.note %}<span>{{ s.note }}</span>{% endif %}</li>
-      {%- endfor %}
-    </ul>
-  </div>
-</section>
-{%- endif %}
+{#- Sources stay in front matter for our own records; mission pages show only the status. #}
