@@ -73,7 +73,7 @@
     </div>
     <div class="trophies" data-filter-list="trophies">
       {%- for tr in t.items %}
-      <div class="tr{% if tr.hidden %} is-secret{% endif %}" data-track-row data-tags="{{ tr.tags | join(' ') }}{% if tr.missable %} missable{% endif %}{% if tr.hidden %} hidden{% endif %}">
+      <div class="tr{% if tr.hidden %} is-secret{% endif %}" id="{{ tr.id }}" data-track-row data-tags="{{ tr.tags | join(' ') }}{% if tr.missable %} missable{% endif %}{% if tr.hidden %} hidden{% endif %}">
         <input class="cb" type="checkbox" id="t-{{ tr.id }}" data-track="trophy:{{ tr.id }}" aria-label="Mark trophy {{ loop.index }} earned">
         <div class="body">
           <div class="name"><span class="secret">{{ tr.name }}</span></div>

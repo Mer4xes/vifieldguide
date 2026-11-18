@@ -142,6 +142,15 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("castMissions", (missions, c) => (missions || []).filter((m) =>
     m.data.giver === c.name || m.data.giver === c.short ||
     (c.lead && (m.data.protagonist === c.lead || m.data.protagonist === "both"))));
+  // Cast member whose short or full name matches a mission giver ("Cal", "Brian").
+  eleventyConfig.addFilter("castByName", (cast, name) =>
+    (cast || []).find((c) => c.short === name || c.name === name) || null);
+  // How many missions in a chapter of storyMissions have a written guide.
+  eleventyConfig.addFilter("guidesIn", (list, missions) => {
+    const slugify = eleventyConfig.getFilter("slugify");
+    const have = new Set((missions || []).map((m) => m.data.slug));
+    return (list || []).filter((m) => have.has(slugify(m.t))).length;
+  });
   // Activities (cards on /activities/) tagged with a region, for "Things to do here" on region pages.
   eleventyConfig.addFilter("activitiesIn", (all, region) => {
     const page = (all || []).find((p) => p.url === "/activities/");

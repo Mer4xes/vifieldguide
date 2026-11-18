@@ -130,7 +130,11 @@
     },
     {
      "t": "Recalibration",
-     "no": 19
+     "no": 19,
+     "warn": {
+      "t": "Save and bank your cash before this one",
+      "u": "/walkthrough/recalibration/#before-you-start"
+     }
     },
     {
      "t": "Tourist Trap",

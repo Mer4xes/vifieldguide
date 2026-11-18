@@ -11,6 +11,8 @@ faq:
     a: "Five. Each one earns a trophy when you finish it, the last one through the final mission."
   - q: "How long is the GTA 6 story?"
     a: "Roughly 50 to 80 hours for the main story, depending on who you ask: Press Start says just under 50, VGC around 60 and PowerPyx 60 to 80."
+  - q: "Is there a point of no return in GTA 6?"
+    a: "Yes, at the end of Chapter 1. After Recalibration the story runs straight through Tourist Trap, Home Sweet Home and Discharge Time with no free roam, and Jason is out of action for a long time. Make a separate manual save first and deposit your cash, since money in your pocket is lost and Jason's house in Key Lento is gone for good. Side jobs such as Kenton's dives come back later."
   - q: "Do you have to play the missions in this order?"
     a: "No. Within a chapter several missions can be done in a different order. This list follows the order of the in-game story recap."
 ---
@@ -41,7 +43,8 @@ faq:
     <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: built from Press Start, PC Gamer and PowerPyx, keeping only missions that at least two of them list, and not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
     {%- for c in story.chapters %}
     <div class="chapter" id="chapter-{{ c.n }}">
-      <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions</span></h2>
+      {%- set nGuides = c.missions | guidesIn(missions) %}
+      <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions{% if nGuides %} · {% if nGuides == c.missions.length %}all guides written{% else %}{{ nGuides }} guides{% endif %}{% endif %}</span></h2>
       {%- if c.n == 5 %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Final chapter mission names</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
       <ol class="mlist">
         {%- for m in c.missions %}
@@ -64,6 +67,9 @@ faq:
           </span>
           {%- endif %}
         </li>
+        {%- if m.warn %}
+        <li class="mopens mwarn"><span class="mopens-k">Point of no return</span><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></li>
+        {%- endif %}
         {%- if m.opens and m.opens.length %}
         <li class="mopens"><span class="mopens-k">Opens up</span>{% for o in m.opens %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>
         {%- endif %}

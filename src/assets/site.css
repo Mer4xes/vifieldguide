@@ -729,3 +729,14 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 .rlist li.is-done a{color:var(--faint);text-decoration:line-through}
 .rlist.plain small{color:var(--faint)}
 @media(max-width:700px){.rpanel-head,.rcols{grid-template-columns:1fr}.rpanel-head img{max-width:none}}
+/* Point-of-no-return checklist on mission pages, and its row on the walkthrough list */
+.pnr{background:linear-gradient(180deg,rgba(255,46,136,.12),var(--surface));border:1px solid rgba(255,46,136,.4);border-radius:16px;padding:22px}
+.pnr-k{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--pink);margin:0 0 6px}
+.pnr .track .txt{font-weight:500;line-height:1.45}
+.pnr .track .txt b,.pnr .track .txt strong{color:var(--fg);font-weight:800}
+.mwarn .mopens-k{color:var(--pink)}
+.mwarn a{border-color:rgba(255,46,136,.45)!important}
+@media(max-width:620px){.pnr{padding:16px}}
+/* Trophy rows are link targets (/trophies/#trophy-id) */
+.tr{scroll-margin-top:90px}
+.tr:target{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}

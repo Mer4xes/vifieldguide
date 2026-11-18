@@ -22,7 +22,7 @@ crumbParent:
       <span class="chip plain">Spoilers: this mission only</span>
     </div>
     <dl class="meta">
-      {%- if giver %}<div><dt>Giver</dt><dd>{{ giver }}</dd></div>{% endif %}
+      {%- if giver %}{% set giverCast = cast | castByName(giver) %}<div><dt>Giver</dt><dd>{% if giverCast %}<a href="/characters/{{ giverCast.slug }}/">{{ giver }}</a>{% else %}{{ giver }}{% endif %}</dd></div>{% endif %}
       {%- if regionData %}<div><dt>Area</dt><dd><a href="/map/{{ regionData.slug }}/">{{ regionData.short or regionData.name }}</a></dd></div>{% endif %}
       {%- if unlocks %}<div><dt>Unlocks</dt><dd>{{ unlocks }}</dd></div>{% endif %}
       {%- if difficulty %}<div><dt>Difficulty</dt><dd><span class="dots" aria-hidden="true">{% for i in range(0, 3) %}{% if i < difficulty %}●{% else %}○{% endif %}{% endfor %}</span> {{ diffNames[difficulty - 1] }}</dd></div>{% endif %}
@@ -46,6 +46,24 @@ crumbParent:
         <p><b>Read before you start.</b> You cannot come back for these after the mission ends.</p>
         <ul>{% for m in missables %}<li>{{ m | md | safe }}</li>{% endfor %}</ul>
       </div>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if prep and prep.length %}
+<section class="sec sec-tight" id="before-you-start">
+  <div class="wrap">
+    <div class="pnr">
+      <p class="pnr-k">Point of no return</p>
+      <h2 class="sec-h sm">Do this before you start</h2>
+      <p class="lede">Free roam closes around this mission and does not open again until Chapter 2. Tick each one off as you go.</p>
+      <ul class="track">
+        {%- for p in prep %}
+        <li data-track-row><label><input class="cb" type="checkbox" data-track="prep:{{ slug }}:{{ loop.index }}"><span class="txt">{{ p | md | safe }}</span></label></li>
+        {%- endfor %}
+      </ul>
+      <button class="reset" type="button" data-reset="prep:{{ slug }}:">Reset checklist</button>
     </div>
   </div>
 </section>
