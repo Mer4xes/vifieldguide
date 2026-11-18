@@ -24,7 +24,7 @@ export default {
   // Voluntary donation link (Ko-fi, Buy Me a Coffee or similar). Shown in the
   // footer and on the About page once url is filled in. A plain link: no
   // widget or third-party script is loaded.
-  donate: { url: "", label: "Support the guide" },
+  donate: { url: "https://ko-fi.com/vifieldguide", label: "Support the guide" },
 
   // Content language, used for og:locale and <html lang>.
   locale: "en_US",
