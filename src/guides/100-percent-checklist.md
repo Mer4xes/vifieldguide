@@ -8,7 +8,7 @@ summary: Everything the game counts toward 100%, with the number you need and th
 order: 2
 glow: cyan
 spoilerFree: true
-updated: 2026-11-18
+updated: 2026-11-19
 facts:
   - { k: Items, v: "35", status: Reported }
   - { k: Shows up, v: "After the credits", status: Reported }
@@ -89,16 +89,16 @@ The game keeps a 100% checklist with 35 items. It only appears once the credits 
 <label class="tr" data-track-row for="p-basketball-hoops"><input class="cb" type="checkbox" id="p-basketball-hoops" data-track="pct:basketball-hoops"><div class="body"><div class="name">Basketball hoops</div></div><div class="side"><span class="need">90</span><span class="of">of 100</span></div></label>
 <label class="tr" data-track-row for="p-drone-time-trials-completed"><input class="cb" type="checkbox" id="p-drone-time-trials-completed" data-track="pct:drone-time-trials-completed"><div class="body"><div class="name">Drone time trials completed</div><div class="desc">Top Fun: win a drone race at all 14 locations. Three at each of the 14 Top Fun locations.</div></div><div class="side"><span class="need">42</span><span class="of">of 42</span></div></label>
 <label class="tr" data-track-row for="p-stunts-completed"><input class="cb" type="checkbox" id="p-stunts-completed" data-track="pct:stunts-completed"><div class="body"><div class="name">Stunts completed</div><div class="desc">Cunning Stunts needs 250. Ramp jumps, flying under bridges, base jumps and more all count.</div></div><div class="side"><span class="need">300</span><span class="of">of 397</span></div></label>
-<label class="tr" data-track-row for="p-challenges-completed"><input class="cb" type="checkbox" id="p-challenges-completed" data-track="pct:challenges-completed"><div class="body"><div class="name">Challenges completed</div><div class="desc">One Last Thing needs 50. Eight categories.</div></div><div class="side"><span class="need">70</span><span class="of">of 80</span></div></label>
+<label class="tr" data-track-row for="p-challenges-completed"><input class="cb" type="checkbox" id="p-challenges-completed" data-track="pct:challenges-completed"><div class="body"><div class="name">Challenges completed</div><div class="desc">One Last Thing needs 50. Eight categories, <a href="/guides/challenges/">all 80 listed here</a>.</div></div><div class="side"><span class="need">70</span><span class="of">of 80</span></div></label>
 <label class="tr" data-track-row for="p-brets-target-decks"><input class="cb" type="checkbox" id="p-brets-target-decks" data-track="pct:brets-target-decks"><div class="body"><div class="name">Bret's target decks</div><div class="desc">Jason only. Bret's hunts start after <a href="/walkthrough/coffee-break/">Coffee Break</a> in Chapter 2.</div></div><div class="side"><span class="need">15</span><span class="of">of 15</span></div></label>
 </div>
 
 <h2 id="discovery">Discovery</h2>
 
 <div class="trophies pctlist">
-<label class="tr" data-track-row for="p-base-model-vehicles"><input class="cb" type="checkbox" id="p-base-model-vehicles" data-track="pct:base-model-vehicles"><div class="body"><div class="name">Base model vehicles</div><div class="desc">Whip It Good needs 100 discovered. Scan them with WAiNK.</div></div><div class="side"><span class="need">200</span><span class="of">of 277</span></div></label>
+<label class="tr" data-track-row for="p-base-model-vehicles"><input class="cb" type="checkbox" id="p-base-model-vehicles" data-track="pct:base-model-vehicles"><div class="body"><div class="name">Base model vehicles</div><div class="desc">Whip It Good needs 100 discovered. Scan them with WAiNK; <a href="/guides/activities-and-collectibles/#study-and-scan">how</a>.</div></div><div class="side"><span class="need">200</span><span class="of">of 277</span></div></label>
 <label class="tr" data-track-row for="p-standard-issue-weapons"><input class="cb" type="checkbox" id="p-standard-issue-weapons" data-track="pct:standard-issue-weapons"><div class="body"><div class="name">Standard issue weapons</div><div class="desc">Buy them at Ammu-Nation.</div></div><div class="side"><span class="need">50</span><span class="of">of 66</span></div></label>
-<label class="tr" data-track-row for="p-animals"><input class="cb" type="checkbox" id="p-animals" data-track="pct:animals"><div class="body"><div class="name">Animals</div><div class="desc">Study them through binoculars.</div></div><div class="side"><span class="need">100</span><span class="of">of 255</span></div></label>
+<label class="tr" data-track-row for="p-animals"><input class="cb" type="checkbox" id="p-animals" data-track="pct:animals"><div class="body"><div class="name">Animals</div><div class="desc">Study them through binoculars. <a href="/guides/activities-and-collectibles/#study-and-scan">How</a>.</div></div><div class="side"><span class="need">100</span><span class="of">of 255</span></div></label>
 </div>
 
 

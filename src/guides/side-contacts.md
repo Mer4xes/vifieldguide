@@ -29,6 +29,8 @@ faq:
     a: "1680 at Casa de Empeno, 6815 at Richardson Jewelry and 0104 at Donovan Banks & Co."
   - q: "How do you start Kyle's missions in GTA 6?"
     a: "Read one of Kyle's flyers on the wall outside the Starlet Motel reception in Chapter 2. His first job, Check Out McKittrick Farm, then shows on the map."
+  - q: "How do you start Eddie Acosta's party in GTA 6?"
+    a: "Meet Eddie at the Y Hotel in Ocean Beach during the Chapter 4 story. A few in-game days later he texts an invite to a party in Heathcliff Heights. Go alone, as Jason or Lucia. It is a one-off side job and doesn't count toward Strangers & Freaks."
 sources:
   - label: "DayOne: all contacts in GTA 6"
     url: "https://playday.one/2026/11/18/all-contacts-in-gta-6/"
@@ -69,6 +71,9 @@ sources:
   - label: "PowerPyx: Thrillbillies / Twist Wrist, Smash, Grab"
     url: "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/"
     note: "Billy's job order. Nov 18, 2026. Trusted source."
+  - label: "PowerPyx: Attend Eddie Acosta's Party"
+    url: "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/"
+    note: "Chapter 4 one-off, Y Hotel, solo, $50,000 demand, rooftop escape, not a Strangers & Freaks strand. Nov 18, 2026. Trusted source."
 ---
 
 > **Note:** First pass. Contacts, jobs and payouts come from trusted guides and are not yet checked in our own game. Step-by-step guides for each strand follow as we write them.
@@ -90,6 +95,7 @@ sources:
 | **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) | The Lone Rider (hidden) |
 | **Kyle** | Farmer with a crop duster at McKittrick Farm | Chapter 2, a flyer outside the Starlet Motel reception ([his jobs](#kyle)) | Counts toward Strangers & Freaks |
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
+| **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
@@ -155,6 +161,15 @@ Randy wants specific cars. His first job in Chapter 3 has you steal a Zorrusso, 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 
 Tyrone buys drugs, and his strand is about shutting down an operation called Kitty Litter. It starts in Chapter 3. His last mission earns **Spin On This!**
+
+<h2 id="eddie">Eddie Acosta's party</h2>
+
+Eddie is a one-off. You first run into him at the Y Hotel in Ocean Beach during a Chapter 4 story mission, and a few in-game days later he texts an invite to a party in Heathcliff Heights. Jason or Lucia can go, but on your own, not as a pair. He has no further jobs, so he doesn't count toward **Strangers & Freaks**.
+
+<ol class="strand">
+<li><div class="strand-h">Attend Eddie Acosta's Party <span class="chip plain">Chapter 4</span></div><span class="strand-pay">$0, or −$50,000</span><p>Head to the marker in the middle of Vice City. Walking into the lobby calls Eddie; wait for him by the elevator, then head up to the roof. What happens up there decides whether this job costs you money.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">What Eddie wants, and how to get out</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Eddie locks you out on the roof and asks for $50,000 for a crypto "investment". Pay and he lets you back in, and all you get is a worthless NFT picture. Don't pay. His door is bulletproof, so shooting at it won't help: take the bike on the roof, ride flat out over the solar panels to jump to the next building and take the elevator down there. If you left him alone, he is waiting by the elevator in the lobby and you can scare him off; if you shot at him, he has already run.</p></div></details></li>
+</ol>
 
 <h2 id="bret">Bret and hunting</h2>
 

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -436,8 +436,8 @@
     "open-world"
    ],
    "target": "50",
-   "how": "Challenges come in eight categories, from Combat to Vehicle. You need 50; the 100% checklist wants 70.",
-   "link": "/guides/activities-and-collectibles/#challenges",
+   "how": "Challenges come in eight categories, from Combat to Vehicle. All 80 are open from the start. You need 50; the 100% checklist wants 70.",
+   "link": "/guides/challenges/",
    "linkLabel": "Challenges"
   },
   {
@@ -474,8 +474,8 @@
     "collectibles"
    ],
    "target": "100",
-   "how": "Scanning a car with WAiNK counts as discovering it; you don't have to drive it. The 100% checklist wants 200 base models.",
-   "link": "/guides/activities-and-collectibles/#waink",
+   "how": "Scanning a car with WAiNK counts as discovering it; you don't have to drive it. Hold D-Pad Up to open WAiNK fast, then R1/RB to scan; boats and aircraft count too. The 100% checklist wants 200 base models.",
+   "link": "/guides/activities-and-collectibles/#study-and-scan",
    "linkLabel": "WAiNK scans"
   },
   {

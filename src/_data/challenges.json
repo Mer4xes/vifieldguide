@@ -1,0 +1,478 @@
+{
+ "updated": "2026-11-19",
+ "total": 80,
+ "trophy": 50,
+ "pct": 70,
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 all challenges guide",
+   "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+   "note": "All 80 challenges and requirements, Progress > Challenges, available from the start. Nov 18-19, 2026. Trusted source."
+  }
+ ],
+ "categories": [
+  {
+   "id": "combat",
+   "n": "Combat",
+   "items": [
+    {
+     "id": "speed-kills",
+     "name": "Speed Kills",
+     "req": "Take down 3 enemies inside 30 seconds."
+    },
+    {
+     "id": "melee-combat",
+     "name": "Melee Combat",
+     "req": "Kill or knock out 5 enemies in a row with melee attacks, without dying."
+    },
+    {
+     "id": "explosive-combat",
+     "name": "Explosive Combat",
+     "req": "Kill or injure 3 enemies with a single explosive."
+    },
+    {
+     "id": "headshots",
+     "name": "Headshots",
+     "req": "Land 4 headshot kills in one use of combat focus."
+    },
+    {
+     "id": "drive-bys",
+     "name": "Drive-Bys",
+     "req": "Kill 5 enemies from a vehicle within 1 minute, without getting out."
+    },
+    {
+     "id": "stealth-sniping",
+     "name": "Stealth Sniping",
+     "req": "Kill 7 enemies who haven't spotted you with a scoped sniper rifle, without dying or being arrested."
+    },
+    {
+     "id": "incendiary",
+     "name": "Incendiary",
+     "req": "Kill or injure 5 enemies with fire within 15 seconds."
+    },
+    {
+     "id": "revolver-headshots",
+     "name": "Revolver Headshots",
+     "req": "Get 6 headshot kills with a revolver without reloading or switching weapons."
+    },
+    {
+     "id": "long-range-sniping",
+     "name": "Long-Range Sniping",
+     "req": "Kill 3 enemies within 10 seconds with a scoped sniper rifle from 300 ft or more."
+    },
+    {
+     "id": "high-explosive",
+     "name": "High Explosive",
+     "req": "Kill or injure 8 enemies with explosives within 20 seconds, without taking damage."
+    }
+   ]
+  },
+  {
+   "id": "criminal",
+   "n": "Criminal",
+   "items": [
+    {
+     "id": "mugging",
+     "name": "Mugging",
+     "req": "Rob 5 pedestrians."
+    },
+    {
+     "id": "stick-ups",
+     "name": "Stick Ups",
+     "req": "Hold up 3 stores in a single in-game day, without dying or being arrested."
+    },
+    {
+     "id": "carjacking",
+     "name": "Carjacking",
+     "req": "In one day, carjack 3 vehicles and drive each to a Pay 'n' Spray, without dying or being arrested."
+    },
+    {
+     "id": "mugging-spree",
+     "name": "Mugging Spree",
+     "req": "Take $500 in cash off pedestrians in one day, without dying or being arrested."
+    },
+    {
+     "id": "cop-car-theft",
+     "name": "Cop Car Theft",
+     "req": "Stay wanted for 5 minutes while driving a stolen police vehicle."
+    },
+    {
+     "id": "cop-weapon-theft",
+     "name": "Cop Weapon Theft",
+     "req": "Grab a weapon from the trunk of 5 different police vehicles, without dying or being arrested."
+    },
+    {
+     "id": "stick-up-spree",
+     "name": "Stick Up Spree",
+     "req": "Hold up 2 stores in each of the 5 counties within 20 minutes, without dying or being arrested."
+    },
+    {
+     "id": "cop-tow",
+     "name": "Cop Tow",
+     "req": "Tow a police vehicle with someone inside for 1 mile without stopping."
+    },
+    {
+     "id": "carjacking-spree",
+     "name": "Carjacking Spree",
+     "req": "Within 30 minutes, register or respray stolen vehicles from 10 different manufacturers at a Pay 'n' Spray, without dying or being arrested."
+    },
+    {
+     "id": "carjacking-pro",
+     "name": "Carjacking Pro",
+     "req": "Make $100,000 in one day selling stolen vehicles to a fence or a Pay 'n' Spray, without dying or being arrested."
+    }
+   ]
+  },
+  {
+   "id": "exploration",
+   "n": "Exploration",
+   "items": [
+    {
+     "id": "waink-locations",
+     "name": "WAiNK Locations",
+     "req": "Scan 4 landmarks, curiosities or sculptures with WAiNK.",
+     "u": "/collectibles/waink-locations/"
+    },
+    {
+     "id": "skyscrapers",
+     "name": "Skyscrapers",
+     "req": "Get to the top of the 5 tallest skyscrapers in Vice-Dale County."
+    },
+    {
+     "id": "collectible-cards",
+     "name": "Collectible Cards",
+     "req": "Find 3 collectible cards in each of the 5 counties.",
+     "u": "/collectibles/collectible-cards/"
+    },
+    {
+     "id": "encyclopedia",
+     "name": "Encyclopedia",
+     "req": "Discover 100 animals, vehicles and weapons.",
+     "u": "/guides/activities-and-collectibles/#study-and-scan"
+    },
+    {
+     "id": "underwater-discoveries",
+     "name": "Underwater Discoveries",
+     "req": "Find and explore 25 unusual sights on the ocean floor.",
+     "u": "/collectibles/underwater-discoveries/"
+    },
+    {
+     "id": "rail-tour",
+     "name": "Rail Tour",
+     "req": "In one day, ride a train for 1 mile in each of the 5 counties, without skipping the ride."
+    },
+    {
+     "id": "underwater-treasures",
+     "name": "Underwater Treasures",
+     "req": "Find 85 underwater treasures.",
+     "u": "/guides/activities-and-collectibles/#underwater"
+    },
+    {
+     "id": "black-hole-wrecks",
+     "name": "Black Hole Wrecks",
+     "req": "Find all 11 black hole wrecks."
+    },
+    {
+     "id": "road-trip",
+     "name": "Road Trip",
+     "req": "Visit every city and town in Leonida in one day, only leaving the vehicle to refuel."
+    },
+    {
+     "id": "helipad-flyovers",
+     "name": "Helipad Flyovers",
+     "req": "Fly over all 41 helipads in Vice City and Vice Beach at 100 ft or lower, within 10 minutes."
+    }
+   ]
+  },
+  {
+   "id": "fitness",
+   "n": "Fitness",
+   "items": [
+    {
+     "id": "gym-member",
+     "name": "Gym Member",
+     "req": "Join any gym.",
+     "u": "/activities/#gyms"
+    },
+    {
+     "id": "foot-travel",
+     "name": "Foot Travel",
+     "req": "Walk 5 miles in one day."
+    },
+    {
+     "id": "pro-cyclist",
+     "name": "Pro Cyclist",
+     "req": "Cycle 15 miles in one day."
+    },
+    {
+     "id": "pro-swimmer",
+     "name": "Pro Swimmer",
+     "req": "Swim 3 miles in one day."
+    },
+    {
+     "id": "balanced-workout",
+     "name": "Balanced Workout",
+     "req": "Use every type of gym equipment in one day."
+    },
+    {
+     "id": "strength-regime",
+     "name": "Strength Regime",
+     "req": "Keep Jason and Lucia both at Strength Level 4 for 5 days in a row."
+    },
+    {
+     "id": "cardio-regime",
+     "name": "Cardio Regime",
+     "req": "Keep Jason and Lucia both at Cardio Level 4 for 5 days in a row."
+    },
+    {
+     "id": "waning-sands-run",
+     "name": "Waning Sands Run",
+     "req": "Go on foot from the gate of the Tip pier to Waning Sands within 13 minutes, without taking damage."
+    },
+    {
+     "id": "tequesta-swim",
+     "name": "Tequesta Swim",
+     "req": "Swim from Tequesta Retreat to Starfish Island within 15 minutes."
+    },
+    {
+     "id": "southwind-cycle",
+     "name": "Southwind Cycle",
+     "req": "Ride a bicycle from Williams Guest House to Chicky's Tiki Bar in Southwind within 22 minutes, without falling off."
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "n": "Shopping",
+   "items": [
+    {
+     "id": "vehicle-modder",
+     "name": "Vehicle Modder",
+     "req": "Buy 5 modifications at a mod shop."
+    },
+    {
+     "id": "grocery-shopper",
+     "name": "Grocery Shopper",
+     "req": "Spend more than $250 at convenience or liquor stores in one day."
+    },
+    {
+     "id": "well-armed",
+     "name": "Well Armed",
+     "req": "Buy 3 sidearms and 3 longarms at Ammu-Nation."
+    },
+    {
+     "id": "well-groomed",
+     "name": "Well Groomed",
+     "req": "Spend more than $1,000 at barbers, hairdressers or salons."
+    },
+    {
+     "id": "stylishly-armed",
+     "name": "Stylishly Armed",
+     "req": "Buy cosmetic upgrades for 5 sidearms and 5 longarms at Ammu-Nation."
+    },
+    {
+     "id": "well-dressed",
+     "name": "Well Dressed",
+     "req": "Spend more than $5,000 on clothes."
+    },
+    {
+     "id": "custom-ride",
+     "name": "Custom Ride",
+     "req": "Spend more than $20,000 in one visit to a mod shop."
+    },
+    {
+     "id": "heavily-armed",
+     "name": "Heavily Armed",
+     "req": "Spend more than $50,000 at Ammu-Nation in total."
+    },
+    {
+     "id": "serious-modder",
+     "name": "Serious Modder",
+     "req": "Spend more than $125,000 at mod shops in total."
+    },
+    {
+     "id": "nest-egg",
+     "name": "Nest Egg",
+     "req": "Have $1,500,000 in your BuckMe checking account."
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "n": "Sports",
+   "items": [
+    {
+     "id": "basketball-rookie",
+     "name": "Basketball Rookie",
+     "req": "Score at 3 different hoops in one day.",
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+    },
+    {
+     "id": "golf-rookie",
+     "name": "Golf Rookie",
+     "req": "Play 18 holes at King Gator or Frontier Adventure Golf within 30 minutes, finishing 3 under par or better."
+    },
+    {
+     "id": "basketball-streak",
+     "name": "Basketball Streak",
+     "req": "Make 10 shots in a row within 2 minutes."
+    },
+    {
+     "id": "pool-streak",
+     "name": "Pool Streak",
+     "req": "Win games of pool at 3 different places in one day, without losing or quitting."
+    },
+    {
+     "id": "basketball-tour",
+     "name": "Basketball Tour",
+     "req": "Score a shot in every county."
+    },
+    {
+     "id": "golf-pro",
+     "name": "Golf Pro",
+     "req": "Play 18 holes at King Gator and at Frontier Adventure Golf in the same day, at par or better on both."
+    },
+    {
+     "id": "triple-bank",
+     "name": "Triple Bank",
+     "req": "Bounce the cue ball off 3 cushions before potting a ball."
+    },
+    {
+     "id": "basketball-pro",
+     "name": "Basketball Pro",
+     "req": "Score at all 100 hoops in Leonida.",
+     "u": "/guides/activities-and-collectibles/#pool-golf-basketball"
+    },
+    {
+     "id": "8-ball-break",
+     "name": "8-Ball Break",
+     "req": "Win a game of pool by potting the 8-ball on the break."
+    },
+    {
+     "id": "double-hole-in-one",
+     "name": "Double Hole In One",
+     "req": "Get two holes in one back to back in the same round at King Gator or Frontier Adventure Golf."
+    }
+   ]
+  },
+  {
+   "id": "survival",
+   "n": "Survival",
+   "items": [
+    {
+     "id": "alligator-kills",
+     "name": "Alligator Kills",
+     "req": "Kill 3 wild alligators."
+    },
+    {
+     "id": "big-fish",
+     "name": "Big Fish",
+     "req": "Catch a fish weighing 20 lb or more."
+    },
+    {
+     "id": "marksman",
+     "name": "Marksman",
+     "req": "Win a medal at both shooting ranges in one day.",
+     "u": "/guides/activities-and-collectibles/#shooting-ranges"
+    },
+    {
+     "id": "catch-of-the-day",
+     "name": "Catch of the Day",
+     "req": "Catch 3 fish with every type of lure in one day."
+    },
+    {
+     "id": "zoologist",
+     "name": "Zoologist",
+     "req": "Study 20 animal species through binoculars.",
+     "u": "/guides/activities-and-collectibles/#study-and-scan"
+    },
+    {
+     "id": "angler",
+     "name": "Angler",
+     "req": "Catch 4 different species of fish within 6 minutes."
+    },
+    {
+     "id": "pro-marksman",
+     "name": "Pro Marksman",
+     "req": "Earn gold in 3 different shooting range events in a row, without failing or quitting.",
+     "u": "/guides/activities-and-collectibles/#shooting-ranges"
+    },
+    {
+     "id": "hunting-spree",
+     "name": "Hunting Spree",
+     "req": "Kill a boar, a rattlesnake and a panther within 15 minutes, without taking damage from people or animals."
+    },
+    {
+     "id": "pro-angler",
+     "name": "Pro Angler",
+     "req": "Catch every species of fish."
+    },
+    {
+     "id": "legendary-hunter",
+     "name": "Legendary Hunter",
+     "req": "Kill all 8 unique animals.",
+     "u": "/guides/side-contacts/#bret"
+    }
+   ]
+  },
+  {
+   "id": "vehicle",
+   "n": "Vehicle",
+   "items": [
+    {
+     "id": "vehicle-discovery",
+     "name": "Vehicle Discovery",
+     "req": "Discover 6 different vehicles. Scanning them with WAiNK counts.",
+     "u": "/guides/activities-and-collectibles/#study-and-scan"
+    },
+    {
+     "id": "wheelie",
+     "name": "Wheelie",
+     "req": "Hold a wheelie for 0.25 miles."
+    },
+    {
+     "id": "winning-streak",
+     "name": "Winning Streak",
+     "req": "Win 3 races: one in a muscle car, one in a sports car and one in a supercar.",
+     "u": "/guides/activities-and-collectibles/#races"
+    },
+    {
+     "id": "throttled",
+     "name": "Throttled",
+     "req": "Stay above 100 mph in a motor vehicle for 2 minutes."
+    },
+    {
+     "id": "drawbridge-jump",
+     "name": "Drawbridge Jump",
+     "req": "Clear a drawbridge by more than 100 ft three times, without getting out of the vehicle."
+    },
+    {
+     "id": "top-speed",
+     "name": "Top Speed",
+     "req": "Hit 175 mph in a car, truck or motorbike."
+    },
+    {
+     "id": "train-landing",
+     "name": "Train Landing",
+     "req": "Land a plane on a moving train without wrecking it."
+    },
+    {
+     "id": "oceanarium-jump",
+     "name": "Oceanarium Jump",
+     "req": "Jump from an aircraft at 0.5 miles up or higher and parachute into the orca or dolphin tank at the Vice City Oceanarium, without dying."
+    },
+    {
+     "id": "rally-winner",
+     "name": "Rally Winner",
+     "req": "Win 3 races in a row in one day at Thrillbilly Mud Club, Gellhorn International Raceway and Boone Speedway, without quitting or restarting.",
+     "u": "/guides/activities-and-collectibles/#races"
+    },
+    {
+     "id": "train-jump",
+     "name": "Train Jump",
+     "req": "Jump a motorbike 75 ft or more and land on a moving train, twice within 20 minutes."
+    }
+   ]
+  }
+ ]
+}

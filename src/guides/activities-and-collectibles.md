@@ -8,7 +8,7 @@ summary: What there is to do and find in Leonida, how many of each the trophies 
 order: 3
 glow: cyan
 spoilerFree: true
-updated: 2026-11-18
+updated: 2026-11-19
 facts:
   - { k: Meditation spots, v: "18", status: Reported }
   - { k: Drone race locations, v: "14", status: Reported }
@@ -64,6 +64,12 @@ sources:
   - label: "PSNProfiles: Grand Theft Auto VI trophies"
     url: "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
     note: "Trophy names and targets, synced from PSN."
+  - label: "PowerPyx: how to study animals and scan vehicles"
+    url: "https://www.powerpyx.com/gta-6-how-to-study-animals-scan-vehicles/"
+    note: "Binocular and WAiNK controls, 100/255 animals, 200/277 base models, boats and aircraft count, Standouts excluded, Progress menu. Nov 18-19, 2026. Trusted source."
+  - label: "PowerPyx: all challenges guide"
+    url: "https://www.powerpyx.com/gta-6-all-challenges-guide/"
+    note: "80 challenges, all open from the start. Nov 18-19, 2026. Trusted source."
 ---
 
 > **Note:** First pass. Every count here comes from a trusted guide or the official trophy list. Details that are still unclear are left out until they are confirmed.
@@ -83,6 +89,16 @@ There are **480 cards** in **18 sets**, hidden around the map. The sets are them
 <h2 id="waink">WAiNK scans</h2>
 
 WAiNK is the phone app that scans things. Point it at landmarks, statues and art to log them; **You WAiNKer!** needs 100 locations, and so does the 100% checklist. The same app scans cars, which is how you discover vehicles for **Whip It Good** (100) and the checklist (200 base models). See [Unwanted Attention](/walkthrough/unwanted-attention/) for your first scan.
+
+<h2 id="study-and-scan">Studying animals and scanning vehicles</h2>
+
+The game keeps an encyclopedia of the animals and vehicles you have logged. Neither needs hunting or stealing.
+
+- **Animals:** pick the binoculars from the weapon wheel, zoom in with D-Pad Up and hold **R1/RB** on an animal to study it. Every breed of dog and cat is its own entry. The 100% checklist wants **100 of 255**; studying is all the trophies ask for, and you never have to kill or skin anything. The **Zoologist** [challenge](/guides/challenges/) wants 20 species.
+- **Vehicles:** hold **D-Pad Up** to jump straight into WAiNK (quicker than going through the phone), look at a vehicle and scan it with **R1/RB**. Boats and aircraft count as well. The checklist wants **200 of 277** base models; the special Standout vehicles are a separate list and don't count toward it.
+- **Fastest way:** stand by a busy road and scan what drives past. Pickups are more common out in the countryside, supercars in Vice City.
+
+Both counts are in the pause menu under **Progress**, then **Vehicles** or **Animals**.
 
 <h2 id="drone-races">Top Fun drone races</h2>
 
@@ -129,7 +145,7 @@ The 100% checklist wants 5 of the 7 pool opponents beaten (look in bars), 2 of t
 
 <h2 id="challenges">Challenges</h2>
 
-Challenges are split into eight categories: Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival and Vehicle. **One Last Thing** needs 50 and the 100% checklist 70. Several vehicle cheats unlock when you finish challenges in a category.
+Challenges are split into eight categories: Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival and Vehicle. **One Last Thing** needs 50 and the 100% checklist 70. Several vehicle cheats unlock when you finish challenges in a category. All 80 are open from the start; the full list with a tracker is on the [challenges page](/guides/challenges/).
 
 <h2 id="robberies">Robberies</h2>
 
