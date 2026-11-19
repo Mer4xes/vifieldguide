@@ -817,3 +817,16 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 @media(max-width:560px){.choice-opts li{grid-template-columns:1fr;gap:4px}}
 .flag.choice-flag{color:var(--violet);text-decoration:none}
 .prose .choice-opts{padding-left:0}.prose .choice-opts li{max-width:none}.prose .choice-mtitle{max-width:none}
+
+/* Side-job strands on /guides/side-contacts/: numbered job ladder */
+.prose ol.strand{list-style:none;padding:0;margin:18px 0 8px;display:grid;gap:12px;counter-reset:job}
+.prose ol.strand>li{counter-increment:job;position:relative;max-width:none;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 58px}
+.prose ol.strand>li::before{content:counter(job,decimal-leading-zero);position:absolute;left:16px;top:14px;font-family:var(--mono);font-size:13px;color:var(--violet)}
+.strand-h{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-weight:700;font-size:17px;color:var(--fg)}
+.strand-h a{color:var(--fg)}
+.strand-pay{display:inline-block;margin:4px 0 2px;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--gold)}
+.strand-h+.strand-pay{display:block}
+.strand-h .strand-pay{margin:0 0 0 auto}
+.prose ol.strand p{margin:6px 0 0;font-size:15.5px;max-width:none}
+.prose ol.strand details.spoiler{margin-top:10px}
+@media(max-width:560px){.prose ol.strand>li{padding-left:16px;padding-top:36px}.strand-h .strand-pay{margin-left:0;flex-basis:100%}}

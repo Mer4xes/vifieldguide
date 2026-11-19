@@ -296,7 +296,13 @@
     },
     {
      "t": "Dealer's Choice",
-     "no": 37
+     "no": 37,
+     "opens": [
+      {
+       "t": "Yago's street races (Jason only)",
+       "u": "/guides/side-contacts/#yago"
+      }
+     ]
     },
     {
      "t": "Meet the Heders",
@@ -338,7 +344,13 @@
     },
     {
      "t": "Boobie Time",
-     "no": 46
+     "no": 46,
+     "opens": [
+      {
+       "t": "Yasmani's jewelry jobs",
+       "u": "/guides/side-contacts/#yasmani"
+      }
+     ]
     },
     {
      "t": "First Impressions",
