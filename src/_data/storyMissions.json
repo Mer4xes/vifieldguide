@@ -332,11 +332,23 @@
     },
     {
      "t": "Here, Kitty Kitty",
-     "no": 43
+     "no": 43,
+     "opens": [
+      {
+       "t": "Tyrone as a fence",
+       "u": "/guides/fences/#narcotics"
+      }
+     ]
     },
     {
      "t": "Car Service",
-     "no": 44
+     "no": 44,
+     "opens": [
+      {
+       "t": "Randy buys stolen cars",
+       "u": "/guides/fences/#cars"
+      }
+     ]
     },
     {
      "t": "Top Billing",

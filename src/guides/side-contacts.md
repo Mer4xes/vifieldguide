@@ -15,14 +15,14 @@ facts:
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
   - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Not every contact on this page is a stranger."
-  - "The fences on this page are also how you turn stolen goods into money. See [fences](/guides/activities-and-collectibles/#fences)."
+  - "The fences on this page are also how you turn stolen goods into money. See [fences](/guides/fences/)."
 faq:
   - q: "How many Strangers & Freaks are there in GTA 6?"
     a: "The trophy asks for 8 mission strands for strangers. The full list of strands that count is still being confirmed, so check the trophy tracker as you finish each one."
   - q: "Where do you meet Kenton in GTA 6?"
     a: "At his Island Dreams shop in Key Lento, in the Chapter 1 mission Island Dreams. He runs treasure dives, and his final mission earns This Was No Boat Accident."
   - q: "Who is Randy in GTA 6?"
-    a: "Randy Kozlov is a car fence. You meet him in Chapter 3 when you steal a Zorrusso for him, which also gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
+    a: "Randy Kozlov is a car fence with a dealership in Balsero. Lucia meets him in Chapter 3 when she delivers a car for Raul in Car Service. His first own job is a Zorrusso, which gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
   - q: "How do you unlock Yago's races in GTA 6?"
     a: "Finish Dealer's Choice in Chapter 3 as Jason. A few minutes later Manuel adds you to a group chat and the first street race shows up in Salton. Race Against Yago, the third job, is limited-time, so do it as soon as it appears."
   - q: "What are the safe codes for Yasmani's jewelry jobs in GTA 6?"
@@ -86,8 +86,8 @@ sources:
 | **Kenton Rees** | Deep-water treasure diving; buys doubloons and meteorites | Chapter 1, [Island Dreams](/walkthrough/island-dreams/) | This Was No Boat Accident (hidden) |
 | **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) | |
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
-| **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions *Tyrone* and *Here, Kitty Kitty* | Spin On This! (hidden) |
-| **Randy Kozlov** | Car fence with an export list | Chapter 3, *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
+| **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) | Spin On This! (hidden) |
+| **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
 | **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after *Boobie Time* | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Jobs flying drug drops | Side contact | |
@@ -156,11 +156,11 @@ Kenton's dives start in [Island Dreams](/walkthrough/island-dreams/). You search
 
 <h2 id="randy">Randy and the key cloner</h2>
 
-Randy wants specific cars. His first job in Chapter 3 has you steal a Zorrusso, and it gets you the **key cloner**, which opens locked high-end cars. His last mission earns **Supply & Demand**.
+Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3 has you steal a Zorrusso, and it gets you the **key cloner**, which opens locked high-end cars. His last mission earns **Supply & Demand**.
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 
-Tyrone buys drugs, and his strand is about shutting down an operation called Kitty Litter. It starts in Chapter 3. His last mission earns **Spin On This!**
+Tyrone buys drugs, and his strand is about shutting down an operation called Kitty Litter. It starts in Chapter 3 with the story missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/), after which he works as a [fence](/guides/fences/). His last mission earns **Spin On This!**
 
 <h2 id="eddie">Eddie Acosta's party</h2>
 
