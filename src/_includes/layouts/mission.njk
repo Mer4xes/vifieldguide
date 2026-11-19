@@ -118,6 +118,21 @@ crumbParent:
 </section>
 {%- endif %}
 
+{%- if faq and faq.length %}
+<section class="sec sec-tight" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h sm">Quick answers</h2>
+    <div class="faq">
+      {%- for q in faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ faq | faqld | safe }}</script>
+{%- endif %}
+
 <section class="sec" id="rewards">
   <div class="wrap">
     <p class="kicker">Payoff</p>

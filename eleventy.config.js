@@ -152,9 +152,10 @@ export default function (eleventyConfig) {
       ? new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
       : ""
   );
-  // Missions a cast member appears in: as the giver, or as the protagonist you play.
+  // Missions a cast member appears in: as the giver, listed in `appears`, or as the protagonist you play.
   eleventyConfig.addFilter("castMissions", (missions, c) => (missions || []).filter((m) =>
     m.data.giver === c.name || m.data.giver === c.short ||
+    (Array.isArray(m.data.appears) && m.data.appears.includes(c.slug)) ||
     (c.lead && (m.data.protagonist === c.lead || m.data.protagonist === "both"))));
   // Cast member whose short or full name matches a mission giver ("Cal", "Brian").
   eleventyConfig.addFilter("castByName", (cast, name) =>

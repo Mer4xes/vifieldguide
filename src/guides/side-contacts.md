@@ -88,7 +88,7 @@ sources:
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
 | **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
-| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after *Boobie Time* | |
+| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/) | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Jobs flying drug drops | Side contact | |
 | **Andy** | Side strand | Side contact | Road to Rehabilitation (hidden) |
@@ -138,7 +138,7 @@ Yago's strand is for Jason only and runs through Chapter 3 in Vice City. Each jo
 
 <h2 id="yasmani">Yasmani's jewelry jobs</h2>
 
-After *Boobie Time* in Chapter 3, Yasmani gets in touch from his shop on Ocean Beach. He wants one piece from each of three stores, in any order, and Jason or Lucia can do it. Each piece is in a safe; destroy the security footage before you leave. Bring everything back to his shop to finish.
+After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in touch from his shop on Ocean Beach. He wants one piece from each of three stores, in any order, and Jason or Lucia can do it. Each piece is in a safe; destroy the security footage before you leave. Bring everything back to his shop to finish.
 
 | Store | What he wants | Safe code | Way in |
 |---|---|---|---|

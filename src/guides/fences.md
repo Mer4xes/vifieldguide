@@ -57,7 +57,7 @@ sources:
 | **Dunk** | Stolen goods, drugs | His trailer, Port Gellhorn | [Slam Dunk](/walkthrough/slam-dunk/), Chapter 2 |
 | **Tyrone** | Stolen goods, drugs | Vice City | [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/), Chapter 3 |
 | **Randy** | Stolen cars | His dealership, Balsero | [Car Service](/walkthrough/car-service/), Chapter 3 |
-| **Yasmani** | Jewelry, Marked Bills | His shop, Ocean Beach | *Boobie Time*, Chapter 3 |
+| **Yasmani** | Jewelry, Marked Bills | His shop, Ocean Beach | [Boobie Time](/walkthrough/boobie-time/), Chapter 3 |
 
 <h2 id="cars">Selling stolen cars</h2>
 
@@ -69,7 +69,7 @@ You can sell drugs from Chapter 1. [Lab Fees](/walkthrough/lab-fees/) turns **Br
 
 <h2 id="jewelry">Selling jewelry and Marked Bills</h2>
 
-**Yasmani** gets in touch after *Boobie Time* in Chapter 3. He buys jewelry and Marked Bills, and his first jobs have you rob three jewelry stores for him; see [Yasmani's jewelry jobs](/guides/side-contacts/#yasmani).
+**Yasmani** gets in touch after [Boobie Time](/walkthrough/boobie-time/) in Chapter 3. He buys jewelry and Marked Bills, and his first jobs have you rob three jewelry stores for him; see [Yasmani's jewelry jobs](/guides/side-contacts/#yasmani).
 
 <h2 id="totals">Fencing for 100% and trophies</h2>
 
