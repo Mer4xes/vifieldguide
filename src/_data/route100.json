@@ -1,0 +1,322 @@
+{
+  "skip": [
+    { "c": "exploration:helipad-flyovers", "why": "41 points inside a tight timer" },
+    { "c": "criminal:stick-up-spree", "why": "The whole map in 20 minutes" },
+    { "c": "sports:basketball-pro", "why": "The checklist only wants 90 hoops" },
+    { "c": "survival:pro-angler", "why": "A long hunt for the rare species" },
+    { "c": "survival:legendary-hunter", "why": "All eight unique animals" },
+    { "c": "shopping:nest-egg", "why": "Means not spending your money" },
+    { "c": "sports:8-ball-break", "why": "Mostly luck" },
+    { "c": "sports:double-hole-in-one", "why": "Mostly luck" },
+    { "c": "vehicle:train-landing", "why": "A hard manoeuvre" },
+    { "c": "vehicle:train-jump", "why": "A hard manoeuvre, twice, on a timer" }
+  ],
+  "parts": [
+    {
+      "id": "chapter-1", "title": "Chapter 1: Just Like Paradise",
+      "lede": "The Leonida Keys, almost all as Jason. The chapter ends with the house and your carried cash gone, so everything in Part B has to be done before mission 20.",
+      "groups": [
+        { "h": "Part A: missions 1 to 10", "items": [
+          { "m": 1 },
+          { "m": 2 },
+          { "c": "vehicle:vehicle-discovery", "n": "Scanning with WAiNK counts. Keep scanning after this: the checklist wants 200." },
+          { "c": "exploration:waink-locations" },
+          { "c": "survival:zoologist", "n": "Keep going after this: the checklist wants 100 animals." },
+          { "m": 3 },
+          { "m": 4 },
+          { "m": 5 },
+          { "c": "criminal:mugging" },
+          { "m": 6 },
+          { "m": 7 },
+          { "k": "shirley-rum", "tag": "limited", "t": "**Get Shirley's Rum.** Optional, and only exists in Chapter 1." },
+          { "k": "shirley-scooter", "tag": "limited", "t": "**Steal the Scooter.** Optional, and only exists in Chapter 1." },
+          { "m": 8 },
+          { "m": 9 },
+          { "k": "kenton-start", "tag": "side", "t": "**Start Kenton's dives.** He drops off the map for a while and returns between Chapters 2 and 3." },
+          { "c": "fitness:pro-swimmer", "n": "Fits a day of diving." },
+          { "m": 10 },
+          { "k": "console-ch1", "tag": "collect", "t": "**Start the three games on the home console.** Starting each one counts, and the console is out of reach in Chapter 2." }
+        ] },
+        { "h": "In firefights along the way", "items": [
+          { "c": "combat:speed-kills" },
+          { "c": "combat:headshots" },
+          { "k": "t-gunslinger", "track": "trophy:gunslinger", "tag": "trophy", "t": "**Gunslinger:** take down 5 enemies in one use of combat focus." }
+        ] },
+        { "h": "Part B: missions 11 to 19", "items": [
+          { "m": 11 },
+          { "m": 12 },
+          { "m": 13 },
+          { "m": 14 },
+          { "k": "balcony", "tag": "limited", "t": "**If Lucia offers a meditation at home, say yes.** Unconfirmed, but it may count toward Positive Mental Attitude and may not come back." },
+          { "m": 15 },
+          { "m": 16 },
+          { "m": 17 },
+          { "m": 18 },
+          { "k": "donnie-38", "tag": "limited", "t": "**Take Donnie's H&L .38** from the trunk before you get rid of his car. It is a unique revolver." },
+          { "c": "combat:melee-combat" },
+          { "c": "combat:explosive-combat" },
+          { "c": "fitness:foot-travel" },
+          { "c": "shopping:well-armed", "n": "A use for cash you would otherwise lose in mission 20." },
+          { "m": 19 }
+        ] },
+        { "h": "Part C: point of no return", "items": [
+          { "k": "save-ch1", "tag": "save", "t": "**Manual save in a slot of its own**, before you talk to Lucia on the beach. Keep it." },
+          { "k": "bank-ch1", "tag": "limited", "t": "**Deposit your cash**, ideally at least $5,000 in Family Savings. Anything you carry is lost." },
+          { "m": 20 },
+          { "m": 21 },
+          { "m": 22 }
+        ] }
+      ]
+    },
+    {
+      "id": "chapter-2", "title": "Chapter 2: Paradise Lost",
+      "lede": "Port Gellhorn, with the Starlet Motel as home. You play Lucia until Coffee Break. After it you can switch freely, and most of the side jobs open.",
+      "groups": [
+        { "h": "Part A: missions 23 to 30", "items": [
+          { "k": "save-ch2", "tag": "save", "t": "**Manual save** at the start of the chapter." },
+          { "m": 23 },
+          { "m": 24 },
+          { "m": 25 },
+          { "k": "kyle-1", "tag": "side", "t": "**Check Out McKittrick Farm.** Read Kyle's flyer on the wall outside the motel reception to start it. [Kyle's jobs](/guides/side-contacts/#kyle)." },
+          { "m": 26 },
+          { "m": 27 },
+          { "k": "t-on-the-spot", "track": "trophy:on-the-spot", "tag": "trophy", "t": "**On the Spot:** start registering vehicles in the Scooter Bros app. You need 10." },
+          { "m": 28 },
+          { "m": 29 },
+          { "k": "kyle-2", "tag": "side", "t": "**Collect Chemicals for Kyle.** He texts about a day after the first job." },
+          { "c": "sports:basketball-rookie" },
+          { "c": "sports:basketball-streak" },
+          { "c": "criminal:mugging-spree" },
+          { "c": "exploration:encyclopedia", "n": "Should arrive on its own around here if you scan and study as you go." },
+          { "m": 30 }
+        ] },
+        { "h": "Part B: missions 31 to 35", "items": [
+          { "m": 31 },
+          { "k": "avery-pawn", "tag": "side", "t": "**Hit Avery Pawn.** Pawn shops count as Smash 'N' Grabs from here." },
+          { "k": "kingpin", "tag": "side", "t": "**Hit Kingpin Bowling.** Take all three valuables; a hidden trophy depends on it." },
+          { "k": "impound", "tag": "side", "t": "**Impounded Vehicle.**" },
+          { "k": "bret-1", "tag": "side", "t": "**Veteran Hunted.** Jason only, and go alone. Opens Bret's hunts and his Target Decks. [Bret](/guides/side-contacts/#bret)." },
+          { "m": 32 },
+          { "m": 33 },
+          { "m": 34 },
+          { "c": "vehicle:wheelie", "n": "You keep the Sanchez from Billy's job." }
+        ] },
+        { "h": "With your partner, in one session", "items": [
+          { "k": "t-retail", "track": "trophy:retail-therapy", "tag": "trophy", "t": "**Retail Therapy:** rob 3 shops in a row without letting the wanted level drop." },
+          { "c": "criminal:stick-ups", "n": "The same run as Retail Therapy." },
+          { "k": "t-hot", "track": "trophy:hot-together", "tag": "trophy", "t": "**Hot Together:** get away from four stars together." },
+          { "c": "criminal:cop-car-theft", "n": "The same chase as Hot Together." },
+          { "c": "criminal:cop-weapon-theft" },
+          { "c": "combat:drive-bys" }
+        ] },
+        { "h": "Before the finale", "items": [
+          { "k": "save-ch2-end", "tag": "save", "t": "**Manual save in a slot of its own.** It is your way back to Chapter 2 free roam." },
+          { "k": "bank-ch2", "tag": "limited", "t": "**Have at least $15,000 in BuckMe.** The mission won't start without it." },
+          { "k": "motel", "tag": "limited", "t": "**Finish what you want to do from the Starlet Motel.** It stops being your home." },
+          { "m": 35 }
+        ] }
+      ]
+    },
+    {
+      "id": "chapter-3", "title": "Chapter 3: Tits Ass Drug Money",
+      "lede": "Vice City opens, and with it Pay 'n' Spray, jewelry stores, bank jobs and most of the fences.",
+      "groups": [
+        { "h": "Part A: missions 36 to 44", "items": [
+          { "k": "save-ch3", "tag": "save", "t": "**Manual save** at the start of the chapter." },
+          { "m": 36 },
+          { "k": "console-ch3", "tag": "collect", "t": "**The home console works again.** Start the games now if you missed them." },
+          { "k": "kenton-back", "tag": "collect", "t": "**Kenton is back.** Carry on diving." },
+          { "c": "exploration:underwater-discoveries", "n": "The checklist wants all 33." },
+          { "m": 37 },
+          { "k": "yago-1", "tag": "side", "t": "**Join a Street Race.** Jason only, in Salton. [Yago's jobs](/guides/side-contacts/#yago)." },
+          { "k": "yago-2", "tag": "side", "t": "**Bumper to Bumper.** Yago's shop in Little Cuba." },
+          { "k": "yago-3", "tag": "limited", "t": "**Race Against Yago.** Limited time: do it the moment the hourglass shows up." },
+          { "k": "yago-4", "tag": "side", "t": "**Brother to Brother.** The strand counts toward Strangers & Freaks." },
+          { "m": 38 },
+          { "m": 39 },
+          { "k": "halifax", "tag": "limited", "t": "**Say yes to Halifax.** Turning him down can cost you the later parts of the job and their rewards once the chapter ends. [Story choices](/guides/story-choices/)." },
+          { "m": 40 },
+          { "m": 41 },
+          { "m": 42 },
+          { "m": 43 },
+          { "m": 44 }
+        ] },
+        { "h": "Around the city between missions", "items": [
+          { "c": "criminal:carjacking" },
+          { "c": "exploration:skyscrapers" },
+          { "c": "vehicle:throttled" },
+          { "c": "shopping:grocery-shopper" }
+        ] },
+        { "h": "Part B: missions 45 to 50", "items": [
+          { "m": 45 },
+          { "m": 46 },
+          { "k": "yasmani-1", "tag": "side", "t": "**Yasmani, first store: Casa de Empeno.** Hand the piece in straight away to get the Snap Gun. [Yasmani's jobs](/guides/side-contacts/#yasmani)." },
+          { "k": "yasmani-2", "tag": "side", "t": "**Yasmani, the other two stores**, through the back door with the Snap Gun." },
+          { "k": "t-sneakthief", "track": "trophy:sneakthief", "tag": "trophy", "t": "**Sneakthief:** rob a jewelry store without being detected. The back-door stores are the place to try." },
+          { "m": 47 },
+          { "m": 48 },
+          { "m": 49 },
+          { "m": 50 },
+          { "k": "banks-open", "tag": "collect", "t": "**Bank jobs and payday loans are open**, and marked bills can be fenced. [Fences](/guides/fences/)." },
+          { "k": "t-blitz", "track": "trophy:a-classic-blitz-play", "tag": "trophy", "t": "**A Classic Blitz Play:** rob an armored truck and get away." },
+          { "k": "kyle-3", "tag": "side", "t": "**Buddy?** Kyle's last text comes around the middle of the chapter. His strand counts toward Strangers & Freaks." }
+        ] },
+        { "h": "Part C: missions 51 to 61", "items": [
+          { "m": 51 },
+          { "c": "criminal:carjacking-spree", "n": "The key cloner opens locked high-end cars." },
+          { "c": "vehicle:top-speed" },
+          { "c": "vehicle:winning-streak" },
+          { "m": 52 }, { "m": 53 }, { "m": 54 }, { "m": 55 }, { "m": 56 },
+          { "m": 57 }, { "m": 58 }, { "m": 59 }, { "m": 60 }
+        ] },
+        { "h": "With the bank money", "items": [
+          { "c": "shopping:vehicle-modder" },
+          { "c": "shopping:custom-ride" },
+          { "c": "shopping:well-groomed" },
+          { "c": "shopping:well-dressed" },
+          { "c": "shopping:stylishly-armed" },
+          { "k": "t-boxes", "track": "trophy:little-boxes", "tag": "trophy", "t": "**Little Boxes:** start buying the garage properties." },
+          { "k": "t-treat", "track": "trophy:treat-yo-self", "tag": "trophy", "t": "**Treat Yo Self:** all of this spending counts toward the $100,000." }
+        ] },
+        { "h": "Before the finale", "items": [
+          { "k": "save-ch3-end", "tag": "save", "t": "**Manual save in a slot of its own.**" },
+          { "m": 61 }
+        ] }
+      ]
+    },
+    {
+      "id": "chapter-4", "title": "Chapter 4: Vice City, Baby",
+      "lede": "Two optional missions matter here: one opens the vaults, the other is limited-time. We don't yet know between which missions they appear, so watch for them from the start.",
+      "groups": [
+        { "h": "Watch for these", "items": [
+          { "k": "save-ch4", "tag": "save", "t": "**Manual save** at the start of the chapter." },
+          { "k": "free-call", "tag": "limited", "t": "**This Is a Free Call From…** Optional, Lucia only and limited-time. Take it straight away." },
+          { "k": "vault-intro", "tag": "side", "t": "**That's Where The Money Is…** Optional. Opens the eight large bank vaults." },
+          { "k": "t-max", "track": "trophy:maximum-withdrawal", "tag": "trophy", "t": "**Maximum Withdrawal:** rob 5 vaults. The checklist wants all 8." },
+          { "k": "eddie", "tag": "side", "t": "**Attend Eddie Acosta's Party.** He texts a few days after you meet him. Go alone. [Eddie](/guides/side-contacts/#eddie)." }
+        ] },
+        { "h": "Part A: missions 62 to 72", "items": [
+          { "m": 62 }, { "m": 63 }, { "m": 64 }, { "m": 65 }, { "m": 66 }, { "m": 67 },
+          { "m": 68 }, { "m": 69 }, { "m": 70 }, { "m": 71 }, { "m": 72 }
+        ] },
+        { "h": "Part B: missions 73 to 86", "items": [
+          { "m": 73 }, { "m": 74 }, { "m": 75 }, { "m": 76 }, { "m": 77 }, { "m": 78 },
+          { "m": 79 }, { "m": 80 }, { "m": 81 }, { "m": 82 }, { "m": 83 },
+          { "k": "save-ch4-heist", "tag": "save", "t": "**Manual save in a slot of its own**, with the preparation missions done." },
+          { "m": 84 }, { "m": 85 }, { "m": 86 },
+          { "k": "save-ch4-end", "tag": "save", "t": "**Manual save** at the end of the chapter." }
+        ] }
+      ]
+    },
+    {
+      "id": "chapter-5", "title": "Chapter 5: Top of the World, Ma",
+      "lede": "Seven missions in a row. Their names give the ending away, so they are numbers only here; the names are behind the spoiler block on the walkthrough page.",
+      "groups": [
+        { "items": [
+          { "m": 87, "hide": true }, { "m": 88, "hide": true }, { "m": 89, "hide": true },
+          { "m": 90, "hide": true }, { "m": 91, "hide": true }, { "m": 92, "hide": true },
+          { "k": "save-final", "tag": "save", "t": "**Manual save in a slot of its own** before the last mission. There is no replay." },
+          { "m": 93, "hide": true },
+          { "k": "open-checklist", "tag": "collect", "t": "**Open Progress > Stats > 100% Completion** and see what is left." }
+        ] }
+      ]
+    },
+    {
+      "id": "free-roam", "title": "Free roam",
+      "lede": "Six blocks, in this order. The number at the end of a line is what the 100% checklist asks for.",
+      "groups": [
+        { "h": "A: robberies and fencing", "items": [
+          { "k": "fr-banks", "track": "pct:bank-jobs-fully-completed", "tag": "collect", "t": "**Bank jobs.**", "g": "22 of 22" },
+          { "k": "fr-vaults", "track": "pct:vaults-hit", "tag": "collect", "t": "**Vaults.**", "g": "8 of 8" },
+          { "k": "fr-payday", "track": "pct:payday-loan-jobs-fully-completed", "tag": "collect", "t": "**Payday loans.**", "g": "7 of 7" },
+          { "k": "fr-smash", "track": "pct:smash-n-grabs-fully-completed", "tag": "collect", "t": "**Smash 'N' Grabs.**", "g": "34 of 35" },
+          { "k": "fr-stick", "track": "pct:stick-ups-fully-completed", "tag": "collect", "t": "**Stick ups.**", "g": "50 of 91" },
+          { "k": "fr-fence", "tag": "collect", "t": "**Fence totals:** narcotics $100,000, jewelry $100,000, marked bills $250,000, vehicles $200,000." },
+          { "c": "criminal:carjacking-pro", "n": "Half of the vehicle total in one go." }
+        ] },
+        { "h": "B: one region at a time", "items": [
+          { "k": "fr-gang", "track": "pct:gang-operations-cleared", "tag": "collect", "t": "**Gang operations.** One from each of the nine gangs earns Pest Control.", "g": "39 of 39" },
+          { "c": "combat:stealth-sniping" },
+          { "c": "combat:long-range-sniping" },
+          { "c": "combat:revolver-headshots", "n": "A job for Donnie's .38." },
+          { "c": "combat:incendiary" },
+          { "c": "combat:high-explosive" },
+          { "k": "fr-flam", "track": "pct:cocaine-flamingos-destroyed", "tag": "collect", "t": "**Cocaine Flamingos.**", "g": "100 of 125" },
+          { "k": "fr-stunts", "track": "pct:stunts-completed", "tag": "collect", "t": "**Stunts.** Cunning Stunts unlocks at 250.", "g": "300 of 397" },
+          { "c": "vehicle:drawbridge-jump" },
+          { "c": "vehicle:oceanarium-jump" },
+          { "k": "fr-hoops", "track": "pct:basketball-hoops", "tag": "collect", "t": "**Basketball hoops.**", "g": "90 of 100" },
+          { "c": "sports:basketball-tour" },
+          { "k": "fr-drone", "track": "pct:drone-time-trials-completed", "tag": "collect", "t": "**Drone time trials.** Winning at all 14 locations earns Top Fun.", "g": "42 of 42" },
+          { "k": "fr-waink", "track": "pct:waink-locations-scanned", "tag": "collect", "t": "**WAiNK locations.** Also earns You WAiNKer!", "g": "100" },
+          { "k": "fr-med", "track": "pct:meditation-spots-completed", "tag": "collect", "t": "**Meditation spots**, with both Jason and Lucia. Positive Mental Attitude needs all 18.", "g": "15 of 18" },
+          { "k": "fr-cards", "track": "pct:collectible-card-sets-found", "tag": "collect", "t": "**Collectible Card sets.** Don't Touch My Deck unlocks at 3.", "g": "15 of 18" },
+          { "c": "exploration:collectible-cards" },
+          { "k": "fr-under", "track": "pct:underwater-discoveries-found", "tag": "collect", "t": "**Underwater discoveries.**", "g": "33 of 33" },
+          { "k": "fr-kenton", "track": "pct:kenton-sets-completed", "tag": "collect", "t": "**Kenton sets**, and his last mission for a hidden trophy.", "g": "5 of 7" },
+          { "c": "exploration:underwater-treasures" },
+          { "c": "exploration:black-hole-wrecks" },
+          { "k": "fr-read", "track": "pct:magazines-books-and-comics-found", "tag": "collect", "t": "**Magazines, books and comics.**", "g": "30 of 34" },
+          { "k": "fr-styles", "track": "pct:discovered-styles", "tag": "collect", "t": "**Styles**, and the two playlists.", "g": "70 of 79" },
+          { "k": "t-goodtime", "track": "trophy:the-goodtime-state", "tag": "trophy", "t": "**The Goodtime State:** uncover the whole map." }
+        ] },
+        { "h": "C: gold medals and races", "items": [
+          { "k": "fr-range", "track": "pct:shooting-range-gold-medals", "tag": "collect", "t": "**Shooting range golds.** Also earns The Shootist.", "g": "42 of 42" },
+          { "c": "survival:marksman" },
+          { "c": "survival:pro-marksman" },
+          { "k": "fr-races", "track": "pct:unique-races-won", "tag": "collect", "t": "**Unique races won.** Earn Cash, Not Kudos unlocks at 20.", "g": "30 of 40" },
+          { "k": "fr-racegold", "track": "pct:race-challenge-gold-medals", "tag": "collect", "t": "**Race challenge golds.**", "g": "10 of 13" },
+          { "c": "vehicle:rally-winner" }
+        ] },
+        { "h": "D: a sports day", "items": [
+          { "c": "sports:golf-pro", "n": "Covers the two mini golf locations the checklist wants." },
+          { "c": "sports:golf-rookie" },
+          { "c": "sports:pool-streak" },
+          { "c": "sports:triple-bank" },
+          { "k": "fr-pool", "track": "pct:pool-opponents-defeated", "tag": "collect", "t": "**Pool opponents.**", "g": "5 of 7" }
+        ] },
+        { "h": "D: a training week", "items": [
+          { "c": "fitness:gym-member" },
+          { "c": "fitness:balanced-workout" },
+          { "c": "fitness:strength-regime" },
+          { "c": "fitness:cardio-regime" },
+          { "c": "fitness:pro-cyclist" },
+          { "c": "fitness:southwind-cycle", "n": "Counts toward the 15 miles too." },
+          { "c": "fitness:waning-sands-run" },
+          { "c": "fitness:tequesta-swim" }
+        ] },
+        { "h": "D: a travel day", "items": [
+          { "c": "exploration:rail-tour" },
+          { "c": "exploration:road-trip" },
+          { "c": "criminal:cop-tow" }
+        ] },
+        { "h": "D: fishing and hunting", "items": [
+          { "c": "survival:big-fish" },
+          { "c": "survival:angler" },
+          { "c": "survival:catch-of-the-day" },
+          { "k": "t-baited", "track": "trophy:baited-my-tackle", "tag": "trophy", "t": "**Baited My Tackle:** beat Cal in a fishing challenge." },
+          { "c": "survival:alligator-kills" },
+          { "c": "survival:hunting-spree" },
+          { "k": "fr-decks", "track": "pct:brets-target-decks", "tag": "collect", "t": "**Bret's Target Decks**, as Jason.", "g": "15 of 15" }
+        ] },
+        { "h": "E: spend the money", "items": [
+          { "c": "shopping:heavily-armed" },
+          { "k": "fr-weapons", "track": "pct:standard-issue-weapons", "tag": "collect", "t": "**Standard issue weapons.**", "g": "50 of 66" },
+          { "c": "shopping:serious-modder" },
+          { "k": "fr-garages", "tag": "trophy", "t": "**Little Boxes, On the Spot and Treat Yo Self:** finish all three." }
+        ] },
+        { "h": "F: strands and the rest", "items": [
+          { "k": "fr-billy", "tag": "side", "t": "**Billy:** Mall Rats, The Impaler, Hometown Heroes and whatever follows." },
+          { "k": "fr-strands", "tag": "side", "t": "**Randy, Tyrone, Kenton and Bret:** finish each strand. [Side contacts](/guides/side-contacts/)." },
+          { "k": "t-strangers", "track": "trophy:strangers-and-freaks", "tag": "trophy", "t": "**Strangers & Freaks:** 8 strands. Not every contact counts, so check the trophy tracker after each last job." },
+          { "k": "t-master", "track": "trophy:master-of-none", "tag": "trophy", "t": "**Master of None:** try each type of activity once." },
+          { "k": "t-stick", "track": "trophy:stick-fiddler", "tag": "trophy", "t": "**Stick Fiddler:** complete one arcade game." },
+          { "k": "t-tank", "track": "trophy:challenging-tank", "tag": "trophy", "t": "**Challenging Tank** and the other one-off trophies. [Trophy list](/trophies/)." },
+          { "k": "fr-scan", "track": "pct:base-model-vehicles", "tag": "collect", "t": "**Base model vehicles scanned**, and 100 animals studied.", "g": "200 of 277" },
+          { "k": "fr-chal", "track": "pct:challenges-completed", "tag": "collect", "t": "**Challenges.** One Last Thing unlocks at 50.", "g": "70 of 80" },
+          { "k": "t-long", "track": "trophy:a-long-road", "tag": "trophy", "t": "**A Long Road:** 100% completion." }
+        ] }
+      ]
+    }
+  ]
+}

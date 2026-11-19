@@ -101,6 +101,20 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("steps", steps);
   eleventyConfig.addFilter("stepCount", (html) => (String(html).match(/<h2[\s>]/g) || []).length);
   eleventyConfig.addFilter("md", (s) => md.renderInline(String(s ?? "")));
+  // /guides/100-percent-route/: look up a mission by story number, and a challenge by "category:id".
+  eleventyConfig.addFilter("routeMission", (story, no) => {
+    for (const c of (story && story.chapters) || []) {
+      const m = (c.missions || []).find((x) => x.no === no);
+      if (m) return { t: m.t, ch: c.n, optional: !!m.optional };
+    }
+    return null;
+  });
+  eleventyConfig.addFilter("routeChallenge", (challenges, key) => {
+    const [cat, id] = String(key).split(":");
+    const c = ((challenges && challenges.categories) || []).find((x) => x.id === cat);
+    const i = c && c.items.find((x) => x.id === id);
+    return i ? { name: i.name, req: i.req, cat: c.n, catId: c.id, id: i.id } : null;
+  });
   eleventyConfig.addFilter("faqld", (faq) => JSON.stringify({
     "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: (faq || []).map((q) => ({ "@type": "Question", name: q.q,

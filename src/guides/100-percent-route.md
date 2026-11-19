@@ -3,8 +3,8 @@ title: 100% route
 headline: The 100% Route
 kicker: Completion
 seoTitle: "GTA 6 100% Route: The Best Order for 100% Completion and the Platinum"
-description: "A chapter-by-chapter route to 100% completion and the platinum in GTA 6: what to do before each point of no return, what can be missed, and the order to clean up in free roam."
-summary: The order to do everything in, chapter by chapter. What to finish before each point of no return, what can be missed, and how to clean up after the credits.
+description: "An ordered 100% checklist for GTA 6: all 93 missions in order with side jobs, limited-time missions and suggested moments for the challenges, then the free roam clean-up."
+summary: Every mission in order, with the side jobs, limited-time missions and challenges that fit around each one, then the free roam clean-up. Tick it off from the top.
 order: 2
 glow: gold
 spoilerFree: true
@@ -19,6 +19,8 @@ tldr:
   - "Progress counts **from the first minute**, even though the checklist stays hidden until the credits. Scan vehicles and study animals as you go."
   - "There is **no mission replay**. Keep a manual save at the start and end of every chapter."
 faq:
+  - q: "When should you do the challenges in GTA 6?"
+    a: "They are open from the start, so fit them in when the game has given you what each one needs: early scanning and combat ones in Chapter 1, partner and police ones after Coffee Break in Chapter 2, driving and shopping ones in Vice City in Chapter 3, and the timed, one-day and long-distance ones in free roam. You need 70 of the 80."
   - q: "What is the best order for 100% completion in GTA 6?"
     a: "Play the story while scanning vehicles, studying animals and doing optional missions as they appear. Clear the short list of time-limited jobs before each chapter ends. After the credits, do the robberies first, then sweep one region at a time, and leave the challenges for last."
   - q: "Can you miss anything for 100% in GTA 6?"
@@ -45,87 +47,72 @@ sources:
   - label: "game-checklists.com: GTA 6 missables"
     url: "https://game-checklists.com/gta6/guides/missables/"
     note: "Second source only, for the points KeenGamer also has. Nov 19, 2026."
+  - label: "Own data: storyMissions.json, challenges.json, side-contacts guide"
+    url: "https://vifieldguide.com/walkthrough/"
+    note: "Mission order and unlocks, challenge names and requirements, side strands. Where a challenge sits in the order is our own suggestion, labelled as such on the page. Nov 19, 2026."
   - label: "PSNProfiles: Grand Theft Auto VI trophies"
     url: "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
     note: "Trophy targets. Nov 18, 2026."
 ---
 
-GTA 6 has no mission replay, and the [100% checklist](/guides/100-percent-checklist/) stays hidden until the credits. What you do still counts from the start. So the quick way through is a few habits from day one, a short list to clear before each chapter closes, and the bulk left for free roam. Mission names only on this page, no story details.
+This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions and the [challenges](/guides/challenges/) that fit at that point. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list and the [100% checklist](/guides/100-percent-checklist/).
 
-> **Note:** First pass. The route is built from guides that agree with each other, not yet from our own playthrough.
+> **Note:** First pass. Mission order, unlocks and limited-time jobs come from trusted guides. **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then. None of it is checked in our own game yet.
 
 > **Watch out:** Don't use cheats on this save. They switch off trophies and saving while active.
 
+<div class="route-jump">
+{%- for p in route100.parts %}<a class="chip plain" href="#{{ p.id }}">{{ p.title.split(":")[0] }}</a>{% endfor %}
+</div>
+
 <h2 id="habits">Habits from the first minute</h2>
 
+- **Scan every new vehicle** with WAiNK, boats and aircraft too. The checklist wants 200 base models. [How](/guides/activities-and-collectibles/#study-and-scan).
+- **Study every new animal** through the binoculars. You need 100, and you never have to hunt them.
+- **Do optional missions when they appear.** They count toward the 100 optional tasks.
+- **Start limited-time jobs at once.** They carry an hourglass on the map.
+- **Save by hand at the start and end of each chapter**, in slots you don't overwrite. There are 15.
+- **For anything that says "in one day":** save first and start early in the in-game day.
+
+{% for p in route100.parts %}
+<h2 id="{{ p.id }}">{{ p.title }}</h2>
+
+{{ p.lede }}
+
+{% for g in p.groups %}
+{%- if g.h %}<p class="route-h">{{ g.h }}</p>{% endif %}
 <div class="pnr route">
 <ul class="track">
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:habits:1"><span class="txt"><b>Scan every new vehicle</b> with WAiNK, boats and aircraft too. The checklist wants 200 base models. <a href="/guides/activities-and-collectibles/#study-and-scan">How</a>.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:habits:2"><span class="txt"><b>Study every new animal</b> through the binoculars. You need 100, and you never have to hunt them.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:habits:3"><span class="txt"><b>Do optional missions when they appear.</b> They count toward the 100 optional tasks and often open a new feature.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:habits:4"><span class="txt"><b>Start limited-time jobs at once.</b> They carry an hourglass on the map.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:habits:5"><span class="txt"><b>Manual save at the start and end of each chapter</b>, in slots you don't overwrite. There are 15.</span></label></li>
+{%- for it in g.items %}
+{%- if it.m %}
+{%- set m = storyMissions | routeMission(it.m) %}
+{%- set ms = m.t | slugify %}
+{%- set mp = (collections.missions | where("data.slug", ms))[0] %}
+<li data-track-row><label><input class="cb" type="checkbox" data-track="mission:{{ ms }}"><span class="txt">{% if not it.hide %}<b>{{ it.m }}.</b> {% endif %}{% if it.hide %}<b>Mission {{ it.m }}</b>{% elif mp %}<a href="{{ mp.url }}">{{ m.t }}</a>{% else %}{{ m.t }}{% endif %}{% if m.optional %} <span class="need">optional</span>{% endif %}{% if it.n %}<small>{{ it.n | md | safe }}</small>{% endif %}</span><span class="goal rt rt-mission">Mission</span></label></li>
+{%- elif it.c %}
+{%- set c = challenges | routeChallenge(it.c) %}
+<li data-track-row><label><input class="cb" type="checkbox" data-track="chal:{{ c.catId }}:{{ c.id }}"><span class="txt"><b>{{ c.name }}:</b> {{ c.req }}{% if it.n %}<small>{{ it.n | md | safe }}</small>{% endif %}</span><span class="goal rt rt-challenge">Challenge</span></label></li>
+{%- else %}
+<li data-track-row><label><input class="cb" type="checkbox" data-track="{{ it.track or ('route:' + it.k) }}"><span class="txt">{{ it.t | md | safe }}{% if it.g %} <span class="need">{{ it.g }}</span>{% endif %}</span><span class="goal rt rt-{{ it.tag }}">{{ {"side":"Side job","limited":"Limited","collect":"Collect","trophy":"Trophy","save":"Save"}[it.tag] }}</span></label></li>
+{%- endif %}
+{%- endfor %}
 </ul>
 </div>
+{% endfor %}
+{% endfor %}
 
-<h2 id="chapter-1">Chapter 1: before it ends</h2>
+<h2 id="skip-challenges">Ten challenges we would leave out</h2>
 
-<div class="pnr route">
-<ul class="track">
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch1:1"><span class="txt">Do <b>Shirley's two optional jobs</b>, Get Shirley's Rum and Steal the Scooter. They show up after <a href="/walkthrough/pipework/">Pipework</a> and only exist in this chapter.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch1:2"><span class="txt">Start <b>Kenton's dives</b> after <a href="/walkthrough/island-dreams/">Island Dreams</a>. He drops off the map for a while and returns between Chapters 2 and 3.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch1:3"><span class="txt">Try the <b>three games on the home console</b>. Starting each one is enough for the checklist, and the console is out of reach during Chapter 2.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch1:4"><span class="txt">If <b>Lucia offers a meditation</b> at Jason's house after <a href="/walkthrough/down-to-earth/">Down to Earth</a>, say yes. Unconfirmed, but it may count toward Positive Mental Attitude and may not come back.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch1:5"><span class="txt">Clear the list on <a href="/walkthrough/tourist-trap/">Tourist Trap</a> before you start it: a separate manual save, and your cash deposited.</span></label></li>
-</ul>
-</div>
+You need 70 of the 80. Going by their requirements, these ten look like the heaviest, so they are not in the list above. This is a judgement call, not experience: swap any of them back in if another one turns out worse.
 
-<h2 id="chapter-2">Chapter 2: before Checking Out</h2>
+| Challenge | What it asks | Why skip |
+|---|---|---|
+{%- for s in route100.skip %}
+{%- set c = challenges | routeChallenge(s.c) %}
+| {{ c.name }} | {{ c.req }} | {{ s.why }} |
+{%- endfor %}
 
-<div class="pnr route">
-<ul class="track">
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:1"><span class="txt"><b>Kyle and Billy</b>: take their optional jobs as they appear, including <a href="/walkthrough/thrillbillies/">Thrillbillies</a> and <a href="/walkthrough/twist-wrist-smash-grab/">Twist Wrist, Smash, Grab</a>.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:2"><span class="txt"><a href="/walkthrough/moses/">Moses</a> opens <b>selling cars</b>. The checklist wants $200,000 fenced in vehicles.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:3"><span class="txt">After <a href="/walkthrough/coffee-break/">Coffee Break</a>, <b>pawn shop Smash 'N' Grabs</b> open.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:4"><span class="txt">Also after Coffee Break, as Jason: <b>Bret's hunts</b> start with a text. His 15 target decks are on the checklist.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:5"><span class="txt">In the Kingpin Bowling job, take <b>all three valuables</b> for Let's Go Bowling.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch2:6"><span class="txt">Clear the list on <a href="/walkthrough/checking-out/">Checking Out</a> before you start it, including the $15,000.</span></label></li>
-</ul>
-</div>
-
-<h2 id="chapter-3">Chapter 3: Vice City opens</h2>
-
-<div class="pnr route">
-<ul class="track">
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch3:1"><span class="txt"><b>Yago's races</b> (Jason only) start after <a href="/walkthrough/dealers-choice/">Dealer's Choice</a>. <b>Race Against Yago is limited-time</b>: do it the moment it shows up. <a href="/guides/side-contacts/#yago">His jobs</a>.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch3:2"><span class="txt"><b>Yasmani's Jewelry Jobs</b> open jewelry stores. Rob one unseen for Sneakthief.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch3:3"><span class="txt"><b>Credit Check</b> gives you the Dye Pack Jammer. That opens bank jobs and payday loans, and marked bills can be fenced from here. <a href="/guides/fences/">Fences</a>.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch3:4"><span class="txt"><b>Randy's wish list</b> opens, Kenton is back, and the home console works again.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch3:5"><span class="txt">Manual save before the chapter's last mission.</span></label></li>
-</ul>
-</div>
-
-<h2 id="chapter-4">Chapter 4 and the ending</h2>
-
-<div class="pnr route">
-<ul class="track">
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch45:1"><span class="txt"><b>This Is a Free Call From…</b> is optional, Lucia only and limited-time. Take it straight away.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch45:2"><span class="txt"><b>That's Where The Money Is…</b> is optional and opens the eight large bank vaults. Five earn Maximum Withdrawal; the checklist wants all eight.</span></label></li>
-<li data-track-row><label><input class="cb" type="checkbox" data-track="route:ch45:3"><span class="txt">Manual save at the end of Chapter 4, and again before the final mission of Chapter 5.</span></label></li>
-</ul>
-</div>
-
-<h2 id="free-roam">Free roam: the clean-up order</h2>
-
-Once the credits roll, open Progress > Stats > 100% Completion and see what is left. Then work in this order.
-
-1. **Robberies and fencing.** Bank jobs, payday loans, vaults, Smash 'N' Grabs and stick ups pay for everything else and fill the four fence totals as you go.
-2. **One region at a time.** Gang operations, Cocaine Flamingos, stunts, basketball hoops, drone time trials, races and meditation spots in a single pass. The [collection tracker](/map/) keeps count.
-3. **Gold medals.** Shooting range and race challenges.
-4. **Side strands.** Finish Kenton, Bret (Jason) and whatever else is open. [Strangers & Freaks](/trophies/) needs eight strands, and not every contact counts.
-5. **Challenges last.** Many are done by now. Pick the easiest 70 of [all 80](/guides/challenges/).
-
-<h2 id="skip">What you can skip</h2>
+<h2 id="skip">What else you can skip</h2>
 
 - The two large golf courses. Two of the three mini golf locations is enough.
 - Finishing the video games. Starting each one counts; Stick Fiddler wants one arcade game completed.
