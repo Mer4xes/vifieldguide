@@ -6,7 +6,7 @@ region: port-gellhorn
 giver: Vicki
 difficulty: 2
 summary: Vicki wants her boss robbed. Jason and Lucia slip into the Delights club in Port Gellhorn, crack the office safe and fight their way out.
-updated: 2026-11-18
+updated: 2026-11-19
 objectives:
   - Find a way backstage at Delights
   - Decide whether Jason helps out
@@ -16,6 +16,12 @@ objectives:
   - Bring the bag to Vicki at the docks
 rewards:
   - { label: Cash, value: "$10,000 from Vicki through BuckMe the next day" }
+choices:
+  - q: "Does Jason help out backstage?"
+    options:
+      - { pick: "Help", result: "Jason dances on stage while Lucia goes for the office alone. Longer, with more scenes." }
+      - { pick: "Don't help", result: "Jason fires into the ceiling and both go for the safe. Quicker, but the chase after is harder." }
+      - { pick: "Either way", result: "Same ending, same $10,000." }
 sources:
   - { label: "PowerPyx", url: "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/", note: "Mission walkthrough. Nov 18, 2026." }
   - { label: "Promptowy (Polish)", url: "https://promptowy.com/gta-6-solucja-afternoon-delight/", note: "Mission walkthrough. Nov 18, 2026." }

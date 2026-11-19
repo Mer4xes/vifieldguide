@@ -794,3 +794,26 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 @media(max-width:700px){.support-row{flex-wrap:wrap}.support-ic{display:none}.btn-support{width:100%;justify-content:center}}
 .btn-donate{background:linear-gradient(92deg,var(--pink),#ff5a9e);color:#fff!important;border-color:transparent;font-weight:700}
 .btn-donate:hover{background:linear-gradient(92deg,var(--pink),#ff5a9e);filter:brightness(1.08)}
+
+/* Mission choices: box on mission pages and the /guides/story-choices/ list */
+.choices{display:grid;gap:14px;margin-top:18px}
+.choice{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.choice-q{display:flex;align-items:baseline;gap:10px;font-size:18px;line-height:1.35;margin:0 0 10px}
+.choice-n{flex:none;font-family:var(--mono);font-size:12px;color:var(--violet,#a877ff);letter-spacing:.08em}
+.choice-opts{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.choice-opts li{display:grid;grid-template-columns:minmax(96px,150px) 1fr;gap:12px;align-items:baseline;padding:9px 12px;border-radius:10px;background:var(--surface-2)}
+.choice-pick{font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--cyan)}
+.choice-opts li span{color:var(--fg);font-size:15.5px;line-height:1.5}
+.choice .spoiler{margin:0}
+.choice-more{margin-top:16px;font-size:15px}
+.choice-more a{color:var(--cyan)}
+.prose .choice-ch{margin-top:34px}
+.choice-mission{margin-top:18px}
+.choice-mission .choices{margin-top:8px}
+.choice-mtitle{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0;font-weight:700;font-size:18px}
+.choice-mtitle .mno{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.choice-mtitle a{color:var(--fg)}
+.prose .choice-q{margin-top:0}
+@media(max-width:560px){.choice-opts li{grid-template-columns:1fr;gap:4px}}
+.flag.choice-flag{color:var(--violet);text-decoration:none}
+.prose .choice-opts{padding-left:0}.prose .choice-opts li{max-width:none}.prose .choice-mtitle{max-width:none}

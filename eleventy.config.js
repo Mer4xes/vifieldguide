@@ -151,6 +151,18 @@ export default function (eleventyConfig) {
     const have = new Set((missions || []).map((m) => m.data.slug));
     return (list || []).filter((m) => have.has(slugify(m.t))).length;
   });
+  // Missions that list `choices` in front matter, grouped by chapter, for /guides/story-choices/.
+  eleventyConfig.addFilter("choicesByChapter", (missions) => {
+    const out = [];
+    for (const m of missions || []) {
+      if (!m.data.choices?.length) continue;
+      const ch = m.data.chapter || "Other";
+      let g = out.find((x) => x.chapter === ch);
+      if (!g) out.push((g = { chapter: ch, missions: [] }));
+      g.missions.push(m);
+    }
+    return out;
+  });
   // Activities (cards on /activities/) tagged with a region, for "Things to do here" on region pages.
   eleventyConfig.addFilter("activitiesIn", (all, region) => {
     const page = (all || []).find((p) => p.url === "/activities/");

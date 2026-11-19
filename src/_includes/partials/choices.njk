@@ -1,0 +1,15 @@
+{#- Renders a list of mission choices. Expects `choices` (array of { q, spoiler?, options: [{ pick, result }] }). -#}
+<div class="choices">
+  {%- for c in choices %}
+  <div class="choice">
+    <h3 class="choice-q"><span class="choice-n">{{ loop.index | pad }}</span>{{ c.q }}</h3>
+    {%- if c.spoiler %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">The options</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
+    <ul class="choice-opts">
+      {%- for o in c.options %}
+      <li><b class="choice-pick">{{ o.pick }}</b><span>{{ o.result | md | safe }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- if c.spoiler %}</div></details>{% endif %}
+  </div>
+  {%- endfor %}
+</div>

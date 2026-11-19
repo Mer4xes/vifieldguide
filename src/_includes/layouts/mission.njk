@@ -79,6 +79,18 @@ crumbParent:
 </section>
 {%- endif %}
 
+{%- if choices and choices.length %}
+<section class="sec" id="choices">
+  <div class="wrap">
+    <p class="kicker">Decisions</p>
+    <h2 class="sec-h sm">{% if choices.length == 1 %}The choice{% else %}{{ choices.length }} choices{% endif %} in this mission</h2>
+    <p class="lede">What you can pick, and what we know each option leads to.</p>
+    {% include "partials/choices.njk" %}
+    <p class="choice-more"><a href="/guides/story-choices/">Every choice in the GTA 6 story so far →</a></p>
+  </div>
+</section>
+{%- endif %}
+
 <section class="sec" id="walkthrough">
   <div class="wrap">
     <p class="kicker">Step by step</p>

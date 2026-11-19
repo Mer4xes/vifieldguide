@@ -6,7 +6,7 @@ region: leonida-keys
 giver: Brian
 unlocks: Island Dreams
 summary: Brian's broker has stopped answering his calls. Find Arnold and get some answers.
-updated: 2026-11-18
+updated: 2026-11-19
 objectives:
   - Ride with Brian
   - Pick up Cal at the liquor store
@@ -14,6 +14,12 @@ objectives:
   - Chase him down
   - Catch him at the docks
   - Decide what happens to Arnold
+choices:
+  - q: "What happens to Arnold?"
+    spoiler: true
+    options:
+      - { pick: "Spare him", result: "He does not come back, and nothing else in the game changes." }
+      - { pick: "Don't spare him", result: "The same: he is gone either way, and nothing else changes." }
 sources:
   - { label: "PowerPyx", url: "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/", note: "Mission walkthrough. Nov 18, 2026." }
   - { label: "nettoge (Japanese)", url: "https://nettoge.com/gta6-mission-hey-arnold/", note: "Mission notes from launch-day streams. Nov 18, 2026." }

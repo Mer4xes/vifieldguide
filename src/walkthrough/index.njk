@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Walkthrough
 seoTitle: "GTA 6 Walkthrough: All Story Missions, Step by Step"
 description: "Every GTA 6 story mission in order across all five chapters, with a progress tracker, an option to hide mission names ahead of you, and step-by-step walkthroughs as they are written."
-updated: 2026-11-18
+updated: 2026-11-19
 faq:
   - q: "How many story missions are in GTA 6?"
     a: "About 90, spread over five chapters. The in-game story recap lists 93, and some guides count 91."
@@ -46,7 +46,7 @@ faq:
     {%- for c in story.chapters %}
     <div class="chapter" id="chapter-{{ c.n }}">
       {%- set nGuides = c.missions | guidesIn(missions) %}
-      <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions{% if nGuides %} · {% if nGuides == c.missions.length %}all guides written{% else %}{{ nGuides }} guides{% endif %}{% endif %}</span></h2>
+      <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions{% if nGuides %} · {% if nGuides == c.missions.length %}all guides written{% else %}{{ nGuides }} guide{% if nGuides != 1 %}s{% endif %}{% endif %}{% endif %}</span></h2>
       {%- if c.n == 5 %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Final chapter mission names</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
       <ol class="mlist">
         {%- for m in c.missions %}
@@ -64,6 +64,7 @@ faq:
           <span class="mrow-tags">
             {%- if m.optional %}<span class="chip plain">Side job</span>{% endif %}
             {%- if mp and mp.data.missables and mp.data.missables.length %}<span class="flag">Missable</span>{% endif %}
+            {%- if mp and mp.data.choices and mp.data.choices.length %}<a class="flag choice-flag" href="{{ mp.url }}#choices">Choice</a>{% endif %}
             {%- if mp and mp.data.protagonist %}<span class="chip who {{ mp.data.protagonist }}">{{ whoShort[mp.data.protagonist] }}</span>{% endif %}
             {%- if mp %}<span class="chip ok dot">Guide</span>{% endif %}
           </span>

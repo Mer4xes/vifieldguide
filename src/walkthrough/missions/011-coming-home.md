@@ -6,7 +6,7 @@ region: leonida-keys
 giver: Lucia
 unlocks: Lucia moves in at Jason's house
 summary: Lucia gets out of prison. Get the house and a few gifts ready, pick her up and take her out for a night at the Rusty Anchor.
-updated: 2026-11-18
+updated: 2026-11-19
 objectives:
   - "Optional: run the errands and fix up Jason's house"
   - Wait for Lucia's call
@@ -18,6 +18,11 @@ objectives:
   - Get away from the police on foot
 rewards:
   - { label: Unlocked, value: "Lucia lives at Jason's house" }
+choices:
+  - q: "How much do you get ready before the pickup?"
+    options:
+      - { pick: "All five errands", result: "The relationship with Lucia starts at three of four hearts. Check it in the Jason and Lucia menu." }
+      - { pick: "Buy the necklace", result: "Worth doing either way: it comes back later, in Chapter 2." }
 sources:
   - { label: "PowerPyx", url: "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/", note: "Mission walkthrough. Nov 18, 2026." }
   - { label: "Beebom", url: "https://beebom.com/gta-6-coming-home-mission/", note: "Mission guide. Nov 18, 2026." }
