@@ -48,4 +48,5 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - Start from PowerPyx's "GTA 6 Full Walkthrough - All Missions" page and cover the next missions in `storyMissions.json` that have no file yet. Optional jobs in that list get `sideJob: true`; other side strands go on `/guides/side-contacts/` (strand cards).
 - Blocked from cloud runs: IGN, Rock Paper Shotgun, Eurogamer, Dualshockers (robots), vifieldguide.com and IndexNow (proxy). Don't retry or work around them; mention IndexNow in the report.
 - nettoge.com marks its pages "noai": don't use it as a source.
+- Cloud runs can only fetch pages whose URL came from a web search result (links found inside a fetched page are refused). On Nov 19 the PowerPyx pages for Meet the Heders, South Leonida Real Estate, Here, Kitty Kitty and Car Service were not in search yet; try searching their exact titles again.
 - Runs are every 3 hours until Nov 26. If nothing new is clearly better, change nothing and don't send a notification.
