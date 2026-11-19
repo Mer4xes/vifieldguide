@@ -60,7 +60,7 @@
 <section class="sec">
   <div class="wrap">
     {%- if not t.items.length %}
-    <div class="empty"><p>No locations listed yet. We add them once at least two independent sources agree on where they are, so you won't be sent to the wrong place.</p></div>
+    <div class="empty"><p>No locations listed yet. We add them once a trusted source, or two that agree, shows where they are, so you won't be sent to the wrong place.</p></div>
     {%- endif %}
     {%- for r in regions %}
     {%- set here = t.items | where("region", r.slug) %}

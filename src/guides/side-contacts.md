@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-18
+updated: 2026-11-19
 facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
   - { k: Contact trophies, v: "7", status: Confirmed }
@@ -69,7 +69,7 @@ sources:
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Jobs flying drug drops | Side contact | |
 | **Andy** | Side strand | Side contact | Road to Rehabilitation (hidden) |
-| **Billy** | Dirt-bike races and jobs | Chapter 2, *Thrillbillies* after [Coffee Break](/walkthrough/coffee-break/) | The Lone Rider (hidden) |
+| **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) | The Lone Rider (hidden) |
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 

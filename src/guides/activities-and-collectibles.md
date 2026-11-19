@@ -66,7 +66,7 @@ sources:
     note: "Trophy names and targets, synced from PSN."
 ---
 
-> **Note:** First pass. Every count here appears in at least two independent sources or on the official trophy list. How-to details that only one guide reports yet are left out until someone else confirms them.
+> **Note:** First pass. Every count here comes from a trusted guide or the official trophy list. Details that are still unclear are left out until they are confirmed.
 
 <h2 id="meditation">Meditation</h2>
 

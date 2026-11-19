@@ -22,7 +22,7 @@ The guide is written so you can use it without having the story spoiled.
 ## Accuracy
 
 - **Confirmed** facts come from Rockstar or the official trophy list.
-- **Reported** facts agree in at least two independent sources, checked before they go up. Steps are written in our own words.
+- **Reported** facts come from a trusted guide source, or from two independent sources that agree, checked before they go up. Steps are written in our own words.
 - **First pass** means a page has not been checked in our own game yet. Pages marked **Verified** have been, on the version shown.
 - Leaks, datamined content and rumoured lists are not used.
 

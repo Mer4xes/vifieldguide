@@ -13,7 +13,7 @@ crumbParent:
 {%- set next = collections.missions | getNextCollectionItem %}
 <header class="mast" style="--glow:var(--pink)">
   <div class="wrap">
-    <p class="mno">Story mission {{ order | pad }}{% if chapter %} · {{ chapter }}{% endif %}</p>
+    <p class="mno">{% if sideJob %}Side job{% else %}Story mission{% endif %} {{ order | pad }}{% if chapter %} · {{ chapter }}{% endif %}</p>
     <h1>{{ title }}</h1>
     {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
     <div class="chips">
@@ -134,7 +134,7 @@ crumbParent:
       {%- if next %}<a class="pg next" href="{{ next.url }}"><span class="l">Next mission</span><span class="t">{{ next.data.order | pad }} · {{ next.data.title }}</span></a>
       {%- else %}<a class="pg next" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
     </nav>
-    <p class="stamp">{% if verified %}Confirmed in the game.{% else %}Reported: every fact here agrees in at least two independent walkthroughs.{% endif %} Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>
+    <p class="stamp">{% if verified %}Confirmed in the game.{% else %}Reported: every fact here comes from a trusted walkthrough, or from two that agree.{% endif %} Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>
   </div>
 </section>
 {#- Sources stay in front matter for our own records; mission pages show only the status. #}

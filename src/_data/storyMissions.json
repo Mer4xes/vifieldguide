@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "chapters": [
   {
    "n": 1,
@@ -233,7 +233,7 @@
       },
       {
        "t": "Thrillbillies (Billy)",
-       "u": "/guides/side-contacts/#contacts"
+       "u": "/walkthrough/thrillbillies/"
       },
       {
        "t": "Hit Avery Pawn",
@@ -282,7 +282,17 @@
    "missions": [
     {
      "t": "Welcome to Vice City",
-     "no": 36
+     "no": 36,
+     "opens": [
+      {
+       "t": "Bayside apartment, your Chapter 3 home",
+       "u": "/walkthrough/welcome-to-vice-city/#step-8"
+      },
+      {
+       "t": "Buying and registering cars at Pay 'n' Spray",
+       "u": "/walkthrough/welcome-to-vice-city/#step-8"
+      }
+     ]
     },
     {
      "t": "Dealer's Choice",
