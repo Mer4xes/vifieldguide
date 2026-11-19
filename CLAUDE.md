@@ -42,3 +42,10 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - The site does not display sources anywhere (Hauk's call, Nov 18): no source lists, no outlet names on cards, no "X says" attributions in text. Keep `sources`/`src` in front matter and data as our own record; pages show only the status: Confirmed (Rockstar/platform data), Reported (from a trusted source, or two independent sources that agree) or Verified (checked in-game). Tell Hauk in the run report which sources were used and that they are safe.
 - Images: only official Rockstar Games media, credited "Image: Rockstar Games". Never screenshots taken from other sites or YouTube.
 - The site is non-commercial: no ads, affiliate links or sponsored content. The one exception is a voluntary donation link (Hauk's call, Nov 18): `site.donate.url` in `src/_data/site.js`, shown as a plain link in the footer and on the About page. No widgets, popups, perks or paywalled content.
+
+## Notes for scheduled runs (Nov 19)
+- The source rule above (one trusted source, Hauk Nov 19) replaces the older "two sources" wording in the scheduled task's prompt.
+- Start from PowerPyx's "GTA 6 Full Walkthrough - All Missions" page and cover the next missions in `storyMissions.json` that have no file yet. Optional jobs in that list get `sideJob: true`; other side strands go on `/guides/side-contacts/` (strand cards).
+- Blocked from cloud runs: IGN, Rock Paper Shotgun, Eurogamer, Dualshockers (robots), vifieldguide.com and IndexNow (proxy). Don't retry or work around them; mention IndexNow in the report.
+- nettoge.com marks its pages "noai": don't use it as a source.
+- Runs are every 3 hours until Nov 26. If nothing new is clearly better, change nothing and don't send a notification.
