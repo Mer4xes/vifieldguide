@@ -41,7 +41,7 @@ sources:
   - { label: "KeenGamer: all story missions in order", url: "https://www.keengamer.com/articles/guides/gta-6-walkthrough-all-chapters-and-story-missions-in-order/", note: "Lists it in Chapter 3 as the antique store job. Nov 19, 2026." }
 ---
 
-Opens after [Dealer's Choice](/walkthrough/#chapter-3). It starts from a bag in the closet of the new apartment in Bayside, and it comes in three parts spread over the chapter. Part 1 moves the story on; Parts 2 and 3 are optional but pay well.
+Opens after [Dealer's Choice](/walkthrough/dealers-choice/). It starts from a bag in the closet of the new apartment in Bayside, and it comes in three parts spread over the chapter. Part 1 moves the story on; Parts 2 and 3 are optional but pay well.
 
 > **Watch out:** If you want the whole job, say yes to Halifax in Part 1 and trust him in Part 2. Saying no to either one closes off what comes after.
 
