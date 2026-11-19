@@ -47,6 +47,9 @@ sources:
   - label: "game-checklists.com: GTA 6 missables"
     url: "https://game-checklists.com/gta6/guides/missables/"
     note: "Second source only, for the points KeenGamer also has. Nov 19, 2026."
+  - label: "PowerPyx: location lists and trophy guide"
+    url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+    note: "Magazines, books and comics (20 of 27 known), meditation spots, playlist posters, pool opponents, golf courses, missable cards at the Starlet Motel, Strangers & Freaks strands that count, trophy methods, optional errands. Nov 19, 2026."
   - label: "Own data: storyMissions.json, challenges.json, side-contacts guide"
     url: "https://vifieldguide.com/walkthrough/"
     note: "Mission order and unlocks, challenge names and requirements, side strands. Where a challenge sits in the order is our own suggestion, labelled as such on the page. Nov 19, 2026."
@@ -57,7 +60,7 @@ sources:
 
 This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions and the [challenges](/guides/challenges/) that fit at that point. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list and the [100% checklist](/guides/100-percent-checklist/).
 
-> **Note:** First pass. Mission order, unlocks and limited-time jobs come from trusted guides. **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then. None of it is checked in our own game yet.
+> **Note:** First pass. Mission order, unlocks, limited-time jobs and the collectible spots come from trusted guides. **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then. None of it is checked in our own game yet.
 
 > **Watch out:** Don't use cheats on this save. They switch off trophies and saving while active.
 
