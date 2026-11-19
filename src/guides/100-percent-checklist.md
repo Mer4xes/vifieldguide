@@ -102,4 +102,4 @@ The game keeps a 100% checklist with 35 items. It only appears once the credits 
 </div>
 
 
-See the [trophy list](/trophies/) for the platinum route.
+See the [100% route](/guides/100-percent-route/) for the order to do it all in, and the [trophy list](/trophies/) for the platinum.
