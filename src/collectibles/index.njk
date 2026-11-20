@@ -36,6 +36,32 @@
   </div>
 </section>
 {%- else %}
+<section class="sec" id="by-area">
+  <div class="wrap">
+    <p class="kicker">Checklists by area</p>
+    <h2 class="sec-h">Clear the map one county at a time</h2>
+    <p class="lede">Every mapped collectible, sorted by the county the game shows on the map, in the order the story takes you there. Tick them off as you go; the ticks are shared with each set's page.</p>
+    <div class="counties">
+      {%- for k in c.counties %}
+      {%- if k.items.length %}
+      <a class="county is-live" href="/collectibles/area/{{ k.slug }}/">
+        <span class="pin">{{ k.when }}</span>
+        <h3>{{ k.name }}</h3>
+        <p>{{ k.lede }}</p>
+        <span class="county-n"><b>{{ k.items.length }}</b> mapped · {% for t in k.byType %}{{ t.count }} {{ t.name | lower }}{% if not loop.last %}, {% endif %}{% endfor %}</span>
+              </a>
+      {%- else %}
+      <div class="county">
+        <span class="pin">{{ k.when }}</span>
+        <h3>{{ k.name }}</h3>
+        <p>{{ k.lede }}</p>
+        <span class="county-n">Coming next</span>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h">The sets</h2>
@@ -63,23 +89,4 @@
   </div>
 </section>
 
-{%- if c.mapped %}
-<section class="sec">
-  <div class="wrap">
-    <h2 class="sec-h">Where to look</h2>
-    <p class="lede">Which sets turn up in which region, for clearing the map one area at a time.</p>
-    <div class="regions">
-      {%- for r in regions %}
-      <div class="region">
-        <span class="pin">◉ {{ r.kind }}</span>
-        <h3><a href="/map/{{ r.slug }}/">{{ r.short or r.name }}</a></h3>
-        <div class="here">
-          {%- for t in c.types %}{% if r.slug in t.regions %}<a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a>{% endif %}{% endfor %}
-        </div>
-      </div>
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-{%- endif %}
 {%- endif %}

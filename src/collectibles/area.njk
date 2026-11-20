@@ -1,0 +1,83 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "db.collectibles.liveCounties", size: 1, alias: "c", addAllPagesToCollections: true },
+  permalink: (data) => `collectibles/area/${data.c.slug}/`,
+  crumbParent: { label: "Collectibles", url: "/collectibles/" },
+  eleventyComputed: {
+    title: (data) => `${data.c.name} collectibles`,
+    seoTitle: (data) => `GTA 6 ${data.c.name} Collectibles Checklist: Cards, Flamingos, WAiNK and More`,
+    description: (data) => `Every GTA 6 collectible we have mapped in ${data.c.name} (${data.c.areas.map((a) => a.name).join(", ")}): ${data.c.byType.map((t) => t.count + " " + t.name.toLowerCase()).join(", ")}. A checklist that saves your progress, with missable items marked.`,
+    updated: (data) => data.db.collectibles.updated,
+  },
+}
+---
+{%- set missables = c.items | selectattr("missable") %}
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">Collectibles checklist · {{ c.when }}</p>
+    <h1>{{ c.name }}</h1>
+    <p class="tagline">{{ c.lede }}</p>
+    <div class="chips"><span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span></div>
+    <dl class="meta">
+      <div><dt>Mapped here</dt><dd>{{ c.items.length }}</dd></div>
+      <div><dt>Areas</dt><dd>{{ c.areas.length }}</dd></div>
+      {%- if missables.length %}<div><dt>Missable</dt><dd>{{ missables.length }}</dd></div>{% endif %}
+    </dl>
+    <div class="progress" data-progress-in="#area-list">
+      <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ c.items.length }} · <span data-pct>0%</span></span></div>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    {%- if missables.length %}
+    <div class="tip warn"><span class="lab">Watch out</span><div class="tip-body"><p>{{ missables.length }} item{{ "s" if missables.length != 1 }} here can be missed for good. Each one says when it disappears. Tap <b>Missable</b> below to see just those, and get them first.</p></div></div>
+    {%- endif %}
+
+    <div class="filters" data-filter-group="area" role="group" aria-label="Filter by set">
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not found</button>
+      {%- if missables.length %}<button type="button" class="fchip" data-filter="missable" aria-pressed="false">Missable</button>{% endif %}
+      {%- for t in c.byType %}
+      <button type="button" class="fchip" data-filter="{{ t.slug }}" aria-pressed="false">{{ t.name }} · {{ t.count }}</button>
+      {%- endfor %}
+    </div>
+
+    <div id="area-list" data-filter-list="area">
+      {%- for a in c.areas %}
+      <div class="chapter" data-filter-parent>
+        <h2 class="chapter-h">{{ a.name }}<span>{{ a.items.length }}</span></h2>
+        <ul class="items">
+          {%- for i in a.items %}
+          <li class="item" data-track-row data-tags="{{ i.type }}{% if i.missable %} missable{% endif %}" id="{{ i.type }}-{{ i.id }}">
+            <input class="cb" type="checkbox" id="a-{{ i.type }}-{{ i.id }}" data-track="col:{{ i.type }}:{{ i.id }}" aria-label="Mark {{ i.name }} found">
+            <span class="item-no">{% if i.n %}{{ i.n | pad }}{% else %}·{% endif %}</span>
+            <div class="item-body">
+              <label for="a-{{ i.type }}-{{ i.id }}" class="item-name">{{ i.name }}</label>
+              <p class="item-meta"><a class="tkind" href="/collectibles/{{ i.type }}/">{{ i.typeName }}</a>{% if i.set %}<span>{{ i.set }}{% if i.n %} #{{ i.n }}{% endif %}</span>{% endif %}{% if i.who %}<span>{{ i.who }}</span>{% endif %}{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
+              <p>{{ i.where | md | safe }}</p>
+            </div>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="area" hidden>Nothing left here for that filter.</p>
+
+    <div class="area-gaps">
+      <h2 class="sec-h sm">Not on this list yet</h2>
+      <p class="lede">The location guides we rely on are still being filled in, so this page covers only what has been pinned down. We add more as they're confirmed.</p>
+      <ul class="klist one">
+        <li><b>Underwater discoveries.</b> Several wrecks lie off Key Lento, but the guides don't yet agree on which finds make up the 33, so we've left them out for now. Kenton's dives in Chapter 1 are a good start.</li>
+        <li><b>Most collectible cards and WAiNK scans.</b> Only a handful of the 480 cards and the scan spots have known locations so far.</li>
+        <li><b>Flamingos.</b> Only a few of the 125 are mapped anywhere yet.</li>
+      </ul>
+    </div>
+
+    <p class="lede" style="margin-top:22px">Ticks here are shared with each set's own page. For everything else on the 100% list, follow the <a href="/guides/100-percent-route/">100% route</a>, or see <a href="/collectibles/#by-area">all areas</a>.</p>
+  </div>
+</section>

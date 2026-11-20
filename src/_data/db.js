@@ -35,6 +35,20 @@ export default function () {
     sample: collectibles.sample,
     updated: t.updated || collectibles.updated,
   }));
+  // Checklists by in-game county: every mapped item of every set, in county order.
+  const counties = JSON.parse(fs.readFileSync(new URL("./counties.json", import.meta.url), "utf8"));
+  collectibles.counties = counties.map((c, i) => {
+    const items = collectibles.types.flatMap((t) =>
+      t.items.filter((it) => it.county === c.slug).map((it) => ({ ...it, type: t.slug, typeName: t.name })));
+    const areas = [...new Set([...(c.areas || []), ...items.map((it) => it.area)])]
+      .map((a) => ({ name: a, items: items.filter((it) => it.area === a) }))
+      .filter((a) => a.items.length);
+    const byType = collectibles.types
+      .map((t) => ({ slug: t.slug, name: t.name, count: items.filter((it) => it.type === t.slug).length }))
+      .filter((t) => t.count);
+    return { ...c, order: i + 1, items, areas, byType };
+  });
+  collectibles.liveCounties = collectibles.counties.filter((c) => c.items.length);
   collectibles.total = collectibles.types.reduce((n, t) => n + (t.total || 0), 0);
   collectibles.mapped = collectibles.types.reduce((n, t) => n + t.items.length, 0);
 

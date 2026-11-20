@@ -1,158 +1,446 @@
 {
- "updated": "2026-11-18",
- "types": [
-  {
-   "slug": "collectible-cards",
-   "name": "Collectible Cards",
-   "desc": "Trading cards in 18 themed sets, picked up around Leonida.",
-   "total": 480,
-   "unit": "cards",
-   "need": "15 complete sets",
-   "trophy": "Don't Touch My Deck (3 sets)",
-   "counter": "explore:cards",
-   "counterLabel": "Card sets completed",
-   "how": [
-    "There are **480 cards** split over **18 sets**, from sports teams to dancers and comics.",
-    "Cards are lying around indoors and out. Pick one up and it goes into your collection.",
-    "Finishing the **Vice City Flamingos** set (24 cards) unlocks the **Bubblegum** cheat.",
-    "Track them under Progress, Collections, Collectible Cards."
-   ],
-   "sets": [
-    "Vice City Flamingos",
-    "Vice City Narcos",
-    "Vice City Manatees",
-    "Vice City Club De Futbol",
-    "Liberty City Swingers",
-    "Liberty City Penetrators",
-    "Liberty City Wrath",
-    "Los Santos Corkers",
-    "Los Santos Panic",
-    "Los Santos Pounders",
-    "Backyard Wrestling",
-    "America's Next Top Hooker",
-    "Delights Dancers",
-    "Jack of Hearts Dancers",
-    "Nine1Nine Dancers",
-    "The Legends of Ratface",
-    "Right Wing: America's Hero",
-    "Ed Comics Universe"
-   ],
-   "items": []
-  },
-  {
-   "slug": "waink-locations",
-   "name": "WAiNK Locations",
-   "desc": "Landmarks, sculptures and oddities you scan with the WAiNK app on your phone.",
-   "need": "100",
-   "trophy": "You WAiNKer! (100)",
-   "counter": "explore:waink",
-   "counterLabel": "WAiNK locations scanned",
-   "how": [
-    "Open WAiNK on your phone, point it at the spot and scan.",
-    "Scans come in four kinds: **landmarks**, **sculptures**, **curiosities** and **utility markings**.",
-    "The same app scans cars (for the vehicle count) and posters (for the unique playlists).",
-    "Track them under Progress, Collections, WAiNK Locations."
-   ],
-   "items": []
-  },
-  {
-   "slug": "cocaine-flamingos",
-   "name": "Cocaine Flamingos",
-   "desc": "Pink flamingo ornaments with cocaine hidden inside. Shoot them.",
-   "total": 125,
-   "unit": "flamingos",
-   "need": "100",
-   "counter": "explore:flamingos",
-   "counterLabel": "Cocaine Flamingos destroyed",
-   "how": [
-    "Shoot a flamingo and it drops a parcel of cocaine.",
-    "The cocaine is worth money: sell it to a [fence](/guides/activities-and-collectibles/#fences). It also counts toward the $100,000 of narcotics the 100% checklist wants.",
-    "Destroying 50 unlocks the **Inflatable Flamingo** spawn cheat.",
-    "Track them under Progress, Collections, Exploration, Cocaine Flamingos."
-   ],
-   "items": []
-  },
-  {
-   "slug": "meditation-spots",
-   "name": "Meditation Spots",
-   "desc": "Quiet places to sit and meditate, spread over 10 locations.",
-   "total": 18,
-   "unit": "spots",
-   "need": "15",
-   "trophy": "Positive Mental Attitude (18)",
-   "counter": "explore:meditation",
-   "counterLabel": "Meditation spots",
-   "how": [
-    "There are **18 spots** at **10 locations**, so several locations have more than one.",
-    "Jason and Lucia can both meditate at the same spot. Bring your partner along.",
-    "The trophy needs all 18, the 100% checklist only 15.",
-    "Fifty meditations unlock the **Fast Forward** cheat.",
-    "Track them under Progress, Collections, Exploration, Meditations."
-   ],
-   "note": "Unconfirmed, but worth knowing: Lucia offers a meditation at Jason's house in Chapter 1, after [Down to Earth](/walkthrough/down-to-earth/). It may count toward the trophy, and it can't be done once Chapter 2 starts. Accept it if she asks.",
-   "items": []
-  },
-  {
-   "slug": "underwater-discoveries",
-   "name": "Underwater Discoveries",
-   "desc": "Wrecks and other sights on the sea floor.",
-   "total": 33,
-   "unit": "discoveries",
-   "need": "33",
-   "counter": "explore:underwater",
-   "counterLabel": "Underwater discoveries",
-   "how": [
-    "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. Discoveries include wrecks and other sights under water.",
-    "The 100% checklist wants every one of them.",
-    "Track them under Progress, Collections, Exploration, Underwater Discoveries."
-   ],
-   "items": []
-  },
-  {
-   "slug": "magazines-books-comics",
-   "name": "Magazines, Books and Comics",
-   "desc": "Reading material left around the state, including book swaps.",
-   "total": 34,
-   "unit": "titles",
-   "need": "30",
-   "counter": "explore:reading",
-   "counterLabel": "Magazines, books and comics",
-   "how": [
-    "Only different titles count. Picking up the same one twice doesn't help.",
-    "Book swaps count too.",
-    "Track them under Progress, Collections, Exploration."
-   ],
-   "items": []
-  },
-  {
-   "slug": "discovered-styles",
-   "name": "Discovered Styles",
-   "desc": "Tattoo designs from magazines, and luxury watches.",
-   "total": 79,
-   "unit": "styles",
-   "need": "70",
-   "counter": "explore:styles",
-   "counterLabel": "Styles discovered",
-   "how": [
-    "Styles come in four groups: Jason's magazine tattoos, Lucia's magazine tattoos, shared magazine tattoos and luxury watches.",
-    "Track them under Progress, Collections, Discovered Styles."
-   ],
-   "items": []
-  },
-  {
-   "slug": "unique-playlists",
-   "name": "Unique Playlists",
-   "desc": "Two music playlists you unlock by scanning posters.",
-   "total": 2,
-   "unit": "playlists",
-   "need": "2",
-   "counter": "explore:playlists",
-   "counterLabel": "Unique playlists",
-   "how": [
-    "Scan the right posters with WAiNK to add a playlist.",
-    "Track them under Progress, Collections, Exploration, Unique Playlists."
-   ],
-   "items": []
-  }
- ]
+  "updated": "2026-11-20",
+  "types": [
+    {
+      "slug": "collectible-cards",
+      "name": "Collectible Cards",
+      "desc": "Trading cards in 18 themed sets, picked up around Leonida.",
+      "total": 480,
+      "unit": "cards",
+      "need": "15 complete sets",
+      "trophy": "Don't Touch My Deck (3 sets)",
+      "counter": "explore:cards",
+      "counterLabel": "Card sets completed",
+      "how": [
+        "There are **480 cards** split over **18 sets**, from sports teams to dancers and comics.",
+        "Cards are lying around indoors and out. Pick one up and it goes into your collection.",
+        "Finishing the **Vice City Flamingos** set (24 cards) unlocks the **Bubblegum** cheat.",
+        "Track them under Progress, Collections, Collectible Cards."
+      ],
+      "sets": [
+        "Vice City Flamingos",
+        "Vice City Narcos",
+        "Vice City Manatees",
+        "Vice City Club De Futbol",
+        "Liberty City Swingers",
+        "Liberty City Penetrators",
+        "Liberty City Wrath",
+        "Los Santos Corkers",
+        "Los Santos Panic",
+        "Los Santos Pounders",
+        "Backyard Wrestling",
+        "America's Next Top Hooker",
+        "Delights Dancers",
+        "Jack of Hearts Dancers",
+        "Nine1Nine Dancers",
+        "The Legends of Ratface",
+        "Right Wing: America's Hero",
+        "Ed Comics Universe"
+      ],
+      "items": [
+        {
+          "id": "ratface-27",
+          "name": "Wokester",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Outside The Wonder Whale clothing shop, on the bench along its northeast side.",
+          "set": "The Legends of Ratface",
+          "n": 27
+        },
+        {
+          "id": "panic-3",
+          "name": "Marquise Bernard",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Right beside Kenton's shop, sitting on top of a barrel outdoors.",
+          "set": "Los Santos Panic",
+          "n": 3
+        },
+        {
+          "id": "panic-7",
+          "name": "Nikkander Orlov",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "On the east edge of Watson Bay. Look in the covered outdoor area next to a house: it's on a shelf.",
+          "set": "Los Santos Panic",
+          "n": 7
+        },
+        {
+          "id": "rightwing-2",
+          "name": "Flamer",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "At the campground on the east edge of Watson Bay. Go to the toilet block in the middle, where the camp roads meet; the card is on a board on its side wall.",
+          "set": "Right Wing: America's Hero",
+          "n": 2
+        },
+        {
+          "id": "swingers-21",
+          "name": "Lalo Velasco",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "In the garage of the first house east of the beach, on a shelf.",
+          "set": "Liberty City Swingers",
+          "n": 21
+        },
+        {
+          "id": "pounders-19",
+          "name": "Laki Maivia",
+          "county": "mariana-county",
+          "area": "Grassrivers",
+          "where": "Inside a safe in a trailer on the southwest shore of Cottonmouth Lake. The code is **44017**; it's in the photos on the wall to the left of the safe.",
+          "set": "Los Santos Pounders",
+          "n": 19
+        },
+        {
+          "id": "hearts-10",
+          "name": "Brianna Blue",
+          "county": "mariana-county",
+          "area": "Grassrivers",
+          "where": "At the far west of the Gullet Marsh and Pelican Valley area, on a small island with a few buildings. Go into the northern, square building; the card is on a shelf.",
+          "set": "Jack of Hearts Dancers",
+          "n": 10
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+          "note": "All 18 set pages read Nov 20, 2026 (modified Nov 19). Most numbers still unrevealed. Mariana County: Ratface 27 (Key Lento), LS Panic 3 (Key Lento) and 7 (Watson Bay), Right Wing 2 (Watson Bay), LC Swingers 21 (Capri), LS Pounders 19 (Grassrivers, Cottonmouth Lake, safe 44017), Jack of Hearts 10 (Grassrivers). Backyard Wrestling 11 has a Grassrivers alternate to its Grayson spot: left out until it's clear."
+        }
+      ]
+    },
+    {
+      "slug": "waink-locations",
+      "name": "WAiNK Locations",
+      "desc": "Landmarks, sculptures and oddities you scan with the WAiNK app on your phone.",
+      "need": "100",
+      "trophy": "You WAiNKer! (100)",
+      "counter": "explore:waink",
+      "counterLabel": "WAiNK locations scanned",
+      "how": [
+        "Open WAiNK on your phone, point it at the spot and scan.",
+        "Scans come in four kinds: **landmarks**, **sculptures**, **curiosities** and **utility markings**.",
+        "The same app scans cars (for the vehicle count) and posters (for the unique playlists).",
+        "Track them under Progress, Collections, WAiNK Locations."
+      ],
+      "items": [
+        {
+          "id": "landmark-17",
+          "name": "Belpoint Lighthouse",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "Scan the lighthouse on Belpoint with WAiNK.",
+          "set": "Landmarks",
+          "n": 17
+        },
+        {
+          "id": "sculpture-7",
+          "name": "Triangler Sculpture",
+          "county": "mariana-county",
+          "area": "Corsair Key",
+          "where": "Scan the Triangler sculpture on Corsair Key with WAiNK.",
+          "set": "Sculptures",
+          "n": 7
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-waink-scan-locations/",
+          "note": "Landmarks (31), Curiosities (35), Sculptures (23), set 4 unknown, No Flusher Tags. Read Nov 20, 2026. Mariana County: Landmark 17 Belpoint Lighthouse, Sculpture 7 Triangler Sculpture (Corsair Key). Most entries unrevealed."
+        }
+      ]
+    },
+    {
+      "slug": "cocaine-flamingos",
+      "name": "Cocaine Flamingos",
+      "desc": "Pink flamingo ornaments with cocaine hidden inside. Shoot them.",
+      "total": 125,
+      "unit": "flamingos",
+      "need": "100",
+      "counter": "explore:flamingos",
+      "counterLabel": "Cocaine Flamingos destroyed",
+      "how": [
+        "Shoot a flamingo and it drops a parcel of cocaine.",
+        "The cocaine is worth money: sell it to a [fence](/guides/activities-and-collectibles/#fences). It also counts toward the $100,000 of narcotics the 100% checklist wants.",
+        "Destroying 50 unlocks the **Inflatable Flamingo** spawn cheat.",
+        "Track them under Progress, Collections, Exploration, Cocaine Flamingos."
+      ],
+      "items": [
+        {
+          "id": "belpoint-docks",
+          "name": "Belpoint docks",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "On the docks at the southeast end of Belpoint."
+        },
+        {
+          "id": "belpoint-big-house",
+          "name": "Burning yard, big house",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "Southeast Belpoint has a group of houses where flamingos are being burned. This one is in front of the big white house."
+        },
+        {
+          "id": "belpoint-small-house",
+          "name": "Burning yard, small house",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "Same group of houses, at the corner of the small white house."
+        },
+        {
+          "id": "belpoint-container",
+          "name": "Beach container, inside",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "On the beach there's a container full of burning flamingos. One is inside the container."
+        },
+        {
+          "id": "belpoint-fire",
+          "name": "Beach container, by the fire",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "Same beach, on the ground beside the fire, next to the body and the tipped-over camping chair."
+        },
+        {
+          "id": "belpoint-yellow",
+          "name": "Beach container, in the water",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "Same beach, standing on the yellow container out in the water."
+        },
+        {
+          "id": "watson-motel",
+          "name": "Motel",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "On the east edge of Watson Bay, at the southwest corner of a motel building with rubbish piled all round it."
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-cocaine-flamingo-locations/",
+          "note": "Work in progress, 8 of 125, modified Nov 18, 2026. Mariana County: six at Belpoint (docks, burning yard houses, beach container), one at a motel on the east edge of Watson Bay."
+        }
+      ]
+    },
+    {
+      "slug": "meditation-spots",
+      "name": "Meditation Spots",
+      "desc": "Quiet places to sit and meditate, spread over 10 locations.",
+      "total": 18,
+      "unit": "spots",
+      "need": "15",
+      "trophy": "Positive Mental Attitude (18)",
+      "counter": "explore:meditation",
+      "counterLabel": "Meditation spots",
+      "how": [
+        "There are **18 spots** at **10 locations**, so several locations have more than one.",
+        "Jason and Lucia can both meditate at the same spot. Bring your partner along.",
+        "The trophy needs all 18, the 100% checklist only 15.",
+        "Fifty meditations unlock the **Fast Forward** cheat.",
+        "Track them under Progress, Collections, Exploration, Meditations."
+      ],
+      "note": "Unconfirmed, but worth knowing: Lucia offers a meditation at Jason's house in Chapter 1, after [Down to Earth](/walkthrough/down-to-earth/). It may count toward the trophy, and it can't be done once Chapter 2 starts. Accept it if she asks.",
+      "items": [
+        {
+          "id": "jasons-house",
+          "name": "Jason's House",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the balcony of Jason's house, where the training gear is. Lucia offers it as an optional prompt. Whether it counts toward the trophy isn't settled yet.",
+          "n": 1,
+          "missable": "Chapter 1 only",
+          "who": "Lucia"
+        },
+        {
+          "id": "smooth-sand-1",
+          "name": "Smooth Sand",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "On a small sandbar just off the west coast of Capri.",
+          "n": 2
+        },
+        {
+          "id": "smooth-sand-2",
+          "name": "Smooth Sand, second time",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia, and you can play both from Coffee Break in Chapter 2.",
+          "n": 3
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "note": "All 10 spots / 18 meditations, modified Nov 19, 2026. Spot 1 Jason's House (Lucia, Chapter 1 only, trophy count unconfirmed); spot 2 Smooth Sand, sandbar off west Capri (meditations 2-3). Each spot counts for both characters, both available after Coffee Break."
+        }
+      ]
+    },
+    {
+      "slug": "underwater-discoveries",
+      "name": "Underwater Discoveries",
+      "desc": "Wrecks and other sights on the sea floor.",
+      "total": 33,
+      "unit": "discoveries",
+      "need": "33",
+      "counter": "explore:underwater",
+      "counterLabel": "Underwater discoveries",
+      "how": [
+        "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. Discoveries include wrecks and other sights under water.",
+        "The 100% checklist wants every one of them.",
+        "Track them under Progress, Collections, Exploration, Underwater Discoveries."
+      ],
+      "items": [],
+      "sources": [
+        {
+          "label": "game-checklists.com / Output Lag / gmtreks",
+          "url": "https://game-checklists.com/gta6/underwater-discoveries-checklist/",
+          "note": "Read Nov 20, 2026. They agree on Keys wrecks (Ocio, Etica Laxa, Noche) but disagree on what makes up the 33 and how wrecks count. Left out."
+        }
+      ]
+    },
+    {
+      "slug": "magazines-books-comics",
+      "name": "Magazines, Books and Comics",
+      "desc": "Reading material left around the state, including book swaps.",
+      "total": 34,
+      "unit": "titles",
+      "need": "30",
+      "counter": "explore:reading",
+      "counterLabel": "Magazines, books and comics",
+      "how": [
+        "Only different titles count. Picking up the same one twice doesn't help.",
+        "Book swaps count too.",
+        "Track them under Progress, Collections, Exploration."
+      ],
+      "items": [
+        {
+          "id": "ashes-of-glory",
+          "name": "Ashes of Glory",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Jason's house: on the table next to the bed.",
+          "n": 1,
+          "missable": "Chapter 1 only"
+        },
+        {
+          "id": "lethal-by-design",
+          "name": "Lethal By Design",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Jason's house: on the living room table.",
+          "n": 2,
+          "missable": "Chapter 1 only"
+        },
+        {
+          "id": "orca",
+          "name": "Orca: A Whole Different Animal",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Jason's house: on the table by the east window in the living room.",
+          "n": 3,
+          "missable": "Chapter 1 only"
+        },
+        {
+          "id": "off-the-hook",
+          "name": "Off the Hook",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Jason's house: in the tool shed underneath the house.",
+          "n": 4,
+          "missable": "Chapter 1 only"
+        },
+        {
+          "id": "body-copy",
+          "name": "Body Copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Jason's house: out on the back deck by the weights.",
+          "n": 5,
+          "missable": "Chapter 1 only"
+        },
+        {
+          "id": "rx-men",
+          "name": "RX Men",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside the 247 store in Key Lento, on the magazine rack.",
+          "n": 6
+        },
+        {
+          "id": "swap-1",
+          "name": "The Wizard's Ruin: Loud Clap of the Night",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "A Book Swap box in Watson Bay.",
+          "n": 1,
+          "set": "Book Swaps"
+        },
+        {
+          "id": "swap-2",
+          "name": "Killer Prom",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "A Book Swap box in Key Lento.",
+          "n": 2,
+          "set": "Book Swaps"
+        },
+        {
+          "id": "swap-7",
+          "name": "Badlands Revenge: Ride Like Hell",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "A Book Swap box in Capri.",
+          "n": 7,
+          "set": "Book Swaps"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+          "note": "27 items, 1-20 revealed, read Nov 20, 2026. 1-5 Jason's house (Chapter 1 only), 6 RX Men in 247 Key Lento."
+        },
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/gta-6-all-book-swap-locations/",
+          "note": "7 Book Swaps, modified Nov 20, 2026: 1 Watson Bay, 2 Key Lento, 7 Capri (Mariana County); 3 Southside, 4 Vespucci Island, 5 Waning Sands, 6 Ambrosia. 30 of 34 combined for 100%."
+        }
+      ]
+    },
+    {
+      "slug": "discovered-styles",
+      "name": "Discovered Styles",
+      "desc": "Tattoo designs from magazines, and luxury watches.",
+      "total": 79,
+      "unit": "styles",
+      "need": "70",
+      "counter": "explore:styles",
+      "counterLabel": "Styles discovered",
+      "how": [
+        "Styles come in four groups: Jason's magazine tattoos, Lucia's magazine tattoos, shared magazine tattoos and luxury watches.",
+        "Track them under Progress, Collections, Discovered Styles."
+      ],
+      "items": []
+    },
+    {
+      "slug": "unique-playlists",
+      "name": "Unique Playlists",
+      "desc": "Two music playlists you unlock by scanning posters.",
+      "total": 2,
+      "unit": "playlists",
+      "need": "2",
+      "counter": "explore:playlists",
+      "counterLabel": "Unique playlists",
+      "how": [
+        "Scan the right posters with WAiNK to add a playlist.",
+        "Track them under Progress, Collections, Exploration, Unique Playlists."
+      ],
+      "items": []
+    }
+  ]
 }

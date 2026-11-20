@@ -13,6 +13,8 @@
      [data-reveal]                         reveals one blurred row (.is-secret)
      [data-filter-group="x"] [data-filter] filter chips for [data-filter-list="x"] > [data-tags]
      [data-search="x"]                     text search over the same list (matches data-text)
+     [data-filter-parent]                  inside a list: hidden when none of its [data-tags] rows show
+     [data-progress-in="#id"]              ticked / all checkboxes inside #id
      [data-cd="d|h|m|s"]                   countdown digits to <html data-launch>            */
 (function () {
   "use strict";
@@ -86,6 +88,18 @@
       all("[data-done]", el).forEach(function (n) { n.textContent = done; });
       all("[data-pct]", el).forEach(function (n) { n.textContent = pct + "%"; });
     });
+    // [data-progress-in="#list"]: ticked boxes inside that list, out of all boxes in it
+    all("[data-progress-in]").forEach(function (el) {
+      var scope = document.querySelector(el.getAttribute("data-progress-in"));
+      if (!scope) return;
+      var boxes = all("input[data-track]", scope);
+      var done = boxes.filter(function (b) { return b.checked; }).length;
+      var pct = boxes.length ? Math.round((done / boxes.length) * 100) : 0;
+      var fill = el.querySelector(".bar > i");
+      if (fill) fill.style.width = pct + "%";
+      all("[data-done]", el).forEach(function (n) { n.textContent = done; });
+      all("[data-pct]", el).forEach(function (n) { n.textContent = pct + "%"; });
+    });
 
     applyPrefs();
     all("[data-filter-group]").forEach(function (g) { applyFilter(g.getAttribute("data-filter-group")); });
@@ -109,6 +123,10 @@
       var okText = !query || text.indexOf(query) !== -1;
       item.hidden = !(okTag && okText);
       if (!item.hidden) shown++;
+    });
+    // [data-filter-parent]: a group heading hides when none of its rows are showing
+    all("[data-filter-parent]", list).forEach(function (p) {
+      p.hidden = !all("[data-tags]", p).some(function (i) { return !i.hidden; });
     });
     var none = document.querySelector('[data-nomatch="' + group + '"]');
     if (none) none.hidden = shown > 0;

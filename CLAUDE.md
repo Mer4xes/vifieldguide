@@ -13,7 +13,7 @@ Unofficial, non-commercial GTA 6 guide owned by Hauk. Claude writes and publishe
 |---|---|
 | Missions | `src/walkthrough/missions/NNN-slug.md` (NNN = story order). Front matter: title, chapter, protagonist (jason/lucia/both), region, giver, unlocks, difficulty 1-3, time, summary (no spoilers), updated, missables, objectives, rewards, `verified` only when checked in-game. Each `##` heading = one step. Boxes: `> **Tip:**`, `> **Watch out:**`, `> **Missable:**`, `> **Note:**`, `> **Spoiler:**`, `> **Spoiler (ending):**`. |
 | Trophies | `src/data/trophies.json` (`items`: id, name, desc, grade, tags, missable, hidden, how) |
-| Collectibles | `src/data/collectibles.json` (`types` with `items`: n, region, name, where, mission) |
+| Collectibles | `src/data/collectibles.json` (`types` with `items`: id, name, county, area, where, optional set, n, missable, who; `sources` per type). Counties and their order: `src/_data/counties.json`. Each county with items gets a checklist at `/collectibles/area/<county>/`; ticks use `col:<type>:<id>` and are shared with the set pages. |
 | Vehicles / weapons | `src/data/vehicles.json`, `src/data/weapons.json` (items with slug, name, class, blurb, stats, price, howToGet, note). Pre-launch named items: `src/_data/known.json` |
 | Guides | `src/guides/*.md` (front matter blocks: facts, tldr, tips, methods, panels, sources, faq) |
 | "What we know" pages | `src/activities.md`, `src/wildlife.md`, `src/how-it-plays.md`, `src/music.md` (layout `layouts/known.njk`) |
@@ -51,3 +51,5 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - nettoge.com marks its pages "noai": don't use it as a source.
 - Cloud runs can only fetch pages whose URL came from a web search result (links found inside a fetched page are refused). On Nov 19 the PowerPyx pages for Meet the Heders, South Leonida Real Estate, Here, Kitty Kitty and Car Service were not in search yet; try searching their exact titles again.
 - Runs are every 3 hours until Nov 26. If nothing new is clearly better, change nothing and don't send a notification.
+- Collectible checklists by area (Hauk, Nov 20): fill them one county at a time in route order (Mariana, Kelly, Vice City, Vice Beach, Vice-Dale, Leonard, Lummox), covering every set (cards, WAiNK scans, flamingos, meditation, underwater, magazines and book swaps, styles, playlists). Mariana County is started; keep topping it up as the PowerPyx set pages reveal more, then move on to Kelly County. Use the county > area labels the sources use. Underwater discoveries stay out until sources agree on what makes up the 33.
+- Hauk also wants a checklist of all vehicles (Nov 20). Not started: needs a trusted vehicle list first.

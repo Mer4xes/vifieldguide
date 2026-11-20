@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "mariana-county",
+    "name": "Mariana County",
+    "when": "Chapter 1",
+    "areas": [
+      "Key Lento",
+      "Watson Bay",
+      "Capri",
+      "Belpoint",
+      "Corsair Key",
+      "Grassrivers"
+    ],
+    "lede": "Where the story starts: Key Lento, home in Chapter 1, plus Watson Bay, Capri, Belpoint, Corsair Key and the part of Grassrivers that falls inside the county. Do the Chapter 1 items first, because they're gone once the chapter ends."
+  },
+  {
+    "slug": "kelly-county",
+    "name": "Kelly County",
+    "when": "Chapter 2",
+    "areas": [
+      "Port Gellhorn",
+      "Gellhorn",
+      "Draper Island",
+      "Buckskin Swamp",
+      "Camp Moonflower",
+      "Manifest Canyon",
+      "Ambrosia"
+    ],
+    "lede": "Port Gellhorn, where Chapter 2 is set, and the country round it: Buckskin Swamp, Manifest Canyon, Ambrosia and more."
+  },
+  {
+    "slug": "vice-city",
+    "name": "Vice City",
+    "when": "Chapter 3",
+    "areas": [],
+    "lede": "The city itself, open from Chapter 3."
+  },
+  {
+    "slug": "vice-beach",
+    "name": "Vice Beach",
+    "when": "Chapter 3",
+    "areas": [],
+    "lede": "Ocean Beach, Washington Beach and the islands that belong to them."
+  },
+  {
+    "slug": "vice-dale-county",
+    "name": "Vice-Dale County",
+    "when": "Chapter 3",
+    "areas": [],
+    "lede": "Southside, Hamlet, Vespucci Island and the airport."
+  },
+  {
+    "slug": "leonard-county",
+    "name": "Leonard County",
+    "when": "Later",
+    "areas": [],
+    "lede": "Belville, Waning Sands and the coast round them."
+  },
+  {
+    "slug": "lummox-county",
+    "name": "Lummox County",
+    "when": "Later",
+    "areas": [],
+    "lede": "Mount Kalaga, Moreau, Grayson and Bonanza."
+  }
+]

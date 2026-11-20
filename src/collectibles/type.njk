@@ -24,16 +24,17 @@
       {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
       {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% endif %}
       {%- if t.trophy %}<div class="wide"><dt>Trophy</dt><dd>{{ t.trophy }}</dd></div>{% endif %}
-      {%- if t.items.length %}<div><dt>Mapped here</dt><dd>{{ t.items.length }}</dd></div>{% endif %}
+      {%- if t.items.length %}<div><dt>Mapped so far</dt><dd>{{ t.items.length }}</dd></div>{% endif %}
       {%- if t.reward %}<div class="wide"><dt>Reward</dt><dd>{{ t.reward }}</dd></div>{% endif %}
     </dl>
+    {%- if t.ctr %}
+    <div class="ctrs one">{% set ctr = t.ctr %}{% set label = t.counterLabel %}{% include "partials/ctr.njk" %}</div>
+    {%- endif %}
     {%- if t.items.length %}
-    <div class="progress" data-progress="col:{{ t.slug }}:" data-total="{{ t.total }}">
-      <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ t.total }}</span></div>
+    <div class="progress" data-progress="col:{{ t.slug }}:" data-total="{{ t.items.length }}">
+      <div class="row"><span class="lab">Ticked off below</span><span class="pct"><span data-done>0</span> / {{ t.items.length }} mapped{% if t.total %} of {{ t.total }}{% endif %}</span></div>
       <div class="bar"><i></i></div>
     </div>
-    {%- elif t.ctr %}
-    <div class="ctrs one">{% set ctr = t.ctr %}{% set label = t.counterLabel %}{% include "partials/ctr.njk" %}</div>
     {%- endif %}
   </div>
 </header>
@@ -62,20 +63,21 @@
     {%- if not t.items.length %}
     <div class="empty"><p>No locations listed yet. We add them once a trusted source, or two that agree, shows where they are, so you won't be sent to the wrong place.</p></div>
     {%- endif %}
-    {%- for r in regions %}
-    {%- set here = t.items | where("region", r.slug) %}
+    {%- for c in db.collectibles.counties %}
+    {%- set here = t.items | where("county", c.slug) %}
     {%- if here.length %}
     <div class="chapter">
-      <h2 class="chapter-h"><a href="/map/{{ r.slug }}/">{{ r.short or r.name }}</a><span>{{ here.length }}</span></h2>
+      <h2 class="chapter-h"><a href="/collectibles/area/{{ c.slug }}/">{{ c.name }}</a><span>{{ here.length }}</span></h2>
       <ul class="items">
         {%- for i in here %}
-        <li class="item" data-track-row id="n-{{ i.n }}">
-          <input class="cb" type="checkbox" id="c-{{ t.slug }}-{{ i.n }}" data-track="col:{{ t.slug }}:{{ i.n }}" aria-label="Mark number {{ i.n }} found">
-          <span class="item-no">{{ i.n | pad }}</span>
+        {%- set key = "col:" + t.slug + ":" + i.id %}
+        <li class="item" data-track-row id="{{ i.id }}">
+          <input class="cb" type="checkbox" id="c-{{ t.slug }}-{{ i.id }}" data-track="{{ key }}" aria-label="Mark {{ i.name }} found">
+          <span class="item-no">{% if i.n %}{{ i.n | pad }}{% else %}·{% endif %}</span>
           <div class="item-body">
-            <label for="c-{{ t.slug }}-{{ i.n }}" class="item-name">{{ i.name }}</label>
+            <label for="c-{{ t.slug }}-{{ i.id }}" class="item-name">{{ i.name }}</label>
+            <p class="item-meta">{% if i.set %}<span>{{ i.set }}{% if i.n %} #{{ i.n }}{% endif %}</span>{% endif %}<span>{{ i.area }}</span>{% if i.who %}<span>{{ i.who }}</span>{% endif %}{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
             <p>{{ i.where | md | safe }}</p>
-            {%- if i.image %}<img src="{{ i.image }}" alt="Location of {{ t.name }} number {{ i.n }}: {{ i.name }}" loading="lazy" decoding="async">{% endif %}
             {%- if i.mission %}<a class="more" href="/walkthrough/{{ i.mission }}/">Reachable during a mission</a>{% endif %}
           </div>
         </li>
@@ -85,7 +87,7 @@
     {%- endif %}
     {%- endfor %}
     {%- if t.items.length %}<button class="reset" type="button" data-reset="col:{{ t.slug }}:">Reset this set</button>{% endif %}
-    <p class="lede" style="margin-top:22px">See all <a href="/collectibles/">collectible sets</a>, the <a href="/map/#tracker">map tracker</a> or the <a href="/guides/100-percent-checklist/">100% checklist</a>.</p>
+    <p class="lede" style="margin-top:22px">See all <a href="/collectibles/">collectible sets</a>, the <a href="/collectibles/#by-area">checklists by area</a>, the <a href="/map/#tracker">map tracker</a> or the <a href="/guides/100-percent-checklist/">100% checklist</a>.</p>
     {%- if t.updated %}<p class="stamp">Last updated {{ t.updated | niceDate }}</p>{% endif %}
   </div>
 </section>
