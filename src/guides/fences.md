@@ -8,7 +8,7 @@ summary: Who buys what, where they are and which mission opens them, from Brian'
 order: 4
 glow: gold
 spoilerFree: true
-updated: 2026-11-19
+updated: 2026-11-20
 facts:
   - { k: Fences so far, v: "7", status: Reported }
   - { k: Vehicles for 100%, v: "$200,000", status: Reported }
@@ -40,6 +40,9 @@ sources:
   - label: "Gfinity: mission list and story recap"
     url: "https://www.gfinityesports.com/article/gta-6-complete-mission-list-and-story-recap"
     note: "Randy Kozlov, auto dealer in Balsero, fences high-end cars; Boobie introduces Yasmani, who buys stolen goods. Nov 19, 2026."
+  - label: "PowerPyx: Money Guide"
+    url: "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/"
+    note: "Cars with a Standard Tracker sell at any Pay 'n' Spray in Chapter 3. Nov 18, 2026."
   - label: "Earlier entries"
     url: "/guides/activities-and-collectibles/#fences"
     note: "Moses, Dunk, Brian's lockup, Donnie's drop, Yasmani and the 100% totals come from the sources recorded on the mission pages, side contacts and the 100% checklist."
@@ -61,7 +64,7 @@ sources:
 
 <h2 id="cars">Selling stolen cars</h2>
 
-**Moses** is the first. After [Moses](/walkthrough/moses/) in Chapter 2 he buys cars that don't have a tracker, from his place in Port Gellhorn. **Randy** joins in Chapter 3: Lucia meets him when she delivers Raul's Schafter in [Car Service](/walkthrough/car-service/), and from then on his dealership in Balsero takes stolen cars too. Randy also has his own jobs, starting with a Zorrusso; see [Randy on side contacts](/guides/side-contacts/#randy).
+**Moses** is the first. After [Moses](/walkthrough/moses/) in Chapter 2 he buys cars that don't have a tracker, from his place in Port Gellhorn. **Randy** joins in Chapter 3: Lucia meets him when she delivers Raul's Schafter in [Car Service](/walkthrough/car-service/), and from then on his dealership in Balsero takes stolen cars too. Randy also has his own jobs, starting with a Zorrusso; see [Randy on side contacts](/guides/side-contacts/#randy). From Chapter 3, cars with a Standard Tracker can also be sold at any Pay 'n' Spray. Which cars pay best, and when, is in the [money guide](/guides/money/#cars).
 
 <h2 id="narcotics">Selling narcotics</h2>
 

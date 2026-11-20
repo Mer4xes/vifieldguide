@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "chapters": [
   {
    "n": 1,
@@ -378,7 +378,17 @@
     },
     {
      "t": "Credit Check",
-     "no": 50
+     "no": 50,
+     "opens": [
+      {
+       "t": "Small bank jobs and payday loans",
+       "u": "/guides/money/#bank-jobs"
+      },
+      {
+       "t": "Dye Pack Jammer for marked bills",
+       "u": "/guides/money/#bank-jobs"
+      }
+     ]
     },
     {
      "t": "Steal the Zorrusso for Randy",
@@ -386,7 +396,7 @@
      "opens": [
       {
        "t": "Key cloner and Randy's car list",
-       "u": "/guides/side-contacts/#randy"
+       "u": "/guides/money/#key-cloner"
       }
      ]
     },
