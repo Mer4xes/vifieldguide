@@ -987,3 +987,25 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 
 /* ---------- long mission arcs: wrap onto two rows on desktop ---------- */
 @media(min-width:1000px){.arc-list.is-long{grid-template-columns:repeat(6,minmax(0,1fr))}}
+
+/* 100% route: a county's collectibles, folded into the route */
+.track li.rarea{background:linear-gradient(180deg,rgba(39,226,212,.07),var(--surface-2));border-color:rgba(39,226,212,.35)}
+.rarea details>summary{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:12px;align-items:center;padding:12px 15px;cursor:pointer}
+.rarea details>summary::-webkit-details-marker{display:none}
+.rarea-t{font-weight:500;font-size:15px;line-height:1.45}
+.rarea-t::before{content:"▸";display:inline-block;color:var(--cyan);margin-right:8px;transition:transform .15s}
+.rarea details[open] .rarea-t::before{transform:rotate(90deg)}
+.rarea-t b{color:var(--fg);font-weight:800}
+.rarea-t small{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:3px}
+.rarea-pct{font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--cyan);white-space:nowrap}
+.rarea .rt-collect{color:var(--cyan)}
+.rarea .miss,.rarea-t .miss{font-family:var(--mono);font-size:11px;color:var(--gold);font-weight:700;white-space:nowrap}
+.rarea-body{padding:0 15px 16px}
+.rarea-body .track{margin-top:6px;gap:7px}
+.rarea-body .track li{background:var(--surface)}
+.rarea-body .track label{grid-template-columns:22px minmax(0,1fr);padding:10px 13px}
+.rarea-h{font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin:16px 0 4px}
+.rarea-h span{color:var(--cyan);margin-left:6px}
+.rarea-kind{font-family:var(--mono);font-size:11px;color:var(--cyan);font-weight:400;letter-spacing:.04em;white-space:nowrap}
+.rarea-more{display:inline-block;margin-top:14px;font-weight:700;font-size:14px}
+@media (max-width:520px){.rarea details>summary{grid-template-columns:minmax(0,1fr) auto;padding:11px 12px}.rarea details>summary .rt{display:none}.rarea-body{padding:0 10px 12px}.rarea-kind{white-space:normal}}

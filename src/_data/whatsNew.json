@@ -10,6 +10,14 @@
   },
   {
     "date": "2026-11-20",
+    "tag": "Collectibles",
+    "title": "Collectibles by county",
+    "text": "Cards, WAiNK scans, hoops, flamingos and more, sorted by county and folded into the 100% route.",
+    "url": "/collectibles/#by-area",
+    "img": "/assets/img/misc/wl-reef.webp"
+  },
+  {
+    "date": "2026-11-20",
     "tag": "New guide",
     "title": "Mission rewards",
     "text": "Every unique weapon, car, payout and unlock, with the mission it comes from.",
@@ -38,7 +46,7 @@
     "title": "100% route",
     "text": "One ordered checklist: missions, side jobs and clean-up.",
     "url": "/guides/100-percent-route/",
-    "img": "/assets/img/misc/wl-reef.webp"
+    "img": "/assets/img/misc/act-heli.webp"
   },
   {
     "date": "2026-11-19",

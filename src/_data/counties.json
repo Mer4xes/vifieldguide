@@ -9,7 +9,8 @@
       "Capri",
       "Belpoint",
       "Corsair Key",
-      "Grassrivers"
+      "Grassrivers",
+      "Waters off Key Lento"
     ],
     "lede": "Where the story starts: Key Lento, home in Chapter 1, plus Watson Bay, Capri, Belpoint, Corsair Key and the part of Grassrivers that falls inside the county. Do the Chapter 1 items first, because they're gone once the chapter ends."
   },
@@ -18,49 +19,81 @@
     "name": "Kelly County",
     "when": "Chapter 2",
     "areas": [
-      "Port Gellhorn",
       "Gellhorn",
+      "Port Gellhorn",
       "Draper Island",
       "Buckskin Swamp",
       "Camp Moonflower",
       "Manifest Canyon",
+      "Emerald Springs",
+      "North Kelly County",
       "Ambrosia"
     ],
-    "lede": "Port Gellhorn, where Chapter 2 is set, and the country round it: Buckskin Swamp, Manifest Canyon, Ambrosia and more."
+    "lede": "Port Gellhorn and the Starlet Motel, where Chapter 2 is set, and the country round it: Buckskin Swamp, Manifest Canyon, Emerald Springs, Ambrosia and more. The motel items go when Chapter 2 ends."
+  },
+  {
+    "slug": "lummox-county",
+    "name": "Lummox County",
+    "when": "Chapter 2",
+    "areas": [
+      "Moreau",
+      "Mount Kalaga National Park",
+      "Tallaloko",
+      "Grayson",
+      "Bonanza"
+    ],
+    "lede": "Mount Kalaga, Moreau, Grayson, Bonanza and Tallaloko. Bret's hunts bring Jason here from Chapter 2."
   },
   {
     "slug": "vice-city",
     "name": "Vice City",
     "when": "Chapter 3",
-    "areas": [],
-    "lede": "The city itself, open from Chapter 3."
+    "areas": [
+      "Downtown",
+      "Little Cuba",
+      "La Perle",
+      "Crosstown",
+      "Decor District",
+      "Bayside",
+      "Tequesta",
+      "Tequesta Retreat",
+      "Salton",
+      "Peacock Bay",
+      "Peacock Estates"
+    ],
+    "lede": "The city itself, open from Chapter 3: Downtown, Little Cuba, La Perle, Crosstown, Tequesta and the rest. Grab the Bayside apartment items before Chapter 3 ends."
   },
   {
     "slug": "vice-beach",
     "name": "Vice Beach",
     "when": "Chapter 3",
-    "areas": [],
-    "lede": "Ocean Beach, Washington Beach and the islands that belong to them."
+    "areas": [
+      "Ocean Beach",
+      "Washington Beach",
+      "Dalton Island"
+    ],
+    "lede": "Ocean Beach, Washington Beach and Dalton Island, open from Chapter 3."
   },
   {
     "slug": "vice-dale-county",
     "name": "Vice-Dale County",
     "when": "Chapter 3",
-    "areas": [],
+    "areas": [
+      "VCIA",
+      "Hamlet",
+      "Southside",
+      "Vespucci Island"
+    ],
     "lede": "Southside, Hamlet, Vespucci Island and the airport."
   },
   {
     "slug": "leonard-county",
     "name": "Leonard County",
-    "when": "Later",
-    "areas": [],
-    "lede": "Belville, Waning Sands and the coast round them."
-  },
-  {
-    "slug": "lummox-county",
-    "name": "Lummox County",
-    "when": "Later",
-    "areas": [],
-    "lede": "Mount Kalaga, Moreau, Grayson and Bonanza."
+    "when": "Chapter 3",
+    "areas": [
+      "Belville",
+      "Waning Sands"
+    ],
+    "lede": "Belville, where Andy's jobs take Lucia in Chapter 3, and Waning Sands on the coast."
   }
 ]

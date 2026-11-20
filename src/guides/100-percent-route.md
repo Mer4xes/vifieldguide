@@ -3,12 +3,12 @@ title: 100% route
 headline: The 100% Route
 kicker: Completion
 seoTitle: "GTA 6 100% Route: The Best Order for 100% Completion and the Platinum"
-description: "An ordered 100% checklist for GTA 6: all 93 missions in order with side jobs, limited-time missions and suggested moments for the challenges, then the free roam clean-up."
-summary: Every mission in order, with the side jobs, limited-time missions and challenges that fit around each one, then the free roam clean-up. Tick it off from the top.
+description: "An ordered 100% checklist for GTA 6: all 93 missions in order with side jobs, limited-time missions, suggested moments for the challenges and the collectibles in each county, then the free roam clean-up."
+summary: Every mission in order, with the side jobs, limited-time missions, challenges and collectibles that fit around each one, then the free roam clean-up. Tick it off from the top.
 order: 2
 glow: gold
 spoilerFree: true
-updated: 2026-11-19
+updated: 2026-11-20
 facts:
   - { k: Playthroughs, v: "One", status: Reported }
   - { k: Mission replay, v: "None", status: Reported }
@@ -58,7 +58,7 @@ sources:
     note: "Trophy targets. Nov 18, 2026."
 ---
 
-This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions and the [challenges](/guides/challenges/) that fit at that point. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list and the [100% checklist](/guides/100-percent-checklist/).
+This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions, the [challenges](/guides/challenges/) and the [collectibles](/collectibles/#by-area) of the county you are in at that point. Open a county to see every mapped card, WAiNK scan, hoop, flamingo, magazine and meditation spot there, with where to find it. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list, the collectible checklists and the [100% checklist](/guides/100-percent-checklist/).
 
 > **Note:** First pass. Mission order, unlocks, limited-time jobs and the collectible spots come from trusted guides. **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then. None of it is checked in our own game yet.
 
@@ -92,6 +92,25 @@ This is the whole game as one list. Missions are in story order, and around them
 {%- set ms = m.t | slugify %}
 {%- set mp = (collections.missions | where("data.slug", ms))[0] %}
 <li data-track-row><label><input class="cb" type="checkbox" data-track="mission:{{ ms }}"><span class="txt">{% if not it.hide %}<b>{{ it.m }}.</b> {% endif %}{% if it.hide %}<b>Mission {{ it.m }}</b>{% elif mp %}<a href="{{ mp.url }}">{{ m.t }}</a>{% else %}{{ m.t }}{% endif %}{% if m.optional %} <span class="need">optional</span>{% endif %}{% if it.n %}<small>{{ it.n | md | safe }}</small>{% endif %}</span><span class="goal rt rt-mission">Mission</span></label></li>
+{%- elif it.area %}
+{%- set k = (db.collectibles.counties | where("slug", it.area))[0] %}
+{%- if k and k.items.length %}
+{%- set kmiss = k.items | selectattr("missable") %}
+<li class="rarea"><details>
+<summary><span class="rarea-t"><b>{{ k.name }}:</b> {{ k.items.length }} collectibles mapped{% if kmiss.length %}, <span class="miss">{{ kmiss.length }} missable</span>{% endif %}<small>{{ it.n | md | safe }}</small></span><span class="rarea-pct" data-progress-in="#ra-{{ k.slug }}"><span data-done>0</span>/{{ k.items.length }}</span><span class="goal rt rt-collect">Collect</span></summary>
+<div class="rarea-body" id="ra-{{ k.slug }}">
+{%- for a in k.areas %}
+<p class="rarea-h">{{ a.name }} <span>{{ a.items.length }}</span></p>
+<ul class="track">
+{%- for i in a.items %}
+<li data-track-row><label><input class="cb" type="checkbox" data-track="col:{{ i.type }}:{{ i.id }}" aria-label="Mark {{ i.name }} found"><span class="txt"><b>{{ i.name }}</b> <span class="rarea-kind">{{ i.typeName }}{% if i.set and i.set != i.typeName %} · {{ i.set }}{% endif %}</span>{% if i.missable %} <span class="miss">Missable · {{ i.missable }}</span>{% endif %}<small>{{ i.where | md | safe }}</small></span></label></li>
+{%- endfor %}
+</ul>
+{%- endfor %}
+<a class="rarea-more" href="/collectibles/area/{{ k.slug }}/">{{ k.name }} checklist with filters →</a>
+</div>
+</details></li>
+{%- endif %}
 {%- elif it.c %}
 {%- set c = challenges | routeChallenge(it.c) %}
 <li data-track-row><label><input class="cb" type="checkbox" data-track="chal:{{ c.catId }}:{{ c.id }}"><span class="txt"><b>{{ c.name }}:</b> {{ c.req }}{% if it.n %}<small>{{ it.n | md | safe }}</small>{% endif %}</span><span class="goal rt rt-challenge">Challenge</span></label></li>

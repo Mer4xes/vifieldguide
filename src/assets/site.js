@@ -41,6 +41,11 @@
   }
 
   var state = read(KEY);
+  // Route rows that became shared collectible ticks (Nov 20): carry old ticks over.
+  var MOVED = {"route:read-ashes":"col:magazines-books-comics:ashes-of-glory","route:read-lethal":"col:magazines-books-comics:lethal-by-design","route:read-orca":"col:magazines-books-comics:orca","route:read-hook":"col:magazines-books-comics:off-the-hook","route:read-body":"col:magazines-books-comics:body-copy","route:read-rx":"col:magazines-books-comics:rx-men","route:motel-help":"col:magazines-books-comics:help-me","route:motel-wang":"col:magazines-books-comics:wizard-wang","route:motel-vicki":"col:collectible-cards:delights-1","route:motel-victor":"col:collectible-cards:corkers-2","route:read-johnsons":"col:magazines-books-comics:johnsons-1","route:read-dicked":"col:magazines-books-comics:dicked-down","route:bay-passion":"col:magazines-books-comics:passion-bc","route:bay-pricks":"col:magazines-books-comics:two-pricks","route:read-remote":"col:magazines-books-comics:remote-strike","route:read-lights":"col:magazines-books-comics:lights-camera","route:read-bombazo":"col:magazines-books-comics:bombazo","route:vault-poster":"col:unique-playlists:vault","route:balcony":"col:meditation-spots:jasons-house"};
+  var moved = false;
+  for (var old in MOVED) if (state[old]) { state[MOVED[old]] = 1; delete state[old]; moved = true; }
+  if (moved) write(KEY, state);
   var prefs = read(PREFS);
 
   function countPrefix(prefix) {

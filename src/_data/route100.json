@@ -59,32 +59,38 @@
       {
        "k": "read-ashes",
        "tag": "limited",
-       "t": "**Ashes of Glory:** on the table next to Jason's bed. The house is gone after Chapter 1."
+       "t": "**Ashes of Glory:** on the table next to Jason's bed. The house is gone after Chapter 1.",
+       "track": "col:magazines-books-comics:ashes-of-glory"
       },
       {
        "k": "read-lethal",
        "tag": "limited",
-       "t": "**Lethal By Design:** on the living room table in Jason's house."
+       "t": "**Lethal By Design:** on the living room table in Jason's house.",
+       "track": "col:magazines-books-comics:lethal-by-design"
       },
       {
        "k": "read-orca",
        "tag": "limited",
-       "t": "**Orca: A Whole Different Animal:** on the living room table by the east window."
+       "t": "**Orca: A Whole Different Animal:** on the living room table by the east window.",
+       "track": "col:magazines-books-comics:orca"
       },
       {
        "k": "read-hook",
        "tag": "limited",
-       "t": "**Off the Hook:** in the tool shed under Jason's house."
+       "t": "**Off the Hook:** in the tool shed under Jason's house.",
+       "track": "col:magazines-books-comics:off-the-hook"
       },
       {
        "k": "read-body",
        "tag": "limited",
-       "t": "**Body Copy:** on the back deck of the house, by the weights."
+       "t": "**Body Copy:** on the back deck of the house, by the weights.",
+       "track": "col:magazines-books-comics:body-copy"
       },
       {
        "k": "read-rx",
        "tag": "collect",
-       "t": "**RX Men:** on the magazine rack in the 247 store in Key Lento."
+       "t": "**RX Men:** on the magazine rack in the 247 store in Key Lento.",
+       "track": "col:magazines-books-comics:rx-men"
       },
       {
        "c": "vehicle:vehicle-discovery",
@@ -206,7 +212,8 @@
       {
        "k": "balcony",
        "tag": "limited",
-       "t": "**The balcony meditation.** The morning after Down to Earth, talk to Lucia in the kitchen and follow her to the balcony. Unconfirmed whether it counts toward Positive Mental Attitude, and it does not come back."
+       "t": "**The balcony meditation.** The morning after Down to Earth, talk to Lucia in the kitchen and follow her to the balcony. Unconfirmed whether it counts toward Positive Mental Attitude, and it does not come back.",
+       "track": "col:meditation-spots:jasons-house"
       },
       {
        "m": 15
@@ -245,6 +252,15 @@
       },
       {
        "m": 19
+      }
+     ]
+    },
+    {
+     "h": "Collectibles in Mariana County",
+     "items": [
+      {
+       "area": "mariana-county",
+       "n": "Everything we have mapped in the Keys, area by area. The Jason's house items go when Chapter 1 ends; the rest can wait, but Key Lento is home for now, so its hoops, cards and WAiNK scans are on your doorstep."
       }
      ]
     },
@@ -299,27 +315,32 @@
       {
        "k": "motel-help",
        "tag": "limited",
-       "t": "**Help Me Help You Help Me:** on the table in the Starlet Motel reception. The motel is gone after Chapter 2."
+       "t": "**Help Me Help You Help Me:** on the table in the Starlet Motel reception. The motel is gone after Chapter 2.",
+       "track": "col:magazines-books-comics:help-me"
       },
       {
        "k": "motel-wang",
        "tag": "limited",
-       "t": "**The Wizard Wang book:** on a table in the Starlet Motel cafeteria."
+       "t": "**The Wizard Wang book:** on a table in the Starlet Motel cafeteria.",
+       "track": "col:magazines-books-comics:wizard-wang"
       },
       {
        "k": "motel-vicki",
        "tag": "limited",
-       "t": "**Vicki card:** in the bathroom of the motel office, on the floor by the toilet."
+       "t": "**Vicki card:** in the bathroom of the motel office, on the floor by the toilet.",
+       "track": "col:collectible-cards:delights-1"
       },
       {
        "k": "motel-victor",
        "tag": "limited",
-       "t": "**Victor Maravilla card:** on the fridge in the motel kitchen."
+       "t": "**Victor Maravilla card:** on the fridge in the motel kitchen.",
+       "track": "col:collectible-cards:corkers-2"
       },
       {
        "k": "read-johnsons",
        "tag": "collect",
-       "t": "**The Johnsons (Issue 1):** inside Alpha Gas, northeast of the motel."
+       "t": "**The Johnsons (Issue 1):** inside Alpha Gas, northeast of the motel.",
+       "track": "col:magazines-books-comics:johnsons-1"
       },
       {
        "k": "kyle-1",
@@ -358,7 +379,8 @@
       {
        "k": "read-dicked",
        "tag": "collect",
-       "t": "**Dicked Down Deep in Space:** in a trailer at Lost Vista, the robbery spot Dunk marks, northwest of the Port Gellhorn Station garage."
+       "t": "**Dicked Down Deep in Space:** in a trailer at Lost Vista, the robbery spot Dunk marks, northwest of the Port Gellhorn Station garage.",
+       "track": "col:magazines-books-comics:dicked-down"
       },
       {
        "k": "kyle-2",
@@ -488,6 +510,19 @@
      ]
     },
     {
+     "h": "Collectibles in Kelly County",
+     "items": [
+      {
+       "area": "kelly-county",
+       "n": "The Starlet Motel items go when Chapter 2 ends. The swamp, canyon and Emerald Springs spots stay, but you are next door now."
+      },
+      {
+       "area": "lummox-county",
+       "n": "Bret's hunts bring Jason up here from Veteran Hunted. Grab what is on the way; the rest fits the free roam sweep."
+      }
+     ]
+    },
+    {
      "h": "Before the finale",
      "items": [
       {
@@ -531,12 +566,14 @@
       {
        "k": "bay-passion",
        "tag": "limited",
-       "t": "**Passion B.C.:** next to the bathtub in the Bayside apartment. The apartment is gone after Chapter 3."
+       "t": "**Passion B.C.:** next to the bathtub in the Bayside apartment. The apartment is gone after Chapter 3.",
+       "track": "col:magazines-books-comics:passion-bc"
       },
       {
        "k": "bay-pricks",
        "tag": "limited",
-       "t": "**Two Pricks in the Bush:** on the table in front of the TV in the Bayside apartment."
+       "t": "**Two Pricks in the Bush:** on the table in front of the TV in the Bayside apartment.",
+       "track": "col:magazines-books-comics:two-pricks"
       },
       {
        "k": "console-ch3",
@@ -644,12 +681,14 @@
       {
        "k": "vault-poster",
        "tag": "collect",
-       "t": "**The Vault nightclub, Downtown:** the red poster inside the entrance completes the second playlist."
+       "t": "**The Vault nightclub, Downtown:** the red poster inside the entrance completes the second playlist.",
+       "track": "col:unique-playlists:vault"
       },
       {
        "k": "read-bombazo",
        "tag": "collect",
-       "t": "**¡BOMBAZO! (Issue 2342):** on the magazine rack in Ron Stop'n'Snack, Washington Beach."
+       "t": "**¡BOMBAZO! (Issue 2342):** on the magazine rack in Ron Stop'n'Snack, Washington Beach.",
+       "track": "col:magazines-books-comics:bombazo"
       },
       {
        "c": "criminal:carjacking"
@@ -814,6 +853,27 @@
      ]
     },
     {
+     "h": "Collectibles around Vice City",
+     "items": [
+      {
+       "area": "vice-city",
+       "n": "The Bayside apartment items go when Chapter 3 ends. Everything else stays."
+      },
+      {
+       "area": "vice-beach",
+       "n": "Ocean Beach and Washington Beach."
+      },
+      {
+       "area": "vice-dale-county",
+       "n": "Hamlet, the airport, Southside and Vespucci Island."
+      },
+      {
+       "area": "leonard-county",
+       "n": "Belville comes up with Andy's jobs; Waning Sands is on the coast to the north."
+      }
+     ]
+    },
+    {
      "h": "Before the finale",
      "items": [
       {
@@ -865,7 +925,8 @@
       {
        "k": "read-remote",
        "tag": "limited",
-       "t": "**Remote Strike:** in the trauma room area of Ajax Gym, Vice Beach. Lucia can get in from Chapter 4."
+       "t": "**Remote Strike:** in the trauma room area of Ajax Gym, Vice Beach. Lucia can get in from Chapter 4.",
+       "track": "col:magazines-books-comics:remote-strike"
       },
       {
        "k": "pete",
@@ -1014,7 +1075,8 @@
       {
        "k": "read-lights",
        "tag": "collect",
-       "t": "**Lights, Camera, Affirmative Action:** on a table in the penthouse you reach during this chapter."
+       "t": "**Lights, Camera, Affirmative Action:** on a table in the penthouse you reach during this chapter.",
+       "track": "col:magazines-books-comics:lights-camera"
       },
       {
        "k": "open-checklist",
@@ -1082,6 +1144,11 @@
     {
      "h": "B: one region at a time",
      "items": [
+      {
+       "k": "fr-areas",
+       "tag": "collect",
+       "t": "**Finish each county's collectible list.** They sit in the chapters above, and every county has [its own checklist page](/collectibles/#by-area). We add spots as they are confirmed."
+      },
       {
        "k": "fr-gang",
        "track": "pct:gang-operations-cleared",

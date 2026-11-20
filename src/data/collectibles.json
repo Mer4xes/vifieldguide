@@ -40,7 +40,7 @@
       "items": [
         {
           "id": "ratface-27",
-          "name": "Wokester",
+          "name": "Wokester (Blue)",
           "county": "mariana-county",
           "area": "Key Lento",
           "where": "Outside The Wonder Whale clothing shop, on the bench along its northeast side.",
@@ -58,7 +58,7 @@
         },
         {
           "id": "panic-7",
-          "name": "Nikkander Orlov",
+          "name": "Nikkander Orlov (Silver)",
           "county": "mariana-county",
           "area": "Watson Bay",
           "where": "On the east edge of Watson Bay. Look in the covered outdoor area next to a house: it's on a shelf.",
@@ -67,7 +67,7 @@
         },
         {
           "id": "rightwing-2",
-          "name": "Flamer",
+          "name": "Flamer (White)",
           "county": "mariana-county",
           "area": "Watson Bay",
           "where": "At the campground on the east edge of Watson Bay. Go to the toilet block in the middle, where the camp roads meet; the card is on a board on its side wall.",
@@ -76,7 +76,7 @@
         },
         {
           "id": "swingers-21",
-          "name": "Lalo Velasco",
+          "name": "Lalo Velasco (Gold)",
           "county": "mariana-county",
           "area": "Capri",
           "where": "In the garage of the first house east of the beach, on a shelf.",
@@ -85,7 +85,7 @@
         },
         {
           "id": "pounders-19",
-          "name": "Laki Maivia",
+          "name": "Laki Maivia (Bronze)",
           "county": "mariana-county",
           "area": "Grassrivers",
           "where": "Inside a safe in a trailer on the southwest shore of Cottonmouth Lake. The code is **44017**; it's in the photos on the wall to the left of the safe.",
@@ -94,12 +94,548 @@
         },
         {
           "id": "hearts-10",
-          "name": "Brianna Blue",
+          "name": "Brianna Blue (Red)",
           "county": "mariana-county",
           "area": "Grassrivers",
           "where": "At the far west of the Gullet Marsh and Pelican Valley area, on a small island with a few buildings. Go into the northern, square building; the card is on a shelf.",
           "set": "Jack of Hearts Dancers",
           "n": 10
+        },
+        {
+          "id": "flamingos-18",
+          "name": "Julian Cruz (Gold)",
+          "county": "vice-city",
+          "area": "Little Cuba",
+          "where": "In the building just south of Yasmani's shop. Walk the long hallway: the card is pinned to a board in a small office on its north side.",
+          "set": "Vice City Flamingos",
+          "n": 18
+        },
+        {
+          "id": "flamingos-20",
+          "name": "Mateo Caballero (Silver)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "In a bedroom of the house right north of Zenon's Pawn Shop.",
+          "set": "Vice City Flamingos",
+          "n": 20
+        },
+        {
+          "id": "flamingos-23",
+          "name": "Ulysses Whitlock (Silver)",
+          "county": "vice-city",
+          "area": "Tequesta",
+          "where": "Take the lift inside the Grand Majestic Gym building up to the roof. The card is on the helipad to the east, at the top of the spiral stairs.",
+          "set": "Vice City Flamingos",
+          "n": 23
+        },
+        {
+          "id": "narcos-8",
+          "name": "Kyle Lewicki",
+          "county": "vice-city",
+          "area": "Bayside",
+          "where": "Inside Dynamix Fitness, on a bench in the back hallway.",
+          "set": "Vice City Narcos",
+          "n": 8
+        },
+        {
+          "id": "manatees-6",
+          "name": "Delord Nathan Alford",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "Climb onto the empty strip mall south of The Thirsty Wolf and drop through the roof hatch into the old laundromat. It's on a shelf in the back room, where a dog is barking. The number on that shelf opens the reinforced safe.",
+          "set": "Vice City Manatees",
+          "n": 6
+        },
+        {
+          "id": "manatees-9",
+          "name": "Tusi Taufua",
+          "county": "vice-city",
+          "area": "Tequesta",
+          "where": "Grand Majestic Gym building: on the gym floor, cross to the kitchen on the far side.",
+          "set": "Vice City Manatees",
+          "n": 9
+        },
+        {
+          "id": "futbol-3",
+          "name": "Ayokunumi Kasimu",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "West of Roval Jewelry, north of the building you can enter. It's inside a yellow SCOOP container that you open with the Cut-off Tool.",
+          "set": "Vice City Club De Futbol",
+          "n": 3
+        },
+        {
+          "id": "futbol-16",
+          "name": "Ian Harris (Silver)",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In the orange lifeguard stand on the beach, east of the Ocean View rooftop bar.",
+          "set": "Vice City Club De Futbol",
+          "n": 16
+        },
+        {
+          "id": "futbol-18",
+          "name": "Ian Harris (Pink)",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "Southwest of the WHS shoe shop is a square apartment block. The card is in the top-floor flat in its southeast corner.",
+          "set": "Vice City Club De Futbol",
+          "n": 18
+        },
+        {
+          "id": "futbol-27",
+          "name": "Badge (Silver)",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "In the hut near the top of Mount Kalaga. Climb the ladder to the upper level.",
+          "set": "Vice City Club De Futbol",
+          "n": 27
+        },
+        {
+          "id": "swingers-2",
+          "name": "Garth Buxton",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "In a phone box at the back of the Cellerica warehouse, the big building east of the Brilliant Cuts jewelry store. You can also grab it during Andy's job Puff Puff Pass.",
+          "set": "Liberty City Swingers",
+          "n": 2
+        },
+        {
+          "id": "swingers-4",
+          "name": "Seo-Jun Kim",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In the baseball stands in the northwest corner of the park. Climb the tall flight of stairs to the top.",
+          "set": "Liberty City Swingers",
+          "n": 4
+        },
+        {
+          "id": "penetrators-7",
+          "name": "Alexander Avain (Silver)",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "In the apartment block west of Jack of Hearts, on the third floor, right above one of the Kitty Litter labs Tyrone sends you to.",
+          "set": "Liberty City Penetrators",
+          "n": 7
+        },
+        {
+          "id": "penetrators-8",
+          "name": "Alexander Avain (Blue)",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "In the back room of the LTD Food Mart in Hamlet.",
+          "set": "Liberty City Penetrators",
+          "n": 8
+        },
+        {
+          "id": "penetrators-10",
+          "name": "Remy Herbert (Silver)",
+          "county": "vice-city",
+          "area": "Little Cuba",
+          "where": "In the apartment building east of the Fast Cash pawn shop, inside the flat you can enter on the second floor.",
+          "set": "Liberty City Penetrators",
+          "n": 10
+        },
+        {
+          "id": "penetrators-13",
+          "name": "Rion Yapa (Silver)",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "Under the highway west of Down Town Pawn, in a garage stacked with sneaker boxes.",
+          "set": "Liberty City Penetrators",
+          "n": 13
+        },
+        {
+          "id": "penetrators-21",
+          "name": "Demario Richardson (Gold)",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "Inside Buck's Jewelry & Pawn, on a shelf in the back room.",
+          "set": "Liberty City Penetrators",
+          "n": 21
+        },
+        {
+          "id": "wrath-2",
+          "name": "Alvin Orlowski",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "In the top-floor apartment just east of the Drip Drops clothing store.",
+          "set": "Liberty City Wrath",
+          "n": 2
+        },
+        {
+          "id": "wrath-11",
+          "name": "Anthony Poke II (Red)",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "Ajax Gym, on a board in the upstairs hallway. Get there through the door behind the treadmills and up the stairs from the weights area, or from the roof through Lucia's private room once the story opens it.",
+          "set": "Liberty City Wrath",
+          "n": 11
+        },
+        {
+          "id": "wrath-20",
+          "name": "Robbie Stine (Silver)",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "South of the 247 Gas in West Kalaga stands a building with a smokestack. Climb the ladder to the office.",
+          "set": "Liberty City Wrath",
+          "n": 20
+        },
+        {
+          "id": "corkers-1",
+          "name": "Aoi Watanabe",
+          "county": "vice-city",
+          "area": "Peacock Bay",
+          "where": "At the mall with the Nola store, up in the rooftop tower on the northwest corner.",
+          "set": "Los Santos Corkers",
+          "n": 1
+        },
+        {
+          "id": "corkers-2",
+          "name": "Victor Maravilla",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "On the fridge in the Starlet Motel kitchen.",
+          "set": "Los Santos Corkers",
+          "n": 2,
+          "missable": "Chapter 2 only"
+        },
+        {
+          "id": "corkers-16",
+          "name": "Franklin Turner (Bronze)",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "On the northern row of houses west of Andy's house, break into the garage of the westernmost one. The card is on the counter.",
+          "set": "Los Santos Corkers",
+          "n": 16
+        },
+        {
+          "id": "corkers-19",
+          "name": "Carlos Larios (Bronze)",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "On the ground in the western dugout of the baseball field, in the northwest corner of the park.",
+          "set": "Los Santos Corkers",
+          "n": 19
+        },
+        {
+          "id": "panic-19",
+          "name": "Terrance Ericks (Bronze)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "In a locked building northwest of Aunt Zola's Soul Food.",
+          "set": "Los Santos Panic",
+          "n": 19
+        },
+        {
+          "id": "panic-20",
+          "name": "Terrance Ericks (Silver)",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "In the empty building right west of Roval Jewelry, in the office in its southeast corner.",
+          "set": "Los Santos Panic",
+          "n": 20
+        },
+        {
+          "id": "pounders-8",
+          "name": "Sione Apa (Red)",
+          "county": "vice-city",
+          "area": "Tequesta",
+          "where": "In the gym at the Vice Seven Condominiums, in the southern changing room.",
+          "set": "Los Santos Pounders",
+          "n": 8
+        },
+        {
+          "id": "pounders-15",
+          "name": "Maximus Goldbart (Yellow)",
+          "county": "leonard-county",
+          "area": "Waning Sands",
+          "where": "In the garage of the villa east of the Waning Sands Pay 'n' Spray, the same place you find the Pegassi Vitello for Randy.",
+          "set": "Los Santos Pounders",
+          "n": 15
+        },
+        {
+          "id": "wrestling-11",
+          "name": "J.D. Wild",
+          "county": "lummox-county",
+          "area": "Grayson",
+          "where": "Among the houses just north of the Grayson Pay 'n' Spray, in a yellow box on a back deck. Either copy counts. You only need one.",
+          "set": "Backyard Wrestling",
+          "n": 11
+        },
+        {
+          "id": "wrestling-11-alt",
+          "name": "J.D. Wild, second copy",
+          "county": "mariana-county",
+          "area": "Grassrivers",
+          "where": "Northeast of the Manatee Motel Kingfishers spot, south of Hamlet, a small settlement has a shack with a severed gator head. The card is in its mouth. Either copy counts. You only need one.",
+          "set": "Backyard Wrestling",
+          "n": 11
+        },
+        {
+          "id": "hooker-1",
+          "name": "Kalvyn",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "On the roof of Big House Storage Inc, in a small phone box beside the stairwell door. Either copy counts. You only need one.",
+          "set": "America's Next Top Hooker",
+          "n": 1
+        },
+        {
+          "id": "hooker-1-alt",
+          "name": "Kalvyn, second copy",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "In a yellow box on the north side of the building you can enter, right west of Roval Jewelry. Either copy counts. You only need one.",
+          "set": "America's Next Top Hooker",
+          "n": 1
+        },
+        {
+          "id": "hooker-2",
+          "name": "Chastity",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "Northeast of Stockyard Speedshop, in a neon-lit garage full of robots, on a table at the back.",
+          "set": "America's Next Top Hooker",
+          "n": 2
+        },
+        {
+          "id": "hooker-11",
+          "name": "Kalisha (Silver)",
+          "county": "lummox-county",
+          "area": "Bonanza",
+          "where": "At the end of a dock southwest of the town.",
+          "set": "America's Next Top Hooker",
+          "n": 11
+        },
+        {
+          "id": "delights-1",
+          "name": "Vicki",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "Starlet Motel office: go through the door on the right in reception. The card is on the floor next to the toilet.",
+          "set": "Delights Dancers",
+          "n": 1,
+          "missable": "Chapter 2 only"
+        },
+        {
+          "id": "delights-3",
+          "name": "Harley",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "Inside Delights, on the seat of a small booth along the east wall. If you miss it in Chapter 2, the club opens again later.",
+          "set": "Delights Dancers",
+          "n": 3
+        },
+        {
+          "id": "delights-5",
+          "name": "Amber",
+          "county": "kelly-county",
+          "area": "Draper Island",
+          "where": "On the south edge of the island, by the guard posts: a yellow phone box on the north side of a building. Either copy counts. You only need one.",
+          "set": "Delights Dancers",
+          "n": 5
+        },
+        {
+          "id": "delights-5-alt",
+          "name": "Amber, second copy",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In a yellow box on the roof of the building right west of Cafe Orquidea. Either copy counts. You only need one.",
+          "set": "Delights Dancers",
+          "n": 5
+        },
+        {
+          "id": "delights-8",
+          "name": "Tracy",
+          "county": "vice-city",
+          "area": "Salton",
+          "where": "The Vice-Dale Water Dept building east of the Hit 'n' Run race start. Climb the ladder at the back to the rooftop room; the card is by a folding chair. A story mission also takes you through here.",
+          "set": "Delights Dancers",
+          "n": 8
+        },
+        {
+          "id": "delights-9",
+          "name": "Nevaeh",
+          "county": "lummox-county",
+          "area": "Bonanza",
+          "where": "South of Bonanza, inside the building that is half falling off a cliff.",
+          "set": "Delights Dancers",
+          "n": 9
+        },
+        {
+          "id": "delights-thelma",
+          "name": "Thelma",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the top of the tall building northeast of Donnie's trailer, in the control room, on the table next to a TV showing No Signal.",
+          "set": "Delights Dancers"
+        },
+        {
+          "id": "hearts-3",
+          "name": "Kadisha (Pink)",
+          "county": "vice-dale-county",
+          "area": "VCIA",
+          "where": "Southwest of the Pawn City pawn shop, on a mattress on the floor of a trailer you can walk into.",
+          "set": "Jack of Hearts Dancers",
+          "n": 3
+        },
+        {
+          "id": "hearts-5",
+          "name": "Kelly (Purple)",
+          "county": "vice-city",
+          "area": "Tequesta",
+          "where": "West of the Vice Seven Condominiums are two C-shaped motel buildings. The card is on top of the containers west of them.",
+          "set": "Jack of Hearts Dancers",
+          "n": 5
+        },
+        {
+          "id": "hearts-7",
+          "name": "Christel (Red)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "On the roof of the apartment block where Tyrone lives, in the southwest part.",
+          "set": "Jack of Hearts Dancers",
+          "n": 7
+        },
+        {
+          "id": "hearts-13",
+          "name": "Malena (Red)",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "On the northern row of houses west of Andy's house, in a house you can break into. It's on a desk in the bedroom at the very back.",
+          "set": "Jack of Hearts Dancers",
+          "n": 13
+        },
+        {
+          "id": "hearts-malena-kalaga",
+          "name": "Malena",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "In the lookout tower north of Rusty Willis Jr. Hunting Supplies on Forest Mill Rd. Climb to the top; it's just left of the door. May be another colour of the Belville card.",
+          "set": "Jack of Hearts Dancers"
+        },
+        {
+          "id": "nine-30",
+          "name": "Serena (Gold)",
+          "county": "vice-city",
+          "area": "Peacock Estates",
+          "where": "In the garage of the southernmost estate. One of Randy's wish-list cars is parked there too.",
+          "set": "Nine1Nine Dancers",
+          "n": 30
+        },
+        {
+          "id": "nine-aimie",
+          "name": "Aimie",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside The Rusty Bucket, in the toilet stall of The Captain's Log Room.",
+          "set": "Nine1Nine Dancers"
+        },
+        {
+          "id": "nine-georgia",
+          "name": "Georgia",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At Steven Strachan Construction on the Sunbelt Hwy. Go in the back door; the card is at the back of the room by a green container.",
+          "set": "Nine1Nine Dancers"
+        },
+        {
+          "id": "nine-braelynn",
+          "name": "Braelynn",
+          "county": "kelly-county",
+          "area": "North Kelly County",
+          "where": "At the Hoffman Observatory. Climb the car scrap on the outside to the platform above, go in, and look on the wooden platform beside the old magazines.",
+          "set": "Nine1Nine Dancers"
+        },
+        {
+          "id": "ratface-10",
+          "name": "Illuminaughty (Purple)",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "On the northern row of houses west of Andy's house, in the garage you can break into, on the board on the right-hand side.",
+          "set": "The Legends of Ratface",
+          "n": 10
+        },
+        {
+          "id": "ratface-15",
+          "name": "Captain Kreuks (Blue)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "Right north of TWA Ponya Tattoo, a half-built building has vagrants on the lower floors. The card is on the top floor.",
+          "set": "The Legends of Ratface",
+          "n": 15
+        },
+        {
+          "id": "ratface-19",
+          "name": "The Ratster (Purple)",
+          "county": "kelly-county",
+          "area": "Buckskin Swamp",
+          "where": "Climb the big watchtower in the middle of the swamp. It's on the railing at the top, between the binoculars.",
+          "set": "The Legends of Ratface",
+          "n": 19
+        },
+        {
+          "id": "rightwing-1",
+          "name": "Flamer (Red)",
+          "county": "lummox-county",
+          "area": "Grayson",
+          "where": "In the town centre, on a shelf on the upper walkway of the Williams Guest House.",
+          "set": "Right Wing: America's Hero",
+          "n": 1
+        },
+        {
+          "id": "rightwing-4",
+          "name": "Right Wing (Red)",
+          "county": "vice-city",
+          "area": "Bayside",
+          "where": "In the ground-floor lobby of Bayside Apartments, on a small table in the room with the pool toys.",
+          "set": "Right Wing: America's Hero",
+          "n": 4
+        },
+        {
+          "id": "rightwing-kalaga",
+          "name": "Right Wing",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "Northwest of the Kalaga Reservoir, on the pinboard between the doors of Rusty Willis Jr. Hunting Supplies and Redshaw's General Store. May be another colour of the Bayside card.",
+          "set": "Right Wing: America's Hero"
+        },
+        {
+          "id": "ed-10",
+          "name": "Side Effect (Blue)",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In the trailer area northwest of Dunk's trailer. The trailer in the middle can be entered; the card is in its bedroom.",
+          "set": "Ed Comics Universe",
+          "n": 10
+        },
+        {
+          "id": "ed-16",
+          "name": "Dr. Placebo (Blue)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "In the building southwest of the La Perle Pay 'n' Spray, on a shelf in the big room on the ground floor.",
+          "set": "Ed Comics Universe",
+          "n": 16
+        },
+        {
+          "id": "ed-29",
+          "name": "Femi-Nemesis (Silver)",
+          "county": "vice-dale-county",
+          "area": "VCIA",
+          "where": "Southwest of the Pawn City pawn shop, in the trailer you can walk into, on the dresser.",
+          "set": "Ed Comics Universe",
+          "n": 29
+        },
+        {
+          "id": "ed-31",
+          "name": "Ratface (Bronze)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "In the big warehouse right west of the La Perle Pay 'n' Spray, on a couch against the south wall.",
+          "set": "Ed Comics Universe",
+          "n": 31
         }
       ],
       "sources": [
@@ -107,6 +643,16 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
           "note": "All 18 set pages read Nov 20, 2026 (modified Nov 19). Most numbers still unrevealed. Mariana County: Ratface 27 (Key Lento), LS Panic 3 (Key Lento) and 7 (Watson Bay), Right Wing 2 (Watson Bay), LC Swingers 21 (Capri), LS Pounders 19 (Grassrivers, Cottonmouth Lake, safe 44017), Jack of Hearts 10 (Grassrivers). Backyard Wrestling 11 has a Grassrivers alternate to its Grayson spot: left out until it's clear."
+        },
+        {
+          "label": "PowerPyx: card set pages",
+          "url": "https://www.powerpyx.com/?p=372970",
+          "note": "All 18 set pages re-read Nov 20, 2026 evening. Numbers and colours as listed; Penetrators renumber checked against raw list (7, 8, 10, 13, 21)."
+        },
+        {
+          "label": "Push Square: card set pages",
+          "url": "https://www.pushsquare.com/guides/gta-6-collectible-card-locations",
+          "note": "10 set pages, modified Nov 19, 2026. Extra cards with no number: Thelma (Delights), Aimie, Georgia, Braelynn (Nine1Nine), Malena at Kalaga (Jack of Hearts), Right Wing at Kalaga. Ichiro Yamada (LC Swingers, Port VC, Chapter 5 mission) left out: county unclear and mission-name spoiler."
         }
       ]
     },
@@ -130,7 +676,7 @@
           "name": "Belpoint Lighthouse",
           "county": "mariana-county",
           "area": "Belpoint",
-          "where": "Scan the lighthouse on Belpoint with WAiNK.",
+          "where": "On the southern tip of Belpoint, the island west of Capri. Moor at the dock and walk to the settlement in the south.",
           "set": "Landmarks",
           "n": 17
         },
@@ -139,9 +685,247 @@
           "name": "Triangler Sculpture",
           "county": "mariana-county",
           "area": "Corsair Key",
-          "where": "Scan the Triangler sculpture on Corsair Key with WAiNK.",
+          "where": "A fish-shaped monument just off the coast of Corsair Key. Scan it from the shore or a boat.",
           "set": "Sculptures",
           "n": 7
+        },
+        {
+          "id": "landmark-5",
+          "name": "Lawton Co. Paper Mill",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "where": "North of the 247 Gas in West Kalaga, beside Adler Creek.",
+          "set": "Landmarks",
+          "n": 5
+        },
+        {
+          "id": "landmark-6",
+          "name": "Farmer Scrumpy's Apple Orchard",
+          "county": "kelly-county",
+          "area": "Manifest Canyon",
+          "where": "North of Rodgers Ranch & Shooting Range. Scan the main building.",
+          "set": "Landmarks",
+          "n": 6
+        },
+        {
+          "id": "landmark-11",
+          "name": "Gellhorn Fun Fair",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "On Shore Dr, north of the Oyster Point Gas stop. Scan the old Ferris wheel.",
+          "set": "Landmarks",
+          "n": 11
+        },
+        {
+          "id": "landmark-18",
+          "name": "Kalaga Lookout",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "A viewpoint marked by a wall painting of an astronaut.",
+          "set": "Landmarks",
+          "n": 18
+        },
+        {
+          "id": "landmark-21",
+          "name": "Dock Ring",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "The giant Ferris wheel off Catalan Blvd.",
+          "set": "Landmarks",
+          "n": 21
+        },
+        {
+          "id": "landmark-22",
+          "name": "Grayson Assembly",
+          "county": "lummox-county",
+          "area": "Grayson",
+          "where": "The church right south of Ledford Motorcycle Workshop on SR-45.",
+          "set": "Landmarks",
+          "n": 22
+        },
+        {
+          "id": "landmark-periscope",
+          "name": "Downtown Periscope",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "Near Catalan Blvd.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "landmark-badger",
+          "name": "Badger R&D Tower",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On Sunset Dr, across from Donnie's trailer.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "landmark-hoffman",
+          "name": "Hoffman Observatory",
+          "county": "kelly-county",
+          "area": "North Kelly County",
+          "where": "On a hill in the west of North Kelly County, looking out over Vice City.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "landmark-skyride",
+          "name": "Sky Ride",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "East of the Emerald River. Trees hide part of it, but it's tall enough to spot.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "landmark-udder",
+          "name": "Howe Dairy Farm's Big Udder",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "A silo painted like a cow, just south of CR 62. You can see it from the highway.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "landmark-tucker",
+          "name": "Tucker's Citrus Farms Water Tower",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "At Tucker's Citrus Farms, east of Port Gellhorn.",
+          "set": "Landmarks"
+        },
+        {
+          "id": "curiosity-11",
+          "name": "Imperial Spanish Ruins",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "where": "The Spanish ruins at Moreau.",
+          "set": "Curiosities",
+          "n": 11
+        },
+        {
+          "id": "curiosity-29",
+          "name": "Big Entrance",
+          "county": "vice-beach",
+          "area": "Dalton Island",
+          "where": "By the big golden sculpture in the middle of the island, take the stairs down and scan the message on the wall.",
+          "set": "Curiosities",
+          "n": 29
+        },
+        {
+          "id": "curiosity-christmas",
+          "name": "Christmas House",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On Sunset Dr. You can't miss the festive lights.",
+          "set": "Curiosities"
+        },
+        {
+          "id": "curiosity-plunge",
+          "name": "Plunge Masters Deep Sea Chalet",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Scan the mural on the back wall of the Plunge Masters dive centre on Sunset Dr.",
+          "set": "Curiosities"
+        },
+        {
+          "id": "sculpture-16",
+          "name": "Pixel Fountain",
+          "county": "vice-city",
+          "area": "Tequesta",
+          "where": "On Catalan Blvd, west of Tequesta Retreat.",
+          "set": "Sculptures",
+          "n": 16
+        },
+        {
+          "id": "sculpture-19",
+          "name": "Neptune Rises",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "On Dominoe St, under the southern bridge to Flamingo Island. Neptune is gripping a wrecked car.",
+          "set": "Sculptures",
+          "n": 19
+        },
+        {
+          "id": "sculpture-20",
+          "name": "Vice Museum of Art Sculpture",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "A stack of smiley faces in the south of Washington Beach, visible from Atlantic Ave.",
+          "set": "Sculptures",
+          "n": 20
+        },
+        {
+          "id": "sculpture-22",
+          "name": "Princess Robot Bubblegum Statue",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "To the right of the main entrance to the Y Hotel.",
+          "set": "Sculptures",
+          "n": 22
+        },
+        {
+          "id": "sculpture-23",
+          "name": "Monument of Leonidan Supremacy",
+          "county": "kelly-county",
+          "area": "Manifest Canyon",
+          "where": "In the north of the canyon, just west of SR-73 and north of Port Gellhorn.",
+          "set": "Sculptures",
+          "n": 23
+        },
+        {
+          "id": "sculpture-oil",
+          "name": "Gimme All Your Oil",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "On Catalan Blvd, southeast of the Blanc & Giroux jewelry store.",
+          "set": "Sculptures"
+        },
+        {
+          "id": "sculpture-trex",
+          "name": "Junkyard T-Rex",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "Off Sassafrass Rd north of the Kalaga Reservoir, east of Bret's hunting cabin.",
+          "set": "Sculptures"
+        },
+        {
+          "id": "sculpture-plaque",
+          "name": "Fatal Incursion Plaque",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the southwestern tip off the Sunbelt Hwy, west of the Barnacle Beauties salon.",
+          "set": "Sculptures"
+        },
+        {
+          "id": "sculpture-whale",
+          "name": "The Wonder Whale",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "The whale south of The Wonder Whale shop, next to the Sunbelt Hwy.",
+          "set": "Sculptures"
+        },
+        {
+          "id": "sculpture-lure",
+          "name": "Large Lure",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In the park on Thompson Ave, right south of Lucciano's.",
+          "set": "Sculptures"
+        },
+        {
+          "id": "noflusher-1",
+          "name": "No Flusher tag: Banana Hole",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "On Shore Dr, just east of The Banana Hole's main bar.",
+          "set": "No Flusher Tags",
+          "n": 1
+        },
+        {
+          "id": "noflusher-buckingham",
+          "name": "No Flusher tag: The Buckingham",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "On the ground on Shore Dr, across the road from The Buckingham.",
+          "set": "No Flusher Tags"
         }
       ],
       "sources": [
@@ -149,6 +933,16 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/gta-6-all-waink-scan-locations/",
           "note": "Landmarks (31), Curiosities (35), Sculptures (23), set 4 unknown, No Flusher Tags. Read Nov 20, 2026. Mariana County: Landmark 17 Belpoint Lighthouse, Sculpture 7 Triangler Sculpture (Corsair Key). Most entries unrevealed."
+        },
+        {
+          "label": "PowerPyx: landmark, curiosity, sculpture, No Flusher pages",
+          "url": "https://www.powerpyx.com/?p=374044",
+          "note": "Read Nov 20 evening. Numbers: L5, L6, L11, L17, L18, L21, L22; C11, C29; S7, S16, S19, S20, S22, S23; NF1."
+        },
+        {
+          "label": "Push Square: WAiNK landmark, curiosity, sculpture, No Flusher pages",
+          "url": "https://www.pushsquare.com/guides/gta-6-waink-landmark-locations",
+          "note": "Modified Nov 19, 2026. Unnumbered extras used. Fingerpost (Permit Keys, Southwind) left out: no county on our list."
         }
       ]
     },
@@ -216,6 +1010,13 @@
           "county": "mariana-county",
           "area": "Watson Bay",
           "where": "On the east edge of Watson Bay, at the southwest corner of a motel building with rubbish piled all round it."
+        },
+        {
+          "id": "laperle-c-building",
+          "name": "C-shaped building",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "Northwest of the apartment block where Tyrone lives, on the ground in the middle of the C-shaped building."
         }
       ],
       "sources": [
@@ -223,6 +1024,11 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/gta-6-all-cocaine-flamingo-locations/",
           "note": "Work in progress, 8 of 125, modified Nov 18, 2026. Mariana County: six at Belpoint (docks, burning yard houses, beach container), one at a motel on the east edge of Watson Bay."
+        },
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/?p=373486",
+          "note": "#8 La Perle C-shaped building. Read Nov 20 evening."
         }
       ]
     },
@@ -270,6 +1076,126 @@
           "area": "Capri",
           "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia, and you can play both from Coffee Break in Chapter 2.",
           "n": 3
+        },
+        {
+          "id": "swamp-1",
+          "name": "Swamp",
+          "county": "kelly-county",
+          "area": "Buckskin Swamp",
+          "where": "On the wooden dock at the foot of the big lookout tower in the middle of the swamp.",
+          "n": 4
+        },
+        {
+          "id": "swamp-2",
+          "name": "Swamp, second time",
+          "county": "kelly-county",
+          "area": "Buckskin Swamp",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 5
+        },
+        {
+          "id": "worn-stone-1",
+          "name": "Worn Stone",
+          "county": "kelly-county",
+          "area": "Camp Moonflower",
+          "where": "On the bank of the Emerald River at Camp Moonflower.",
+          "n": 6
+        },
+        {
+          "id": "worn-stone-2",
+          "name": "Worn Stone, second time",
+          "county": "kelly-county",
+          "area": "Camp Moonflower",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 7
+        },
+        {
+          "id": "red-rocks-1",
+          "name": "Red Rocks",
+          "county": "kelly-county",
+          "area": "Manifest Canyon",
+          "where": "Close to where the railway crosses the highway.",
+          "n": 8
+        },
+        {
+          "id": "red-rocks-2",
+          "name": "Red Rocks, second time",
+          "county": "kelly-county",
+          "area": "Manifest Canyon",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 9
+        },
+        {
+          "id": "water-wheel-1",
+          "name": "Water Wheel",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "where": "South of Moreau, by the waterwheel of the ruined Lawton Co. paper mill, south of the MacAlister Gold Mine.",
+          "n": 10
+        },
+        {
+          "id": "water-wheel-2",
+          "name": "Water Wheel, second time",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 11
+        },
+        {
+          "id": "jutting-cliff-1",
+          "name": "Jutting Cliff",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "At a tower that looks down over a mine.",
+          "n": 12
+        },
+        {
+          "id": "jutting-cliff-2",
+          "name": "Jutting Cliff, second time",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 13
+        },
+        {
+          "id": "waterfall-1",
+          "name": "Waterfall",
+          "county": "lummox-county",
+          "area": "Tallaloko",
+          "where": "Northwest of Tallaloko, beside a waterfall on a river running east, south of the railway.",
+          "n": 14
+        },
+        {
+          "id": "waterfall-2",
+          "name": "Waterfall, second time",
+          "county": "lummox-county",
+          "area": "Tallaloko",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 15
+        },
+        {
+          "id": "seaside-1",
+          "name": "Seaside",
+          "county": "leonard-county",
+          "area": "Waning Sands",
+          "where": "On a rocky outcrop partway up the beach, east of Waning Sands.",
+          "n": 16
+        },
+        {
+          "id": "seaside-2",
+          "name": "Seaside, second time",
+          "county": "leonard-county",
+          "area": "Waning Sands",
+          "where": "Come back with the other character. Each spot counts once for Jason and once for Lucia.",
+          "n": 17
+        },
+        {
+          "id": "ascent",
+          "name": "Ascent Mountain",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "In the stone circle on the peak of Mount Kalaga. It only shows on the map once every other meditation is done, and needs both characters.",
+          "n": 18
         }
       ],
       "sources": [
@@ -277,6 +1203,11 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
           "note": "All 10 spots / 18 meditations, modified Nov 19, 2026. Spot 1 Jason's House (Lucia, Chapter 1 only, trophy count unconfirmed); spot 2 Smooth Sand, sandbar off west Capri (meditations 2-3). Each spot counts for both characters, both available after Coffee Break."
+        },
+        {
+          "label": "PowerPyx + Push Square",
+          "url": "https://www.pushsquare.com/guides/gta-6-meditation-locations",
+          "note": "All 10 spots from PowerPyx (modified Nov 19); Push Square agrees on the six it lists. Waterfall: PowerPyx NW of Tallaloko, Push Square East Lummox, east of Killtelligence Provisions."
         }
       ]
     },
@@ -290,16 +1221,64 @@
       "counter": "explore:underwater",
       "counterLabel": "Underwater discoveries",
       "how": [
-        "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. Discoveries include wrecks and other sights under water.",
-        "The 100% checklist wants every one of them.",
+        "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. The first wrecks are all off Key Lento.",
+        "Pick up the treasure on a wreck for Kenton. The 100% checklist wants every discovery.",
         "Track them under Progress, Collections, Exploration, Underwater Discoveries."
       ],
-      "items": [],
+      "items": [
+        {
+          "id": "ocio",
+          "name": "Nuestra Señora Del Ocio",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "Off Key Lento. You find it in Island Dreams, Kenton's first dive. Clear it by picking up its 10 doubloons."
+        },
+        {
+          "id": "noche",
+          "name": "Nuestra Señora De La Noche",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "South of Key Lento. Seven treasures for Kenton."
+        },
+        {
+          "id": "etica-laxa",
+          "name": "Nuestra Señora De La Ética Laxa",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "South of Key Lento and Abismo Key. Five treasures."
+        },
+        {
+          "id": "cinco-torres",
+          "name": "Urca De Cinco Torres",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "Off the southeast coast of Key Lento, by a group of green islands. Six treasures."
+        },
+        {
+          "id": "lujuriosa",
+          "name": "Nuestra Señora Lujuriosa",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "By the same green islands off southeast Key Lento. Six treasures."
+        },
+        {
+          "id": "santa-sierra",
+          "name": "Urca De Santa Sierra",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "East of Key Lento. Six treasures."
+        }
+      ],
       "sources": [
         {
           "label": "game-checklists.com / Output Lag / gmtreks",
           "url": "https://game-checklists.com/gta6/underwater-discoveries-checklist/",
           "note": "Read Nov 20, 2026. They agree on Keys wrecks (Ocio, Etica Laxa, Noche) but disagree on what makes up the 33 and how wrecks count. Left out."
+        },
+        {
+          "label": "Push Square: underwater discoveries and Kenton's treasures",
+          "url": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures",
+          "note": "Trusted source, 6 of 33 wrecks, published Nov 18, 2026. Replaces the Nov 20 decision to leave them out."
         }
       ]
     },
@@ -397,6 +1376,158 @@
           "where": "A Book Swap box in Capri.",
           "n": 7,
           "set": "Book Swaps"
+        },
+        {
+          "id": "help-me",
+          "name": "Help Me Help You Help Me",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "On the table in the Starlet Motel reception.",
+          "n": 7,
+          "missable": "Chapter 2 only"
+        },
+        {
+          "id": "wizard-wang",
+          "name": "Wizard Wang",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "On a table in the Starlet Motel cafeteria.",
+          "n": 8,
+          "missable": "Chapter 2 only"
+        },
+        {
+          "id": "dicked-down",
+          "name": "Dicked Down Deep in Space",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In a trailer at Lost Vista, the robbery spot northwest of the Port Gellhorn Station garage.",
+          "n": 9
+        },
+        {
+          "id": "passion-bc",
+          "name": "Passion B.C.",
+          "county": "vice-city",
+          "area": "Bayside",
+          "where": "Bayside apartment: next to the bathtub.",
+          "n": 10,
+          "missable": "Chapter 3 only"
+        },
+        {
+          "id": "two-pricks",
+          "name": "Two Pricks in the Bush",
+          "county": "vice-city",
+          "area": "Bayside",
+          "where": "Bayside apartment: on the table in front of the TV.",
+          "n": 11,
+          "missable": "Chapter 3 only"
+        },
+        {
+          "id": "remote-strike",
+          "name": "Remote Strike",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "In the trauma room area of Ajax Gym. Lucia can get in from Chapter 4.",
+          "n": 12
+        },
+        {
+          "id": "foiled",
+          "name": "Foiled",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "On a bed in the garage you can break into on the northern row of houses, west of Andy's house.",
+          "n": 13
+        },
+        {
+          "id": "johnsons-1",
+          "name": "The Johnsons (Issue 1)",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "Inside Alpha Gas, northeast of the Starlet Motel.",
+          "n": 14
+        },
+        {
+          "id": "cowboys-prayer",
+          "name": "The Cowboy's Prayer is to Die Young",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "where": "In the unmarked building north of Taco Bomb in West Kalaga, on the table in the main room.",
+          "n": 15
+        },
+        {
+          "id": "ratface-1",
+          "name": "Ratface (Issue 1)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "On the magazine rack in the Xero Food Mart.",
+          "n": 16
+        },
+        {
+          "id": "special-friends",
+          "name": "Special Friends Force (Issue 1)",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "On the same rack in the Xero Food Mart.",
+          "n": 17
+        },
+        {
+          "id": "lights-camera",
+          "name": "Lights, Camera, Affirmative Action",
+          "county": "vice-city",
+          "area": "Tequesta Retreat",
+          "where": "In the penthouse the story takes you to in Chapter 5, on a table on the top level.",
+          "n": 18
+        },
+        {
+          "id": "high-rollerz",
+          "name": "High Rollerz (Issue 37)",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "Jack of Hearts club: in the upstairs hallway, west of the recording booths.",
+          "n": 19
+        },
+        {
+          "id": "bombazo",
+          "name": "¡BOMBAZO! (Issue 2342)",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "On the magazine rack in Ron Stop'n'Snack.",
+          "n": 20
+        },
+        {
+          "id": "swap-3",
+          "name": "Thighlander: A Tale of True Scotsmen",
+          "county": "vice-dale-county",
+          "area": "Southside",
+          "where": "A Book Swap box in Southside.",
+          "n": 3,
+          "set": "Book Swaps"
+        },
+        {
+          "id": "swap-4",
+          "name": "Goodnight, Dollface, Goodnight",
+          "county": "vice-dale-county",
+          "area": "Vespucci Island",
+          "where": "A Book Swap box on Vespucci Island.",
+          "n": 4,
+          "set": "Book Swaps"
+        },
+        {
+          "id": "swap-5",
+          "name": "Outback Gas Junkie",
+          "county": "leonard-county",
+          "area": "Waning Sands",
+          "where": "A Book Swap box in Waning Sands.",
+          "n": 5,
+          "set": "Book Swaps"
+        },
+        {
+          "id": "swap-6",
+          "name": "Humanity vs Space",
+          "county": "kelly-county",
+          "area": "Ambrosia",
+          "where": "A Book Swap box in Ambrosia.",
+          "n": 6,
+          "set": "Book Swaps"
         }
       ],
       "sources": [
@@ -409,6 +1540,11 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/gta-6-all-book-swap-locations/",
           "note": "7 Book Swaps, modified Nov 20, 2026: 1 Watson Bay, 2 Key Lento, 7 Capri (Mariana County); 3 Southside, 4 Vespucci Island, 5 Waning Sands, 6 Ambrosia. 30 of 34 combined for 100%."
+        },
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/?p=374112",
+          "note": "1-20 read Nov 20 evening; book swaps 1-7 (modified Nov 20)."
         }
       ]
     },
@@ -440,7 +1576,150 @@
         "Scan the right posters with WAiNK to add a playlist.",
         "Track them under Progress, Collections, Exploration, Unique Playlists."
       ],
-      "items": []
+      "items": [
+        {
+          "id": "zola",
+          "name": "Aunt Zola's Soul Food",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "Scan the poster by the cashier.",
+          "set": "First playlist (4 posters)"
+        },
+        {
+          "id": "ponya",
+          "name": "TWA Ponya Tattoo",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "Scan the poster on the table beside the entrance.",
+          "set": "First playlist (4 posters)"
+        },
+        {
+          "id": "drip-drops",
+          "name": "Drip Drops",
+          "county": "vice-city",
+          "area": "La Perle",
+          "where": "Scan the poster on the counter next to the clerk.",
+          "set": "First playlist (4 posters)"
+        },
+        {
+          "id": "jack-hearts",
+          "name": "Jack of Hearts club",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "Upstairs, in the eastern recording booth: scan the poster on a crate.",
+          "set": "First playlist (4 posters)"
+        },
+        {
+          "id": "vault",
+          "name": "The Vault nightclub",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "Scan the red poster just inside the entrance.",
+          "set": "Second playlist (1 poster)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "PowerPyx",
+          "url": "https://www.powerpyx.com/?p=373924",
+          "note": "5 posters, read Nov 20, 2026."
+        }
+      ]
+    },
+    {
+      "slug": "basketball-hoops",
+      "name": "Basketball Hoops",
+      "desc": "Hoops on courts, driveways and garages all over Leonida. Score one basket at each.",
+      "total": 100,
+      "unit": "hoops",
+      "need": "90",
+      "counter": "activities:hoops",
+      "counterLabel": "Basketball hoops scored",
+      "how": [
+        "Pick up the ball and sink one basket. That logs the hoop.",
+        "Every hoop counts once, whoever shoots. Scoring also trains Focus.",
+        "Shooting hoops is also the way into the [basketball challenges](/guides/challenges/).",
+        "Track them under Progress, Exploration, Basketball Hoops."
+      ],
+      "items": [
+        {
+          "id": "kl-north",
+          "name": "Northeast house",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In front of the northeasternmost house in Key Lento, by Ocean Sound Rd where it heads north to Corsair Key."
+        },
+        {
+          "id": "kl-dolphin",
+          "name": "Dolphin Dr garage",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Above the garage of a smart house on Dolphin Dr."
+        },
+        {
+          "id": "kl-jason",
+          "name": "Jason's stairs",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the bottom of the stairs up to Jason's house on Peach Palm Dr."
+        },
+        {
+          "id": "kl-bend",
+          "name": "Peach Palm bend",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Above the garage of the house on the bend where Peach Palm Dr meets Scuttlebutt Dr."
+        },
+        {
+          "id": "kl-sunset",
+          "name": "North end of Sunset Dr",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Next to the awning of the house at the northern tip of Sunset Dr."
+        },
+        {
+          "id": "kl-surfside-court",
+          "name": "Surfside Dr court",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In a fenced court on Surfside Dr, west of the Crastenburg Hotel's poolside bar."
+        },
+        {
+          "id": "kl-red-lotus",
+          "name": "Behind The Red Lotus",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Behind The Red Lotus on Surfside Dr, next to Barnacle Beauties."
+        },
+        {
+          "id": "pg-trailers",
+          "name": "Trailer park",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In the trailer park just north of Sarena's bargain store."
+        },
+        {
+          "id": "avery-allen",
+          "name": "Avery Allen & Co. Aviation",
+          "county": "kelly-county",
+          "area": "North Kelly County",
+          "where": "In front of the big windows of the main building, east of Manifest Canyon."
+        },
+        {
+          "id": "peacock-mansion",
+          "name": "Palladia Ln mansion",
+          "county": "vice-city",
+          "area": "Peacock Estates",
+          "where": "Behind the mansion on Palladia Ln, the house where Randy's Piccia Furia is parked."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Push Square: GTA 6 basketball hoop locations",
+          "url": "https://www.pushsquare.com/guides/gta-6-basketball-hoop-locations",
+          "note": "WIP, 10 of 100, modified Nov 19, 2026. Hoop logged after one basket; trains Focus. PowerPyx collectible database (modified Nov 20) confirms 100 hoops, no locations."
+        }
+      ]
     }
   ]
 }
