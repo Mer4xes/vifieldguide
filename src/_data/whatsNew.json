@@ -1,0 +1,43 @@
+[
+  {
+    "date": "2026-11-20",
+    "tag": "Walkthrough",
+    "title": "Chapter 3 is complete",
+    "text": "All 26 Chapter 3 missions are written up step by step, from the first day in Vice City to the chapter finale. That makes 61 missions so far.",
+    "cta": "Open the walkthrough",
+    "url": "/walkthrough/#chapter-3",
+    "img": "/assets/img/art/jl-robbery.webp"
+  },
+  {
+    "date": "2026-11-20",
+    "tag": "New guide",
+    "title": "Money guide",
+    "text": "What pays best in each chapter, and how to keep your cash.",
+    "url": "/guides/money/",
+    "img": "/assets/img/gal/vice-city-09.webp"
+  },
+  {
+    "date": "2026-11-20",
+    "tag": "New guide",
+    "title": "Story choices",
+    "text": "What each option leads to, and which ones cost you rewards.",
+    "url": "/guides/story-choices/",
+    "img": "/assets/img/art/jl-beach.webp"
+  },
+  {
+    "date": "2026-11-19",
+    "tag": "New guide",
+    "title": "100% route",
+    "text": "One ordered checklist: missions, side jobs and clean-up.",
+    "url": "/guides/100-percent-route/",
+    "img": "/assets/img/misc/wl-reef.webp"
+  },
+  {
+    "date": "2026-11-19",
+    "tag": "New guide",
+    "title": "All 80 challenges",
+    "text": "Every challenge and what it asks for, with a tracker.",
+    "url": "/guides/challenges/",
+    "img": "/assets/img/misc/act-bikes.webp"
+  }
+]

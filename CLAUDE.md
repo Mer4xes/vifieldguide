@@ -20,6 +20,7 @@ Unofficial, non-commercial GTA 6 guide owned by Hauk. Claude writes and publishe
 | Regions | `src/_data/regions.json` (details, gallery) |
 | Characters | `src/_data/cast.json` |
 | Videos | `src/_data/videos.json` |
+| Home page "What's new" | `src/_data/whatsNew.json` (newest first; the home page shows the first 5: one large card, four small). Fields: date, tag, title, text (one short line; no mission names or story details), url, img (an official image already in `src/assets/img/`, 16:9), `cta` on the first entry. Add an entry at the top when a run ships something a visitor would notice (a finished chapter, a new guide or tool), not for every batch of missions; update the lead entry instead when a chapter moves on. Keep about 8 entries. |
 
 Files marked `"sample": true` (and sample mission files) are fictional templates that are never published. When real content replaces a section, remove `"sample": true` and the fictional entries, or delete the sample mission files.
 

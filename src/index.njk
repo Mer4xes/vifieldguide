@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: The VI Field Guide
 seoTitle: "GTA 6 Walkthrough and Guide: Missions, Trophies, Collectibles | The VI Field Guide"
 description: "Unofficial GTA 6 walkthrough and 100% guide. Story missions step by step, trophies, collectibles, vehicles and weapons. Spoiler-safe, with progress tracking."
-updated: 2026-11-17
+updated: 2026-11-20
 ---
 {%- set vehicles = db.kinds[0] %}
 {%- set weapons = db.kinds[1] %}
@@ -44,6 +44,32 @@ updated: 2026-11-17
   </div>
   <span class="credit">Image: Rockstar Games</span>
 </header>
+
+<section class="sec wn-sec" id="whats-new">
+  <div class="wrap">
+    <div class="wn-head">
+      <div>
+        <p class="kicker">Latest</p>
+        <h2 class="sec-h">What's new</h2>
+      </div>
+      <a class="wn-all" href="#recently-updated">All recent updates</a>
+    </div>
+    <div class="wn">
+      {%- for w in whatsNew.slice(0, 5) %}
+      <a class="wn-card{% if loop.first %} wn-lead{% endif %}" href="{{ w.url }}">
+        <img src="{{ w.img }}" alt="" width="800" height="450"{% if not loop.first %} loading="lazy"{% endif %}>
+        <div class="wn-body">
+          <p class="wn-meta"><span class="wn-tag">{{ w.tag }}</span><time datetime="{{ w.date }}">{{ w.date | niceDate }}</time></p>
+          <h3>{{ w.title }}</h3>
+          <p class="wn-text">{{ w.text }}</p>
+          {%- if loop.first and w.cta %}<span class="btn primary wn-cta">{{ w.cta }}</span>{% endif %}
+        </div>
+      </a>
+      {%- endfor %}
+    </div>
+    <p class="wn-credit">Images: Rockstar Games</p>
+  </div>
+</section>
 
 <section class="sec">
   <div class="wrap">
@@ -129,11 +155,11 @@ updated: 2026-11-17
   </div>
 </section>
 
-{%- set latest = collections.all | recent(5) %}
+{%- set latest = collections.all | recent(8) %}
 {%- if latest.length %}
-<section class="sec">
+<section class="sec" id="recently-updated">
   <div class="wrap">
-    <p class="kicker">Latest</p>
+    <p class="kicker">Page by page</p>
     <h2 class="sec-h">Recently updated</h2>
     <ul class="updates">
       {%- for p in latest %}
