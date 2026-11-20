@@ -1,10 +1,18 @@
 [
   {
     "date": "2026-11-20",
+    "tag": "New guide",
+    "title": "Everything you can miss",
+    "text": "Every missable item, job and collectible, chapter by chapter, with the last safe mission.",
+    "cta": "See the missables",
+    "url": "/guides/missables/",
+    "img": "/assets/img/art/jl-motel.webp"
+  },
+  {
+    "date": "2026-11-20",
     "tag": "Walkthrough",
     "title": "Chapter 4 is under way",
     "text": "Chapters 1 to 3 are done and Chapter 4 is well under way. 70 missions written up so far.",
-    "cta": "Open the walkthrough",
     "url": "/walkthrough/#chapter-4",
     "img": "/assets/img/art/jl-rooftop.webp"
   },

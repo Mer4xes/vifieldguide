@@ -109,6 +109,17 @@ export default function (eleventyConfig) {
     }
     return null;
   });
+  // /guides/missables/: the "limited" route items of Chapters 1-4, with each chapter's point-of-no-return mission.
+  eleventyConfig.addFilter("missablesByChapter", (route, story, skip = []) => {
+    const parts = ((route && route.parts) || []).slice(0, 4);
+    return parts.map((p, i) => {
+      const ch = ((story && story.chapters) || [])[i] || { missions: [] };
+      const dl = (ch.missions || []).find((m) => m.warn && !m.warn.k) || null;
+      const items = [];
+      for (const g of p.groups || []) for (const it of g.items || []) if (it.tag === "limited" && !skip.includes(it.k)) items.push(it);
+      return { id: p.id, title: p.title, dl, items, n: items.length };
+    });
+  });
   eleventyConfig.addFilter("routeChallenge", (challenges, key) => {
     const [cat, id] = String(key).split(":");
     const c = ((challenges && challenges.categories) || []).find((x) => x.id === cat);

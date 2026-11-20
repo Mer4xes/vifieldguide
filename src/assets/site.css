@@ -1009,3 +1009,12 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .rarea-kind{font-family:var(--mono);font-size:11px;color:var(--cyan);font-weight:400;letter-spacing:.04em;white-space:nowrap}
 .rarea-more{display:inline-block;margin-top:14px;font-weight:700;font-size:14px}
 @media (max-width:520px){.rarea details>summary{grid-template-columns:minmax(0,1fr) auto;padding:11px 12px}.rarea details>summary .rt{display:none}.rarea-body{padding:0 10px 12px}.rarea-kind{white-space:normal}}
+
+/* Missables guide (/guides/missables/) */
+.miss-prog{margin:22px 0 8px}
+.miss-dl{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin:4px 0 14px;font-weight:600}
+.miss-dl .lab{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
+.miss-dl .mno{font-family:var(--mono);font-size:12px;color:var(--faint)}
+.miss-dl small{flex-basis:100%;font-weight:400;font-size:14px;color:var(--muted)}
+.miss-cards{margin-top:16px}
+.miss-cards .card p{margin-top:8px}
