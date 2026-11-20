@@ -447,16 +447,26 @@
      "no": 58
     },
     {
-     "t": "Bricked Up",
-     "no": 59
+     "t": "Hidden Charges",
+     "no": 59,
+     "carry": [
+      {
+       "t": "Every charge you plant adds time to The Cartel Heist",
+       "u": "/walkthrough/the-cartel-heist/#step-1"
+      }
+     ]
     },
     {
-     "t": "Hidden Charges",
+     "t": "Bricked Up",
      "no": 60
     },
     {
      "t": "The Cartel Heist",
-     "no": 61
+     "no": 61,
+     "warn": {
+      "t": "Last mission of Chapter 3: save and tidy up first",
+      "u": "/walkthrough/the-cartel-heist/#before-you-start"
+     }
     }
    ]
   },

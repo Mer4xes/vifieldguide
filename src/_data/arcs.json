@@ -1,0 +1,15 @@
+{
+  "cartel-heist": {
+    "title": "The Cartel Heist",
+    "lede": "Seven missions lead up to the bank job that closes Chapter 3, and some of what you do in the build-up shows on the day.",
+    "missions": [
+      { "slug": "sinfrontera-national-bank", "does": "Look over the bank's security" },
+      { "slug": "security-expert", "does": "Bring Nicole in for the vault" },
+      { "slug": "company-property", "does": "Every crate kept becomes a charge", "key": true },
+      { "slug": "the-missing-link", "does": "Get Monty to talk" },
+      { "slug": "safe-word", "does": "Practise the safe cracking", "key": true },
+      { "slug": "hidden-charges", "does": "Every charge planted adds time", "key": true },
+      { "slug": "the-cartel-heist", "does": "The heist itself" }
+    ]
+  }
+}

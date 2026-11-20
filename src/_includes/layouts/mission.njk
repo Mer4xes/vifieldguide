@@ -73,6 +73,31 @@ crumbParent:
 </section>
 {%- endif %}
 
+{%- set arcHit = arcs | arcFor(slug) %}
+{%- if arcHit %}
+<section class="sec sec-tight" id="arc">
+  <div class="wrap">
+    <div class="arc">
+      <p class="arc-k">Part {{ arcHit.pos }} of {{ arcHit.of }} · {{ arcHit.arc.title }}</p>
+      <p class="arc-lede">{{ arcHit.arc.lede }}</p>
+      <ol class="arc-list" style="--n:{{ arcHit.of }}">
+        {%- for a in arcHit.arc.missions %}
+        {%- set ap = (collections.missions | where("data.slug", a.slug))[0] %}
+        <li class="arc-step{% if a.slug == slug %} is-here{% endif %}{% if a.key %} is-key{% endif %}" data-track-row>
+          <input class="cb" type="checkbox" data-track="mission:{{ a.slug }}" aria-label="Mark {{ ap.data.title if ap else a.slug }} complete">
+          <span class="arc-body">
+            <span class="arc-no">{% if ap %}{{ ap.data.order | pad }}{% endif %}{% if a.slug == slug %} · You’re here{% elif a.key %} · Key prep{% endif %}</span>
+            {%- if ap and a.slug != slug %}<a class="arc-t" href="{{ ap.url }}">{{ ap.data.title }}</a>{% else %}<span class="arc-t">{{ ap.data.title if ap else a.slug }}</span>{% endif %}
+            <span class="arc-d">{{ a.does }}</span>
+          </span>
+        </li>
+        {%- endfor %}
+      </ol>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
 {%- if objectives and objectives.length %}
 <section class="sec" id="objectives">
   <div class="wrap">

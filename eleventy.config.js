@@ -180,6 +180,14 @@ export default function (eleventyConfig) {
     }
     return null;
   });
+  // The multi-mission arc (src/_data/arcs.json) a mission belongs to, if any.
+  eleventyConfig.addFilter("arcFor", (arcs, slug) => {
+    for (const [id, arc] of Object.entries(arcs || {})) {
+      const i = (arc.missions || []).findIndex((m) => m.slug === slug);
+      if (i >= 0) return { id, arc, pos: i + 1, of: arc.missions.length };
+    }
+    return null;
+  });
   // How many missions in a chapter of storyMissions have a written guide.
   eleventyConfig.addFilter("guidesIn", (list, missions) => {
     const slugify = eleventyConfig.getFilter("slugify");
