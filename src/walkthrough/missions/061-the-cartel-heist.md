@@ -120,8 +120,8 @@ A helicopter follows. Fire a grenade at it when it hangs right behind the bus, o
 
 Jason, in the armoured truck, has to catch up. Ram police cars out of the way, pull up along the left side of the bus and jump across. Then drive the bus along the freeway, keeping left when Raul tells you to.
 
-After the final cutscene you can carry on in free roam or go straight to **Ocean Beach**, the first mission of Chapter 4. The heist pays **$120,000** and earns the [Break the Bank](/trophies/#break-the-bank) trophy.
+After the final cutscene you can carry on in free roam or go straight to [Ocean Beach](/walkthrough/ocean-beach/), the first mission of Chapter 4. The heist pays **$120,000** and earns the [Break the Bank](/trophies/#break-the-bank) trophy.
 
-> **Note:** This is the last mission of Chapter 3. The chapter's story trophy is [Vice City, Baby!](/trophies/#vice-city-baby).
+> **Note:** This is the last mission of Chapter 3. The chapter's story trophy, [Vice City, Baby!](/trophies/#vice-city-baby), pops a little later, once Ocean Beach and [Another Life](/walkthrough/another-life/) are done.
 
 See the [walkthrough list](/walkthrough/#chapter-4) for Chapter 4.

@@ -475,15 +475,37 @@
    "missions": [
     {
      "t": "Ocean Beach",
-     "no": 62
+     "no": 62,
+     "opens": [
+      {
+       "t": "Room 701 at the Y Hotel, the new base"
+      },
+      {
+       "t": "New outfits in the suite wardrobe"
+      }
+     ]
     },
     {
      "t": "Another Life",
-     "no": 63
+     "no": 63,
+     "opens": [
+      {
+       "t": "Eddie Acosta's party (met in the pool scene)",
+       "u": "/guides/side-contacts/#eddie"
+      }
+     ]
     },
     {
      "t": "Company Cars",
-     "no": 64
+     "no": 64,
+     "opens": [
+      {
+       "t": "A new car each for Jason and Lucia"
+      },
+      {
+       "t": "Y Hotel car service, a free taxi"
+      }
+     ]
     },
     {
      "t": "Lawyer Up",

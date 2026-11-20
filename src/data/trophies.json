@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -84,9 +84,9 @@
     "story"
    ],
    "hidden": true,
-   "how": "Story trophy for finishing Chapter 3.",
-   "link": "/walkthrough/#chapter-3",
-   "linkLabel": "Chapter 3 missions"
+   "how": "Story trophy for Chapter 3. It pops at the start of Chapter 4, once Ocean Beach and Another Life are done.",
+   "link": "/walkthrough/another-life/",
+   "linkLabel": "Another Life walkthrough"
   },
   {
    "id": "top-of-the-world-ma",
@@ -498,7 +498,8 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Steal one of the big passenger jets parked at a boarding bridge at VCIA; planes standing out on the airfield don't count. The jet at gates E3/E4 is the easiest: drive through the airfield fence, take the stairs beside the bridge, get into the cockpit, reverse onto the runway and take off. It pops once you are roughly a kilometre from the airport."
   },
   {
    "id": "challenging-tank",
@@ -507,7 +508,8 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Tanks stand in the south of Mile Zero Air Station, the island base at the far south-west of Mariana County. Get in through the gate (or the stunt jump by the south-east entrance), climb into a tank and shoot a few soldiers until it pops."
   },
   {
    "id": "sneakthief",
@@ -581,7 +583,8 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Buy an Apple Martini at the Ocean View Rooftop Bar on Ocean Beach and drink it while standing at the bar."
   },
   {
    "id": "capital-offense",
@@ -591,7 +594,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Only the blue Banshee in the vehicle showroom in the south of Vice City counts. You need the key cloner, so it opens up after Steal the Zorrusso for Randy in Chapter 3. Clone its key, drive straight out through the showroom window and keep going down the street: it pops a moment later.",
+   "link": "/walkthrough/steal-the-zorrusso-for-randy/",
+   "linkLabel": "How to get the key cloner"
   },
   {
    "id": "lets-go-bowling",
@@ -614,7 +620,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Max out Strength for Jason and Lucia at the same time (check it under the touchpad menu, Jason & Lucia). Buy a gym membership and train together: while one works out, the other trains too, so it goes twice as fast. Possible once you can switch characters after Coffee Break in Chapter 2.",
+   "link": "/walkthrough/coffee-break/",
+   "linkLabel": "Coffee Break walkthrough"
   },
   {
    "id": "actions-speak-louder",
@@ -648,7 +657,8 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "Go alone to the road north-west of the Starlet Motel in Kelly County after 2 AM. Look for a car with blinking lights at the roadside (it is random: drive off and come back if it isn't there), follow the path into the woods to the blue light, then help the woman who is dropped off and take her back to her car."
   },
   {
    "id": "ten-pin",
@@ -658,7 +668,8 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "On any bike, kick 10 pedestrians within 60 seconds (Square / X while riding). Busy streets in Vice City or along Ocean Beach make it quick."
   },
   {
    "id": "dime-on-the-dollar",
@@ -679,7 +690,10 @@
    "grade": "bronze",
    "tags": [
     "open-world"
-   ]
+   ],
+   "how": "Spending adds up across every kind of shop. Guns, car mods and tattoos cost the most, so they get you to $100,000 fastest.",
+   "link": "/guides/money/",
+   "linkLabel": "Money guide"
   },
   {
    "id": "little-boxes",
@@ -706,6 +720,13 @@
    "how": "Register 10 vehicles in the Scooter Bros app.",
    "link": "/guides/activities-and-collectibles/#garages",
    "linkLabel": "Garages and Scooter Bros"
+  }
+ ],
+ "howSources": [
+  {
+   "label": "PowerPyx trophy guide & roadmap",
+   "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+   "note": "Read Nov 20, 2026 (verbatim part). Methods for Catch Me If You Can, Challenging Tank, In The Beginning, Capital Offense, Personal Best, The Truth Is Out There, Ten Pin, Treat Yo Self; Vice City, Baby! unlocks after Ocean Beach and Another Life. Bad Luck, I Guess is unknown there (left out)."
   }
  ]
 }

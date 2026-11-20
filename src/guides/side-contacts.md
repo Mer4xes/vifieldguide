@@ -164,7 +164,7 @@ Tyrone buys drugs, and his strand is about shutting down an operation called Kit
 
 <h2 id="eddie">Eddie Acosta's party</h2>
 
-Eddie is a one-off. You first run into him at the Y Hotel in Ocean Beach during a Chapter 4 story mission, and a few in-game days later he texts an invite to a party in Heathcliff Heights. Jason or Lucia can go, but on your own, not as a pair. He has no further jobs, so he doesn't count toward **Strangers & Freaks**.
+Eddie is a one-off. You first run into him at the Y Hotel pool in Chapter 4, in the [pool scene straight after Another Life](/walkthrough/another-life/#step-6), and a few in-game days later he texts an invite to a party in Heathcliff Heights. Jason or Lucia can go, but on your own, not as a pair. He has no further jobs, so he doesn't count toward **Strangers & Freaks**.
 
 <ol class="strand">
 <li><div class="strand-h">Attend Eddie Acosta's Party <span class="chip plain">Chapter 4</span></div><span class="strand-pay">$0, or −$50,000</span><p>Head to the marker in the middle of Vice City. Walking into the lobby calls Eddie; wait for him by the elevator, then head up to the roof. What happens up there decides whether this job costs you money.</p>
