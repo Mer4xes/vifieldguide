@@ -78,7 +78,13 @@
     },
     {
      "t": "Coming Home",
-     "no": 11
+     "no": 11,
+     "carry": [
+      {
+       "t": "The necklace comes back in Chapter 2",
+       "u": "/walkthrough/coming-home/#choices"
+      }
+     ]
     },
     {
      "t": "Buck Me",
@@ -414,7 +420,13 @@
     },
     {
      "t": "Company Property",
-     "no": 55
+     "no": 55,
+     "carry": [
+      {
+       "t": "Crates you keep become explosives for Hidden Charges",
+       "u": "/walkthrough/company-property/#step-7"
+      }
+     ]
     },
     {
      "t": "The Missing Link",
@@ -422,7 +434,13 @@
     },
     {
      "t": "Safe Word",
-     "no": 57
+     "no": 57,
+     "carry": [
+      {
+       "t": "Same safe cracking as The Cartel Heist",
+       "u": "/walkthrough/safe-word/#step-10"
+      }
+     ]
     },
     {
      "t": "Cooties",

@@ -8,7 +8,7 @@ summary: The decisions the story hands you, mission by mission, with what each o
 order: 5
 glow: violet
 spoilerFree: true
-updated: 2026-11-19
+updated: 2026-11-20
 tldr:
   - "Most choices so far only change **which scenes you see**. Both options finish the mission and pay the same."
   - "A few decide **whether you get the rest of a job**. In [Dubious Provenance](/walkthrough/dubious-provenance/), saying no in Part 1 or 2 closes off the later parts and their payout."
@@ -20,6 +20,8 @@ faq:
     a: "Yes. In Dubious Provenance, if you don't give Halifax the statue and never make the optional call afterwards, Parts 2 and 3 are gone once Chapter 3 ends, along with about $2,500 and a '32 Hustler. It does not block the story or 100% completion."
   - q: "Should you trust Halifax in GTA 6?"
     a: "If you want the whole job, yes. Only trusting him at the motel opens Part 3 of Dubious Provenance, where the cash and the '32 Hustler are."
+  - q: "Should Jason take part further in Safe Word?"
+    a: "There's no need. Saying no has no downside, the mission carries on the same, and it's the choice that keeps Lucia happy."
   - q: "Does it matter if Jason helps in Afternoon Delight?"
     a: "No. Helping is the longer route with more scenes; not helping is quicker with a harder chase. Both end the same way and pay $10,000."
 ---

@@ -144,10 +144,13 @@ crumbParent:
     {%- if rewards and rewards.length %}
     <div class="rewards">{% for r in rewards %}<div class="rw"><div class="k">{{ r.label }}</div><div class="v">{{ r.value }}</div></div>{% endfor %}</div>
     {%- endif %}
-    {%- if se and ((se.m.opens and se.m.opens.length) or se.m.warn) %}
+    {%- if se and ((se.m.opens and se.m.opens.length) or se.m.warn or (se.m.carry and se.m.carry.length)) %}
     <div class="m-opens">
       {%- if se.m.opens and se.m.opens.length %}
       <div class="mopens"><span class="mopens-k">Opens up after this</span>{% for o in se.m.opens %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</div>
+      {%- endif %}
+      {%- if se.m.carry and se.m.carry.length %}
+      <div class="mopens mcarry"><span class="mopens-k">Carries over to later</span>{% for o in se.m.carry %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</div>
       {%- endif %}
       {%- if se.m.warn %}
       <div class="mopens mwarn"><span class="mopens-k">Point of no return</span><a href="{{ se.m.warn.u }}">{{ se.m.warn.t }}</a></div>

@@ -867,3 +867,9 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 .m-opens .mopens{margin:0}
 .pg.soon{border-style:dashed}
 .pg.soon .t{color:var(--muted)}
+
+/* "Carries over": what you do in a mission that matters in a later one */
+.mcarry .mopens-k{color:var(--cyan)}
+.mcarry a{border-color:rgba(39,226,212,.4)!important}
+html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens+.mopens,
+html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens+.mopens+.mopens{filter:blur(6px)}
