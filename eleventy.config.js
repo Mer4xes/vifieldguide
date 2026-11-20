@@ -194,6 +194,33 @@ export default function (eleventyConfig) {
     const have = new Set((missions || []).map((m) => m.data.slug));
     return (list || []).filter((m) => have.has(slugify(m.t))).length;
   });
+  // Every reward row on the mission pages, sorted into kinds, for /guides/mission-rewards/.
+  // Rows that only point onward (Next), cost money or say "None" are left out.
+  const REWARD_KIND = {
+    Weapon: "weapon", Vehicle: "vehicle", Vehicles: "vehicle",
+    Tool: "item", Watch: "item", Outfits: "item", "Garage code": "item",
+    Cash: "cash", Money: "cash", Bank: "unlock",
+    Unlocked: "unlock", "Opens up": "unlock", "Also opens": "unlock", Home: "unlock", "New base": "unlock", Free: "unlock",
+    Bonus: "bonus", Trophy: "trophy",
+  };
+  eleventyConfig.addFilter("rewardRows", (missions) => {
+    const out = [];
+    for (const m of missions || []) {
+      for (const r of m.data.rewards || []) {
+        const kind = REWARD_KIND[r.label];
+        const v = String(r.value || "").trim();
+        if (!kind || !v || /^none\b/i.test(v)) continue;
+        const ch = String(m.data.chapter || "").match(/\d+/);
+        out.push({ kind, label: r.label, value: v, m, ch: ch ? ch[0] : "" });
+      }
+    }
+    return out;
+  });
+  eleventyConfig.addFilter("rewardKinds", (rows) => {
+    const c = {};
+    for (const r of rows || []) c[r.kind] = (c[r.kind] || 0) + 1;
+    return c;
+  });
   // Missions that list `choices` in front matter, grouped by chapter, for /guides/story-choices/.
   eleventyConfig.addFilter("choicesByChapter", (missions) => {
     const out = [];

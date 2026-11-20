@@ -71,7 +71,7 @@ faq:
           {%- endif %}
         </li>
         {%- if m.warn %}
-        <li class="mopens mwarn"><span class="mopens-k">Point of no return</span><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></li>
+        <li class="mopens mwarn"><span class="mopens-k">{{ m.warn.k or "Point of no return" }}</span><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></li>
         {%- endif %}
         {%- if m.carry and m.carry.length %}
         <li class="mopens mcarry"><span class="mopens-k">Carries over</span>{% for o in m.carry %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>

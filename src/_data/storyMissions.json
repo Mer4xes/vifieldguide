@@ -525,7 +525,12 @@
     },
     {
      "t": "Making Gainz",
-     "no": 69
+     "no": 69,
+     "warn": {
+      "k": "Before you start",
+      "t": "Do anything with Jason and Lucia together first",
+      "u": "/walkthrough/making-gainz/#before-you-start"
+     }
     },
     {
      "t": "Watch It",

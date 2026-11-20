@@ -59,7 +59,7 @@ crumbParent:
 <section class="sec sec-tight" id="before-you-start">
   <div class="wrap">
     <div class="pnr">
-      <p class="pnr-k">Point of no return</p>
+      <p class="pnr-k">{{ prepKicker or "Point of no return" }}</p>
       <h2 class="sec-h sm">Do this before you start</h2>
       <p class="lede">{{ prepLede or "Free roam closes around this mission and does not open again until Chapter 2." }} Tick each one off as you go.</p>
       <ul class="track">
@@ -178,7 +178,7 @@ crumbParent:
       <div class="mopens mcarry"><span class="mopens-k">Carries over to later</span>{% for o in se.m.carry %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</div>
       {%- endif %}
       {%- if se.m.warn %}
-      <div class="mopens mwarn"><span class="mopens-k">Point of no return</span><a href="{{ se.m.warn.u }}">{{ se.m.warn.t }}</a></div>
+      <div class="mopens mwarn"><span class="mopens-k">{{ se.m.warn.k or "Point of no return" }}</span><a href="{{ se.m.warn.u }}">{{ se.m.warn.t }}</a></div>
       {%- endif %}
     </div>
     {%- endif %}
