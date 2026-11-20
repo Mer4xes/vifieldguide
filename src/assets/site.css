@@ -984,3 +984,6 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 #area-list{margin-top:22px}
 .area-gaps{margin-top:40px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
 .area-gaps .klist{margin-top:12px}
+
+/* ---------- long mission arcs: wrap onto two rows on desktop ---------- */
+@media(min-width:1000px){.arc-list.is-long{grid-template-columns:repeat(6,minmax(0,1fr))}}
