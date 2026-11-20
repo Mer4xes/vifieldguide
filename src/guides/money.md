@@ -96,7 +96,7 @@ In **Chapter 3** two more outlets open. Cars with a **Standard Tracker** can be 
 
 <h2 id="key-cloner">The key cloner and Randy's wish list</h2>
 
-The **key cloner** opens and starts **keyless** high-end cars, the ones the slim jim can't handle. It unlocks automatically when you start Randy's job **Clonin' Keys, Makin' GS** (Steal the Zorrusso for Randy), about halfway through Chapter 3, and goes straight onto your phone.
+The **key cloner** opens and starts **keyless** high-end cars, the ones the slim jim can't handle. It unlocks automatically when you start Randy's job **Clonin' Keys, Makin' GS** ([Steal the Zorrusso for Randy](/walkthrough/steal-the-zorrusso-for-randy/)), about halfway through Chapter 3, and goes straight onto your phone.
 
 1. Scan the car with **WAiNK** (hold up on the D-pad). It tells you whether the car is keyless.
 2. Stand by one of the car's doors, press interact and pick **Clone Key**.
@@ -112,7 +112,7 @@ From Yasmani's first jobs in Chapter 3 ([Yasmani's jewelry jobs](/guides/side-co
 
 <h2 id="bank-jobs">Small bank jobs</h2>
 
-There are **22 bank jobs**: 14 small banks and 8 large ones with a vault. The **14 small banks** open after the Chapter 3 story mission **Credit Check**, where you meet Raul's crew. The same mission gets you the **Dye Pack Jammer**, which you need before the marked bills from a bank are worth anything to a fence. Bank jobs and the **7 payday loan** jobs both open at this point.
+There are **22 bank jobs**: 14 small banks and 8 large ones with a vault. The **14 small banks** open after the Chapter 3 story mission **[Credit Check](/walkthrough/credit-check/)**, where you meet Raul's crew. The same mission gets you the **Dye Pack Jammer**, which you need before the marked bills from a bank are worth anything to a fence. Bank jobs and the **7 payday loan** jobs both open at this point.
 
 - Banks show as **green icons** once that part of the map is uncovered. To see only them, filter the map by **Robberies → Bank Jobs**: bright green is done, dark green is still to do.
 - Each small bank has a **cash drawer** and a **safe**. Loot both, or the bank doesn't count as complete.

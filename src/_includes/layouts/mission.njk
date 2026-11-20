@@ -11,6 +11,9 @@ crumbParent:
 {%- set nSteps = content | stepCount %}
 {%- set prev = collections.missions | getPreviousCollectionItem %}
 {%- set next = collections.missions | getNextCollectionItem %}
+{%- set se = storyMissions | storyEntry(slug) %}
+{%- set storyNext = se.next if se else null %}
+{%- set storyNextPage = (collections.missions | where("data.slug", storyNext.slug))[0] if storyNext else null %}
 <header class="mast" style="--glow:var(--pink)">
   <div class="wrap">
     <p class="mno">{% if sideJob %}Side job{% else %}Story mission{% endif %} {{ order | pad }}{% if chapter %} · {{ chapter }}{% endif %}</p>
@@ -27,6 +30,7 @@ crumbParent:
       {%- if unlocks %}<div><dt>Unlocks</dt><dd>{{ unlocks }}</dd></div>{% endif %}
       {%- if difficulty %}<div><dt>Difficulty</dt><dd><span class="dots" aria-hidden="true">{% for i in range(0, 3) %}{% if i < difficulty %}●{% else %}○{% endif %}{% endfor %}</span> {{ diffNames[difficulty - 1] }}</dd></div>{% endif %}
       {%- if time %}<div><dt>Time</dt><dd>{{ time }}</dd></div>{% endif %}
+      {%- if se %}<div><dt>Story order</dt><dd><a href="/walkthrough/#chapter-{{ se.chapter }}">{{ se.pos }} of {{ se.of }} in Chapter {{ se.chapter }}</a></dd></div>{% endif %}
     </dl>
     {%- if nSteps %}
     <div class="progress" data-progress="step:{{ slug }}:" data-total="{{ nSteps }}">
@@ -140,6 +144,16 @@ crumbParent:
     {%- if rewards and rewards.length %}
     <div class="rewards">{% for r in rewards %}<div class="rw"><div class="k">{{ r.label }}</div><div class="v">{{ r.value }}</div></div>{% endfor %}</div>
     {%- endif %}
+    {%- if se and ((se.m.opens and se.m.opens.length) or se.m.warn) %}
+    <div class="m-opens">
+      {%- if se.m.opens and se.m.opens.length %}
+      <div class="mopens"><span class="mopens-k">Opens up after this</span>{% for o in se.m.opens %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</div>
+      {%- endif %}
+      {%- if se.m.warn %}
+      <div class="mopens mwarn"><span class="mopens-k">Point of no return</span><a href="{{ se.m.warn.u }}">{{ se.m.warn.t }}</a></div>
+      {%- endif %}
+    </div>
+    {%- endif %}
     <label class="complete" data-track-row>
       <input class="cb" type="checkbox" data-track="mission:{{ slug }}">
       <span><b>Mark mission complete</b><small>Updates your progress on the walkthrough page.</small></span>
@@ -147,6 +161,7 @@ crumbParent:
     <nav class="pager" aria-label="Missions">
       {%- if prev %}<a class="pg prev" href="{{ prev.url }}"><span class="l">Previous mission</span><span class="t">{{ prev.data.order | pad }} · {{ prev.data.title }}</span></a>{% endif %}
       {%- if next %}<a class="pg next" href="{{ next.url }}"><span class="l">Next mission</span><span class="t">{{ next.data.order | pad }} · {{ next.data.title }}</span></a>
+      {%- elif storyNext and not storyNextPage and (storyNext.chapter < 5 or se.chapter == 5) %}<a class="pg next soon" href="/walkthrough/#chapter-{{ storyNext.chapter }}"><span class="l">Next in the story · guide coming</span><span class="t">{{ storyNext.no | pad }} · {{ storyNext.t }}</span></a>
       {%- else %}<a class="pg next" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
     </nav>
     <p class="stamp">{% if verified %}Confirmed in the game.{% else %}Reported: every fact here comes from a trusted walkthrough, or from two that agree.{% endif %} Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>

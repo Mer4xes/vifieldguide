@@ -160,6 +160,26 @@ export default function (eleventyConfig) {
   // Cast member whose short or full name matches a mission giver ("Cal", "Brian").
   eleventyConfig.addFilter("castByName", (cast, name) =>
     (cast || []).find((c) => c.short === name || c.name === name) || null);
+  // Where a mission sits in storyMissions: its entry (opens/warn), its place in
+  // the chapter, and the next mission in story order (written guide or not).
+  eleventyConfig.addFilter("storyEntry", (story, slug) => {
+    const slugify = eleventyConfig.getFilter("slugify");
+    const chapters = (story && story.chapters) || [];
+    for (let ci = 0; ci < chapters.length; ci++) {
+      const list = chapters[ci].missions || [];
+      const i = list.findIndex((m) => slugify(m.t) === slug);
+      if (i < 0) continue;
+      const nextM = list[i + 1] || ((chapters[ci + 1] || {}).missions || [])[0] || null;
+      return {
+        m: list[i],
+        chapter: chapters[ci].n,
+        pos: i + 1,
+        of: list.length,
+        next: nextM ? { t: nextM.t, no: nextM.no, slug: slugify(nextM.t), chapter: list[i + 1] ? chapters[ci].n : chapters[ci + 1].n } : null,
+      };
+    }
+    return null;
+  });
   // How many missions in a chapter of storyMissions have a written guide.
   eleventyConfig.addFilter("guidesIn", (list, missions) => {
     const slugify = eleventyConfig.getFilter("slugify");

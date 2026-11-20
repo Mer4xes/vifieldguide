@@ -156,7 +156,7 @@ Kenton's dives start in [Island Dreams](/walkthrough/island-dreams/). You search
 
 <h2 id="randy">Randy and the key cloner</h2>
 
-Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **Clonin' Keys, Makin' GS**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of 18 high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
+Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **[Clonin' Keys, Makin' GS](/walkthrough/steal-the-zorrusso-for-randy/)**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of 18 high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 

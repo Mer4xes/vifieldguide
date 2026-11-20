@@ -861,3 +861,9 @@ html.hide-ahead .mrow:not(.is-done):not(.is-next)+.mopens{filter:blur(6px)}
 .track .txt small{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:3px}
 .track .txt .need{font-family:var(--mono);font-size:12px;color:var(--gold);font-weight:700;white-space:nowrap}
 @media (max-width:520px){.pnr.route{padding:10px}.pnr.route .track label{grid-template-columns:22px minmax(0,1fr);gap:10px}.track .rt{grid-column:2;justify-self:start}}
+
+/* Mission page: what the mission opens up, and the next story mission without a guide yet */
+.m-opens{display:grid;gap:10px;margin:12px 0 14px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+.m-opens .mopens{margin:0}
+.pg.soon{border-style:dashed}
+.pg.soon .t{color:var(--muted)}
