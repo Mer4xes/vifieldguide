@@ -8,7 +8,7 @@ summary: What there is to do and find in Leonida, how many of each the trophies 
 order: 3
 glow: cyan
 spoilerFree: true
-updated: 2026-11-19
+updated: 2026-11-21
 facts:
   - { k: Meditation spots, v: "18", status: Reported }
   - { k: Drone race locations, v: "14", status: Reported }
@@ -184,5 +184,7 @@ Cars come into play in Chapter 2. [Moses](/walkthrough/moses/) gives Lucia the S
 <h2 id="cheats">Cheats and trophies</h2>
 
 Cheats in GTA 6 are earned in the world, not typed in from the start. Two guides say that using a cheat blocks trophies, though they disagree on the details. Make a manual save before you switch one on.
+
+The full list of all 61, with what unlocks each one and the codes we know, is on the [cheats page](/guides/cheats/).
 
 See the [trophy list](/trophies/) and the [100% checklist](/guides/100-percent-checklist/) for everything in one place.

@@ -1,18 +1,26 @@
 [
   {
+    "date": "2026-11-21",
+    "tag": "New guide",
+    "title": "Every cheat, unlocked",
+    "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
+    "cta": "See the cheats",
+    "url": "/guides/cheats/",
+    "img": "/assets/img/misc/feat-phone.webp"
+  },
+  {
     "date": "2026-11-20",
     "tag": "New guide",
     "title": "Everything you can miss",
     "text": "Every missable item, job and collectible, chapter by chapter, with the last safe mission.",
-    "cta": "See the missables",
     "url": "/guides/missables/",
     "img": "/assets/img/art/jl-motel.webp"
   },
   {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "tag": "Walkthrough",
     "title": "Chapter 4 is under way",
-    "text": "Chapters 1 to 3 are done and Chapter 4 is well under way. 70 missions written up so far.",
+    "text": "Chapters 1 to 3 are done and Chapter 4 is well under way. 72 missions written up so far.",
     "url": "/walkthrough/#chapter-4",
     "img": "/assets/img/art/jl-rooftop.webp"
   },
@@ -55,13 +63,5 @@
     "text": "One ordered checklist: missions, side jobs and clean-up.",
     "url": "/guides/100-percent-route/",
     "img": "/assets/img/misc/act-heli.webp"
-  },
-  {
-    "date": "2026-11-19",
-    "tag": "New guide",
-    "title": "All 80 challenges",
-    "text": "Every challenge and what it asks for, with a tracker.",
-    "url": "/guides/challenges/",
-    "img": "/assets/img/misc/act-bikes.webp"
   }
 ]

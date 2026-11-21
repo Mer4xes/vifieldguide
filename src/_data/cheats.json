@@ -1,0 +1,703 @@
+{
+ "updated": "2026-11-21",
+ "total": 61,
+ "types": {
+  "player": "Player",
+  "combat": "Combat",
+  "vehicle": "Spawn vehicle",
+  "world": "World",
+  "filter": "Screen filter"
+ },
+ "groups": [
+  {
+   "id": "story",
+   "n": "Finish the story",
+   "lede": "Four cheats, and the only ones that need nothing else.",
+   "items": [
+    {
+     "id": "250-000",
+     "name": "$250,000",
+     "does": "Puts $250,000 in your pocket.",
+     "type": "player",
+     "unlock": "Finish the story.",
+     "code": [
+      "U",
+      "R",
+      "D",
+      "L",
+      "U",
+      "L",
+      "D",
+      "R"
+     ]
+    },
+    {
+     "id": "unlimited-focus",
+     "name": "Unlimited Focus",
+     "does": "Focus never runs out.",
+     "type": "player",
+     "unlock": "Finish the story.",
+     "code": [
+      "D",
+      "U",
+      "U",
+      "D",
+      "U",
+      "D",
+      "U",
+      "D",
+      "U",
+      "R"
+     ]
+    },
+    {
+     "id": "attack-force",
+     "name": "Attack Force",
+     "does": "Bullets and melee hits send people flying.",
+     "type": "combat",
+     "unlock": "Finish the story.",
+     "code": [
+      "D",
+      "U",
+      "L",
+      "L",
+      "R",
+      "D",
+      "D",
+      "U",
+      "D"
+     ]
+    },
+    {
+     "id": "cycle-weather",
+     "name": "Cycle Weather",
+     "does": "Changes the weather.",
+     "type": "world",
+     "unlock": "Finish the story.",
+     "code": [
+      "D",
+      "R",
+      "U",
+      "D",
+      "R",
+      "U",
+      "R"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "activity",
+   "n": "Activities",
+   "lede": "Gyms, races, stunt jumps, shooting ranges, meditation and fishing.",
+   "items": [
+    {
+     "id": "body-armor",
+     "name": "Body Armor",
+     "does": "Gives you body armor.",
+     "type": "player",
+     "unlock": "Complete 100 workouts.",
+     "code": [
+      "D",
+      "U",
+      "L",
+      "U",
+      "U",
+      "U",
+      "U",
+      "U",
+      "D",
+      "D"
+     ],
+     "u": "/activities/#gyms"
+    },
+    {
+     "id": "repair-vehicle",
+     "name": "Repair Vehicle",
+     "does": "Fixes the vehicle you're in.",
+     "type": "player",
+     "unlock": "Win 10 races at Gellhorn Raceway, the Thrillbilly Mud Club and Boone Speedway.",
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "unlimited-nitrous",
+     "name": "Unlimited Nitrous",
+     "does": "Nitrous and fuel never run out.",
+     "type": "player",
+     "unlock": "Complete 50 stunt jumps.",
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "parachute",
+     "name": "Parachute",
+     "does": "Gives you a parachute.",
+     "type": "player",
+     "unlock": "Do 50 skydives or base jumps from 300 feet or higher."
+    },
+    {
+     "id": "drunk",
+     "name": "Drunk",
+     "does": "Gets you and your partner drunk.",
+     "type": "player",
+     "unlock": "Spend $2,500 on alcohol."
+    },
+    {
+     "id": "max-ammo",
+     "name": "Max Ammo",
+     "does": "Refills all your ammo.",
+     "type": "combat",
+     "unlock": "Get 25 bronze medals or better at shooting ranges.",
+     "code": [
+      "D",
+      "U",
+      "R",
+      "D",
+      "L",
+      "L",
+      "U",
+      "U",
+      "D",
+      "L"
+     ],
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "infinite-ammo",
+     "name": "Infinite Ammo",
+     "does": "Ammo never runs out.",
+     "type": "combat",
+     "unlock": "Get 25 silver medals or better at shooting ranges.",
+     "code": [
+      "D",
+      "U",
+      "R",
+      "D",
+      "L",
+      "L",
+      "U",
+      "D",
+      "D",
+      "D"
+     ],
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "no-reload",
+     "name": "No Reload",
+     "does": "Ammo never runs out and you never reload.",
+     "type": "combat",
+     "unlock": "Get 25 gold medals at shooting ranges.",
+     "code": [
+      "D",
+      "U",
+      "R",
+      "D",
+      "L",
+      "L",
+      "U",
+      "D",
+      "D",
+      "U"
+     ],
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "fast-forward",
+     "name": "Fast Forward",
+     "does": "Screen filter: motion blur and fast-moving clouds.",
+     "type": "filter",
+     "unlock": "Complete 50 meditations.",
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "fisheye",
+     "name": "Fisheye",
+     "does": "Screen filter: fisheye lens.",
+     "type": "filter",
+     "unlock": "Catch 100 fish."
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "n": "Challenges",
+   "lede": "Five challenges in a category and all ten in it each give a vehicle.",
+   "items": [
+    {
+     "id": "speeder-700-gt",
+     "name": "Speeder 700 GT",
+     "does": "Spawns a Speeder 700 GT.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Combat challenges.",
+     "u": "/guides/challenges/#combat"
+    },
+    {
+     "id": "bravado-banshee",
+     "name": "Bravado Banshee",
+     "does": "Spawns a Bravado Banshee.",
+     "type": "vehicle",
+     "unlock": "Complete all Combat challenges.",
+     "u": "/guides/challenges/#combat"
+    },
+    {
+     "id": "maibatsu-sanchez",
+     "name": "Maibatsu Sanchez",
+     "does": "Spawns a Maibatsu Sanchez.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Criminal challenges.",
+     "u": "/guides/challenges/#criminal"
+    },
+    {
+     "id": "western-zombie-bobber",
+     "name": "Western Zombie Bobber",
+     "does": "Spawns a Western Zombie Bobber.",
+     "type": "vehicle",
+     "unlock": "Complete all Criminal challenges.",
+     "u": "/guides/challenges/#criminal"
+    },
+    {
+     "id": "nagasaki-sea-sparrow",
+     "name": "Nagasaki Sea Sparrow",
+     "does": "Spawns a Nagasaki Sea Sparrow.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Exploration challenges.",
+     "u": "/guides/challenges/#exploration"
+    },
+    {
+     "id": "nagasaki-carbon-rs",
+     "name": "Nagasaki Carbon RS",
+     "does": "Spawns a Nagasaki Carbon RS.",
+     "type": "vehicle",
+     "unlock": "Complete all Exploration challenges.",
+     "u": "/guides/challenges/#exploration"
+    },
+    {
+     "id": "tuff-bmx",
+     "name": "Tuff BMX",
+     "does": "Spawns a Tuff BMX.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Fitness challenges.",
+     "u": "/guides/challenges/#fitness"
+    },
+    {
+     "id": "65-vapid-dominator",
+     "name": "'65 Vapid Dominator",
+     "does": "Spawns a '65 Vapid Dominator.",
+     "type": "vehicle",
+     "unlock": "Complete all Fitness challenges.",
+     "u": "/guides/challenges/#fitness"
+    },
+    {
+     "id": "maibatsu-boomazoom",
+     "name": "Maibatsu Boomazoom",
+     "does": "Spawns a Maibatsu Boomazoom.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Shopping challenges.",
+     "code": [
+      "L",
+      "U",
+      "R",
+      "D",
+      "L",
+      "L",
+      "U",
+      "L"
+     ],
+     "u": "/guides/challenges/#shopping"
+    },
+    {
+     "id": "truffade-thrax",
+     "name": "Truffade Thrax",
+     "does": "Spawns a Truffade Thrax.",
+     "type": "vehicle",
+     "unlock": "Complete all Shopping challenges.",
+     "u": "/guides/challenges/#shopping"
+    },
+    {
+     "id": "vapid-stanier-g2-taxi",
+     "name": "Vapid Stanier G2 Taxi",
+     "does": "Spawns a Vapid Stanier G2 Taxi.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Sports challenges.",
+     "u": "/guides/challenges/#sports"
+    },
+    {
+     "id": "brimstone-golfer",
+     "name": "Brimstone Golfer",
+     "does": "Spawns a Brimstone Golfer.",
+     "type": "vehicle",
+     "unlock": "Complete all Sports challenges.",
+     "u": "/guides/challenges/#sports"
+    },
+    {
+     "id": "airboat-09",
+     "name": "Airboat 09",
+     "does": "Spawns an Airboat 09.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Survival challenges.",
+     "u": "/guides/challenges/#survival"
+    },
+    {
+     "id": "hauners-rhino-tank",
+     "name": "Hauners Rhino Tank",
+     "does": "Spawns a Hauners Rhino Tank.",
+     "type": "vehicle",
+     "unlock": "Complete all Survival challenges.",
+     "u": "/guides/challenges/#survival"
+    },
+    {
+     "id": "lapwing-mallard",
+     "name": "Lapwing Mallard",
+     "does": "Spawns a Lapwing Mallard.",
+     "type": "vehicle",
+     "unlock": "Complete 5 Vehicle challenges.",
+     "u": "/guides/challenges/#vehicle"
+    },
+    {
+     "id": "progen-emerus",
+     "name": "Progen Emerus",
+     "does": "Spawns a Progen Emerus.",
+     "type": "vehicle",
+     "unlock": "Complete all Vehicle challenges.",
+     "u": "/guides/challenges/#vehicle"
+    },
+    {
+     "id": "hauners-p-996-lazer",
+     "name": "Hauners P-996 Lazer",
+     "does": "Spawns a Hauners P-996 Lazer jet.",
+     "type": "vehicle",
+     "unlock": "Complete all 80 challenges.",
+     "u": "/guides/challenges/"
+    }
+   ]
+  },
+  {
+   "id": "discover",
+   "n": "Collect and discover",
+   "lede": "Collectibles, rare vehicles and selling what you find.",
+   "items": [
+    {
+     "id": "interstate-ambulance",
+     "name": "Interstate Ambulance",
+     "does": "Spawns an Interstate Ambulance.",
+     "type": "vehicle",
+     "unlock": "Discover it (it shows in the Progress menu)."
+    },
+    {
+     "id": "hvy-bulldozer",
+     "name": "HVY Bulldozer",
+     "does": "Spawns an HVY Bulldozer.",
+     "type": "vehicle",
+     "unlock": "Discover it (it shows in the Progress menu).",
+     "code": [
+      "L",
+      "U",
+      "R",
+      "D",
+      "L",
+      "R",
+      "R",
+      "D"
+     ]
+    },
+    {
+     "id": "mtl-pumper",
+     "name": "MTL Pumper",
+     "does": "Spawns an MTL Pumper.",
+     "type": "vehicle",
+     "unlock": "Not known yet.",
+     "code": [
+      "L",
+      "U",
+      "R",
+      "D",
+      "L",
+      "R",
+      "R",
+      "U"
+     ]
+    },
+    {
+     "id": "inflatable-flamingo",
+     "name": "Inflatable Flamingo",
+     "does": "Spawns an inflatable flamingo.",
+     "type": "vehicle",
+     "unlock": "Destroy 50 Cocaine Flamingos.",
+     "u": "/guides/activities-and-collectibles/"
+    },
+    {
+     "id": "move-time-forward",
+     "name": "Move Time Forward",
+     "does": "Moves the clock forward.",
+     "type": "world",
+     "unlock": "Find 10 collectible watches."
+    },
+    {
+     "id": "pause-time-of-day",
+     "name": "Pause Time of Day",
+     "does": "Stops the clock.",
+     "type": "world",
+     "unlock": "Find 20 collectible watches."
+    },
+    {
+     "id": "bubblegum",
+     "name": "Bubblegum",
+     "does": "Screen filter: purple and yellow with sparkles.",
+     "type": "filter",
+     "unlock": "Find all 24 Vice City Flamingos cards.",
+     "u": "/collectibles/"
+    },
+    {
+     "id": "powdered-sugar",
+     "name": "Powdered Sugar",
+     "does": "Screen filter: white with sparkles.",
+     "type": "filter",
+     "unlock": "Scan all the space debris with WAiNK.",
+     "u": "/collectibles/"
+    },
+    {
+     "id": "neon-jungle",
+     "name": "Neon Jungle",
+     "does": "Screen filter: neon highlights.",
+     "type": "filter",
+     "unlock": "Discover all 16 Girlypop vehicles."
+    },
+    {
+     "id": "yesteryear",
+     "name": "Yesteryear",
+     "does": "Screen filter: black-and-white CRT TV.",
+     "type": "filter",
+     "unlock": "Discover the Ridgeway."
+    },
+    {
+     "id": "cataclysm",
+     "name": "Cataclysm",
+     "does": "Screen filter: murky smoke.",
+     "type": "filter",
+     "unlock": "Discover Martha's Vamos (it shows in the Progress menu).",
+     "code": [
+      "D",
+      "D",
+      "U",
+      "R",
+      "R",
+      "U",
+      "L",
+      "L",
+      "R",
+      "R"
+     ]
+    },
+    {
+     "id": "pixel-art",
+     "name": "Pixel Art",
+     "does": "Screen filter: pixelated.",
+     "type": "filter",
+     "unlock": "Make $250,000 selling collectibles."
+    },
+    {
+     "id": "dark-mirror",
+     "name": "Dark Mirror",
+     "does": "Screen filter: the world turned upside down and black.",
+     "type": "filter",
+     "unlock": "Make $500,000 selling vehicles."
+    }
+   ]
+  },
+  {
+   "id": "partner",
+   "n": "With your partner",
+   "lede": "Time spent and jobs done with Jason and Lucia together.",
+   "items": [
+    {
+     "id": "golden-hour",
+     "name": "Golden Hour",
+     "does": "Screen filter: golden light and widescreen bars.",
+     "type": "filter",
+     "unlock": "Spend 4 hours holding hands."
+    },
+    {
+     "id": "dollhouse",
+     "name": "Dollhouse",
+     "does": "Screen filter: vivid colours, narrow frame.",
+     "type": "filter",
+     "unlock": "Spend 8 hours with your partner.",
+     "code": [
+      "D",
+      "D",
+      "U",
+      "R",
+      "R",
+      "U",
+      "L",
+      "L",
+      "D",
+      "R"
+     ]
+    },
+    {
+     "id": "faded-glory",
+     "name": "Faded Glory",
+     "does": "Screen filter: colour CRT TV.",
+     "type": "filter",
+     "unlock": "Rob 50 stores with your partner.",
+     "code": [
+      "D",
+      "D",
+      "U",
+      "R",
+      "R",
+      "U",
+      "L",
+      "L",
+      "L",
+      "R"
+     ]
+    },
+    {
+     "id": "pinhole",
+     "name": "Pinhole",
+     "does": "Screen filter: pinhole camera.",
+     "type": "filter",
+     "unlock": "Clear 25 gang operations with your partner."
+    },
+    {
+     "id": "videotape",
+     "name": "Videotape",
+     "does": "Screen filter: old videotape.",
+     "type": "filter",
+     "unlock": "Complete 50 activities with your partner."
+    }
+   ]
+  },
+  {
+   "id": "mayhem",
+   "n": "Mayhem",
+   "lede": "Explosions, fire, police and wanted levels.",
+   "items": [
+    {
+     "id": "no-fall-damage",
+     "name": "No Fall Damage",
+     "does": "Falls don't hurt you.",
+     "type": "player",
+     "unlock": "Survive a 40-foot freefall 20 times."
+    },
+    {
+     "id": "raise-heat-level",
+     "name": "Raise Heat Level",
+     "does": "Raises your heat everywhere on the map.",
+     "type": "player",
+     "unlock": "Lose a 3-star wanted level 25 times.",
+     "code": [
+      "L",
+      "D",
+      "R",
+      "D",
+      "U",
+      "D",
+      "U"
+     ]
+    },
+    {
+     "id": "raise-wanted-level",
+     "name": "Raise Wanted Level",
+     "does": "Raises your wanted level.",
+     "type": "player",
+     "unlock": "Lose a 3-star wanted level 50 times."
+    },
+    {
+     "id": "all-explosive-weapons",
+     "name": "All Explosive Weapons",
+     "does": "Gives you every explosive weapon with full ammo.",
+     "type": "combat",
+     "unlock": "Throw 100 grenades."
+    },
+    {
+     "id": "incendiary-ammo",
+     "name": "Incendiary Ammo",
+     "does": "All your bullets set things on fire.",
+     "type": "combat",
+     "unlock": "Burn 100 enemies."
+    },
+    {
+     "id": "exploding-bottles",
+     "name": "Exploding Bottles",
+     "does": "Bottles blow up when they're hit.",
+     "type": "combat",
+     "unlock": "Throw 100 molotovs."
+    },
+    {
+     "id": "explosive-shotgun",
+     "name": "Explosive Shotgun",
+     "does": "Gives you a Mason & Keen Shortstraw that fires explosive shells.",
+     "type": "combat",
+     "unlock": "Hit 100 enemies with explosive damage."
+    },
+    {
+     "id": "exploding-balls",
+     "name": "Exploding Balls",
+     "does": "Sports balls explode when they hit something.",
+     "type": "combat",
+     "unlock": "Hit 20 enemies with explosive damage.",
+     "code": [
+      "D",
+      "U",
+      "L",
+      "L",
+      "R",
+      "D",
+      "D",
+      "U",
+      "R"
+     ]
+    },
+    {
+     "id": "hauners-h-at",
+     "name": "Hauners H-AT",
+     "does": "Gives you a Hauners H-AT.",
+     "type": "combat",
+     "unlock": "Blow up 100 vehicles."
+    },
+    {
+     "id": "vehicle-force",
+     "name": "Vehicle Force",
+     "does": "Anything you hit with a vehicle goes flying.",
+     "type": "combat",
+     "unlock": "Kill 25 enemies with a vehicle.",
+     "code": [
+      "D",
+      "U",
+      "L",
+      "L",
+      "R",
+      "D",
+      "L",
+      "U",
+      "D"
+     ]
+    },
+    {
+     "id": "migraine",
+     "name": "Migraine",
+     "does": "Screen filter: blurred and warped.",
+     "type": "filter",
+     "unlock": "Survive 6 minutes at a 6-star wanted level."
+    },
+    {
+     "id": "hellscape",
+     "name": "Hellscape",
+     "does": "Screen filter: red and orange with heat haze.",
+     "type": "filter",
+     "unlock": "Steal 100 police vehicles."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 All Cheats",
+   "url": "https://www.powerpyx.com/gta-6-all-cheats/",
+   "note": "Read Nov 21, 2026 (page modified Nov 19). 61 cheats (10 player, 11 combat, 21 spawn vehicle, 3 environment, 16 screen filter) with unlock conditions; codes for 17 of them. Cheats list under Progress > Cheats, only after the story; enter on the phone: D-pad Up to open, hold L1/LB, press R1/RB, then the code. A cheat only works once its requirement is met. Cheats disable trophies and saving (no duration given). MTL Pumper unlock listed as unknown. Trusted source. PC Gamer and Press Start cheat lists could not be fetched this run (fetch permission not granted); an earlier run noted the two disagree on the trophy details, so the page only says trophies are blocked and to save first."
+  }
+ ]
+}
