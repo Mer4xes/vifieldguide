@@ -9,9 +9,24 @@ order: 4
 glow: violet
 spoilerFree: true
 updated: 2026-11-21
+labs:
+  - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
+  - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
+  - { id: balsero-2, area: "Balsero", n: 2, where: "A garage in the building at the centre of the area. The keypad code is 1999, also on a billboard nearby.", pay: "2,500" }
+  - { id: balsero-3, area: "Balsero", n: 3, where: "The second trailer from the south end, with a guard and a Spin On This van outside. Snap Gun or break the door.", pay: "2,500" }
+  - { id: rockridge-1, area: "Central Rockridge", where: "A garage in the middle of the area, darker than the ones around it. Get in from the alley on the west side.", pay: "2,500" }
+  - { id: crosstown-1, area: "Crosstown", n: 1, where: "A second-floor flat on the north side, with a Spin On This van outside. The person inside may set the room on fire.", pay: "2,000" }
+  - { id: crosstown-2, area: "Crosstown", n: 2, where: "A garage behind Cross My Heart Tattoos. Expect a guard.", pay: "2,500" }
+  - { id: crosstown-3, area: "Crosstown", n: 3, where: "A garage on the east side of the building in the middle. Hold up the cook before you torch it.", pay: "2,500" }
+  - { id: decor-1, area: "Decor District", where: "A garage in the building in the northwest corner, next to the highway. Hold up the cook.", pay: "2,500" }
+  - { id: littlecuba-1, area: "Little Cuba", where: "The long building in the middle of the area. Snap Gun or break the door.", pay: "2,500" }
+  - { id: salton-1, area: "Salton", where: "The apartment block that fills the search area; climb in through the east window. Shooting the two cooks can start a fire.", pay: "2,000" }
+  - { id: tequesta-1, area: "Tequesta", where: "Upstairs in the C-shaped motel on the east side. Snap Gun or break the door, and watch for a thrown beaker.", pay: "2,500" }
+  - { id: vicedale-1, area: "Vice-Dale", where: "The trailer in the middle of the area; climb in through the east window. No cook here, just a squatter.", pay: "2,500" }
 facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
   - { k: Contact trophies, v: "7", status: Confirmed }
+  - { k: Kitty Litter labs, v: "$2,000–$2,500 each", status: Reported }
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
   - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Not every contact on this page is a stranger."
@@ -37,6 +52,12 @@ faq:
     a: "Pete phones Jason early in Chapter 4. His first job, The Last Mile: Passing the Torch, starts at the Sundown Private Airfield in Leonard County. The strand is Jason only and counts toward Strangers & Freaks."
   - q: "How do you start Andy's missions in GTA 6?"
     a: "Play as Lucia in Chapter 3. After Mami Knows Best and Car Service, Andy calls and then texts an address in Belville. The five jobs end with Puff Puff Pass, which unlocks Road to Rehabilitation."
+  - q: "How do you start Kirk's Skunk Ape missions in GTA 6?"
+    a: "Look for Kirk's skunk ape flyers in Chapter 1, in the Mariana County swamps around Hamlet. His three jobs only run at night: Search for the Skunk Ape, Search for Tree Effigies and, from Chapter 2, Help Kirk Find Mr. Mangrove, which is for Lucia only. The strand counts toward Strangers & Freaks."
+  - q: "How do you get the tranquilizer rifle in GTA 6?"
+    a: "It's the Mister Mangrove Laird 350, from Kirk's last job, Help Kirk Find Mr. Mangrove. You're given it as soon as you climb into Kirk's helicopter, so you keep it whichever ending you pick."
+  - q: "How do you destroy a Kitty Litter lab in GTA 6?"
+    a: "Head into the purple search area, find the building leaking pink gas and wreck the equipment inside with explosives or fire: a molotov, or a propane or gas canister you shoot. Tyrone pays $2,000 or $2,500 a lab through BuckMe. The labs aren't missable, and enough of them unlock Spin On This."
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
@@ -91,6 +112,18 @@ sources:
   - label: "PowerPyx: Andy's strand (Cellerica)"
     url: "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/"
     note: "Read Nov 21, 2026 (via ?p=372471, 372508, 372472, 372473, 372474). Also /gta-6-pay-the-cellerica-fee-walkthrough/, /gta-6-peach-join-the-cellerica-initiation-walkthrough/, /gta-6-read-the-label-retrieve-the-cellerica-van-walkthrough/, /gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/. Lucia only, Ch3, after Mami Knows Best and Car Service. Fee $5,000 via BuckMe, returned at the end. Read the Label $1,800. Puff Puff Pass $10,000 + Road to Rehabilitation. Spoilers as written. Left out: Peach! 'defuse' choice wording (unclear), Puff Puff Pass header location (contradicts body)."
+  - label: "PowerPyx: Kirk's strand"
+    url: "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=372181, 372182, 372183). Also /gta-6-search-for-tree-effigies-locations-walkthrough/ and /gta-6-help-kirk-find-mr-mangrove-walkthrough/. Skunk Ape: Ch1, night, Mariana swamps, follow Kirk, nesting site, feeding site and claw marks, effigy, giant boar, back to truck, $1,000. Tree Effigies: text later, 3 effigies any order, no cash (locations image-only, left out). Mr. Mangrove: Ch2, Lucia only, night, Mariana County > Cottonmouth Lake, text a few days after Effigies, helicopter + spotlight, shack, spores, frog and fly sections, choice; Mister Mangrove Laird 350 tranquilizer rifle on boarding; $10,000 only if you shoot Mr. Mangrove; counts for S&F whatever the ending. Left out: who can start Skunk Ape and exactly how it triggers (VGC Bigfoot guide says Jason only, after a sighting; PowerPyx says either, call Kirk after reading the flyer), and what happens in the two non-paying endings (PowerPyx heading and body disagree). Trusted source."
+  - label: "VGC: GTA 6 Bigfoot explained"
+    url: "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/"
+    note: "Read Nov 21, 2026. Skunk ape posters, night only, Kirk gets in touch. Used only where it agrees with PowerPyx."
+  - label: "PowerPyx: all Kitty Litter lab locations"
+    url: "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/"
+    note: "Read Nov 21, 2026 (via ?p=372506). Purple search areas, pink gas, explosives or fire, $2,000/$2,500 via BuckMe, not missable, cooks can point to another lab. Page says 14 labs but lists 13; we list the 13 and give no total. Balsero #2 keypad 1999. Trusted source."
+  - label: "PowerPyx: Spin On This (Shut Down the Labs)"
+    url: "https://www.powerpyx.com/gta-6-spin-on-this-shut-down-the-labs-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=372507). Lummox County > Grayson diner, motel east of it, green door and guard, key from the clerk, trapdoor to the lab, two vats, pipe chase, $10,000 + Spin On This!. Trusted source."
 ---
 
 > **Note:** First pass. Contacts, jobs and payouts come from trusted guides and are not yet checked in our own game. Step-by-step guides for each strand follow as we write them.
@@ -100,10 +133,11 @@ sources:
 | Contact | What they deal in | Where you meet them | Trophy |
 |---|---|---|---|
 | **Cal Hampton** | Jason's friend, fishing | Chapter 1, [Gone Fishing](/walkthrough/gone-fishing/) | Baited My Tackle: beat him in a fishing challenge |
+| **Kirk** | Hunts the Skunk Ape in the Mariana County swamps, at night | Chapter 1, his flyers around Hamlet ([his jobs](#kirk)) | Counts toward Strangers & Freaks |
 | **Kenton Rees** | Deep-water treasure diving; buys doubloons and meteorites | Chapter 1, [Island Dreams](/walkthrough/island-dreams/) | This Was No Boat Accident (hidden) |
 | **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) | |
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
-| **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) | Spin On This! (hidden) |
+| **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) ([labs and last job](#tyrone)) | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
 | **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/) | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
@@ -114,11 +148,22 @@ sources:
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["billy","Billy"],["kyle","Kyle"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
-The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every contact counts: fences like Moses and Yasmani are part of the money side of the game rather than stranger strands. Check the trophy tracker before and after the last mission of a strand to see if it counted.
+The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every contact counts: fences like Moses and Yasmani are part of the money side of the game rather than stranger strands. Kirk, Kyle, Yago and Pilot Pete's strands count; the other four aren't confirmed yet. Check the trophy tracker before and after the last mission of a strand to see if it counted.
+
+<h2 id="kirk">Kirk and the Skunk Ape</h2>
+
+Kirk is a cryptid hunter in the Mariana County swamps, chasing a creature he calls the Skunk Ape, or Mr. Mangrove. His flyers, around Hamlet in Chapter 1, are what get you started. All three jobs happen **at night**, so sleep in a bed to skip ahead if you need to, and bring a flashlight. The strand counts toward **Strangers & Freaks**, and the last job is for **Lucia only**, so it can't happen before Chapter 2.
+
+<ol class="strand">
+<li><div class="strand-h">Search for the Skunk Ape <span class="chip plain">Chapter 1</span> <span class="flag">Night</span></div><span class="strand-pay">$1,000</span><p>Meet Kirk at his truck in the swamp and follow his drone through the woods. When he stops at a nesting site, talk it through, then search the circle he marks: the feeding site in the middle, then the claw marks on a tree a little east of it. The creature bolts and you can't catch it. Look over the effigy hanging at the edge of the woods, then run for Kirk's truck when a huge boar turns up. It always catches you near the truck; Kirk drives it off and pays you.</p></li>
+<li><div class="strand-h">Search for Tree Effigies <span class="flag">Night</span></div><span class="strand-pay">No cash</span><p>Kirk texts once some time has passed and marks a large search area in the swamps. Find the three effigies hanging in the trees, in any order. The job ends by itself after the third.</p></li>
+<li><div class="strand-h">Help Kirk Find Mr. Mangrove <span class="chip plain">Chapter 2</span> <span class="flag">Lucia only</span> <span class="flag">Night</span></div><span class="strand-pay">Rifle, maybe $10,000</span><p>Kirk texts a few days after the effigies. Meet him at Cottonmouth Lake and get into his helicopter: you're handed the <b>Mister Mangrove Laird 350</b>, a tranquilizer rifle, on the spot. Follow the spotlight until the creature runs for an abandoned shack, then go in on foot to the shack on the right. What happens after you find him is best left unspoiled, but you'll spend a short stretch as some very small animals before Lucia gets a choice. Only one of the endings pays, and the strand counts whichever you pick.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Who Mr. Mangrove is, and which ending pays</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Lucia breathes in spores in the shack and passes out; you play a frog, then a fly, and overhear that Mr. Mangrove is Harry Sherrick, a man who went missing ten years ago and was changed by the spores the way Kirk is being changed. If Lucia shoots Mr. Mangrove and carries him to the helicopter, Kirk sends $10,000 through BuckMe. The other choices pay nothing.</p></div></details></li>
+</ol>
 
 <h2 id="billy">Billy and the Thrillbilly crew</h2>
 
@@ -209,7 +254,33 @@ Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-ser
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 
-Tyrone buys drugs, and his strand is about shutting down an operation called Kitty Litter. It starts in Chapter 3 with the story missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/), after which he works as a [fence](/guides/fences/). His last mission earns **Spin On This!**
+Tyrone buys drugs, and his strand is about shutting down an operation called Kitty Litter. It starts in Chapter 3 with the story missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/), after which he works as a [fence](/guides/fences/) and starts sending you after labs. Destroy enough of them and he gives you his last job, **Spin On This**, which earns **Spin On This!** The strand doesn't count toward **Strangers & Freaks**.
+
+<h3 id="kitty-litter-labs">How to take out a lab</h3>
+
+<ol class="cheat-steps">
+<li><b>Get a location.</b> Tyrone or Dook send you labs as purple search areas, and you can also stumble on them yourself. A cook you hold up will sometimes give away another lab.</li>
+<li><b>Find the building.</b> Inside the area, look for the one leaking pink gas. Many are locked garages or trailers: pick the lock with the Snap Gun or break the door.</li>
+<li><b>Wreck the equipment.</b> Explosives or fire both work: throw a molotov, or shoot a propane or gas canister near the gear. Careful with the cooks, who can set the room alight themselves.</li>
+<li><b>Get paid.</b> Tyrone sends $2,000 or $2,500 through BuckMe. Labs are not missable and stay open in free roam.</li>
+</ol>
+
+<div class="progress" data-progress="lab:" data-total="{{ labs.length }}">
+<div class="row"><span class="lab">Labs on our list you've destroyed</span><span class="pct"><span data-done>0</span> / {{ labs.length }} · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for l in labs %}
+<label class="tr" data-track-row for="lab-{{ l.id }}"><input class="cb" type="checkbox" id="lab-{{ l.id }}" data-track="lab:{{ l.id }}"><div class="body"><div class="name">{{ l.area }}{% if l.n %} #{{ l.n }}{% endif %}</div><div class="desc">{{ l.where }}</div></div><div class="side"><span class="need">${{ l.pay }}</span></div></label>
+{%- endfor %}
+</div>
+
+> **Note:** These are the labs we can place so far. The total isn't settled yet, so if Spin On This hasn't shown up after these, keep an eye out for more purple areas.
+
+<ol class="strand">
+<li><div class="strand-h">Spin On This <span class="chip plain">Chapter 3 on</span> <span class="flag">Jason</span></div><span class="strand-pay">$10,000</span><p>Opens once you've destroyed enough labs. It starts at a diner outside Grayson in Lummox County, and it kicks off as soon as you get close, so put on body armour and carry a rifle before you drive up. Go to the motel east of the diner. While Tyrone keeps the clerk busy, take the stairs on the left to a green door with a guard; deal with him quietly and look at the wooden hatch in the floor inside. The key is on the clerk upstairs. Open the hatch, clear the lab below (some come at you, others shoot from the floor above), plant explosives on the two vats upstairs and hold off the second wave. Tyrone then opens a hatch by a pipe: drop in and chase the man in charge to the far end while the lab goes up. Outside he opens fire; bring him down, then walk back to Tyrone. Finishing it unlocks <b>Spin On This!</b></p></li>
+</ol>
 
 <h2 id="eddie">Eddie Acosta's party</h2>
 

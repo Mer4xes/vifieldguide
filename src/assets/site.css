@@ -1038,3 +1038,6 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .strand-jump .lab{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
 .strand-jump .chip{text-decoration:none}
 .strand-jump .chip:hover{color:var(--cyan)}
+
+/* Kitty Litter lab tracker: keep the payout visible on phones */
+@media(max-width:520px){.chal-list.lab-list .tr{grid-template-columns:22px minmax(0,1fr) auto}.chal-list.lab-list .side{display:flex}}
