@@ -2,9 +2,17 @@
   {
     "date": "2026-11-21",
     "tag": "New guide",
+    "title": "Every gang operation",
+    "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
+    "cta": "See the list",
+    "url": "/guides/gang-operations/",
+    "img": "/assets/img/art/jl-robbery.webp"
+  },
+  {
+    "date": "2026-11-21",
+    "tag": "New guide",
     "title": "Every cheat, unlocked",
     "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
-    "cta": "See the cheats",
     "url": "/guides/cheats/",
     "img": "/assets/img/misc/feat-phone.webp"
   },
@@ -55,13 +63,5 @@
     "text": "What each option leads to, and which ones cost you rewards.",
     "url": "/guides/story-choices/",
     "img": "/assets/img/art/jl-beach.webp"
-  },
-  {
-    "date": "2026-11-19",
-    "tag": "New guide",
-    "title": "100% route",
-    "text": "One ordered checklist: missions, side jobs and clean-up.",
-    "url": "/guides/100-percent-route/",
-    "img": "/assets/img/misc/act-heli.webp"
   }
 ]

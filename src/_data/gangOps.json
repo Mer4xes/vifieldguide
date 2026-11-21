@@ -1,0 +1,262 @@
+{
+ "updated": "2026-11-21",
+ "total": 39,
+ "groups": [
+  {
+   "id": "kingfishers",
+   "n": "Kingfishers",
+   "items": [
+    {
+     "n": 1,
+     "id": "fishing-shacks",
+     "name": "Fishing Shacks"
+    },
+    {
+     "n": 2,
+     "id": "sunrise-rv-park",
+     "name": "Sunrise RV Park"
+    },
+    {
+     "n": 3,
+     "id": "manatee-motel",
+     "name": "Manatee Motel"
+    }
+   ]
+  },
+  {
+   "id": "kolts",
+   "n": "Kolts & Associates",
+   "items": [
+    {
+     "n": 4,
+     "id": "kingpin-bowling",
+     "name": "Kingpin Bowling"
+    },
+    {
+     "n": 5,
+     "id": "june-warehouse",
+     "name": "June Warehouse"
+    },
+    {
+     "n": 6,
+     "id": "la-cascara-motel",
+     "name": "La Cascara Motel"
+    },
+    {
+     "n": 7,
+     "id": "brooks-boatworks",
+     "name": "Brooks Boatworks"
+    },
+    {
+     "n": 8,
+     "id": "stash-house",
+     "name": "Stash House"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "n": "M7",
+   "items": [
+    {
+     "n": 9,
+     "id": "m7-compound",
+     "name": "M7 Compound"
+    },
+    {
+     "n": 10,
+     "id": "weed-grow",
+     "name": "Weed Grow"
+    }
+   ]
+  },
+  {
+   "id": "polilla",
+   "n": "La Polilla Negra",
+   "items": [
+    {
+     "n": 11,
+     "id": "palmer-fishing-warehouse",
+     "name": "Palmer Fishing Warehouse"
+    },
+    {
+     "n": 12,
+     "id": "watson-bay-safehouse",
+     "name": "Watson Bay Safehouse"
+    }
+   ]
+  },
+  {
+   "id": "final-chapter",
+   "n": "Final Chapter",
+   "items": [
+    {
+     "n": 13,
+     "id": "farm-fix-meth-lab",
+     "name": "Farm Fix Meth Lab"
+    },
+    {
+     "n": 14,
+     "id": "biker-hideout",
+     "name": "Biker Hideout"
+    },
+    {
+     "n": 15,
+     "id": "hog-stars-garage",
+     "name": "Hog Stars Garage"
+    },
+    {
+     "n": 16,
+     "id": "irons-building-supply",
+     "name": "Irons Building Supply"
+    }
+   ]
+  },
+  {
+   "id": "san4san",
+   "n": "San4San",
+   "items": [
+    {
+     "n": 17,
+     "id": "sound4sond-studio",
+     "name": "Sound4Sond Studio"
+    },
+    {
+     "n": 18,
+     "id": "la-perle-trap-house",
+     "name": "La Perle Trap House"
+    },
+    {
+     "n": 19,
+     "id": "illegal-sneaker-trade",
+     "name": "Illegal Sneaker Trade"
+    },
+    {
+     "n": 20,
+     "id": "janjaks-garage",
+     "name": "JanJak's Garage"
+    },
+    {
+     "n": 21,
+     "id": "parlor-apartments",
+     "name": "Parlor Apartments"
+    }
+   ]
+  },
+  {
+   "id": "ptt",
+   "n": "PTT Youngin$",
+   "items": [
+    {
+     "n": 22,
+     "id": "southside-trap-house",
+     "name": "Southside Trap House"
+    },
+    {
+     "n": 23,
+     "id": "kamar-devon-community-center",
+     "name": "Kamar Devon Community Center"
+    }
+   ]
+  },
+  {
+   "id": "guardia",
+   "n": "The Guardia Brothers",
+   "items": [
+    {
+     "n": 24,
+     "id": "saber-shipping-yard",
+     "name": "Saber Shipping Yard"
+    },
+    {
+     "n": 25,
+     "id": "casa-guardia",
+     "name": "Casa Guardia"
+    },
+    {
+     "n": 26,
+     "id": "saber-shipping-facility",
+     "name": "Saber Shipping Facility"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "n": "Other criminals",
+   "items": [
+    {
+     "n": 27,
+     "id": "exotic-animals-front",
+     "name": "Exotic Animals Front"
+    },
+    {
+     "n": 28,
+     "id": "mill-station-radar-base",
+     "name": "Mill Station Radar Base"
+    },
+    {
+     "n": 29,
+     "id": "industrial-weed-grow",
+     "name": "Industrial Weed Grow"
+    },
+    {
+     "n": 30,
+     "id": "slator-towing-inc",
+     "name": "Slator Towing Inc"
+    },
+    {
+     "n": 31,
+     "id": "leonida-carrier-warehouse",
+     "name": "Leonida Carrier Warehouse"
+    },
+    {
+     "n": 32,
+     "id": "cigar-import-front",
+     "name": "Cigar Import Front"
+    },
+    {
+     "n": 33,
+     "id": "chatfield-storage-logistics",
+     "name": "Chatfield Storage & Logistics"
+    },
+    {
+     "n": 34,
+     "id": "ocean-beach-lab",
+     "name": "Ocean Beach Lab"
+    },
+    {
+     "n": 35,
+     "id": "vespucci-mansion",
+     "name": "Vespucci Mansion"
+    },
+    {
+     "n": 36,
+     "id": "gas-station-meth-front",
+     "name": "Gas Station Meth Front"
+    },
+    {
+     "n": 37,
+     "id": "walker-farm",
+     "name": "Walker Farm"
+    },
+    {
+     "n": 38,
+     "id": "backroom-weed-front",
+     "name": "Backroom Weed Front"
+    },
+    {
+     "n": 39,
+     "id": "carter-mining-boathouse",
+     "name": "Carter Mining Boathouse"
+    }
+   ]
+  }
+ ],
+ "src": [
+  {
+   "label": "PowerPyx: GTA 6 All Illegal Gang Operations Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+   "note": "Read Nov 21, 2026 (published Nov 18, modified Nov 20). 39 operations numbered 1-39 in nine groups (Kingfishers 3, Kolts & Associates 5, M7 2, La Polilla Negra 2, Final Chapter 4, San4San 5, PTT Youngin$ 2, Guardia Brothers 3, Other Criminals 13). Ultimate Edition-only Illegal Goods Store (PTT Youngin$) not counted for 100% and not tracked in the Gangs menu. Yellow map icon once you enter; Map > Robberies (money bag) > Illegal Operations filter; unvisited shown as Robbery Opportunity; Progress > Gangs shows discovered/completed per gang; hover icon for key valuables (unique weapon variants, luxury watches, safe with cash), take all for completion; narcotics to fence; grayed out after, respawns after time. Gives no county/area per location, so none shown. Trusted source."
+  }
+ ]
+}
