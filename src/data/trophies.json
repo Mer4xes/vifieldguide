@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -727,6 +727,28 @@
    "label": "PowerPyx trophy guide & roadmap",
    "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
    "note": "Read Nov 20, 2026 (verbatim part). Methods for Catch Me If You Can, Challenging Tank, In The Beginning, Capital Offense, Personal Best, The Truth Is Out There, Ten Pin, Treat Yo Self; Vice City, Baby! unlocks after Ocean Beach and Another Life. Bad Luck, I Guess is unknown there (left out)."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many trophies does GTA 6 have?",
+   "a": "55 on PS5: 1 platinum (**Vice Got a Price!**), 2 gold, 6 silver and 46 bronze. 27 of them are hidden on PSN until you earn them."
+  },
+  {
+   "q": "Are there online trophies in GTA 6?",
+   "a": "No. Every trophy is earned in single player, so the platinum doesn't need anyone else."
+  },
+  {
+   "q": "Is there a trophy for 100% completion?",
+   "a": "Yes, **A Long Road** (gold). The 100% checklist only shows up after the credits roll; work through it with our [100% checklist](/guides/100-percent-checklist/) and [100% route](/guides/100-percent-route/)."
+  },
+  {
+   "q": "How many GTA 6 trophies come from the story?",
+   "a": "About a dozen: one for each chapter, one for the final mission and several for named missions. The rest are open-world and collectible trophies, which you can work on alongside the story."
+  },
+  {
+   "q": "Can I track which trophies I've earned on this page?",
+   "a": "Yes. Tick a trophy and it stays ticked in your browser, with a progress bar at the top. Use **Not earned** to see only what's left."
   }
  ]
 }
