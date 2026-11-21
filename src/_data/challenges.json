@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-21",
  "total": 80,
  "trophy": 50,
  "pct": 70,
@@ -84,7 +84,8 @@
     {
      "id": "carjacking",
      "name": "Carjacking",
-     "req": "In one day, carjack 3 vehicles and drive each to a Pay 'n' Spray, without dying or being arrested."
+     "req": "In one day, carjack 3 vehicles and drive each to a Pay 'n' Spray, without dying or being arrested.",
+     "u": "/guides/shops/#pay-n-spray"
     },
     {
      "id": "mugging-spree",
@@ -114,7 +115,8 @@
     {
      "id": "carjacking-spree",
      "name": "Carjacking Spree",
-     "req": "Within 30 minutes, register or respray stolen vehicles from 10 different manufacturers at a Pay 'n' Spray, without dying or being arrested."
+     "req": "Within 30 minutes, register or respray stolen vehicles from 10 different manufacturers at a Pay 'n' Spray, without dying or being arrested.",
+     "u": "/guides/shops/#pay-n-spray"
     },
     {
      "id": "carjacking-pro",
@@ -248,7 +250,8 @@
     {
      "id": "vehicle-modder",
      "name": "Vehicle Modder",
-     "req": "Buy 5 modifications at a mod shop."
+     "req": "Buy 5 modifications at a mod shop.",
+     "u": "/guides/shops/#mod-shops"
     },
     {
      "id": "grocery-shopper",
@@ -258,7 +261,8 @@
     {
      "id": "well-armed",
      "name": "Well Armed",
-     "req": "Buy 3 sidearms and 3 longarms at Ammu-Nation."
+     "req": "Buy 3 sidearms and 3 longarms at Ammu-Nation.",
+     "u": "/guides/shops/#ammu-nation"
     },
     {
      "id": "well-groomed",
@@ -268,7 +272,8 @@
     {
      "id": "stylishly-armed",
      "name": "Stylishly Armed",
-     "req": "Buy cosmetic upgrades for 5 sidearms and 5 longarms at Ammu-Nation."
+     "req": "Buy cosmetic upgrades for 5 sidearms and 5 longarms at Ammu-Nation.",
+     "u": "/guides/shops/#ammu-nation"
     },
     {
      "id": "well-dressed",
@@ -278,17 +283,20 @@
     {
      "id": "custom-ride",
      "name": "Custom Ride",
-     "req": "Spend more than $20,000 in one visit to a mod shop."
+     "req": "Spend more than $20,000 in one visit to a mod shop.",
+     "u": "/guides/shops/#mod-shops"
     },
     {
      "id": "heavily-armed",
      "name": "Heavily Armed",
-     "req": "Spend more than $50,000 at Ammu-Nation in total."
+     "req": "Spend more than $50,000 at Ammu-Nation in total.",
+     "u": "/guides/shops/#ammu-nation"
     },
     {
      "id": "serious-modder",
      "name": "Serious Modder",
-     "req": "Spend more than $125,000 at mod shops in total."
+     "req": "Spend more than $125,000 at mod shops in total.",
+     "u": "/guides/shops/#mod-shops"
     },
     {
      "id": "nest-egg",

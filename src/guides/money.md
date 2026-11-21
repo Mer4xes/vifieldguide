@@ -137,4 +137,4 @@ Robbing 5 vaults and getting away earns **Maximum Withdrawal**; the [100% checkl
 
 <h2 id="spending">Spending it</h2>
 
-Spending $100,000 across shops earns **Treat Yo Self**. Garages and homes come through the Vice City Real Estate app from [Daily Driver](/walkthrough/daily-driver/) in Chapter 2.
+Spending $100,000 across shops earns **Treat Yo Self**. The [shop locations guide](/guides/shops/) lists every Ammu-Nation, mod shop and Pay 'n' Spray by county. Garages and homes come through the Vice City Real Estate app from [Daily Driver](/walkthrough/daily-driver/) in Chapter 2.

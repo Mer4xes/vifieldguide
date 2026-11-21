@@ -1,0 +1,584 @@
+{
+ "updated": "2026-11-21",
+ "counties": [
+  {
+   "id": "mariana",
+   "n": "Mariana County"
+  },
+  {
+   "id": "vicedale",
+   "n": "Vice City and Vice-Dale",
+   "long": "Vice-Dale County (Vice City, Vice Beach and around)"
+  },
+  {
+   "id": "leonard",
+   "n": "Leonard County"
+  },
+  {
+   "id": "kelly",
+   "n": "Kelly County"
+  },
+  {
+   "id": "lummox",
+   "n": "Lummox County"
+  }
+ ],
+ "types": [
+  {
+   "id": "ammu-nation",
+   "n": "Ammu-Nation gun stores",
+   "short": "Ammu-Nation",
+   "items": [
+    {
+     "n": 1,
+     "id": "barrage-gun-supply",
+     "name": "Barrage Gun Supply",
+     "county": "mariana",
+     "kind": "Standard",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "chucks-tackle-shot",
+     "name": "Chuck's Tackle & Shot",
+     "county": "mariana",
+     "kind": "Limited",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "guns-aplenty",
+     "name": "Guns Aplenty!",
+     "county": "mariana",
+     "kind": "Hunting",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 4,
+     "id": "richardson-hunting-supplies",
+     "name": "Richardson Hunting Supplies",
+     "county": "mariana",
+     "kind": "Standard",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 5,
+     "id": "woodhatch",
+     "name": "Woodhatch",
+     "county": "mariana",
+     "kind": "Expanded",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 6,
+     "id": "big-shots",
+     "name": "Big Shots",
+     "county": "vicedale",
+     "kind": "Expanded",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "hamlet-traders",
+     "name": "Hamlet Traders",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "phils-ammu-nation",
+     "name": "Phil's Ammu-Nation",
+     "county": "vicedale",
+     "kind": "Expanded",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "tequesta-guns-ammo",
+     "name": "Tequesta Guns & Ammo",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "vice-city-firearms",
+     "name": "Vice City Firearms",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "martez-empenos",
+     "name": "Martez Empenos",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "jackson-firearms",
+     "name": "Jackson Firearms",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "vice-city-gun-pawn",
+     "name": "Vice City Gun & Pawn",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "pawn-gun-crosstown",
+     "name": "Pawn & Gun (Crosstown)",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "quickscope",
+     "name": "Quickscope",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "black-eagle",
+     "name": "Black Eagle",
+     "county": "vicedale",
+     "kind": "Expanded",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 17,
+     "id": "zenons-pawn-shop",
+     "name": "Zenon's Pawn Shop",
+     "county": "vicedale",
+     "kind": "Standard",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 18,
+     "id": "iron-oak",
+     "name": "Iron & Oak",
+     "county": "vicedale",
+     "kind": "Expanded",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 19,
+     "id": "prestige-firearms",
+     "name": "Prestige Firearms",
+     "county": "vicedale",
+     "kind": "Expanded",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 20,
+     "id": "tactical-outlet-guns",
+     "name": "Tactical Outlet Guns",
+     "county": "leonard",
+     "kind": "Standard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 21,
+     "id": "pawn-gun-port-gellhorn",
+     "name": "Pawn & Gun (Port Gellhorn)",
+     "county": "kelly",
+     "kind": "Standard",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 22,
+     "id": "gellhorn-outfitters",
+     "name": "Gellhorn Outfitters",
+     "county": "kelly",
+     "kind": "Standard",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 23,
+     "id": "biffs-gun-supply",
+     "name": "Biff's Gun Supply",
+     "county": "kelly",
+     "kind": "Standard",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 24,
+     "id": "rusty-willis-jr-hunting-supplies",
+     "name": "Rusty Willis Jr. Hunting Supplies",
+     "county": "lummox",
+     "kind": "Hunting",
+     "cn": "Lummox County"
+    }
+   ]
+  },
+  {
+   "id": "mod-shops",
+   "n": "Mod shops",
+   "short": "Mod shop",
+   "items": [
+    {
+     "n": 1,
+     "id": "coastal-auto-care",
+     "name": "Coastal Auto Care",
+     "county": "mariana",
+     "kind": "Retro",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "capri-classic",
+     "name": "Capri Classic",
+     "county": "mariana",
+     "kind": "Muscle cars",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "two-wheel-fury-motorsport",
+     "name": "Two Wheel Fury Motorsport",
+     "county": "vicedale",
+     "kind": "Sports bikes",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "euroform-automotive",
+     "name": "Euroform Automotive",
+     "county": "vicedale",
+     "kind": "Luxury cars",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "vice-auto-customs",
+     "name": "Vice Auto Customs",
+     "county": "vicedale",
+     "kind": "Tuners",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "lowballers-customs",
+     "name": "Lowballers Customs",
+     "county": "vicedale",
+     "kind": "Lowriders",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "rideout-customs",
+     "name": "Rideout Customs",
+     "county": "vicedale",
+     "kind": "Donks, custom rims and interiors",
+     "ue": true,
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "vice-vinyl",
+     "name": "Vice Vinyl",
+     "county": "vicedale",
+     "kind": "Custom vinyl wraps",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "stockyard-speedshop",
+     "name": "Stockyard Speedshop",
+     "county": "vicedale",
+     "kind": "Hot rods",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "whisler-motorsport",
+     "name": "Whisler Motorsport",
+     "county": "kelly",
+     "kind": "Racing cars",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 11,
+     "id": "dirt-merchants",
+     "name": "Dirt Merchants",
+     "county": "kelly",
+     "kind": "Dirt bikes",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 12,
+     "id": "wasteland-off-road",
+     "name": "Wasteland Off-Road",
+     "county": "kelly",
+     "kind": "Off-road cars",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 13,
+     "id": "one-eyed-willies-auto-shop",
+     "name": "One-Eyed Willie's Auto Shop",
+     "county": "leonard",
+     "kind": "Off-road, hand-painted liveries",
+     "ue": true,
+     "cn": "Leonard County"
+    },
+    {
+     "n": 14,
+     "id": "ledford-motorcycle-workshop",
+     "name": "Ledford Motorcycle Workshop",
+     "county": "lummox",
+     "kind": "Choppers and classic American bikes",
+     "cn": "Lummox County"
+    }
+   ]
+  },
+  {
+   "id": "pay-n-spray",
+   "n": "Pay 'n' Spray",
+   "short": "Pay 'n' Spray",
+   "items": [
+    {
+     "n": 1,
+     "id": "southwind",
+     "name": "Pay 'n' Spray Southwind",
+     "area": "Southwind",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "key-lento",
+     "name": "Pay 'n' Spray Key Lento",
+     "area": "Key Lento",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "watson-bay",
+     "name": "Pay 'n' Spray Watson Bay",
+     "area": "Watson Bay",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 4,
+     "id": "grassrivers",
+     "name": "Pay 'n' Spray Grassrivers",
+     "area": "Grassrivers",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 5,
+     "id": "hamlet",
+     "name": "Pay 'n' Spray Hamlet",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "salton",
+     "name": "Pay 'n' Spray Salton",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "west-vice-dale-county",
+     "name": "Pay 'n' Spray West Vice-Dale County",
+     "area": "West Vice-Dale County",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "downtown",
+     "name": "Pay 'n' Spray Downtown",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "balsero",
+     "name": "Pay 'n' Spray Balsero",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "la-perle",
+     "name": "Pay 'n' Spray La Perle",
+     "area": "La Perle",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "stockyard",
+     "name": "Pay 'n' Spray Stockyard",
+     "area": "Stockyard",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "waxman-island",
+     "name": "Pay 'n' Spray Waxman Island",
+     "area": "Waxman Island",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "ocean-beach",
+     "name": "Pay 'n' Spray Ocean Beach",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "washington-beach",
+     "name": "Pay 'n' Spray Washington Beach",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "waning-sands",
+     "name": "Pay 'n' Spray Waning Sands",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 16,
+     "id": "port-gellhorn",
+     "name": "Pay 'n' Spray Port Gellhorn",
+     "area": "Port Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 17,
+     "id": "ambrosia",
+     "name": "Pay 'n' Spray Ambrosia",
+     "area": "Ambrosia",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 18,
+     "id": "grayson",
+     "name": "Pay 'n' Spray Grayson",
+     "area": "Grayson",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 19,
+     "id": "millport",
+     "name": "Pay 'n' Spray Millport",
+     "area": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    }
+   ]
+  },
+  {
+   "id": "car-washes",
+   "n": "Car washes",
+   "short": "Car wash",
+   "items": [
+    {
+     "n": 1,
+     "id": "ron-car-wash-salton",
+     "name": "RON Car Wash",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 2,
+     "id": "park-n-glow-x",
+     "name": "Park N Glow",
+     "area": "",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 3,
+     "id": "ron-car-wash-balsero",
+     "name": "RON Car Wash",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "xero-car-wash-southside",
+     "name": "Xero Car Wash",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "xero-car-wash-la-perle",
+     "name": "Xero Car Wash",
+     "area": "La Perle",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "ron-car-wash-bayside",
+     "name": "RON Car Wash",
+     "area": "Bayside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 All Ammu-Nation Gun Stores Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+   "note": "Read Nov 21, 2026 via ?p=371141. 24 stores, names, county, map icon type (Limited, Standard, Hunting, Expanded; Expanded has LMG, sniper, grenade and rocket launchers). Each sells a unique weapon variant. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Mod Shops Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+   "note": "Read Nov 21, 2026 via ?p=371137. 14 shops, county, speciality; Rideout Customs and One-Eyed Willie's Ultimate Edition only (matches editionItems.json from Rockstar). Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Pay 'n' Spray Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+   "note": "Read Nov 21, 2026 via ?p=371138. 19 locations, county and area labels. Repair + respray, police lose the car. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Car Washes Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+   "note": "Read Nov 21, 2026 via ?p=371140. 6 car washes, all in Vice City; optional; repairing also cleans the car. Park N Glow has no area label. Trusted source."
+  }
+ ]
+}

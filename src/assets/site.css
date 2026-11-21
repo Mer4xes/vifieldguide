@@ -1066,3 +1066,21 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .wt-filters{align-items:center;margin-top:0}
 .wt-filters-k{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:4px}
 .wt-filters-note{color:var(--muted);font-size:.92rem;margin:10px 0 22px;max-width:68ch}
+
+/* Shops guide: Ammu-Nation, mod shops, Pay 'n' Spray, car washes (Nov 21) */
+.shop-what{display:grid;gap:12px;margin-top:14px}
+@media(min-width:760px){.shop-what{grid-template-columns:1fr 1fr}}
+.shop-what-c{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.prose .shop-what-c h3,.shop-what-c h3{margin:0 0 6px;font-size:17px}
+.prose .shop-what-c p,.shop-what-c p{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.shop-what-c .shop-ch{margin:0;font-size:13.5px;color:var(--faint)}
+.shop-sec{scroll-margin-top:90px}
+.shop-list{display:grid;gap:8px;margin-top:10px}
+@media(min-width:760px){.shop-list{grid-template-columns:1fr 1fr}}
+.shop{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 14px;scroll-margin-top:90px}
+.shop:target{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.shop-n{font-family:var(--mono);font-size:12px;color:var(--cyan);padding-top:3px;font-variant-numeric:tabular-nums}
+.shop-name{font-weight:700;font-size:15.5px}
+.shop-meta{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:3px;font-size:13.5px;color:var(--muted)}
+.shop-meta .shop-county{color:var(--faint)}
+.shop-meta .chip{font-size:9.5px}

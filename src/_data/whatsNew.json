@@ -2,9 +2,17 @@
   {
     "date": "2026-11-21",
     "tag": "New guide",
+    "title": "Every gun store and mod shop",
+    "text": "All 24 Ammu-Nations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, by county.",
+    "cta": "Find a shop",
+    "url": "/guides/shops/",
+    "img": "/assets/img/misc/act-carmeet.webp"
+  },
+  {
+    "date": "2026-11-21",
+    "tag": "New guide",
     "title": "Every gang operation",
     "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
-    "cta": "See the list",
     "url": "/guides/gang-operations/",
     "img": "/assets/img/art/jl-robbery.webp"
   },
@@ -55,13 +63,5 @@
     "text": "Every unique weapon, car, payout and unlock, with the mission it comes from.",
     "url": "/guides/mission-rewards/",
     "img": "/assets/img/art/jl-lock-and-load.webp"
-  },
-  {
-    "date": "2026-11-20",
-    "tag": "New guide",
-    "title": "Money guide",
-    "text": "What pays best in each chapter, and how to keep your cash.",
-    "url": "/guides/money/",
-    "img": "/assets/img/gal/vice-city-09.webp"
   }
 ]
