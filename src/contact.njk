@@ -1,0 +1,96 @@
+---
+layout: layouts/page.njk
+title: Contact
+headline: Get in Touch
+kicker: Contact
+seoTitle: "Contact The VI Field Guide: Report a Mistake or Send a Tip"
+description: "Spotted a mistake in the GTA 6 guide, or know something we are missing? Send a message to The VI Field Guide."
+summary: Found a mistake, know where a missing collectible is, or something on the site does not work? Tell us here. Every message is read.
+permalink: /contact/
+updated: 2026-11-21
+---
+{%- if site.contact and site.contact.turnstileSiteKey %}
+<form class="cform" id="cform" novalidate>
+  <div class="cf-row">
+    <label for="cf-topic">What is it about?</label>
+    <select id="cf-topic" name="topic">
+      <option value="mistake">Mistake in the guide</option>
+      <option value="tip">Tip or missing info</option>
+      <option value="site">Problem with the site</option>
+      <option value="other">Something else</option>
+    </select>
+  </div>
+  <div class="cf-row">
+    <label for="cf-page">Which page? <span>optional</span></label>
+    <input id="cf-page" name="page" type="text" maxlength="300" placeholder="/walkthrough/gone-fishing/" autocomplete="off">
+  </div>
+  <div class="cf-row">
+    <label for="cf-message">Message</label>
+    <textarea id="cf-message" name="message" rows="7" maxlength="5000" required placeholder="What is wrong, or what should we add? Mission step, location, platform: the more detail, the quicker we can fix it."></textarea>
+  </div>
+  <div class="cf-two">
+    <div class="cf-row">
+      <label for="cf-name">Name <span>optional</span></label>
+      <input id="cf-name" name="name" type="text" maxlength="80" autocomplete="name">
+    </div>
+    <div class="cf-row">
+      <label for="cf-email">Email <span>optional, only if you want a reply</span></label>
+      <input id="cf-email" name="email" type="email" maxlength="200" autocomplete="email">
+    </div>
+  </div>
+  <div class="cf-hp" aria-hidden="true"><label for="cf-website">Leave this empty</label><input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+  <div class="cf-turnstile cf-ts" data-sitekey="{{ site.contact.turnstileSiteKey }}" data-theme="dark"></div>
+  <div class="cf-send">
+    <button class="btn primary" type="submit">Send message</button>
+    <p class="cf-status" role="status" aria-live="polite"></p>
+  </div>
+  <p class="cf-privacy">Your message goes straight to our inbox and is not stored on this site. Your email address is only used to reply to you. The spam check is Cloudflare Turnstile.</p>
+</form>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=vfgTs&render=explicit" async defer></script>
+<script>
+(function () {
+  var form = document.getElementById("cform");
+  var status = form.querySelector(".cf-status");
+  var button = form.querySelector("button[type=submit]");
+  var widget = null;
+  window.vfgTs = function () {
+    widget = turnstile.render(form.querySelector(".cf-ts"), { sitekey: form.querySelector(".cf-ts").getAttribute("data-sitekey"), theme: "dark" });
+  };
+  try {
+    var q = new URLSearchParams(location.search);
+    if (q.get("page")) form.page.value = q.get("page").slice(0, 300);
+    if (q.get("topic") && form.topic.querySelector('option[value="' + q.get("topic") + '"]')) form.topic.value = q.get("topic");
+  } catch (e) {}
+  function say(text, kind) { status.textContent = text; status.className = "cf-status" + (kind ? " is-" + kind : ""); }
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (form.message.value.trim().length < 5) { say("Please write a message first.", "err"); form.message.focus(); return; }
+    if (form.email.value && !form.email.checkValidity()) { say("That email address does not look right.", "err"); form.email.focus(); return; }
+    var token = window.turnstile && widget !== null ? turnstile.getResponse(widget) : "";
+    if (!token) { say("Please wait for the spam check to finish, then send again.", "err"); return; }
+    button.disabled = true; say("Sending…");
+    fetch("{{ site.contact.endpoint }}", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ topic: form.topic.value, page: form.page.value, message: form.message.value, name: form.name.value, email: form.email.value, website: form.website.value, token: token })
+    }).then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+      .then(function (res) {
+        if (res.ok) { form.reset(); say("Thanks! Your message is on its way.", "ok"); }
+        else if (res.error === "captcha") say("The spam check failed. Please try again.", "err");
+        else say("Sorry, that did not go through. Please try again in a minute.", "err");
+      })
+      .catch(function () { say("Sorry, that did not go through. Check your connection and try again.", "err"); })
+      .then(function () { button.disabled = false; if (window.turnstile && widget !== null) turnstile.reset(widget); });
+  });
+})();
+</script>
+{%- else %}
+<p>The contact form is being set up and will be here shortly.</p>
+{%- endif %}
+
+<h2>Before you write</h2>
+<ul>
+  <li><strong>Spoilers:</strong> if your tip is about the story, say so at the top and we will keep it inside a spoiler block.</li>
+  <li><strong>Collectible locations:</strong> the area name and a nearby landmark help most.</li>
+  <li><strong>Progress lost?</strong> Ticks are saved in your browser only. Clearing browser data or switching device starts the lists fresh, and we cannot restore them.</li>
+</ul>

@@ -1041,3 +1041,23 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 
 /* Kitty Litter lab tracker: keep the payout visible on phones */
 @media(max-width:520px){.chal-list.lab-list .tr{grid-template-columns:22px minmax(0,1fr) auto}.chal-list.lab-list .side{display:flex}}
+
+/* contact form */
+.cform{display:grid;gap:16px;max-width:680px;margin-top:6px}
+.cf-row{display:grid;gap:6px;min-width:0}
+.cf-row label{font-weight:700;font-size:14px}
+.cf-row label span{font-weight:400;color:var(--faint);font-size:12.5px;margin-left:4px}
+.cform input,.cform select,.cform textarea{width:100%;font:inherit;font-size:15px;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+.cform textarea{resize:vertical;min-height:150px;line-height:1.5}
+.cform input:focus,.cform select:focus,.cform textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px rgba(39,226,212,.18)}
+.cf-two{display:grid;gap:16px}
+@media(min-width:640px){.cf-two{grid-template-columns:1fr 1fr}}
+.cf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.cf-ts{min-height:65px}
+.cf-send{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.cf-send .btn:disabled{opacity:.6;cursor:wait}
+.cf-status{font-size:14.5px;color:var(--muted);margin:0}
+.cf-status.is-ok{color:var(--cyan);font-weight:700}
+.cf-status.is-err{color:var(--gold);font-weight:700}
+.cf-privacy{font-size:13px;color:var(--faint);margin:0}
+.report-link{font-size:14px;margin-top:6px}

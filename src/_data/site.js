@@ -21,6 +21,10 @@ export default {
   // Shown on the About page when filled in.
   contactEmail: "",
 
+  // Contact form at /contact/. The Worker in workers/contact/ takes the post
+  // and emails it to the site's Gmail. Empty site key = form not shown yet.
+  contact: { endpoint: "/api/contact", turnstileSiteKey: "0x4AAAAAAGL-WAzSizU7-yj5" },
+
   // Voluntary donation link (Ko-fi, Buy Me a Coffee or similar). Shown in the
   // footer and on the About page once url is filled in. A plain link: no
   // widget or third-party script is loaded.

@@ -1,0 +1,11 @@
+# Deployed from the Cloudflare dashboard (Workers & Pages > vifieldguide-contact).
+# Kept here as the record of its settings. To deploy from a machine with wrangler:
+#   npx wrangler deploy   (then: npx wrangler secret put TURNSTILE_SECRET)
+name = "vifieldguide-contact"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = false  # turned off in the dashboard Nov 21
+routes = [{ pattern = "vifieldguide.com/api/contact", zone_name = "vifieldguide.com" }]
+
+[[send_email]]
+name = "MAIL"
