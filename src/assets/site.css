@@ -1032,3 +1032,9 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .gangop-list .chal-h{grid-column:1/-1}
 .gangop-list .tr{align-items:center}
 @media(max-width:640px){.gangop-list{grid-template-columns:minmax(0,1fr)}}
+
+/* Side contacts: jump row to each strand */
+.strand-jump{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:18px 0 6px}
+.strand-jump .lab{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.strand-jump .chip{text-decoration:none}
+.strand-jump .chip:hover{color:var(--cyan)}

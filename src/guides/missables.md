@@ -8,7 +8,7 @@ summary: The short list of things that disappear for good, sorted by the chapter
 order: 2
 glow: pink
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-21
 facts:
   - { k: Missable for 100%, v: "Nothing", status: Reported }
   - { k: Mission replay, v: "None", status: Reported }
@@ -26,18 +26,23 @@ faq:
     a: "The ones inside homes you leave: five magazines at Jason's house (Chapter 1), two magazines and two collectible cards at the Starlet Motel (Chapter 2) and two magazines at the Bayside apartment (Chapter 3). The balcony meditation at Jason's house may also be gone after Chapter 1."
   - q: "Do you lose your money at the end of Chapter 1?"
     a: "You lose the cash you carry. Bank it before Recalibration, ideally at least $5,000 in Family Savings."
+  - q: "What is missable in Chapter 4 of GTA 6?"
+    a: "Two optional jobs: This Is a Free Call From…, which is Lucia only and limited-time, and Bad Driver!, which Andrea gives you after Party Hard and which is gone once Power Play starts."
   - q: "Can you replay missions in GTA 6?"
     a: "No. Keep manual saves at the start and end of each chapter in slots you don't overwrite. There are 15."
 sources:
   - label: "Built from our own pages"
     note: "Every line on this page comes from data already on the site and recorded there: route100.json (limited items, PowerPyx 100% checklist, game-checklists missables, PowerPyx collectible pages), collectibles.json (missable fields), storyMissions.json (chapter warnings) and mission front matter (missables, prep). No new facts added Nov 20, 2026."
+  - label: "PowerPyx: Bad Driver! (Find Felipe)"
+    url: "https://www.powerpyx.com/gta-6-bad-driver-find-felipe-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=369829). Optional, Chapter 4, Andrea, Jason or Lucia, after Party Hard; Lummox County > Millport bar; missable, unavailable once Power Play starts; kill Felipe $20,000 from Andrea, spare him and he starts Collect Felipe's Gift (his vehicle)."
 ---
 {%- set skip = ["read-remote", "pool-delights", "bank-ch2"] %}
 {%- set kinds = {
   "magazines-books-comics": "Magazine",
   "collectible-cards": "Card",
   "meditation-spots": "Meditation",
-  "shirley-rum": "Optional job", "shirley-scooter": "Optional job", "yago-3": "Optional job", "free-call": "Optional job",
+  "shirley-rum": "Optional job", "shirley-scooter": "Optional job", "yago-3": "Optional job", "free-call": "Optional job", "bad-driver": "Optional job",
   "donnie-38": "Weapon", "bank-ch1": "Cash", "bank-ch2": "Cash", "motel": "Home",
   "pool-delights": "Activity", "halifax": "Choice"
 } %}

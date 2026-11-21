@@ -629,7 +629,7 @@
       {
        "k": "andy-start",
        "tag": "side",
-       "t": "**Andy's strand.** Lucia only. During the chapter Andy calls her, then texts his address in Belville. Five jobs: Climbing the Cellerichain, Pay the Cellerica Fee, Peach!, Read the Label, Puff Puff Pass."
+       "t": "**Andy's strand.** Lucia only. During the chapter Andy calls her, then texts an address in Belville. Five jobs: Climbing the Cellerichain, Pay the Cellerica Fee ($5,000, paid back at the end), Peach!, Read the Label, Puff Puff Pass. [Andy's jobs](/guides/side-contacts/#andy)."
       },
       {
        "k": "belville",
@@ -931,7 +931,7 @@
       {
        "k": "pete",
        "tag": "side",
-       "t": "**Pilot Pete.** His flying jobs (The Last Mile, then Pete's Deliveries) count toward Strangers & Freaks. Take them when he turns up."
+       "t": "**Pilot Pete.** Jason only. He calls early in the chapter. Passing the Torch, Backseat Pilot, then three timed Pete's Deliveries; they count toward Strangers & Freaks. [Pete's jobs](/guides/side-contacts/#pete)."
       }
      ]
     },
@@ -952,6 +952,11 @@
       },
       {
        "m": 66
+      },
+      {
+       "k": "bad-driver",
+       "tag": "limited",
+       "t": "**Bad Driver!** Optional. Andrea calls about Felipe after Party Hard; he's at a bar in Millport, Lummox County. Gone for good once Power Play starts."
       },
       {
        "m": 67
@@ -1459,7 +1464,7 @@
       {
        "k": "fr-billy",
        "tag": "side",
-       "t": "**Billy:** The Impaler, Hometown Heroes and whatever follows."
+       "t": "**Billy:** The Impaler, then Hometown Heroes (Jason and Lucia together), which ends the strand. [Billy's jobs](/guides/side-contacts/#billy)."
       },
       {
        "k": "fr-strands",

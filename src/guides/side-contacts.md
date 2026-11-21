@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-21
 facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
   - { k: Contact trophies, v: "7", status: Confirmed }
@@ -31,6 +31,14 @@ faq:
     a: "Read one of Kyle's flyers on the wall outside the Starlet Motel reception in Chapter 2. His first job, Check Out McKittrick Farm, then shows on the map."
   - q: "How do you start Eddie Acosta's party in GTA 6?"
     a: "Meet Eddie at the Y Hotel in Ocean Beach during the Chapter 4 story. A few in-game days later he texts an invite to a party in Heathcliff Heights. Go alone, as Jason or Lucia. It is a one-off side job and doesn't count toward Strangers & Freaks."
+  - q: "What is the safe code in Passing the Torch in GTA 6?"
+    a: "3718. The safe is in the back room of the hangar at the Sundown Private Airfield, behind the red door, next to Pete's KZ-59 assault rifle."
+  - q: "How do you start Pilot Pete's missions in GTA 6?"
+    a: "Pete phones Jason early in Chapter 4. His first job, The Last Mile: Passing the Torch, starts at the Sundown Private Airfield in Leonard County. The strand is Jason only and counts toward Strangers & Freaks."
+  - q: "How do you start Andy's missions in GTA 6?"
+    a: "Play as Lucia in Chapter 3. After Mami Knows Best and Car Service, Andy calls and then texts an address in Belville. The five jobs end with Puff Puff Pass, which unlocks Road to Rehabilitation."
+  - q: "How do you unlock The Lone Rider in GTA 6?"
+    a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
   - label: "DayOne: all contacts in GTA 6"
     url: "https://playday.one/2026/11/18/all-contacts-in-gta-6/"
@@ -74,6 +82,15 @@ sources:
   - label: "PowerPyx: Attend Eddie Acosta's Party"
     url: "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/"
     note: "Chapter 4 one-off, Y Hotel, solo, $50,000 demand, rooftop escape, not a Strangers & Freaks strand. Nov 18, 2026. Trusted source."
+  - label: "PowerPyx: Pilot Pete's strand"
+    url: "https://www.powerpyx.com/gta-6-the-last-mile-passing-the-torch-recover-petes-plane-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=372374, 372375, 372376). Also /gta-6-the-last-mile-backseat-pilot-deliver-packages-walkthrough/ and /gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/. Jason only, Chapter 4, call from Pete early in the chapter. Passing the Torch: Leonard County > Sundown Private Airfield, red door, KZ-59 rifle, safe 3718, 3 drops (X/A), land south of Port Gellhorn, $12,000. Backseat Pilot: text ~half a day later, seaplane, land by supplier, 7 drops in 2 hours, back to hangar, $20,000 only if in time. Pete's Deliveries: two at once in any order (Mariana County field with gunfight, by 20:00; Avery Allen & Co. Kelly County seaplane, by 14:00), third a couple of days later in Leonard County (by 08:00), $20,000 each, counts toward Strangers & Freaks. Left out: Backseat Pilot start airfield (page names both Wild Hog and Gellhorn) and the Mariana airfield name (spelled two ways)."
+  - label: "PowerPyx: Billy's strand (Mall Rats, The Impaler, Hometown Heroes)"
+    url: "https://www.powerpyx.com/gta-6-mall-rats-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=372109, 372110, 372111). Also /gta-6-the-impaler-steal-the-impaler-walkthrough/ and /gta-6-hometown-heroes-walkthrough/. Order Thrillbillies > Twist Wrist > Mall Rats > The Impaler > Hometown Heroes. Mall Rats: solo, Ch3, Ocean Beach behind the Malibu, mall jewelry store, safe by explosive or Billy gets the code, van, $12,000. Impaler: Billy calls, Wyman texts, reply; Ambrosia Police Impound, only black-and-white car, gate button left, 3 stars, train tunnel, park in tunnel, no reward. Hometown Heroes: both leads, Mud Club, $10,000, The Lone Rider, doesn't count toward S&F; spoiler (Final Chapter gang, Ricky, Ian, Sara). Left out: the safe code from Mall Rats (the author's own, may vary)."
+  - label: "PowerPyx: Andy's strand (Cellerica)"
+    url: "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/"
+    note: "Read Nov 21, 2026 (via ?p=372471, 372508, 372472, 372473, 372474). Also /gta-6-pay-the-cellerica-fee-walkthrough/, /gta-6-peach-join-the-cellerica-initiation-walkthrough/, /gta-6-read-the-label-retrieve-the-cellerica-van-walkthrough/, /gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/. Lucia only, Ch3, after Mami Knows Best and Car Service. Fee $5,000 via BuckMe, returned at the end. Read the Label $1,800. Puff Puff Pass $10,000 + Road to Rehabilitation. Spoilers as written. Left out: Peach! 'defuse' choice wording (unclear), Puff Puff Pass header location (contradicts body)."
 ---
 
 > **Note:** First pass. Contacts, jobs and payouts come from trusted guides and are not yet checked in our own game. Step-by-step guides for each strand follow as we write them.
@@ -90,12 +107,14 @@ sources:
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
 | **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/) | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
-| **Pete Wozniak** (Pilot Pete) | Jobs flying drug drops | Side contact | |
-| **Andy** | Side strand | Side contact | Road to Rehabilitation (hidden) |
-| **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) | The Lone Rider (hidden) |
+| **Pete Wozniak** (Pilot Pete) | Flies drug drops; hands his plane over to Jason | Chapter 4, a phone call to Jason early in the chapter ([his jobs](#pete)) | Counts toward Strangers & Freaks |
+| **Andy** | Cellerica, a wellness group selling vape sticks | Chapter 3, a call to Lucia, then an address in Belville ([the jobs](#andy)) | Road to Rehabilitation (hidden) |
+| **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) ([his jobs](#billy)) | The Lone Rider (hidden) |
 | **Kyle** | Farmer with a crop duster at McKittrick Farm | Chapter 2, a flyer outside the Starlet Motel reception ([his jobs](#kyle)) | Counts toward Strangers & Freaks |
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
+
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["billy","Billy"],["kyle","Kyle"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
@@ -103,12 +122,15 @@ The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands fo
 
 <h2 id="billy">Billy and the Thrillbilly crew</h2>
 
-Billy runs a dirt-bike crew out of the Thrillbilly Mud Club. Either lead can do his jobs.
+Billy runs a dirt-bike crew out of the Thrillbilly Mud Club. There are five jobs, and either lead can take them, with two exceptions: **Mall Rats** has to be done alone, and **Hometown Heroes** pulls in both Jason and Lucia. Billy's strand doesn't count toward **Strangers & Freaks**; its last job earns **The Lone Rider** instead.
 
 <ol class="strand">
-<li><div class="strand-h"><a href="/walkthrough/thrillbillies/">Thrillbillies</a></div><span class="strand-pay">Up to $2,500</span><p>Opens during <a href="/walkthrough/coffee-break/">Coffee Break</a>. Buy outfits, rent a bike and race one of Billy's crew. Just don't finish last.</p></li>
-<li><div class="strand-h"><a href="/walkthrough/twist-wrist-smash-grab/">Twist Wrist, Smash, Grab</a></div><span class="strand-pay">$2,000</span><p>Billy texts a few in-game hours later. Chase down an armoured van in Port Gellhorn and keep the Sanchez.</p></li>
-<li><div class="strand-h">Mall Rats, The Impaler, Hometown Heroes</div><p>His next three jobs, in that order. Guides follow.</p></li>
+<li><div class="strand-h"><a href="/walkthrough/thrillbillies/">Thrillbillies</a> <span class="chip plain">Chapter 2</span></div><span class="strand-pay">Up to $2,500</span><p>Opens during <a href="/walkthrough/coffee-break/">Coffee Break</a>. Buy outfits, rent a bike and race one of Billy's crew. Just don't finish last.</p></li>
+<li><div class="strand-h"><a href="/walkthrough/twist-wrist-smash-grab/">Twist Wrist, Smash, Grab</a> <span class="chip plain">Chapter 2</span></div><span class="strand-pay">$2,000</span><p>Billy texts a few in-game hours later. Chase down an armoured van in Port Gellhorn and keep the Sanchez.</p></li>
+<li><div class="strand-h">Mall Rats <span class="chip plain">Chapter 3</span> <span class="flag">Solo</span></div><span class="strand-pay">$12,000</span><p>Billy gets back in touch well into Chapter 3, so expect a long gap. The marker is behind the Malibu in Ocean Beach. You ride with the crew through a car park and straight through a shopping mall to a jewelry store. Smash the cases, then open the safe in the back, either with an explosive or by waiting while Billy gets the code out of the staff. Stay on Billy's tail through the police chase and ride up into the back of the waiting van to finish.</p></li>
+<li><div class="strand-h">The Impaler <span class="chip plain">Chapter 3</span></div><span class="strand-pay">No cash</span><p>A few in-game days later Billy calls and Wyman texts; answer Wyman to put the job on the map. Climb into the police impound in Ambrosia and take the one black-and-white police car at the back, dealing with the two officers by it. The button to open the gate is on the left. You leave with three stars: follow the railway into the train tunnel, where the police won't follow. Then drive carefully to the drop-off and leave the car in the tunnel there.</p></li>
+<li><div class="strand-h">Hometown Heroes <span class="chip plain">Chapter 3</span> <span class="flag">Jason &amp; Lucia</span></div><span class="strand-pay">$10,000</span><p>Billy texts a few in-game days after The Impaler. It starts at the Mud Club. Jason takes the stolen police car onto the raceway and rams the racers, then Lucia rides with Billy to the race office, where there's a small open safe to empty. A fight follows as Lucia; later, as Jason, you drive to a sugar factory, fight your way upstairs to Lucia and get out on anything with wheels. Finishing it unlocks <b>The Lone Rider</b>.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">How Billy's strand ends</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>A rival gang, the Final Chapter, is waiting. Ricky is taken hostage and killed, Ian dies in the shootout and Sara doesn't make it out of the factory. Billy is left at a gas station and you walk off with $10,000 of the money.</p></div></details></li>
 </ol>
 
 <h2 id="kyle">Kyle and McKittrick Farm</h2>
@@ -136,6 +158,21 @@ Yago's strand is for Jason only and runs through Chapter 3 in Vice City. Each jo
 <details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">How the strand ends</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Yago turns out to be an undercover cop who chose not to arrest Jason. His car flips at the end of the chase, and you get to try to save him or leave him. He dies either way.</p></div></details></li>
 </ol>
 
+<h2 id="andy">Andy and Cellerica</h2>
+
+Andy is part of **Cellerica**, a wellness group with a compound in Belville and a line of vape sticks called Manifesticks. The strand is for **Lucia only**: in Chapter 3, once Lucia has done [Mami Knows Best](/walkthrough/mami-knows-best/) and [Car Service](/walkthrough/car-service/), Andy phones her and then texts an address in Belville, which puts the first job on the map. There are five jobs, and between most of them you have to wait for a call or a text while you play other Lucia missions. Andy's strand doesn't count toward **Strangers & Freaks**; the last job earns **Road to Rehabilitation**.
+
+<ol class="strand">
+<li><div class="strand-h">Climbing the Cellerichain <span class="chip plain">Three deliveries</span></div><span class="strand-pay">Cap and a Manifestick</span><p><b>1:</b> At Andy's house, take the welcome kit off the kitchen counter, drive the package to a house in Waning Sands and leave it on the table in the back garden. <b>2:</b> Take the photo Andy asks for with your phone, then carry the next package to the Cellerica stall in the north of Vice City and put it on the table. <b>3:</b> The last package is in Andy's garage. Take it to a house in Ambrosia and knock. Someone tries to talk you out of the package on the doorstep; just say no and he leaves. Put it in the garage when the owner opens it.</p></li>
+<li><div class="strand-h">Pay the Cellerica Fee</div><span class="strand-pay">Costs $5,000</span><p>A message from Andy, no location. Open the BuckMe app and send Andy the $5,000. You get it back at the end of the strand.</p></li>
+<li><div class="strand-h">Peach!</div><span class="strand-pay">No cash</span><p>Andy texts again. Sit on the bench at the marker in Belville and Andy turns up. Follow Andy round the compound, change in the room behind the white side door and go through the initiation. You can take the vape sticks or turn them down; the strand carries on either way. Afterwards you ride to Cecilia's mansion by golf cart, where only Lucia is let in. Sit on the sofa in the lobby, then head back out to Andy.</p></li>
+<li><div class="strand-h">Read the Label</div><span class="strand-pay">$1,800</span><p>Cecilia gets in touch after a while. In the north of Vice City, knock out the two people by the Cellerica van, drive it the short way to the warehouse in Belville and park in the yellow marker.</p></li>
+<li><div class="strand-h">Puff Puff Pass</div><span class="strand-pay">$10,000</span><p>The last call takes a while to come. At the warehouse in Belville, stay close to Felix, Cecilia's butler, as he leads you upstairs, then fight your way out of the building. Take any car outside to Cecilia's mansion; in the lobby go through the right-hand door, up the stairs and to the door at the end of the hall. Finishing it unlocks <b>Road to Rehabilitation</b>, and Andy pays the fee back.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">What Cellerica really is</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>The Manifesticks are laced with crack, and Cecilia has been using AI to fake her video calls. Andy is being held at the warehouse and the people there turn on you. The strand ends in a shootout with Cecilia at the mansion. Afterwards Andy and Bailey decide to keep selling, but to wean the users off slowly.</p></div></details></li>
+</ol>
+
+> **Tip:** While you're at Andy's, the row of houses just west of it has collectibles inside houses you can break into. See the [Leonard County checklist](/collectibles/area/leonard-county/).
+
 <h2 id="yasmani">Yasmani's jewelry jobs</h2>
 
 After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in touch from his shop on Ocean Beach. He wants one piece from each of three stores, in any order, and Jason or Lucia can do it. Each piece is in a safe; destroy the security footage before you leave. Bring everything back to his shop to finish.
@@ -149,6 +186,18 @@ After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in tou
 > **Tip:** Hand the first piece in straight away. Yasmani gives you the **Snap Gun**, which opens doors without setting off the alarm, so the police take longer to arrive at the other two.
 
 The three pieces are worth $20,000 between them. Smash the display cases at the front for more; at the last two stores you can also slip out the back quietly instead. Jewelry stores count toward the Smash 'N' Grabs line in the [100% checklist](/guides/100-percent-checklist/).
+
+<h2 id="pete">Pilot Pete's flying jobs</h2>
+
+Pete is the pilot from [Company Property](/walkthrough/company-property/). Early in Chapter 4 he phones Jason and starts passing his flying jobs to him. All of it is **Jason only** and done by plane: you drop packages from the air over marked points, and from the second job on there's a clock. The strand counts toward **Strangers & Freaks**.
+
+> **Watch out:** Steer clear of the big red circles on the map while you fly. Going through one gives you a wanted level, and the time you lose shaking it can cost you the payment.
+
+<ol class="strand">
+<li><div class="strand-h">The Last Mile: Passing the Torch</div><span class="strand-pay">$12,000</span><p>Starts at the Sundown Private Airfield in Leonard County. In the hangar, go through the red door into the back room. Take <b>Pete's KZ-59 assault rifle</b> from the table and open the safe with <b>3718</b>. Fly Pete's plane over the three drop points and release a package over each (X / A). Land at the airstrip south of Port Gellhorn, park by the hangar and get out; Pete pays straight away.</p></li>
+<li><div class="strand-h">The Last Mile: Backseat Pilot <span class="flag">Timed</span></div><span class="strand-pay">$20,000</span><p>Pete texts about half a day later. Pick up the seaplane, land on the water next to the supplier, then drop seven packages before the two in-game hours run out. Fly the plane back to the hangar you took it from. Run out of time and you aren't paid.</p></li>
+<li><div class="strand-h">Pete's Deliveries <span class="flag">Timed</span></div><span class="strand-pay">$20,000 each</span><p>Pete then calls with two jobs at once, which you can do in either order. <b>Mariana County:</b> land on the field by the supplier, grab the bag while his men open fire (you don't need to fight) and take off again; seven drops by 20:00. <b>Avery Allen &amp; Co., Kelly County:</b> a seaplane run from the Kelly County airstrip; seven drops by 14:00. A couple of days after both are done, a third job starts in <b>Leonard County</b>: land in the field by the supplier, then seven drops by 08:00. That one ends the strand.</p></li>
+</ol>
 
 <h2 id="kenton">Kenton and the shipwrecks</h2>
 

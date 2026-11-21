@@ -10,6 +10,14 @@
   },
   {
     "date": "2026-11-21",
+    "tag": "Side jobs",
+    "title": "Three side strands, start to finish",
+    "text": "Billy's dirt-bike crew, Andy's Cellerica jobs and Pilot Pete's timed flights, every job in order.",
+    "url": "/guides/side-contacts/",
+    "img": "/assets/img/misc/act-offroad.webp"
+  },
+  {
+    "date": "2026-11-21",
     "tag": "New guide",
     "title": "Every cheat, unlocked",
     "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
@@ -55,13 +63,5 @@
     "text": "What pays best in each chapter, and how to keep your cash.",
     "url": "/guides/money/",
     "img": "/assets/img/gal/vice-city-09.webp"
-  },
-  {
-    "date": "2026-11-20",
-    "tag": "New guide",
-    "title": "Story choices",
-    "text": "What each option leads to, and which ones cost you rewards.",
-    "url": "/guides/story-choices/",
-    "img": "/assets/img/art/jl-beach.webp"
   }
 ]

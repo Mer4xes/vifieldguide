@@ -303,9 +303,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "Finish Andy's side strand.",
-   "link": "/guides/side-contacts/#contacts",
-   "linkLabel": "Side contacts"
+   "how": "Finish Andy's five Cellerica jobs as Lucia in Chapter 3. The last one is Puff Puff Pass.",
+   "link": "/guides/side-contacts/#andy",
+   "linkLabel": "Andy's jobs"
   },
   {
    "id": "this-was-no-boat-accident",
@@ -329,9 +329,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "Finish Billy's side strand.",
-   "link": "/guides/side-contacts/#contacts",
-   "linkLabel": "Side contacts"
+   "how": "Finish Billy's five jobs. The last one, Hometown Heroes in Chapter 3, needs both Jason and Lucia.",
+   "link": "/guides/side-contacts/#billy",
+   "linkLabel": "Billy's jobs"
   },
   {
    "id": "strangers-and-freaks",
