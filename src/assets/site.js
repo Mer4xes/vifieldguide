@@ -14,6 +14,7 @@
      [data-filter-group="x"] [data-filter] filter chips for [data-filter-list="x"] > [data-tags]
      [data-search="x"]                     text search over the same list (matches data-text)
      [data-filter-parent]                  inside a list: hidden when none of its [data-tags] rows show
+     [data-follow]                         inside a list: shown/hidden with the row before it
      [data-progress-in="#id"]              ticked / all checkboxes inside #id
      [data-cd="d|h|m|s"]                   countdown digits to <html data-launch>            */
 (function () {
@@ -128,6 +129,12 @@
       var okText = !query || text.indexOf(query) !== -1;
       item.hidden = !(okTag && okText);
       if (!item.hidden) shown++;
+    });
+    // [data-follow]: a note row that shows and hides with the row just above it
+    all("[data-follow]", list).forEach(function (n) {
+      var prev = n.previousElementSibling;
+      while (prev && prev.hasAttribute("data-follow")) prev = prev.previousElementSibling;
+      n.hidden = !!(prev && prev.hidden);
     });
     // [data-filter-parent]: a group heading hides when none of its rows are showing
     all("[data-filter-parent]", list).forEach(function (p) {

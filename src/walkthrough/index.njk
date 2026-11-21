@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Walkthrough
 seoTitle: "GTA 6 Walkthrough: All Story Missions, Step by Step"
 description: "Every GTA 6 story mission in order across all five chapters, with a progress tracker, an option to hide mission names ahead of you, and step-by-step walkthroughs as they are written."
-updated: 2026-11-19
+updated: 2026-11-21
 faq:
   - q: "How many story missions are in GTA 6?"
     a: "About 90, spread over five chapters. The in-game story recap lists 93, and some guides count 91."
@@ -42,9 +42,18 @@ faq:
 {%- if storyTotal %}
 <section class="sec">
   <div class="wrap">
+    <div class="filters wt-filters" data-filter-group="story" role="group" aria-label="Show missions for">
+      <span class="wt-filters-k">Show</span>
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All missions</button>
+      <button type="button" class="fchip" data-filter="jason" aria-pressed="false">Jason</button>
+      <button type="button" class="fchip" data-filter="lucia" aria-pressed="false">Lucia</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not done yet</button>
+    </div>
+    <p class="wt-filters-note">From Chapter 4 the story splits into Jason and Lucia strands that run side by side. Pick one to see only the missions you can play as that character. Missions played as both, and ones we can't place yet, stay in both lists.</p>
+    <div data-filter-list="story">
     <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: we keep only missions that at least two independent lists agree on, and it is not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
     {%- for c in story.chapters %}
-    <div class="chapter" id="chapter-{{ c.n }}">
+    <div class="chapter" id="chapter-{{ c.n }}" data-filter-parent>
       {%- set nGuides = c.missions | guidesIn(missions) %}
       <h2 class="chapter-h">Chapter {{ c.n }} <span>· {{ c.missions.length }} missions{% if nGuides %} · {% if nGuides == c.missions.length %}all guides written{% else %}{{ nGuides }} guide{% if nGuides != 1 %}s{% endif %}{% endif %}{% endif %}</span></h2>
       {%- if c.n == 5 %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Final chapter mission names</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
@@ -52,7 +61,8 @@ faq:
         {%- for m in c.missions %}
         {%- set ms = m.t | slugify %}
         {%- set mp = (missions | where("data.slug", ms))[0] %}
-        <li class="mrow" data-track-row>
+        {%- set who = (mp.data.protagonist if mp else m.who) %}
+        <li class="mrow" data-track-row data-tags="{% if who == 'jason' %}jason{% elif who == 'lucia' %}lucia{% else %}jason lucia{% endif %}">
           <input class="cb" type="checkbox" id="m-{{ ms }}" data-track="mission:{{ ms }}" aria-label="Mark {{ m.t }} complete">
           <span class="mrow-no">{{ m.no | pad }}</span>
           {%- if mp %}
@@ -60,30 +70,32 @@ faq:
           {%- else %}
           <span class="mrow-title"><span class="t">{{ m.t }}</span></span>
           {%- endif %}
-          {%- if m.optional or mp %}
+          {%- if m.optional or mp or who %}
           <span class="mrow-tags">
             {%- if m.optional %}<span class="chip plain">Side job</span>{% endif %}
             {%- if mp and mp.data.missables and mp.data.missables.length %}<span class="flag">Missable</span>{% endif %}
             {%- if mp and mp.data.choices and mp.data.choices.length %}<a class="flag choice-flag" href="{{ mp.url }}#choices">Choice</a>{% endif %}
-            {%- if mp and mp.data.protagonist %}<span class="chip who {{ mp.data.protagonist }}">{{ whoShort[mp.data.protagonist] }}</span>{% endif %}
+            {%- if who %}<span class="chip who {{ who }}">{{ whoShort[who] }}</span>{% endif %}
             {%- if mp %}<span class="chip ok dot">Guide</span>{% endif %}
           </span>
           {%- endif %}
         </li>
         {%- if m.warn %}
-        <li class="mopens mwarn"><span class="mopens-k">{{ m.warn.k or "Point of no return" }}</span><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></li>
+        <li class="mopens mwarn" data-follow><span class="mopens-k">{{ m.warn.k or "Point of no return" }}</span><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></li>
         {%- endif %}
         {%- if m.carry and m.carry.length %}
-        <li class="mopens mcarry"><span class="mopens-k">Carries over</span>{% for o in m.carry %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>
+        <li class="mopens mcarry" data-follow><span class="mopens-k">Carries over</span>{% for o in m.carry %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>
         {%- endif %}
         {%- if m.opens and m.opens.length %}
-        <li class="mopens"><span class="mopens-k">Opens up</span>{% for o in m.opens %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>
+        <li class="mopens" data-follow><span class="mopens-k">Opens up</span>{% for o in m.opens %}{% if o.u %}<a href="{{ o.u }}">{{ o.t }}</a>{% else %}<span>{{ o.t }}</span>{% endif %}{% endfor %}</li>
         {%- endif %}
         {%- endfor %}
       </ol>
       {%- if c.n == 5 %}</div></details>{% endif %}
     </div>
     {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="story" hidden>Nothing left to show here.</p>
     <button class="reset" type="button" data-reset="mission:">Reset story progress</button>
   </div>
 </section>

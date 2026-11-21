@@ -540,7 +540,8 @@
     },
     {
      "t": "Watch It",
-     "no": 70
+     "no": 70,
+     "who": "jason"
     },
     {
      "t": "Cash Injections",
@@ -548,7 +549,8 @@
     },
     {
      "t": "Amateur Hour",
-     "no": 72
+     "no": 72,
+     "who": "lucia"
     },
     {
      "t": "Dirty Work",
@@ -560,7 +562,8 @@
     },
     {
      "t": "Adventures in Babysitting",
-     "no": 75
+     "no": 75,
+     "who": "jason"
     },
     {
      "t": "Fresh Evidence",
@@ -580,11 +583,13 @@
     },
     {
      "t": "Delivery Method",
-     "no": 80
+     "no": 80,
+     "who": "jason"
     },
     {
      "t": "Team Building",
-     "no": 81
+     "no": 81,
+     "who": "lucia"
     },
     {
      "t": "Fully Catered",
@@ -642,5 +647,6 @@
    ]
   }
  ],
- "total": 93
+ "total": 93,
+ "whoSource": "Protagonist for missions without a guide yet: PowerPyx full walkthrough list (Jason only / Lucia only labels), read Nov 21, 2026."
 }
