@@ -1084,3 +1084,13 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .shop-meta{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:3px;font-size:13.5px;color:var(--muted)}
 .shop-meta .shop-county{color:var(--faint)}
 .shop-meta .chip{font-size:9.5px}
+
+/* ---------- equipment guide ---------- */
+.eq-list .tr{grid-template-columns:minmax(0,1fr) auto}
+.eq-list .eq-use{font-size:13px;color:var(--faint);margin-top:6px}
+.eq-list .eq-use b{color:var(--muted);font-weight:600}
+.eq-list .pin a{color:inherit;text-decoration:none}
+.eq-list .pin a:hover{text-decoration:underline}
+.eq-table td:first-child{font-weight:400;color:var(--muted)}
+.eq-table td:nth-child(2) a{font-weight:700}
+@media(max-width:520px){.eq-list .tr{grid-template-columns:minmax(0,1fr)}.eq-list .side{display:flex;align-items:flex-start;margin-top:2px}}

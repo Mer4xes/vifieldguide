@@ -356,7 +356,8 @@
        "t": "**Pick Up A Gun.** Optional."
       },
       {
-       "m": 27
+       "m": 27,
+       "n": "Gets you the [Slim Jim](/guides/equipment/#slim-jim) for quiet car theft."
       },
       {
        "k": "t-on-the-spot",
@@ -618,7 +619,8 @@
        "t": "**Brother to Brother.** The strand counts toward Strangers & Freaks."
       },
       {
-       "m": 38
+       "m": 38,
+       "n": "Gets you the [Pry Bar and Cut-Off Tool](/guides/equipment/#ch3): wooden crates and the yellow SCOOP containers."
       },
       {
        "m": 39
@@ -721,7 +723,7 @@
       {
        "k": "yasmani-1",
        "tag": "side",
-       "t": "**Yasmani, first store: Casa de Empeno.** Hand the piece in straight away to get the Snap Gun. [Yasmani's jobs](/guides/side-contacts/#yasmani)."
+       "t": "**Yasmani, first store: Casa de Empeno.** Hand the piece in straight away to get the [Snap Gun](/guides/equipment/#snap-gun). [Yasmani's jobs](/guides/side-contacts/#yasmani)."
       },
       {
        "k": "yasmani-2",
@@ -750,7 +752,8 @@
        "m": 49
       },
       {
-       "m": 50
+       "m": 50,
+       "n": "Gets you the [Dye Pack Jammer](/guides/equipment/#dye-pack-jammer)."
       },
       {
        "k": "banks-open",
@@ -774,7 +777,8 @@
      "h": "Part C: missions 51 to 61",
      "items": [
       {
-       "m": 51
+       "m": 51,
+       "n": "Gets you the [Key Cloner](/guides/equipment/#key-cloner)."
       },
       {
        "k": "randy-list",

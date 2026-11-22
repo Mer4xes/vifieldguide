@@ -1,12 +1,20 @@
 [
   {
     "date": "2026-11-22",
+    "tag": "New guide",
+    "title": "Every tool, and what it opens",
+    "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
+    "url": "/guides/equipment/",
+    "img": "/assets/img/art/jl-lock-and-load.webp",
+    "cta": "See the equipment"
+  },
+  {
+    "date": "2026-11-22",
     "tag": "Walkthrough",
     "title": "Chapter 4 done, Chapter 5 begins",
     "text": "Every Chapter 4 mission is written up, plus the first four of Chapter 5. 90 missions so far.",
     "url": "/walkthrough/#chapter-5",
-    "img": "/assets/img/art/jl-rooftop.webp",
-    "cta": "Open Chapter 5"
+    "img": "/assets/img/art/jl-rooftop.webp"
   },
   {
     "date": "2026-11-21",
@@ -55,13 +63,5 @@
     "text": "Cards, WAiNK scans, hoops, flamingos and more, sorted by county and folded into the 100% route.",
     "url": "/collectibles/#by-area",
     "img": "/assets/img/misc/wl-reef.webp"
-  },
-  {
-    "date": "2026-11-20",
-    "tag": "New guide",
-    "title": "Mission rewards",
-    "text": "Every unique weapon, car, payout and unlock, with the mission it comes from.",
-    "url": "/guides/mission-rewards/",
-    "img": "/assets/img/art/jl-lock-and-load.webp"
   }
 ]

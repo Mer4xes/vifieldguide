@@ -41,7 +41,7 @@ faq:
   - q: "When can you rob banks in GTA 6?"
     a: "The 14 small banks open after the Chapter 3 story mission Credit Check, which also gets you the Dye Pack Jammer. The 8 large bank vaults open at the end of Chapter 4 with the optional mission That's Where The Money Is."
   - q: "How do you get the key cloner in GTA 6?"
-    a: "It unlocks on its own at the start of Randy's job Clonin' Keys, Makin' GS (Steal the Zorrusso for Randy), about halfway through Chapter 3, and goes straight onto your phone. Stand at the door of a keyless car, press interact and choose Clone Key."
+    a: "It unlocks on its own at the start of Randy's job Clonin' Keys, Makin' GS (Steal the Zorrusso for Randy), about halfway through Chapter 3, and goes straight onto your phone. The rest of the break-in kit, and when you get each piece, is in the [equipment guide](/guides/equipment/). Stand at the door of a keyless car, press interact and choose Clone Key."
 sources:
   - label: "PowerPyx: Pay Abe's Fee"
     url: "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/"

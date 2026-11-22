@@ -1,0 +1,195 @@
+{
+  "updated": "2026-11-22",
+  "total": 12,
+  "groups": [
+    {
+      "id": "ch1",
+      "n": "Chapter 1",
+      "lede": "The basics, all in the first few missions."
+    },
+    {
+      "id": "ch2",
+      "n": "Chapter 2",
+      "lede": "Quiet car theft."
+    },
+    {
+      "id": "ch3",
+      "n": "Chapter 3",
+      "lede": "The break-in kit. Most of it comes from the fences and the Heders."
+    },
+    {
+      "id": "shop",
+      "n": "From shops",
+      "lede": "The two you buy. Story robberies hand you a mask when you need one."
+    }
+  ],
+  "items": [
+    {
+      "id": "binoculars",
+      "name": "Binoculars",
+      "group": "ch1",
+      "does": "Look a long way off: scout a place before you go in, spot enemies and identify animals at a distance.",
+      "use": "Pick them from the item wheel and aim.",
+      "unlock": "Gone Fishing",
+      "u": "/walkthrough/gone-fishing/"
+    },
+    {
+      "id": "flashlight",
+      "name": "Flashlight",
+      "group": "ch1",
+      "does": "Light for dark interiors and night-time. A torch attachment on a gun from Ammu-Nation does the same job with your weapon out.",
+      "use": "Pick it from the item wheel.",
+      "unlock": "Gone Fishing",
+      "u": "/walkthrough/gone-fishing/"
+    },
+    {
+      "id": "duffel-bag",
+      "name": "Duffel Bag",
+      "group": "ch1",
+      "does": "Holds what you steal: drugs, jewelry and marked bills go in it when you pick them up.",
+      "use": "Comes out on its own when you grab stolen goods.",
+      "unlock": "Lab Fees",
+      "u": "/walkthrough/lab-fees/"
+    },
+    {
+      "id": "metal-detector",
+      "name": "Metal Detector",
+      "group": "ch1",
+      "does": "Finds treasure on the sea floor: Kenton's wrecks and the underwater discoveries.",
+      "use": "Take it from a boat before you dive.",
+      "unlock": "Island Dreams",
+      "u": "/walkthrough/island-dreams/"
+    },
+    {
+      "id": "slim-jim",
+      "name": "Slim Jim",
+      "group": "ch2",
+      "does": "Opens a locked car door without smashing the window, so stealing a parked car doesn't draw attention.",
+      "use": "Used on its own when you try a locked car.",
+      "unlock": "Moses",
+      "u": "/walkthrough/moses/"
+    },
+    {
+      "id": "pry-bar",
+      "name": "Pry Bar",
+      "group": "ch3",
+      "does": "Breaks open sealed wooden crates, which often hold ammo, weapons or collectibles.",
+      "use": "Comes out on its own at a crate you can open.",
+      "unlock": "Meet the Heders",
+      "u": "/walkthrough/meet-the-heders/"
+    },
+    {
+      "id": "cut-off-tool",
+      "name": "Cut-Off Tool",
+      "group": "ch3",
+      "does": "Cuts into the yellow SCOOP shipping containers at the docks. You keep it after the mission.",
+      "use": "Used at a SCOOP container's lock.",
+      "unlock": "Meet the Heders",
+      "u": "/walkthrough/meet-the-heders/"
+    },
+    {
+      "id": "snap-gun",
+      "name": "Snap Gun",
+      "group": "ch3",
+      "does": "Opens locked doors without setting off the alarm, so the police take longer to show up.",
+      "use": "Used at a locked door, for example the back door of a jewelry store.",
+      "unlock": "Yasmani's jewelry jobs",
+      "u": "/guides/side-contacts/#yasmani",
+      "n": "Yasmani hands it over when you bring him the first piece."
+    },
+    {
+      "id": "key-cloner",
+      "name": "Key Cloner",
+      "group": "ch3",
+      "does": "A phone app that opens and starts keyless high-end cars, the ones you can't hotwire. It also opens Randy's wish list.",
+      "use": "Kicks in when you try one of those cars.",
+      "unlock": "Steal the Zorrusso for Randy",
+      "u": "/walkthrough/steal-the-zorrusso-for-randy/"
+    },
+    {
+      "id": "dye-pack-jammer",
+      "name": "Dye Pack Jammer",
+      "group": "ch3",
+      "does": "Stops the dye packs hidden in marked bills from going off. You need it for bank and payday loan jobs.",
+      "use": "Works on its own once you have it.",
+      "unlock": "Credit Check",
+      "u": "/walkthrough/credit-check/"
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "group": "shop",
+      "does": "Music and podcasts while you're on foot, not just in a car. Optional.",
+      "use": "Buy them at an electronics store.",
+      "unlock": "Electronics stores"
+    },
+    {
+      "id": "masks",
+      "name": "Masks",
+      "group": "shop",
+      "does": "Hide Jason's and Lucia's faces during robberies. Change the one you wear from the item menu.",
+      "use": "Some Ammu-Nation stores sell them; story robberies put one on you.",
+      "unlock": "Some Ammu-Nation stores",
+      "u": "/guides/shops/"
+    }
+  ],
+  "uses": [
+    {
+      "need": "Steal a parked car quietly",
+      "tool": "Slim Jim",
+      "id": "slim-jim"
+    },
+    {
+      "need": "Take a keyless supercar",
+      "tool": "Key Cloner",
+      "id": "key-cloner"
+    },
+    {
+      "need": "Get through a locked door without the alarm",
+      "tool": "Snap Gun",
+      "id": "snap-gun"
+    },
+    {
+      "need": "Open a wooden crate",
+      "tool": "Pry Bar",
+      "id": "pry-bar"
+    },
+    {
+      "need": "Open a yellow SCOOP container",
+      "tool": "Cut-Off Tool",
+      "id": "cut-off-tool"
+    },
+    {
+      "need": "Keep marked bills from bank or payday loan jobs clean",
+      "tool": "Dye Pack Jammer",
+      "id": "dye-pack-jammer"
+    },
+    {
+      "need": "Search wrecks and the sea floor",
+      "tool": "Metal Detector",
+      "id": "metal-detector"
+    },
+    {
+      "need": "Carry stolen goods",
+      "tool": "Duffel Bag",
+      "id": "duffel-bag"
+    },
+    {
+      "need": "Scout a target from a distance",
+      "tool": "Binoculars",
+      "id": "binoculars"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PowerPyx: GTA 6 All Equipment",
+      "url": "https://www.powerpyx.com/gta-6-all-equipment/",
+      "note": "Read Nov 22, 2026 (published/modified Nov 19). 12 items under Progress > Equipment; all story unlocks; selected from the Items Wheel next to weapons, some used automatically. Binoculars and Flashlight: Gone Fishing; Duffel Bag: Lab Fees (auto with stolen goods); Headphones: electronics stores (15); Pry Bar and Cut-Off Tool: Meet the Heders; Masks: auto in some story robberies, sold at some Ammu-Nations, switch in Item Menu; Metal Detector: Island Dreams; Slim Jim: Moses (Ch2); Snap Gun: Yasmani's Jewelry Jobs; Key Cloner: Clonin' Keys, Makin' GS; Dye Pack Jammer: Credit Check. Trusted."
+    },
+    {
+      "label": "GamesRadar+: All 12 pieces of equipment explained",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/",
+      "note": "Read Nov 22, 2026 (published Nov 21). Same 12 and same unlock missions. Uses: binoculars scout/mark enemies/identify animals; flashlight, Ammu-Nation torch attachment as alternative; duffel bag holds narcotics, jewellery, marked bills; headphones music/podcasts outside a vehicle, optional; pry bar wooden crates (ammo, weapons, collectibles), automatic; masks conceal identity in robberies; metal detector for Underwater Discoveries, taken from a boat; slim jim silent car entry instead of smashing glass, automatic; snap gun opens locked doors without alarms; cut-off tool yellow Scoop containers, kept; key cloner phone app for keyless cars; dye pack jammer disables dye packs, needed for banks and payday loan stores. Left out: the $20,000 pocket cash / two bags per character detail, the button prompt and the 60 birds (read from a fetch summary, not checked against a second source). Trusted."
+    }
+  ]
+}

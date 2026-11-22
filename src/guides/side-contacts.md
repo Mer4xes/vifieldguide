@@ -266,7 +266,7 @@ After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in tou
 | Richardson Jewelry | Diamond ring, northeast corner of the central room | **6815** | Back door with the Snap Gun |
 | Donovan Banks & Co. | Amethyst necklace, middle of the long back room | **0104** | Back door with the Snap Gun |
 
-> **Tip:** Hand the first piece in straight away. Yasmani gives you the **Snap Gun**, which opens doors without setting off the alarm, so the police take longer to arrive at the other two.
+> **Tip:** Hand the first piece in straight away. Yasmani gives you the **[Snap Gun](/guides/equipment/#snap-gun)**, which opens doors without setting off the alarm, so the police take longer to arrive at the other two.
 
 The three pieces are worth $20,000 between them. Smash the display cases at the front for more; at the last two stores you can also slip out the back quietly instead. Jewelry stores count toward the Smash 'N' Grabs line in the [100% checklist](/guides/100-percent-checklist/).
 
