@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-21
+updated: 2026-11-22
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -27,6 +27,7 @@ facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
   - { k: Contact trophies, v: "7", status: Confirmed }
   - { k: Kitty Litter labs, v: "$2,000–$2,500 each", status: Reported }
+  - { k: Moses's car jobs, v: "6 cars, $18,610 base", status: Reported }
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
   - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Not every contact on this page is a stranger."
@@ -58,6 +59,12 @@ faq:
     a: "It's the Mister Mangrove Laird 350, from Kirk's last job, Help Kirk Find Mr. Mangrove. You're given it as soon as you climb into Kirk's helicopter, so you keep it whichever ending you pick."
   - q: "How do you destroy a Kitty Litter lab in GTA 6?"
     a: "Head into the purple search area, find the building leaking pink gas and wreck the equipment inside with explosives or fire: a molotov, or a propane or gas canister you shoot. Tyrone pays $2,000 or $2,500 a lab through BuckMe. The labs aren't missable, and enough of them unlock Spin On This."
+  - q: "What cars does Moses want in GTA 6?"
+    a: "After Daily Driver, Moses asks for six vehicles, one at a time: a Declasse Yosemite 1500 ($1,850), a Karin Futo ($1,500), an Annis Hellion ($1,400), a BF Bandito ($3,350), a Declasse Vamos ($4,200) and a Western Nightblade ($6,310). Each pays more if it arrives in good condition, and the next request only comes once you've delivered the last one."
+  - q: "How do you get Moses's Sultan in GTA 6?"
+    a: "Deliver all six cars from Steal Vehicles for Moses. Moses then texts that he has a gift for you: open the smaller garage next to his shop in Port Gellhorn and take the Sultan inside. You can keep it by registering it, or sell it."
+  - q: "What is the garage code for the Vamos in Steal Vehicles for Moses?"
+    a: "2727. The Vamos is in a shed east of the house near Grayson; the code is on signs inside the main trailer, and the button to open the garage is on the right."
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
@@ -115,6 +122,12 @@ sources:
   - label: "PowerPyx: Kirk's strand"
     url: "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/"
     note: "Read Nov 21, 2026 (via ?p=372181, 372182, 372183). Also /gta-6-search-for-tree-effigies-locations-walkthrough/ and /gta-6-help-kirk-find-mr-mangrove-walkthrough/. Skunk Ape: Ch1, night, Mariana swamps, follow Kirk, nesting site, feeding site and claw marks, effigy, giant boar, back to truck, $1,000. Tree Effigies: text later, 3 effigies any order, no cash (locations image-only, left out). Mr. Mangrove: Ch2, Lucia only, night, Mariana County > Cottonmouth Lake, text a few days after Effigies, helicopter + spotlight, shack, spores, frog and fly sections, choice; Mister Mangrove Laird 350 tranquilizer rifle on boarding; $10,000 only if you shoot Mr. Mangrove; counts for S&F whatever the ending. Left out: who can start Skunk Ape and exactly how it triggers (VGC Bigfoot guide says Jason only, after a sighting; PowerPyx says either, call Kirk after reading the flyer), and what happens in the two non-paying endings (PowerPyx heading and body disagree). Trusted source."
+  - label: "PowerPyx: Steal Vehicles for Moses"
+    url: "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/"
+    note: "Read Nov 22, 2026 (via ?p=373053; published Nov 17, modified Nov 19). Requirement Daily Driver; starts as Lucia or Jason; next location only after delivering the current one; deliver to Moses's shop in Port Gellhorn; base pay + condition bonus (size not given). Order and pay: Yosemite 1500 $1,850 (Bastion St., SW Port Gellhorn, on a tow truck; knock out driver, lower it at the back), Futo $1,500 (Draper Island Docks lockup, west end, north door; security, jump fences), Hellion $1,400 (Orchard Avenue, south Port Gellhorn, central driveway; dog), Bandito $3,350 (Buckskin Swamp, SE Kelly County, silver one among off-roaders; talk to driver, one seat, chased), Vamos $4,200 (house NE of Grayson, shed east of house, keypad 2727 from signs in main trailer, button right, locals may block), Nightblade $6,310 (Final Chapter club in Ambrosia, same spot as a Final Chapter illegal operation, orange bike lower floor of central garage; armour, long gun, stealth via green container north of fence). No trophy mentioned. Left out: heading spelling 'Yosimite' (used the body spelling), how Moses gets in touch (not stated). Trusted source."
+  - label: "PowerPyx: Collect Moses' Gift"
+    url: "https://www.powerpyx.com/gta-6-collect-moses-gift-walkthrough/"
+    note: "Read Nov 22, 2026 (via ?p=373056). After all Steal Vehicles for Moses deliveries, Moses texts about a gift; smaller garage beside the main one at his shop, Port Gellhorn (Kelly County); Moses' Sultan, a unique Street Racer; sell or register. No trophy mentioned. Trusted source."
   - label: "VGC: GTA 6 Bigfoot explained"
     url: "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/"
     note: "Read Nov 21, 2026. Skunk ape posters, night only, Kirk gets in touch. Used only where it agrees with PowerPyx."
@@ -135,7 +148,7 @@ sources:
 | **Cal Hampton** | Jason's friend, fishing | Chapter 1, [Gone Fishing](/walkthrough/gone-fishing/) | Baited My Tackle: beat him in a fishing challenge |
 | **Kirk** | Hunts the Skunk Ape in the Mariana County swamps, at night | Chapter 1, his flyers around Hamlet ([his jobs](#kirk)) | Counts toward Strangers & Freaks |
 | **Kenton Rees** | Deep-water treasure diving; buys doubloons and meteorites | Chapter 1, [Island Dreams](/walkthrough/island-dreams/) | This Was No Boat Accident (hidden) |
-| **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) | |
+| **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) ([his car jobs](#moses)) | |
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
 | **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) ([labs and last job](#tyrone)) | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
@@ -148,7 +161,7 @@ sources:
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
@@ -188,6 +201,31 @@ Kyle is a farmer in Kelly County who flies a crop duster. Read one of his flyers
 <li><div class="strand-h">Buddy? <span class="chip plain">Chapter 3</span></div><span class="strand-pay">$0 or $5,000</span><p>Kyle's last text comes a long time later, around the middle of Chapter 3. Go to McKittrick Farm and look for him. How it ends is your call, and only one ending pays.</p>
 <details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">The two endings</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Kyle has turned into a mutant and the police have the barn surrounded.</p><p><b>Side with Kyle:</b> keep your distance and let him deal with the police, then talk to him by the barn. He leaves for good. No money.</p><p><b>Side with the police:</b> tell them you are Kyle's friend, put on the hazmat suit and follow the agent to the barn. Take Kyle down fast before he kills the officers. $5,000 through BuckMe. Don't try to pick up his body: it kills you.</p></div></details></li>
 </ol>
+
+<h2 id="moses">Moses and his car jobs</h2>
+
+Moses is the car fence in Port Gellhorn. Lucia meets him in [Moses](/walkthrough/moses/) and steals her first car for him in [Daily Driver](/walkthrough/daily-driver/). After that he keeps sending requests in a side job called **Steal Vehicles for Moses**, which either lead can take on. He wants six vehicles, **one at a time**: the next one only shows up after you've dropped off the last. Every car goes to his shop in Port Gellhorn and pays a set price, with extra on top if it arrives in good condition, so drive the last stretch gently. When all six are in, he leaves you a car of your own. Moses's jobs don't count toward **Strangers & Freaks**.
+
+<div class="progress" data-progress="moses:" data-total="7">
+<div class="row"><span class="lab">Moses's jobs done</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["yosemite","Declasse Yosemite 1500","Port Gellhorn, Bastion St. (southwest)","The pickup is on the back of a tow truck in a driveway on the east side of the search area. Talking to the tow driver gets you nowhere: knock him out, then use the back of the truck to let the pickup down.","1,850"],
+  ["futo","Karin Futo","Draper Island Docks (south edge)","In a lockup at the west end of the building, through a door on the north side. The docks have security, so leave your car outside the gates and climb the fence. You can knock out the workers inside or ignore them.","1,500"],
+  ["hellion","Annis Hellion","Port Gellhorn, Orchard Avenue (south)","On the driveway of the house in the middle of the search area. A dog in the yard barks until you interact with it; otherwise just get in and go.","1,400"],
+  ["bandito","BF Bandito","Buckskin Swamp, southeast Kelly County","The silver one in a group of off-road cars. Talk to the driver and they stop and climb out, so jump in quickly. It only has one seat, so send any companion away first, and expect the owner's friends to give chase.","3,350"],
+  ["vamos","Declasse Vamos","A house northeast of Grayson","A souped-up Vamos in a shed east of the house. The door can't be picked or broken: the keypad code is <b>2727</b>, written on signs inside the main trailer, and the button for the garage is on the right. The locals open fire if they see you, and some try to box you in on the drive back.","4,200"],
+  ["nightblade","Western Nightblade","Ambrosia, the Final Chapter biker club","The orange bike on the lower floor of the garage in the middle. This is the same spot as one of the Final Chapter's <a href='/guides/gang-operations/#final-chapter'>illegal operations</a>, so wear armour and bring a long gun. For a quieter way in, climb the green container north of the fence and drop over where it's partly hidden. Clear the guards outside first; more come out of the building, the upper platform and the back rooms.","6,310"]
+] %}
+<label class="tr" data-track-row for="moses-{{ c[0] }}"><input class="cb" type="checkbox" id="moses-{{ c[0] }}" data-track="moses:{{ c[0] }}"><div class="body"><div class="name">{{ loop.index }}. {{ c[1] }}</div><div class="desc"><b>{{ c[2] }}.</b> {{ c[3] | safe }}</div></div><div class="side"><span class="need">${{ c[4] }}</span></div></label>
+{%- endfor %}
+<label class="tr" data-track-row for="moses-gift"><input class="cb" type="checkbox" id="moses-gift" data-track="moses:gift"><div class="body"><div class="name">Collect Moses' Gift</div><div class="desc"><b>Moses's shop, Port Gellhorn.</b> Once the sixth car is in, Moses texts that he's left you something. Open the smaller garage next to his main one and drive out his <b>Sultan</b>, a one-of-a-kind street racer. Register it to keep it, or sell it.</div></div><div class="side"><span class="need">Sultan</span></div></label>
+</div>
+
+> **Tip:** The six base payments come to **$18,610** before the condition bonuses. Moses also keeps buying any car without a tracker, as in the [fences guide](/guides/fences/); which cars pay best is in the [money guide](/guides/money/#cars).
 
 <h2 id="yago">Yago and the street races</h2>
 

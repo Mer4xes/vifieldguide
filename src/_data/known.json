@@ -105,6 +105,30 @@
         "tag": "SUV · Moses",
         "d": "The car Moses uses to show Lucia how the Slim Jim works.",
         "u": "/walkthrough/moses/"
+      },
+      {
+        "t": "Sultan",
+        "tag": "Street racer · Moses",
+        "d": "Moses's own car, a one-off. It's waiting in the small garage by his shop once you've brought him all six cars he asks for.",
+        "u": "/guides/side-contacts/#moses"
+      },
+      {
+        "t": "Western Nightblade",
+        "tag": "Motorcycle · Moses",
+        "d": "The orange bike Moses wants from the Final Chapter's club in Ambrosia. His best-paying request at $6,310.",
+        "u": "/guides/side-contacts/#moses"
+      },
+      {
+        "t": "Declasse Vamos",
+        "tag": "Car · Moses",
+        "d": "A souped-up Vamos locked in a shed near Grayson for one of Moses's requests. Garage code 2727.",
+        "u": "/guides/side-contacts/#moses"
+      },
+      {
+        "t": "BF Bandito",
+        "tag": "Car · Moses",
+        "d": "A one-seat car Moses asks for, taken from a group of drivers in Buckskin Swamp, Kelly County.",
+        "u": "/guides/side-contacts/#moses"
       }
     ]
   },

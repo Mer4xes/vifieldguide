@@ -368,6 +368,11 @@
        "m": 28
       },
       {
+       "k": "moses-cars",
+       "tag": "side",
+       "t": "**Steal Vehicles for Moses.** Six cars, one at a time, from Port Gellhorn out to Kelly County, Grayson and Ambrosia; deliver all six and he leaves you his Sultan in Collect Moses' Gift. The last one, a Nightblade, is at a Final Chapter hideout, so you can leave it for later. [Moses's jobs](/guides/side-contacts/#moses)."
+      },
+      {
        "k": "t-boxes-start",
        "track": "trophy:little-boxes",
        "tag": "trophy",

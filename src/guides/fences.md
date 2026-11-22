@@ -8,7 +8,7 @@ summary: Who buys what, where they are and which mission opens them, from Brian'
 order: 4
 glow: gold
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-22
 facts:
   - { k: Fences so far, v: "7", status: Reported }
   - { k: Vehicles for 100%, v: "$200,000", status: Reported }
@@ -64,7 +64,7 @@ sources:
 
 <h2 id="cars">Selling stolen cars</h2>
 
-**Moses** is the first. After [Moses](/walkthrough/moses/) in Chapter 2 he buys cars that don't have a tracker, from his place in Port Gellhorn. **Randy** joins in Chapter 3: Lucia meets him when she delivers Raul's Schafter in [Car Service](/walkthrough/car-service/), and from then on his dealership in Balsero takes stolen cars too. Randy also has his own jobs, starting with a Zorrusso; see [Randy on side contacts](/guides/side-contacts/#randy). From Chapter 3, cars with a Standard Tracker can also be sold at any Pay 'n' Spray. Which cars pay best, and when, is in the [money guide](/guides/money/#cars).
+**Moses** is the first. After [Moses](/walkthrough/moses/) in Chapter 2 he buys cars that don't have a tracker, from his place in Port Gellhorn. From [Daily Driver](/walkthrough/daily-driver/) on he also sends six specific requests, one at a time, and leaves you his Sultan when they're done; see [Moses's car jobs](/guides/side-contacts/#moses). **Randy** joins in Chapter 3: Lucia meets him when she delivers Raul's Schafter in [Car Service](/walkthrough/car-service/), and from then on his dealership in Balsero takes stolen cars too. Randy also has his own jobs, starting with a Zorrusso; see [Randy on side contacts](/guides/side-contacts/#randy). From Chapter 3, cars with a Standard Tracker can also be sold at any Pay 'n' Spray. Which cars pay best, and when, is in the [money guide](/guides/money/#cars).
 
 <h2 id="narcotics">Selling narcotics</h2>
 
