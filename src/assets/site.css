@@ -1022,7 +1022,7 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 /* Cheats guide (Nov 21) */
 .cheat-steps{margin:12px 0 0;padding-left:22px;display:grid;gap:8px}
 .cheat-steps li{padding-left:4px}
-.cheat-list .chal-h small{display:block;margin-top:4px;font-family:var(--sans,inherit);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
+.cheat-list .chal-h small{display:block;margin-top:4px;font-family:var(--body);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
 .cheat-list .code{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
 .cheat-list .code span{display:inline-grid;place-items:center;min-width:26px;height:26px;padding:0 4px;border:1px solid var(--line);border-radius:7px;background:var(--bg);font-family:var(--mono);font-size:14px;color:var(--cyan);line-height:1}
 .cheat-list .code.none{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
@@ -1110,3 +1110,11 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .trophy-rel .rar{justify-self:start}
 .trophy-rel span:last-child{color:var(--muted);font-size:13.5px}
 .tr .more.tpage{margin-right:14px}
+
+/* Stunts guide: kind blocks and region labels */
+.stunt-kind{margin-top:28px}
+.prose .stunt-kind h3.chal-h{font-size:30px}
+.prose .stunt-kind h3.chal-h small{display:block;margin-top:4px;font-family:var(--body);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--muted)}
+.prose .stunt-how{margin:6px 0 4px;color:var(--muted)}
+.prose .stunt-region{max-width:none;display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:18px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan)}
+.prose .stunt-region span{color:var(--faint);font-variant-numeric:tabular-nums}

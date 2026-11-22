@@ -1,0 +1,642 @@
+{
+ "updated": "2026-11-22",
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 All Knife Flight Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-knife-flight-locations/",
+   "note": "Read Nov 22, 2026 (modified Nov 21 22:44 UTC). 40 names under Vice City (31) and Vice Beach (9); fly a plane sideways between two towers; progress menu and map filter; the 130/202/40/25 = 397 split; any 300 for 100%. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Base Jump Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
+   "note": "Read Nov 22, 2026 (modified Nov 21 00:29 UTC). 25 names: 22 Vice-Dale County, 1 Kelly County, 2 Lummox County; parachute through rings, any time counts for 100%. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Stunt Jump Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
+   "note": "Read Nov 22, 2026 (modified Nov 22 10:03 UTC, work in progress 82/130). Mariana County 17 and Vice-Dale County 55 by heading; we list the 17 + 53 names that were readable as text. Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Leonard/Kelly/Lummox names only came through as a summary, so they are left out. Trusted source."
+  }
+ ],
+ "kinds": [
+  {
+   "id": "knife",
+   "n": "Knife flights",
+   "total": 40,
+   "how": "Fly any plane sideways between two towers, wings pointing up and down.",
+   "groups": [
+    {
+     "id": "vice-city",
+     "n": "Vice City",
+     "items": [
+      {
+       "id": "aida-towers",
+       "name": "Aida Towers"
+      },
+      {
+       "id": "arcadia-towers-apartments",
+       "name": "Arcadia Towers Apartments"
+      },
+      {
+       "id": "archipelago-apartments",
+       "name": "Archipelago Apartments"
+      },
+      {
+       "id": "aurium-condominiums",
+       "name": "Aurium Condominiums"
+      },
+      {
+       "id": "bam1-condominiums",
+       "name": "BAM1 Condominiums"
+      },
+      {
+       "id": "the-clarissa-hotel-east",
+       "name": "The Clarissa Hotel East"
+      },
+      {
+       "id": "the-clarissa-hotel-north",
+       "name": "The Clarissa Hotel North"
+      },
+      {
+       "id": "the-clarissa-hotel-south",
+       "name": "The Clarissa Hotel South"
+      },
+      {
+       "id": "derwent-towers",
+       "name": "Derwent Towers"
+      },
+      {
+       "id": "dock-of-the-bay-condominiums",
+       "name": "Dock of the Bay Condominiums"
+      },
+      {
+       "id": "the-fitz-gerald",
+       "name": "The Fitz-Gerald"
+      },
+      {
+       "id": "the-fitz-gerald-north",
+       "name": "The Fitz-Gerald North"
+      },
+      {
+       "id": "the-fitz-gerald-south",
+       "name": "The Fitz-Gerald South"
+      },
+      {
+       "id": "flora-hotel",
+       "name": "Flora Hotel"
+      },
+      {
+       "id": "grand-majestic-aparthotel",
+       "name": "Grand Majestic Aparthotel"
+      },
+      {
+       "id": "leonida-point-apartments",
+       "name": "Leonida Point Apartments"
+      },
+      {
+       "id": "lnb-hq",
+       "name": "LNB HQ"
+      },
+      {
+       "id": "moon",
+       "name": "Moon"
+      },
+      {
+       "id": "nauticus-condominiums",
+       "name": "Nauticus Condominiums"
+      },
+      {
+       "id": "neo-paloma-apartments",
+       "name": "Neo Paloma Apartments"
+      },
+      {
+       "id": "one-stracathro-tower",
+       "name": "One Stracathro Tower"
+      },
+      {
+       "id": "peacock-bay-luxury-condominiums-east",
+       "name": "Peacock Bay Luxury Condominiums East"
+      },
+      {
+       "id": "peacock-bay-luxury-condominiums-north",
+       "name": "Peacock Bay Luxury Condominiums North"
+      },
+      {
+       "id": "peacock-bay-luxury-condominiums-south",
+       "name": "Peacock Bay Luxury Condominiums South"
+      },
+      {
+       "id": "pj-butlin-baron",
+       "name": "PJ Butlin Baron"
+      },
+      {
+       "id": "rico-huxley-hotels",
+       "name": "Rico Huxley Hotels"
+      },
+      {
+       "id": "shorefront-hq",
+       "name": "Shorefront HQ"
+      },
+      {
+       "id": "tequesta-on-the-water-apartments",
+       "name": "Tequesta on the Water Apartments"
+      },
+      {
+       "id": "tequesta-tides-hotel-and-spa-north",
+       "name": "Tequesta Tides Hotel & Spa North"
+      },
+      {
+       "id": "tequesta-tides-hotel-and-spa-south",
+       "name": "Tequesta Tides Hotel & Spa South"
+      },
+      {
+       "id": "tidemark",
+       "name": "Tidemark"
+      }
+     ]
+    },
+    {
+     "id": "vice-beach",
+     "n": "Vice Beach",
+     "items": [
+      {
+       "id": "the-amalfi",
+       "name": "The Amalfi"
+      },
+      {
+       "id": "brandy-carmine",
+       "name": "Brandy Carmine"
+      },
+      {
+       "id": "harrison-harbor",
+       "name": "Harrison Harbor"
+      },
+      {
+       "id": "jia-luxury-condos",
+       "name": "Jia Luxury Condos"
+      },
+      {
+       "id": "lampedusa",
+       "name": "Lampedusa"
+      },
+      {
+       "id": "maison-estaque",
+       "name": "Maison Estaque"
+      },
+      {
+       "id": "positano-towers",
+       "name": "Positano Towers"
+      },
+      {
+       "id": "the-wash-haus",
+       "name": "The Wash Haus"
+      },
+      {
+       "id": "the-zaffre",
+       "name": "The Zaffre"
+      }
+     ]
+    }
+   ],
+   "mapped": 40
+  },
+  {
+   "id": "base",
+   "n": "Base jumps",
+   "total": 25,
+   "how": "Jump from a mast, a rooftop or a mountain and steer your parachute through the rings.",
+   "groups": [
+    {
+     "id": "vice-dale-county",
+     "n": "Vice-Dale County",
+     "items": [
+      {
+       "id": "arcadia-towers-east",
+       "name": "Arcadia Towers East"
+      },
+      {
+       "id": "arcadia-towers-south",
+       "name": "Arcadia Towers South"
+      },
+      {
+       "id": "archipelago-apartments-north",
+       "name": "Archipelago Apartments North"
+      },
+      {
+       "id": "bluegrass-antenna-mast",
+       "name": "Bluegrass Antenna Mast"
+      },
+      {
+       "id": "the-borough-condominiums",
+       "name": "The Borough Condominiums"
+      },
+      {
+       "id": "crimson-palms",
+       "name": "Crimson Palms"
+      },
+      {
+       "id": "eternity-apartments",
+       "name": "Eternity Apartments"
+      },
+      {
+       "id": "fenestra-plaza",
+       "name": "Fenestra Plaza"
+      },
+      {
+       "id": "heath-bank",
+       "name": "Heath Bank"
+      },
+      {
+       "id": "high-life-hotel",
+       "name": "High Life Hotel"
+      },
+      {
+       "id": "la-villette",
+       "name": "La Villette"
+      },
+      {
+       "id": "maven-residences",
+       "name": "Maven Residences"
+      },
+      {
+       "id": "one-stracathro-tower",
+       "name": "One Stracathro Tower"
+      },
+      {
+       "id": "pike-financial-center",
+       "name": "Pike Financial Center"
+      },
+      {
+       "id": "rico-huxley-hotels",
+       "name": "Rico Huxley Hotels"
+      },
+      {
+       "id": "sahara-tower",
+       "name": "Sahara Tower"
+      },
+      {
+       "id": "the-sumerian",
+       "name": "The Sumerian"
+      },
+      {
+       "id": "tequesta-tides-hotel-and-spa-north",
+       "name": "Tequesta Tides Hotel & Spa North"
+      },
+      {
+       "id": "tequesta-tides-hotel-and-spa-south",
+       "name": "Tequesta Tides Hotel & Spa South"
+      },
+      {
+       "id": "tequesta-tides-hotel-and-spa-west",
+       "name": "Tequesta Tides Hotel & Spa West"
+      },
+      {
+       "id": "valdemar-on-the-river",
+       "name": "Valdemar on the River"
+      },
+      {
+       "id": "vice-civic-center",
+       "name": "Vice Civic Center"
+      }
+     ]
+    },
+    {
+     "id": "kelly-county",
+     "n": "Kelly County",
+     "items": [
+      {
+       "id": "providence-canyon-antenna-mast",
+       "name": "Providence Canyon Antenna Mast"
+      }
+     ]
+    },
+    {
+     "id": "lummox-county",
+     "n": "Lummox County",
+     "items": [
+      {
+       "id": "kalaga-outcrop",
+       "name": "Kalaga Outcrop"
+      },
+      {
+       "id": "mount-kalaga",
+       "name": "Mount Kalaga"
+      }
+     ]
+    }
+   ],
+   "mapped": 25
+  },
+  {
+   "id": "jump",
+   "n": "Stunt jumps",
+   "total": 130,
+   "partial": true,
+   "how": "Hit the ramp and land the jump. Each one also has a small challenge, shown when you hover its map icon.",
+   "groups": [
+    {
+     "id": "mariana-county",
+     "n": "Mariana County",
+     "items": [
+      {
+       "id": "goliath-global-quarry-conveyor",
+       "name": "Goliath Global Quarry Conveyor"
+      },
+      {
+       "id": "goliath-global-quarry-heap",
+       "name": "Goliath Global Quarry Heap"
+      },
+      {
+       "id": "goliath-global-quarry-lakeside",
+       "name": "Goliath Global Quarry Lakeside"
+      },
+      {
+       "id": "goliath-global-quarry-railroad",
+       "name": "Goliath Global Quarry Railroad"
+      },
+      {
+       "id": "goliath-global-quarry-storage",
+       "name": "Goliath Global Quarry Storage"
+      },
+      {
+       "id": "key-lento-bridge-east",
+       "name": "Key Lento Bridge East"
+      },
+      {
+       "id": "key-lento-bridge-west",
+       "name": "Key Lento Bridge West"
+      },
+      {
+       "id": "longneck-trail",
+       "name": "Longneck Trail"
+      },
+      {
+       "id": "mile-zero-air-station-south",
+       "name": "Mile Zero Air Station South"
+      },
+      {
+       "id": "mile-zero-air-station-southeast",
+       "name": "Mile Zero Air Station Southeast"
+      },
+      {
+       "id": "nehrling-river",
+       "name": "Nehrling River"
+      },
+      {
+       "id": "ocean-sound-road",
+       "name": "Ocean Sound Road"
+      },
+      {
+       "id": "saltrock-bridge-east",
+       "name": "Saltrock Bridge East"
+      },
+      {
+       "id": "saltrock-bridge-west",
+       "name": "Saltrock Bridge West"
+      },
+      {
+       "id": "schlott-construction-key-lento",
+       "name": "Schlott Construction Key Lento"
+      },
+      {
+       "id": "southpoint-airfield",
+       "name": "Southpoint Airfield"
+      },
+      {
+       "id": "us-route-82-construction",
+       "name": "US Route 82 Construction"
+      }
+     ],
+     "total": 17
+    },
+    {
+     "id": "vice-dale-county",
+     "n": "Vice-Dale County",
+     "items": [
+      {
+       "id": "7777-ocean-beach-parking",
+       "name": "7777 Ocean Beach Parking"
+      },
+      {
+       "id": "anderson-murphy-construction",
+       "name": "Anderson Murphy Construction"
+      },
+      {
+       "id": "apollo-aggregates-quarry",
+       "name": "Apollo Aggregates Quarry"
+      },
+      {
+       "id": "banner-hotel-and-spa-parking",
+       "name": "Banner Hotel & Spa Parking"
+      },
+      {
+       "id": "blackwell-sandrock",
+       "name": "Blackwell Sandrock"
+      },
+      {
+       "id": "cargo-road-construction",
+       "name": "Cargo Road Construction"
+      },
+      {
+       "id": "cruda-y-asi",
+       "name": "Cruda Y Asi"
+      },
+      {
+       "id": "dalton-island-sculpture-park",
+       "name": "Dalton Island Sculpture Park"
+      },
+      {
+       "id": "dolly-and-darrel-zimmermann-parking",
+       "name": "Dolly and Darrel Zimmermann Parking"
+      },
+      {
+       "id": "downtown-mvp-park",
+       "name": "Downtown MVP Park"
+      },
+      {
+       "id": "dth-depot-parking",
+       "name": "DTH Depot Parking"
+      },
+      {
+       "id": "gator-plaza-parking",
+       "name": "Gator Plaza Parking"
+      },
+      {
+       "id": "go-postal",
+       "name": "Go Postal"
+      },
+      {
+       "id": "hamlet-backyard",
+       "name": "Hamlet Backyard"
+      },
+      {
+       "id": "harrison-harbor-parking",
+       "name": "Harrison Harbor Parking"
+      },
+      {
+       "id": "hoopla-construction",
+       "name": "Hoopla Construction"
+      },
+      {
+       "id": "interstate-404",
+       "name": "Interstate 404"
+      },
+      {
+       "id": "interstate-97-east",
+       "name": "Interstate 97 East"
+      },
+      {
+       "id": "interstate-97-west",
+       "name": "Interstate 97 West"
+      },
+      {
+       "id": "la-perle-parking-lot",
+       "name": "La Perle Parking Lot"
+      },
+      {
+       "id": "mariner-s-highway",
+       "name": "Mariner's Highway"
+      },
+      {
+       "id": "mastodon-u-s-a",
+       "name": "Mastodon U.S.A"
+      },
+      {
+       "id": "nolan-center-parking",
+       "name": "Nolan Center Parking"
+      },
+      {
+       "id": "ocean-beach-marina",
+       "name": "Ocean Beach Marina"
+      },
+      {
+       "id": "ocean-beach-mvp-park-north",
+       "name": "Ocean Beach MVP Park North"
+      },
+      {
+       "id": "ocean-beach-mvp-park-south",
+       "name": "Ocean Beach MVP Park South"
+      },
+      {
+       "id": "ocean-beach-plus-parking",
+       "name": "Ocean Beach Plus Parking"
+      },
+      {
+       "id": "opulence-construction",
+       "name": "Opulence Construction"
+      },
+      {
+       "id": "peacock-estate",
+       "name": "Peacock Estate"
+      },
+      {
+       "id": "peregrine-bay-coastal",
+       "name": "Peregrine Bay Coastal"
+      },
+      {
+       "id": "port-vice-city-plus-parking",
+       "name": "Port Vice City Plus Parking"
+      },
+      {
+       "id": "schlott-construction-west-vice-dale-county",
+       "name": "Schlott Construction West Vice-Dale County"
+      },
+      {
+       "id": "shoreline-park-amphitheater",
+       "name": "Shoreline Park Amphitheater"
+      },
+      {
+       "id": "sixth-and-harper-parking",
+       "name": "Sixth & Harper Parking"
+      },
+      {
+       "id": "skorpen-brothers-recycling",
+       "name": "Skorpen Brothers Recycling"
+      },
+      {
+       "id": "sw-4th-avenue-construction",
+       "name": "SW 4th Avenue Construction"
+      },
+      {
+       "id": "tequesta-mvp-park",
+       "name": "Tequesta MVP Park"
+      },
+      {
+       "id": "tequesta-park-in",
+       "name": "Tequesta Park In"
+      },
+      {
+       "id": "valdemar-on-the-river-parking-north",
+       "name": "Valdemar on the River Parking North"
+      },
+      {
+       "id": "valdemar-on-the-river-parking-south",
+       "name": "Valdemar on the River Parking South"
+      },
+      {
+       "id": "vcia-concourse",
+       "name": "VCIA Concourse"
+      },
+      {
+       "id": "vcia-gator-parking",
+       "name": "VCIA Gator Parking"
+      },
+      {
+       "id": "vcia-north-central-gate",
+       "name": "VCIA North Central Gate"
+      },
+      {
+       "id": "vcia-storage-facility",
+       "name": "VCIA Storage Facility"
+      },
+      {
+       "id": "vice-beach-park-in",
+       "name": "Vice Beach Park In"
+      },
+      {
+       "id": "vice-beach-police-headquarters",
+       "name": "Vice Beach Police Headquarters"
+      },
+      {
+       "id": "vice-city-parking-department-downtown",
+       "name": "Vice City Parking Department Downtown"
+      },
+      {
+       "id": "vice-city-parking-department-ocean-beach",
+       "name": "Vice City Parking Department Ocean Beach"
+      },
+      {
+       "id": "vice-city-parking-department-salton",
+       "name": "Vice City Parking Department Salton"
+      },
+      {
+       "id": "vice-city-parking-department-tequesta",
+       "name": "Vice City Parking Department Tequesta"
+      },
+      {
+       "id": "vice-dale-police-parking",
+       "name": "Vice-Dale Police Parking"
+      },
+      {
+       "id": "west-vice-dale-county-broken-bridge",
+       "name": "West Vice-Dale County Broken Bridge"
+      },
+      {
+       "id": "west-vice-dale-county-landfill",
+       "name": "West Vice-Dale County Landfill"
+      }
+     ],
+     "total": 55
+    }
+   ],
+   "mapped": 70
+  },
+  {
+   "id": "bridge",
+   "n": "Under the bridge",
+   "total": 202,
+   "how": "Fly under a bridge.",
+   "groups": [],
+   "mapped": 0
+  }
+ ]
+}

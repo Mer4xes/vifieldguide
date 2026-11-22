@@ -1,67 +1,67 @@
 [
-  {
-    "date": "2026-11-22",
-    "tag": "Trophies",
-    "title": "A page for every trophy",
-    "text": "Open-world and collectible trophies now have their own page with the method, a tick box and related trophies.",
-    "url": "/trophies/",
-    "img": "/assets/img/art/jl-beach.webp",
-    "cta": "Browse the trophies"
-  },
-  {
-    "date": "2026-11-22",
-    "tag": "New guide",
-    "title": "Every tool, and what it opens",
-    "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
-    "url": "/guides/equipment/",
-    "img": "/assets/img/art/jl-lock-and-load.webp"
-  },
-  {
-    "date": "2026-11-22",
-    "tag": "Walkthrough",
-    "title": "Chapter 4 done, Chapter 5 begins",
-    "text": "Every Chapter 4 mission is written up, plus five of Chapter 5. 91 missions so far.",
-    "url": "/walkthrough/#chapter-5",
-    "img": "/assets/img/art/jl-rooftop.webp"
-  },
-  {
-    "date": "2026-11-21",
-    "tag": "New guide",
-    "title": "Every gun store and mod shop",
-    "text": "All 24 Ammu-Nations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, by county.",
-    "url": "/guides/shops/",
-    "img": "/assets/img/misc/act-carmeet.webp"
-  },
-  {
-    "date": "2026-11-21",
-    "tag": "New guide",
-    "title": "Every gang operation",
-    "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
-    "url": "/guides/gang-operations/",
-    "img": "/assets/img/art/jl-robbery.webp"
-  },
-  {
-    "date": "2026-11-21",
-    "tag": "Side jobs",
-    "title": "Side strands, start to finish",
-    "text": "Kirk's Skunk Ape hunt, a tracker for Tyrone's Kitty Litter labs, plus Billy, Andy and Pilot Pete.",
-    "url": "/guides/side-contacts/",
-    "img": "/assets/img/misc/act-offroad.webp"
-  },
-  {
-    "date": "2026-11-21",
-    "tag": "New guide",
-    "title": "Every cheat, unlocked",
-    "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
-    "url": "/guides/cheats/",
-    "img": "/assets/img/misc/feat-phone.webp"
-  },
-  {
-    "date": "2026-11-20",
-    "tag": "New guide",
-    "title": "Everything you can miss",
-    "text": "Every missable item, job and collectible, chapter by chapter, with the last safe mission.",
-    "url": "/guides/missables/",
-    "img": "/assets/img/art/jl-motel.webp"
-  }
+ {
+  "date": "2026-11-22",
+  "tag": "New guide",
+  "title": "All 397 stunts, sorted",
+  "text": "The four kinds of stunt, what 250 and 300 need, and tick lists for every knife flight and base jump.",
+  "url": "/guides/stunts/",
+  "img": "/assets/img/misc/act-heli.webp",
+  "cta": "Open the stunt lists"
+ },
+ {
+  "date": "2026-11-22",
+  "tag": "Trophies",
+  "title": "A page for every trophy",
+  "text": "Open-world and collectible trophies now have their own page with the method, a tick box and related trophies.",
+  "url": "/trophies/",
+  "img": "/assets/img/art/jl-beach.webp"
+ },
+ {
+  "date": "2026-11-22",
+  "tag": "New guide",
+  "title": "Every tool, and what it opens",
+  "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
+  "url": "/guides/equipment/",
+  "img": "/assets/img/art/jl-lock-and-load.webp"
+ },
+ {
+  "date": "2026-11-22",
+  "tag": "Walkthrough",
+  "title": "Chapter 4 done, Chapter 5 begins",
+  "text": "Every Chapter 4 mission is written up, plus five of Chapter 5. 91 missions so far.",
+  "url": "/walkthrough/#chapter-5",
+  "img": "/assets/img/art/jl-rooftop.webp"
+ },
+ {
+  "date": "2026-11-21",
+  "tag": "New guide",
+  "title": "Every gun store and mod shop",
+  "text": "All 24 Ammu-Nations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, by county.",
+  "url": "/guides/shops/",
+  "img": "/assets/img/misc/act-carmeet.webp"
+ },
+ {
+  "date": "2026-11-21",
+  "tag": "New guide",
+  "title": "Every gang operation",
+  "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
+  "url": "/guides/gang-operations/",
+  "img": "/assets/img/art/jl-robbery.webp"
+ },
+ {
+  "date": "2026-11-21",
+  "tag": "Side jobs",
+  "title": "Side strands, start to finish",
+  "text": "Kirk's Skunk Ape hunt, a tracker for Tyrone's Kitty Litter labs, plus Billy, Andy and Pilot Pete.",
+  "url": "/guides/side-contacts/",
+  "img": "/assets/img/misc/act-offroad.webp"
+ },
+ {
+  "date": "2026-11-21",
+  "tag": "New guide",
+  "title": "Every cheat, unlocked",
+  "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
+  "url": "/guides/cheats/",
+  "img": "/assets/img/misc/feat-phone.webp"
+ }
 ]

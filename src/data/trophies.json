@@ -214,9 +214,9 @@
     "open-world"
    ],
    "target": "250",
-   "how": "You need 250 stunts. The 100% checklist wants 300, so this pops on the way there. Stunt jumps count, and 50 of them also unlock the unlimited nitrous cheat.",
-   "link": "/guides/activities-and-collectibles/#stunts",
-   "linkLabel": "Stunts"
+   "how": "You need 250 of the 397 stunts: 130 stunt jumps, 202 under the bridge, 40 knife flights and 25 base jumps, in any mix. The 100% checklist wants 300, so this pops on the way there. 50 stunt jumps also unlock the unlimited nitrous cheat.",
+   "link": "/guides/stunts/",
+   "linkLabel": "All stunts"
   },
   {
    "id": "master-of-none",
