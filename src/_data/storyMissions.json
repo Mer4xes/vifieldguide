@@ -516,6 +516,10 @@
      "no": 66,
      "opens": [
       {
+       "t": "Pay Abe's Fee: send Abe's law firm $75,000 in BuckMe to move the story on",
+       "u": "/walkthrough/party-hard/#step-14"
+      },
+      {
        "t": "Bad Driver! (optional, Andrea): missable, gone once Power Play starts",
        "u": "/guides/missables/#chapter-4"
       }

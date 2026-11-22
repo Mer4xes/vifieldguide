@@ -8,7 +8,7 @@ giver: Valentina
 difficulty: 2
 summary: Valentina puts Jason and Lucia on security for a client, Andrés, on his way to an office party Downtown. The party doesn't stay a party for long. You switch between the two of them through a fight across two floors, a quiet stealth section and a helicopter rooftop finish.
 description: "Party Hard (Work Personal Security) walkthrough for GTA 6: drive Andrés from VCIA, pick up his order in Little Cuba, fight through the Megamundo offices, sneak through the vent as Lucia with a silenced pistol, clear the party floor without hitting hostages, jump onto the helicopter and land it on the helipad."
-updated: 2026-11-20
+updated: 2026-11-22
 objectives:
   - Follow the car
   - Pick up Andrés' order
@@ -24,8 +24,11 @@ objectives:
   - Land on the helipad
 rewards:
   - { label: Cash, value: "None" }
+  - { label: Costs, value: "$75,000 for Pay Abe's Fee, straight after" }
   - { label: Next, value: "Heavy Lifting" }
 faq:
+  - q: "How much is Abe's fee in GTA 6?"
+    a: "**$75,000.** Right after Party Hard, Abe's law firm texts you for it. Pay it in the BuckMe app; the story doesn't continue until you do."
   - q: "How do you start Party Hard in GTA 6?"
     a: "Finish **Lawyer Up**. Valentina gets in touch with a security job: meet her at **VCIA**, the airport."
   - q: "How do you beat the stairwell fight as Lucia in Party Hard?"
@@ -36,6 +39,7 @@ faq:
     a: "As Jason, jump on as it takes off (X / A), mash Square / X to fight, press X / A to dodge when prompted, then hold R2 / RT and mash X / A to pull him back in."
 sources:
   - { label: "PowerPyx", url: "https://www.powerpyx.com/gta-6-party-hard-work-personal-security-walkthrough/", note: "Mission walkthrough, Nov 19, 2026. Chapter 4, giver Valentina, Lucia and Jason (switching), Vice-Dale County > VCIA; requires Lawyer Up. No reward. 12 objectives (Follow the car ... Land on the helipad). Follow Andrés' car out of the airport; drink order in Little Cuba; Megamundo offices Downtown; follow Petra into the elevator; conference room; melee the gunman left in the room; radio from the marked body; Lucia crouches down the left side to the stairwell; mash Square/X, kick the gun, hold R2/RT and mash, Triangle/Y shoe; Jason heads left, enemies out of the offices, stairs up; Lucia shoots the man in the elevator, hole in the wall, vent, drop; silenced pistol no spare ammo; focus L3+R3 when not aiming; spotted or loud gun = all search; avoid hostages; untie Valentina; Navarros behind the marked door; Jason jumps on the helicopter X/A, mash Square/X, X/A dodge, R2/RT + mash X/A to pull Andrés in; fly back and land on the rooftop helipad. Story: Megamundo HQ opening attacked by revolutionaries (FAP); César Navarro (CEO) and Petra (COO, Andrés' wife; spelled Petro once on the page)." }
+  - { label: "PowerPyx (Pay Abe's Fee)", url: "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/", note: "Read Nov 22, 2026 (published Nov 19, updated Nov 20). Chapter 4, giver Abe Gonzalez, Lucia or Jason, Vice City, no map marker (story icon in the map's mission list), unlocks right after Party Hard via a text from the law group (page spells it Lureatia and Lucretia, so no firm name shown); pay $75,000 through BuckMe for the Mr. and Mrs. Walker identities; completes instantly; mandatory; no reward. Hub lists it between Party Hard and Photo/Shoot." }
   - { label: "GTABase", url: "https://www.gtabase.com/gta-6/missions/party-hard", note: "Read Nov 20, 2026. Same steps and prompts: VCIA, Little Cuba detour, Megamundo Network HQ Downtown, FAP gunmen take Andrés, stairwell fight with the shoe, vent, silenced pistol without spare ammo, focus, hostages, untie Valentina, Navarros, helicopter, rooftop helipad. Leads on from Lawyer Up." }
 ---
 
@@ -106,3 +110,11 @@ Run up to the roof as Jason and press X / A to leap onto the helicopter as it li
 ## Land on the helipad
 
 You're flying now. Head back to Megamundo and set the helicopter down on the rooftop helipad to finish.
+
+## Afterwards: Pay Abe's Fee
+
+> **Note:** This is a separate story step with no map marker. Find it under the story icon in the map's mission list. It opens straight after Party Hard.
+
+A message from the law firm of Abe, the lawyer from [Lawyer Up](/walkthrough/lawyer-up/), asks for his fee: **$75,000**. Open the **BuckMe** app and send it. The step completes as soon as the money goes through, and the story won't move on until it does. Short of cash? See the [money guide](/guides/money/).
+
+> **Spoiler:** The money buys Jason and Lucia new identities.

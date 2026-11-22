@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-22
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -36,11 +36,16 @@ faq:
     a: "Sell stolen cars to Moses in Port Gellhorn after the Chapter 2 mission Moses. He only takes cars without a tracker and pays $1,000 or more each. In Chapter 1 it isn't worth farming, because pocket cash doesn't survive the end of the chapter."
   - q: "Do you lose money when you die in GTA 6?"
     a: "Yes, the cash you carry is lost when you die or get arrested. Money in your BuckMe account is safe. Deposit at any ATM; the app's ATM Finder sets a waypoint to the nearest one."
+  - q: "Do you need money for the story in GTA 6?"
+    a: "Twice. Checking Out, the last mission of Chapter 2, won't start until you have $15,000. In Chapter 4, straight after Party Hard, Abe's law firm asks for $75,000, paid through BuckMe, before the story carries on."
   - q: "When can you rob banks in GTA 6?"
     a: "The 14 small banks open after the Chapter 3 story mission Credit Check, which also gets you the Dye Pack Jammer. The 8 large bank vaults open at the end of Chapter 4 with the optional mission That's Where The Money Is."
   - q: "How do you get the key cloner in GTA 6?"
     a: "It unlocks on its own at the start of Randy's job Clonin' Keys, Makin' GS (Steal the Zorrusso for Randy), about halfway through Chapter 3, and goes straight onto your phone. Stand at the door of a keyless car, press interact and choose Clone Key."
 sources:
+  - label: "PowerPyx: Pay Abe's Fee"
+    url: "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/"
+    note: "Read Nov 22, 2026. Chapter 4, right after Party Hard, a text asks you to pay Abe Gonzalez $75,000 through BuckMe; mandatory to advance; completes instantly; links the money guide if you're short."
   - label: "PowerPyx: Money Guide"
     url: "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/"
     note: "Nov 18, 2026, modified Nov 19. Methods by chapter: Ch1 not worth farming (money lost at chapter end), registers, gang ops, races; Moses after Moses, no-tracker cars, $1000+, ~2 min cooldown, not close to his garage, take cars from the main road in Port Gellhorn; Ch3 jewelry stores via Yasmani's Jewelry Jobs $10k-25k, several in a row, back-room safe; Standard Tracker cars at any Pay 'n' Spray ~$4,000+; Randy's Wish List 18 cars, random around Vice City, perfect condition $30k+, key cloner from Clonin' Keys, Makin' GS; end of Ch3 ~$120,000 from the story (left out: one source and close to a story spoiler); vaults up to $205k after That's Where The Money Is; Yasmani security-van tips $10,000 after 2 payday loans; instant 4 stars; fast motorcycle, then switch vehicles."
@@ -74,6 +79,7 @@ The first rule matters more than any method: **cash in your pocket is not safe.*
 - **Family Savings** in the same app can never be lost, but it can't be taken out again either. Only put in what you won't need.
 - **End of Chapter 1:** the cash Jason carries is lost in the run-up to the end of the chapter. Bank it before [Recalibration](/walkthrough/recalibration/#before-you-start).
 - **End of Chapter 2:** [Checking Out](/walkthrough/checking-out/#before-you-start) won't start until you have **$15,000**, and it should be in BuckMe rather than your pocket.
+- **Chapter 4:** straight after [Party Hard](/walkthrough/party-hard/#step-14), Abe's law firm asks for **$75,000** (Pay Abe's Fee). You pay it through BuckMe, and the story waits until you do.
 
 <h2 id="by-chapter">Money by chapter</h2>
 
