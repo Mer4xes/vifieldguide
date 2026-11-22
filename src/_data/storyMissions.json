@@ -605,7 +605,11 @@
     },
     {
      "t": "Sunset",
-     "no": 85
+     "no": 85,
+     "warn": {
+      "t": "Save and finish your free-roam plans before you collect the message",
+      "u": "/walkthrough/sunset/#before-you-start"
+     }
     },
     {
      "t": "Starting From Zero",
@@ -618,18 +622,25 @@
    "missions": [
     {
      "t": "Bird in the Hand",
-     "no": 87
+     "no": 87,
+     "opens": [
+      {
+       "t": "The Tequesta Retreat penthouse, home for the rest of the game",
+       "u": "/walkthrough/bird-in-the-hand/"
+      }
+     ]
     },
     {
      "t": "Taking Liberties",
      "no": 88
     },
     {
-     "t": "VC Baby",
-     "no": 89
+     "t": "Doggie Bag",
+     "no": 89,
+     "who": "lucia"
     },
     {
-     "t": "Doggie Bag",
+     "t": "VC Baby",
      "no": 90
     },
     {

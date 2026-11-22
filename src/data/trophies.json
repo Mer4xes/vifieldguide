@@ -97,9 +97,9 @@
     "story"
    ],
    "hidden": true,
-   "how": "Story trophy for finishing Chapter 4.",
-   "link": "/walkthrough/#chapter-4",
-   "linkLabel": "Chapter 4 missions"
+   "how": "Unlocks at the end of Starting From Zero, the last Chapter 4 mission.",
+   "link": "/walkthrough/starting-from-zero/",
+   "linkLabel": "Starting From Zero walkthrough"
   },
   {
    "id": "you-gotta-know-when-to-get-off",
@@ -149,9 +149,9 @@
     "story"
    ],
    "hidden": true,
-   "how": "Story mission in Chapter 4.",
-   "link": "/walkthrough/#chapter-4",
-   "linkLabel": "Chapter 4 missions"
+   "how": "Story mission in Chapter 4: rescue Rafa with Andrés. Can't be missed; the game makes you play it before Power Play.",
+   "link": "/walkthrough/childs-play/",
+   "linkLabel": "Child's Play walkthrough"
   },
   {
    "id": "dwnfall",
