@@ -177,7 +177,7 @@ Cars come into play in Chapter 2. [Moses](/walkthrough/moses/) gives Lucia the S
 
 <h2 id="fishing-hunting-gyms">Fishing, hunting and gyms</h2>
 
-- **Fishing:** 100 fish unlock the **Fisheye** cheat. **Baited My Tackle** is for beating Cal in a fishing challenge.
+- **Fishing:** 100 fish unlock the **Fisheye** cheat. **Baited My Tackle** is for beating Cal in [his fishing challenge](/guides/side-contacts/#cal).
 - **Hunting:** Bret runs a hunting business and hands out Target Decks. The 100% checklist needs all 15, and **Fair Game** is for hunting a unique animal for him.
 - **Gyms:** 100 workouts unlock the **Body Armor** cheat. See [Gyms](/activities/#gyms) for what Rockstar showed before launch.
 

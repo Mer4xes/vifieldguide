@@ -33,6 +33,8 @@ tldr:
   - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Not every contact on this page is a stranger."
   - "The fences on this page are also how you turn stolen goods into money. See [fences](/guides/fences/)."
 faq:
+  - q: "How do you get Baited My Tackle in GTA 6?"
+    a: "After Feng Shui in Chapter 1, Cal texts Jason a fishing challenge in Gambit Bay. Take a boat to the spot, drop anchor and fish with the Small Saltwater Lure until you land a stoplight parrotfish over 2 lbs, then send it to Cal. The trophy unlocks when you win."
   - q: "How many Strangers & Freaks are there in GTA 6?"
     a: "The trophy asks for 8 mission strands for strangers. The full list of strands that count is still being confirmed, so check the trophy tracker as you finish each one."
   - q: "Where do you meet Kenton in GTA 6?"
@@ -68,6 +70,9 @@ faq:
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
+  - label: "PowerPyx: Catch A Bigger Fish (Cal)"
+    url: "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/"
+    note: "Read Nov 22, 2026 (published/modified Nov 19, full page text). Mariana County > Gambit Bay, giver Cal, requires Feng Shui (Ch1), Jason, reward Focus increase + Baited My Tackle. Steal a boat (Jason's boat gone after Ch1; docks near The Rusty Anchor), anchor from the vehicle menu, rod in bottom-right slot, Small Saltwater Lure, stoplight parrotfish over 2 lbs, send to Cal with X/A. Author's reply in comments: disappears for a while in the story, comes back, doable after the story. Only Cal entry in PowerPyx's side-mission list. Trusted source."
   - label: "DayOne: all contacts in GTA 6"
     url: "https://playday.one/2026/11/18/all-contacts-in-gta-6/"
     note: "Contact names, roles and what each tracks. Nov 18, 2026."
@@ -145,7 +150,7 @@ sources:
 
 | Contact | What they deal in | Where you meet them | Trophy |
 |---|---|---|---|
-| **Cal Hampton** | Jason's friend, fishing | Chapter 1, [Gone Fishing](/walkthrough/gone-fishing/) | Baited My Tackle: beat him in a fishing challenge |
+| **Cal Hampton** | Jason's friend, fishing | Chapter 1, [Gone Fishing](/walkthrough/gone-fishing/) ([his challenge](#cal)) | Baited My Tackle: beat him in a fishing challenge |
 | **Kirk** | Hunts the Skunk Ape in the Mariana County swamps, at night | Chapter 1, his flyers around Hamlet ([his jobs](#kirk)) | Counts toward Strangers & Freaks |
 | **Kenton Rees** | Deep-water treasure diving; buys doubloons and meteorites | Chapter 1, [Island Dreams](/walkthrough/island-dreams/) | This Was No Boat Accident (hidden) |
 | **Moses Watkins** | Car fence, Port Gellhorn | Chapter 2, [Moses](/walkthrough/moses/) ([his car jobs](#moses)) | |
@@ -161,11 +166,19 @@ sources:
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
 The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every contact counts: fences like Moses and Yasmani are part of the money side of the game rather than stranger strands. Kirk, Kyle, Yago and Pilot Pete's strands count; the other four aren't confirmed yet. Check the trophy tracker before and after the last mission of a strand to see if it counted.
+
+<h2 id="cal">Cal's fishing challenge</h2>
+
+Cal is Jason's fishing buddy from Key Lento. Once you've finished [Feng Shui](/walkthrough/feng-shui/) in Chapter 1, he texts Jason and dares him to land a bigger fish than his at a spot out in **Gambit Bay**, Mariana County. It is a single job, it's for **Jason**, and beating Cal earns **Baited My Tackle** and a boost to Focus.
+
+<ol class="strand">
+<li><div class="strand-h">Catch a Bigger Fish <span class="chip plain">Chapter 1 on</span> <span class="flag">Jason</span></div><span class="strand-pay">Focus boost + trophy</span><p>You need a boat. If Jason's own isn't at the house, take one: the docks by the Rusty Anchor usually have a couple of fishing boats tied up. Head to the marked spot, open the vehicle menu and drop the <b>anchor</b> so you stay put. Take the rod out of your weapon wheel (bottom-right slot), keep the basic <b>Small Saltwater Lure</b> on and cast. Cal wants a <b>stoplight parrotfish over 2 lbs</b>: anything smaller doesn't count, so keep casting until one bites. When you land one big enough, send it to Cal (X / A) to win.</p></li>
+</ol>
 
 <h2 id="kirk">Kirk and the Skunk Ape</h2>
 

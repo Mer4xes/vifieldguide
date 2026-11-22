@@ -1,12 +1,20 @@
 [
   {
     "date": "2026-11-22",
+    "tag": "Trophies",
+    "title": "A page for every trophy",
+    "text": "Open-world and collectible trophies now have their own page with the method, a tick box and related trophies.",
+    "url": "/trophies/",
+    "img": "/assets/img/art/jl-beach.webp",
+    "cta": "Browse the trophies"
+  },
+  {
+    "date": "2026-11-22",
     "tag": "New guide",
     "title": "Every tool, and what it opens",
     "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
     "url": "/guides/equipment/",
-    "img": "/assets/img/art/jl-lock-and-load.webp",
-    "cta": "See the equipment"
+    "img": "/assets/img/art/jl-lock-and-load.webp"
   },
   {
     "date": "2026-11-22",
@@ -55,13 +63,5 @@
     "text": "Every missable item, job and collectible, chapter by chapter, with the last safe mission.",
     "url": "/guides/missables/",
     "img": "/assets/img/art/jl-motel.webp"
-  },
-  {
-    "date": "2026-11-20",
-    "tag": "Collectibles",
-    "title": "Collectibles by county",
-    "text": "Cards, WAiNK scans, hoops, flamingos and more, sorted by county and folded into the 100% route.",
-    "url": "/collectibles/#by-area",
-    "img": "/assets/img/misc/wl-reef.webp"
   }
 ]

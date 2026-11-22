@@ -1,0 +1,105 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: {
+    data: "db.trophies.items",
+    size: 1,
+    alias: "tr",
+    addAllPagesToCollections: true,
+    // Hidden story trophies give the plot away in their names, so they only live (blurred) on the list.
+    before: (items) => items.filter((t) => !(t.hidden && (t.tags || []).includes("story"))),
+  },
+  permalink: (data) => `trophies/${data.tr.id}/`,
+  crumbParent: { label: "Trophies", url: "/trophies/" },
+  eleventyComputed: {
+    title: (data) => data.tr.name,
+    updated: (data) => data.db.trophies.updated,
+    seoTitle: (data) => `${data.tr.name} Trophy in GTA 6: How to Unlock It`,
+    description: (data) => {
+      const g = { platinum: "Platinum", gold: "Gold", silver: "Silver", bronze: "Bronze" }[data.tr.grade];
+      const d = String(data.tr.desc).replace(/\s+$/, "");
+      return `How to unlock ${data.tr.name} in GTA 6, a ${g} trophy and achievement: "${d}"${data.tr.missable ? " It can be missed, so plan ahead." : ""} Method, related guide and a tick box that syncs with our trophy list.`;
+    },
+  },
+}
+---
+{%- set gradeName = { platinum: "Platinum", gold: "Gold", silver: "Silver", bronze: "Bronze" } %}
+{%- set glow = { platinum: "plat", gold: "gold", silver: "cyan", bronze: "pink" } %}
+{%- set tagName = { "open-world": "Open world", collectibles: "Collectibles", story: "Story" } %}
+{%- set faq = [] %}
+{%- if tr.how %}{% set faq = (faq.push({ q: "How do you get " + tr.name + " in GTA 6?", a: tr.how }), faq) %}{% endif %}
+{%- if tr.missable %}{% set faq = (faq.push({ q: "Can you miss " + tr.name + " in GTA 6?", a: "Yes. It is one of the trophies you can lose if you move on too early, so follow the method above before the cut-off. Our [missables guide](/guides/missables/) has every cut-off in one list." }), faq) %}{% endif %}
+<header class="mast" style="--glow:var(--{{ glow[tr.grade] }})">
+  <div class="wrap">
+    <p class="kicker">GTA 6 trophy and achievement</p>
+    <h1>{{ tr.name }}</h1>
+    <p class="tagline">{{ tr.desc }}</p>
+    <div class="chips">
+      <span class="chip ok dot">Confirmed name and description</span>
+      {%- for tg in tr.tags %}<span class="chip plain">{{ tagName[tg] or tg }}</span>{% endfor %}
+      {%- if tr.hidden %}<span class="chip plain">Hidden on PSN</span>{% endif %}
+      {%- if tr.missable %}<span class="chip rum">Missable</span>{% endif %}
+    </div>
+  </div>
+</header>
+
+<section class="sec sec-tight">
+  <div class="wrap trophy-one">
+    <div class="trophies">
+      <div class="tr" id="{{ tr.id }}" data-track-row data-tags="{{ tr.tags | join(' ') }}">
+        <input class="cb" type="checkbox" id="t-{{ tr.id }}" data-track="trophy:{{ tr.id }}" aria-label="Mark {{ tr.name }} earned">
+        <div class="body">
+          <div class="name"><label for="t-{{ tr.id }}">{{ tr.name }}</label></div>
+          <div class="desc">{{ tr.desc }}{% if tr.target %} <span class="trk" title="Target tracked on PSN">0/{{ tr.target }}</span>{% endif %}</div>
+          <p class="trophy-sync">Tick it when you earn it. It stays ticked on the <a href="/trophies/#{{ tr.id }}">full trophy list</a> too.</p>
+        </div>
+        <div class="side"><span class="rar {{ tr.grade }}">{{ gradeName[tr.grade] }}</span></div>
+      </div>
+    </div>
+
+    <h2 class="sec-h sm">How to get it</h2>
+    {%- if tr.how %}
+    {%- if tr.hidden %}
+    <details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Where it happens</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>{{ tr.how | md | safe }}</p></div></details>
+    {%- else %}
+    <p class="trophy-how">{{ tr.how | md | safe }}</p>
+    {%- endif %}
+    <p class="trophy-status"><span class="chip rum dot">Reported</span> First pass: the method comes from trusted guides and isn't checked in our own game yet.</p>
+    {%- else %}
+    <p class="trophy-how">We don't have a method we trust yet. This page fills in as soon as we do.</p>
+    {%- endif %}
+    {%- if tr.missable %}
+    <div class="tip miss"><span class="lab">Missable</span><div class="tip-body"><p>You can lose this one by moving on too early. The <a href="/guides/missables/">missables guide</a> and the <a href="/guides/100-percent-route/">100% route</a> show when to do it.</p></div></div>
+    {%- endif %}
+    <div class="btns">
+      {%- if tr.link %}<a class="btn primary" href="{{ tr.link }}">{{ tr.linkLabel or "Related guide" }} →</a>{% endif %}
+      <a class="btn" href="/trophies/">All GTA 6 trophies</a>
+    </div>
+
+    {%- set related = [] %}
+    {%- for o in db.trophies.items %}{% if o.id != tr.id and not o.hidden and o.grade != "platinum" and (o.tags | last) == (tr.tags | last) and related.length < 6 %}{% set related = (related.push(o), related) %}{% endif %}{% endfor %}
+    {%- if related.length %}
+    <h2 class="sec-h sm">More {{ (tagName[tr.tags | last] or "GTA 6") | lower }} trophies</h2>
+    <ul class="trophy-rel">
+      {%- for o in related %}
+      <li><a href="/trophies/{{ o.id }}/"><span class="rar {{ o.grade }}">{{ gradeName[o.grade] }}</span><b>{{ o.name }}</b><span>{{ o.desc }}</span></a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+
+{%- if faq.length %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in faq %}
+      <details{% if loop.first and not tr.hidden %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ faq | faqld | safe }}</script>
+{%- endif %}

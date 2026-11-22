@@ -157,7 +157,7 @@
       {
        "k": "cal-fishing",
        "tag": "collect",
-       "t": "**Cal's fishing.** Cal texts after Feng Shui and a purple fishing icon appears. His challenges lead to Baited My Tackle."
+       "t": "**Cal's fishing challenge.** Cal texts Jason after Feng Shui: take a boat to his spot in Gambit Bay and land a stoplight parrotfish over 2 lbs for Baited My Tackle and a Focus boost. [Cal's challenge](/guides/side-contacts/#cal)."
       },
       {
        "c": "survival:big-fish"
@@ -759,6 +759,11 @@
        "k": "banks-open",
        "tag": "collect",
        "t": "**Bank jobs and payday loans are open**, and marked bills can be fenced. [Fences](/guides/fences/)."
+      },
+      {
+       "k": "lucia-payday",
+       "tag": "side",
+       "t": "**Rob the Little Cuba payday loan again as Lucia**, on her own, and leave on foot, not in a car. A hidden trophy depends on it."
       },
       {
        "k": "t-blitz",
@@ -1439,7 +1444,7 @@
        "k": "t-baited",
        "track": "trophy:baited-my-tackle",
        "tag": "trophy",
-       "t": "**Baited My Tackle:** beat Cal in a fishing challenge."
+       "t": "**Baited My Tackle:** beat Cal in his fishing challenge (a stoplight parrotfish over 2 lbs in Gambit Bay), if you skipped it in Chapter 1. [Cal's challenge](/guides/side-contacts/#cal)."
       },
       {
        "c": "survival:alligator-kills"

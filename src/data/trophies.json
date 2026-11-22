@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -278,9 +278,9 @@
    "tags": [
     "open-world"
    ],
-   "how": "Cal, Jason's fishing buddy from the first missions, challenges you to a fishing contest. Win one.",
-   "link": "/guides/side-contacts/#contacts",
-   "linkLabel": "Side contacts"
+   "how": "After Feng Shui in Chapter 1, Cal texts Jason a challenge: take a boat out to his spot in Gambit Bay, drop anchor and fish with the Small Saltwater Lure until you land a stoplight parrotfish over 2 lbs, then send it to him.",
+   "link": "/guides/side-contacts/#cal",
+   "linkLabel": "Cal's fishing challenge"
   },
   {
    "id": "stick-fiddler",
@@ -647,7 +647,10 @@
    "tags": [
     "open-world"
    ],
-   "hidden": true
+   "hidden": true,
+   "how": "A repeat of the Prologue robbery. Once Credit Check in Chapter 3 has opened payday loans, go back to the Payday Loans store in Little Cuba as Lucia, on her own, and rob it again, then get away on foot rather than in a vehicle. It pops a little while after you have slipped out of the police search area. Not missable.",
+   "link": "/walkthrough/credit-check/",
+   "linkLabel": "Credit Check walkthrough"
   },
   {
    "id": "the-truth-is-out-there",
@@ -726,7 +729,17 @@
   {
    "label": "PowerPyx trophy guide & roadmap",
    "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-   "note": "Read Nov 20, 2026 (verbatim part). Methods for Catch Me If You Can, Challenging Tank, In The Beginning, Capital Offense, Personal Best, The Truth Is Out There, Ten Pin, Treat Yo Self; Vice City, Baby! unlocks after Ocean Beach and Another Life. Bad Luck, I Guess is unknown there (left out)."
+   "note": "Read Nov 20, 2026 (verbatim part). Methods for Catch Me If You Can, Challenging Tank, In The Beginning, Capital Offense, Personal Best, The Truth Is Out There, Ten Pin, Treat Yo Self; Vice City, Baby! unlocks after Ocean Beach and Another Life. Nov 22 read: Bad Luck, I Guess (Lucia alone, Payday Loans Little Cuba, after Credit Check, escape on foot, delayed unlock); this part came through the fetch tool as a summary."
+  },
+  {
+   "label": "LibertyCity.net GTA 6 trophy guide",
+   "url": "https://libertycity.net/guides/gta-6/10618-gta-6-trophy-guide-all-achievements-and.html",
+   "note": "Read Nov 22, 2026 (dated Nov 21, page text). Bad Luck, I Guess: rob Payday Loans in Little Cuba again as Lucia alone, as in the prologue, after Credit Check (Ch3), leave the area on foot, delayed unlock after escaping the search area. Agrees with PowerPyx; second independent source."
+  },
+  {
+   "label": "PowerPyx: Catch A Bigger Fish",
+   "url": "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/",
+   "note": "Read Nov 22, 2026. Baited My Tackle: Cal's challenge after Feng Shui, Gambit Bay, stoplight parrotfish over 2 lbs, Jason. Trusted source."
   }
  ],
  "faq": [
