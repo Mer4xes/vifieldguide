@@ -818,7 +818,8 @@
        "m": 58
       },
       {
-       "m": 59
+       "m": 59,
+       "n": "Take the red bag near the end of the table in the first room. Leave the room without it and its cash and bonus are gone."
       },
       {
        "m": 60
@@ -896,7 +897,7 @@
   {
    "id": "chapter-4",
    "title": "Chapter 4: Vice City, Baby",
-   "lede": "Two optional missions matter here: one opens the vaults, the other is limited-time. We don't yet know between which missions they appear, so watch for them from the start.",
+   "lede": "Three things to plan around: a limited-time optional mission for Lucia, a $75,000 fee after Party Hard, and Making Gainz, after which Jason and Lucia can't be together in public until VCIA Takedown is done. The bank vaults open at the very end of the chapter.",
    "groups": [
     {
      "h": "Watch for these",
@@ -910,17 +911,6 @@
        "k": "free-call",
        "tag": "limited",
        "t": "**This Is a Free Call From…** Optional, Lucia only and limited-time. Take it straight away."
-      },
-      {
-       "k": "vault-intro",
-       "tag": "side",
-       "t": "**That's Where The Money Is…** Optional. Opens the eight large bank vaults. For each one you tail a security van to the bank, go in while the vault is open and hand one bag to your partner."
-      },
-      {
-       "k": "t-max",
-       "track": "trophy:maximum-withdrawal",
-       "tag": "trophy",
-       "t": "**Maximum Withdrawal:** rob 5 vaults. The checklist wants all 8."
       },
       {
        "k": "eddie",
@@ -973,6 +963,11 @@
       },
       {
        "m": 68
+      },
+      {
+       "k": "together-lock",
+       "tag": "note",
+       "t": "**Finish what needs Jason and Lucia together before the next mission:** Hot Together, Retail Therapy, gym sessions as a pair and the meditations. After Making Gainz they can't be seen together in public until VCIA Takedown is done."
       },
       {
        "m": 69
@@ -1030,7 +1025,19 @@
        "t": "**Manual save in a slot of its own**, with the preparation missions done."
       },
       {
-       "m": 84
+       "m": 84,
+       "n": "A unique LMG lies on the ground during the last fight as Jason. Pick it up before you get in the van."
+      },
+      {
+       "k": "vault-intro",
+       "tag": "side",
+       "t": "**That's Where The Money Is…** Optional, at the very end of the chapter. Opens the eight large bank vaults: tail a security van to the bank, go in while the vault is open and hand one bag to your partner. [Money guide](/guides/money/)."
+      },
+      {
+       "k": "t-max",
+       "track": "trophy:maximum-withdrawal",
+       "tag": "trophy",
+       "t": "**Maximum Withdrawal:** rob 5 vaults. The checklist wants all 8."
       },
       {
        "m": 85
@@ -1114,7 +1121,7 @@
        "k": "fr-banks",
        "track": "pct:bank-jobs-fully-completed",
        "tag": "collect",
-       "t": "**Bank jobs.**",
+       "t": "**Bank jobs.** [Money guide](/guides/money/).",
        "g": "22 of 22"
       },
       {
@@ -1168,7 +1175,7 @@
        "k": "fr-gang",
        "track": "pct:gang-operations-cleared",
        "tag": "collect",
-       "t": "**Gang operations.** One from each of the nine gangs earns Pest Control.",
+       "t": "**Gang operations.** One from each of the nine gangs earns Pest Control. [All 39 by gang](/guides/gang-operations/).",
        "g": "39 of 39"
       },
       {
@@ -1449,7 +1456,8 @@
      "h": "E: spend the money",
      "items": [
       {
-       "c": "shopping:heavily-armed"
+       "c": "shopping:heavily-armed",
+       "n": "[Every Ammu-Nation and mod shop by county](/guides/shops/)."
       },
       {
        "k": "fr-weapons",

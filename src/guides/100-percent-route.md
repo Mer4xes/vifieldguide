@@ -115,7 +115,7 @@ This is the whole game as one list. Missions are in story order, and around them
 {%- set c = challenges | routeChallenge(it.c) %}
 <li data-track-row><label><input class="cb" type="checkbox" data-track="chal:{{ c.catId }}:{{ c.id }}"><span class="txt"><b>{{ c.name }}:</b> {{ c.req }}{% if it.n %}<small>{{ it.n | md | safe }}</small>{% endif %}</span><span class="goal rt rt-challenge">Challenge</span></label></li>
 {%- else %}
-<li data-track-row><label><input class="cb" type="checkbox" data-track="{{ it.track or ('route:' + it.k) }}"><span class="txt">{{ it.t | md | safe }}{% if it.g %} <span class="need">{{ it.g }}</span>{% endif %}</span><span class="goal rt rt-{{ it.tag }}">{{ {"side":"Side job","limited":"Limited","collect":"Collect","trophy":"Trophy","save":"Save"}[it.tag] }}</span></label></li>
+<li data-track-row><label><input class="cb" type="checkbox" data-track="{{ it.track or ('route:' + it.k) }}"><span class="txt">{{ it.t | md | safe }}{% if it.g %} <span class="need">{{ it.g }}</span>{% endif %}</span><span class="goal rt rt-{{ it.tag }}">{{ {"side":"Side job","limited":"Limited","collect":"Collect","trophy":"Trophy","save":"Save","note":"Heads-up"}[it.tag] }}</span></label></li>
 {%- endif %}
 {%- endfor %}
 </ul>

@@ -35,6 +35,18 @@ Besides adding facts, look for one or two concrete improvements per run and ship
 - Before pushing, render changed pages in headless Chrome (Playwright is available) at 1280px and 390px wide and look at the screenshots. No console errors, no broken layout, `npm run check` clean.
 - Do not remove working features. Keep pages fast: WebP images, lazy loading, no heavy libraries.
 
+## Keep the 100% route in sync (Hauk, Nov 22; every run)
+`/guides/100-percent-route/` (`src/_data/route100.json`, template in `src/guides/100-percent-route.md`) is the one list with the whole game in order. Every time a run changes anything a completionist would act on, the route gets the same change in the same commit:
+- New or renumbered mission, optional job or side strand step: a row at the right place. Mission rows link themselves once the page exists; give the row an `n` note when the mission has a missable inside it.
+- New missable or limited-time item: a `"tag": "limited"` row before its cut-off (this also feeds `/guides/missables/`). Something that is only locked for a while gets `"tag": "note"`.
+- New collectible spots: the county's `area` list, plus a row in the chapter when the spot is lost with that chapter.
+- New unlock timing, character restriction, trophy method or checklist number: fix the row's text and its position, and take out "not known yet" wording once it is known.
+- New guide or section: link it from the matching row.
+- Challenges: 70 stay placed and 10 stay in `skip`. Move a row when we learn that what it needs opens earlier or later. Placement stays labelled as our suggestion.
+- Hidden trophies are not named on the route.
+
+Before pushing, do a route pass: go through the run's diff and ask of each change "does the route say this?". Then rebuild and look at the route page. In the report to Hauk, list the route changes, or say that none were needed.
+
 ## Editorial rules (non-negotiable)
 - No leaks, no datamined content before launch, no guessing. If a fact is not cross-checked, leave it out.
 - Every fact needs one trusted source or two independent ones (Hauk, Nov 19). Trusted on their own: primary sources (Rockstar, PlayStation/Xbox trophy lists) and the established guide outlets PowerPyx, IGN, Game Informer and Eurogamer, plus outlets of the same standing (GameSpot, Polygon, GamesRadar, PC Gamer, Push Square, PlayStationTrophies.org, TrueAchievements). Everything else (aggregator and SEO sites, wikis, Reddit, YouTube) still needs a second independent source. When two trusted sources disagree, or one contradicts itself, leave the detail out. Promptowy (promptowy.com, Polish walkthroughs) counts as an independent second source next to PowerPyx when the two agree (Hauk, Nov 18). IGN (ign.com/wikis/gta-6) and Rock Paper Shotgun are approved independent sources too, but both block fetching from cloud runs (checked Nov 18): don't try to get around it; use them when Hauk pastes content or a run has his computer.
