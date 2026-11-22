@@ -8,7 +8,7 @@ summary: Every mission in order, with the side jobs, limited-time missions, chal
 order: 2
 glow: gold
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-22
 facts:
   - { k: Playthroughs, v: "One", status: Reported }
   - { k: Mission replay, v: "None", status: Reported }
@@ -25,6 +25,8 @@ faq:
     a: "Play the story while scanning vehicles, studying animals and doing optional missions as they appear. Clear the short list of time-limited jobs before each chapter ends. After the credits, do the robberies first, then sweep one region at a time, and leave the challenges for last."
   - q: "Can you miss anything for 100% in GTA 6?"
     a: "Not on the 100% checklist itself. Everything it counts can be done in free roam after the story. A few optional missions are limited-time, and there are far more optional tasks than the 100 you need."
+  - q: "Can you keep playing after the GTA 6 story ends?"
+    a: "Yes. After the final mission and the credits, the game puts you back in free roam at the point just before the second-to-last mission, so everything left on the map is still there. That is also when the 100% checklist shows up."
   - q: "Are there missable trophies in GTA 6?"
     a: "Possibly one. Positive Mental Attitude needs all 18 meditation spots, and a meditation Lucia offers at Jason's house in Chapter 1 may not come back, so accept it if she asks. Race Against Yago is limited-time and belongs to a strand that counts toward Strangers & Freaks."
   - q: "Can you replay missions in GTA 6?"

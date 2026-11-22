@@ -80,6 +80,7 @@ The first rule matters more than any method: **cash in your pocket is not safe.*
 - **End of Chapter 1:** the cash Jason carries is lost in the run-up to the end of the chapter. Bank it before [Recalibration](/walkthrough/recalibration/#before-you-start).
 - **End of Chapter 2:** [Checking Out](/walkthrough/checking-out/#before-you-start) won't start until you have **$15,000**, and it should be in BuckMe rather than your pocket.
 - **Chapter 4:** straight after [Party Hard](/walkthrough/party-hard/#step-14), Abe's law firm asks for **$75,000** (Pay Abe's Fee). You pay it through BuckMe, and the story waits until you do.
+- **Chapter 5:** Abe's office asks again, this time for **$150,000** through BuckMe. The [second-to-last mission](/walkthrough/protective-custody/#before-you-start) doesn't open until it's paid.
 
 <h2 id="by-chapter">Money by chapter</h2>
 

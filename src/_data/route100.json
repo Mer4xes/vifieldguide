@@ -1091,17 +1091,27 @@
        "hide": true
       },
       {
-       "m": 92,
-       "hide": true
+       "k": "abe-fee-2",
+       "tag": "note",
+       "t": "**Have $150,000 ready for Abe's second fee.** After mission 91, Abe's office wants it through BuckMe, and mission 92 doesn't open until it's paid. [Mission 92](/walkthrough/protective-custody/#before-you-start)."
       },
       {
        "k": "save-final",
        "tag": "save",
-       "t": "**Manual save in a slot of its own** before the last mission. There is no replay."
+       "t": "**Manual save in a slot of its own** before mission 92. The last two missions run back to back, and there is no replay."
+      },
+      {
+       "m": 92,
+       "hide": true
       },
       {
        "m": 93,
        "hide": true
+      },
+      {
+       "k": "after-credits",
+       "tag": "note",
+       "t": "**After the credits** the game puts you back in free roam at the point just before mission 92, so nothing left on the map is lost."
       },
       {
        "k": "read-lights",

@@ -657,7 +657,12 @@
     },
     {
      "t": "Protective Custody",
-     "no": 92
+     "no": 92,
+     "warn": {
+      "k": "Before you start",
+      "t": "Pay Abe's office $150,000 and save: the last two missions run back to back",
+      "u": "/walkthrough/protective-custody/#before-you-start"
+     }
     },
     {
      "t": "The End of the Road",
