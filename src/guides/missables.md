@@ -27,7 +27,7 @@ faq:
   - q: "Do you lose your money at the end of Chapter 1?"
     a: "You lose the cash you carry. Bank it before Recalibration, ideally at least $5,000 in Family Savings."
   - q: "What is missable in Chapter 4 of GTA 6?"
-    a: "Two optional jobs: This Is a Free Call From…, which is Lucia only and limited-time, and Bad Driver!, which Andrea gives you after Party Hard and which is gone once Power Play starts."
+    a: "Two optional jobs: This Is a Free Call From…, which is Lucia only and limited-time, and Bad Driver!, which Andrea gives you after Party Hard and which is gone once Power Play starts. In the heist mission VCIA Takedown, Francisco's LMG-6 is only yours if you pick it up during the last fight."
   - q: "Can you replay missions in GTA 6?"
     a: "No. Keep manual saves at the start and end of each chapter in slots you don't overwrite. There are 15."
 sources:

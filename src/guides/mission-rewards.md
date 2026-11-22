@@ -8,16 +8,16 @@ summary: The unique weapons, cars, cash, new features and trophies the story han
 order: 5
 glow: gold
 spoilerFree: true
-updated: 2026-11-20
+updated: 2026-11-22
 tldr:
   - "**Some rewards can be missed.** A few only come if you grab something during the mission, like Donnie's revolver in [Don Gone](/walkthrough/don-gone/) or the bricks in [Bricked Up](/walkthrough/bricked-up/). Rows that say *only if* or *if you* are the ones to watch."
   - "**Unique weapons are named variants** of standard weapons, each tied to a character from the story."
   - "**Many missions pay nothing.** The real money comes from jobs between missions. See the [money guide](/guides/money/)."
 faq:
   - q: "What unique weapons can you get in GTA 6 story missions?"
-    a: "So far: Donnie's H&L .38 from the trunk in **Don Gone**, Gil's Kalinga .50 from **Safe Word**, Bae-Luxe's Bat from **Cooties**, and Roxy's and Bae-Luxe's W-10 SMGs from **Photo/Shoot**. The list on this page grows as the walkthrough does."
+    a: "So far: Donnie's H&L .38 from the trunk in **Don Gone**, Gil's Kalinga .50 from **Safe Word**, Bae-Luxe's Bat from **Cooties**, Roxy's and Bae-Luxe's W-10 SMGs from **Photo/Shoot**, and Francisco's LMG-6 from **VCIA Takedown** (pick it up during the last fight). The list on this page grows as the walkthrough does."
   - q: "Which GTA 6 story mission pays the most?"
-    a: "Of the missions covered so far, **The Cartel Heist** at the end of Chapter 3, with $120,000."
+    a: "Of the missions covered so far, **VCIA Takedown** at the end of Chapter 4, with $250,000. Before that, **The Cartel Heist** closes Chapter 3 with $120,000."
   - q: "Can you miss mission rewards in GTA 6?"
     a: "Yes. Donnie's revolver, Boobie's bricks and the later parts of Dubious Provenance all depend on what you do during the mission. Each mission page has a missable warning near the top when that's the case."
 ---

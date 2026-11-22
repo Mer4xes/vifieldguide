@@ -1,10 +1,18 @@
 [
   {
+    "date": "2026-11-22",
+    "tag": "Walkthrough",
+    "title": "Chapter 4, through the big heist",
+    "text": "Every Chapter 4 setup job and the airport heist itself are now written up. 83 missions so far.",
+    "url": "/walkthrough/#chapter-4",
+    "img": "/assets/img/art/jl-rooftop.webp",
+    "cta": "Open Chapter 4"
+  },
+  {
     "date": "2026-11-21",
     "tag": "New guide",
     "title": "Every gun store and mod shop",
     "text": "All 24 Ammu-Nations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, by county.",
-    "cta": "Find a shop",
     "url": "/guides/shops/",
     "img": "/assets/img/misc/act-carmeet.webp"
   },
@@ -39,14 +47,6 @@
     "text": "Every missable item, job and collectible, chapter by chapter, with the last safe mission.",
     "url": "/guides/missables/",
     "img": "/assets/img/art/jl-motel.webp"
-  },
-  {
-    "date": "2026-11-21",
-    "tag": "Walkthrough",
-    "title": "Chapter 4 is under way",
-    "text": "Chapters 1 to 3 are done and Chapter 4 is well under way. 72 missions written up so far.",
-    "url": "/walkthrough/#chapter-4",
-    "img": "/assets/img/art/jl-rooftop.webp"
   },
   {
     "date": "2026-11-20",

@@ -61,9 +61,19 @@
         "does": "Lucia helps Cisco out"
       },
       {
+        "slug": "too-much-baggage",
+        "t": "Too Much Baggage",
+        "does": "Jason scopes out the airport"
+      },
+      {
         "slug": "dirty-work",
         "t": "Dirty Work",
         "does": "Deal with Raina"
+      },
+      {
+        "slug": "adventures-in-babysitting",
+        "t": "Adventures in Babysitting",
+        "does": "Work security for Andrés"
       },
       {
         "slug": "power-play",
@@ -91,6 +101,11 @@
         "does": "Steal a catering truck"
       },
       {
+        "slug": "headliners",
+        "t": "Headliners",
+        "does": "Dre'Quan's launch party"
+      },
+      {
         "slug": "vcia-takedown",
         "t": "VCIA Takedown",
         "does": "The airport heist itself"
@@ -101,6 +116,11 @@
         "label": "PowerPyx",
         "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
         "note": "Nov 20, 2026: Chapter 4 list tags Amateur Hour, Cash Injections, Dirty Work, Power Play, Close Surveillance, Delivery Method, Team Building, Fully Catered and VCIA Takedown as [VCIA Takedown]; subtitles Spy on the Bodybuilders, Help Andrea, Meet Kordell, Steal a Catering Truck, Start the Airport Heist, Help Kordell's Crew; notes order can differ in-game. Heavy Lifting/Making Gainz set up Raul's plan (their PowerPyx pages). Amateur Hour = Lucia helps Cisco (GTABase + Dork)."
+      },
+      {
+        "label": "PowerPyx: VCIA Takedown",
+        "url": "https://www.powerpyx.com/gta-6-vcia-takedown-walkthrough",
+        "note": "Read Nov 22, 2026. Requirement list of 13: Making Gainz, Blood Sweat and Gear, Too Much Baggage, Amateur Hour, Cash Injections, Dirty Work, Adventures in Babysitting, Power Play, Close Surveillance, Delivery Method, Team Building, Fully Catered, Headliners. Added Too Much Baggage, Adventures in Babysitting and Headliners to the arc (Blood Sweat and Gear has no entry in our list yet)."
       }
     ]
   }

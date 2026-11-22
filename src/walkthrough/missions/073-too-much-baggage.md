@@ -1,6 +1,6 @@
 ---
 title: Too Much Baggage
-seoTitle: "Too Much Baggage (Scope Out the Airport) Walkthrough: GTA 6 Mission 74"
+seoTitle: "Too Much Baggage (Scope Out the Airport) Walkthrough: GTA 6 Mission 73"
 chapter: Chapter 4
 protagonist: jason
 region: vice-city

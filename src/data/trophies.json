@@ -162,9 +162,9 @@
     "story"
    ],
    "hidden": true,
-   "how": "Story mission in Chapter 4.",
-   "link": "/walkthrough/#chapter-4",
-   "linkLabel": "Chapter 4 missions"
+   "how": "Dre'Quan's launch party, the last setup job before the Chapter 4 heist.",
+   "link": "/walkthrough/headliners/",
+   "linkLabel": "Headliners walkthrough"
   },
   {
    "id": "hi-jacked",
@@ -176,8 +176,8 @@
    ],
    "hidden": true,
    "how": "The big Chapter 4 heist.",
-   "link": "/walkthrough/#chapter-4",
-   "linkLabel": "Chapter 4 missions"
+   "link": "/walkthrough/vcia-takedown/",
+   "linkLabel": "VCIA Takedown walkthrough"
   },
   {
    "id": "snow-storm",
