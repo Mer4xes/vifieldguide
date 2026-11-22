@@ -3,12 +3,12 @@ layout: layouts/base.njk
 title: The VI Field Guide
 seoTitle: "GTA 6 Walkthrough and Guide: Missions, Trophies, Collectibles | The VI Field Guide"
 description: "Unofficial GTA 6 walkthrough and 100% guide. Story missions step by step, trophies, collectibles, vehicles and weapons. Spoiler-safe, with progress tracking."
-updated: 2026-11-20
+updated: 2026-11-23
 ---
 {%- set vehicles = db.kinds[0] %}
 {%- set weapons = db.kinds[1] %}
 {%- set sections = [
-  { title: "Walkthrough", url: "/walkthrough/", n: (storyMissions.total or collections.missions.length), unit: "missions", text: "Every story mission in order with a tracker. Step-by-step guides follow as we play." },
+  { title: "Walkthrough", url: "/walkthrough/", n: (storyMissions.total or collections.missions.length), unit: "missions", text: "Every story mission in order with a tracker, and a step-by-step guide for " + collections.missions.length + " of them so far." },
   { title: "Trophies", url: "/trophies/", n: db.trophies.items.length, unit: "trophies", text: "The full list and a clean route to the platinum." },
   { title: "Collectibles", url: "/collectibles/", n: db.collectibles.types.length, unit: "sets", text: "Every set, how many there are and what 100% needs." },
   { title: "Vehicles", url: "/vehicles/", n: vehicles.items.length, unit: "vehicles", text: "Where to find each ride and how it handles." },
@@ -27,18 +27,10 @@ updated: 2026-11-20
   <div class="wrap hero-inner">
     <p class="eyebrow">Unofficial GTA 6 walkthrough and 100% guide</p>
     <h1>The&nbsp;<span class="vi">VI</span><br>Field Guide</h1>
-    <p class="hero-sub pre-only">Grand Theft Auto VI lands on <b>November&nbsp;19, 2026</b>. The walkthrough starts the moment the game does.</p>
-    <p class="hero-sub post-only">Grand Theft Auto VI is out. Pick up the story where you are, or start from the first mission.</p>
-    <div class="countdown pre-only" aria-label="Countdown to launch">
-      <div class="unit"><span class="num" data-cd="d">00</span><span class="lbl">Days</span></div>
-      <div class="unit"><span class="num" data-cd="h">00</span><span class="lbl">Hours</span></div>
-      <div class="unit"><span class="num" data-cd="m">00</span><span class="lbl">Minutes</span></div>
-      <div class="unit"><span class="num" data-cd="s">00</span><span class="lbl">Seconds</span></div>
-    </div>
-    <p class="cd-note pre-only">Counting down to midnight on November 19, your local time.</p>
+    <p class="hero-sub">Grand Theft Auto VI is out. {{ collections.missions.length }} of {{ storyMissions.total }} story missions are written up step by step, with a 100% route, every trophy and tick lists that keep your place.</p>
     <div class="btns">
-      <a class="btn primary pre-only" href="/guides/launch-guide/">Launch guide: time, preload, size</a>
-      <a class="btn primary post-only" href="/walkthrough/">Start the walkthrough</a>
+      <a class="btn primary" href="/walkthrough/">Start the walkthrough</a>
+      <a class="btn" href="/guides/100-percent-route/">The 100% route</a>
       <a class="btn" href="/about/">How the spoiler controls work</a>
     </div>
   </div>
@@ -75,13 +67,13 @@ updated: 2026-11-20
   <div class="wrap">
     <p class="kicker">The guide</p>
     <h2 class="sec-h">Pick a section</h2>
-    <p class="lede">Sections fill in as we play. A count means it is live; a dashed card means we are not there yet.</p>
+    <p class="lede">A count means the section is live. A dashed card means we are still filling it in.</p>
     <div class="cards four">
       {%- for s in sections %}
       {%- if s.n %}
       <a class="card link" href="{{ s.url }}"><span class="pin">{{ s.n }} {{ s.unit }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></a>
       {%- else %}
-      <a class="lock" href="{{ s.url }}"><span class="tag"><span class="pre-only">Opens Nov 19</span><span class="post-only">In progress</span></span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></a>
+      <a class="lock" href="{{ s.url }}"><span class="tag">In progress</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></a>
       {%- endif %}
       {%- endfor %}
     </div>
@@ -90,9 +82,9 @@ updated: 2026-11-20
 
 <section class="sec">
   <div class="wrap">
-    <p class="kicker">Before launch</p>
-    <h2 class="sec-h">What we know so far</h2>
-    <p class="lede">Only what Rockstar has shown or said, every line with a source. No leaks, no rumours.</p>
+    <p class="kicker">The world</p>
+    <h2 class="sec-h">Leonida at a glance</h2>
+    <p class="lede">Systems, places, people and music, starting from what Rockstar has shown and growing as we play. No leaks, no rumours.</p>
     <div class="kcards compact">
       {%- for t in [
         { u: "/how-it-plays/", img: "feat-switch", t: "How it plays", n: "Heat, switching, WAiNK" },
@@ -133,8 +125,8 @@ updated: 2026-11-20
     <h2 class="sec-h">Fast facts</h2>
     <p class="lede">Confirmed by Rockstar. Details and sources are in the <a href="/guides/launch-guide/">launch guide</a>.</p>
     <div class="facts">
-      <div class="fact"><div class="k">Release</div><div class="v">Nov 19<br>2026</div></div>
-      <div class="fact"><div class="k">Unlocks</div><div class="v sm">Midnight,<br><span class="u">local time</span></div></div>
+      <div class="fact"><div class="k">Released</div><div class="v">Nov 19<br>2026</div></div>
+      <div class="fact"><div class="k">Story</div><div class="v sm">{{ storyMissions.total }} missions,<br><span class="u">5 chapters</span></div></div>
       <div class="fact"><div class="k">Platforms</div><div class="v sm">PS5 ·<br>Xbox <span class="u">Series X|S</span></div></div>
       <div class="fact"><div class="k">Download</div><div class="v sm">Up to<br><span class="u">212 GB</span></div></div>
       <div class="fact"><div class="k">Setting</div><div class="v sm">Leonida<br><span class="u">(Vice City)</span></div></div>

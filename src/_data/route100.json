@@ -1131,7 +1131,7 @@
   {
    "id": "free-roam",
    "title": "Free roam",
-   "lede": "Six blocks, in this order. The number at the end of a line is what the 100% checklist asks for.",
+   "lede": "Six blocks, in this order; block D is four separate days. The number at the end of a line is what the 100% checklist asks for.",
    "groups": [
     {
      "h": "A: robberies and fencing",
@@ -1387,7 +1387,7 @@
      ]
     },
     {
-     "h": "D: a sports day",
+     "h": "D1: a sports day",
      "items": [
       {
        "c": "sports:golf-pro",
@@ -1412,7 +1412,7 @@
      ]
     },
     {
-     "h": "D: a long-distance day",
+     "h": "D2: a long-distance day",
      "items": [
       {
        "c": "fitness:pro-cyclist"
@@ -1431,7 +1431,7 @@
      ]
     },
     {
-     "h": "D: a travel day",
+     "h": "D3: a travel day",
      "items": [
       {
        "c": "exploration:rail-tour"
@@ -1445,7 +1445,7 @@
      ]
     },
     {
-     "h": "D: fishing and hunting",
+     "h": "D4: fishing and hunting",
      "items": [
       {
        "c": "survival:catch-of-the-day"

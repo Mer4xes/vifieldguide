@@ -1,0 +1,35 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.longName }}
+
+> Unofficial, free, ad-free guide to Grand Theft Auto VI (GTA 6): a step-by-step story walkthrough, a 100% completion route in play order, every trophy with a method, collectible tick lists by county, and reference guides. Spoiler-safe: story details sit in closed blocks and each mission page covers only that mission.
+
+How to read the status labels: **Confirmed** = from Rockstar or the platform trophy list. **Reported** = from a trusted guide source, or two independent sources that agree. **Verified** = checked in our own game. Pages not yet checked in-game say "First pass". Leaks and datamined content are not used. Each page shows the date it was last updated.
+
+## Walkthrough
+- [All story missions in order]({{ site.url }}/walkthrough/): {{ storyMissions.total }} missions in 5 chapters, with points of no return and what each mission opens up.
+{%- for m in collections.missions %}
+- [{{ m.data.title }}]({{ site.url }}{{ m.url }}){% if m.data.chapter %}: {{ m.data.chapter }}{% endif %}
+{%- endfor %}
+
+## 100% completion
+- [100% route]({{ site.url }}/guides/100-percent-route/): the whole game in one order, with missions, optional jobs, limited-time items, collectibles and challenges placed in the chapter where they open.
+- [100% checklist]({{ site.url }}/guides/100-percent-checklist/): what the in-game checklist asks for.
+- [Missables]({{ site.url }}/guides/missables/): everything that can be lost, and the cut-off for each.
+
+## Trophies
+- [Trophy list and platinum roadmap]({{ site.url }}/trophies/): all {{ db.trophies.items.length }} trophies with a method for each.
+
+## Collectibles
+- [Collectibles]({{ site.url }}/collectibles/): every set, totals, what 100% needs, and tick lists by county.
+
+## Guides
+{%- for g in collections.guides %}
+- [{{ g.data.title }}]({{ site.url }}{{ g.url }}){% if g.data.summary %}: {{ g.data.summary }}{% endif %}
+{%- endfor %}
+
+## About
+- [About, accuracy labels and spoiler policy]({{ site.url }}/about/)
+- [Contact]({{ site.url }}/contact/)
