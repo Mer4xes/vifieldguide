@@ -519,9 +519,9 @@
    "tags": [
     "open-world"
    ],
-   "how": "Rob a jewelry store without being spotted. Jewelry stores are part of the Smash 'N' Grabs on the 100% checklist.",
-   "link": "/guides/activities-and-collectibles/#robberies",
-   "linkLabel": "Robberies"
+   "how": "Rob a jewelry store without being spotted. Jewelry stores open in Chapter 3 after Yasmani's jewelry jobs; pick one with a back door the Snap Gun opens, such as Richardson Jewelry & Diamonds or Donovan Banks & Co., lets you reach the back room without alerting the staff out front. Jewelry stores are part of the Smash 'N' Grabs on the 100% checklist. All 20 stores: [robberies](/guides/robberies/#smash).",
+   "link": "/guides/robberies/#smash",
+   "linkLabel": "Jewelry stores"
   },
   {
    "id": "maximum-withdrawal",
@@ -532,7 +532,7 @@
     "open-world"
    ],
    "target": "5",
-   "how": "Rob five large bank vaults and get away. The vaults open at the end of Chapter 4 with the optional mission That's Where The Money Is: tail a security van to a bank and go in while the vault is open. You get four stars at once, so leave on a fast bike and switch cars. The 100% checklist wants all 8.",
+   "how": "Rob five large bank vaults and get away. The vaults open at the end of Chapter 4 with the optional mission That's Where The Money Is: tail a security van to a bank and go in while the vault is open. You get four stars at once, so leave on a fast bike and switch cars. The 100% checklist wants all 8. The eight banks and what each pays: [robberies](/guides/robberies/#vaults).",
    "link": "/guides/money/#vaults",
    "linkLabel": "Large bank vaults"
   },

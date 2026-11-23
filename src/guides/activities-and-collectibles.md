@@ -154,14 +154,14 @@ Crime is a big part of 100% and of the money side of the game:
 | What | 100% needs | Trophy |
 |---|---|---|
 | [Gang operations](/guides/gang-operations/) | 39 | **Pest Control**: one from each of the 9 gangs |
-| Bank jobs | 22 | |
-| Payday loans | 7 | |
-| Smash 'N' Grabs | 34 | **Sneakthief**: a jewelry store without being seen |
+| [Bank jobs](/guides/robberies/#banks) | 22 | |
+| [Payday loans](/guides/robberies/#payday) | 7 | |
+| [Smash 'N' Grabs](/guides/robberies/#smash) | 34 | **Sneakthief**: a jewelry store without being seen |
 | Stick ups | 50 | **Retail Therapy**: 3 shops in a row with your partner |
-| Bank vaults | 8 | **Maximum Withdrawal**: 5 vaults and escape |
+| [Bank vaults](/guides/robberies/#vaults) | 8 | **Maximum Withdrawal**: 5 vaults and escape |
 | Armored truck | | **A Classic Blitz Play**: rob one and escape |
 
-Clearing 25 gang operations with your partner unlocks the **Pinhole** cheat. All 39 operations, gang by gang and with a tracker, are on the [gang operations page](/guides/gang-operations/).
+Clearing 25 gang operations with your partner unlocks the **Pinhole** cheat. All 39 operations, gang by gang and with a tracker, are on the [gang operations page](/guides/gang-operations/). Every store, bank and payday loan, with payouts and tick lists, is in [robberies](/guides/robberies/).
 
 <h2 id="fences">Fences</h2>
 

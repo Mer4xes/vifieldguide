@@ -425,7 +425,7 @@
       {
        "k": "avery-pawn",
        "tag": "side",
-       "t": "**Hit Avery Pawn.** Pawn shops count as Smash 'N' Grabs from here."
+       "t": "**Hit Avery Pawn.** Pawn shops count as Smash 'N' Grabs from here; it's one of the three in Kelly County. [All 35](/guides/robberies/#smash)."
       },
       {
        "k": "kingpin",
@@ -763,7 +763,7 @@
       {
        "k": "banks-open",
        "tag": "collect",
-       "t": "**Bank jobs and payday loans are open**, and marked bills can be fenced. [Fences](/guides/fences/)."
+       "t": "**Bank jobs and payday loans are open**, and marked bills can be fenced. [Every bank and payday loan](/guides/robberies/#banks). [Fences](/guides/fences/)."
       },
       {
        "k": "lucia-payday",
@@ -1045,7 +1045,7 @@
       {
        "k": "vault-intro",
        "tag": "side",
-       "t": "**That's Where The Money Is…** Optional, at the very end of the chapter. Opens the eight large bank vaults: tail a security van to the bank, go in while the vault is open and hand one bag to your partner. [Money guide](/guides/money/)."
+       "t": "**That's Where The Money Is…** Optional, at the very end of the chapter. Opens the eight large bank vaults: tail a security van to the bank, go in while the vault is open and hand one bag to your partner. [Money guide](/guides/money/), [the eight banks](/guides/robberies/#vaults)."
       },
       {
        "k": "t-max",
@@ -1150,28 +1150,28 @@
        "k": "fr-banks",
        "track": "pct:bank-jobs-fully-completed",
        "tag": "collect",
-       "t": "**Bank jobs.** [Money guide](/guides/money/).",
+       "t": "**Bank jobs:** cash drawer and safe at all 14 small banks, plus the 8 large ones. [Tick list](/guides/robberies/#banks).",
        "g": "22 of 22"
       },
       {
        "k": "fr-vaults",
        "track": "pct:vaults-hit",
        "tag": "collect",
-       "t": "**Vaults.**",
+       "t": "**Vaults.** [The eight banks](/guides/robberies/#vaults).",
        "g": "8 of 8"
       },
       {
        "k": "fr-payday",
        "track": "pct:payday-loan-jobs-fully-completed",
        "tag": "collect",
-       "t": "**Payday loans.**",
+       "t": "**Payday loans:** counter and back-room safe. [Tick list](/guides/robberies/#payday).",
        "g": "7 of 7"
       },
       {
        "k": "fr-smash",
        "track": "pct:smash-n-grabs-fully-completed",
        "tag": "collect",
-       "t": "**Smash 'N' Grabs.**",
+       "t": "**Smash 'N' Grabs:** display cases and the back-room safe; one of the 35 can be skipped. [Tick list](/guides/robberies/#smash).",
        "g": "34 of 35"
       },
       {

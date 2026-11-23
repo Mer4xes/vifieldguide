@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-22
+updated: 2026-11-23
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -281,7 +281,7 @@ After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in tou
 
 > **Tip:** Hand the first piece in straight away. Yasmani gives you the **[Snap Gun](/guides/equipment/#snap-gun)**, which opens doors without setting off the alarm, so the police take longer to arrive at the other two.
 
-The three pieces are worth $20,000 between them. Smash the display cases at the front for more; at the last two stores you can also slip out the back quietly instead. Jewelry stores count toward the Smash 'N' Grabs line in the [100% checklist](/guides/100-percent-checklist/).
+The three pieces are worth $20,000 between them. Smash the display cases at the front for more; at the last two stores you can also slip out the back quietly instead. Jewelry stores count toward the Smash 'N' Grabs line in the [100% checklist](/guides/100-percent-checklist/), and his jobs open the other 17 for robbing: [all of them](/guides/robberies/#smash).
 
 <h2 id="pete">Pilot Pete's flying jobs</h2>
 

@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-22
+updated: 2026-11-23
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -115,7 +115,7 @@ With the cloner, Randy's **wish list** opens: **18 high-end sports cars** that t
 
 <h2 id="jewelry">Jewelry stores</h2>
 
-From Yasmani's first jobs in Chapter 3 ([Yasmani's jewelry jobs](/guides/side-contacts/#yasmani)), jewelry stores are some of the best money in the chapter: roughly $10,000 to $25,000 a store. You can hit several back to back, and the **back-room safe** is worth the extra time. Sell the jewelry to Yasmani. Robbing one without being seen earns **Sneakthief** ([trophies](/trophies/)).
+From Yasmani's first jobs in Chapter 3 ([Yasmani's jewelry jobs](/guides/side-contacts/#yasmani)), jewelry stores are some of the best money in the chapter: roughly $10,000 to $25,000 a store. You can hit several back to back, and the **back-room safe** is worth the extra time. Sell the jewelry to Yasmani. Robbing one without being seen earns **[Sneakthief](/trophies/sneakthief/)**. All 20 jewelry stores and 15 pawn shops, with the payout range of each, are in [robberies](/guides/robberies/#smash).
 
 <h2 id="bank-jobs">Small bank jobs</h2>
 
@@ -124,7 +124,7 @@ There are **22 bank jobs**: 14 small banks and 8 large ones with a vault. The **
 - Banks show as **green icons** once that part of the map is uncovered. To see only them, filter the map by **Robberies → Bank Jobs**: bright green is done, dark green is still to do.
 - Each small bank has a **cash drawer** and a **safe**. Loot both, or the bank doesn't count as complete.
 - Expect roughly **$5,000 to $45,000** a bank.
-- Where they are: 9 in Vice City (Vice-Dale County), 3 in Mariana County, 1 in Leonard County and 1 in Kelly County.
+- Where they are: 9 in Vice City (Vice-Dale County), 3 in Mariana County, 1 in Leonard County and 1 in Kelly County. The best payers are Lombank Bayside, Lombank Ocean Beach and Druthers State Bank. [Every bank, with a tick list](/guides/robberies/#banks).
 
 Marked bills go to [Yasmani](/guides/fences/#jewelry). Laundering $250,000 of them earns **Dime on the Dollar**.
 
@@ -140,7 +140,7 @@ The 8 large banks are where the big money is, roughly **$65,000 to $205,000** ea
 
 > **Tip:** Once you've robbed **2 payday loans**, Yasmani sells security-van tips for **$10,000**, which saves you hunting for a van.
 
-Robbing 5 vaults and getting away earns **Maximum Withdrawal**; the [100% checklist](/guides/100-percent-checklist/) wants all 8. After the story ends, the vaults are still the fastest money in the game: hit one, escape, bank the cash, repeat.
+Robbing 5 vaults and getting away earns **Maximum Withdrawal**; the [100% checklist](/guides/100-percent-checklist/) wants all 8. The two Lombank vaults (Downtown and Ocean Beach) pay the most; [all eight](/guides/robberies/#vaults). After the story ends, the vaults are still the fastest money in the game: hit one, escape, bank the cash, repeat.
 
 <h2 id="spending">Spending it</h2>
 

@@ -2,11 +2,19 @@
  {
   "date": "2026-11-23",
   "tag": "New guide",
+  "title": "Every robbery, ticked off",
+  "text": "All 35 jewelry stores and pawn shops, the 22 banks with their eight vaults and the seven payday loans, with payouts.",
+  "url": "/guides/robberies/",
+  "img": "/assets/img/art/jl-robbery.webp",
+  "cta": "Open the tick lists"
+ },
+ {
+  "date": "2026-11-23",
+  "tag": "New guide",
   "title": "Races, drone trials, ranges and pool",
   "text": "All 42 drone trials with par times, every shooting range gold and its gun, 40 races by venue and the seven pool opponents.",
   "url": "/guides/races-and-ranges/",
-  "img": "/assets/img/misc/act-carmeet.webp",
-  "cta": "Open the tick lists"
+  "img": "/assets/img/misc/act-carmeet.webp"
  },
  {
   "date": "2026-11-23",
@@ -55,13 +63,5 @@
   "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
   "url": "/guides/gang-operations/",
   "img": "/assets/img/art/jl-robbery.webp"
- },
- {
-  "date": "2026-11-21",
-  "tag": "Side jobs",
-  "title": "Side strands, start to finish",
-  "text": "Kirk's Skunk Ape hunt, a tracker for Tyrone's Kitty Litter labs, plus Billy, Andy and Pilot Pete.",
-  "url": "/guides/side-contacts/",
-  "img": "/assets/img/misc/act-offroad.webp"
  }
 ]

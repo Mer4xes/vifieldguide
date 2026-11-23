@@ -1,0 +1,566 @@
+{
+ "updated": "2026-11-23",
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 All Smash 'n' Grabs Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+   "note": "Read Nov 23, 2026 via ?p=372655 (published Nov 18, modified Nov 20 16:16 UTC, full text). 35 locations (20 jewelry, 15 pawn), 34 for 100%, part of A Long Road; each robbed at least once incl. back-room safe (display cases alone may not count); pawn shops after Coffee Break (Ch2), jewelry stores after Yasmani's Jewelry Jobs (Ch3); green icons, Map > Robberies > Smash 'n' Grabs, bright green done / dark green not; numbers, names, types, payout ranges and county groups as listed (PowerPyx files the whole city under Vice-Dale County). Locations only in screenshots: left out. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Bank Jobs Locations (Bank Vaults)",
+   "url": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+   "note": "Read Nov 23, 2026 via ?p=372653 (dated Nov 18). 22 = 14 small + 8 large; small after Credit Check (Ch3), large after That's Where The Money Is (end of Ch4); small: cash drawer and safe; large: vault, cash drawer, safe; tail the armored security van; up to $205k; 4 stars at once; Map > Robberies > Bank Jobs; hover shows objectives done. Counties given for small banks only (Mariana 1-3, city 4-12, Leonard 13, Kelly 14). Yasmani van tip: $10,000 (the page's condition '2 payday loans' is already in the money guide). Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Payday Loans Jobs Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+   "note": "Read Nov 23, 2026 via ?p=372654 (published Nov 18, modified Nov 20 16:16 UTC, full text). 7 locations, 6 in the city + Cash Flow in Kelly County; after Credit Check (Ch3), which gives the Dye Pack Jammer; green hand icon, Map > Robberies > Payday Loans; threaten teller, take cash from counter, rob the back-room safe, escape. Required for 100% / A Long Road. Trusted source."
+  },
+  {
+   "label": "PowerPyx: Yasmani's Jewelry Jobs",
+   "url": "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
+   "note": "Re-read Nov 23, 2026 via ?p=369794. Safe codes 1680 / 6815 / 0104, Snap Gun after the first item, Casa de Empeno has no back door. Same facts as on side contacts."
+  }
+ ],
+ "smash": [
+  {
+   "id": "the-sirens-chest",
+   "n": 1,
+   "name": "The Siren's Chest",
+   "kind": "jewelry",
+   "group": "Mariana County",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "timeless-peculiars",
+   "n": 2,
+   "name": "Timeless Peculiars",
+   "kind": "pawn",
+   "group": "Mariana County",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "victoria-lee-jeweler",
+   "n": 3,
+   "name": "Victoria Lee Jeweler",
+   "kind": "jewelry",
+   "group": "Mariana County",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "hamlet-pawn",
+   "n": 4,
+   "name": "Hamlet Pawn",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "joyeria-empenos",
+   "n": 5,
+   "name": "Joyeria Empenos",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "ernestos-pawn",
+   "n": 6,
+   "name": "Ernesto's Pawn",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "donovan-banks-co",
+   "n": 7,
+   "name": "Donovan Banks & Co.",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k",
+   "note": "One of Yasmani's three jobs. Safe code 0104; the Snap Gun opens the back door."
+  },
+  {
+   "id": "plush",
+   "n": 8,
+   "name": "Plush",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "pawn-city",
+   "n": 9,
+   "name": "Pawn City",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "icegem-diamonds-watches",
+   "n": 10,
+   "name": "Icegem Diamonds & Watches",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "richardson-jewelry-diamonds",
+   "n": 11,
+   "name": "Richardson Jewelry & Diamonds",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k",
+   "note": "One of Yasmani's three jobs. Safe code 6815; the Snap Gun opens the back door."
+  },
+  {
+   "id": "all-that-glitters",
+   "n": 12,
+   "name": "All That Glitters",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "peacock",
+   "n": 13,
+   "name": "Peacock",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "fast-cash",
+   "n": 14,
+   "name": "Fast Cash",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "the-jewelry-place",
+   "n": 15,
+   "name": "The Jewelry Place",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "crown-jewels",
+   "n": 16,
+   "name": "Crown Jewels",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "dorado-pawn-shop",
+   "n": 17,
+   "name": "Dorado Pawn Shop",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "white-sands-jewelry-pawn",
+   "n": 18,
+   "name": "White Sands Jewelry Pawn",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "down-town-pawn",
+   "n": 19,
+   "name": "Down Town Pawn",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "vice-city-pawn",
+   "n": 20,
+   "name": "Vice City Pawn",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "pawn-stash",
+   "n": 21,
+   "name": "Pawn Stash",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k"
+  },
+  {
+   "id": "blanc-giroux",
+   "n": 22,
+   "name": "Blanc & Giroux",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "roval-jewelry",
+   "n": 23,
+   "name": "Roval Jewelry",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "covgari",
+   "n": 24,
+   "name": "Covgari",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "akoya-jewelers",
+   "n": 25,
+   "name": "Akoya Jewelers",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "marshals",
+   "n": 26,
+   "name": "Marshal's",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "casa-de-empeno",
+   "n": 27,
+   "name": "Casa De Empeno",
+   "kind": "pawn",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$4.5k–$12k",
+   "note": "Yasmani's first job. Safe code 1680, in the small back office. Hand the chain in to get the Snap Gun."
+  },
+  {
+   "id": "rococo-rich",
+   "n": 28,
+   "name": "Rococo Rich",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "legendary-custom-jewelry",
+   "n": 29,
+   "name": "Legendary Custom Jewelry",
+   "kind": "jewelry",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "brilliant-cuts",
+   "n": 30,
+   "name": "Brilliant Cuts",
+   "kind": "jewelry",
+   "group": "Leonard County",
+   "pay": "$9k–$20k"
+  },
+  {
+   "id": "skala",
+   "n": 31,
+   "name": "Skala",
+   "kind": "jewelry",
+   "group": "Leonard County",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "kowalski",
+   "n": 32,
+   "name": "Kowalski",
+   "kind": "jewelry",
+   "group": "Leonard County",
+   "pay": "$14k–$25k"
+  },
+  {
+   "id": "bucks-jewelry-pawn",
+   "n": 33,
+   "name": "Buck's Jewelry & Pawn",
+   "kind": "pawn",
+   "group": "Kelly County",
+   "pay": "$1k–$10k"
+  },
+  {
+   "id": "avery-pawn",
+   "n": 34,
+   "name": "Avery Pawn",
+   "kind": "pawn",
+   "group": "Kelly County",
+   "pay": "$1k–$10k",
+   "note": "Open from Chapter 2, so you can hit it while you live in Port Gellhorn."
+  },
+  {
+   "id": "florence-co",
+   "n": 35,
+   "name": "Florence & Co.",
+   "kind": "pawn",
+   "group": "Kelly County",
+   "pay": "$4.5k–$12k"
+  }
+ ],
+ "banks": [
+  {
+   "id": "b01",
+   "n": 1,
+   "name": "Fleeca – Key Lento",
+   "kind": "small",
+   "pay": "$5k–$20k",
+   "area": "Key Lento",
+   "group": "Mariana County"
+  },
+  {
+   "id": "b02",
+   "n": 2,
+   "name": "Shorefront – Watson Bay",
+   "kind": "small",
+   "pay": "$5k–$20k",
+   "area": "Watson Bay",
+   "group": "Mariana County"
+  },
+  {
+   "id": "b03",
+   "n": 3,
+   "name": "Gibson Brothers Bank",
+   "kind": "small",
+   "pay": "$10k–$30k",
+   "group": "Mariana County"
+  },
+  {
+   "id": "b04",
+   "n": 4,
+   "name": "Lombank – Peacock Bay",
+   "kind": "small",
+   "pay": "$5k–$20k",
+   "area": "Peacock Bay",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b05",
+   "n": 5,
+   "name": "Fleeca – Peacock Bay",
+   "kind": "small",
+   "pay": "$5k–$20k",
+   "area": "Peacock Bay",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b06",
+   "n": 6,
+   "name": "Shorefront – Downtown",
+   "kind": "small",
+   "pay": "$5k–$15k",
+   "area": "Downtown",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b07",
+   "n": 7,
+   "name": "Shorefront – Rockridge",
+   "kind": "small",
+   "pay": "$5k–$20k",
+   "area": "Rockridge",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b08",
+   "n": 8,
+   "name": "Lombank – Bayside",
+   "kind": "small",
+   "pay": "$15k–$45k",
+   "area": "Bayside",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b09",
+   "n": 9,
+   "name": "Fleeca – Washington Beach",
+   "kind": "small",
+   "pay": "$10k–$30k",
+   "area": "Washington Beach",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b10",
+   "n": 10,
+   "name": "Lombank – Ocean Beach",
+   "kind": "small",
+   "pay": "$15k–$45k",
+   "area": "Ocean Beach",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b11",
+   "n": 11,
+   "name": "Fleeca – Ocean Beach",
+   "kind": "small",
+   "pay": "$5k–$15k",
+   "area": "Ocean Beach",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b12",
+   "n": 12,
+   "name": "Shorefront – Ocean Beach",
+   "kind": "small",
+   "pay": "$5k–$15k",
+   "area": "Ocean Beach",
+   "group": "Vice City and Vice-Dale"
+  },
+  {
+   "id": "b13",
+   "n": 13,
+   "name": "Druthers State Bank",
+   "kind": "small",
+   "pay": "$15k–$45k",
+   "group": "Leonard County"
+  },
+  {
+   "id": "b14",
+   "n": 14,
+   "name": "Shorefront – Ambrosia",
+   "kind": "small",
+   "pay": "$5k–$15k",
+   "area": "Ambrosia",
+   "group": "Kelly County"
+  },
+  {
+   "id": "b15",
+   "n": 15,
+   "name": "Fleeca – VCIA",
+   "kind": "large",
+   "pay": "$100k–$150k",
+   "area": "VCIA",
+   "group": "Large banks"
+  },
+  {
+   "id": "b16",
+   "n": 16,
+   "name": "Fleeca – Tequesta",
+   "kind": "large",
+   "pay": "$65k–$110k",
+   "area": "Tequesta",
+   "group": "Large banks"
+  },
+  {
+   "id": "b17",
+   "n": 17,
+   "name": "Lombank – Downtown",
+   "kind": "large",
+   "pay": "$135k–$205k",
+   "area": "Downtown",
+   "group": "Large banks"
+  },
+  {
+   "id": "b18",
+   "n": 18,
+   "name": "Fleeca – Downtown",
+   "kind": "large",
+   "pay": "$100k–$150k",
+   "area": "Downtown",
+   "group": "Large banks"
+  },
+  {
+   "id": "b19",
+   "n": 19,
+   "name": "Lombank – Ocean Beach",
+   "kind": "large",
+   "pay": "$135k–$205k",
+   "area": "Ocean Beach",
+   "group": "Large banks"
+  },
+  {
+   "id": "b20",
+   "n": 20,
+   "name": "Fleeca – Ocean Beach",
+   "kind": "large",
+   "pay": "$75k–$135k",
+   "area": "Ocean Beach",
+   "group": "Large banks"
+  },
+  {
+   "id": "b21",
+   "n": 21,
+   "name": "Lombank – Ocean Beach",
+   "kind": "large",
+   "pay": "$75k–$135k",
+   "area": "Ocean Beach",
+   "group": "Large banks"
+  },
+  {
+   "id": "b22",
+   "n": 22,
+   "name": "Shorefront – Ocean Beach",
+   "kind": "large",
+   "pay": "$95k–$140k",
+   "area": "Ocean Beach",
+   "group": "Large banks"
+  }
+ ],
+ "payday": [
+  {
+   "id": "quick-buck-hamlet",
+   "n": 1,
+   "name": "Quick Buck – Hamlet",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$5k–$15k",
+   "area": "Hamlet"
+  },
+  {
+   "id": "payline-loans-247",
+   "n": 2,
+   "name": "Payline Loans 247",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$5k–$15k"
+  },
+  {
+   "id": "payday-loans-store-southside",
+   "n": 3,
+   "name": "Payday Loans Store – Southside",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$5k–$15k",
+   "area": "Southside"
+  },
+  {
+   "id": "payday-loans-store-little-cuba",
+   "n": 4,
+   "name": "Payday Loans Store – Little Cuba",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$15k–$25k",
+   "area": "Little Cuba",
+   "note": "The best-paying of the seven. A hidden trophy wants Lucia to rob it again on her own after Credit Check and leave on foot."
+  },
+  {
+   "id": "payday-loans-store-rockridge",
+   "n": 5,
+   "name": "Payday Loans Store – Rockridge",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$5k–$15k",
+   "area": "Rockridge"
+  },
+  {
+   "id": "quick-buck-la-perle",
+   "n": 6,
+   "name": "Quick Buck – La Perle",
+   "group": "Vice City and Vice-Dale",
+   "pay": "$5k–$15k",
+   "area": "La Perle"
+  },
+  {
+   "id": "cash-flow",
+   "n": 7,
+   "name": "Cash Flow",
+   "group": "Kelly County",
+   "pay": "$2k–$10k"
+  }
+ ]
+}
