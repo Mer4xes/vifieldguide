@@ -1,0 +1,889 @@
+{
+ "updated": "2026-11-23",
+ "sources": [
+  {
+   "label": "PowerPyx: GTA 6 All Top Fun Drone Race Time Trial Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+   "note": "Read Nov 23, 2026 (modified Nov 20 16:17 UTC, full text). 14 locations x 3 races with par times; beat par on the first two to open the third; any finish on the third counts for 100%; Top Fun = one win per location; taxi to all but Dalton Island. Towns only, no counties. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Shooting Range Gold Medal Challenges",
+   "url": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+   "note": "Read Nov 23, 2026 (modified Nov 20 16:17 UTC, full text). Two ranges, 6 challenges each; Griffin 3 levels, Rodgers 4 (weapons per level); $5 Waiver Pass from the clerk, $10 gun rental, rentals are enough; each finished or quit challenge raises Focus; Lucia suggested for Griffin. Intro's 54/72 per-range figures contradict its own 18 + 24 = 42, so no per-range totals are shown. Gold targets are image-only: left out. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Race Challenge Locations & Gold Medals",
+   "url": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+   "note": "Read Nov 23, 2026 (modified Nov 19 03:44 UTC). 13 names in Progress menu order, 10 golds for 100%. Locations, vehicles and times are image-only: left out. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Unique Race Locations (Racing Activities)",
+   "url": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+   "note": "Read Nov 23, 2026 (modified Nov 20 16:17 UTC). 40 races in six groups with spot counts; one race unlocks the next at each spot; entry and rental fee; 30 for 100%, 20 for Earn Cash, Not Kudos. Race names are image-only. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Pool Opponent Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+   "note": "Read Nov 23, 2026 (modified Nov 21 12:31 UTC). 7 opponents with county/area, 17 tables in all, 5 for 100%. Trusted source."
+  }
+ ],
+ "drones": [
+  {
+   "id": "hamlet",
+   "n": "Hamlet",
+   "trials": [
+    {
+     "id": "hamlet-1",
+     "name": "Deep Roots",
+     "par": "1:31",
+     "third": false
+    },
+    {
+     "id": "hamlet-2",
+     "name": "Power Station South",
+     "par": "1:26",
+     "third": false
+    },
+    {
+     "id": "hamlet-3",
+     "name": "Power Station North",
+     "par": "2:04",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "watson-bay",
+   "n": "Watson Bay",
+   "trials": [
+    {
+     "id": "watson-bay-1",
+     "name": "Leonida RC Raceway",
+     "par": "1:27",
+     "third": false
+    },
+    {
+     "id": "watson-bay-2",
+     "name": "Watson Bay",
+     "par": "1:34",
+     "third": false
+    },
+    {
+     "id": "watson-bay-3",
+     "name": "Marshland Animal Park",
+     "par": "1:17",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "capri",
+   "n": "Capri",
+   "trials": [
+    {
+     "id": "capri-1",
+     "name": "Capri Train Station",
+     "par": "1:50",
+     "third": false
+    },
+    {
+     "id": "capri-2",
+     "name": "Ravella Drive",
+     "par": "1:51",
+     "third": false
+    },
+    {
+     "id": "capri-3",
+     "name": "Capri Lake",
+     "par": "2:01",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "buckskin-swamp",
+   "n": "Buckskin Swamp",
+   "trials": [
+    {
+     "id": "buckskin-swamp-1",
+     "name": "Kowaachobee Village",
+     "par": "1:24",
+     "third": false
+    },
+    {
+     "id": "buckskin-swamp-2",
+     "name": "Swampy Sal's Safari Park",
+     "par": "1:40",
+     "third": false
+    },
+    {
+     "id": "buckskin-swamp-3",
+     "name": "Camp Moonflower",
+     "par": "1:48",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "balsero",
+   "n": "Balsero",
+   "trials": [
+    {
+     "id": "balsero-1",
+     "name": "Navitrak",
+     "par": "1:29",
+     "third": false
+    },
+    {
+     "id": "balsero-2",
+     "name": "Apollo Aggregates",
+     "par": "1:27",
+     "third": false
+    },
+    {
+     "id": "balsero-3",
+     "name": "Tisha-Wocka Flea Market",
+     "par": "1:08",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "downtown",
+   "n": "Downtown",
+   "trials": [
+    {
+     "id": "downtown-1",
+     "name": "Future Leonida Art Museum",
+     "par": "1:47",
+     "third": false
+    },
+    {
+     "id": "downtown-2",
+     "name": "Shoreline Market",
+     "par": "2:01",
+     "third": false
+    },
+    {
+     "id": "downtown-3",
+     "name": "Wildland Zoo",
+     "par": "1:30",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "dalton-island",
+   "n": "Dalton Island",
+   "note": "No taxi here: come by boat or aircraft.",
+   "trials": [
+    {
+     "id": "dalton-island-1",
+     "name": "Avarice Petroleum",
+     "par": "1:53",
+     "third": false
+    },
+    {
+     "id": "dalton-island-2",
+     "name": "The Jamaica",
+     "par": "1:16",
+     "third": false
+    },
+    {
+     "id": "dalton-island-3",
+     "name": "Ivory Towers",
+     "par": "1:42",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "vice-beach",
+   "n": "Vice Beach",
+   "trials": [
+    {
+     "id": "vice-beach-1",
+     "name": "Leaf Links",
+     "par": "1:30",
+     "third": false
+    },
+    {
+     "id": "vice-beach-2",
+     "name": "Vice Regal Hotel",
+     "par": "1:41",
+     "third": false
+    },
+    {
+     "id": "vice-beach-3",
+     "name": "St. Vitus Medical Center",
+     "par": "2:00",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "waning-sands",
+   "n": "Waning Sands",
+   "trials": [
+    {
+     "id": "waning-sands-1",
+     "name": "Hot Skidz",
+     "par": "1:39",
+     "third": false
+    },
+    {
+     "id": "waning-sands-2",
+     "name": "Thundergolf",
+     "par": "1:57",
+     "third": false
+    },
+    {
+     "id": "waning-sands-3",
+     "name": "Evergreen Mall",
+     "par": "1:52",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "ambrosia",
+   "n": "Ambrosia",
+   "trials": [
+    {
+     "id": "ambrosia-1",
+     "name": "Captain O'Malley Marina",
+     "par": "2:03",
+     "third": false
+    },
+    {
+     "id": "ambrosia-2",
+     "name": "Allied Crystal",
+     "par": "2:02",
+     "third": false
+    },
+    {
+     "id": "ambrosia-3",
+     "name": "Waste Transfer Services",
+     "par": "1:55",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "port-gellhorn",
+   "n": "Port Gellhorn",
+   "trials": [
+    {
+     "id": "port-gellhorn-1",
+     "name": "Manifest Canyon",
+     "par": "1:28",
+     "third": false
+    },
+    {
+     "id": "port-gellhorn-2",
+     "name": "Red Apple Orchard",
+     "par": "1:12",
+     "third": false
+    },
+    {
+     "id": "port-gellhorn-3",
+     "name": "Port Gellhorn",
+     "par": "1:39",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "draper-island",
+   "n": "Draper Island",
+   "trials": [
+    {
+     "id": "draper-island-1",
+     "name": "Draper Island Terminal",
+     "par": "1:49",
+     "third": false
+    },
+    {
+     "id": "draper-island-2",
+     "name": "Draper Refinery East",
+     "par": "1:44",
+     "third": false
+    },
+    {
+     "id": "draper-island-3",
+     "name": "Draper Refinery West",
+     "par": "1:51",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "moreau-sawmill",
+   "n": "Moreau Sawmill",
+   "trials": [
+    {
+     "id": "moreau-sawmill-1",
+     "name": "Abandoned Mining Pit",
+     "par": "1:03",
+     "third": false
+    },
+    {
+     "id": "moreau-sawmill-2",
+     "name": "Adler Creek",
+     "par": "1:21",
+     "third": false
+    },
+    {
+     "id": "moreau-sawmill-3",
+     "name": "Macalister Gold Mine",
+     "par": "0:59",
+     "third": true
+    }
+   ]
+  },
+  {
+   "id": "millport",
+   "n": "Millport",
+   "trials": [
+    {
+     "id": "millport-1",
+     "name": "Millport",
+     "par": "1:31",
+     "third": false
+    },
+    {
+     "id": "millport-2",
+     "name": "Rushwood Logging",
+     "par": "2:08",
+     "third": false
+    },
+    {
+     "id": "millport-3",
+     "name": "Tallaloko Lakeside Resort",
+     "par": "2:05",
+     "third": true
+    }
+   ]
+  }
+ ],
+ "ranges": [
+  {
+   "id": "griffin",
+   "n": "Griffin Shooting Range",
+   "where": "Northwest of Vice City",
+   "tip": "Lucia is the better pick here: she runs faster and turns quicker, and every challenge is against the clock.",
+   "challenges": [
+    {
+     "id": "griffin-3-point-range",
+     "name": "3-Point Range",
+     "tip": "Three stations, a different gun at each. Speed beats accuracy: a bullseye only takes a second off.",
+     "medals": [
+      {
+       "id": "griffin-3-point-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-3-point-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-3-point-range-advanced",
+       "d": "Advanced"
+      }
+     ]
+    },
+    {
+     "id": "griffin-hook-range",
+     "name": "Hook Range",
+     "tip": "A moving course with targets along the way. Start with the spinning target at the top and work round clockwise.",
+     "medals": [
+      {
+       "id": "griffin-hook-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-hook-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-hook-range-advanced",
+       "d": "Advanced"
+      }
+     ]
+    },
+    {
+     "id": "griffin-loop-range",
+     "name": "Loop Range",
+     "tip": "Another moving course, close to Hook. Slow motion helps with the last red dots.",
+     "medals": [
+      {
+       "id": "griffin-loop-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-loop-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-loop-range-advanced",
+       "d": "Advanced"
+      }
+     ]
+    },
+    {
+     "id": "griffin-maze-range",
+     "name": "Maze Range",
+     "tip": "A course in the same style as Hook and Loop.",
+     "medals": [
+      {
+       "id": "griffin-maze-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-maze-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-maze-range-master",
+       "d": "Master"
+      }
+     ]
+    },
+    {
+     "id": "griffin-compound-range",
+     "name": "Compound Range",
+     "tip": "Through a building with pop-up targets. The timer is forgiving.",
+     "medals": [
+      {
+       "id": "griffin-compound-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-compound-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-compound-range-master",
+       "d": "Master"
+      }
+     ]
+    },
+    {
+     "id": "griffin-villa-range",
+     "name": "Villa Range",
+     "tip": "Targets only show up when you get close, so plan one big loop through the houses.",
+     "medals": [
+      {
+       "id": "griffin-villa-range-beginner",
+       "d": "Beginner"
+      },
+      {
+       "id": "griffin-villa-range-intermediate",
+       "d": "Intermediate"
+      },
+      {
+       "id": "griffin-villa-range-master",
+       "d": "Master"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rodgers",
+   "n": "Rodgers Ranch",
+   "where": "Kelly County, northeast of Port Gellhorn",
+   "tip": "Scored, not timed. Body shots build the multiplier and a miss knocks it down, so land a couple of body hits before going for the head.",
+   "challenges": [
+    {
+     "id": "rodgers-market-range",
+     "name": "Market Range",
+     "tip": "Pistol at every level. Speed matters more than accuracy.",
+     "medals": [
+      {
+       "id": "rodgers-market-range-beginner",
+       "d": "Beginner",
+       "gun": "Pistol"
+      },
+      {
+       "id": "rodgers-market-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Pistol"
+      },
+      {
+       "id": "rodgers-market-range-advanced",
+       "d": "Advanced",
+       "gun": "Pistol"
+      },
+      {
+       "id": "rodgers-market-range-master",
+       "d": "Master",
+       "gun": "Pistol"
+      }
+     ]
+    },
+    {
+     "id": "rodgers-zombie-range",
+     "name": "Zombie Range",
+     "tip": "Body shots with the SMG to build the multiplier.",
+     "medals": [
+      {
+       "id": "rodgers-zombie-range-beginner",
+       "d": "Beginner",
+       "gun": "SMG"
+      },
+      {
+       "id": "rodgers-zombie-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Shotgun"
+      },
+      {
+       "id": "rodgers-zombie-range-advanced",
+       "d": "Advanced",
+       "gun": "Assault rifle"
+      },
+      {
+       "id": "rodgers-zombie-range-master",
+       "d": "Master",
+       "gun": "Shotgun"
+      }
+     ]
+    },
+    {
+     "id": "rodgers-hunting-range",
+     "name": "Hunting Range",
+     "tip": "Headshot the small animals; bears take three or four body shots first.",
+     "medals": [
+      {
+       "id": "rodgers-hunting-range-beginner",
+       "d": "Beginner",
+       "gun": "Pistol"
+      },
+      {
+       "id": "rodgers-hunting-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Shotgun"
+      },
+      {
+       "id": "rodgers-hunting-range-advanced",
+       "d": "Advanced",
+       "gun": "Tactical rifle"
+      },
+      {
+       "id": "rodgers-hunting-range-master",
+       "d": "Master",
+       "gun": "Pistol"
+      }
+     ]
+    },
+    {
+     "id": "rodgers-saloon-range",
+     "name": "Saloon Range",
+     "tip": "Body hits first, then headshots.",
+     "medals": [
+      {
+       "id": "rodgers-saloon-range-beginner",
+       "d": "Beginner",
+       "gun": "Revolver"
+      },
+      {
+       "id": "rodgers-saloon-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Tactical rifle"
+      },
+      {
+       "id": "rodgers-saloon-range-advanced",
+       "d": "Advanced",
+       "gun": "Revolver"
+      },
+      {
+       "id": "rodgers-saloon-range-master",
+       "d": "Master",
+       "gun": "Tactical rifle"
+      }
+     ]
+    },
+    {
+     "id": "rodgers-cops-and-robbers-range",
+     "name": "Cops & Robbers Range",
+     "tip": "Sniper headshots, reloading in the gaps. On Advanced, leave the cop alone.",
+     "medals": [
+      {
+       "id": "rodgers-cops-and-robbers-range-beginner",
+       "d": "Beginner",
+       "gun": "Sniper rifle"
+      },
+      {
+       "id": "rodgers-cops-and-robbers-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Sniper rifle"
+      },
+      {
+       "id": "rodgers-cops-and-robbers-range-advanced",
+       "d": "Advanced",
+       "gun": "Sniper rifle"
+      },
+      {
+       "id": "rodgers-cops-and-robbers-range-master",
+       "d": "Master",
+       "gun": "Sniper rifle"
+      }
+     ]
+    },
+    {
+     "id": "rodgers-alien-range",
+     "name": "Alien Range",
+     "tip": "Two body shots, then the head.",
+     "medals": [
+      {
+       "id": "rodgers-alien-range-beginner",
+       "d": "Beginner",
+       "gun": "Pistol or revolver"
+      },
+      {
+       "id": "rodgers-alien-range-intermediate",
+       "d": "Intermediate",
+       "gun": "Pistol or revolver"
+      },
+      {
+       "id": "rodgers-alien-range-advanced",
+       "d": "Advanced",
+       "gun": "SMG or assault rifle"
+      },
+      {
+       "id": "rodgers-alien-range-master",
+       "d": "Master",
+       "gun": "Pistol or revolver"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "raceChallenges": [
+  {
+   "id": "ambrosia-raceway-trial",
+   "name": "Ambrosia Raceway Trial"
+  },
+  {
+   "id": "hamlet-bmx-stunt-run",
+   "name": "Hamlet BMX Stunt Run"
+  },
+  {
+   "id": "boone-speedway-trial",
+   "name": "Boone Speedway Trial"
+  },
+  {
+   "id": "gellhorn-raceway-trial",
+   "name": "Gellhorn Raceway Trial"
+  },
+  {
+   "id": "gellhorn-dragway-trial",
+   "name": "Gellhorn Dragway Trial"
+  },
+  {
+   "id": "kalaga-cycling-trial",
+   "name": "Kalaga Cycling Trial"
+  },
+  {
+   "id": "mud-club-air-time-stunt-run",
+   "name": "Mud Club Air Time Stunt Run"
+  },
+  {
+   "id": "mud-club-drag-trial",
+   "name": "Mud Club Drag Trial"
+  },
+  {
+   "id": "mud-club-hill-climb-trial",
+   "name": "Mud Club Hill Climb Trial"
+  },
+  {
+   "id": "mud-club-dirt-track-trial",
+   "name": "Mud Club Dirt Track Trial"
+  },
+  {
+   "id": "mud-club-oval-trial",
+   "name": "Mud Club Oval Trial"
+  },
+  {
+   "id": "mud-club-swamp-run-trial",
+   "name": "Mud Club Swamp Run Trial"
+  },
+  {
+   "id": "waning-sands-motocross-stunt-run",
+   "name": "Waning Sands Motocross Stunt Run"
+  }
+ ],
+ "venues": [
+  {
+   "id": "hit-n-run",
+   "n": "Hit 'N Run VC",
+   "where": "Vice City",
+   "total": 9,
+   "unlock": "Chapter 3, after [Dealer's Choice](/walkthrough/dealers-choice/): an invite to the street races arrives and Join a Street Race shows up in Vice City. It is part of [Yago's jobs](/guides/side-contacts/#yago).",
+   "spots": [
+    {
+     "id": "hit-n-run-salton",
+     "n": "Salton",
+     "count": 3
+    },
+    {
+     "id": "hit-n-run-la-perle",
+     "n": "La Perle",
+     "count": 2
+    },
+    {
+     "id": "hit-n-run-ocean-beach",
+     "n": "Ocean Beach",
+     "count": 2
+    },
+    {
+     "id": "hit-n-run-gloriana-key",
+     "n": "Gloriana Key",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "animal-crackers",
+   "n": "Animal Crackers",
+   "where": "Mariana and Lummox counties",
+   "total": 8,
+   "spots": [
+    {
+     "id": "animal-crackers-grayson",
+     "n": "Grayson",
+     "count": 2
+    },
+    {
+     "id": "animal-crackers-redshaws",
+     "n": "Redshaw's",
+     "count": 2
+    },
+    {
+     "id": "animal-crackers-ranchers",
+     "n": "Ranchers",
+     "count": 2
+    },
+    {
+     "id": "animal-crackers-big-pine",
+     "n": "Big Pine",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "gellhorn",
+   "n": "Gellhorn International Raceway",
+   "where": "Kelly County, south of Port Gellhorn",
+   "total": 11,
+   "unlock": "Start with the introduction race. It opens a five-race amateur series, and winning that opens the rest.",
+   "spots": [
+    {
+     "id": "gellhorn-gellhorn-raceway",
+     "n": "Gellhorn Raceway",
+     "count": 11
+    }
+   ]
+  },
+  {
+   "id": "boone",
+   "n": "Boone Speedway",
+   "where": "Vice-Dale County, southwest corner of Hamlet",
+   "total": 2,
+   "kind": "Elimination races",
+   "spots": [
+    {
+     "id": "boone-boone-speedway",
+     "n": "Boone Speedway",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "ambrosia",
+   "n": "Ambrosia Raceway",
+   "where": "Kelly County, north side of Ambrosia",
+   "total": 2,
+   "kind": "Demolition races",
+   "unlock": "It appears on the map once you get close.",
+   "spots": [
+    {
+     "id": "ambrosia-ambrosia-raceway",
+     "n": "Ambrosia Raceway",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "mud-club",
+   "n": "Thrillbilly Mud Club",
+   "where": "Kelly County, North Kelly County",
+   "total": 8,
+   "unlock": "Chapter 2, through Billy's [Thrillbillies](/walkthrough/thrillbillies/).",
+   "spots": [
+    {
+     "id": "mud-club-dirt-track",
+     "n": "Dirt track",
+     "count": 6
+    },
+    {
+     "id": "mud-club-oval-track",
+     "n": "Oval track",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "pool": [
+  {
+   "id": "the-rusty-anchor",
+   "name": "The Rusty Anchor",
+   "county": "Mariana County",
+   "area": "Key Lento",
+   "where": "The bar where you play pool in Chapter 1. The opponent isn't always there: come back later or reload."
+  },
+  {
+   "id": "skeeters",
+   "name": "Skeeter's",
+   "county": "Vice-Dale County",
+   "area": "Hamlet",
+   "where": "South edge of Hamlet; the table is on the south side."
+  },
+  {
+   "id": "zoticos",
+   "name": "Zotico's",
+   "county": "Vice City",
+   "area": "Balsero",
+   "where": "West edge of Balsero; the table is on the east side of the bar."
+  },
+  {
+   "id": "the-thirsty-wolf",
+   "name": "The Thirsty Wolf",
+   "county": "Leonard County",
+   "area": "Belville",
+   "where": "Northwest edge of Belville; the table is on the north side."
+  },
+  {
+   "id": "jacobs-tavern",
+   "name": "Jacob's Tavern",
+   "county": "Lummox County",
+   "area": "Milport",
+   "where": "East side of Milport, next to a Pay 'n' Spray; table on the north side."
+  },
+  {
+   "id": "delights-cabaret",
+   "name": "Delights Cabaret",
+   "county": "Kelly County",
+   "area": "Port Gellhorn",
+   "where": "Table in the middle of the club. Beat the opponent before Chapter 2 ends, or wait: the club opens again later."
+  },
+  {
+   "id": "kowaachobee-cafe-and-bar",
+   "name": "Kowaachobee Cafe & Bar",
+   "county": "Kelly County",
+   "area": "Buckskin Swamp",
+   "where": "Just off the highway; table on the west side."
+  }
+ ]
+}

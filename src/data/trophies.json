@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -240,7 +240,7 @@
     "open-world"
    ],
    "target": "42",
-   "how": "Gold in every shooting range challenge, 42 medals in all. The 100% checklist needs the same 42.",
+   "how": "Gold in every shooting range challenge, 42 medals in all: six challenges at Griffin Shooting Range (three levels each) and six at Rodgers Ranch (four each). Buy the $5 Waiver Pass from the clerk first; rented guns are good enough. The 100% checklist needs the same 42. Every medal and its gun: [races and ranges](/guides/races-and-ranges/#ranges).",
    "link": "/guides/activities-and-collectibles/#shooting-ranges",
    "linkLabel": "Shooting ranges"
   },
@@ -253,7 +253,7 @@
     "open-world"
    ],
    "target": "14",
-   "how": "Win a Top Fun drone race at each of the 14 locations. The 100% checklist goes further and counts 42 drone time trials.",
+   "how": "Win a Top Fun drone race at each of the 14 locations. The 100% checklist goes further and counts all 42 drone time trials; beat par on the first two at a spot to open the third. Locations and par times: [races and ranges](/guides/races-and-ranges/#drones).",
    "link": "/guides/activities-and-collectibles/#drone-races",
    "linkLabel": "Drone races"
   },
@@ -266,7 +266,7 @@
     "open-world"
    ],
    "target": "20",
-   "how": "Win 20 different races; repeating one does not help. Venues include Gellhorn Raceway, the Thrillbilly Mud Club and Boone Speedway. The 100% checklist wants 30.",
+   "how": "Win 20 different races; repeating one does not help. There are 40 at six venues, among them Gellhorn Raceway, the Thrillbilly Mud Club and Boone Speedway. The 100% checklist wants 30. Venues and tick list: [races and ranges](/guides/races-and-ranges/#races).",
    "link": "/guides/activities-and-collectibles/#races",
    "linkLabel": "Races"
   },

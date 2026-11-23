@@ -93,6 +93,11 @@
        "track": "col:magazines-books-comics:rx-men"
       },
       {
+       "k": "pool-rusty",
+       "tag": "collect",
+       "t": "**Pool at The Rusty Anchor,** Key Lento: the bar from the story has a regular opponent too. If nobody's there, come back later. [All seven opponents](/guides/races-and-ranges/#pool)."
+      },
+      {
        "c": "vehicle:vehicle-discovery",
        "n": "Scanning with WAiNK counts. Keep scanning after this: the checklist wants 200."
       },
@@ -1252,7 +1257,7 @@
        "k": "fr-drone",
        "track": "pct:drone-time-trials-completed",
        "tag": "collect",
-       "t": "**Drone time trials.** Winning at all 14 locations earns Top Fun.",
+       "t": "**Drone time trials.** Beat par on the first two at each spot to open the third. A win at all 14 locations earns Top Fun. [All 42 with par times](/guides/races-and-ranges/#drones).",
        "g": "42 of 42"
       },
       {
@@ -1363,7 +1368,7 @@
        "k": "fr-range",
        "track": "pct:shooting-range-gold-medals",
        "tag": "collect",
-       "t": "**Shooting range golds.** Also earns The Shootist.",
+       "t": "**Shooting range golds.** Buy the $5 Waiver Pass at Griffin and Rodgers Ranch first. Also earns The Shootist. [Every medal and its gun](/guides/races-and-ranges/#ranges).",
        "g": "42 of 42"
       },
       {
@@ -1376,14 +1381,14 @@
        "k": "fr-races",
        "track": "pct:unique-races-won",
        "tag": "collect",
-       "t": "**Unique races won.** Earn Cash, Not Kudos unlocks at 20.",
+       "t": "**Unique races won.** Earn Cash, Not Kudos unlocks at 20. [The six venues](/guides/races-and-ranges/#races).",
        "g": "30 of 40"
       },
       {
        "k": "fr-racegold",
        "track": "pct:race-challenge-gold-medals",
        "tag": "collect",
-       "t": "**Race challenge golds.**",
+       "t": "**Race challenge golds.** [All 13](/guides/races-and-ranges/#race-challenges).",
        "g": "10 of 13"
       },
       {
@@ -1411,7 +1416,7 @@
        "k": "fr-pool",
        "track": "pct:pool-opponents-defeated",
        "tag": "collect",
-       "t": "**Pool opponents.** Six of the seven are known: Skeeter's (Hamlet), Zotico's (Balsero), The Thirsty Wolf (Belville), Jacob's Tavern (Milport), Delights Cabaret (Port Gellhorn) and Kowaachobee Cafe & Bar (Buckskin Swamp).",
+       "t": "**Pool opponents.** The Rusty Anchor (Key Lento), Skeeter's (Hamlet), Zotico's (Balsero), The Thirsty Wolf (Belville), Jacob's Tavern (Milport), Delights Cabaret (Port Gellhorn) and Kowaachobee Cafe & Bar (Buckskin Swamp). [Tick list](/guides/races-and-ranges/#pool).",
        "g": "5 of 7"
       }
      ]

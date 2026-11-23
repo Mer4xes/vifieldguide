@@ -8,7 +8,7 @@ summary: What there is to do and find in Leonida, how many of each the trophies 
 order: 3
 glow: cyan
 spoilerFree: true
-updated: 2026-11-21
+updated: 2026-11-23
 facts:
   - { k: Meditation spots, v: "18", status: Reported }
   - { k: Drone race locations, v: "14", status: Reported }
@@ -102,11 +102,11 @@ Both counts are in the pause menu under **Progress**, then **Vehicles** or **Ani
 
 <h2 id="drone-races">Top Fun drone races</h2>
 
-Top Fun runs drone races at **14 locations**. **Top Fun** (the trophy) needs a win at every location. The 100% checklist counts **42 drone time trials**, so each location has more than one race.
+Top Fun runs drone races at **14 locations**. **Top Fun** (the trophy) needs a win at every location. The 100% checklist counts **42 drone time trials**, so each location has three. Beat par on the first two to open the third. Every trial with its par time is in [races and ranges](/guides/races-and-ranges/#drones).
 
 <h2 id="shooting-ranges">Shooting ranges</h2>
 
-There are two ranges, **Griffin Shooting Range** and **Rodgers Ranch**, and their challenges hand out **42 gold medals** in total. **The Shootist** needs every gold, and the checklist wants the same 42.
+There are two ranges, **Griffin Shooting Range** and **Rodgers Ranch**, and their challenges hand out **42 gold medals** in total. **The Shootist** needs every gold, and the checklist wants the same 42. Buy the $5 Waiver Pass from the clerk before you start. Every challenge, level and gun: [races and ranges](/guides/races-and-ranges/#ranges).
 
 <h2 id="stunts">Stunts</h2>
 
@@ -126,7 +126,7 @@ Magazines, books and comics are found around Leonida. There are 34 different one
 
 <h2 id="races">Races</h2>
 
-**Earn Cash, Not Kudos** needs wins in 20 different races; the 100% checklist wants 30 unique race wins plus 10 race challenge golds. Venues include the **Gellhorn Raceway**, the **Thrillbilly Mud Club** and **Boone Speedway**. Ten wins across those three unlock the **Repair Vehicle** cheat.
+**Earn Cash, Not Kudos** needs wins in 20 different races; the 100% checklist wants 30 unique race wins plus 10 race challenge golds. Venues include the **Gellhorn Raceway**, the **Thrillbilly Mud Club** and **Boone Speedway**. Ten wins across those three unlock the **Repair Vehicle** cheat. All six venues, the 13 race challenges and the seven pool opponents are in [races and ranges](/guides/races-and-ranges/#races).
 
 <h2 id="video-games">Video games</h2>
 

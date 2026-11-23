@@ -1,12 +1,20 @@
 [
  {
   "date": "2026-11-23",
+  "tag": "New guide",
+  "title": "Races, drone trials, ranges and pool",
+  "text": "All 42 drone trials with par times, every shooting range gold and its gun, 40 races by venue and the seven pool opponents.",
+  "url": "/guides/races-and-ranges/",
+  "img": "/assets/img/misc/act-carmeet.webp",
+  "cta": "Open the tick lists"
+ },
+ {
+  "date": "2026-11-23",
   "tag": "Walkthrough",
   "title": "Every story mission is written up",
   "text": "The walkthrough is complete: all 93 story missions step by step, from the first job to the final choice.",
   "url": "/walkthrough/",
-  "img": "/assets/img/art/jl-rooftop.webp",
-  "cta": "Open the walkthrough"
+  "img": "/assets/img/art/jl-rooftop.webp"
  },
  {
   "date": "2026-11-22",
@@ -55,13 +63,5 @@
   "text": "Kirk's Skunk Ape hunt, a tracker for Tyrone's Kitty Litter labs, plus Billy, Andy and Pilot Pete.",
   "url": "/guides/side-contacts/",
   "img": "/assets/img/misc/act-offroad.webp"
- },
- {
-  "date": "2026-11-21",
-  "tag": "New guide",
-  "title": "Every cheat, unlocked",
-  "text": "All 61 cheats, what unlocks each one, the codes we know and how to enter them.",
-  "url": "/guides/cheats/",
-  "img": "/assets/img/misc/feat-phone.webp"
  }
 ]
