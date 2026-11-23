@@ -549,8 +549,9 @@ document.addEventListener("click", (e) => {
 })();
 
 /* ----- "Was this page helpful?" (partials/rate.njk, backend functions/api/feedback/) -----
-   Three places share one vote: the band at the bottom (with the reason/note form), a chip in the
-   page header showing the score, and on long pages a compact "helpful so far?" row mid-page.
+   Three places share one vote: the band at the bottom, a small Yes/No with the score in the page
+   header, and on long pages a compact "helpful so far?" row mid-page. Wherever you vote, the
+   reason/note form opens right there, so nobody is moved away from their place in a list.
    Nothing shows until /api/feedback answers. This browser remembers which way it voted. */
 (() => {
   const box = document.querySelector("[data-rate]");
@@ -578,9 +579,11 @@ document.addEventListener("click", (e) => {
   const text = box.querySelector("[data-rate-c]");
   const thanks = box.querySelector("[data-rate-thanks]");
   const thumb = (box.querySelector("[data-vote] svg") || {}).outerHTML || "";
+  const home = form.parentNode;
   let reason = null, busy = false, chip = null, mid = null, last = { up: 0, down: 0 };
 
-  const votes = () => [...document.querySelectorAll("[data-rate] [data-vote], [data-rate-mid] [data-vote]")];
+  const SEL = "[data-rate] [data-vote], [data-rate-mid] [data-vote], [data-rate-top] [data-vote]";
+  const votes = () => [...document.querySelectorAll(SEL)];
   const press = (v) => votes().forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.vote === v)));
   const paint = (c) => {
     last = c;
@@ -589,20 +592,27 @@ document.addEventListener("click", (e) => {
     else if (total < 5) n.textContent = total === 1 ? "1 vote so far" : total + " votes so far";
     else n.innerHTML = "<b>" + pct + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
     if (chip) {
-      chip.innerHTML = total >= 5 ? thumb + "<span>" + pct + "% found this helpful</span>" : thumb + "<span>Rate this page</span>";
-      chip.title = total ? total.toLocaleString("en-US") + (total === 1 ? " vote" : " votes") : "No votes yet";
+      const s = chip.querySelector("[data-rate-top-n]");
+      s.textContent = total >= 5 ? pct + "% found this helpful" : "";
+      s.title = total ? total.toLocaleString("en-US") + (total === 1 ? " vote" : " votes") : "";
     }
   };
 
-  // Header chip: the score at a glance, and a shortcut to the vote at the bottom.
+  // Header: a small Yes/No next to the other chips, with the score once there are 5 votes.
   const addChip = () => {
     const mast = document.querySelector("main .mast .wrap");
     if (!mast) return;
     let row = mast.querySelector(".chips");
     if (!row) { row = document.createElement("div"); row.className = "chips"; mast.appendChild(row); }
-    chip = document.createElement("a");
-    chip.className = "chip rate-chip";
-    chip.href = "#rate";
+    chip = document.createElement("div");
+    chip.className = "rate-top";
+    chip.setAttribute("data-rate-top", "");
+    chip.setAttribute("role", "group");
+    chip.setAttribute("aria-label", "Was this page helpful?");
+    chip.innerHTML = '<span class="rate-top-q">Helpful?</span>' +
+      '<button type="button" class="rate-ic" data-vote="up" aria-pressed="false" aria-label="Yes, this page is helpful">' + thumb + '</button>' +
+      '<button type="button" class="rate-ic down" data-vote="down" aria-pressed="false" aria-label="No, this page is not helpful">' + thumb + '</button>' +
+      '<span class="rate-top-n" data-rate-top-n></span>';
     row.appendChild(chip);
   };
 
@@ -628,7 +638,8 @@ document.addEventListener("click", (e) => {
       '<div class="rate-btns" role="group" aria-labelledby="rate-mid-q">' +
       '<button type="button" class="rate-b sm" data-vote="up" aria-pressed="false">' + thumb + '<span>Yes</span></button>' +
       '<button type="button" class="rate-b sm down" data-vote="down" aria-pressed="false">' + thumb + '<span>No</span></button></div>' +
-      '<p class="rate-mid-n" data-rate-mid-n aria-live="polite"></p>';
+      '<p class="rate-mid-n" data-rate-mid-n aria-live="polite"></p>' +
+      '<div class="rate-slot" data-rate-slot></div>';
     best.parentNode.insertBefore(mid, best);
   };
 
@@ -636,7 +647,6 @@ document.addEventListener("click", (e) => {
     fetch(API + "?page=" + encodeURIComponent(page), { headers: { accept: "application/json" } })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((c) => {
-        box.id = box.id || "rate";
         box.hidden = false;
         addChip();
         addMid();
@@ -654,6 +664,22 @@ document.addEventListener("click", (e) => {
     fetch(API, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ page, cid, ...body }) })
       .then((r) => r.json().catch(() => ({})).then((j) => (r.ok ? j : Promise.reject(j.error || r.status))));
 
+  // Put the form (and its thank-you line) next to the vote that was just clicked.
+  const place = (b) => {
+    let slot = home;
+    if (b.closest("[data-rate-mid]")) slot = mid.querySelector("[data-rate-slot]");
+    else if (b.closest("[data-rate-top]")) {
+      slot = document.querySelector("main .mast [data-rate-slot]");
+      if (!slot) {
+        slot = document.createElement("div");
+        slot.className = "rate-slot top";
+        slot.setAttribute("data-rate-slot", "");
+        chip.closest(".chips").after(slot);
+      }
+    }
+    if (form.parentNode !== slot) { slot.appendChild(form); slot.appendChild(thanks); }
+  };
+
   const openForm = (v) => {
     reason = null;
     reasons.querySelectorAll("[data-reason]").forEach((x) => { x.classList.remove("is-on"); x.setAttribute("aria-pressed", "false"); });
@@ -666,30 +692,33 @@ document.addEventListener("click", (e) => {
   };
 
   document.addEventListener("click", (e) => {
-    const b = e.target.closest("[data-rate] [data-vote], [data-rate-mid] [data-vote]");
+    const b = e.target.closest(SEL);
     if (!b) return;
     const v = b.dataset.vote;
     if (busy || b.getAttribute("aria-pressed") === "true") return;
     busy = true;
     const before = votes().find((x) => x.getAttribute("aria-pressed") === "true");
     const fromMid = !!b.closest("[data-rate-mid]");
+    const fromTop = !!b.closest("[data-rate-top]");
     press(v);
     post({ vote: v })
       .then((c) => {
         paint(c);
         remember({ v, d: new Date().toISOString().slice(0, 10) });
+        // Keep the clicked button exactly where it was on screen, even if the form leaves a spot above it.
+        const y = b.getBoundingClientRect().top;
+        place(b);
         openForm(v);
-        if (mid) {
-          const out = mid.querySelector("[data-rate-mid-n]");
-          out.innerHTML = v === "down"
-            ? 'Thanks. <a href="#rate">Tell us what was wrong</a>, it helps us fix it.'
-            : 'Thanks! <a href="#rate">Anything we could add?</a>';
-        }
+        const dy = b.getBoundingClientRect().top - y;
+        if (Math.abs(dy) > 1) window.scrollBy(0, dy);
+        if (mid) mid.querySelector("[data-rate-mid-n]").textContent = "";
       })
       .catch((err) => {
         press(before ? before.dataset.vote : null);
         const msg = err === "limit" ? "That's a lot of votes for one day. Try again tomorrow." : "Couldn't save your vote. Please try again.";
-        if (fromMid && mid) mid.querySelector("[data-rate-mid-n]").textContent = msg; else n.textContent = msg;
+        if (fromMid && mid) mid.querySelector("[data-rate-mid-n]").textContent = msg;
+        else if (fromTop && chip) chip.querySelector("[data-rate-top-n]").textContent = msg;
+        else n.textContent = msg;
       })
       .finally(() => { busy = false; });
   });

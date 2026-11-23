@@ -1163,13 +1163,24 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .rate-fine{color:var(--faint);font-size:13px}
 .rate-thanks{margin-top:12px;color:var(--cyan);font-weight:700}
 @media(max-width:600px){.rate-n{margin-left:0;width:100%}.rate-q{width:100%}}
-/* rating: header chip and the mid-page row on long pages */
-.chip.rate-chip{color:var(--cyan);text-decoration:none;cursor:pointer}
-.chip.rate-chip svg{width:12px;height:12px}
-.chip.rate-chip:hover{border-color:var(--cyan);text-decoration:none}
+/* rating: header Yes/No and the mid-page row on long pages; the form opens where you voted */
+.rate-top{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.rate-top-q{padding-left:2px}
+.rate-ic{display:inline-grid;place-items:center;width:28px;height:24px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;padding:0}
+.rate-ic svg{width:13px;height:13px}
+.rate-ic.down svg{transform:scaleY(-1)}
+.rate-ic:hover{border-color:var(--faint);color:var(--fg)}
+.rate-ic[aria-pressed="true"]{border-color:var(--cyan);color:var(--cyan);background:rgba(39,226,212,.12)}
+.rate-ic.down[aria-pressed="true"]{border-color:var(--pink);color:var(--pink);background:rgba(255,46,136,.12)}
+.rate-top-n{color:var(--cyan)}
+.rate-top-n:empty{display:none}
 .rate-mid{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;margin:36px 0;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
 .rate-mid-q{font-weight:700}
 .rate-b.sm{padding:7px 13px;font-size:13.5px}
 .rate-mid-n{color:var(--muted);font-size:14px}
 .rate-mid-n:empty{display:none}
+.rate-slot{flex-basis:100%;min-width:0}
+.rate-slot:empty{display:none}
+.rate-slot .rate-more{margin-top:4px}
+.rate-slot.top{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(21,16,31,.85);max-width:760px}
 .rate-band{scroll-margin-top:72px}

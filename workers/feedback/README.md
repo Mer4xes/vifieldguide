@@ -5,10 +5,11 @@ After a vote the visitor can pick a reason (wrong info, out of date, missing som
 hard to follow, other) and leave a short note. The page shows "94% found this helpful · 120 votes"
 from 5 votes up, and "N votes so far" below that.
 
-- The same vote shows in three places: the band at the bottom (with the reason/note form), a chip in the
-  page header ("Rate this page", then "94% found this helpful" from 5 votes; it jumps to the band), and on
-  pages taller than four screens a compact "Is this page helpful so far?" row before the section heading
-  nearest the middle. The chip and the middle row are added by site.js.
+- The same vote shows in three places: the band at the bottom, a small "Helpful? 👍 👎" in the page
+  header (with "94% found this helpful" from 5 votes), and on pages taller than four screens a compact
+  "Is this page helpful so far?" row before the section heading nearest the middle. Wherever you vote,
+  the reason/note form opens right there and the page never scrolls you away. Header and middle row
+  are added by site.js.
 - Widget: `src/_includes/partials/rate.njk`, logic at the end of `src/assets/site.js`, CSS at the end of `site.css`.
   Hide it on a page with `hideRating: true` in front matter.
 - Backend: Cloudflare **Pages Functions** in `functions/api/feedback/` (deployed automatically with
