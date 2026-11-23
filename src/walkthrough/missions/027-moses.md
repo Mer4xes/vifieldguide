@@ -61,4 +61,4 @@ Follow Moses back. If the car you brought had a tracker, he sends you out to fin
 
 Respray the car, then register it as Lucia's. A registered car is yours to keep and can be delivered to you through the new Scooter Bros app.
 
-> **Tip:** After each sale the garage closes for a minute or two. You also only have room for one registered car until you get a garage, or you sell one to make space.
+> **Tip:** After each sale the garage closes for a minute or two. You also only have room for one registered car until you get a garage, or you sell one to make space. How personal vehicles, Scooter Bros and the impound work is in [cars](/guides/cars/#personal).

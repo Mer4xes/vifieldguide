@@ -11,6 +11,14 @@
  {
   "date": "2026-11-23",
   "tag": "New guide",
+  "title": "Cars: steal it, keep it, get it back",
+  "text": "What each tracker means, how to register a personal vehicle, and how Scooter Bros rescues a wrecked or impounded car.",
+  "url": "/guides/cars/",
+  "img": "/assets/img/misc/feat-heat.webp"
+ },
+ {
+  "date": "2026-11-23",
+  "tag": "New guide",
   "title": "Every robbery, ticked off",
   "text": "All 35 jewelry stores and pawn shops, the 22 banks with their eight vaults and the seven payday loans, with payouts.",
   "url": "/guides/robberies/",
@@ -55,21 +63,5 @@
   "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
   "url": "/guides/equipment/",
   "img": "/assets/img/art/jl-lock-and-load.webp"
- },
- {
-  "date": "2026-11-21",
-  "tag": "New guide",
-  "title": "Every gun store and mod shop",
-  "text": "All 24 Ammu-Nations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, by county.",
-  "url": "/guides/shops/",
-  "img": "/assets/img/misc/act-carmeet.webp"
- },
- {
-  "date": "2026-11-21",
-  "tag": "New guide",
-  "title": "Every gang operation",
-  "text": "All 39 illegal operations by gang, how to clear them and a tracker for Pest Control.",
-  "url": "/guides/gang-operations/",
-  "img": "/assets/img/art/jl-robbery.webp"
  }
 ]

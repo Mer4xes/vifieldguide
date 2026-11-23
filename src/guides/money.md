@@ -27,7 +27,7 @@ methods:
   - { icon: "3", title: "Cars at a Pay 'n' Spray", text: "Chapter 3. Cars with a Standard Tracker can be sold at any Pay 'n' Spray.", pay: "~$4,000+", risk: "low risk" }
   - { icon: "3", title: "Jewelry stores", text: "Chapter 3, from Yasmani's Jewelry Jobs. Several in a row, and open the back-room safe.", pay: "$10k–25k", risk: "raises heat" }
   - { icon: "3", title: "Small bank jobs", text: "Chapter 3, after Credit Check. Empty the cash drawer and the safe in each of 14 banks.", pay: "$5k–45k", risk: "raises heat" }
-  - { icon: "3", title: "Randy's wish list", text: "Halfway through Chapter 3, with the key cloner. 18 high-end cars to find around Vice City.", pay: "$30,000+", risk: "trackers" }
+  - { icon: "3", title: "Randy's wish list", text: "Halfway through Chapter 3, with the key cloner. A list of high-end cars to find around Vice City.", pay: "$30,000+", risk: "trackers" }
   - { icon: "4", title: "Large bank vaults", text: "End of Chapter 4, after That's Where The Money Is. Tail a security van in, then get out on a fast bike.", pay: "$65k–205k", risk: "4 stars" }
 faq:
   - q: "What is the fastest way to make money in GTA 6?"
@@ -99,7 +99,7 @@ The first rule matters more than any method: **cash in your pocket is not safe.*
 - He only takes cars **without a tracker**. Scan a car with WAiNK first to see what it has.
 - He turns down cars stolen too close to his garage. Pick one up off the main road through Port Gellhorn instead and drive it over.
 
-In **Chapter 3** two more outlets open. Cars with a **Standard Tracker** can be sold at any **Pay 'n' Spray**, about $4,000 or more for a good one. And **Randy** at his dealership in Balsero takes stolen cars from [Car Service](/walkthrough/car-service/) on; the [fences guide](/guides/fences/#cars) has who buys what.
+In **Chapter 3** two more outlets open. Cars with a **Standard Tracker** can be sold at any **Pay 'n' Spray**, about $4,000 or more for a good one. And **Randy** at his dealership in Balsero takes stolen cars from [Car Service](/walkthrough/car-service/) on; the [fences guide](/guides/fences/#cars) has who buys what, and [cars](/guides/cars/#trackers) explains trackers, registering and getting a car back.
 
 <h2 id="key-cloner">The key cloner and Randy's wish list</h2>
 
@@ -111,7 +111,7 @@ The **key cloner** opens and starts **keyless** high-end cars, the ones the slim
 
 > **Watch out:** Cars that need the cloner often carry an **Advanced Tracker**, which tells the police where you are as soon as you slow down. Keep your speed up, or look for a car with a Standard Tracker or none. A car with a Standard Tracker can't be modded until you register it.
 
-With the cloner, Randy's **wish list** opens: **18 high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. His last job earns **Supply & Demand** ([Randy on side contacts](/guides/side-contacts/#randy)).
+With the cloner, Randy's **wish list** opens: a set of **high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. His last job earns **Supply & Demand** ([Randy on side contacts](/guides/side-contacts/#randy)).
 
 <h2 id="jewelry">Jewelry stores</h2>
 
