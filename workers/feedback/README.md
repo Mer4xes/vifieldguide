@@ -13,7 +13,7 @@ from 5 votes up, and "N votes so far" below that.
 - Until `FEEDBACK_DB` is bound the API answers 503 and the band stays hidden, so nothing breaks.
 
 ## One-time setup (Cloudflare dashboard, the login that owns vifieldguide.com)
-1. **Storage & Databases › D1 › Create database**, name `vifieldguide-feedback`.
+1. Done Nov 23, 2026: D1 database `vifieldguide-feedback` (id `08cdc54e-213f-45e7-ba4f-addcc16c50c5`, Western Europe), table and indexes created.
 2. **Workers & Pages › vifieldguide-site › Settings › Bindings › Add › D1 database**:
    variable name `FEEDBACK_DB`, database `vifieldguide-feedback`. Production (and Preview if you like).
 3. Same page, **Variables and Secrets › Add** (type Secret):
