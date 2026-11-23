@@ -548,9 +548,10 @@ document.addEventListener("click", (e) => {
   if (h && tabs.some((t) => t.dataset.rtab === h[1])) show(h[1], false);
 })();
 
-/* ----- "Was this page helpful?" band (partials/rate.njk, backend functions/api/feedback/) -----
-   Shown only once /api/feedback answers. The vote itself goes to the server (counted per page);
-   this browser remembers which way it voted so the button stays pressed. */
+/* ----- "Was this page helpful?" (partials/rate.njk, backend functions/api/feedback/) -----
+   Three places share one vote: the band at the bottom (with the reason/note form), a chip in the
+   page header showing the score, and on long pages a compact "helpful so far?" row mid-page.
+   Nothing shows until /api/feedback answers. This browser remembers which way it voted. */
 (() => {
   const box = document.querySelector("[data-rate]");
   if (!box || !window.fetch) return;
@@ -558,6 +559,7 @@ document.addEventListener("click", (e) => {
   const API = "/api/feedback";
   const KEY = "vfg.rate.v1";
   const mine = () => { try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; } };
+  const remember = (v) => { try { const m = mine(); m[page] = v; localStorage.setItem(KEY, JSON.stringify(m)); } catch (e) {} };
   const cid = (() => {
     try {
       let id = localStorage.getItem("vfg.cid");
@@ -569,70 +571,128 @@ document.addEventListener("click", (e) => {
       return id;
     } catch (e) { return ""; }
   })();
-  const remember = (v) => { try { const m = mine(); m[page] = v; localStorage.setItem(KEY, JSON.stringify(m)); } catch (e) {} };
-  const btns = [...box.querySelectorAll("[data-vote]")];
   const n = box.querySelector("[data-rate-n]");
   const form = box.querySelector("[data-rate-form]");
   const head = box.querySelector("[data-rate-h]");
   const reasons = box.querySelector("[data-rate-reasons]");
   const text = box.querySelector("[data-rate-c]");
   const thanks = box.querySelector("[data-rate-thanks]");
-  let reason = null, busy = false;
+  const thumb = (box.querySelector("[data-vote] svg") || {}).outerHTML || "";
+  let reason = null, busy = false, chip = null, mid = null, last = { up: 0, down: 0 };
 
+  const votes = () => [...document.querySelectorAll("[data-rate] [data-vote], [data-rate-mid] [data-vote]")];
+  const press = (v) => votes().forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.vote === v)));
   const paint = (c) => {
-    const up = c.up | 0, total = up + (c.down | 0);
+    last = c;
+    const up = c.up | 0, total = up + (c.down | 0), pct = total ? Math.round((100 * up) / total) : 0;
     if (!total) n.textContent = "Be the first to rate this page.";
     else if (total < 5) n.textContent = total === 1 ? "1 vote so far" : total + " votes so far";
-    else n.innerHTML = "<b>" + Math.round((100 * up) / total) + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
+    else n.innerHTML = "<b>" + pct + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
+    if (chip) {
+      chip.innerHTML = total >= 5 ? thumb + "<span>" + pct + "% found this helpful</span>" : thumb + "<span>Rate this page</span>";
+      chip.title = total ? total.toLocaleString("en-US") + (total === 1 ? " vote" : " votes") : "No votes yet";
+    }
   };
-  const press = (v) => btns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.vote === v)));
+
+  // Header chip: the score at a glance, and a shortcut to the vote at the bottom.
+  const addChip = () => {
+    const mast = document.querySelector("main .mast .wrap");
+    if (!mast) return;
+    let row = mast.querySelector(".chips");
+    if (!row) { row = document.createElement("div"); row.className = "chips"; mast.appendChild(row); }
+    chip = document.createElement("a");
+    chip.className = "chip rate-chip";
+    chip.href = "#rate";
+    row.appendChild(chip);
+  };
+
+  // Long pages: one compact row before the section heading nearest the middle.
+  const addMid = () => {
+    const main = document.querySelector("main");
+    if (!main || main.offsetHeight < window.innerHeight * 4) return;
+    const top = main.getBoundingClientRect().top + window.scrollY;
+    const half = top + main.offsetHeight / 2;
+    let best = null, gap = Infinity;
+    main.querySelectorAll("h2").forEach((h) => {
+      if (h.closest(".mast, details, [data-filter-list], .faq, .rate-band, .trophies")) return;
+      const y = h.getBoundingClientRect().top + window.scrollY;
+      if (y < top + window.innerHeight * 1.5) return;
+      const d = Math.abs(y - half);
+      if (d < gap) { gap = d; best = h; }
+    });
+    if (!best) return;
+    mid = document.createElement("div");
+    mid.className = "rate-mid";
+    mid.setAttribute("data-rate-mid", "");
+    mid.innerHTML = '<p class="rate-mid-q" id="rate-mid-q">Is this page helpful so far?</p>' +
+      '<div class="rate-btns" role="group" aria-labelledby="rate-mid-q">' +
+      '<button type="button" class="rate-b sm" data-vote="up" aria-pressed="false">' + thumb + '<span>Yes</span></button>' +
+      '<button type="button" class="rate-b sm down" data-vote="down" aria-pressed="false">' + thumb + '<span>No</span></button></div>' +
+      '<p class="rate-mid-n" data-rate-mid-n aria-live="polite"></p>';
+    best.parentNode.insertBefore(mid, best);
+  };
 
   const load = () => {
     fetch(API + "?page=" + encodeURIComponent(page), { headers: { accept: "application/json" } })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((c) => {
+        box.id = box.id || "rate";
+        box.hidden = false;
+        addChip();
+        addMid();
         paint(c);
         const m = mine()[page];
         if (m && m.v) press(m.v);
-        box.hidden = false;
       })
       .catch(() => {});
   };
-  const foot = document.querySelector(".foot") || box;
-  if ("IntersectionObserver" in window) {
-    const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "900px 0px" });
-    io.observe(foot);
-  } else load();
+  // The header chip needs the numbers early, so load soon after the page is ready.
+  if ("requestIdleCallback" in window) requestIdleCallback(load, { timeout: 2500 });
+  else setTimeout(load, 600);
 
   const post = (body) =>
     fetch(API, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ page, cid, ...body }) })
       .then((r) => r.json().catch(() => ({})).then((j) => (r.ok ? j : Promise.reject(j.error || r.status))));
 
-  btns.forEach((b) => b.addEventListener("click", () => {
+  const openForm = (v) => {
+    reason = null;
+    reasons.querySelectorAll("[data-reason]").forEach((x) => { x.classList.remove("is-on"); x.setAttribute("aria-pressed", "false"); });
+    const down = v === "down";
+    head.textContent = down ? "Sorry about that. What was wrong?" : "Thanks! Anything we could add or do better?";
+    reasons.hidden = !down;
+    text.placeholder = down ? "Which step, item or number? (optional)" : "A missing tip, item or page? (optional)";
+    thanks.hidden = true;
+    form.hidden = false;
+  };
+
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-rate] [data-vote], [data-rate-mid] [data-vote]");
+    if (!b) return;
     const v = b.dataset.vote;
     if (busy || b.getAttribute("aria-pressed") === "true") return;
     busy = true;
-    const before = btns.find((x) => x.getAttribute("aria-pressed") === "true");
+    const before = votes().find((x) => x.getAttribute("aria-pressed") === "true");
+    const fromMid = !!b.closest("[data-rate-mid]");
     press(v);
     post({ vote: v })
       .then((c) => {
         paint(c);
         remember({ v, d: new Date().toISOString().slice(0, 10) });
-        reason = null;
-        reasons.querySelectorAll("[data-reason]").forEach((x) => { x.classList.remove("is-on"); x.setAttribute("aria-pressed", "false"); });
-        const down = v === "down";
-        head.textContent = down ? "Sorry about that. What was wrong?" : "Thanks! Anything we could add or do better?";
-        reasons.hidden = !down;
-        text.placeholder = down ? "Which step, item or number? (optional)" : "A missing tip, item or page? (optional)";
-        thanks.hidden = true;
-        form.hidden = false;
+        openForm(v);
+        if (mid) {
+          const out = mid.querySelector("[data-rate-mid-n]");
+          out.innerHTML = v === "down"
+            ? 'Thanks. <a href="#rate">Tell us what was wrong</a>, it helps us fix it.'
+            : 'Thanks! <a href="#rate">Anything we could add?</a>';
+        }
       })
-      .catch((e) => {
+      .catch((err) => {
         press(before ? before.dataset.vote : null);
-        n.textContent = e === "limit" ? "That's a lot of votes for one day. Try again tomorrow." : "Couldn't save your vote. Please try again.";
+        const msg = err === "limit" ? "That's a lot of votes for one day. Try again tomorrow." : "Couldn't save your vote. Please try again.";
+        if (fromMid && mid) mid.querySelector("[data-rate-mid-n]").textContent = msg; else n.textContent = msg;
       })
       .finally(() => { busy = false; });
-  }));
+  });
 
   reasons.addEventListener("click", (e) => {
     const c = e.target.closest("[data-reason]");

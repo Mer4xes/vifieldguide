@@ -1163,3 +1163,13 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .rate-fine{color:var(--faint);font-size:13px}
 .rate-thanks{margin-top:12px;color:var(--cyan);font-weight:700}
 @media(max-width:600px){.rate-n{margin-left:0;width:100%}.rate-q{width:100%}}
+/* rating: header chip and the mid-page row on long pages */
+.chip.rate-chip{color:var(--cyan);text-decoration:none;cursor:pointer}
+.chip.rate-chip svg{width:12px;height:12px}
+.chip.rate-chip:hover{border-color:var(--cyan);text-decoration:none}
+.rate-mid{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;margin:36px 0;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.rate-mid-q{font-weight:700}
+.rate-b.sm{padding:7px 13px;font-size:13.5px}
+.rate-mid-n{color:var(--muted);font-size:14px}
+.rate-mid-n:empty{display:none}
+.rate-band{scroll-margin-top:72px}
