@@ -56,7 +56,7 @@ export default {
   // by DNS instead (recommended — see DEPLOY.md). The Google value is only the
   // content string, not the whole tag.
   googleSiteVerification: "",
-  bingSiteVerification: "",
+  bingSiteVerification: "2A282B85901176C635E7D93388B6A79A",
 
   // IndexNow key (Bing/Yandex instant indexing). Served at /<key>.txt.
   // Change it by editing this value; keep it in sync with the key file.
