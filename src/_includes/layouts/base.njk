@@ -84,6 +84,7 @@
 <main id="main">
 {{ content | safe }}
 </main>
+{%- if not hideRating %}{% include "partials/rate.njk" %}{% endif %}
 {%- if site.donate and site.donate.url and not hideSupport %}
 <aside class="support-band" aria-label="Support the guide">
   <div class="wrap support-row">
@@ -102,7 +103,7 @@
     <div class="foot-cols">
       <div>
         <p class="foot-brand">The VI Field Guide</p>
-        <p class="foot-note">Checklists and progress are saved in this browser only. Nothing is sent anywhere.</p>
+        <p class="foot-note">Checklists and progress are saved in this browser only and never sent anywhere.</p>
         {%- if site.social and site.social.length %}
         <p class="foot-social">Follow:{% for s in site.social %} <a href="{{ s.url }}" rel="me noopener" target="_blank">{{ s.label }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}</p>
         {%- endif %}

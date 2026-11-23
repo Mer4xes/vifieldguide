@@ -1,0 +1,33 @@
+{#- "Was this page helpful?" band. Hidden until /api/feedback answers, so it never shows
+    when the backend is off. Logic in site.js (data-rate), backend in functions/api/feedback/. -#}
+{%- set thumb = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v11H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h3zm0 0 4-7a2.5 2.5 0 0 1 2.5 2.5V9h5.2a2 2 0 0 1 2 2.3l-1.3 8A2 2 0 0 1 17.4 21H7"/></svg>' %}
+<aside class="rate-band" data-rate data-page="{{ page.url }}" aria-label="Rate this page" hidden>
+  <div class="wrap">
+    <div class="rate-row">
+      <p class="rate-q" id="rate-q">Was this page helpful?</p>
+      <div class="rate-btns" role="group" aria-labelledby="rate-q">
+        <button type="button" class="rate-b" data-vote="up" aria-pressed="false">{{ thumb | safe }}<span>Yes</span></button>
+        <button type="button" class="rate-b down" data-vote="down" aria-pressed="false">{{ thumb | safe }}<span>No</span></button>
+      </div>
+      <p class="rate-n" data-rate-n aria-live="polite"></p>
+    </div>
+    <form class="rate-more" data-rate-form hidden>
+      <p class="rate-h" id="rate-h" data-rate-h>What was wrong?</p>
+      <div class="rate-reasons" data-rate-reasons role="group" aria-labelledby="rate-h">
+        <button type="button" class="fchip" data-reason="wrong" aria-pressed="false">Wrong info</button>
+        <button type="button" class="fchip" data-reason="outdated" aria-pressed="false">Out of date</button>
+        <button type="button" class="fchip" data-reason="missing" aria-pressed="false">Missing something</button>
+        <button type="button" class="fchip" data-reason="unclear" aria-pressed="false">Hard to follow</button>
+        <button type="button" class="fchip" data-reason="other" aria-pressed="false">Other</button>
+      </div>
+      <label class="vh" for="rate-c" data-rate-label>Tell us more (optional)</label>
+      <textarea id="rate-c" name="comment" rows="3" maxlength="600" data-rate-c placeholder="Which step, item or number? (optional)"></textarea>
+      <div class="cf-hp" aria-hidden="true"><label for="rate-w">Leave this empty</label><input id="rate-w" name="website" tabindex="-1" autocomplete="off"></div>
+      <div class="rate-send">
+        <button type="submit" class="btn primary">Send</button>
+        <p class="rate-fine">No personal details, please. Want a reply? Use the <a href="/contact/">contact form</a>.</p>
+      </div>
+    </form>
+    <p class="rate-thanks" data-rate-thanks hidden>Thanks! Every note is read and helps us fix the guide.</p>
+  </div>
+</aside>

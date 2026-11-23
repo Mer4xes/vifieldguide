@@ -6,7 +6,7 @@ kicker: About
 seoTitle: "About The VI Field Guide and Its Spoiler Policy"
 description: "How The VI Field Guide handles spoilers, what the verified labels mean, and how your progress is stored."
 summary: An unofficial, fan-made guide to Grand Theft Auto VI. Here is how it handles spoilers, accuracy and your progress.
-updated: 2026-11-21
+updated: 2026-11-23
 ---
 
 ## Spoilers
@@ -30,6 +30,10 @@ The guide is written so you can use it without having the story spoiled.
 
 Ticked steps, missions, trophies and collectibles are stored in your browser. There is no account and your ticks are never sent to a server. If you clear your browser data, or switch to another device, your ticks do not follow you.
 
+## Page ratings
+
+Most pages end with **Was this page helpful?** When you vote, we store the page, your yes or no, and any reason or note you add. Your browser keeps a random number so it gets one vote per page per day, and we keep a scrambled code made from your IP address and the date to stop floods of votes. That code can't be turned back into the address and changes every day. There are no cookies and no account, and nothing is shared. The votes tell us which pages to check and fix first.
+
 ## Who makes this
 
 The VI Field Guide is an independent fan project. It is not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.
@@ -42,4 +46,4 @@ The guide is free, with no ads and no sponsored content. If it saved you some ti
 
 ## Contact
 
-Found a mistake, or know something the guide is missing? [Send us a message](/contact/). Messages go to our inbox only and are not stored on the site.
+Found a mistake, or know something the guide is missing? [Send us a message](/contact/). Messages go to our inbox only and are not stored on the site. A note left with a page rating is anonymous, so we can't reply to it.

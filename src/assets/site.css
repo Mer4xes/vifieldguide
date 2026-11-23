@@ -1137,3 +1137,29 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 /* Second chip row in a filter group (e.g. stunts by region) */
 .filters+.filters{margin-top:10px}
 .fchip-lab{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);align-self:center;margin-right:4px}
+
+/* "Was this page helpful?" band (partials/rate.njk) */
+.rate-band{border-top:1px solid var(--line);background:var(--surface)}
+.rate-band .wrap{padding-top:20px;padding-bottom:20px}
+.rate-row{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px}
+.rate-q{font-family:var(--display);font-size:20px;text-transform:uppercase;letter-spacing:.02em}
+.rate-btns{display:flex;gap:8px}
+.rate-b{display:inline-flex;align-items:center;gap:7px;font:inherit;font-weight:700;font-size:14.5px;padding:9px 16px;border-radius:999px;
+  border:1px solid var(--line);background:var(--ink);color:var(--fg);cursor:pointer}
+.rate-b svg{width:17px;height:17px}
+.rate-b.down svg{transform:scaleY(-1)}
+.rate-b:hover{border-color:var(--faint)}
+.rate-b[aria-pressed="true"]{border-color:var(--cyan);background:rgba(39,226,212,.14);color:var(--cyan)}
+.rate-b.down[aria-pressed="true"]{border-color:var(--pink);background:rgba(255,46,136,.14);color:var(--pink)}
+.rate-n{color:var(--muted);font-size:14.5px;font-family:var(--mono);margin-left:auto}
+.rate-n b{color:var(--fg)}
+.rate-more{margin-top:16px;display:grid;gap:12px;max-width:720px}
+.rate-h{font-weight:700}
+.rate-reasons{display:flex;flex-wrap:wrap;gap:8px}
+.rate-reasons[hidden]{display:none}
+.rate-more textarea{width:100%;font:inherit;font-size:15px;color:var(--fg);background:var(--ink);border:1px solid var(--line);border-radius:10px;padding:11px 13px;resize:vertical;min-height:84px;line-height:1.5}
+.rate-more textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px rgba(39,226,212,.18)}
+.rate-send{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px}
+.rate-fine{color:var(--faint);font-size:13px}
+.rate-thanks{margin-top:12px;color:var(--cyan);font-weight:700}
+@media(max-width:600px){.rate-n{margin-left:0;width:100%}.rate-q{width:100%}}

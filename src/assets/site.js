@@ -1,5 +1,6 @@
 /* The VI Field Guide: progress tracking, spoiler controls, filters, countdown.
-   Everything is stored in this browser only (localStorage). Nothing is sent anywhere.
+   Progress is stored in this browser only (localStorage) and never sent anywhere.
+   The one exception is the page rating at the bottom of the file, which posts a vote to /api/feedback.
 
    Markup hooks
      input[data-track="mission:slug"]      a tickable thing; its key is the stored id
@@ -545,4 +546,115 @@ document.addEventListener("click", (e) => {
   tabs.forEach((t) => t.addEventListener("click", () => show(t.dataset.rtab, true)));
   const h = location.hash.match(/^#region-(.+)$/);
   if (h && tabs.some((t) => t.dataset.rtab === h[1])) show(h[1], false);
+})();
+
+/* ----- "Was this page helpful?" band (partials/rate.njk, backend functions/api/feedback/) -----
+   Shown only once /api/feedback answers. The vote itself goes to the server (counted per page);
+   this browser remembers which way it voted so the button stays pressed. */
+(() => {
+  const box = document.querySelector("[data-rate]");
+  if (!box || !window.fetch) return;
+  const page = box.dataset.page || location.pathname;
+  const API = "/api/feedback";
+  const KEY = "vfg.rate.v1";
+  const mine = () => { try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; } };
+  const cid = (() => {
+    try {
+      let id = localStorage.getItem("vfg.cid");
+      if (!id || !/^[a-z0-9]{12,40}$/.test(id)) {
+        const a = new Uint8Array(12); crypto.getRandomValues(a);
+        id = [...a].map((x) => x.toString(16).padStart(2, "0")).join("");
+        localStorage.setItem("vfg.cid", id);
+      }
+      return id;
+    } catch (e) { return ""; }
+  })();
+  const remember = (v) => { try { const m = mine(); m[page] = v; localStorage.setItem(KEY, JSON.stringify(m)); } catch (e) {} };
+  const btns = [...box.querySelectorAll("[data-vote]")];
+  const n = box.querySelector("[data-rate-n]");
+  const form = box.querySelector("[data-rate-form]");
+  const head = box.querySelector("[data-rate-h]");
+  const reasons = box.querySelector("[data-rate-reasons]");
+  const text = box.querySelector("[data-rate-c]");
+  const thanks = box.querySelector("[data-rate-thanks]");
+  let reason = null, busy = false;
+
+  const paint = (c) => {
+    const up = c.up | 0, total = up + (c.down | 0);
+    if (!total) n.textContent = "Be the first to rate this page.";
+    else if (total < 5) n.textContent = total === 1 ? "1 vote so far" : total + " votes so far";
+    else n.innerHTML = "<b>" + Math.round((100 * up) / total) + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
+  };
+  const press = (v) => btns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.vote === v)));
+
+  const load = () => {
+    fetch(API + "?page=" + encodeURIComponent(page), { headers: { accept: "application/json" } })
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((c) => {
+        paint(c);
+        const m = mine()[page];
+        if (m && m.v) press(m.v);
+        box.hidden = false;
+      })
+      .catch(() => {});
+  };
+  const foot = document.querySelector(".foot") || box;
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "900px 0px" });
+    io.observe(foot);
+  } else load();
+
+  const post = (body) =>
+    fetch(API, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ page, cid, ...body }) })
+      .then((r) => r.json().catch(() => ({})).then((j) => (r.ok ? j : Promise.reject(j.error || r.status))));
+
+  btns.forEach((b) => b.addEventListener("click", () => {
+    const v = b.dataset.vote;
+    if (busy || b.getAttribute("aria-pressed") === "true") return;
+    busy = true;
+    const before = btns.find((x) => x.getAttribute("aria-pressed") === "true");
+    press(v);
+    post({ vote: v })
+      .then((c) => {
+        paint(c);
+        remember({ v, d: new Date().toISOString().slice(0, 10) });
+        reason = null;
+        reasons.querySelectorAll("[data-reason]").forEach((x) => { x.classList.remove("is-on"); x.setAttribute("aria-pressed", "false"); });
+        const down = v === "down";
+        head.textContent = down ? "Sorry about that. What was wrong?" : "Thanks! Anything we could add or do better?";
+        reasons.hidden = !down;
+        text.placeholder = down ? "Which step, item or number? (optional)" : "A missing tip, item or page? (optional)";
+        thanks.hidden = true;
+        form.hidden = false;
+      })
+      .catch((e) => {
+        press(before ? before.dataset.vote : null);
+        n.textContent = e === "limit" ? "That's a lot of votes for one day. Try again tomorrow." : "Couldn't save your vote. Please try again.";
+      })
+      .finally(() => { busy = false; });
+  }));
+
+  reasons.addEventListener("click", (e) => {
+    const c = e.target.closest("[data-reason]");
+    if (!c) return;
+    reason = c.classList.contains("is-on") ? null : c.dataset.reason;
+    reasons.querySelectorAll("[data-reason]").forEach((x) => {
+      const on = x.dataset.reason === reason;
+      x.classList.toggle("is-on", on);
+      x.setAttribute("aria-pressed", String(on));
+    });
+  });
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const comment = text.value.trim();
+    const hp = form.querySelector('[name="website"]').value;
+    if (!reason && !comment) { text.focus(); return; }
+    const send = form.querySelector('[type="submit"]');
+    send.disabled = true;
+    post({ reason, comment, website: hp })
+      .then(() => { form.hidden = true; thanks.hidden = false; text.value = ""; })
+      .catch(() => { thanks.hidden = false; thanks.textContent = "Couldn't send that. Please try again, or use the contact form."; })
+      .finally(() => { send.disabled = false; });
+  });
 })();
