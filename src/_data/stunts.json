@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "sources": [
   {
    "label": "PowerPyx: GTA 6 All Knife Flight Locations",
@@ -14,7 +14,7 @@
   {
    "label": "PowerPyx: GTA 6 All Stunt Jump Locations",
    "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
-   "note": "Read Nov 22, 2026 (modified Nov 22 10:03 UTC, work in progress 82/130). Mariana County 17 and Vice-Dale County 55 by heading; we list the 17 + 53 names that were readable as text. Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Leonard/Kelly/Lummox names only came through as a summary, so they are left out. Trusted source."
+   "note": "Read Nov 23, 2026 (modified Nov 22 10:03 UTC, work in progress 82/130), this time as verbatim text to the end. Headings: Mariana County 17, Vice-Dale County 55, Leonard County 13, Kelly County 29, Lummox County 16 (= 130). Listed so far: 17 + 55 + 3 + 6 + 1 = 82, all now in our list. Names only, no text hints. Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Trusted source."
   }
  ],
  "kinds": [
@@ -425,6 +425,10 @@
        "name": "Apollo Aggregates Quarry"
       },
       {
+       "id": "apollo-aggregates-south",
+       "name": "Apollo Aggregates South"
+      },
+      {
        "id": "banner-hotel-and-spa-parking",
        "name": "Banner Hotel & Spa Parking"
       },
@@ -491,6 +495,10 @@
       {
        "id": "la-perle-parking-lot",
        "name": "La Perle Parking Lot"
+      },
+      {
+       "id": "leone-street",
+       "name": "Leone Street"
       },
       {
        "id": "mariner-s-highway",
@@ -626,9 +634,70 @@
       }
      ],
      "total": 55
+    },
+    {
+     "id": "leonard-county",
+     "n": "Leonard County",
+     "total": 13,
+     "items": [
+      {
+       "id": "lake-bonner-construction-east",
+       "name": "Lake Bonner Construction East"
+      },
+      {
+       "id": "lake-leonida-lock-south",
+       "name": "Lake Leonida Lock South"
+      },
+      {
+       "id": "richard-barebone-overpass-south",
+       "name": "Richard Barebone Overpass South"
+      }
+     ]
+    },
+    {
+     "id": "kelly-county",
+     "n": "Kelly County",
+     "total": 29,
+     "items": [
+      {
+       "id": "gellhorn-international-raceway",
+       "name": "Gellhorn International Raceway"
+      },
+      {
+       "id": "howe-dairy",
+       "name": "Howe Dairy"
+      },
+      {
+       "id": "prairie-court",
+       "name": "Prairie Court"
+      },
+      {
+       "id": "saputka-river",
+       "name": "Saputka River"
+      },
+      {
+       "id": "south-ambrosia-broken-bridge",
+       "name": "South Ambrosia Broken Bridge"
+      },
+      {
+       "id": "starlet-motel-construction",
+       "name": "Starlet Motel Construction"
+      }
+     ]
+    },
+    {
+     "id": "lummox-county",
+     "n": "Lummox County",
+     "total": 16,
+     "items": [
+      {
+       "id": "north-moreau-broken-bridge",
+       "name": "North Moreau Broken Bridge"
+      }
+     ]
     }
    ],
-   "mapped": 70
+   "mapped": 82
   },
   {
    "id": "bridge",

@@ -8,7 +8,7 @@ summary: The four kinds of stunt, how many of each there are, what the trophy an
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-22
+updated: 2026-11-23
 facts:
   - { k: Stunts in the game, v: "397", status: Reported }
   - { k: Cunning Stunts, v: "250", status: Confirmed }
@@ -107,7 +107,7 @@ sources:
 </div>
 <p class="nomatch" data-nomatch="stunt" hidden>Nothing left for that filter.</p>
 
-> **Note:** The other 60 stunt jumps and all 202 under the bridge spots aren't listed yet. We add them once they're confirmed. Ticks here are saved in this browser only.
+> **Note:** The other {% for k in stunts.kinds %}{% if k.id == 'jump' %}{{ k.total - k.mapped }}{% endif %}{% endfor %} stunt jumps and all 202 under the bridge spots aren't listed yet. We add them once they're confirmed. Ticks here are saved in this browser only.
 
 <button class="reset" type="button" data-reset="stunt:">Reset the stunt lists</button>
 

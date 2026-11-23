@@ -1091,6 +1091,11 @@
        "hide": true
       },
       {
+       "k": "gear-back",
+       "tag": "note",
+       "t": "**At the end of mission 91** you get back the weapons, equipment and outfits you had before this chapter, plus **$50,000** towards Abe's fee. Leaving the penthouse afterwards starts a short cutscene at Abe's office."
+      },
+      {
        "k": "abe-fee-2",
        "tag": "note",
        "t": "**Have $150,000 ready for Abe's second fee.** After mission 91, Abe's office wants it through BuckMe, and mission 92 doesn't open until it's paid. [Mission 92](/walkthrough/protective-custody/#before-you-start)."
