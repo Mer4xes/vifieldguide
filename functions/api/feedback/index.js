@@ -1,5 +1,5 @@
 /* /api/feedback
-   GET  ?page=/guides/stunts/                         -> { up, down }
+   GET  ?page=/guides/stunts/                         -> { up, down, all }  (all = votes on every page)
    POST { page, cid, vote: "up" | "down" }            -> { ok, up, down }   (one vote per page per browser per day; a second click changes it)
    POST { page, cid, reason, comment }                -> { ok }            (adds detail to today's vote on that page)
    Code shared with the admin view lives in workers/feedback/lib.js. */

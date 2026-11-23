@@ -3,7 +3,7 @@
 Every page except the utility pages (404, search, contact) ends with a Yes/No vote.
 After a vote the visitor can pick a reason (wrong info, out of date, missing something,
 hard to follow, other) and leave a short note. The page shows "94% found this helpful · 120 votes"
-from 5 votes up, and "N votes so far" below that.
+from 5 votes up. Below that it shows no number, or "2,400 votes across the guide" once the whole site has 500. Never show made-up numbers.
 
 - The same vote shows in three places: the band at the bottom, a small "Helpful? 👍 👎" in the page
   header (with "94% found this helpful" from 5 votes), and on pages taller than four screens a compact

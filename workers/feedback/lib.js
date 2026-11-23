@@ -69,10 +69,13 @@ async function hex(s) {
 
 export async function counts(d, page) {
   const row = await d
-    .prepare("SELECT COALESCE(SUM(vote = 1), 0) AS up, COALESCE(SUM(vote = 0), 0) AS down FROM votes WHERE page = ?")
+    .prepare(
+      "SELECT COALESCE(SUM(vote = 1), 0) AS up, COALESCE(SUM(vote = 0), 0) AS down, (SELECT COUNT(*) FROM votes) AS total FROM votes WHERE page = ?"
+    )
     .bind(page)
     .first();
-  return { up: Number(row?.up || 0), down: Number(row?.down || 0) };
+  // `all` is every vote on the site, for the "N votes across the guide" line.
+  return { up: Number(row?.up || 0), down: Number(row?.down || 0), all: Number(row?.total || 0) };
 }
 
 export function sameOrigin(request) {

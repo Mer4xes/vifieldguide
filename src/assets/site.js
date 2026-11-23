@@ -588,9 +588,12 @@ document.addEventListener("click", (e) => {
   const paint = (c) => {
     last = c;
     const up = c.up | 0, total = up + (c.down | 0), pct = total ? Math.round((100 * up) / total) : 0;
-    if (!total) n.textContent = "Be the first to rate this page.";
-    else if (total < 5) n.textContent = total === 1 ? "1 vote so far" : total + " votes so far";
-    else n.innerHTML = "<b>" + pct + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
+    // Real numbers only, and only once they mean something: this page's score from 5 votes,
+    // otherwise the whole guide's total from 500.
+    const all = c.all | 0;
+    if (total >= 5) n.innerHTML = "<b>" + pct + "%</b> found this helpful · " + total.toLocaleString("en-US") + " votes";
+    else if (all >= 500) n.textContent = all.toLocaleString("en-US") + " votes across the guide";
+    else n.textContent = "";
     if (chip) {
       const s = chip.querySelector("[data-rate-top-n]");
       s.textContent = total >= 5 ? pct + "% found this helpful" : "";

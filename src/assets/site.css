@@ -1184,3 +1184,4 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .rate-slot .rate-more{margin-top:4px}
 .rate-slot.top{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(21,16,31,.85);max-width:760px}
 .rate-band{scroll-margin-top:72px}
+.rate-n:empty{display:none}
