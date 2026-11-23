@@ -1,12 +1,20 @@
 [
  {
+  "date": "2026-11-23",
+  "tag": "Walkthrough",
+  "title": "The final mission is up",
+  "text": "The story walkthrough now runs to the very end: 92 of 93 missions, with the last one and its final choice.",
+  "url": "/walkthrough/the-end-of-the-road/",
+  "img": "/assets/img/art/jl-rooftop.webp",
+  "cta": "Read the final mission"
+ },
+ {
   "date": "2026-11-22",
   "tag": "New guide",
   "title": "All 397 stunts, sorted",
   "text": "The four kinds of stunt, what 250 and 300 need, and tick lists for every knife flight and base jump.",
   "url": "/guides/stunts/",
-  "img": "/assets/img/misc/act-heli.webp",
-  "cta": "Open the stunt lists"
+  "img": "/assets/img/misc/act-heli.webp"
  },
  {
   "date": "2026-11-22",
@@ -23,14 +31,6 @@
   "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
   "url": "/guides/equipment/",
   "img": "/assets/img/art/jl-lock-and-load.webp"
- },
- {
-  "date": "2026-11-22",
-  "tag": "Walkthrough",
-  "title": "Chapter 4 done, Chapter 5 begins",
-  "text": "Every Chapter 4 mission is written up, plus five of Chapter 5. 91 of 93 missions so far.",
-  "url": "/walkthrough/#chapter-5",
-  "img": "/assets/img/art/jl-rooftop.webp"
  },
  {
   "date": "2026-11-21",

@@ -37,7 +37,7 @@ objectives:
   - Take out Mendez' task force
 rewards:
   - { label: Cost, value: "$150,000 to Abe's office (BuckMe) before it opens" }
-  - { label: Next, value: "Leads straight into the final mission" }
+  - { label: Next, value: "Leads straight into The End of the Road" }
 faq:
   - q: "How do you unlock Protective Custody in GTA 6?"
     a: "Abe's office asks for a second fee in Chapter 5: send **$150,000** through **BuckMe**, then go back to Abe's office in Downtown Vice City. The mission starts there."
@@ -108,4 +108,4 @@ Outside the warehouse, kill every marked enemy. Then **Méndez** climbs out thro
 
 > **Tip:** The **trunks** of the cars around the area hold weapons, body armor and health items.
 
-After enough damage there's a scene, then you finish him off and the mission ends. The final mission follows straight on.
+After enough damage there's a scene, then you finish him off and the mission ends. [The End of the Road](/walkthrough/the-end-of-the-road/), the final mission, follows straight on.

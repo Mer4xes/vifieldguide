@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "chapters": [
   {
    "n": 1,
@@ -666,7 +666,17 @@
     },
     {
      "t": "The End of the Road",
-     "no": 93
+     "no": 93,
+     "opens": [
+      {
+       "t": "The 100% checklist in the pause menu",
+       "u": "/guides/100-percent-checklist/"
+      },
+      {
+       "t": "The cheats list",
+       "u": "/guides/cheats/"
+      }
+     ]
     }
    ]
   }
