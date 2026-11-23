@@ -8,7 +8,7 @@ summary: Who buys what, where they are and which mission opens them, from Brian'
 order: 4
 glow: gold
 spoilerFree: true
-updated: 2026-11-22
+updated: 2026-11-23
 facts:
   - { k: Fences so far, v: "7", status: Reported }
   - { k: Vehicles for 100%, v: "$200,000", status: Reported }
@@ -49,6 +49,8 @@ sources:
 ---
 
 > **Note:** First pass. This lists the fences in the missions we have written up so far, and grows with the [walkthrough](/walkthrough/). Nothing here is checked in our own game yet.
+
+> **Watch out:** Before update 01.002.002 (November 23), a partner sometimes didn't hand over a bag you wanted to sell at a fence. If that happened to you, update the game first. See [patch notes](/guides/patch-notes/).
 
 <h2 id="all">All fences so far</h2>
 

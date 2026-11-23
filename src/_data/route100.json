@@ -51,6 +51,11 @@
      "h": "Part A: missions 1 to 10",
      "items": [
       {
+       "k": "update-01-002-002",
+       "tag": "note",
+       "t": "**Install update 01.002.002 (Nov 23) before you play on.** It fixes phone calls that didn't come through, including the ones that unlock missions, partners not handing over bags for fences, and autosave. [Patch notes](/guides/patch-notes/)."
+      },
+      {
        "m": 1
       },
       {

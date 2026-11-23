@@ -1185,3 +1185,24 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .rate-slot.top{margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(21,16,31,.85);max-width:760px}
 .rate-band{scroll-margin-top:72px}
 .rate-n:empty{display:none}
+/* Patch notes */
+.patches{display:grid;gap:16px;margin:18px 0 8px}
+.patch{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 22px;scroll-margin-top:80px}
+.patch.is-latest{border-color:rgba(39,226,212,.45);box-shadow:0 0 0 1px rgba(39,226,212,.12) inset}
+.patch-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.patch-v{font-family:var(--display);font-size:30px;line-height:1;letter-spacing:.01em}
+.patch.is-latest .patch-v{color:var(--cyan)}
+.patch-when{font-family:var(--mono);font-size:13px;color:var(--faint)}
+.patch-kind{margin:8px 0 0;color:var(--muted);font-weight:700}
+.patch-sizes{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.patch-sizes div{border:1px solid var(--line);border-radius:10px;padding:6px 12px}
+.patch-sizes dt{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint)}
+.patch-sizes dd{margin:0;font-weight:700}
+.patch-roll{margin:12px 0 0;color:var(--muted);font-size:15px}
+.patch h3{margin:18px 0 0;font-size:17px}
+.prose .patch-fixes{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:0}
+.patch-fixes li{display:grid;gap:2px;padding:11px 0;border-top:1px solid var(--line)}
+.patch-fixes li:first-child{border-top:0}
+.patch-fixes span{color:var(--muted);font-size:15px}
+.patch-links{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:13.5px}
+.patch-none{margin:12px 0 0;color:var(--faint);font-style:italic}

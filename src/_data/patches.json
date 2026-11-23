@@ -1,0 +1,70 @@
+{
+ "note": "GTA 6 updates, newest first. Versions use the PS5 form (01.002.002). `notes` = what Rockstar's notes list, in our words. `status`: Reported unless read on Rockstar's own page. `src` is our record only and is never shown.",
+ "items": [
+  {
+   "id": "01-002-002",
+   "v": "01.002.002",
+   "date": "2026-11-23",
+   "when": "Mon, Nov 23, 2026",
+   "kind": "First update after launch",
+   "sizes": [
+    { "p": "PS5", "s": "About 604 MB" },
+    { "p": "Xbox Series X|S", "s": "About 1.6 GB" }
+   ],
+   "rollout": "In stages through the day, so not everyone gets it at once. On PS5 it went out in waves over about six hours.",
+   "status": "Reported",
+   "hasNotes": true,
+   "notes": [
+    { "t": "Fewer crashes", "d": "Several causes of the game crashing are fixed.", "links": [] },
+    { "t": "Phone calls come through again", "d": "Some calls didn't trigger, among them the ones that move the story on or unlock new missions.", "links": [ { "u": "/guides/side-contacts/", "l": "Side contacts" }, { "u": "/walkthrough/", "l": "Walkthrough" } ] },
+    { "t": "Autosave works properly", "d": "The game sometimes didn't autosave when it should have.", "links": [ { "u": "/guides/100-percent-route/", "l": "100% route" } ] },
+    { "t": "Wanted level can be lost", "d": "In some cases a wanted level couldn't be shaken off at all.", "links": [] },
+    { "t": "Partners hand over the bags", "d": "Your partner sometimes didn't hand over a bag you meant to sell at a fence.", "links": [ { "u": "/guides/fences/", "l": "Fences" } ] },
+    { "t": "Gym deadlift bar", "d": "The deadlift bar at the gym sometimes couldn't be used.", "links": [ { "u": "/walkthrough/making-gainz/", "l": "Making Gainz" } ] },
+    { "t": "Weather changes again", "d": "The weather could stay the same for a long stretch.", "links": [] }
+   ],
+   "src": [
+    { "label": "Push Square: First GTA 6 PS5 patch live now", "url": "https://www.pushsquare.com/news/2026/11/first-gta-6-ps5-patch-live-now-get-all-the-details-here", "note": "Nov 23, 2026 12:30 UTC. Version 01.002.002, PS5 603.8 MB, Xbox 1.6 GB, staged PS5 rollout (33/66/100% over ~6 h, via Tex2). No notes yet when written. Trusted." },
+    { "label": "Vice: GTA 6 patch update 01.002.002", "url": "https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/", "note": "Nov 23, 2026 11:18 UTC. Same version, sizes and waves. No notes yet when written." },
+    { "label": "Game Rant: New GTA 6 update patch notes for November 23", "url": "https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/", "note": "Nov 23, 2026 15:08 UTC. Seven fixes, attributed to Rockstar's support page 'Grand Theft Auto VI Launch Updates' (support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ), which we could not fetch from a cloud run. 603.7 MB / 1.6 GB, rolled out over the day." },
+    { "label": "ComicBook.com: GTA 6 gets first update following release", "url": "https://comicbook.com/gaming/news/gta-6-grand-theft-auto-vi-update-patch-notes-ps5-xbox-november-23/", "note": "Nov 23, 2026 15:00 UTC. Same seven fixes, independent write-up. Second source for the list." },
+    { "label": "PlayStation LifeStyle: GTA 6 PS5 update 1.002.002", "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes", "note": "Nov 23, 2026 11:33 UTC. ~600 MB PS5, staggered by region. Written before the notes appeared. Its money glitch / smoother play remarks left out (player reports)." }
+   ]
+  },
+  {
+   "id": "01-002-001",
+   "v": "01.002.001",
+   "date": "2026-11-16",
+   "when": "From Mon, Nov 16, 2026",
+   "kind": "Second update before launch",
+   "sizes": [
+    { "p": "PS5", "s": "About 600 MB" },
+    { "p": "Xbox Series X|S", "s": "About 1.6 GB" }
+   ],
+   "rollout": "On PS5 it went out in waves and had reached everyone by the morning of November 17, US time.",
+   "status": "Reported",
+   "hasNotes": false,
+   "src": [
+    { "label": "Vice: GTA 6 gets a second day one patch on PS5 and Xbox", "url": "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/", "note": "Nov 16, 2026. Sizes and rollout." },
+    { "label": "Tech Times: second pre-launch update, still no patch notes", "url": "https://www.techtimes.com/articles/330886/20261117/gta-6-gets-second-pre-launch-update-602-mb-ps5-16-gb-xbox-still-no-patch-notes.htm", "note": "Nov 17, 2026. 602 MB PS5, 1.6 GB Xbox, no notes." }
+   ]
+  },
+  {
+   "id": "01-002-000",
+   "v": "01.002.000",
+   "date": "2026-11-13",
+   "when": "Fri, Nov 13, 2026",
+   "kind": "First update before launch",
+   "sizes": [
+    { "p": "PS5", "s": "About 1 GB" }
+   ],
+   "rollout": "Went out to preloaded copies a week before release.",
+   "status": "Reported",
+   "hasNotes": false,
+   "src": [
+    { "label": "Vice: GTA 6 day one patch is already rolling out on PS5", "url": "https://www.vice.com/en/article/gta-6-day-one-patch-ps5-version-1002/", "note": "Nov 13, 2026. Version 1.002, ~1 GB PS5." },
+    { "label": "RockstarINTEL: New GTA VI update released", "url": "https://rockstarintel.com/new-gta-vi-update-released-and-heres-what-you-need-to-know/", "note": "Nov 13-14, 2026. 01.002.000, ~1 GB PS5 (Xbox 2.2 GB only here, left out)." }
+   ]
+  }
+ ]
+}

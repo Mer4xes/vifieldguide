@@ -146,6 +146,8 @@ sources:
 
 > **Note:** First pass. Contacts, jobs and payouts come from trusted guides and are not yet checked in our own game. Step-by-step guides for each strand follow as we write them.
 
+> **Watch out:** Most strands start with a phone call. Before update 01.002.002 (November 23) some calls never came through, so if a contact has gone quiet, install the update first. See [patch notes](/guides/patch-notes/).
+
 <h2 id="contacts">The contacts</h2>
 
 | Contact | What they deal in | Where you meet them | Trophy |

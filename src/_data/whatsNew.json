@@ -1,12 +1,20 @@
 [
  {
   "date": "2026-11-23",
+  "tag": "Update",
+  "title": "Patch 01.002.002 is out",
+  "text": "The first update since launch fixes crashes, missing phone calls, autosave and more. What changed, and what it means for you.",
+  "url": "/guides/patch-notes/",
+  "img": "/assets/img/misc/feat-phone.webp",
+  "cta": "Read the patch notes"
+ },
+ {
+  "date": "2026-11-23",
   "tag": "New guide",
   "title": "Every robbery, ticked off",
   "text": "All 35 jewelry stores and pawn shops, the 22 banks with their eight vaults and the seven payday loans, with payouts.",
   "url": "/guides/robberies/",
-  "img": "/assets/img/art/jl-robbery.webp",
-  "cta": "Open the tick lists"
+  "img": "/assets/img/art/jl-robbery.webp"
  },
  {
   "date": "2026-11-23",

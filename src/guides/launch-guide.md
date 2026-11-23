@@ -33,11 +33,11 @@ faq:
   - q: "Does GTA 6 have online multiplayer?"
     a: "Rockstar describes GTA VI as a single player experience. Nothing about an online mode has been announced."
   - q: "Is there a GTA 6 day one patch?"
-    a: "Two updates have already gone out to preloaded copies, reportedly about 1 GB on November 13 and about 600 MB on PS5 (1.6 GB on Xbox) from November 16. Rockstar has not published patch notes or confirmed a separate day one patch. Check for updates before the unlock."
+    a: "Two updates went out to preloaded copies before launch, reportedly about 1 GB on November 13 and about 600 MB on PS5 (1.6 GB on Xbox) from November 16, with no patch notes. The first update after launch, 01.002.002, came on November 23. Every update is on our [patch notes page](/guides/patch-notes/)."
   - q: "Does the boxed version have a disc?"
     a: "No. The box holds a download code, so you need the full download either way."
 spoilerFree: true
-updated: 2026-11-18
+updated: 2026-11-23
 facts:
   - { k: Release, v: "Thu, Nov 19, 2026", status: Confirmed }
   - { k: Unlocks, v: "Midnight, local time", status: Confirmed }
@@ -46,7 +46,7 @@ facts:
   - { k: Download, v: "Up to 212 GB", status: Confirmed }
   - { k: Standard Edition, v: "$79.99", status: Confirmed }
   - { k: Ultimate Edition, v: "$99.99", status: Confirmed }
-  - { k: Latest update, v: "1.002.001", status: Reported }
+  - { k: Latest update, v: "01.002.002", status: Reported }
   - { k: Reviews, v: "99 average", status: Reported }
 tldr:
   - "GTA 6 unlocks at **midnight local time on Thursday, November 19, 2026**, on PS5 and Xbox Series X|S. **New Zealand went first**, at 11:00 UTC on November 18."
@@ -162,7 +162,9 @@ Preloaded copies have already received two updates, according to press reports b
 
 On PS5 you can force a check: highlight the game, press Options and choose **Check for Update**. On Xbox, open **My games & apps** and look under **Updates**.
 
-> **Note:** Version numbers and sizes above are reported, not confirmed by Rockstar. We will replace them with official patch notes if Rockstar publishes any.
+- **November 23 (after launch):** version 01.002.002, the first patch since release, with fixes for crashes, phone calls, autosave and more. See [patch notes](/guides/patch-notes/).
+
+> **Note:** Version numbers and sizes above are reported, not confirmed by Rockstar. Every update and what it fixes is on the [patch notes page](/guides/patch-notes/).
 
 ## Editions
 
