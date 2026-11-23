@@ -8,13 +8,14 @@ description: "GTA 6 has more than 170 animal species, legendary animals to track
 summary: Leonida is the most alive map Rockstar has built. More than 170 animal species, rare and legendary animals to find, and weather that rolls across the map.
 glow: cyan
 image: /assets/img/full/wl-swamp.webp
-updated: 2026-11-17
+updated: 2026-11-23
 facts:
   - { k: Animal species, v: "170+", status: Confirmed }
   - { k: Bird types, v: "60+", status: Confirmed }
   - { k: Land mammals, v: "30+", status: Confirmed }
   - { k: Hurricanes, v: "Yes", status: Confirmed }
 tldr:
+  - "**The game is out.** The in-game animal log has **255 entries**. How to study animals, fish and hunt is in [fishing, hunting and the animal log](/guides/fishing-and-hunting/). This page keeps what Rockstar showed before launch."
   - "Leonida has **over 170 animal species**, including more than 60 birds and over 30 land mammals, plus fish and reptiles. Some have never appeared in a Rockstar game before."
   - "Like Red Dead Redemption 2, some animals are **Rare, Discoverable or Legendary**. Rockstar is keeping the legendary ones secret."
   - "Weather is **local**: one part of the map can be sunny while a storm hits the next. **Tropical storms and hurricanes** are in."

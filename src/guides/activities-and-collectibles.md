@@ -98,7 +98,7 @@ The game keeps an encyclopedia of the animals and vehicles you have logged. Neit
 - **Vehicles:** hold **D-Pad Up** to jump straight into WAiNK (quicker than going through the phone), look at a vehicle and scan it with **R1/RB**. Boats and aircraft count as well. The checklist wants **200 of 277** base models; the special Standout vehicles are a separate list and don't count toward it.
 - **Fastest way:** stand by a busy road and scan what drives past. Pickups are more common out in the countryside, supercars in Vice City.
 
-Both counts are in the pause menu under **Progress**, then **Vehicles** or **Animals**.
+Both counts are in the pause menu under **Progress**, then **Vehicles** or **Animals**. The animal log's eight groups are listed in [fishing, hunting and the animal log](/guides/fishing-and-hunting/#animal-log).
 
 <h2 id="drone-races">Top Fun drone races</h2>
 
@@ -176,6 +176,8 @@ Cars come into play in Chapter 2. [Moses](/walkthrough/moses/) gives Lucia the S
 **Little Boxes** needs all 8 garage properties bought. **On the Spot** needs 10 vehicles registered in the Scooter Bros app, the service that delivers your car to you. How personal vehicles, trackers and the impound work is in [cars](/guides/cars/). To tune or respray a car, see the [mod shops and Pay 'n' Sprays](/guides/shops/) by county.
 
 <h2 id="fishing-hunting-gyms">Fishing, hunting and gyms</h2>
+
+Lures, controls, Bret's hunts and every related challenge are in [fishing, hunting and the animal log](/guides/fishing-and-hunting/).
 
 - **Fishing:** 100 fish unlock the **Fisheye** cheat. **Baited My Tackle** is for beating Cal in [his fishing challenge](/guides/side-contacts/#cal).
 - **Hunting:** Bret runs a hunting business and hands out Target Decks. The 100% checklist needs all 15, and **Fair Game** is for hunting a unique animal for him.

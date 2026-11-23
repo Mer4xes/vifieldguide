@@ -49,7 +49,7 @@ updated: 2026-11-23
     <div class="wn">
       {%- for w in whatsNew.slice(0, 5) %}
       <a class="wn-card{% if loop.first %} wn-lead{% endif %}" href="{{ w.url }}">
-        <img src="{{ w.img }}" alt="" width="800" height="450"{% if not loop.first %} loading="lazy"{% endif %}>
+        <img src="{{ w.img }}" alt="" width="800" height="450"{% if w.pos %} style="object-position:{{ w.pos }}"{% endif %}{% if not loop.first %} loading="lazy"{% endif %}>
         <div class="wn-body">
           <p class="wn-meta"><span class="wn-tag">{{ w.tag }}</span><time datetime="{{ w.date }}">{{ w.date | niceDate }}</time></p>
           <h3>{{ w.title }}</h3>

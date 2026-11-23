@@ -1463,7 +1463,8 @@
      "h": "D4: fishing and hunting",
      "items": [
       {
-       "c": "survival:catch-of-the-day"
+       "c": "survival:catch-of-the-day",
+       "n": "Buy every lure type first. [Fishing, hunting and the animal log](/guides/fishing-and-hunting/#lures)."
       },
       {
        "k": "t-baited",
@@ -1475,7 +1476,8 @@
        "c": "survival:alligator-kills"
       },
       {
-       "c": "survival:hunting-spree"
+       "c": "survival:hunting-spree",
+       "n": "[Hunting with Bret](/guides/fishing-and-hunting/#hunting)."
       },
       {
        "k": "fr-decks",

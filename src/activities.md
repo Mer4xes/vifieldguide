@@ -8,7 +8,7 @@ description: "Every GTA 6 activity confirmed before launch: scuba diving, base j
 summary: Everything Jason and Lucia can do between jobs that Rockstar has shown or talked about so far. Some activities also build their relationship.
 glow: cyan
 image: /assets/img/full/act-boats.webp
-updated: 2026-11-18
+updated: 2026-11-23
 details: true
 filters:
   - { k: vice-city, l: Vice City }
@@ -33,7 +33,7 @@ sections:
       - { t: Airboating, img: /assets/img/misc/act-airboat.webp, full: /assets/img/full/act-airboat.webp, d: "Skim across the Grassrivers wetlands on a fan boat.", status: Confirmed, src: "Game Informer, Extended Look", region: [grassrivers], more: ["Airboats are the main way to get around the Grassrivers wetlands.", "Back Country Radio's reporter Mud Dog Mike broadcasts from one."], links: [{ l: "Alligators on the Wildlife page", u: "/wildlife/#alligators" }, { l: "Back Country Radio and the other stations", u: "/music/" }] }
       - { t: Kayaking, img: /assets/img/misc/act-kayak.webp, full: /assets/img/full/act-kayak.webp, d: "Paddle the rivers and coast. Ultimate Edition adds a Crest Kayak to Jason's safehouse.", status: Confirmed, src: "Game Informer, Rockstar", more: ["The Ultimate Edition puts a Crest Kayak at Jason's safehouse, together with an Army-fatigue Dinka Enduro motorbike."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
       - { t: Jet skiing and boating, img: /assets/img/misc/act-boats.webp, full: /assets/img/full/act-boats.webp, d: "Jet skis, speedboats and party boats around the Keys and Vice City's waterfront.", status: Confirmed, src: "Game Informer, screenshots", region: [leonida-keys, vice-city], more: ["The Ultimate Edition adds the Shitzu Squalo, a fishing boat moored at Washington Beach in Vice City, with a weapons crate on board."], links: [{ l: "Confirmed vehicles", u: "/vehicles/" }] }
-      - { t: Fishing, img: /assets/img/misc/act-fishing.webp, full: /assets/img/full/act-fishing.webp, d: "Bass fishing on a moss-draped lake up north, and sea fishing in Gambit Bay with the Ultimate Edition's Shitzu Squalo.", status: Confirmed, src: "Game Informer, Rockstar", region: [mount-kalaga], more: ["Bass fishing is part of the northern countryside Rockstar's level designers describe, alongside ATV trails, golf and mud parks.", "For sea fishing, the Ultimate Edition's Shitzu Squalo is a fishing boat."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
+      - { t: Fishing, img: /assets/img/misc/act-fishing.webp, full: /assets/img/full/act-fishing.webp, d: "Bass fishing on a moss-draped lake up north, and sea fishing in Gambit Bay with the Ultimate Edition's Shitzu Squalo.", status: Confirmed, src: "Game Informer, Rockstar", region: [mount-kalaga], more: ["Bass fishing is part of the northern countryside Rockstar's level designers describe, alongside ATV trails, golf and mud parks.", "For sea fishing, the Ultimate Edition's Shitzu Squalo is a fishing boat."], links: [{ l: "How fishing works: lures, controls, all 35 fish", u: "/guides/fishing-and-hunting/#fishing" }, { l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
   - title: On wheels
     kicker: Racing and off-road
     cards:
@@ -54,7 +54,7 @@ sections:
       - { t: Basketball, d: "Jason shoots hoops outside his house in the Extended Look.", status: Confirmed, src: "Extended Look" }
       - { t: Firing range, d: "Lucia runs a timed course at a gun range.", status: Confirmed, src: "Extended Look" }
       - { t: Farms and ranches, d: "Livestock farms, agriculture and high-end ranches fill the north of the map.", status: Confirmed, src: "Game Informer", region: [mount-kalaga] }
-      - { t: Hunting, d: "Hunt wildlife out in the wild and sell what you bring back for cash.", status: Reported, src: "Kotaku, TechRadar reviews", links: [{ l: "Wildlife and weather", u: "/wildlife/" }] }
+      - { t: Hunting, d: "Hunt wildlife out in the wild and sell what you bring back for cash.", status: Reported, src: "Kotaku, TechRadar reviews", links: [{ l: "How hunting works with Bret", u: "/guides/fishing-and-hunting/#hunting" }, { l: "Wildlife and weather", u: "/wildlife/" }] }
       - { t: Petting dogs, d: "Yes, you can pet the dog. You can also tell it off.", status: Confirmed, src: "Extended Look", links: [{ l: "Dogs on the Wildlife page", u: "/wildlife/#dogs" }] }
   - title: Ultimate Edition extras
     kicker: Only with the Ultimate Edition

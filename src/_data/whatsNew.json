@@ -1,12 +1,21 @@
 [
  {
   "date": "2026-11-23",
+  "tag": "New guide",
+  "title": "Fishing, hunting and the animal log",
+  "text": "Lures, controls, why every fish goes back, Bret's hunts, and how to study all 255 animals, with a tick list.",
+  "url": "/guides/fishing-and-hunting/",
+  "img": "/assets/img/misc/act-fishing.webp",
+  "pos": "24% 50%",
+  "cta": "Read the guide"
+ },
+ {
+  "date": "2026-11-23",
   "tag": "Update",
   "title": "Patch 01.002.002 is out",
   "text": "The first update since launch fixes crashes, missing phone calls, autosave and more. What changed, and what it means for you.",
   "url": "/guides/patch-notes/",
-  "img": "/assets/img/misc/feat-phone.webp",
-  "cta": "Read the patch notes"
+  "img": "/assets/img/misc/feat-phone.webp"
  },
  {
   "date": "2026-11-23",
@@ -55,13 +64,5 @@
   "text": "Open-world and collectible trophies now have their own page with the method, a tick box and related trophies.",
   "url": "/trophies/",
   "img": "/assets/img/art/jl-beach.webp"
- },
- {
-  "date": "2026-11-22",
-  "tag": "New guide",
-  "title": "Every tool, and what it opens",
-  "text": "All 12 pieces of equipment, from the Slim Jim to the Key Cloner, and the mission that gives you each one.",
-  "url": "/guides/equipment/",
-  "img": "/assets/img/art/jl-lock-and-load.webp"
  }
 ]

@@ -350,4 +350,4 @@ Bret's hunting business hands out Target Decks, hunts for specific animals. The 
 
 Jason meets him in Chapter 2: after [Coffee Break](/walkthrough/coffee-break/) Bret texts Jason about a deer hunt in Lummox County, *Veteran Hunted*. Go alone. It pays $500 and a unique hunting rifle, the Killtelligence SM-69, and opens more hunting jobs.
 
-See the [trophy list](/trophies/) for the full set, and [activities and collectibles](/guides/activities-and-collectibles/) for fences, robberies and everything else that counts toward 100%.
+How hunting, clean kills and selling to Bret work is in [fishing, hunting and the animal log](/guides/fishing-and-hunting/#hunting). See the [trophy list](/trophies/) for the full set, and [activities and collectibles](/guides/activities-and-collectibles/) for fences, robberies and everything else that counts toward 100%.
