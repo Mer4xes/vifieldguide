@@ -210,7 +210,8 @@
       }
     } else if (el.hasAttribute("data-filter")) {
       var group = el.closest("[data-filter-group]");
-      all("[data-filter]", group).forEach(function (chip) {
+      // a group can be split over several chip rows; one chip is on across all of them
+      all('[data-filter-group="' + group.getAttribute("data-filter-group") + '"] [data-filter]').forEach(function (chip) {
         var on = chip === el;
         chip.classList.toggle("is-on", on);
         chip.setAttribute("aria-pressed", on ? "true" : "false");

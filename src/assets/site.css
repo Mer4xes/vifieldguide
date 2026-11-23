@@ -1133,3 +1133,7 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 /* Robberies guide: three progress tiles */
 @media(min-width:720px){.chal-cats.rob-cats{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:520px){.chal-cats.rob-cats{grid-template-columns:1fr}.chal-list.rob-list .tr{grid-template-columns:22px minmax(0,1fr) auto}.chal-list.rob-list .side{display:flex}}
+
+/* Second chip row in a filter group (e.g. stunts by region) */
+.filters+.filters{margin-top:10px}
+.fchip-lab{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);align-self:center;margin-right:4px}

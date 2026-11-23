@@ -2,9 +2,9 @@
 title: Stunts
 headline: All 397 Stunts, and the Easiest Way to 300
 kicker: Activities
-seoTitle: "GTA 6 Stunts: All 40 Knife Flights, 25 Base Jumps and Stunt Jump Locations"
-description: "GTA 6 stunts explained: the four kinds (130 stunt jumps, 202 under the bridge, 40 knife flights, 25 base jumps), what Cunning Stunts and 100% need, how to track them, and a checklist of every knife flight and base jump."
-summary: The four kinds of stunt, how many of each there are, what the trophy and the 100% checklist want, and tick-box lists of every knife flight and base jump plus the stunt jumps mapped so far.
+seoTitle: "GTA 6 Stunts: All 130 Stunt Jumps, 40 Knife Flights and 25 Base Jumps"
+description: "GTA 6 stunts explained: the four kinds (130 stunt jumps, 202 under the bridge, 40 knife flights, 25 base jumps), what Cunning Stunts and 100% need, how to track them, and a checklist of all 130 stunt jumps, 40 knife flights and 25 base jumps by region."
+summary: The four kinds of stunt, how many of each there are, what the trophy and the 100% checklist want, and tick-box lists of all 130 stunt jumps, 40 knife flights and 25 base jumps.
 order: 4
 glow: cyan
 spoilerFree: true
@@ -14,10 +14,12 @@ facts:
   - { k: Cunning Stunts, v: "250", status: Confirmed }
   - { k: 100% checklist, v: "300", status: Reported }
   - { k: Spare, v: "97", status: Reported }
+  - { k: Under the bridge needed, v: "105+", status: Reported }
 tldr:
   - "**There are 397 stunts of four kinds:** 130 stunt jumps, 202 under the bridge, 40 knife flights and 25 base jumps."
   - "**Any mix counts.** Cunning Stunts pops at 250 and the 100% checklist stops at 300, so you can skip the 97 you like least."
   - "**Knife flights** are all in Vice City and Vice Beach: fly a plane on its side between two towers. **Base jumps** are parachute courses through rings, and finishing in any time counts."
+  - "**You can't skip under the bridge.** The other three kinds add up to 195, so you need at least 55 under the bridge stunts for the trophy and 105 for 100%."
   - "**Track them** under Progress › Activities › Stunts, or on the map under Exploration › Stunt Spots once you've found the first of a kind."
 faq:
   - q: "How many stunts are there in GTA 6?"
@@ -26,6 +28,10 @@ faq:
     a: "Cunning Stunts needs 250 and the 100% checklist needs 300. Any kind of stunt counts toward both, so you don't have to finish every category."
   - q: "How do you do a knife flight in GTA 6?"
     a: "Take any plane to one of the 40 spots in Vice City or Vice Beach and fly between the two towers with the plane rolled on its side, one wingtip pointing at the sky and the other at the ground."
+  - q: "Can you get 100% without under the bridge stunts?"
+    a: "No. Stunt jumps, knife flights and base jumps add up to 195 (130 + 40 + 25), so even with all of them you still need 55 under the bridge stunts for Cunning Stunts and 105 for the 300 on the 100% checklist."
+  - q: "How many stunt jumps are in each region?"
+    a: "130 in all: 17 in Mariana County, 55 in Vice-Dale County (which takes in Vice City), 13 in Leonard County, 29 in Kelly County and 16 in Lummox County. Every one is named in the checklist on this page."
   - q: "Do you need to beat the par time on base jumps?"
     a: "No. A base jump counts as done for the 100% checklist whatever your time. You jump with a parachute and steer it through the rings."
   - q: "Do you have to complete a stunt jump's challenge?"
@@ -35,7 +41,7 @@ faq:
 sources:
   - label: "PowerPyx: knife flights, base jumps and stunt jumps"
     url: "https://www.powerpyx.com/gta-6-all-knife-flight-locations/"
-    note: "Read Nov 22, 2026. Three location pages (knife flights modified Nov 21, base jumps Nov 21, stunt jumps Nov 22, still work in progress). Names, regions, counts, tracking and how each kind works. Full notes in src/_data/stunts.json. Trusted source."
+    note: "Read Nov 22, 2026. Three location pages (knife flights modified Nov 21, base jumps Nov 21, stunt jumps republished Nov 23, all 130 named). Names, regions, counts, tracking and how each kind works. Full notes in src/_data/stunts.json. Trusted source."
   - label: "Our trophy data"
     url: "/trophies/cunning-stunts/"
     note: "Cunning Stunts: Complete 250 Stunts (Confirmed)."
@@ -62,7 +68,7 @@ sources:
 | [{{ k.n }}](#{{ k.id }}) | {{ k.total }} | {{ k.how }} |
 {%- endfor %}
 
-> **Tip:** You need 300 of the 397, so pick the kind that suits you. All 40 knife flights are in Vice City and Vice Beach and 22 of the 25 base jumps are in Vice-Dale County, so with a plane and a parachute they add up quickly.
+> **Tip:** You need 300 of the 397, but not every mix works: stunt jumps, knife flights and base jumps together are only 195. Plan on at least **105 under the bridge** stunts for 100% (55 for the trophy) and drop up to 97 from whichever kind you like least. All 40 knife flights are in Vice City and Vice Beach and 22 of the 25 base jumps are in Vice-Dale County, so with a plane and a parachute they add up quickly, and you can fly under bridges on the same trips.
 
 <h2 id="tracking">Keeping count</h2>
 
@@ -85,6 +91,12 @@ sources:
 <button type="button" class="fchip" data-filter="{{ k.id }}" aria-pressed="false">{{ k.n }}</button>
 {%- endif %}{% endfor %}
 </div>
+<div class="filters" data-filter-group="stunt" role="group" aria-label="Filter stunts by region">
+<span class="fchip-lab">By region</span>
+{%- for r in [["mariana-county","Mariana County"],["vice-city","Vice City"],["vice-beach","Vice Beach"],["vice-dale-county","Vice-Dale County"],["leonard-county","Leonard County"],["kelly-county","Kelly County"],["lummox-county","Lummox County"]] %}
+<button type="button" class="fchip" data-filter="{{ r[0] }}" aria-pressed="false">{{ r[1] }}</button>
+{%- endfor %}
+</div>
 </div>
 
 <div data-filter-list="stunt">
@@ -97,7 +109,7 @@ sources:
 <p class="stunt-region">{{ g.n }}<span>{% if g.total and g.total != g.items.length %}{{ g.items.length }} of {{ g.total }}{% else %}{{ g.items.length }}{% endif %}</span></p>
 <div class="trophies chal-list gangop-list">
 {%- for i in g.items %}
-<label class="tr" data-track-row for="st-{{ k.id }}-{{ i.id }}" data-tags="{{ k.id }}" data-text="{{ (i.name + ' ' + g.n + ' ' + k.n) | lower }}"><input class="cb" type="checkbox" id="st-{{ k.id }}-{{ i.id }}" data-track="stunt:{{ k.id }}:{{ i.id }}"><div class="body"><div class="name">{{ i.name }}</div></div></label>
+<label class="tr" data-track-row for="st-{{ k.id }}-{{ i.id }}" data-tags="{{ k.id }} {{ g.id }}" data-text="{{ (i.name + ' ' + g.n + ' ' + k.n) | lower }}"><input class="cb" type="checkbox" id="st-{{ k.id }}-{{ i.id }}" data-track="stunt:{{ k.id }}:{{ i.id }}"><div class="body"><div class="name">{{ i.name }}</div></div></label>
 {%- endfor %}
 </div>
 </div>
@@ -107,7 +119,7 @@ sources:
 </div>
 <p class="nomatch" data-nomatch="stunt" hidden>Nothing left for that filter.</p>
 
-> **Note:** The other {% for k in stunts.kinds %}{% if k.id == 'jump' %}{{ k.total - k.mapped }}{% endif %}{% endfor %} stunt jumps and all 202 under the bridge spots aren't listed yet. We add them once they're confirmed. Ticks here are saved in this browser only.
+> **Note:** The 202 under the bridge spots aren't listed yet. We add them once they're confirmed. In the stunt jump list the city's jumps sit under Vice-Dale County, and Lake Leonida Lock is split between Leonard and Kelly County. Ticks here are saved in this browser only.
 
 <button class="reset" type="button" data-reset="stunt:">Reset the stunt lists</button>
 

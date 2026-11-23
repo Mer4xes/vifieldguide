@@ -14,7 +14,7 @@
   {
    "label": "PowerPyx: GTA 6 All Stunt Jump Locations",
    "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
-   "note": "Read Nov 23, 2026 (modified Nov 22 10:03 UTC, work in progress 82/130), this time as verbatim text to the end. Headings: Mariana County 17, Vice-Dale County 55, Leonard County 13, Kelly County 29, Lummox County 16 (= 130). Listed so far: 17 + 55 + 3 + 6 + 1 = 82, all now in our list. Names only, no text hints. Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Trusted source."
+   "note": "Read Nov 23, 2026 (republished Nov 23 04:13 UTC, no longer marked work in progress) as verbatim text to the end: all 130 named, Mariana County 17, Vice-Dale County 55, Leonard County 13, Kelly County 29, Lummox County 16. The 82 we already had all match. Names only, no text hints (locations are images). Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Trusted source."
   }
  ],
  "kinds": [
@@ -330,7 +330,6 @@
    "id": "jump",
    "n": "Stunt jumps",
    "total": 130,
-   "partial": true,
    "how": "Hit the ramp and land the jump. Each one also has a small challenge, shown when you hover its map icon.",
    "groups": [
     {
@@ -641,16 +640,56 @@
      "total": 13,
      "items": [
       {
+       "id": "kalaga-river",
+       "name": "Kalaga River"
+      },
+      {
        "id": "lake-bonner-construction-east",
        "name": "Lake Bonner Construction East"
+      },
+      {
+       "id": "lake-bonner-construction-west",
+       "name": "Lake Bonner Construction West"
+      },
+      {
+       "id": "lake-leonida-lock-east",
+       "name": "Lake Leonida Lock East"
       },
       {
        "id": "lake-leonida-lock-south",
        "name": "Lake Leonida Lock South"
       },
       {
+       "id": "richard-barebone-overpass-north",
+       "name": "Richard Barebone Overpass North"
+      },
+      {
        "id": "richard-barebone-overpass-south",
        "name": "Richard Barebone Overpass South"
+      },
+      {
+       "id": "the-free-state-of-henry-perculay",
+       "name": "The Free State of Henry Perculay"
+      },
+      {
+       "id": "thundergulf",
+       "name": "Thundergulf"
+      },
+      {
+       "id": "waste-transfer-services-lake",
+       "name": "Waste Transfer Services Lake"
+      },
+      {
+       "id": "waste-transfer-services-north",
+       "name": "Waste Transfer Services North"
+      },
+      {
+       "id": "waste-transfer-services-pond",
+       "name": "Waste Transfer Services Pond"
+      },
+      {
+       "id": "waste-transfer-services-south",
+       "name": "Waste Transfer Services South"
       }
      ]
     },
@@ -660,12 +699,96 @@
      "total": 29,
      "items": [
       {
+       "id": "abandoned-radio-station",
+       "name": "Abandoned Radio Station"
+      },
+      {
+       "id": "axiom-house",
+       "name": "Axiom House"
+      },
+      {
+       "id": "county-route-62-roadworks",
+       "name": "County Route 62 Roadworks"
+      },
+      {
+       "id": "draper-island",
+       "name": "Draper Island"
+      },
+      {
+       "id": "gellhorn-campsite",
+       "name": "Gellhorn Campsite"
+      },
+      {
+       "id": "gellhorn-drive-in-theatre",
+       "name": "Gellhorn Drive-In Theatre"
+      },
+      {
+       "id": "gellhorn-hilltop",
+       "name": "Gellhorn Hilltop"
+      },
+      {
        "id": "gellhorn-international-raceway",
        "name": "Gellhorn International Raceway"
       },
       {
+       "id": "gellhorn-pylons",
+       "name": "Gellhorn Pylons"
+      },
+      {
+       "id": "gellhorn-roadworks-east",
+       "name": "Gellhorn Roadworks East"
+      },
+      {
+       "id": "gellhorn-roadworks-west",
+       "name": "Gellhorn Roadworks West"
+      },
+      {
        "id": "howe-dairy",
        "name": "Howe Dairy"
+      },
+      {
+       "id": "kelly-river",
+       "name": "Kelly River"
+      },
+      {
+       "id": "lake-leonida-lock-northwest",
+       "name": "Lake Leonida Lock Northwest"
+      },
+      {
+       "id": "lake-leonida-lock-southwest",
+       "name": "Lake Leonida Lock Southwest"
+      },
+      {
+       "id": "lake-leonida-lock-west",
+       "name": "Lake Leonida Lock West"
+      },
+      {
+       "id": "manifest-canyon",
+       "name": "Manifest Canyon"
+      },
+      {
+       "id": "manifest-canyon-trail-east",
+       "name": "Manifest Canyon Trail East"
+      },
+      {
+       "id": "manifest-canyon-trail-west",
+       "name": "Manifest Canyon Trail West"
+      },
+      {
+       "id": "mud-club-pond",
+       "name": "Mud Club Pond"
+      },
+      {
+       "id": "north-kelly-county-ledge",
+       "name": "North Kelly County Ledge"
+      },
+      {
+       "id": "north-kelly-county-railroad",
+       "name": "North Kelly County Railroad"
+      },
+      {
+       "id": "port-gellhorn-center-of-praise-and-purpose",
+       "name": "Port Gellhorn Center of Praise & Purpose"
       },
       {
        "id": "prairie-court",
@@ -680,8 +803,16 @@
        "name": "South Ambrosia Broken Bridge"
       },
       {
+       "id": "south-ambrosia-water-treatment",
+       "name": "South Ambrosia Water Treatment"
+      },
+      {
        "id": "starlet-motel-construction",
        "name": "Starlet Motel Construction"
+      },
+      {
+       "id": "the-hog-house",
+       "name": "The Hog House"
       }
      ]
     },
@@ -691,13 +822,73 @@
      "total": 16,
      "items": [
       {
+       "id": "bonanza-harbor",
+       "name": "Bonanza Harbor"
+      },
+      {
+       "id": "dock-coal-company-freeway",
+       "name": "Dock Coal Company Freeway"
+      },
+      {
+       "id": "grayson-rail-tunnel",
+       "name": "Grayson Rail Tunnel"
+      },
+      {
+       "id": "kalaga-pond",
+       "name": "Kalaga Pond"
+      },
+      {
+       "id": "kalaga-ramp",
+       "name": "Kalaga Ramp"
+      },
+      {
+       "id": "kalaga-ridge",
+       "name": "Kalaga Ridge"
+      },
+      {
+       "id": "kalaga-roadside",
+       "name": "Kalaga Roadside"
+      },
+      {
+       "id": "macalister-gold-mine",
+       "name": "Macalister Gold Mine"
+      },
+      {
+       "id": "millport-harbor",
+       "name": "Millport Harbor"
+      },
+      {
+       "id": "moreau-broken-bridge",
+       "name": "Moreau Broken Bridge"
+      },
+      {
+       "id": "moreau-coal-mound",
+       "name": "Moreau Coal Mound"
+      },
+      {
+       "id": "mount-kalaga-lookout-point",
+       "name": "Mount Kalaga Lookout Point"
+      },
+      {
+       "id": "mount-kalaga-visitor-center",
+       "name": "Mount Kalaga Visitor Center"
+      },
+      {
        "id": "north-moreau-broken-bridge",
        "name": "North Moreau Broken Bridge"
+      },
+      {
+       "id": "us-route-628",
+       "name": "US Route 628"
+      },
+      {
+       "id": "west-kalaga-logging",
+       "name": "West Kalaga Logging"
       }
      ]
     }
    ],
-   "mapped": 82
+   "mapped": 130
   },
   {
    "id": "bridge",
