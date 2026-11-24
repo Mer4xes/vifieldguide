@@ -6,8 +6,8 @@
   crumbParent: { label: "Collectibles", url: "/collectibles/" },
   eleventyComputed: {
     title: (data) => data.t.name,
-    seoTitle: (data) => data.t.total ? `GTA 6 ${data.t.name}: All ${data.t.total} and What 100% Needs` : `GTA 6 ${data.t.name}: How They Work and What 100% Needs`,
-    description: (data) =>
+    seoTitle: (data) => data.t.seoTitle ? data.t.seoTitle : data.t.total ? `GTA 6 ${data.t.name}: All ${data.t.total} and What 100% Needs` : `GTA 6 ${data.t.name}: How They Work and What 100% Needs`,
+    description: (data) => data.t.description ||
       `${data.t.name} in GTA 6: ${data.t.total ? data.t.total + " in the game, " : ""}${data.t.need ? data.t.need + " for 100%" : ""}${data.t.trophy ? ", the " + data.t.trophy.replace(/ \(.*\)$/, "") + " trophy" : ""}. How to find them, with a counter that saves your progress.`,
     sample: (data) => !!data.t.sample,
     updated: (data) => data.t.updated,
@@ -22,7 +22,7 @@
     <div class="chips"><span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span></div>
     <dl class="meta">
       {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
-      {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% endif %}
+      {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% elif t.extra %}<div><dt>100% needs</dt><dd>None</dd></div>{% endif %}
       {%- if t.trophy %}<div class="wide"><dt>Trophy</dt><dd>{{ t.trophy }}</dd></div>{% endif %}
       {%- if t.items.length %}<div><dt>Mapped so far</dt><dd>{{ t.items.length }}</dd></div>{% endif %}
       {%- if t.reward %}<div class="wide"><dt>Reward</dt><dd>{{ t.reward }}</dd></div>{% endif %}

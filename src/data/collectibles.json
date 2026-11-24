@@ -1421,6 +1421,74 @@
       "updated": "2026-11-24"
     },
     {
+      "slug": "1010-murals",
+      "name": "1010 Murals",
+      "extra": true,
+      "seoTitle": "GTA 6 1010 Murals: All 5 Locations and the Southside Storage Reward",
+      "description": "All 5 1010 Murals in GTA 6: where to stand for each photo in Downtown, Rockridge, Crosstown and Ocean Beach, and how to open the Southside Storage garage with the 1010 Cheetah inside.",
+      "desc": "Five pieces of street art in Vice City and Ocean Beach. Photograph them all for a hidden garage and a car.",
+      "total": 5,
+      "unit": "murals",
+      "reward": "Southside Storage garage with the 1010 Cheetah inside (keypad code 1010)",
+      "how": [
+        "There are **5 murals**: two in Downtown, one each in Rockridge, Crosstown and Ocean Beach. Find the spot where the whole artwork is in view and take a photo of it with the phone's camera.",
+        "Three are seen from **rooftops**, so use the building's lift or land a helicopter on the roof.",
+        "They are **not part of the 100% checklist**, and they don't count as WAiNK scans.",
+        "After the first photo the set shows up under Progress, Collections, 1010 Murals.",
+        "**The reward:** once all five are done, a garage is marked at the south tip of Salton. It's [Southside Storage](/guides/garages/#southside-storage): enter **1010** on the keypad and the **1010 Cheetah** is inside. Register it to keep it, or sell it."
+      ],
+      "items": [
+        {
+          "id": "loophole-architecture",
+          "name": "Loophole Architecture",
+          "county": "vice-city",
+          "area": "Rockridge",
+          "where": "On the roof of the **Parlor Apartments**; take the lift up from the lobby. Photograph the round, striped building on the west side."
+        },
+        {
+          "id": "compliance-theater",
+          "name": "Compliance Theater",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "From the top of a Downtown tower: climb the antenna on its roof to the highest point, then photograph the painted rooftop far below. Landing a helicopter on the roof saves the trip up the building."
+        },
+        {
+          "id": "extraction-service",
+          "name": "Extraction Service",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "On a Downtown rooftop you reach by the lift in the lobby. From the corner of the roof, photograph the painted roof of the building next to it, to the west."
+        },
+        {
+          "id": "terms-and-conditions",
+          "name": "You Signed the Terms & Conditions",
+          "county": "vice-city",
+          "area": "Crosstown",
+          "where": "On the sidewalk by the Crosstown train station. The artwork is on a train: wait until the painted train is stopped at the station before you take the photo, or it won't count."
+        },
+        {
+          "id": "privatized-pains",
+          "name": "Privatized Pains Socialized Gains",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "On the sidewalk in northwest Ocean Beach. Photograph the mural painted on the public parking garage."
+        }
+      ],
+      "updated": "2026-11-24",
+      "sources": [
+        {
+          "label": "PowerPyx: GTA 6 All 1010 Mural Locations",
+          "url": "https://www.powerpyx.com/gta-6-all-1010-mural-locations/",
+          "note": "Published Nov 22, modified Nov 23 01:16 UTC, read Nov 24. Trusted. 5 murals (names, Vice City > Rockridge/Downtown/Crosstown, Vice Beach > Ocean Beach), take a picture at each, not needed for 100%, not WAiNK, Progress > Collections > 1010 Murals; reward Southside Storage at the south tip of Salton, keypad 1010, 1010 Cheetah inside, register or sell. Also on PowerPyx garages page."
+        },
+        {
+          "label": "Output Lag: GTA 6 1010 Murals",
+          "url": "https://outputlag.com/guides/gta-6-1010-murals-locations/",
+          "note": "Modified Nov 22 05:27, read Nov 24. Same 5 names and districts, phone Camera app, three rooftops, not WAiNK, not 100%. Building names for the two Downtown spots differ from PowerPyx (Piker Financial Center / New Quay Plaza vs Compliance Theater / Extraction Service buildings) and the Crosstown station is 'elevated' vs PowerPyx 'subway', so building and station names are left out. It had not found the reward yet."
+        }
+      ]
+    },
+    {
       "slug": "cocaine-flamingos",
       "name": "Cocaine Flamingos",
       "desc": "Pink flamingo ornaments with cocaine hidden inside. Shoot them.",

@@ -8,7 +8,7 @@ giver: Vinny
 difficulty: 3
 summary: The big Chapter 5 job. Lucia rigs a bridge while Jason and Rocco the sniffer dog clear a cargo ship and blow it up, then the crew go underwater into a coast guard base, take back a shipment and escape with Lucia riding the cargo net under a helicopter.
 description: "Operation Savage Glory walkthrough for GTA 6: plant the charges on the bridge pillar, clear the cargo ship from the helicopter, follow Rocco to every container, raise the bridge, swim in and unbolt the grate, open the shutter, defend the cargo and survive the net ride. $50,000 and the Snow Storm trophy."
-updated: 2026-11-23
+updated: 2026-11-24
 objectives:
   - Meet up with Vinny
   - Go to the bridge
@@ -38,6 +38,7 @@ objectives:
 rewards:
   - { label: Cash, value: "$50,000" }
   - { label: Property, value: "The Pegassi Residences penthouse" }
+  - { label: Garages, value: "Pegassi Residences (3 spaces) and NE 15th Street in Stockyard (2 spaces)" }
   - { label: Gear returned, value: "Weapons, kit, outfits" }
   - { label: Trophy, value: "Snow Storm" }
 faq:

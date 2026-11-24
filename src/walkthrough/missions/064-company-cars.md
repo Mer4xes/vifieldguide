@@ -9,7 +9,7 @@ difficulty: 1
 time: Short
 summary: Valentina has arranged new cars for Jason and Lucia. The concierge sends you to a high-end dealership, you pick one car for each of them, and Lucia races you back to the hotel.
 description: "Company Cars (Speak to the Concierge) walkthrough for GTA 6: talk to Santino at the Y Hotel, take the free hotel car service to Status Auto Imports, pick a car for Jason and one for Lucia (the Pfister Comet S2 has the best stats) and race Lucia back to the hotel."
-updated: 2026-11-20
+updated: 2026-11-24
 unlocks: "Two new cars, the Y Hotel car service"
 objectives:
   - Speak to the salesman
@@ -25,6 +25,7 @@ choices:
       - { pick: "A truck or an SUV for one of them", result: "A more mixed pair. Both cars are yours to keep, modify, upgrade or sell afterwards." }
 rewards:
   - { label: Vehicles, value: "A new car each for Jason and Lucia" }
+  - { label: Garage, value: "Thompson Court Garage in Ocean Beach (2 spaces)" }
   - { label: Next, value: "Lawyer Up" }
 faq:
   - q: "How do you start Company Cars?"

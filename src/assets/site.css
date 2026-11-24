@@ -1209,3 +1209,10 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 
 /* Collectible set page: set filter chips above the county lists (Nov 24) */
 [data-filter-list="col"]{margin-top:22px}
+
+/* Garages guide */
+.gar-lede{display:block;margin-top:6px;font:500 .78rem/1.3 "Space Mono",monospace;letter-spacing:.04em;text-transform:uppercase;color:var(--muted,#9a98b0)}
+.gar-table td small{display:block;opacity:.7;font-size:.8em}
+.gar-table td:nth-child(3),.gar-table td:nth-child(4),.gar-table th:nth-child(3),.gar-table th:nth-child(4){text-align:right;white-space:nowrap}
+.gar-table .gar-sum td{font-weight:700;border-top:1px solid rgba(255,255,255,.18)}
+.chal-list .tr.gar-bonus{grid-template-columns:minmax(0,1fr) auto;cursor:default}

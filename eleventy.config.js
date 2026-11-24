@@ -156,6 +156,7 @@ export default function (eleventyConfig) {
     }));
     return JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList", itemListElement: items }).replace(/</g, "\\u003c");
   });
+  eleventyConfig.addFilter("usd", (n) => "$" + Number(n || 0).toLocaleString("en-US"));
   eleventyConfig.addFilter("pad", (n, len = 2) => String(n ?? "").padStart(len, "0"));
   eleventyConfig.addFilter("isoDate", (d) => iso(d));
   eleventyConfig.addFilter("niceDate", (d) =>

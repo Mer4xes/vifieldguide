@@ -99,7 +99,7 @@ Randy at his dealership in Balsero buys stolen cars too, from [Car Service](/wal
 
 **Registering a car** makes it yours. Lucia's first one is in [Moses](/walkthrough/moses/): respray a car at his garage and register it in her name. From [Welcome to Vice City](/walkthrough/welcome-to-vice-city/) on you can drive a car into any **Pay 'n' Spray** and register it there; the fee depends on the make and model. At first only cars without a tracker can be registered; Standard Tracker cars follow after Welcome to Vice City, and Advanced Tracker cars later still.
 
-**Jason and Lucia each have one personal vehicle at a time.** To keep more cars in their names you need room to store them. Moses gives Lucia a free garage in Port Gellhorn after [Daily Driver](/walkthrough/daily-driver/), and the Vice City Real Estate app sells the rest ([garages](/guides/activities-and-collectibles/#garages)).
+**Jason and Lucia each have one personal vehicle at a time.** To keep more cars in their names you need room to store them. Moses gives Lucia a free garage in Port Gellhorn after [Daily Driver](/walkthrough/daily-driver/), and the Vice City Real Estate app sells eight more; the story and the [1010 Murals](/collectibles/1010-murals/) add others. Every one is on the [garage list](/guides/garages/).
 
 > **Tip:** The trunk of your personal vehicle is a mobile locker. Change outfits there to lower your appearance heat, swap the guns you carry, and drop stash bags or hunting spoils in it so you don't lose them.
 
@@ -131,5 +131,5 @@ No car at all? Leonida has [25 train stations](/guides/shops/#train-stations), a
 <h2 id="trophies">Trophies and challenges</h2>
 
 - **[On the Spot](/trophies/on-the-spot/):** register 10 vehicles in the Scooter Bros app. Each needs a free garage space.
-- **[Little Boxes](/trophies/little-boxes/):** buy all 8 garage properties, which also gives you the space for On the Spot.
+- **[Little Boxes](/trophies/little-boxes/):** buy all 8 garage properties ($160,000, [list and prices](/guides/garages/)), which also gives you the space for On the Spot.
 - **Carjacking Spree** and **Carjacking Pro** are car challenges: register or respray stolen cars from 10 makers in 30 minutes, and make $100,000 in a day selling stolen cars. See [challenges](/guides/challenges/#criminal).

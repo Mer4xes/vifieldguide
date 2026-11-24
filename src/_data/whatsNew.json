@@ -1,12 +1,20 @@
 [
  {
   "date": "2026-11-24",
+  "tag": "New guide",
+  "title": "Every garage, and a hidden one",
+  "text": "All 15 garages with prices, areas and spaces, a Little Boxes tracker, and the five 1010 Murals that open a locked garage.",
+  "url": "/guides/garages/",
+  "img": "/assets/img/ed/vvc-vapid-stanier-01.webp",
+  "cta": "See the garages"
+ },
+ {
+  "date": "2026-11-24",
   "tag": "Collectibles",
   "title": "87 WAiNK scan spots mapped",
   "text": "Most landmarks, every curiosity and nearly every sculpture, by county and area, with a set filter and ticks that save.",
   "url": "/collectibles/waink-locations/",
   "img": "/assets/img/region-vice-city.webp",
-  "cta": "Start scanning",
   "pos": "60% 50%"
  },
  {
@@ -57,13 +65,5 @@
   "text": "All 42 drone trials with par times, every shooting range gold and its gun, 40 races by venue and the seven pool opponents.",
   "url": "/guides/races-and-ranges/",
   "img": "/assets/img/misc/act-carmeet.webp"
- },
- {
-  "date": "2026-11-23",
-  "tag": "Walkthrough",
-  "title": "Every story mission is written up",
-  "text": "The walkthrough is complete: all 93 story missions step by step, from the first job to the final choice.",
-  "url": "/walkthrough/",
-  "img": "/assets/img/art/jl-rooftop.webp"
  }
 ]

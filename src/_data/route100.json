@@ -387,7 +387,7 @@
        "k": "t-boxes-start",
        "track": "trophy:little-boxes",
        "tag": "trophy",
-       "t": "**Little Boxes:** the garages are sold through the Vice City Real Estate app from here. There are 8 to buy, about $160,000 in all."
+       "t": "**Little Boxes:** the garages are sold through the Vice City Real Estate app from here. There are 8 to buy, $160,000 in all; the cheapest is Mitchell Auto Center ($4,000), just east of Port Gellhorn. [Every garage](/guides/garages/)."
       },
       {
        "m": 29
@@ -870,7 +870,7 @@
        "k": "t-boxes",
        "track": "trophy:little-boxes",
        "tag": "trophy",
-       "t": "**Little Boxes:** start buying the garage properties."
+       "t": "**Little Boxes:** start buying the garage properties. [Prices and areas](/guides/garages/#compare)."
       },
       {
        "k": "t-treat",
@@ -962,7 +962,8 @@
        "m": 63
       },
       {
-       "m": 64
+       "m": 64,
+       "n": "Afterwards the **Thompson Court Garage** in Ocean Beach is yours: two more spaces for [On the Spot](/trophies/on-the-spot/)."
       },
       {
        "m": 65
@@ -1106,7 +1107,7 @@
       {
        "k": "gear-back",
        "tag": "note",
-       "t": "**At the end of mission 91** you get back the weapons, equipment and outfits you had before this chapter, plus **$50,000** towards Abe's fee. Leaving the penthouse afterwards starts a short cutscene at Abe's office."
+       "t": "**At the end of mission 91** you get back the weapons, equipment and outfits you had before this chapter, plus **$50,000** towards Abe's fee, and two more garages (NE 15th Street and Pegassi Residences, five spaces between them). Leaving the penthouse afterwards starts a short cutscene at Abe's office."
       },
       {
        "k": "abe-fee-2",
@@ -1518,7 +1519,12 @@
       {
        "k": "fr-garages",
        "tag": "trophy",
-       "t": "**Little Boxes, On the Spot and Treat Yo Self:** finish all three."
+       "t": "**Little Boxes, On the Spot and Treat Yo Self:** finish all three. [Garages and their spaces](/guides/garages/)."
+      },
+      {
+       "k": "fr-1010",
+       "tag": "side",
+       "t": "**1010 Murals (not needed for 100%):** photograph the five murals in Vice City and Ocean Beach to open the Southside Storage garage and win the 1010 Cheetah. [1010 Murals](/collectibles/1010-murals/)."
       }
      ]
     },

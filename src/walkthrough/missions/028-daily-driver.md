@@ -6,7 +6,7 @@ region: port-gellhorn
 giver: Moses
 difficulty: 1
 summary: Moses has a buyer for a specific jeep. Find it in a guarded spot in Port Gellhorn and bring it back in one piece.
-updated: 2026-11-18
+updated: 2026-11-24
 objectives:
   - Search the marked area for the '82 Crawler
   - Deliver it to Moses
@@ -28,4 +28,4 @@ Go to the search area by the old Trader's Union building in Port Gellhorn. The c
 
 Drive back to Moses's garage. The base pay is **$1,250**, with **$500** extra if the jeep arrives without damage, so take it easy on the way.
 
-> **Note:** Soon after, Moses gives Lucia a garage in Port Gellhorn for free, and the Vice City Real Estate app opens so you can buy more garages. See [garages](/guides/activities-and-collectibles/#garages).
+> **Note:** Soon after, Moses gives Lucia a garage in Port Gellhorn for free, and the Vice City Real Estate app opens so you can buy more garages. See [every garage and its price](/guides/garages/).

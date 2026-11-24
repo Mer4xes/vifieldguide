@@ -65,7 +65,8 @@
 <section class="sec">
   <div class="wrap">
     <h2 class="sec-h">The sets</h2>
-    <p class="lede">{{ c.types.length }} collectible sets count toward 100%. Open one for how it works and what counts. Location lists are added once we have confirmed them.</p>
+    {%- set extras = c.types | selectattr("extra") %}
+    <p class="lede">{{ c.types.length - extras.length }} collectible sets count toward 100%{% if extras.length %}, and {% for t in extras %}<a href="/collectibles/{{ t.slug }}/">{{ t.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %} {{ "is" if extras.length == 1 else "are" }} there for a reward{% endif %}. Open one for how it works and what counts. Location lists are added once we have confirmed them.</p>
     <div class="ctypes">
       {%- for t in c.types %}
       <article class="ctype">
@@ -73,7 +74,7 @@
         <p class="desc">{{ t.desc }}</p>
         <dl class="cfacts">
           {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
-          {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% endif %}
+          {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% elif t.extra %}<div><dt>100% needs</dt><dd>None</dd></div>{% endif %}
         </dl>
         {%- if t.ctr %}{% set ctr = t.ctr %}{% set label = t.counterLabel %}{% include "partials/ctr.njk" %}{% endif %}
         <a class="more" href="/collectibles/{{ t.slug }}/">How to find them →</a>

@@ -173,7 +173,7 @@ Stolen goods go to fences; the [fences guide](/guides/fences/) has who buys what
 
 Cars come into play in Chapter 2. [Moses](/walkthrough/moses/) gives Lucia the Slim Jim and the **Scooter Bros** app and lets her register one car as her own. After [Daily Driver](/walkthrough/daily-driver/) Moses hands over a free garage in Port Gellhorn, and the **Vice City Real Estate** app opens for buying more.
 
-**Little Boxes** needs all 8 garage properties bought. **On the Spot** needs 10 vehicles registered in the Scooter Bros app, the service that delivers your car to you. How personal vehicles, trackers and the impound work is in [cars](/guides/cars/). To tune or respray a car, see the [mod shops and Pay 'n' Sprays](/guides/shops/) by county.
+**Little Boxes** needs all 8 garage properties bought, $160,000 in all; the [garage list](/guides/garages/) has every price, area and parking space. **On the Spot** needs 10 vehicles registered in the Scooter Bros app, the service that delivers your car to you. How personal vehicles, trackers and the impound work is in [cars](/guides/cars/). To tune or respray a car, see the [mod shops and Pay 'n' Sprays](/guides/shops/) by county.
 
 <h2 id="fishing-hunting-gyms">Fishing, hunting and gyms</h2>
 

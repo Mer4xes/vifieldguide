@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -707,9 +707,9 @@
     "open-world"
    ],
    "target": "8",
-   "how": "Buy all 8 garage properties.",
-   "link": "/guides/activities-and-collectibles/#garages",
-   "linkLabel": "Garages"
+   "how": "Buy all 8 garages sold in the Vice City Real Estate app, $160,000 in all. The free story garages don't count.",
+   "link": "/guides/garages/",
+   "linkLabel": "All garages and prices"
   },
   {
    "id": "on-the-spot",
@@ -720,9 +720,9 @@
     "open-world"
    ],
    "target": "10",
-   "how": "Register 10 vehicles in the Scooter Bros app.",
-   "link": "/guides/activities-and-collectibles/#garages",
-   "linkLabel": "Garages and Scooter Bros"
+   "how": "Register 10 vehicles in the Scooter Bros app. Each one needs a free garage space.",
+   "link": "/guides/garages/",
+   "linkLabel": "Garages and their spaces"
   }
  ],
  "howSources": [
