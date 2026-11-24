@@ -8,7 +8,7 @@ summary: Where the game drops you after the credits, what opens up, and a sensib
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-24
 facts:
   - { k: After the credits, v: "Back before Protective Custody", status: Reported }
   - { k: 100% checklist, v: "35 items", status: Reported }
@@ -72,4 +72,4 @@ This is only a suggestion; nothing after the story is locked to an order.
 
 ## Money for the clean-up
 
-You'll still want cash for cars, garages and gear. The [money guide](/guides/money/) has the repeatable earners, and the $250,000 cheat is there if you don't mind giving up trophies on that save.
+What you have in **Family Savings** comes through the ending; money held outside it is lost once the ending starts, so move it across before you start [Protective Custody](/walkthrough/protective-custody/#before-you-start). You'll still want cash for cars, garages and gear. The [money guide](/guides/money/) has the repeatable earners, and the $250,000 cheat is there if you don't mind giving up trophies on that save.

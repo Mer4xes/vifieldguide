@@ -121,7 +121,8 @@
       "group": "shop",
       "does": "Music and podcasts while you're on foot, not just in a car. Optional.",
       "use": "Buy them at an electronics store.",
-      "unlock": "Electronics stores"
+      "unlock": "Electronics stores",
+      "u": "/guides/shops/#electronics-stores"
     },
     {
       "id": "masks",

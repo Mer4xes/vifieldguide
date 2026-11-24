@@ -1114,6 +1114,11 @@
        "t": "**Have $150,000 ready for Abe's second fee.** After mission 91, Abe's office wants it through BuckMe, and mission 92 doesn't open until it's paid. [Mission 92](/walkthrough/protective-custody/#before-you-start)."
       },
       {
+       "k": "savings-final",
+       "tag": "note",
+       "t": "**Move your money into Family Savings** before you confirm mission 92. Money outside it is lost once the ending starts; Family Savings is kept for after the story. The savings target Abe's office texts you about isn't needed. [Money guide](/guides/money/#keep-it)."
+      },
+      {
        "k": "save-final",
        "tag": "save",
        "t": "**Manual save in a slot of its own** before mission 92. The last two missions run back to back, and there is no replay."
@@ -1452,7 +1457,8 @@
      "h": "D3: a travel day",
      "items": [
       {
-       "c": "exploration:rail-tour"
+       "c": "exploration:rail-tour",
+       "n": "Every county has a station: [all 25 train stations by county](/guides/shops/#train-stations)."
       },
       {
        "c": "exploration:road-trip",

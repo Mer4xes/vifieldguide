@@ -8,7 +8,7 @@ summary: All 12 tools, from the binoculars to the Key Cloner, with the mission t
 order: 3
 glow: pink
 spoilerFree: true
-updated: 2026-11-22
+updated: 2026-11-24
 facts:
   - { k: Equipment, v: "12", status: Reported }
   - { k: From the story, v: "10", status: Reported }

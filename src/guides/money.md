@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-24
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -38,6 +38,8 @@ faq:
     a: "Yes, the cash you carry is lost when you die or get arrested. Money in your BuckMe account is safe. Deposit at any ATM; the app's ATM Finder sets a waypoint to the nearest one."
   - q: "Do you need money for the story in GTA 6?"
     a: "Twice. Checking Out, the last mission of Chapter 2, won't start until you have $15,000. In Chapter 4, straight after Party Hard, Abe's law firm asks for $75,000, paid through BuckMe, before the story carries on."
+  - q: "Do you keep your money after the GTA 6 ending?"
+    a: "Only what is in Family Savings. Money you hold outside it is lost once the ending starts at Abe's office, so move everything you want to keep into Family Savings in BuckMe before you start Protective Custody. Family Savings is still there after the story."
   - q: "When can you rob banks in GTA 6?"
     a: "The 14 small banks open after the Chapter 3 story mission Credit Check, which also gets you the Dye Pack Jammer. The 8 large bank vaults open at the end of Chapter 4 with the optional mission That's Where The Money Is."
   - q: "How do you get the key cloner in GTA 6?"
@@ -46,6 +48,9 @@ sources:
   - label: "PowerPyx: Pay Abe's Fee"
     url: "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/"
     note: "Read Nov 22, 2026. Chapter 4, right after Party Hard, a text asks you to pay Abe Gonzalez $75,000 through BuckMe; mandatory to advance; completes instantly; links the money guide if you're short."
+  - label: "PowerPyx: Unfinished Business"
+    url: "https://www.powerpyx.com/gta-6-unfinished-business-walkthrough"
+    note: "Read Nov 24, 2026 (published Nov 24 06:41 UTC). Any money you hold is lost when you start the ending; Family Savings are safe and you get them back after the story; the law firm's hint at $2 million in Family Savings is not needed. Output Lag's Protective Custody page agrees (checking lost)."
   - label: "PowerPyx: Money Guide"
     url: "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/"
     note: "Nov 18, 2026, modified Nov 19. Methods by chapter: Ch1 not worth farming (money lost at chapter end), registers, gang ops, races; Moses after Moses, no-tracker cars, $1000+, ~2 min cooldown, not close to his garage, take cars from the main road in Port Gellhorn; Ch3 jewelry stores via Yasmani's Jewelry Jobs $10k-25k, several in a row, back-room safe; Standard Tracker cars at any Pay 'n' Spray ~$4,000+; Randy's Wish List 18 cars, random around Vice City, perfect condition $30k+, key cloner from Clonin' Keys, Makin' GS; end of Ch3 ~$120,000 from the story (left out: one source and close to a story spoiler); vaults up to $205k after That's Where The Money Is; Yasmani security-van tips $10,000 after 2 payday loans; instant 4 stars; fast motorcycle, then switch vehicles."
@@ -81,6 +86,7 @@ The first rule matters more than any method: **cash in your pocket is not safe.*
 - **End of Chapter 2:** [Checking Out](/walkthrough/checking-out/#before-you-start) won't start until you have **$15,000**, and it should be in BuckMe rather than your pocket.
 - **Chapter 4:** straight after [Party Hard](/walkthrough/party-hard/#step-14), Abe's law firm asks for **$75,000** (Pay Abe's Fee). You pay it through BuckMe, and the story waits until you do.
 - **Chapter 5:** Abe's office asks again, this time for **$150,000** through BuckMe. The [second-to-last mission](/walkthrough/protective-custody/#before-you-start) doesn't open until it's paid. [Mission 91](/walkthrough/operation-savage-glory/) pays **$50,000** towards it.
+- **Before the ending:** money you hold outside Family Savings is lost once the ending starts at Abe's office, and Family Savings is still there after the story. Move everything you want to keep into Family Savings before you confirm [Protective Custody](/walkthrough/protective-custody/#before-you-start). The savings target Abe's office hints at is not needed.
 
 <h2 id="by-chapter">Money by chapter</h2>
 

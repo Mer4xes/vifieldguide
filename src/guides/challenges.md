@@ -8,7 +8,7 @@ summary: All 80 challenges in eight groups, with what each one asks for. Tick th
 order: 3
 glow: cyan
 spoilerFree: true
-updated: 2026-11-19
+updated: 2026-11-24
 facts:
   - { k: Challenges, v: "80", status: Reported }
   - { k: Categories, v: "8 × 10", status: Reported }

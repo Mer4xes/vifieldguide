@@ -126,6 +126,8 @@ You don't have to register a car to hold on to it, but you have to look after it
 
 Every vehicle runs on gas. A fuel gauge shows above the minimap. When it runs low it turns yellow and the map marks the gas stations nearby. A car that runs dry simply stops, so top up before a long chase or a getaway. There are [57 gas stations across Leonida](/guides/shops/#gas-stations), 26 of them in and around Vice City.
 
+No car at all? Leonida has [25 train stations](/guides/shops/#train-stations), at least one in every county. Wait on the platform and ride the train instead.
+
 <h2 id="trophies">Trophies and challenges</h2>
 
 - **[On the Spot](/trophies/on-the-spot/):** register 10 vehicles in the Scooter Bros app. Each needs a free garage space.

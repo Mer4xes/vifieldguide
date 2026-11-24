@@ -2,9 +2,9 @@
 title: Shop locations
 headline: Guns, Clothes, Mods and Snacks
 kicker: Shops
-seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Shoes, Salons, Tattoos, Gas Stations and More"
-description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, gas station, convenience store, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
-summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 72 convenience stores, 57 gas stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
+seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Salons, Tattoos, Electronics, Gas and Train Stations"
+description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, electronics store, gas station, train station, convenience store, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
+summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 15 electronics stores, 72 convenience stores, 57 gas stations, 25 train stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
 order: 4
 glow: cyan
 spoilerFree: true
@@ -15,8 +15,10 @@ facts:
   - { k: Footwear stores, v: "17", status: Reported }
   - { k: Hair and beauty salons, v: "18", status: Reported }
   - { k: Tattoo studios, v: "11", status: Reported }
+  - { k: Electronics stores, v: "15", status: Reported }
   - { k: Convenience stores, v: "72", status: Reported }
   - { k: Gas stations, v: "57", status: Reported }
+  - { k: Train stations, v: "25", status: Reported }
   - { k: Mod shops, v: "14", status: Reported }
   - { k: Pay 'n' Spray, v: "19", status: Reported }
   - { k: Car washes, v: "6", status: Reported }
@@ -28,6 +30,8 @@ tldr:
   - "**Clothing stores come in five types**, and shops of the same brand stock the same clothes, so one visit per brand is enough. Shoes are sold separately, at 17 footwear stores and in many clothing stores."
   - "**Every salon has the standard hairstyles; some add signature styles of their own.** At beauty salons Lucia can also do her nails and makeup. Each of the 11 tattoo studios has its own designs."
   - "**Every vehicle burns fuel.** When the tank runs low the gauge turns yellow and nearby gas stations show up on the map. Run it dry and the car stops."
+  - "**Headphones and phone cases come from electronics stores.** All but two of the 15 are in and around Vice City."
+  - "**Trains run in all five counties**, from 25 stations. Wait on the platform for one to pull in; it's also how you do the Rail Tour challenge."
   - "**Convenience stores are where you stock up on Zombix**, the healing item, plus pet food and groceries for the fridge at home."
 faq:
   - q: "How many Ammu-Nation stores are there in GTA 6?"
@@ -52,12 +56,18 @@ faq:
     a: "At convenience stores. There are 72 across Leonida, from 247 and Xero Food Mart branches to one-off country stores, so there is nearly always one close by. They also sell pet food and groceries."
   - q: "Which shops count for the Well Dressed and Grocery Shopper challenges?"
     a: "Well Dressed wants more than $5,000 spent on clothes, so any clothing store counts. Grocery Shopper wants more than $250 spent at convenience or liquor stores in one day. Well Groomed wants more than $1,000 spent at barbers, hairdressers or salons."
+  - q: "Where do you buy headphones in GTA 6?"
+    a: "At an electronics store. There are 15: thirteen in and around Vice City, Empowered Electronics in Leonard County and Game Horde in Kelly County. They also sell phone cases to customise your phone."
+  - q: "Can you ride the train in GTA 6?"
+    a: "Yes. There are 25 train stations: two in Mariana County (Amloco Railway and Capri), 17 in and around Vice City, Waning Sands in Leonard County, Ambrosia, Port Gellhorn and Draper Island in Kelly County, and Grayson and Millport in Lummox County. Go to a station and wait for the train to arrive."
+  - q: "How do you do the Rail Tour challenge in GTA 6?"
+    a: "Rail Tour wants a train ride of at least a mile in each of the five counties on the same in-game day, without skipping the ride. Every county has at least one station, so plan the day around the list on this page."
   - q: "Do you need car washes in GTA 6?"
     a: "No, they're optional. All six are in Vice City, and repairing a car at a Pay 'n' Spray or mod shop cleans it anyway."
 sources:
   - label: "PowerPyx: shop location pages"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
-    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo and gas station pages Nov 24. Full list in src/_data/shops.json. Trusted source."
+    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo, gas station, electronics and train station pages Nov 24. Full list in src/_data/shops.json. Trusted source."
   - label: "Our own data"
     url: "/walkthrough/welcome-to-vice-city/"
     note: "Buying and registering cars at Pay 'n' Spray from Welcome to Vice City; Standard Tracker cars sell there in Chapter 3 (money and fences guides); challenge names from challenges.json; Ultimate Edition shops from editionItems.json (Rockstar)."
@@ -81,8 +91,10 @@ sources:
 <div class="shop-what-c"><h3>Footwear stores</h3><p>Shoes only, from three chains (Callus, Podium Sports and WHS) plus Flip Flop House in Mariana County. Look for the orange shoe icon; hovering over it shows the brand. Plenty of clothing stores carry shoes too.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Dressed</a></p></div>
 <div class="shop-what-c"><h3>Hair and beauty salons</h3><p>Barbers, unisex salons and beauty salons, marked with orange scissors. Standard hairstyles are on offer everywhere, and some salons have signature styles you won't find elsewhere. Beauty salons also do nails and makeup for Lucia.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Groomed</a></p></div>
 <div class="shop-what-c"><h3>Tattoo studios</h3><p>Each studio works in its own style, from American Traditional to stick and poke, and has its own designs for Jason and Lucia. The orange heart icon marks them. Tattoos are among the priciest things you can buy.</p><p class="shop-ch">Trophy: <a href="/trophies/treat-yo-self/">Treat Yo Self</a> counts spending at every shop</p></div>
+<div class="shop-what-c"><h3>Electronics stores</h3><p>Accessories: phone cases to customise your phone, and headphones that Jason and Lucia can wear. The orange headphone icon marks them, and the map filter counts them under Style.</p><p class="shop-ch">See also: <a href="/guides/equipment/">equipment</a></p></div>
 <div class="shop-what-c"><h3>Gas stations</h3><p>Every vehicle uses fuel. The gauge sits above the minimap; when it turns yellow the map marks the nearest stations, and an empty tank leaves you stranded. Blue petrol icons, and a counter under Vehicles in the map filter.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Road Trip</a> lets you leave the car only to refuel</p></div>
 <div class="shop-what-c"><h3>Convenience stores</h3><p>Zombix to heal, pet food for the animals you meet, and groceries for the fridge at home. Look for the blue shopping bag icon, or filter the map under Food &amp; Drink.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Grocery Shopper</a></p></div>
+<div class="shop-what-c"><h3>Train stations</h3><p>Ride the train around the map, much like taking the bus: go to a station and wait for the train to come in. The blue train icon marks them, with a counter under Vehicles in the map filter. Every county has at least one.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Rail Tour</a> wants a mile by train in all five counties in one day</p></div>
 <div class="shop-what-c"><h3>Car washes</h3><p>Purely cosmetic and optional. All six are in Vice City, and any repair cleans the car as well, so you never have to go out of your way for one.</p></div>
 </div>
 
@@ -115,7 +127,7 @@ sources:
 
 > **Tip:** Type the area you're in (Ocean Beach, Capri, Waning Sands...) into the search box above to see every shop there at once: guns, clothes, shoes, snacks, fuel and repairs.
 
-> **Tip:** The map filter keeps a list and a counter of the shops you've found: clothes, shoes, hair and tattoos sit under Style (the T-shirt icon), gas stations under Vehicles. Shops show up on their own once that part of the map is uncovered, so exploring fills the list for you.
+> **Tip:** The map filter keeps a list and a counter of the shops you've found: clothes, shoes, hair, tattoos and electronics sit under Style (the T-shirt icon), gas and train stations under Vehicles. Shops show up on their own once that part of the map is uncovered, so exploring fills the list for you.
 
 > **Tip:** Ammu-Nation's Expanded stores are the ones to visit for heavy weapons: Woodhatch is the only one in Mariana County, and five more are in and around Vice City.
 

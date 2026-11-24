@@ -1980,6 +1980,120 @@
    ]
   },
   {
+   "id": "electronics-stores",
+   "n": "Electronics stores",
+   "short": "Electronics store",
+   "items": [
+    {
+     "n": 1,
+     "id": "zekes-gadgets",
+     "name": "Zekes Gadgets",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 2,
+     "id": "tech-point-tequesta",
+     "name": "Tech Point",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale",
+     "area": "Tequesta"
+    },
+    {
+     "n": 3,
+     "id": "electronick",
+     "name": "Electronick",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "simply-sound",
+     "name": "Simply Sound",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "super-friki-inc",
+     "name": "Super Friki Inc.",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "cell-phone-zone",
+     "name": "Cell Phone Zone",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "electric-boulevard",
+     "name": "Electric Boulevard",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "best-priced-electrical-supplies",
+     "name": "Best Priced Electrical Supplies",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "tech-point-ocean-beach",
+     "name": "Tech Point",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale",
+     "area": "Ocean Beach"
+    },
+    {
+     "n": 10,
+     "id": "beta-audio-and-electronics",
+     "name": "Beta Audio and Electronics",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "easy-electronics",
+     "name": "Easy Electronics",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "acpc",
+     "name": "ACPC",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "aural-expert",
+     "name": "Aural Expert",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "empowered-electronics",
+     "name": "Empowered Electronics",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 15,
+     "id": "game-horde",
+     "name": "Game Horde",
+     "county": "kelly",
+     "cn": "Kelly County"
+    }
+   ]
+  },
+  {
    "id": "convenience-stores",
    "n": "Convenience stores",
    "short": "Convenience store",
@@ -2533,6 +2647,188 @@
      "cn": "Lummox County"
     }
    ]
+  },
+  {
+   "id": "train-stations",
+   "n": "Train stations",
+   "short": "Train station",
+   "items": [
+    {
+     "n": 1,
+     "id": "amloco-railway",
+     "name": "Amloco Railway",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "capri",
+     "name": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "mule-airport-line",
+     "name": "Mule Airport Line",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "mule-city-line",
+     "name": "Mule City Line",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "tequesta",
+     "name": "Tequesta",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "mule-city-line-2",
+     "name": "Mule City Line 2",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "downtown",
+     "name": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "shoreline-park",
+     "name": "Shoreline Park",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "downtown-north",
+     "name": "Downtown North",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "central-line",
+     "name": "Central Line",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "mule-city-line-3",
+     "name": "Mule City Line 3",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "courthouse",
+     "name": "Courthouse",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "vice-city-arts-center",
+     "name": "Vice City Arts Center",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "crosstown",
+     "name": "Crosstown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "central-line-15",
+     "name": "Central Line",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "vice-city-airport-village",
+     "name": "Vice City Airport Village",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 17,
+     "id": "central-line-2",
+     "name": "Central Line 2",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 18,
+     "id": "vice-city-central",
+     "name": "Vice City Central",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 19,
+     "id": "vice-city-airport-central",
+     "name": "Vice City Airport Central",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 20,
+     "id": "waning-sands",
+     "name": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 21,
+     "id": "ambrosia",
+     "name": "Ambrosia",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 22,
+     "id": "port-gellhorn",
+     "name": "Port Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 23,
+     "id": "draper-island",
+     "name": "Draper Island",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 24,
+     "id": "grayson",
+     "name": "Grayson",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 25,
+     "id": "millport",
+     "name": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    }
+   ]
   }
  ],
  "sources": [
@@ -2585,6 +2881,16 @@
    "label": "PowerPyx: GTA 6 All Gas Stations Locations",
    "url": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
    "note": "Read Nov 24, 2026 via ?p=371139 (published Nov 18). 57 stations (7 Mariana, 26 Vice-Dale, 12 Kelly, 6 Leonard, 6 Lummox); brand and area from names. Every vehicle uses fuel; gauge above the minimap, yellow at low fuel with nearby stations marked; an empty tank stops the vehicle. Blue petrol icon; map filter Vehicles > Gas Stations. Ron Gas Balsero is listed twice. \"West Kallaga\" typo written as Kalaga, as everywhere else. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Electronics Stores Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371148 (published/modified Nov 18). 15 stores (13 Vice-Dale, 1 Leonard, 1 Kelly), county headings only; area from the two \"Tech Point – Area\" names. Sell accessories, phone cases to customize the phone and headphones you can wear. Orange headphone icon; map filter Style > Electronics with a found counter. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Train Stations Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371142 (published/modified Nov 18). 25 stations (2 Mariana, 17 Vice-Dale, 1 Leonard, 3 Kelly, 2 Lummox), county headings only; Central Line listed twice (#10, #15). Ride the train around the map like a bus; you wait for the train to arrive. Blue train icon; map filter Vehicles > Train Stations with a found counter. Trusted source."
   }
  ]
 }

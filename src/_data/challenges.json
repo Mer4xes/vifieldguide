@@ -161,7 +161,8 @@
     {
      "id": "rail-tour",
      "name": "Rail Tour",
-     "req": "In one day, ride a train for 1 mile in each of the 5 counties, without skipping the ride."
+     "req": "In one day, ride a train for 1 mile in each of the 5 counties, without skipping the ride.",
+     "u": "/guides/shops/#train-stations"
     },
     {
      "id": "underwater-treasures",
