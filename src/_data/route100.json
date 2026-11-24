@@ -856,7 +856,8 @@
        "c": "shopping:custom-ride"
       },
       {
-       "c": "shopping:well-groomed"
+       "c": "shopping:well-groomed",
+       "n": "[All 18 hair and beauty salons by county](/guides/shops/#salons)."
       },
       {
        "c": "shopping:well-dressed",
@@ -1454,7 +1455,8 @@
        "c": "exploration:rail-tour"
       },
       {
-       "c": "exploration:road-trip"
+       "c": "exploration:road-trip",
+       "n": "Refuel stops only: [all 57 gas stations by county](/guides/shops/#gas-stations)."
       },
       {
        "c": "criminal:cop-tow"
@@ -1495,7 +1497,7 @@
      "items": [
       {
        "c": "shopping:heavily-armed",
-       "n": "[Every Ammu-Nation, mod shop and clothing store by county](/guides/shops/)."
+       "n": "[Every gun store, mod shop, clothing and shoe store, salon, tattoo studio and gas station by county](/guides/shops/)."
       },
       {
        "k": "fr-weapons",

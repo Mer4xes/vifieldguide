@@ -8,7 +8,7 @@ summary: Getting into a car, what its tracker means, how to make it yours, and h
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-24
 facts:
   - { k: Personal vehicle, v: "One each for Jason and Lucia", status: Reported }
   - { k: First registered car, v: "Chapter 2, Moses", status: Reported }
@@ -45,6 +45,9 @@ sources:
   - label: "GamesRadar: How to steal cars in GTA 6"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-steal-cars/"
     note: "Aug 28, 2026 (pre-launch, Extended Look). Phone app shows what a car needs to steal, its resale value and its registration cost; carjacking. Speculation on the page not used."
+  - label: "PowerPyx: GTA 6 All Gas Stations Locations"
+    url: "https://www.powerpyx.com/gta-6-all-gas-stations-locations/"
+    note: "Read Nov 24, 2026 via ?p=371139. Trusted. All vehicles use gas; gauge above the minimap, yellow when low with nearby stations marked; an empty vehicle stops working; 57 stations (26 Vice-Dale County). Full list in shops.json."
   - label: "Our own pages"
     url: "/walkthrough/moses/"
     note: "Moses (Slim Jim, Scooter Bros, first registered car, one slot until a garage), Daily Driver (free garage, Vice City Real Estate), Welcome to Vice City (Pay 'n' Spray registers Standard Tracker cars), Steal the Zorrusso for Randy (Key Cloner), fences and money guides, challenges.json, trophies.json."
@@ -118,6 +121,10 @@ The map index shows where an impounded car is, under **Personal**. Scooter Bros 
 <h2 id="keep-stolen">Keeping a stolen car</h2>
 
 You don't have to register a car to hold on to it, but you have to look after it. The map only remembers the last unowned car you left. Park it in a space outside a safehouse, where there is one, or put it in one of your garages. A stolen car that gets destroyed can't be recovered.
+
+<h2 id="fuel">Fuel</h2>
+
+Every vehicle runs on gas. A fuel gauge shows above the minimap. When it runs low it turns yellow and the map marks the gas stations nearby. A car that runs dry simply stops, so top up before a long chase or a getaway. There are [57 gas stations across Leonida](/guides/shops/#gas-stations), 26 of them in and around Vice City.
 
 <h2 id="trophies">Trophies and challenges</h2>
 

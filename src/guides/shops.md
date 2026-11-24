@@ -2,9 +2,9 @@
 title: Shop locations
 headline: Guns, Clothes, Mods and Snacks
 kicker: Shops
-seoTitle: "GTA 6 Shop Locations: All Ammu-Nation, Clothing Stores, Convenience Stores, Mod Shops and Pay 'n' Spray"
-description: "Where to find every Ammu-Nation, clothing store, convenience store, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
-summary: All 24 gun stores, 67 clothing stores, 72 convenience stores, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
+seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Shoes, Salons, Tattoos, Gas Stations and More"
+description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, gas station, convenience store, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
+summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 72 convenience stores, 57 gas stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
 order: 4
 glow: cyan
 spoilerFree: true
@@ -12,7 +12,11 @@ updated: 2026-11-24
 facts:
   - { k: Ammu-Nation, v: "24", status: Reported }
   - { k: Clothing stores, v: "67", status: Reported }
+  - { k: Footwear stores, v: "17", status: Reported }
+  - { k: Hair and beauty salons, v: "18", status: Reported }
+  - { k: Tattoo studios, v: "11", status: Reported }
   - { k: Convenience stores, v: "72", status: Reported }
+  - { k: Gas stations, v: "57", status: Reported }
   - { k: Mod shops, v: "14", status: Reported }
   - { k: Pay 'n' Spray, v: "19", status: Reported }
   - { k: Car washes, v: "6", status: Reported }
@@ -21,7 +25,9 @@ tldr:
   - "**Every gun store sells a weapon variant you can't get anywhere else.** The map icon tells you how big the store is; the *Expanded* ones carry the heavy weapons."
   - "**Each mod shop works on one kind of vehicle**, from lowriders to dirt bikes. Two of them are Ultimate Edition only."
   - "**Pay 'n' Spray fixes the car and changes its colour**, so the police stop recognising it. From Chapter 3 you can also buy and register cars there."
-  - "**Clothing stores come in five types**, and shops of the same brand stock the same clothes, so one visit per brand is enough. Shoes are sold separately."
+  - "**Clothing stores come in five types**, and shops of the same brand stock the same clothes, so one visit per brand is enough. Shoes are sold separately, at 17 footwear stores and in many clothing stores."
+  - "**Every salon has the standard hairstyles; some add signature styles of their own.** At beauty salons Lucia can also do her nails and makeup. Each of the 11 tattoo studios has its own designs."
+  - "**Every vehicle burns fuel.** When the tank runs low the gauge turns yellow and nearby gas stations show up on the map. Run it dry and the car stops."
   - "**Convenience stores are where you stock up on Zombix**, the healing item, plus pet food and groceries for the fridge at home."
 faq:
   - q: "How many Ammu-Nation stores are there in GTA 6?"
@@ -34,22 +40,30 @@ faq:
     a: "There are 19. Mariana County has four (Southwind, Key Lento, Watson Bay and Grassrivers), Vice City and Vice-Dale County ten, Leonard County one in Waning Sands, Kelly County two (Port Gellhorn and Ambrosia) and Lummox County two (Grayson and Millport)."
   - q: "How many clothing stores are there in GTA 6?"
     a: "67, in five types: 17 casual and streetwear, 11 sportswear, 10 formal, 24 souvenir and swimwear shops and 5 thrift stores. Most are in and around Vice City; Mariana County has eight, Leonard County four and Kelly County one; Lummox County has none. Stock 305 is only in the Ultimate Edition."
+  - q: "How many tattoo shops are there in GTA 6?"
+    a: "11 tattoo studios, each with its own style and designs: one in Mariana County (The Inked Mermaid), eight in and around Vice City and two in Kelly County. Electric Fang Tattoo is only in the Ultimate Edition. Leonard and Lummox County have none."
+  - q: "Where can you change your hairstyle in GTA 6?"
+    a: "At any of the 18 hair and beauty salons: barbers, unisex salons and beauty salons. Mariana County has three, Vice City and Vice-Dale twelve, Leonard County one and Kelly County two. All of them have the standard hairstyles; some add signature styles. Sara's Unisex Salon is Ultimate Edition only."
+  - q: "Do cars need gas in GTA 6?"
+    a: "Yes, every vehicle uses fuel. The gauge sits above the minimap, turns yellow when you're low and the map then marks nearby gas stations. There are 57 stations across Leonida, so you're rarely far from one."
+  - q: "Where are the shoe stores in GTA 6?"
+    a: "There are 17 footwear stores, from the Callus, Podium Sports and WHS chains plus Flip Flop House in Mariana County. Most are in Vice City (Downtown, Little Cuba, Ocean Beach and around). Many clothing stores sell shoes as well."
   - q: "Where do you buy Zombix in GTA 6?"
     a: "At convenience stores. There are 72 across Leonida, from 247 and Xero Food Mart branches to one-off country stores, so there is nearly always one close by. They also sell pet food and groceries."
   - q: "Which shops count for the Well Dressed and Grocery Shopper challenges?"
-    a: "Well Dressed wants more than $5,000 spent on clothes, so any clothing store counts. Grocery Shopper wants more than $250 spent at convenience or liquor stores in one day."
+    a: "Well Dressed wants more than $5,000 spent on clothes, so any clothing store counts. Grocery Shopper wants more than $250 spent at convenience or liquor stores in one day. Well Groomed wants more than $1,000 spent at barbers, hairdressers or salons."
   - q: "Do you need car washes in GTA 6?"
     a: "No, they're optional. All six are in Vice City, and repairing a car at a Pay 'n' Spray or mod shop cleans it anyway."
 sources:
   - label: "PowerPyx: shop location pages"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
-    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing and convenience store pages Nov 24. Full list in src/_data/shops.json. Trusted source."
+    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo and gas station pages Nov 24. Full list in src/_data/shops.json. Trusted source."
   - label: "Our own data"
     url: "/walkthrough/welcome-to-vice-city/"
     note: "Buying and registering cars at Pay 'n' Spray from Welcome to Vice City; Standard Tracker cars sell there in Chapter 3 (money and fences guides); challenge names from challenges.json; Ultimate Edition shops from editionItems.json (Rockstar)."
 ---
 
-> **Note:** First pass. Names, counties and shop types come from a trusted guide; the wording is ours. We only show an area where the source gives one, so most gun stores, mod shops, souvenir shops and thrift stores are listed by county for now. Nothing here is checked in our own game yet.
+> **Note:** First pass. Names, counties and shop types come from a trusted guide; the wording is ours. We only show an area where the source gives one, so most gun stores, mod shops, salons, tattoo studios, souvenir shops and thrift stores are listed by county for now. Nothing here is checked in our own game yet.
 
 <div class="chal-cats">
 {%- for t in shops.types %}
@@ -64,6 +78,10 @@ sources:
 <div class="shop-what-c"><h3>Mod shops</h3><p>Performance parts and visual mods. Each shop is built around one kind of vehicle, so take a lowrider to the lowrider shop and a dirt bike to the dirt bike shop.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#shopping">Vehicle Modder, Custom Ride, Serious Modder</a></p></div>
 <div class="shop-what-c"><h3>Pay 'n' Spray</h3><p>Repairs the car and changes its colour so the police lose track of it. After <a href="/walkthrough/welcome-to-vice-city/">Welcome to Vice City</a> you can buy and register cars there too, and in Chapter 3 cars with a Standard Tracker <a href="/guides/fences/">sell</a> at any of them. More in <a href="/guides/cars/">cars and trackers</a>.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#criminal">Carjacking, Carjacking Spree, Carjacking Pro</a></p></div>
 <div class="shop-what-c"><h3>Clothing stores</h3><p>Five kinds: <b>casual and street</b>, <b>sportswear</b>, <b>formal</b>, <b>souvenir and swimwear</b> and <b>thrift</b>. The map tooltip shows the type and brand, and branches of one brand carry the same range. Most have a changing room, you can save 15 outfits, and new clothes go to the wardrobe at home. Some gun stores and mod shops sell clothes too; shoes have their own stores.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Dressed</a></p></div>
+<div class="shop-what-c"><h3>Footwear stores</h3><p>Shoes only, from three chains (Callus, Podium Sports and WHS) plus Flip Flop House in Mariana County. Look for the orange shoe icon; hovering over it shows the brand. Plenty of clothing stores carry shoes too.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Dressed</a></p></div>
+<div class="shop-what-c"><h3>Hair and beauty salons</h3><p>Barbers, unisex salons and beauty salons, marked with orange scissors. Standard hairstyles are on offer everywhere, and some salons have signature styles you won't find elsewhere. Beauty salons also do nails and makeup for Lucia.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Groomed</a></p></div>
+<div class="shop-what-c"><h3>Tattoo studios</h3><p>Each studio works in its own style, from American Traditional to stick and poke, and has its own designs for Jason and Lucia. The orange heart icon marks them. Tattoos are among the priciest things you can buy.</p><p class="shop-ch">Trophy: <a href="/trophies/treat-yo-self/">Treat Yo Self</a> counts spending at every shop</p></div>
+<div class="shop-what-c"><h3>Gas stations</h3><p>Every vehicle uses fuel. The gauge sits above the minimap; when it turns yellow the map marks the nearest stations, and an empty tank leaves you stranded. Blue petrol icons, and a counter under Vehicles in the map filter.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Road Trip</a> lets you leave the car only to refuel</p></div>
 <div class="shop-what-c"><h3>Convenience stores</h3><p>Zombix to heal, pet food for the animals you meet, and groceries for the fridge at home. Look for the blue shopping bag icon, or filter the map under Food &amp; Drink.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Grocery Shopper</a></p></div>
 <div class="shop-what-c"><h3>Car washes</h3><p>Purely cosmetic and optional. All six are in Vice City, and any repair cleans the car as well, so you never have to go out of your way for one.</p></div>
 </div>
@@ -95,7 +113,9 @@ sources:
 <p class="lede" data-nomatch="shop" hidden>No shop matches that search.</p>
 </div>
 
-> **Tip:** Type the area you're in (Ocean Beach, Capri, Waning Sands...) into the search box above to see every shop there at once: guns, clothes, snacks and repairs.
+> **Tip:** Type the area you're in (Ocean Beach, Capri, Waning Sands...) into the search box above to see every shop there at once: guns, clothes, shoes, snacks, fuel and repairs.
+
+> **Tip:** The map filter keeps a list and a counter of the shops you've found: clothes, shoes, hair and tattoos sit under Style (the T-shirt icon), gas stations under Vehicles. Shops show up on their own once that part of the map is uncovered, so exploring fills the list for you.
 
 > **Tip:** Ammu-Nation's Expanded stores are the ones to visit for heavy weapons: Woodhatch is the only one in Mariana County, and five more are in and around Vice City.
 

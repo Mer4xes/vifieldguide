@@ -268,7 +268,8 @@
     {
      "id": "well-groomed",
      "name": "Well Groomed",
-     "req": "Spend more than $1,000 at barbers, hairdressers or salons."
+     "req": "Spend more than $1,000 at barbers, hairdressers or salons.",
+     "u": "/guides/shops/#salons"
     },
     {
      "id": "stylishly-armed",

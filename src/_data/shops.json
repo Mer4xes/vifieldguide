@@ -559,6 +559,460 @@
    ]
   },
   {
+   "id": "gas-stations",
+   "n": "Gas stations",
+   "short": "Gas station fuel petrol",
+   "items": [
+    {
+     "n": 1,
+     "id": "xero-gas-southwind",
+     "name": "Xero Gas",
+     "area": "Southwind",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "247-gas-key-lento",
+     "name": "247 Gas",
+     "area": "Key Lento",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "globe-oil-gas-watson-bay",
+     "name": "Globe Oil Gas",
+     "area": "Watson Bay",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 4,
+     "id": "xero-gas-grassrivers",
+     "name": "Xero Gas",
+     "area": "Grassrivers",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 5,
+     "id": "xero-gas-grassrivers-2",
+     "name": "Xero Gas",
+     "area": "Grassrivers",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 6,
+     "id": "xero-gas-capri",
+     "name": "Xero Gas",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 7,
+     "id": "ltd-gas-capri",
+     "name": "LTD Gas",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 8,
+     "id": "xero-gas-hamlet",
+     "name": "Xero Gas",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "globe-oil-gas-hamlet",
+     "name": "Globe Oil Gas",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "ltd-gas-hamlet",
+     "name": "LTD Gas",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "arrow-gas-hamlet",
+     "name": "Arrow Gas",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "xero-gas-southside",
+     "name": "Xero Gas",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "ron-gas-southside",
+     "name": "Ron Gas",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "xero-gas-tequesta",
+     "name": "Xero Gas",
+     "area": "Tequesta",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "arrow-gas-vcia",
+     "name": "Arrow Gas",
+     "area": "VCIA",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "xero-gas-salton",
+     "name": "Xero Gas",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 17,
+     "id": "ron-gas-salton",
+     "name": "Ron Gas",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 18,
+     "id": "247-gas-west-vice-dale-county",
+     "name": "247 Gas",
+     "area": "West Vice-Dale County",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 19,
+     "id": "ron-gas-balsero",
+     "name": "Ron Gas",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 20,
+     "id": "ron-gas-balsero-2",
+     "name": "Ron Gas",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 21,
+     "id": "ron-gas-little-cuba",
+     "name": "Ron Gas",
+     "area": "Little Cuba",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 22,
+     "id": "emilios-auto-center-gas",
+     "name": "Emilio's Auto Center Gas",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 23,
+     "id": "globe-oil-gas-crosstown",
+     "name": "Globe Oil Gas",
+     "area": "Crosstown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 24,
+     "id": "xero-gas-rockridge",
+     "name": "Xero Gas",
+     "area": "Rockridge",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 25,
+     "id": "vargos-gas",
+     "name": "Vargo's Gas",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 26,
+     "id": "xero-gas-crosstown",
+     "name": "Xero Gas",
+     "area": "Crosstown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 27,
+     "id": "arrow-gas-la-perle",
+     "name": "Arrow Gas",
+     "area": "La Perle",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 28,
+     "id": "xero-gas-la-perle",
+     "name": "Xero Gas",
+     "area": "La Perle",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 29,
+     "id": "ron-gas-bayside",
+     "name": "Ron Gas",
+     "area": "Bayside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 30,
+     "id": "arrow-gas-decor-district",
+     "name": "Arrow Gas",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 31,
+     "id": "xero-gas-washington-beach",
+     "name": "Xero Gas",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 32,
+     "id": "ron-gas-washington-beach",
+     "name": "Ron Gas",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 33,
+     "id": "ltd-gas-ocean-beach",
+     "name": "LTD Gas",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 34,
+     "id": "xero-gas-buckskin-swamp-1",
+     "name": "Xero Gas",
+     "area": "Buckskin Swamp",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 35,
+     "id": "xero-gas-buckskin-swamp-2",
+     "name": "Xero Gas",
+     "area": "Buckskin Swamp",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 36,
+     "id": "xero-gas-south-kelly-county",
+     "name": "Xero Gas",
+     "area": "South Kelly County",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 37,
+     "id": "emerald-springs-country-store-gas",
+     "name": "Emerald Springs Country Store Gas",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 38,
+     "id": "247-gas-emerald-springs",
+     "name": "247 Gas",
+     "area": "Emerald Springs",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 39,
+     "id": "alpha-gas-gellhorn",
+     "name": "Alpha Gas",
+     "area": "Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 40,
+     "id": "eager-beaver-gas",
+     "name": "Eager Beaver Gas",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 41,
+     "id": "oyster-point-gas-stop",
+     "name": "Oyster Point Gas Stop",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 42,
+     "id": "arrow-gas-port-gellhorn",
+     "name": "Arrow Gas",
+     "area": "Port Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 43,
+     "id": "vortex-percys-general-store",
+     "name": "Vortex & Percy's General Store",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 44,
+     "id": "jacksons-tire-co",
+     "name": "Jackson's Tire Co.",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 45,
+     "id": "xero-gas-ambrosia",
+     "name": "Xero Gas",
+     "area": "Ambrosia",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 46,
+     "id": "xero-gas-belville",
+     "name": "Xero Gas",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 47,
+     "id": "247-gas-belville",
+     "name": "247 Gas",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 48,
+     "id": "arrow-gas-belville",
+     "name": "Arrow Gas",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 49,
+     "id": "alpha-gas-belville",
+     "name": "Alpha Gas",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 50,
+     "id": "xero-gas-waning-sands",
+     "name": "Xero Gas",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 51,
+     "id": "arrow-gas-waning-sands",
+     "name": "Arrow Gas",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 52,
+     "id": "globe-oil-gas-grayson",
+     "name": "Globe Oil Gas",
+     "area": "Grayson",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 53,
+     "id": "247-gas-west-kalaga",
+     "name": "247 Gas",
+     "area": "West Kalaga",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 54,
+     "id": "buck-creek-country-store",
+     "name": "Buck Creek Country Store",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 55,
+     "id": "redshaws-gasoline",
+     "name": "Redshaw's Gasoline",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 56,
+     "id": "247-gas-millport",
+     "name": "247 Gas",
+     "area": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 57,
+     "id": "xero-gas-millport",
+     "name": "Xero Gas",
+     "area": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    }
+   ]
+  },
+  {
    "id": "clothing-stores",
    "n": "Clothing stores",
    "short": "Clothing store",
@@ -1130,6 +1584,396 @@
      "id": "bargain-world",
      "name": "Bargain World",
      "kind": "Thrift",
+     "county": "kelly",
+     "cn": "Kelly County"
+    }
+   ]
+  },
+  {
+   "id": "footwear-stores",
+   "n": "Footwear stores",
+   "short": "Shoe store",
+   "items": [
+    {
+     "n": 1,
+     "id": "flip-flop-house",
+     "name": "Flip Flop House",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "callus-capri",
+     "name": "Callus",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "podium-sports-southside",
+     "name": "Podium Sports",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "podium-sports-tequesta",
+     "name": "Podium Sports",
+     "area": "Tequesta",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "whs-little-cuba",
+     "name": "WHS",
+     "area": "Little Cuba",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "whs-downtown-1",
+     "name": "WHS",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "podium-sports-downtown",
+     "name": "Podium Sports",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "whs-downtown-2",
+     "name": "WHS",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "callus-decor-district",
+     "name": "Callus",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "callus-ocean-beach-1",
+     "name": "Callus",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "podium-sports-ocean-beach-1",
+     "name": "Podium Sports",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "whs-ocean-beach",
+     "name": "WHS",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "callus-ocean-beach-2",
+     "name": "Callus",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "podium-sports-ocean-beach-2",
+     "name": "Podium Sports",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "podium-sports-waning-sands",
+     "name": "Podium Sports",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 16,
+     "id": "callus-waning-sands",
+     "name": "Callus",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 17,
+     "id": "whs-port-gellhorn",
+     "name": "WHS",
+     "area": "Port Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    }
+   ]
+  },
+  {
+   "id": "salons",
+   "n": "Hair and beauty salons",
+   "short": "Salon barber hairdresser",
+   "items": [
+    {
+     "n": 1,
+     "id": "barnacle-beauties",
+     "name": "Barnacle Beauties",
+     "kind": "Unisex",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "lori-scott-hair-beauty",
+     "name": "Lori Scott Hair & Beauty",
+     "kind": "Unisex",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "hair-by-clair",
+     "name": "Hair By Clair",
+     "kind": "Beauty salon",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 4,
+     "id": "kurts-barber-shop",
+     "name": "Kurt's Barber Shop",
+     "kind": "Barber",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "saras-unisex-salon",
+     "name": "Sara's Unisex Salon",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale",
+     "ue": true
+    },
+    {
+     "n": 6,
+     "id": "au-courant",
+     "name": "AU Courant",
+     "kind": "Unisex",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "salon-p-rez",
+     "name": "Salon Pérez",
+     "kind": "Barber",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "bellissima-hair-salon",
+     "name": "Bellissima Hair Salon",
+     "kind": "Unisex",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "salon-belle",
+     "name": "Salon Belle",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "fabiolas-unisex-salon",
+     "name": "Fabiola's Unisex Salon",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "crosstown-cutz",
+     "name": "Crosstown Cutz",
+     "kind": "Barber",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "clip-fade",
+     "name": "Clip & Fade",
+     "kind": "Barber",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "onyx-salon",
+     "name": "Onyx Salon",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "oomph",
+     "name": "Oomph!",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "gabriel-wexler",
+     "name": "Gabriel Wexler",
+     "kind": "Beauty salon",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "a-better-you",
+     "name": "A Better You",
+     "kind": "Beauty salon",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 17,
+     "id": "pearl-house-hair-salon",
+     "name": "Pearl House Hair Salon",
+     "kind": "Unisex",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 18,
+     "id": "captain-starlings-barber-shop",
+     "name": "Captain Starlings Barber Shop",
+     "kind": "Unisex",
+     "county": "kelly",
+     "cn": "Kelly County"
+    }
+   ]
+  },
+  {
+   "id": "tattoo-studios",
+   "n": "Tattoo studios",
+   "short": "Tattoo parlor",
+   "items": [
+    {
+     "n": 1,
+     "id": "the-inked-mermaid",
+     "name": "The Inked Mermaid",
+     "kind": "American Traditional",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "layin-ink",
+     "name": "Layin' Ink",
+     "kind": "Black & Gray",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 3,
+     "id": "dominion-ink",
+     "name": "Dominion Ink",
+     "kind": "Anime",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "hyper-ink",
+     "name": "Hyper Ink",
+     "kind": "Illustrative",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "cross-my-heart",
+     "name": "Cross My Heart",
+     "kind": "New School",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "inkomplete-tattoo-co",
+     "name": "Inkomplete Tattoo Co.",
+     "kind": "Old School",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "twa-ponya-tattoo",
+     "name": "Twa Ponya Tattoo",
+     "kind": "Neo-Traditional",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "electric-fang-tattoo",
+     "name": "Electric Fang Tattoo",
+     "kind": "New School",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale",
+     "ue": true
+    },
+    {
+     "n": 9,
+     "id": "black-spot-tattoo",
+     "name": "Black Spot Tattoo",
+     "kind": "Geometric & Blackwork",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "blood-sugar-tattoo",
+     "name": "Blood Sugar Tattoo",
+     "kind": "Lettering",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 11,
+     "id": "freedom-tattoo",
+     "name": "Freedom Tattoo",
+     "kind": "Stick & Poke",
      "county": "kelly",
      "cn": "Kelly County"
     }
@@ -1721,6 +2565,26 @@
    "label": "PowerPyx: GTA 6 All Convenience Stores Locations",
    "url": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
    "note": "Read Nov 24, 2026 (modified Nov 18). 72 stores (10 Mariana, 37 Vice-Dale, 5 Leonard, 14 Kelly, 6 Lummox); area taken from the \"Name – Area\" part of the name (Balerso typo fixed to Balsero). Sell Zombix, pet food for animals you meet and groceries for the fridge at home. Map filter Food & Drink > Convenience Stores. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Footwear Stores Locations (Shoe Shops)",
+   "url": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371145 (published Nov 18). 17 stores (2 Mariana, 12 Vice-Dale, 2 Leonard, 1 Kelly); brand and area from the \"Brand – Area\" names (numbers after repeated areas dropped). Orange shoe icon; many clothing stores also sell shoes. Map filter Style > Footwear. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Hair & Beauty Salon Locations (Change Hairstyle)",
+   "url": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371146 (published Nov 18). 18 salons (3 Mariana, 12 Vice-Dale, 1 Leonard, 2 Kelly) with type label Unisex / Barber / Beauty Salon; no areas. Standard hairstyles everywhere, some salons have signature styles; Lucia can change nails and makeup at beauty salons. Orange scissors icon. Sara's Unisex Salon Ultimate Edition only (matches editionItems.json from Rockstar). Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Tattoo Studios Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371147 (published Nov 18). 11 studios (1 Mariana, 8 Vice-Dale, 2 Kelly) with style label; no areas. Each studio has its own designs; orange heart icon; map filter Style > Tattoos. Electric Fang Ultimate Edition only (matches editionItems.json). Spelling \"Twa Ponya\" as on PowerPyx (route WAiNK row writes TWA). Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Gas Stations Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+   "note": "Read Nov 24, 2026 via ?p=371139 (published Nov 18). 57 stations (7 Mariana, 26 Vice-Dale, 12 Kelly, 6 Leonard, 6 Lummox); brand and area from names. Every vehicle uses fuel; gauge above the minimap, yellow at low fuel with nearby stations marked; an empty tank stops the vehicle. Blue petrol icon; map filter Vehicles > Gas Stations. Ron Gas Balsero is listed twice. \"West Kallaga\" typo written as Kalaga, as everywhere else. Trusted source."
   }
  ]
 }
