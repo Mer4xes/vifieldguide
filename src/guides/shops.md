@@ -2,9 +2,9 @@
 title: Shop locations
 headline: Guns, Clothes, Mods and Snacks
 kicker: Shops
-seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Salons, Tattoos, Electronics, Gas and Train Stations"
-description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, electronics store, gas station, train station, convenience store, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
-summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 15 electronics stores, 72 convenience stores, 57 gas stations, 25 train stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
+seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Salons, Tattoos, Bars, Gas and Train Stations"
+description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, electronics store, gas station, train station, convenience store, bar, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
+summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 15 electronics stores, 72 convenience stores, 127 bars, 57 gas stations, 25 train stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
 order: 4
 glow: cyan
 spoilerFree: true
@@ -17,6 +17,7 @@ facts:
   - { k: Tattoo studios, v: "11", status: Reported }
   - { k: Electronics stores, v: "15", status: Reported }
   - { k: Convenience stores, v: "72", status: Reported }
+  - { k: Bars, v: "127", status: Reported }
   - { k: Gas stations, v: "57", status: Reported }
   - { k: Train stations, v: "25", status: Reported }
   - { k: Mod shops, v: "14", status: Reported }
@@ -33,6 +34,7 @@ tldr:
   - "**Headphones and phone cases come from electronics stores.** All but two of the 15 are in and around Vice City."
   - "**Trains run in all five counties**, from 25 stations. Wait on the platform for one to pull in; it's also how you do the Rail Tour challenge."
   - "**Convenience stores are where you stock up on Zombix**, the healing item, plus pet food and groceries for the fridge at home."
+  - "**There are well over a hundred bars**, most of them hotel pool and rooftop bars on Ocean Beach. The map filter counts 122; a few more are marked but left out of the counter."
 faq:
   - q: "How many Ammu-Nation stores are there in GTA 6?"
     a: "24. Five are in Mariana County, 14 in and around Vice City, one in Leonard County, three in Kelly County and one in Lummox County. The map icon shows whether a store is Limited, Standard, Hunting or Expanded."
@@ -62,18 +64,20 @@ faq:
     a: "Yes. There are 25 train stations: two in Mariana County (Amloco Railway and Capri), 17 in and around Vice City, Waning Sands in Leonard County, Ambrosia, Port Gellhorn and Draper Island in Kelly County, and Grayson and Millport in Lummox County. Go to a station and wait for the train to arrive."
   - q: "How do you do the Rail Tour challenge in GTA 6?"
     a: "Rail Tour wants a train ride of at least a mile in each of the five counties on the same in-game day, without skipping the ride. Every county has at least one station, so plan the day around the list on this page."
+  - q: "How many bars are there in GTA 6?"
+    a: "The map counter under Food & Drink tracks 122, but 127 places are marked as bars: 13 in Mariana County, 103 in and around Vice City (60 of them on Ocean Beach), two in Leonard County, seven in Kelly County and two in Lummox County. You buy a drink and drink it there."
   - q: "Do you need car washes in GTA 6?"
     a: "No, they're optional. All six are in Vice City, and repairing a car at a Pay 'n' Spray or mod shop cleans it anyway."
 sources:
   - label: "PowerPyx: shop location pages"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
-    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo, gas station, electronics and train station pages Nov 24. Full list in src/_data/shops.json. Trusted source."
+    note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo, gas station, electronics, train station and bar pages Nov 24. Full list in src/_data/shops.json. Trusted source."
   - label: "Our own data"
     url: "/walkthrough/welcome-to-vice-city/"
     note: "Buying and registering cars at Pay 'n' Spray from Welcome to Vice City; Standard Tracker cars sell there in Chapter 3 (money and fences guides); challenge names from challenges.json; Ultimate Edition shops from editionItems.json (Rockstar)."
 ---
 
-> **Note:** First pass. Names, counties and shop types come from a trusted guide; the wording is ours. We only show an area where the source gives one, so most gun stores, mod shops, salons, tattoo studios, souvenir shops and thrift stores are listed by county for now. Nothing here is checked in our own game yet.
+> **Note:** First pass. Names, counties and shop types come from a trusted guide; the wording is ours. We only show an area where the source gives one, so most gun stores, mod shops, salons, tattoo studios, bars, souvenir shops and thrift stores are listed by county for now. Nothing here is checked in our own game yet.
 
 <div class="chal-cats">
 {%- for t in shops.types %}
@@ -94,6 +98,7 @@ sources:
 <div class="shop-what-c"><h3>Electronics stores</h3><p>Accessories: phone cases to customise your phone, and headphones that Jason and Lucia can wear. The orange headphone icon marks them, and the map filter counts them under Style.</p><p class="shop-ch">See also: <a href="/guides/equipment/">equipment</a></p></div>
 <div class="shop-what-c"><h3>Gas stations</h3><p>Every vehicle uses fuel. The gauge sits above the minimap; when it turns yellow the map marks the nearest stations, and an empty tank leaves you stranded. Blue petrol icons, and a counter under Vehicles in the map filter.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Road Trip</a> lets you leave the car only to refuel</p></div>
 <div class="shop-what-c"><h3>Convenience stores</h3><p>Zombix to heal, pet food for the animals you meet, and groceries for the fridge at home. Look for the blue shopping bag icon, or filter the map under Food &amp; Drink.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Grocery Shopper</a></p></div>
+<div class="shop-what-c"><h3>Bars</h3><p>Buy a drink and have it at the bar. The blue drink icon marks them, and the map filter lists them under Food &amp; Drink (the cutlery icon) with a counter of 122, though a few more marked bars sit outside that count. Ocean Beach alone has 60, mostly hotel pool and rooftop bars.</p><p class="shop-ch">See also: <a href="/guides/races-and-ranges/#pool">pool opponents</a>, several of whom wait in bars</p></div>
 <div class="shop-what-c"><h3>Train stations</h3><p>Ride the train around the map, much like taking the bus: go to a station and wait for the train to come in. The blue train icon marks them, with a counter under Vehicles in the map filter. Every county has at least one.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Rail Tour</a> wants a mile by train in all five counties in one day</p></div>
 <div class="shop-what-c"><h3>Car washes</h3><p>Purely cosmetic and optional. All six are in Vice City, and any repair cleans the car as well, so you never have to go out of your way for one.</p></div>
 </div>
@@ -125,7 +130,7 @@ sources:
 <p class="lede" data-nomatch="shop" hidden>No shop matches that search.</p>
 </div>
 
-> **Tip:** Type the area you're in (Ocean Beach, Capri, Waning Sands...) into the search box above to see every shop there at once: guns, clothes, shoes, snacks, fuel and repairs.
+> **Tip:** Type the area you're in (Ocean Beach, Capri, Waning Sands...) into the search box above to see every shop there at once: guns, clothes, shoes, snacks, drinks, fuel and repairs.
 
 > **Tip:** The map filter keeps a list and a counter of the shops you've found: clothes, shoes, hair, tattoos and electronics sit under Style (the T-shirt icon), gas and train stations under Vehicles. Shops show up on their own once that part of the map is uncovered, so exploring fills the list for you.
 
@@ -135,5 +140,6 @@ sources:
 
 - [All 80 challenges](/guides/challenges/#shopping): the Shopping group is mostly done at these shops.
 - [Discovered Styles](/collectibles/discovered-styles/): the tattoo magazines and watches that count for 100%.
+- [Pool opponents](/guides/races-and-ranges/#pool): several of them wait in bars on this list, such as The Rusty Anchor, Zotico's, The Thirsty Wolf and Jacob's Tavern.
 - [Fences](/guides/fences/): who buys stolen cars, and when Pay 'n' Spray joins them.
 - [Money guide](/guides/money/), the [100% checklist](/guides/100-percent-checklist/) and the [launch guide](/guides/launch-guide/#editions) for what the Ultimate Edition adds.

@@ -584,7 +584,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "Buy an Apple Martini at the Ocean View Rooftop Bar on Ocean Beach and drink it while standing at the bar."
+   "how": "Buy an Apple Martini at the Ocean View Rooftop Bar on Ocean Beach and drink it while standing at the bar.",
+   "link": "/guides/shops/#bars",
+   "linkLabel": "Bars"
   },
   {
    "id": "capital-offense",
