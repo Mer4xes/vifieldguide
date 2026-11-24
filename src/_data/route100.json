@@ -358,6 +358,11 @@
        "t": "**Check Out McKittrick Farm.** Read Kyle's flyer on the wall outside the motel reception to start it. [Kyle's jobs](/guides/side-contacts/#kyle)."
       },
       {
+       "k": "missing-tourists",
+       "tag": "side",
+       "t": "**Gellhorn's Missing Tourists.** Look at a missing tourists poster (Starlet Motel reception, or outside the 24/7 south of Delights), check the three lockers in the building north of Moses's shop, then find and report the three bodies around Port Gellhorn. Jason or Lucia. [The case](/guides/side-contacts/#alvan)."
+      },
+      {
        "m": 26
       },
       {
@@ -426,6 +431,12 @@
      "items": [
       {
        "m": 31
+      },
+      {
+       "k": "missing-person",
+       "tag": "side",
+       "track": "sf:alvan",
+       "t": "**Missing Person.** Once all three bodies are reported, go back to the locker room. It switches between Jason and Lucia, so it only works from here on. Ends the strand, which counts toward Strangers & Freaks. [The case](/guides/side-contacts/#alvan)."
       },
       {
        "k": "avery-pawn",
@@ -626,7 +637,8 @@
       {
        "k": "yago-4",
        "tag": "side",
-       "t": "**Brother to Brother.** The strand counts toward Strangers & Freaks."
+       "t": "**Brother to Brother.** The strand counts toward Strangers & Freaks.",
+       "track": "sf:yago"
       },
       {
        "m": 38,
@@ -785,7 +797,8 @@
       {
        "k": "kyle-3",
        "tag": "side",
-       "t": "**Buddy?** Kyle's last text comes around the middle of the chapter. His strand counts toward Strangers & Freaks."
+       "t": "**Buddy?** Kyle's last text comes around the middle of the chapter. His strand counts toward Strangers & Freaks.",
+       "track": "sf:kyle"
       }
      ]
     },
@@ -948,7 +961,8 @@
       {
        "k": "pete",
        "tag": "side",
-       "t": "**Pilot Pete.** Jason only. He calls early in the chapter. Passing the Torch, Backseat Pilot, then three timed Pete's Deliveries; they count toward Strangers & Freaks. [Pete's jobs](/guides/side-contacts/#pete)."
+       "t": "**Pilot Pete.** Jason only. He calls early in the chapter. Passing the Torch, Backseat Pilot, then three timed Pete's Deliveries; they count toward Strangers & Freaks. [Pete's jobs](/guides/side-contacts/#pete).",
+       "track": "sf:pete"
       }
      ]
     },
@@ -1545,12 +1559,25 @@
        "k": "t-strangers",
        "track": "trophy:strangers-and-freaks",
        "tag": "trophy",
-       "t": "**Strangers & Freaks:** 8 strands. Kirk, Kyle, Yago and Pilot Pete count. Moses, Tyrone, Yasmani, Andy, Billy and Eddie don't. The other four are not known yet."
+       "t": "**Strangers & Freaks:** 8 strands. Seven are known to count: Kirk, Kyle, the missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. Cal, Shirley, Moses, Billy, Andy, Yasmani, Tyrone, Eddie and Shayna don't. The eighth is one of Kenton, Bret, Randy, Dunk or the Unknown Stuntman. [Strand tracker](/guides/side-contacts/#strangers-and-freaks)."
+      },
+      {
+       "k": "sf-merle",
+       "tag": "side",
+       "track": "sf:merle",
+       "t": "**The Final Flush (Dr. Merle).** A one-job strand, open in any chapter, that counts toward Strangers & Freaks."
+      },
+      {
+       "k": "sf-freddie",
+       "tag": "side",
+       "track": "sf:freddie",
+       "t": "**Retest Freddie's Defenses (Freddie).** A one-job strand, open in any chapter, that counts toward Strangers & Freaks."
       },
       {
        "k": "kirk",
        "tag": "side",
-       "t": "**Kirk:** Search for the Skunk Ape, Search for Tree Effigies, Help Kirk Find Mr. Mangrove (Lucia only, from Chapter 2). All at night. [Kirk's strand](/guides/side-contacts/#kirk)."
+       "t": "**Kirk:** Search for the Skunk Ape, Search for Tree Effigies, Help Kirk Find Mr. Mangrove (Lucia only, from Chapter 2). All at night. [Kirk's strand](/guides/side-contacts/#kirk).",
+       "track": "sf:kirk"
       },
       {
        "k": "t-master",

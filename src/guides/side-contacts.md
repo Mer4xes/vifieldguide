@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-24
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -25,18 +25,25 @@ labs:
   - { id: vicedale-1, area: "Vice-Dale", where: "The trailer in the middle of the area; climb in through the east window. No cook here, just a squatter.", pay: "2,500" }
 facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
+  - { k: Counting strands known, v: "7 of 8", status: Reported }
   - { k: Contact trophies, v: "7", status: Confirmed }
   - { k: Kitty Litter labs, v: "$2,000–$2,500 each", status: Reported }
   - { k: Moses's car jobs, v: "6 cars, $18,610 base", status: Reported }
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
-  - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Not every contact on this page is a stranger."
+  - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Seven are known to count, with a [tracker](#strangers-and-freaks) for them; not every contact on this page is a stranger."
   - "The fences on this page are also how you turn stolen goods into money. See [fences](/guides/fences/)."
 faq:
   - q: "How do you get Baited My Tackle in GTA 6?"
     a: "After Feng Shui in Chapter 1, Cal texts Jason a fishing challenge in Gambit Bay. Take a boat to the spot, drop anchor and fish with the Small Saltwater Lure until you land a stoplight parrotfish over 2 lbs, then send it to Cal. The trophy unlocks when you win."
   - q: "How many Strangers & Freaks are there in GTA 6?"
-    a: "The trophy asks for 8 mission strands for strangers. The full list of strands that count is still being confirmed, so check the trophy tracker as you finish each one."
+    a: "The trophy asks for 8 mission strands for strangers. Seven are known to count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. The eighth isn't confirmed yet, so check the trophy tracker after the last job of Kenton's, Bret's, Randy's, Dunk's or the Unknown Stuntman's strand."
+  - q: "Which side missions don't count for Strangers & Freaks in GTA 6?"
+    a: "Cal, Shirley, Moses, Billy, Andy, Yasmani, Tyrone, Eddie Acosta and Shayna's jobs don't count toward the trophy, even though several of them have a trophy of their own."
+  - q: "How do you start the missing persons quest in GTA 6?"
+    a: "In Chapter 2, look at one of the missing tourist posters in Port Gellhorn: in the Starlet Motel reception, or on the wall outside the 24/7 just south of Delights if you can't get into the motel any more. Then go to the abandoned building just north of Moses's shop and look through the three lockers."
+  - q: "Where are the three missing tourists in GTA 6?"
+    a: "All three are in and around Port Gellhorn: in the trunk of a pink car in the junkyard next to the Pay 'n' Spray, under the floor of an abandoned trailer by the water tower, and in a car sunk in a small pond on the edge of town. Report each body to the tip line."
   - q: "Where do you meet Kenton in GTA 6?"
     a: "At his Island Dreams shop in Key Lento, in the Chapter 1 mission Island Dreams. He runs treasure dives, and his final mission earns This Was No Boat Accident."
   - q: "Who is Randy in GTA 6?"
@@ -70,6 +77,18 @@ faq:
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
+  - label: "PowerPyx: Gellhorn's Missing Tourists"
+    url: "https://www.powerpyx.com/gta-6-gellhorns-missing-tourists-walkthrough/"
+    note: "Read Nov 24, 2026 (published/modified Nov 23). Strangers & Freaks, Alvan West's questline, Ch2, Kelly County > Port Gellhorn, Lucia or Jason. Start: inspect a Missing Persons poster (Starlet Motel office; fallback on the wall outside 247 Port Gellhorn, south of Delights). Building directly north of Moses' shop, three lockers; leave via hole in NE corner, front shutter locks after. Bodies: C-shaped pond between airstrip and town (submerged car); junkyard east of Pay'n'Spray Port Gellhorn (pink car trunk); trailer park by water tower west of Hank's Waffles (floorboards). Report each. No reward; counts for S&F. Trusted source."
+  - label: "PowerPyx: Missing Person (Return to the Trophy Room)"
+    url: "https://www.powerpyx.com/gta-6-missing-person-return-to-the-trophy-room-walkthrough"
+    note: "Read Nov 24, 2026 (published/modified Nov 23). Needs all bodies found; giver Alvan West; switches between Lucia and Jason; mine in Kalaga Reservoir, Lummox County; free partner from coffin under rocks; Alvan attacks twice; listen for his voice; kill him; help partner out; return home. Relationship increase, counts for S&F, no money. Trusted source."
+  - label: "GamesRadar: all missing persons locations and the serial killer"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-missing-persons-locations-and-how-to-find-the-serial-killer/"
+    note: "Read Nov 24, 2026 (Nov 23). Names per locker: 1 Susanne Keeble (pink car, junkyard behind Pay 'N' Spray), 2 Patrick Murray (trailer by water tower, floorboards), 3 Donald Miller (submerged car in a lake by a snarled tree, Port Gellhorn/Wild Hog Point border). Building NE of Moses' garage, shutter shut, gap on NE side. Wait for tip line call (author: after Breakfast Run). Alvan West kidnaps the character, mine near Kalaga Reservoir, Mount Kalaga NP, Lummox County; shoot him at once or he kills you. No money; relationship up. Its 'go as a couple' option is cut off on the page, so left out. Where the two disagree (shutter, exact pond and building descriptions, call vs objective) we kept only what both say. Trusted source."
+  - label: "PowerPyx: All Strangers & Freaks side missions (Nov 24 update)"
+    url: "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+    note: "Re-read Nov 24, 2026 (modified Nov 24 01:46 UTC). 8 strands needed. Counts: Dr. Merle (The Final Flush), Freddie (Retest Freddie's Defenses), Kirk, Kyle, Alvan, Yago, Pilot Pete. Doesn't count: Shirley, Cal, Moses, Billy, Andy, Yasmani, Tyrone, Eddie Acosta, Shayna. No label: Kenton, Bret, Randy, Dunk, Papa Audacity (Unknown Stuntman). Unfinished strands stay available after the story unless marked missable. Trusted source."
   - label: "PowerPyx: Catch A Bigger Fish (Cal)"
     url: "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/"
     note: "Read Nov 22, 2026 (published/modified Nov 19, full page text). Mariana County > Gambit Bay, giver Cal, requires Feng Shui (Ch1), Jason, reward Focus increase + Baited My Tackle. Steal a boat (Jason's boat gone after Ch1; docks near The Rusty Anchor), anchor from the vehicle menu, rod in bottom-right slot, Small Saltwater Lure, stoplight parrotfish over 2 lbs, send to Cal with X/A. Author's reply in comments: disappears for a while in the story, comes back, doable after the story. Only Cal entry in PowerPyx's side-mission list. Trusted source."
@@ -165,14 +184,38 @@ sources:
 | **Andy** | Cellerica, a wellness group selling vape sticks | Chapter 3, a call to Lucia, then an address in Belville ([the jobs](#andy)) | Road to Rehabilitation (hidden) |
 | **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) ([his jobs](#billy)) | The Lone Rider (hidden) |
 | **Kyle** | Farmer with a crop duster at McKittrick Farm | Chapter 2, a flyer outside the Starlet Motel reception ([his jobs](#kyle)) | Counts toward Strangers & Freaks |
+| **Alvan West** | Takes calls on the Kelly County missing persons tip line | Chapter 2, a missing tourists poster in Port Gellhorn ([the case](#alvan)) | Counts toward Strangers & Freaks |
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["alvan","Missing tourists"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
-The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every contact counts: fences like Moses and Yasmani are part of the money side of the game rather than stranger strands. Kirk, Kyle, Yago and Pilot Pete's strands count; the other four aren't confirmed yet. Check the trophy tracker before and after the last mission of a strand to see if it counted.
+The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every side job counts: a strand only adds to the trophy when you finish its **last** job, and plenty of contacts, fences above all, don't count at all. Seven strands are known to count. Tick them off here as you finish them; the ticks are saved on this device and shared with the [100% route](/guides/100-percent-route/).
+
+<div class="progress" data-progress="sf:" data-total="7">
+<div class="row"><span class="lab">Known counting strands done</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["kirk","Kirk and the Skunk Ape","Chapter 1, finished in Chapter 2","Three night jobs in the Mariana County swamps. The last one is for Lucia only.","#kirk"],
+  ["kyle","Kyle and McKittrick Farm","Chapter 2 and 3","Three jobs for a farmer in Kelly County, from a flyer at the Starlet Motel.","#kyle"],
+  ["alvan","Gellhorn's missing tourists","Chapter 2","Three bodies to find around Port Gellhorn, then a second part that needs both leads.","#alvan"],
+  ["yago","Yago and the street races","Chapter 3","Four street-race jobs in Vice City. Two are Jason only and one is limited-time.","#yago"],
+  ["pete","Pilot Pete's flying jobs","Chapter 4","Jason only: Pete's plane, then three timed delivery runs.","#pete"],
+  ["merle","Dr. Merle: The Final Flush","Any chapter","A one-job strand. We haven't written it up yet because the guides we trust don't agree on the details.",""],
+  ["freddie","Freddie: Retest Freddie's Defenses","Any chapter","A one-job strand. Not written up yet.",""]
+] %}
+<label class="tr" data-track-row for="sf-{{ c[0] }}"><input class="cb" type="checkbox" id="sf-{{ c[0] }}" data-track="sf:{{ c[0] }}"><div class="body"><div class="name">{% if c[4] %}<a href="{{ c[4] }}">{{ c[1] }}</a>{% else %}{{ c[1] }}{% endif %}</div><div class="desc"><b>{{ c[2] }}.</b> {{ c[3] }}</div></div><div class="side"><span class="need">Counts</span></div></label>
+{%- endfor %}
+</div>
+
+The **eighth** strand isn't confirmed yet. It has to be one of the strands nobody has pinned down either way: Kenton's dives, Bret's hunting decks, Randy's wish list, Dunk's robbery tips or the Unknown Stuntman. Check the trophy tracker before and after the last job of each.
+
+These **don't count**, even where they have a trophy of their own: Cal, Shirley, [Moses](#moses), [Billy](#billy), [Andy](#andy), [Yasmani](#yasmani), [Tyrone](#tyrone), [Eddie Acosta](#eddie) and Shayna's one-off call (This Is a Free Call From…). Unless a job is marked missable, a strand you haven't finished is still there after the story.
 
 <h2 id="cal">Cal's fishing challenge</h2>
 
@@ -216,6 +259,18 @@ Kyle is a farmer in Kelly County who flies a crop duster. Read one of his flyers
 <li><div class="strand-h">Buddy? <span class="chip plain">Chapter 3</span></div><span class="strand-pay">$0 or $5,000</span><p>Kyle's last text comes a long time later, around the middle of Chapter 3. Go to McKittrick Farm and look for him. How it ends is your call, and only one ending pays.</p>
 <details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">The two endings</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Kyle has turned into a mutant and the police have the barn surrounded.</p><p><b>Side with Kyle:</b> keep your distance and let him deal with the police, then talk to him by the barn. He leaves for good. No money.</p><p><b>Side with the police:</b> tell them you are Kyle's friend, put on the hazmat suit and follow the agent to the barn. Take Kyle down fast before he kills the officers. $5,000 through BuckMe. Don't try to pick up his body: it kills you.</p></div></details></li>
 </ol>
+
+<h2 id="alvan">Gellhorn's missing tourists</h2>
+
+Three tourists went missing in Port Gellhorn more than twenty years ago, and their posters are still up. Looking at one starts a two-part case for the Kelly County missing persons tip line. The first part is a search you can do as **Jason or Lucia** as soon as you're in Port Gellhorn in Chapter 2. The second part switches between the two of them, so it can't happen until both are playable after [Coffee Break](/walkthrough/coffee-break/). There's no money in it, but the strand counts toward **Strangers & Freaks**, and finishing it lifts Jason and Lucia's relationship.
+
+<ol class="strand">
+<li><div class="strand-h">Gellhorn's Missing Tourists <span class="chip plain">Chapter 2</span> <span class="flag">Jason or Lucia</span></div><span class="strand-pay">No cash</span><p><b>The posters.</b> One set hangs in the Starlet Motel reception, where you'll probably walk past it during the story. If you can't get into the motel office any more, there's another poster on the wall outside the 24/7 in Port Gellhorn, just south of Delights. Looking at either one puts the case on the map.</p><p><b>The lockers.</b> Go to the run-down building just north of Moses's shop. If the front shutter won't open, there's a gap to crawl through in the north-east corner, and that's also the way back in later. Inside, keep left to a back room with an armchair and a row of three lockers. Each locker holds photos of one tourist and a few of their things, and each set of photos is a clue to where that person ended up. Look at all three.</p><p><b>The three bodies</b>, in any order. Each time, interact once to find the body and again to report it to the tip line:</p><ul><li><b>Susanne Keeble</b> (the first locker: a pink car and a junkyard). The unmarked junkyard right next to the Port Gellhorn <a href="/guides/shops/#pay-n-spray">Pay 'n' Spray</a>. Climb the fence and open the trunk of the pink car.</li><li><b>Patrick Murray</b> (the second locker: a trailer near a water tower). The abandoned trailer park by the water tower. Hop the fence and go into the trailer you can enter; the body is under loose floorboards.</li><li><b>Donald Miller</b> (the third locker: a lake and a twisted tree). A small pond on the edge of Port Gellhorn with a car sunk in the middle of it, next to the tree from the photo. Wade out and check the car.</li></ul></li>
+<li><div class="strand-h">Missing Person <span class="chip plain">Chapter 2 on</span> <span class="flag">Jason &amp; Lucia</span></div><span class="strand-pay">Relationship boost</span><p>Once all three are reported, the case points you back to the room with the lockers; the tip line contact wants to meet you there. It can take a while to come up, so carry on with other things if it doesn't appear straight away. Go in through the gap again. Much of it plays out in narrow tunnels, so bring a weapon you can bring up quickly. Afterwards the game drops you back at home.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Who is behind it, and how to get through it</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>The man from the tip line, Alvan West, is the killer. He knocks out whichever of the two you came with and takes them away. You switch to the other one, who gets a text pointing to an old mine by the Kalaga Reservoir in Mount Kalaga National Park, Lummox County.</p><p>Go in from the car by the entrance and follow the tunnel. In a bigger chamber, clear the rocks off the spot on the floor to free your partner from a box buried there. Then go deeper after Alvan. He jumps you twice in the tunnels; when he goes quiet, listen for his voice (Focus helps) because he can be ahead of you or behind you in a side tunnel. When you corner him, shoot straight away: if you hesitate, he kills you. Then go back and help your partner up out of the hole.</p></div></details></li>
+</ol>
+
+> **Tip:** The motel poster disappears from reach once you leave the Starlet Motel at the end of Chapter 2, but the strand itself isn't missable: the poster in town still starts it, and like other unfinished strands it stays open after the story.
 
 <h2 id="moses">Moses and his car jobs</h2>
 

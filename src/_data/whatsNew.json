@@ -1,12 +1,20 @@
 [
  {
   "date": "2026-11-24",
+  "tag": "Side content",
+  "title": "Port Gellhorn's missing tourists",
+  "text": "Where the three missing tourists are, how the case ends, and a tracker for the seven strands known to count for Strangers & Freaks.",
+  "url": "/guides/side-contacts/#alvan",
+  "img": "/assets/img/region-port-gellhorn.webp",
+  "cta": "Read the case"
+ },
+ {
+  "date": "2026-11-24",
   "tag": "New guide",
   "title": "Every garage, and a hidden one",
   "text": "All 15 garages with prices, areas and spaces, a Little Boxes tracker, and the five 1010 Murals that open a locked garage.",
   "url": "/guides/garages/",
-  "img": "/assets/img/ed/vvc-vapid-stanier-01.webp",
-  "cta": "See the garages"
+  "img": "/assets/img/ed/vvc-vapid-stanier-01.webp"
  },
  {
   "date": "2026-11-24",
@@ -57,13 +65,5 @@
   "text": "All 35 jewelry stores and pawn shops, the 22 banks with their eight vaults and the seven payday loans, with payouts.",
   "url": "/guides/robberies/",
   "img": "/assets/img/art/jl-robbery.webp"
- },
- {
-  "date": "2026-11-23",
-  "tag": "New guide",
-  "title": "Races, drone trials, ranges and pool",
-  "text": "All 42 drone trials with par times, every shooting range gold and its gun, 40 races by venue and the seven pool opponents.",
-  "url": "/guides/races-and-ranges/",
-  "img": "/assets/img/misc/act-carmeet.webp"
  }
 ]
