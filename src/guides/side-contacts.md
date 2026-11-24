@@ -29,6 +29,7 @@ facts:
   - { k: Contact trophies, v: "7", status: Confirmed }
   - { k: Kitty Litter labs, v: "$2,000–$2,500 each", status: Reported }
   - { k: Moses's car jobs, v: "6 cars, $18,610 base", status: Reported }
+  - { k: Kenton's treasure sets, v: "7, 5 needed for 100%", status: Reported }
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
   - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Seven are known to count, with a [tracker](#strangers-and-freaks) for them; not every contact on this page is a stranger."
@@ -46,6 +47,10 @@ faq:
     a: "All three are in and around Port Gellhorn: in the trunk of a pink car in the junkyard next to the Pay 'n' Spray, under the floor of an abandoned trailer by the water tower, and in a car sunk in a small pond on the edge of town. Report each body to the tip line."
   - q: "Where do you meet Kenton in GTA 6?"
     a: "At his Island Dreams shop in Key Lento, in the Chapter 1 mission Island Dreams. He runs treasure dives, and his final mission earns This Was No Boat Accident."
+  - q: "How do you find Kenton's treasures in GTA 6?"
+    a: "Take Kenton's boat, the Huntress, from Island Dreams in Key Lento, put on scuba gear and dive at one of his wrecks or dive sites. Equip the metal detector with L1 / LB, pan with the right stick and swim slowly toward the beeps until you can pick the piece up. Kenton pays a little per piece and much more for a full set."
+  - q: "How many Kenton treasure sets are there in GTA 6?"
+    a: "Seven, and the 100% checklist needs five. Five sets are on shipwrecks around Key Lento and count as underwater discoveries too; Belpoint Strait and the Bobcat Dive Site are open dive sites that don't."
   - q: "Who is Randy in GTA 6?"
     a: "Randy Kozlov is a car fence with a dealership in Balsero. Lucia meets him in Chapter 3 when she delivers a car for Raul in Car Service. His first own job is a Zorrusso, which gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
   - q: "How do you unlock Yago's races in GTA 6?"
@@ -92,6 +97,9 @@ sources:
   - label: "PowerPyx: Catch A Bigger Fish (Cal)"
     url: "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/"
     note: "Read Nov 22, 2026 (published/modified Nov 19, full page text). Mariana County > Gambit Bay, giver Cal, requires Feng Shui (Ch1), Jason, reward Focus increase + Baited My Tackle. Steal a boat (Jason's boat gone after Ch1; docks near The Rusty Anchor), anchor from the vehicle menu, rod in bottom-right slot, Small Saltwater Lure, stoplight parrotfish over 2 lbs, send to Cal with X/A. Author's reply in comments: disappears for a while in the story, comes back, doable after the story. Only Cal entry in PowerPyx's side-mission list. Trusted source."
+  - label: "Push Square: underwater discoveries and Kenton's treasures (WIP)"
+    url: "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures"
+    note: "Read Nov 24, 2026 (modified Nov 20 17:25 UTC; 6 discoveries, 8 entries). Huntress at Island Dreams; Rugger Fortune after Maritime Disputes / This Was No Boat Accident; autopilot Triangle twice; anchor hold Left, vehicle menu; scuba gear at Island Dreams or either boat; metal detector L1, right stick, beeps, swim slowly; small pay per piece, big pay per finished set; Progress > Collections > Kenton's Treasures. Ocio: Island Dreams, 10 doubloons. Sets: Noche 7, Etica Laxa 5, Cinco Torres 6, Lujuriosa 6, Santa Sierra 6, Belpoint Strait 5 (no wreck, not a discovery), Bobcat Dive Site 6 (no wreck, not a discovery); item names as listed. No payouts. Set total 7 and 5 for 100% from our existing checklist data. Trusted source."
   - label: "DayOne: all contacts in GTA 6"
     url: "https://playday.one/2026/11/18/all-contacts-in-gta-6/"
     note: "Contact names, roles and what each tracks. Nov 18, 2026."
@@ -354,11 +362,43 @@ Pete is the pilot from [Company Property](/walkthrough/company-property/). Early
 
 <h2 id="kenton">Kenton and the shipwrecks</h2>
 
-Kenton's dives start in [Island Dreams](/walkthrough/island-dreams/). You search wrecks with a metal detector and sell what you find to him. The 100% checklist counts 5 of his sets and 33 underwater discoveries. His last mission earns **This Was No Boat Accident**.
+Kenton's dives start in [Island Dreams](/walkthrough/island-dreams/). You search wrecks with a metal detector and sell what you find to him. The 100% checklist counts 5 of his 7 sets and all 33 [underwater discoveries](/collectibles/underwater-discoveries/). His last mission earns **This Was No Boat Accident**.
+
+<h3 id="kenton-treasure">How a treasure dive works</h3>
+
+<ol class="cheat-steps">
+<li><b>Get a boat.</b> Kenton's own boat, the <b>Huntress</b>, is moored at Island Dreams in Key Lento. After his last mission you also get the <b>Rugger Fortune</b>. Either one has autopilot (press Triangle / Y twice) and an anchor, which you drop from the vehicle menu (hold left on the d-pad).</li>
+<li><b>Suit up.</b> You need scuba gear for the treasure. Put it on at Island Dreams or on either boat.</li>
+<li><b>Sweep with the metal detector.</b> Equip it with L1 / LB, keep the character steady and pan with the right stick. Swim slowly toward the beeping until the pick-up prompt appears.</li>
+<li><b>Sell to Kenton.</b> He pays a little for each piece the first time you bring it in, and a lot more once a whole set is in, so finish sets before you cash in. A message tells you when a set is complete, and the menu shows each set under Progress, Collections, Kenton's Treasures.</li>
+</ol>
+
+The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up its 10 doubloons to clear it from the map. The seven sets below are the ones Kenton pays for. The first five are shipwrecks that also count as underwater discoveries; the last two are open dive sites with no wreck, and they don't.
+
+<div class="progress" data-progress="kenton:" data-total="7">
+<div class="row"><span class="lab">Kenton sets you've finished</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["noche","Nuestra Señora De La Noche","Wreck, south of Key Lento","Antique Candlestick, Dragon Pipe, Ivory Saint, Pewter Gauntlet, Purple Gemstone, Serpentine Statue, Stained Doubloon","7"],
+  ["etica-laxa","Nuestra Señora De La Ética Laxa","Wreck, south of Key Lento and Abismo Key","Ancient Snuff Box, Battered Doubloon, Ceremonial Spoon, Golden Chalice, Golden Pendant","5"],
+  ["cinco-torres","Urca De Cinco Torres","Wreck, off southeast Key Lento by a cluster of green islands","Ancient Ceremonial Mask, Ceremonial Plate, Golden Glove, Jade-Eye Cup, Rusty Doubloon, Sacred Necklace","6"],
+  ["lujuriosa","Nuestra Señora Lujuriosa","Wreck, by the same green islands off southeast Key Lento","Ceremonial Bowl, Ceremonial Knife, Golden Llama, Golden Statuette, Jade-Lobe Tankard, Shiny Doubloon","6"],
+  ["santa-sierra","Urca De Santa Sierra","Wreck, east of Key Lento","Brass Spyglass, Dividing Compass, Ornate Pocket Watch, Santa Sierra Bell, Silver Hip Flask, Worn Doubloon","6"],
+  ["belpoint-strait","Belpoint Strait","Dive site, just off the southern tip of Belpoint, west of Bobcat Bight","Ancient Bracelet, Ancient Ingot, Avian Plate, Golden Fish, Lover's Grail. A deep dive with no wreck, and not an underwater discovery","5"],
+  ["bobcat","Bobcat Dive Site","Dive site, west of Bobcat Key in the far southwest","Astrolabe, Captain's Whistle, Ceramic Pirate, Ivory Sundial, Naval Hourglass, Pirate's Buckle. Scenery only, no wreck, and not an underwater discovery","6"]
+] %}
+<label class="tr" data-track-row for="kenton-{{ c[0] }}"><input class="cb" type="checkbox" id="kenton-{{ c[0] }}" data-track="kenton:{{ c[0] }}"><div class="body"><div class="name">{{ c[1] }}</div><div class="desc"><b>{{ c[2] }}.</b> {{ c[3] }}.</div></div><div class="side"><span class="need">{{ c[4] }} pieces</span></div></label>
+{%- endfor %}
+</div>
+
+> **Tip:** All seven are in Mariana County, so you can work through them in Chapter 1 while Key Lento is home. Kenton leaves the map when the chapter ends; when he's back later, carry on where you stopped.
 
 <h2 id="randy">Randy and the key cloner</h2>
 
-Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **[Clonin' Keys, Makin' GS](/walkthrough/steal-the-zorrusso-for-randy/)**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of 18 high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
+Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **[Clonin' Keys, Makin' GS](/walkthrough/steal-the-zorrusso-for-randy/)**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 

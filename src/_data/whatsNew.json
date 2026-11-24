@@ -2,11 +2,20 @@
  {
   "date": "2026-11-24",
   "tag": "Side content",
+  "title": "Kenton's seven treasure sets",
+  "text": "Every wreck and dive site with the pieces in each set, how the metal detector works, and a tracker that saves.",
+  "url": "/guides/side-contacts/#kenton-treasure",
+  "img": "/assets/img/misc/act-scuba.webp",
+  "cta": "Start diving",
+  "pos": "46% 55%"
+ },
+ {
+  "date": "2026-11-24",
+  "tag": "Side content",
   "title": "Port Gellhorn's missing tourists",
   "text": "Where the three missing tourists are, how the case ends, and a tracker for the seven strands known to count for Strangers & Freaks.",
   "url": "/guides/side-contacts/#alvan",
-  "img": "/assets/img/region-port-gellhorn.webp",
-  "cta": "Read the case"
+  "img": "/assets/img/region-port-gellhorn.webp"
  },
  {
   "date": "2026-11-24",
@@ -57,13 +66,5 @@
   "text": "What each tracker means, how to register a personal vehicle, and how Scooter Bros rescues a wrecked or impounded car.",
   "url": "/guides/cars/",
   "img": "/assets/img/misc/feat-heat.webp"
- },
- {
-  "date": "2026-11-23",
-  "tag": "New guide",
-  "title": "Every robbery, ticked off",
-  "text": "All 35 jewelry stores and pawn shops, the 22 banks with their eight vaults and the seven payday loans, with payouts.",
-  "url": "/guides/robberies/",
-  "img": "/assets/img/art/jl-robbery.webp"
  }
 ]

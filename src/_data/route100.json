@@ -150,7 +150,7 @@
       {
        "k": "kenton-start",
        "tag": "side",
-       "t": "**Start Kenton's dives.** After Island Dreams he calls, then shows up under a green KR icon in Key Lento. He drops off the map after Chapter 1 and returns later."
+       "t": "**Start Kenton's dives.** After Island Dreams he calls, then shows up under a green KR icon in Key Lento. All seven of his treasure sets are in Mariana County, so this is the time to dive: [the sets and their pieces](/guides/side-contacts/#kenton-treasure). He drops off the map after Chapter 1 and returns later."
       },
       {
        "c": "fitness:pro-swimmer",
@@ -1275,7 +1275,7 @@
        "k": "fr-hoops",
        "track": "pct:basketball-hoops",
        "tag": "collect",
-       "t": "**Basketball hoops.**",
+       "t": "**Basketball hoops.** Courts give two at a time; the big clusters are on the [hoops page](/collectibles/basketball-hoops/).",
        "g": "90 of 100"
       },
       {
@@ -1353,7 +1353,7 @@
        "k": "fr-kenton",
        "track": "pct:kenton-sets-completed",
        "tag": "collect",
-       "t": "**Kenton sets**, and his last mission for a hidden trophy.",
+       "t": "**Kenton sets**, and his last mission for a hidden trophy. [Set tracker](/guides/side-contacts/#kenton-treasure).",
        "g": "5 of 7"
       },
       {

@@ -1765,6 +1765,7 @@
       "how": [
         "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. The first wrecks are all off Key Lento.",
         "Pick up the treasure on a wreck for Kenton. The 100% checklist wants every discovery.",
+        "Kenton also has two open dive sites, Belpoint Strait and the Bobcat Dive Site. Their treasure counts toward his sets but they aren't underwater discoveries. Every set and its pieces are in [Kenton's treasure tracker](/guides/side-contacts/#kenton-treasure).",
         "Track them under Progress, Collections, Exploration, Underwater Discoveries."
       ],
       "items": [
@@ -1820,9 +1821,10 @@
         {
           "label": "Push Square: underwater discoveries and Kenton's treasures",
           "url": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures",
-          "note": "Trusted source, 6 of 33 wrecks, published Nov 18, 2026. Replaces the Nov 20 decision to leave them out."
+          "note": "Trusted source, 6 of 33 wrecks, published Nov 18, 2026. Replaces the Nov 20 decision to leave them out. Re-read Nov 24, 2026 (modified Nov 20): still 6 of 33; Belpoint Strait and Bobcat Dive Site hold Kenton sets but are not discoveries."
         }
-      ]
+      ],
+      "updated": "2026-11-24"
     },
     {
       "slug": "magazines-books-comics",
@@ -2180,6 +2182,9 @@
       "how": [
         "Pick up the ball and sink one basket. That logs the hoop.",
         "Every hoop counts once, whoever shoots. Scoring also trains Focus.",
+        "Where the 100 are: 18 in Mariana County, 49 across Vice City, Vice Beach and Vice-Dale, 14 in Leonard County, 14 in Kelly County and 5 in Lummox County.",
+        "Look for courts first, because one court gives you two hoops and some spots have more: four on two courts under the highway (twice in the city), four in a Leonard County park by a small lake, four on two courts in Kelly County, three on rooftop courts and two on a roof at Washington Beach.",
+        "Hamlet Prison has four hoops in its east and west courtyards, and there's one in the yard of Leonida State Prison. A helicopter is the easiest way into Hamlet Prison.",
         "Shooting hoops is also the way into the [basketball challenges](/guides/challenges/).",
         "Track them under Progress, Exploration, Basketball Hoops."
       ],
@@ -2253,6 +2258,34 @@
           "county": "vice-city",
           "area": "Peacock Estates",
           "where": "Behind the mansion on Palladia Ln, the house where Randy's Piccia Furia is parked."
+        },
+        {
+          "id": "hamlet-courtyard",
+          "name": "Hamlet courtyard",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "In a courtyard in Hamlet."
+        },
+        {
+          "id": "ob-park",
+          "name": "Ocean Beach park",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In a park in Ocean Beach, under a big tree."
+        },
+        {
+          "id": "wb-roof-1",
+          "name": "Washington Beach roof (1 of 2)",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "On the roof of a large building, which has two hoops. Fly up in a helicopter."
+        },
+        {
+          "id": "wb-roof-2",
+          "name": "Washington Beach roof (2 of 2)",
+          "county": "vice-beach",
+          "area": "Washington Beach",
+          "where": "The second hoop on the same roof."
         }
       ],
       "sources": [
@@ -2260,8 +2293,14 @@
           "label": "Push Square: GTA 6 basketball hoop locations",
           "url": "https://www.pushsquare.com/guides/gta-6-basketball-hoop-locations",
           "note": "WIP, 10 of 100, modified Nov 19, 2026. Hoop logged after one basket; trains Focus. PowerPyx collectible database (modified Nov 20) confirms 100 hoops, no locations."
+        },
+        {
+          "label": "PowerPyx: All Basketball Hoop Locations",
+          "url": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations",
+          "note": "Read Nov 24, 2026 (published Nov 23 10:20, modified Nov 23 22:22 UTC). 100 hoops, 90 for 100%. County headings: Mariana 18, Vice-Dale 49 (covers the whole city incl. Ocean Beach, Washington Beach, Hamlet), Leonard 14, Kelly 14, Lummox 5. Every entry has a short description plus screenshots, but no area labels; only entries that name an area were added: #19 courtyard in Hamlet, #58 Ocean Beach park under big tree, #60-61 Washington Beach roof (heli). Clusters used in tips: #20-23 Hamlet Prison east/west courtyards (heli), #35-38 and #44-47 two courts under the highway, #55-57 roof courts, #70-73 Leonard park by small lake, #89-92 two Kelly courts, #95 Leonida State Prison yard. Matches ours: #8 Jason's house stairs, #88 Avery Allen & Co. Aviation Services. Not added: #94 south Port Gellhorn (may be our trailer park hoop), #78 Baller World and fire stations (no area). Trusted source."
         }
-      ]
+      ],
+      "updated": "2026-11-24"
     }
   ]
 }
