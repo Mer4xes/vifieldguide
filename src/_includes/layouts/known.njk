@@ -83,7 +83,7 @@ schema: article
                 {%- if c.status %}<div><dt>Status</dt><dd>{{ c.status }}</dd></div>{% endif %}
               </dl>
               {%- if detailNote %}<div class="tip"><span class="lab">Tip</span><div class="tip-body"><p>{{ detailNote }}</p></div></div>{% endif %}
-              <div class="kdlg-soon"><p class="kicker">Added after launch</p><p>Map location, how to unlock it, rewards and tips, once we have checked them in the game.</p></div>
+              <div class="kdlg-soon"><p class="kicker">Added after launch</p><p>Map location, how to unlock it, rewards and tips.</p></div>
               {%- if c.links %}<p class="kdlg-links">{% for l in c.links %}<a href="{{ l.u }}">{{ l.l }} →</a>{% endfor %}</p>{% endif %}
             </div>
           </div>
@@ -112,7 +112,7 @@ schema: article
     <div class="empty">
       <p class="kicker">In progress</p>
       <h2 class="sec-h sm">This page is still growing</h2>
-      <p>Everything above comes from Rockstar or from press that spoke to Rockstar. As we play, each item gets checked in the game and expanded with locations and tips.</p>
+      <p>Everything above comes from Rockstar or from press that spoke to Rockstar. Items get expanded with locations and tips as we add them.</p>
     </div>
   </div>
 </section>

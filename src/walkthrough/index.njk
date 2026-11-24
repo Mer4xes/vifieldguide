@@ -53,7 +53,7 @@ faq:
     </div>
     <p class="wt-filters-note">From Chapter 4 the story splits into Jason and Lucia strands that run side by side. Pick one to see only the missions you can play as that character. Missions played as both, and ones we can't place yet, stay in both lists.</p>
     <div data-filter-list="story">
-    <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. It is first pass: we keep only missions that at least two independent lists agree on, and it is not yet checked in our own game. Missions with a written walkthrough are linked; the rest follow as we play. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
+    <div class="tip note wt-note"><span class="lab">Note</span><div class="tip-body"><p>The full mission list, in the order of the in-game story recap. Missions with a written walkthrough are linked. Turn on <b>Hide names of missions ahead</b> above if you want to avoid spoilers.</p></div></div>
     {%- for c in story.chapters %}
     <div class="chapter" id="chapter-{{ c.n }}" data-filter-parent>
       {%- set nGuides = c.missions | guidesIn(missions) %}
@@ -144,7 +144,7 @@ faq:
     <h2 class="sec-h">What the labels mean</h2>
     <div class="cards three">
       <div class="card"><span class="flag">Missable</span><h3>Things you can lose</h3><p>The mission has an item, trophy or choice you cannot return for. The page opens with a warning.</p></div>
-      <div class="card"><span class="chip ok dot">Verified</span><h3>Checked in the game</h3><p>The steps were replayed and confirmed on the game version shown. Pages not yet checked say so.</p></div>
+      <div class="card"><span class="chip rum dot">Reported</span><h3>Where it comes from</h3><p>Every step comes from a trusted walkthrough, or from two that agree, and is written in our own words.</p></div>
       <div class="card"><span class="chip who both">Both</span><h3>Who you play</h3><p>Shows whether the mission is Jason's, Lucia's or one you play as both.</p></div>
     </div>
   </div>

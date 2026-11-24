@@ -39,8 +39,6 @@ sources:
   - { label: "GamesRadar+: All 12 pieces of equipment explained", url: "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/", note: "See equipment.json. Read Nov 22, 2026." }
 ---
 
-> **Note:** First pass. The list and the missions come from two trusted guides that agree; the wording is ours. Not checked in our own game yet.
-
 <h2 id="what-opens-what">What opens what</h2>
 
 <div class="tablewrap"><table class="eq-table">

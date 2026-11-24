@@ -41,7 +41,7 @@ sources:
     note: "Maximum Withdrawal, Sneakthief, A Long Road (Confirmed)."
 ---
 
-> **Note:** First pass. Names, numbers, payouts and unlocks come from a trusted guide; the wording is ours. Exact spots on the map aren't written out anywhere yet, but every one of these shows on the map once you've uncovered the area. Nothing on this page is checked in our own game yet.
+> **Note:** Exact spots aren't listed yet, but every one of these shows on the map once you've uncovered the area.
 
 <div class="chal-cats rob-cats">
 <a class="chal-cat" href="#smash" data-progress="rob:sng:" data-total="34"><span class="lab">Smash 'n' Grabs</span><span class="pct"><span data-done>0</span>/34 needed</span><span class="bar"><i></i></span></a>

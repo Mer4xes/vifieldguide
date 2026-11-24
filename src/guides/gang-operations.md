@@ -41,7 +41,7 @@ sources:
     note: "Pest Control text from the trophy list (Confirmed). Pinhole unlock from cheats.json (PowerPyx All Cheats)."
 ---
 
-> **Note:** First pass. Names and gangs come from a trusted guide; the wording is ours. We don't list areas yet, because the source doesn't give them. Nothing here is checked in our own game yet.
+> **Note:** Areas aren't listed yet.
 
 <div class="progress" data-progress="gangop:" data-total="{{ gangOps.total }}">
 <div class="row"><span class="lab">Operations you've cleared</span><span class="pct"><span data-done>0</span> / {{ gangOps.total }} · <span data-pct>0%</span></span></div>

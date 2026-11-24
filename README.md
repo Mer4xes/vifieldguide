@@ -74,7 +74,6 @@ difficulty: 2                 # 1 til 3
 time: 30 min
 summary: Én setning uten spoilere. Brukes også som meta description hvis du ikke setter en egen.
 updated: 2026-11-19
-verified: "1.00"              # spillversjon når stegene er kontrollert. Utelat for «first pass».
 missables:                    # valgfritt. Gir advarsel øverst og «Missable»-merke i listen
   - "**Vice Tape 4** ligger i hvelvet. Du kommer ikke inn igjen."
 objectives:
@@ -140,7 +139,6 @@ Nettstedet må ligge på roten av domenet (lenkene starter med `/`).
 ## Før lansering
 
 - [ ] Sett `contactEmail` i `src/_data/site.js` hvis du vil ha kontaktlinje på About-siden.
-- [ ] Les gjennom `src/about.md`. Den lover at «Verified» betyr kontrollert i spillet.
 - [ ] Legg bilder i `src/assets/img/` (lag mappen) og komprimer dem før opplasting.
 - [ ] Delingsbildet `src/assets/og.png` er laget fra `scripts/og-card.html`.
 

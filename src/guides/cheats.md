@@ -47,7 +47,7 @@ sources:
     note: "Read Nov 24, 2026 (updated Nov 22). Codes for 19; adds Drunk, Raise Wanted Level, Videotape and Dark Mirror, all others match PowerPyx. MTL Pumper: discover it in the Progress menu. Trophies and saving off for the session. Cycle Weather unlock disagrees with PowerPyx, so it is shown as not settled. Trusted. Cross-checked with Vice and Red Bull (see cheats.json)."
 ---
 
-> **Note:** First pass. Names, requirements and codes come from a trusted guide; the wording is ours. Codes we don't know yet are marked as such. Nothing here is checked in our own game yet.
+> **Note:** Codes we don't know yet are marked as such.
 
 <div class="progress" data-progress="cheat:" data-total="{{ cheats.total }}">
 <div class="row"><span class="lab">Cheats you've unlocked</span><span class="pct"><span data-done>0</span> / {{ cheats.total }} · <span data-pct>0%</span></span></div>

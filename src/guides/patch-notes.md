@@ -37,7 +37,7 @@ sources:
     note: "Per-update sources are in src/_data/patches.json (Push Square, Vice, Game Rant, ComicBook.com, PlayStation LifeStyle, Tech Times, RockstarINTEL). The seven 01.002.002 fixes come from Game Rant and ComicBook.com, which agree; Game Rant attributes them to Rockstar's support page 'Grand Theft Auto VI Launch Updates', which a cloud run could not fetch. Nov 23, 2026."
 ---
 
-> **Note:** The version numbers, sizes and fixes on this page are reported, not read on Rockstar's own page yet. The fixes are in our own words, and we haven't checked them in our own game.
+> **Note:** The version numbers, sizes and fixes on this page are reported, not read on Rockstar's own page yet. The fixes are in our own words.
 
 <h2 id="latest">Latest: {{ patches.items[0].v }}</h2>
 

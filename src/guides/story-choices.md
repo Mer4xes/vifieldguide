@@ -28,8 +28,6 @@ faq:
 {%- set groups = collections.missions | choicesByChapter %}
 Each mission below has a choice you make in the moment. The list grows as we write more of the [walkthrough](/walkthrough/), and every mission page has the same box near the top.
 
-> **Note:** First pass. These come from mission guides that agree with each other, not yet from our own playthrough.
-
 {% for g in groups %}
 <h2 class="choice-ch">{{ g.chapter }}</h2>
 {%- for m in g.missions %}

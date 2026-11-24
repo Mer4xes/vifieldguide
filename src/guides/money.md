@@ -74,7 +74,7 @@ sources:
     note: "BuckMe, ATMs, Family Savings and losing pocket cash come from the sources on Buck Me, Recalibration and Checking Out."
 ---
 
-> **Note:** First pass, put together from the guides we trust and the missions we have written up. Nothing here is checked in our own game yet, and payouts are rough ranges, not promises.
+> **Note:** Payouts are rough ranges, not promises.
 
 <h2 id="keep-it">Keep the money you make</h2>
 

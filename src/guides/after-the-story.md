@@ -57,8 +57,6 @@ sources:
     note: "Every line comes from data already on the site and recorded there: Protective Custody and The End of the Road (PowerPyx, post-credits return point, no replay, 100% checklist unlock), 100% checklist and route (35 items, shows after the credits, nothing missable for 100%), cheats.json (PowerPyx All Cheats: 61, Progress > Cheats after the story, four story cheats, trophies blocked), stunts.json (397, 300 for the checklist), challenges (80, 70 checklist, 50 trophy), missables. No new facts added Nov 23, 2026."
 ---
 
-> **Note:** First pass. Pieced together from our own mission pages and checklists, which come from trusted guides; not yet checked in our own game.
-
 ## The order we'd suggest
 
 This is only a suggestion; nothing after the story is locked to an order.

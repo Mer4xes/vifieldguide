@@ -38,8 +38,6 @@ sources:
   - { label: "Garage data", url: "/guides/garages/", note: "See src/_data/garages.json for every source and what was taken from it. Read Nov 24, 2026." }
 ---
 
-> **Note:** First pass. Names, prices, spaces and unlocks come from a trusted guide; the areas are where several garage guides agree. The wording is ours, and nothing here is checked in our own game yet.
-
 <div class="chal-cats rob-cats">
 <a class="chal-cat" href="#buy" data-progress="garage:buy:" data-total="8"><span class="lab">Little Boxes</span><span class="pct"><span data-done>0</span>/8 bought</span><span class="bar"><i></i></span></a>
 <a class="chal-cat" href="#story" data-progress="garage:story:" data-total="4"><span class="lab">Story garages</span><span class="pct"><span data-done>0</span>/4</span><span class="bar"><i></i></span></a>

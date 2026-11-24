@@ -41,7 +41,7 @@ sources:
     note: "Top Fun, The Shootist, Earn Cash, Not Kudos (Confirmed)."
 ---
 
-> **Note:** First pass. Locations, par times and weapons come from a trusted guide; the wording is ours. Gold medal targets and race challenge start points aren't written out anywhere yet, so they're not here. Nothing on this page is checked in our own game yet.
+> **Note:** Gold medal targets and race challenge start points aren't listed yet.
 
 <div class="chal-cats rr-cats">
 <a class="chal-cat" href="#drones" data-progress="rr:drone:" data-total="42"><span class="lab">Drone trials</span><span class="pct"><span data-done>0</span>/42</span><span class="bar"><i></i></span></a>

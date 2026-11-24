@@ -48,8 +48,6 @@ sources:
 } %}
 These are the things in GTA 6 that are gone once you move past a certain point. Each chapter below lists them in the order you meet them, with the last mission you can safely play first. For the whole game in order, use the [100% route](/guides/100-percent-route/); this page is the same warnings with everything else taken out.
 
-> **Note:** First pass. These come from trusted guides that agree, not yet from our own playthrough.
-
 {%- set chs = route100 | missablesByChapter(storyMissions, skip) %}
 {%- set total = chs | sum("n") %}
 <div class="progress miss-prog" data-progress-in="#miss-list">

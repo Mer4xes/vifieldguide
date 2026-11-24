@@ -62,7 +62,7 @@ sources:
 
 This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions, the [challenges](/guides/challenges/) and the [collectibles](/collectibles/#by-area) of the county you are in at that point. Open a county to see every mapped card, WAiNK scan, hoop, flamingo, magazine and meditation spot there, with where to find it. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list, the collectible checklists and the [100% checklist](/guides/100-percent-checklist/). Only want the things that can slip away? They are on one page in [Missables](/guides/missables/).
 
-> **Note:** First pass. Mission order, unlocks, limited-time jobs and the collectible spots come from trusted guides. **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then. None of it is checked in our own game yet.
+> **Note:** **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then.
 
 > **Watch out:** Don't use cheats on this save. They switch off trophies and saving while active.
 

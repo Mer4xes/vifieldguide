@@ -21,7 +21,7 @@ crumbParent:
     {%- if summary %}<p class="tagline">{{ summary }}</p>{% endif %}
     <div class="chips">
       {%- if protagonist %}<span class="chip who {{ protagonist }}">{{ whoLabel[protagonist] }}</span>{% endif %}
-      {%- if verified %}<span class="chip ok dot">Verified on v{{ verified }}</span>{% else %}<span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span>{% endif %}
+      <span class="chip rum dot">Reported</span>
       <span class="chip plain">Spoilers: this mission only</span>
     </div>
     <dl class="meta">
@@ -192,7 +192,7 @@ crumbParent:
       {%- elif storyNext and not storyNextPage and (storyNext.chapter < 5 or se.chapter == 5) %}<a class="pg next soon" href="/walkthrough/#chapter-{{ storyNext.chapter }}"><span class="l">Next in the story · guide coming</span><span class="t">{{ storyNext.no | pad }} · {{ storyNext.t }}</span></a>
       {%- else %}<a class="pg next" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
     </nav>
-    <p class="stamp">{% if verified %}Confirmed in the game.{% else %}Reported: every fact here comes from a trusted walkthrough, or from two that agree.{% endif %} Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>
+    <p class="stamp">Reported: every fact here comes from a trusted walkthrough, or from two that agree. Written in our own words.{% if updated %} Last updated {{ updated | niceDate }}.{% endif %}</p>
     <p class="report-link">Spotted a mistake or a missing step? <a href="/contact/?topic=mistake&amp;page={{ page.url | urlencode }}">Tell us</a>.</p>
   </div>
 </section>

@@ -4,7 +4,7 @@ title: About
 headline: About This Guide
 kicker: About
 seoTitle: "About The VI Field Guide and Its Spoiler Policy"
-description: "How The VI Field Guide handles spoilers, what the verified labels mean, and how your progress is stored."
+description: "How The VI Field Guide handles spoilers, what the status labels mean, and how your progress is stored."
 summary: An unofficial, fan-made guide to Grand Theft Auto VI. Here is how it handles spoilers, accuracy and your progress.
 updated: 2026-11-23
 ---
@@ -23,7 +23,6 @@ The guide is written so you can use it without having the story spoiled.
 
 - **Confirmed** facts come from Rockstar or the official trophy list.
 - **Reported** facts come from a trusted guide source, or from two independent sources that agree, checked before they go up. Steps are written in our own words.
-- **First pass** means a page has not been checked in our own game yet. Pages marked **Verified** have been, on the version shown.
 - Leaks, datamined content and rumoured lists are not used.
 
 ## Your progress

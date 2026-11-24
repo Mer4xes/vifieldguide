@@ -1,6 +1,6 @@
 {
   "vehicles": {
-    "lede": "Every vehicle Rockstar named before launch, now with where and when you collect the edition bonuses. Stats and prices follow once we have driven them ourselves.",
+    "lede": "Every vehicle Rockstar named before launch, now with where and when you collect the edition bonuses. Stats and prices follow.",
     "items": [
       {
         "t": "'95 Grotti Cheetah",
@@ -133,7 +133,7 @@
     ]
   },
   "weapons": {
-    "lede": "Every weapon Rockstar named before launch, now with when the edition bonuses unlock. Stats and prices follow once we have used them ourselves.",
+    "lede": "Every weapon Rockstar named before launch, now with when the edition bonuses unlock. Stats and prices follow.",
     "items": [
       {
         "t": "Hawk & Little Morgan Revolvers",

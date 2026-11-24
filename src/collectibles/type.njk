@@ -19,7 +19,7 @@
     <p class="kicker">Collectible set</p>
     <h1>{{ t.name }}</h1>
     <p class="tagline">{{ t.desc }}</p>
-    <div class="chips"><span class="chip rum dot">Reported</span><span class="chip plain">First pass, not yet verified in-game</span></div>
+    <div class="chips"><span class="chip rum dot">Reported</span></div>
     <dl class="meta">
       {%- if t.total %}<div><dt>In the game</dt><dd>{{ t.total }}</dd></div>{% endif %}
       {%- if t.need %}<div><dt>100% needs</dt><dd>{{ t.need }}</dd></div>{% elif t.extra %}<div><dt>100% needs</dt><dd>None</dd></div>{% endif %}

@@ -53,7 +53,7 @@ sources:
     note: "Moses (Slim Jim, Scooter Bros, first registered car, one slot until a garage), Daily Driver (free garage, Vice City Real Estate), Welcome to Vice City (Pay 'n' Spray registers Standard Tracker cars), Steal the Zorrusso for Randy (Key Cloner), fences and money guides, challenges.json, trophies.json."
 ---
 
-> **Note:** First pass, put together from guides we trust and the missions we've written up. Nothing here is checked in our own game yet, and the app fees aren't given anywhere we trust, so we don't list them.
+> **Note:** The Scooter Bros app fees aren't listed.
 
 <h2 id="scan">Scan it first</h2>
 

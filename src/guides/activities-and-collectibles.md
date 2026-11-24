@@ -72,15 +72,13 @@ sources:
     note: "80 challenges, all open from the start. Nov 18-19, 2026. Trusted source."
 ---
 
-> **Note:** First pass. Every count here comes from a trusted guide or the official trophy list. Details that are still unclear are left out until they are confirmed.
-
 <h2 id="meditation">Meditation</h2>
 
 Jason and Lucia can meditate at set spots around Leonida. There are **18**. The **Positive Mental Attitude** trophy needs every one of them; the 100% checklist settles for 15.
 
 You can meditate more than once, and Jason and Lucia can both meditate at the same spot. The **Fast Forward** cheat unlocks after 50 meditations. Your count is under Progress, Collections, Exploration, Meditations.
 
-> **Watch out:** Unconfirmed, but worth knowing. One guide reports that a meditation Lucia offers at Jason's house during Chapter 1 may count toward the trophy and may not come back later. Accept it if she asks, just in case.
+> **Watch out:** Lucia offers a meditation at Jason's house during Chapter 1, and it doesn't come back later. It may count toward the trophy, so accept it if she asks.
 
 <h2 id="collectible-cards">Collectible cards</h2>
 

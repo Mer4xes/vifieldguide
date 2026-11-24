@@ -77,7 +77,7 @@ sources:
     note: "Buying and registering cars at Pay 'n' Spray from Welcome to Vice City; Standard Tracker cars sell there in Chapter 3 (money and fences guides); challenge names from challenges.json; Ultimate Edition shops from editionItems.json (Rockstar)."
 ---
 
-> **Note:** First pass. Names, counties and shop types come from a trusted guide; the wording is ours. We only show an area where the source gives one, so most gun stores, mod shops, salons, tattoo studios, bars, souvenir shops and thrift stores are listed by county for now. Nothing here is checked in our own game yet.
+> **Note:** Most gun stores, mod shops, salons, tattoo studios, bars, souvenir shops and thrift stores are listed by county for now.
 
 <div class="chal-cats">
 {%- for t in shops.types %}

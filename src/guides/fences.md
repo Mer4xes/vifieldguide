@@ -48,7 +48,7 @@ sources:
     note: "Moses, Dunk, Brian's lockup, Donnie's drop, Yasmani and the 100% totals come from the sources recorded on the mission pages, side contacts and the 100% checklist."
 ---
 
-> **Note:** First pass. This lists the fences in the missions we have written up so far, and grows with the [walkthrough](/walkthrough/). Nothing here is checked in our own game yet.
+> **Note:** This lists the fences in the missions we have written up so far, and grows with the [walkthrough](/walkthrough/).
 
 > **Watch out:** Before update 01.002.002 (November 23), a partner sometimes didn't hand over a bag you wanted to sell at a fence. If that happened to you, update the game first. See [patch notes](/guides/patch-notes/).
 

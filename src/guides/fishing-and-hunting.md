@@ -62,7 +62,7 @@ sources:
     note: "Bret (Veteran Hunted, $500, Killtelligence SM-69, Target Decks 15, Fair Game), Cal (Baited My Tackle), challenges.json survival group, cheats.json (Fisheye: 100 fish), activities-and-collectibles study section (100 of 255), cars guide (trunk holds hunting spoils), shops.json (Chuck's Tackle & Shot, Mariana County)."
 ---
 
-> **Note:** First pass, put together from guides we trust. We haven't checked it in our own game yet, and payouts for hunted animals aren't given anywhere we trust, so we don't list them.
+> **Note:** Payouts for hunted animals aren't listed.
 
 <h2 id="fishing">Fishing</h2>
 

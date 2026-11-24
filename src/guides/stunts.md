@@ -47,7 +47,7 @@ sources:
     note: "Cunning Stunts: Complete 250 Stunts (Confirmed)."
 ---
 
-> **Note:** First pass. Names and regions come from a trusted guide; the wording is ours, and the lists are sorted A to Z. Nothing here is checked in our own game yet.
+> **Note:** The lists are sorted A to Z.
 
 <div class="progress" data-progress="stunt:" data-total="300">
 <div class="row"><span class="lab">Stunts ticked off here</span><span class="pct"><span data-done>0</span> / 300 needed · 397 in the game</span></div>

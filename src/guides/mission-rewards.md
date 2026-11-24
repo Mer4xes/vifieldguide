@@ -25,8 +25,6 @@ faq:
 {%- set kinds = rows | rewardKinds %}
 Each row below comes from a mission page in the [walkthrough](/walkthrough/). The list fills in as we write up more missions. Tap a mission for the steps, including where to find anything you have to pick up yourself.
 
-> **Note:** First pass. These come from mission guides that agree with each other, not yet from our own playthrough.
-
 <div class="rw-stats">
   <div><b>{{ kinds.weapon or 0 }}</b><span>Unique weapons</span></div>
   <div><b>{{ (kinds.vehicle or 0) + (kinds.item or 0) }}</b><span>Vehicles and items</span></div>

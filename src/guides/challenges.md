@@ -40,7 +40,7 @@ sources:
     note: "70 of 80 challenges for 100%. Nov 18, 2026."
 ---
 
-> **Note:** First pass. Names and targets come from a trusted guide and match the trophy and checklist numbers. The wording is ours, so the in-game text may read a little differently. Nothing here is checked in our own game yet.
+> **Note:** The wording is ours, so the in-game text may read a little differently.
 
 <div class="progress" data-progress="chal:" data-total="80">
 <div class="row"><span class="lab">Your challenges</span><span class="pct"><span data-done>0</span> / 80 · <span data-pct>0%</span></span></div>

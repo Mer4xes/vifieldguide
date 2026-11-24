@@ -44,8 +44,6 @@ sources:
 
 The game keeps a 100% checklist with 35 items. It only appears once the credits have rolled, so this page is something to come back to after the story. The big number on each row is what the checklist asks for, and the small one underneath is how many exist in Leonida. Often there are more than you need.
 
-> **Note:** First pass. The list, the totals and the unlock notes come from guides that agree item for item. We will mark it verified once we have checked it in our own game.
-
 <div class="progress" data-progress="pct:" data-total="35">
 <div class="row"><span class="lab">Your checklist</span><span class="pct"><span data-done>0</span> / 35 · <span data-pct>0%</span></span></div>
 <div class="bar"><i></i></div>

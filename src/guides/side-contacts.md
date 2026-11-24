@@ -189,7 +189,7 @@ sources:
     note: "Read Nov 21, 2026 (via ?p=372507). Lummox County > Grayson diner, motel east of it, green door and guard, key from the clerk, trapdoor to the lab, two vats, pipe chase, $10,000 + Spin On This!. Trusted source."
 ---
 
-> **Note:** First pass. Contacts, jobs and payouts come from trusted guides and are not yet checked in our own game. Step-by-step guides for each strand follow as we write them.
+> **Note:** Step-by-step guides for each strand follow as we write them.
 
 > **Watch out:** Most strands start with a phone call. Before update 01.002.002 (November 23) some calls never came through, so if a contact has gone quiet, install the update first. See [patch notes](/guides/patch-notes/).
 
