@@ -32,6 +32,12 @@ export default function () {
     ctr: t.counter ? { key: t.counter, ...ctrs[t.counter] } : null,
     items: t.items || [],
     regions: [...new Set((t.items || []).map((i) => i.region).filter(Boolean))],
+    // Sets that have mapped items, in data order, for the set filter chips on the type page.
+    itemSets: [...new Set((t.items || []).map((i) => i.set).filter(Boolean))].map((name) => ({
+      name,
+      slug: "set-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+      count: (t.items || []).filter((i) => i.set === name).length,
+    })),
     sample: collectibles.sample,
     updated: t.updated || collectibles.updated,
   }));

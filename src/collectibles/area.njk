@@ -58,7 +58,7 @@
             <div class="item-body">
               <label for="a-{{ i.type }}-{{ i.id }}" class="item-name">{{ i.name }}</label>
               <p class="item-meta"><a class="tkind" href="/collectibles/{{ i.type }}/">{{ i.typeName }}</a>{% if i.set %}<span>{{ i.set }}{% if i.n %} #{{ i.n }}{% endif %}</span>{% endif %}{% if i.who %}<span>{{ i.who }}</span>{% endif %}{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
-              <p>{{ i.where | md | safe }}</p>
+              {%- if i.where %}<p>{{ i.where | md | safe }}</p>{% endif %}
             </div>
           </li>
           {%- endfor %}
@@ -72,7 +72,7 @@
       <h2 class="sec-h sm">Not on this list yet</h2>
       <p class="lede">The location guides we rely on are still being filled in, so this page covers only what has been pinned down. We add more as they're confirmed.</p>
       <ul class="klist one">
-        <li><b>Most collectible cards, WAiNK scans and flamingos.</b> Only some of the 480 cards, 112 scan spots and 125 flamingos have known locations so far.</li>
+        <li><b>Most collectible cards and flamingos, and some WAiNK scans.</b> Only some of the 480 cards and 125 flamingos have known locations so far. WAiNK is further along: most landmarks, curiosities and sculptures are mapped, but not the Peewees billboards or most No Flusher tags.</li>
         <li><b>Basketball hoops.</b> 10 of the 100 are pinned down. Any court or driveway hoop you pass is worth a shot.</li>
         <li><b>Underwater discoveries.</b> Only the first wrecks off Key Lento are mapped. Keep diving with Kenton.</li>
       </ul>

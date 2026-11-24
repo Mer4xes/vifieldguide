@@ -717,7 +717,8 @@
        "c": "vehicle:throttled"
       },
       {
-       "c": "shopping:grocery-shopper"
+       "c": "shopping:grocery-shopper",
+       "n": "Any [convenience store](/guides/shops/#convenience-stores) counts: there are 72, so one is always close."
       }
      ]
     },
@@ -858,7 +859,8 @@
        "c": "shopping:well-groomed"
       },
       {
-       "c": "shopping:well-dressed"
+       "c": "shopping:well-dressed",
+       "n": "[All 67 clothing stores by county](/guides/shops/#clothing-stores)."
       },
       {
        "c": "shopping:stylishly-armed"
@@ -1269,7 +1271,7 @@
        "k": "fr-waink",
        "track": "pct:waink-locations-scanned",
        "tag": "collect",
-       "t": "**WAiNK locations.** Also earns You WAiNKer!",
+       "t": "**WAiNK locations.** Also earns You WAiNKer! Most landmarks, curiosities and sculptures are [mapped by county](/collectibles/waink-locations/).",
        "g": "100"
       },
       {
@@ -1493,7 +1495,7 @@
      "items": [
       {
        "c": "shopping:heavily-armed",
-       "n": "[Every Ammu-Nation and mod shop by county](/guides/shops/)."
+       "n": "[Every Ammu-Nation, mod shop and clothing store by county](/guides/shops/)."
       },
       {
        "k": "fr-weapons",

@@ -10,9 +10,17 @@
       "Belpoint",
       "Corsair Key",
       "Grassrivers",
-      "Waters off Key Lento"
+      "Waters off Key Lento",
+      "Permit Keys",
+      "Bobcat Key",
+      "Abismo Key",
+      "Riquezas Keys",
+      "Mile Zero Air Station",
+      "Shoeless Keys",
+      "Wetman Bay",
+      "Cottonmouth Lake"
     ],
-    "lede": "Where the story starts: Key Lento, home in Chapter 1, plus Watson Bay, Capri, Belpoint, Corsair Key and the part of Grassrivers that falls inside the county. Do the Chapter 1 items first, because they're gone once the chapter ends."
+    "lede": "Where the story starts: Key Lento, home in Chapter 1, plus Watson Bay, Capri, Belpoint, Corsair Key, the smaller keys out to Permit Keys and the part of Grassrivers that falls inside the county. Do the Chapter 1 items first, because they're gone once the chapter ends."
   },
   {
     "slug": "kelly-county",
@@ -84,7 +92,7 @@
       "Southside",
       "Vespucci Island"
     ],
-    "lede": "Southside, Hamlet, Vespucci Island and the airport."
+    "lede": "Southside, Hamlet, Vespucci Island, the airport and the keys and stadiums round the city."
   },
   {
     "slug": "leonard-county",
@@ -94,6 +102,6 @@
       "Belville",
       "Waning Sands"
     ],
-    "lede": "Belville, where Andy's jobs take Lucia in Chapter 3, and Waning Sands on the coast."
+    "lede": "Belville, where Andy's jobs take Lucia in Chapter 3, Waning Sands on the coast and Little Hardin Island."
   }
 ]

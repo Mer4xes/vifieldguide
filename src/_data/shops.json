@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-24",
  "counties": [
   {
    "id": "mariana",
@@ -557,6 +557,1138 @@
      "cn": "Vice City and Vice-Dale"
     }
    ]
+  },
+  {
+   "id": "clothing-stores",
+   "n": "Clothing stores",
+   "short": "Clothing store",
+   "items": [
+    {
+     "n": 1,
+     "id": "slinger-southside",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 2,
+     "id": "slinger-peacock-bay",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Peacock Bay",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 3,
+     "id": "slinger-tequesta",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Tequesta",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "slinger-downtown",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "suburban",
+     "name": "Suburban",
+     "kind": "Casual & Street",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "urban-legendz",
+     "name": "Urban Legendz",
+     "kind": "Casual & Street",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "drip-drops",
+     "name": "Drip Drops",
+     "kind": "Casual & Street",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "stock-305",
+     "name": "Stock 305",
+     "kind": "Casual & Street",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale",
+     "ue": true
+    },
+    {
+     "n": 9,
+     "id": "slinger-decor-district",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 10,
+     "id": "this-that-decor-district",
+     "name": "This / That",
+     "kind": "Casual & Street",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 11,
+     "id": "slinger-ocean-beach",
+     "name": "Slinger",
+     "kind": "Casual & Street",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "mid-ocean-beach-1",
+     "name": "Mid",
+     "kind": "Casual & Street",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "this-that-ocean-beach-1",
+     "name": "This / That",
+     "kind": "Casual & Street",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "mid-ocean-beach-2",
+     "name": "Mid",
+     "kind": "Casual & Street",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "this-that-ocean-beach-2",
+     "name": "This / That",
+     "kind": "Casual & Street",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "this-that-waning-sands",
+     "name": "This / That",
+     "kind": "Casual & Street",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 17,
+     "id": "mid-waning-sands",
+     "name": "Mid",
+     "kind": "Casual & Street",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 18,
+     "id": "alpha-sports-downtown",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 19,
+     "id": "endzone-downtown",
+     "name": "Endzone",
+     "kind": "Sportswear",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 20,
+     "id": "eris",
+     "name": "Eris",
+     "kind": "Sportswear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 21,
+     "id": "alpha-sports-ocean-beach-1",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 22,
+     "id": "endzone-ocean-beach-1",
+     "name": "Endzone",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 23,
+     "id": "alpha-sports-ocean-beach-2",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 24,
+     "id": "endzone-ocean-beach-2",
+     "name": "Endzone",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 25,
+     "id": "alpha-sports-ocean-beach-3",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 26,
+     "id": "alpha-sports-ocean-beach-4",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 27,
+     "id": "endzone-washington-beach",
+     "name": "Endzone",
+     "kind": "Sportswear",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 28,
+     "id": "alpha-sports-waning-sands",
+     "name": "Alpha Sports",
+     "kind": "Sportswear",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 29,
+     "id": "nola-capri",
+     "name": "Nola",
+     "kind": "Formal",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 30,
+     "id": "ferruccio-tucci-capri",
+     "name": "Ferruccio Tucci",
+     "kind": "Formal",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 31,
+     "id": "nola-peacock-bay",
+     "name": "Nola",
+     "kind": "Formal",
+     "area": "Peacock Bay",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 32,
+     "id": "nola-ocean-beach-1",
+     "name": "Nola",
+     "kind": "Formal",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 33,
+     "id": "ferruccio-tucci-ocean-beach-1",
+     "name": "Ferruccio Tucci",
+     "kind": "Formal",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 34,
+     "id": "nola-ocean-beach-2",
+     "name": "Nola",
+     "kind": "Formal",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 35,
+     "id": "ferruccio-tucci-ocean-beach-2",
+     "name": "Ferruccio Tucci",
+     "kind": "Formal",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 36,
+     "id": "nola-decor-district",
+     "name": "Nola",
+     "kind": "Formal",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 37,
+     "id": "ferruccio-tucci-decor-district",
+     "name": "Ferruccio Tucci",
+     "kind": "Formal",
+     "area": "Decor District",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 38,
+     "id": "ferruccio-tucci-waning-sands",
+     "name": "Ferruccio Tucci",
+     "kind": "Formal",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 39,
+     "id": "leroys",
+     "name": "Leroy's",
+     "kind": "Souvenir & Swimwear",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 40,
+     "id": "the-wonder-whale",
+     "name": "The Wonder Whale",
+     "kind": "Souvenir & Swimwear",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 41,
+     "id": "billies-key-lento-gift-shop",
+     "name": "Billie's Key Lento Gift Shop",
+     "kind": "Souvenir & Swimwear",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 42,
+     "id": "key-lento-kahuna",
+     "name": "Key Lento Kahuna",
+     "kind": "Souvenir & Swimwear",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 43,
+     "id": "lost-mines-souvenirs",
+     "name": "Lost Mines Souvenirs",
+     "kind": "Souvenir & Swimwear",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 44,
+     "id": "souvenir-shop",
+     "name": "Souvenir Shop",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 45,
+     "id": "dollar-domain",
+     "name": "Dollar Domain",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 46,
+     "id": "little-cuba-souvenir-store",
+     "name": "Little Cuba Souvenir Store",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 47,
+     "id": "telegraphe",
+     "name": "Telegraphe",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 48,
+     "id": "sea-swell-gifts",
+     "name": "Sea Swell Gifts",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 49,
+     "id": "starboard-souvenirs",
+     "name": "Starboard Souvenirs",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 50,
+     "id": "vice-style",
+     "name": "Vice Style",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 51,
+     "id": "sunshine-sallys",
+     "name": "Sunshine Sally's",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 52,
+     "id": "dock-ring-souvenirs",
+     "name": "Dock Ring Souvenirs",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 53,
+     "id": "coquina-box",
+     "name": "Coquina Box",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 54,
+     "id": "knick-knack-paddle-shack",
+     "name": "Knick Knack Paddle Shack",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 55,
+     "id": "island-gifts",
+     "name": "Island Gifts",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 56,
+     "id": "washed-ashore-souvenirs",
+     "name": "Washed Ashore Souvenirs",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 57,
+     "id": "coastal-souvenirs",
+     "name": "Coastal Souvenirs",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 58,
+     "id": "deluge-swimwear",
+     "name": "De'luge Swimwear",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 59,
+     "id": "larrys-lagoon",
+     "name": "Larry's Lagoon",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 60,
+     "id": "waves",
+     "name": "Waves",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 61,
+     "id": "gifts-a-gogo",
+     "name": "Gifts A GoGo",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 62,
+     "id": "beach-please",
+     "name": "Beach Please",
+     "kind": "Souvenir & Swimwear",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 63,
+     "id": "nifty-threads-island-wear",
+     "name": "Nifty Threads Island Wear",
+     "kind": "Thrift",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 64,
+     "id": "hamlet-thrift",
+     "name": "Hamlet Thrift",
+     "kind": "Thrift",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 65,
+     "id": "alines-thrift-store",
+     "name": "Aline's Thrift Store",
+     "kind": "Thrift",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 66,
+     "id": "dr-froogal",
+     "name": "Dr Froogal",
+     "kind": "Thrift",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 67,
+     "id": "bargain-world",
+     "name": "Bargain World",
+     "kind": "Thrift",
+     "county": "kelly",
+     "cn": "Kelly County"
+    }
+   ]
+  },
+  {
+   "id": "convenience-stores",
+   "n": "Convenience stores",
+   "short": "Convenience store",
+   "items": [
+    {
+     "n": 1,
+     "id": "xero-food-mart-southwind",
+     "name": "Xero Food Mart",
+     "area": "Southwind",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 2,
+     "id": "leonida-key-lento-mini-mart",
+     "name": "Leonida Key Lento Mini Mart",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 3,
+     "id": "247-key-lento",
+     "name": "247",
+     "area": "Key Lento",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 4,
+     "id": "randys-big-gas-mart",
+     "name": "Randy's Big Gas Mart",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 5,
+     "id": "poppers-convenience-store",
+     "name": "Poppers Convenience Store",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 6,
+     "id": "jims-mini-mart",
+     "name": "Jim's Mini Mart",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 7,
+     "id": "xero-food-mart-grassrivers-1",
+     "name": "Xero Food Mart",
+     "area": "Grassrivers",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 8,
+     "id": "xero-food-mart-grassrivers-2",
+     "name": "Xero Food Mart",
+     "area": "Grassrivers",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 9,
+     "id": "xero-food-mart-capri",
+     "name": "Xero Food Mart",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 10,
+     "id": "ltd-food-mart-capri",
+     "name": "LTD Food Mart",
+     "area": "Capri",
+     "county": "mariana",
+     "cn": "Mariana County"
+    },
+    {
+     "n": 11,
+     "id": "leonida-truck-stop",
+     "name": "Leonida Truck Stop",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 12,
+     "id": "globe-oil-food-center-hamlet",
+     "name": "Globe Oil Food Center",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 13,
+     "id": "righto-cash-carry",
+     "name": "Righto Cash & Carry",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 14,
+     "id": "ramons-groceries",
+     "name": "Ramon's Groceries",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 15,
+     "id": "ltd-food-mart-hamlet",
+     "name": "LTD Food Mart",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 16,
+     "id": "247-hamlet",
+     "name": "247",
+     "area": "Hamlet",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 17,
+     "id": "xero-food-mart-southside",
+     "name": "Xero Food Mart",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 18,
+     "id": "ron-stopnsnack-southside",
+     "name": "Ron Stop'N'Snack",
+     "area": "Southside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 19,
+     "id": "wells-rosa",
+     "name": "Wells Rosa",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 20,
+     "id": "247-west-vice-dale-county",
+     "name": "247",
+     "area": "West Vice-Dale County",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 21,
+     "id": "xero-food-mart-tequesta",
+     "name": "Xero Food Mart",
+     "area": "Tequesta",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 22,
+     "id": "quick-picks-mini-mart",
+     "name": "Quick Picks Mini Mart",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 23,
+     "id": "247-downtown",
+     "name": "247",
+     "area": "Downtown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 24,
+     "id": "ron-stopnsnack-little-cuba",
+     "name": "Ron Stop'N'Snack",
+     "area": "Little Cuba",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 25,
+     "id": "xero-food-mart-salton",
+     "name": "Xero Food Mart",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 26,
+     "id": "ron-stopnsnack-salton",
+     "name": "Ron Stop'N'Snack",
+     "area": "Salton",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 27,
+     "id": "delgado-sons",
+     "name": "Delgado & Sons",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 28,
+     "id": "ron-stopnsnack-balsero-1",
+     "name": "Ron Stop'N'Snack",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 29,
+     "id": "ron-stopnsnack-balsero-2",
+     "name": "Ron Stop'N'Snack",
+     "area": "Balsero",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 30,
+     "id": "globe-oil-food-center-crosstown",
+     "name": "Globe Oil Food Center",
+     "area": "Crosstown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 31,
+     "id": "hugos-quick-mart",
+     "name": "Hugo's Quick-Mart",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 32,
+     "id": "xyz-market",
+     "name": "XYZ Market",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 33,
+     "id": "xero-food-mart-crosstown",
+     "name": "Xero Food Mart",
+     "area": "Crosstown",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 34,
+     "id": "emilios-auto-center-food-store",
+     "name": "Emilio's Auto Center Food Store",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 35,
+     "id": "ricos-convenience-store",
+     "name": "Rico's Convenience Store",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 36,
+     "id": "xero-food-mart-rockridge",
+     "name": "Xero Food Mart",
+     "area": "Rockridge",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 37,
+     "id": "blessed-food-market",
+     "name": "Blessed Food Market",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 38,
+     "id": "vetiver-minimarket",
+     "name": "Vetiver Minimarket",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 39,
+     "id": "247-bayside",
+     "name": "247",
+     "area": "Bayside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 40,
+     "id": "xero-food-mart-la-perle",
+     "name": "Xero Food Mart",
+     "area": "La Perle",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 41,
+     "id": "ron-stopnsnack-bayside",
+     "name": "Ron Stop'N'Snack",
+     "area": "Bayside",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 42,
+     "id": "247-washington-beach",
+     "name": "247",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 43,
+     "id": "ron-stopnsnack-washington-beach",
+     "name": "Ron Stop'N'Snack",
+     "area": "Washington Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 44,
+     "id": "a-l-surf-mart",
+     "name": "A&L Surf Mart",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 45,
+     "id": "247-ocean-beach",
+     "name": "247",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 46,
+     "id": "ltd-food-mart-ocean-beach",
+     "name": "LTD Food Mart",
+     "area": "Ocean Beach",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 47,
+     "id": "superprecious-market",
+     "name": "!Superprecious! Market",
+     "county": "vicedale",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 48,
+     "id": "xero-food-mart-belville",
+     "name": "Xero Food Mart",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 49,
+     "id": "247-belville",
+     "name": "247",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 50,
+     "id": "alpha-convenience-store-belville",
+     "name": "Alpha Convenience Store",
+     "area": "Belville",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 51,
+     "id": "xero-food-mart-waning-sands",
+     "name": "Xero Food Mart",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 52,
+     "id": "247-waning-sands",
+     "name": "247",
+     "area": "Waning Sands",
+     "county": "leonard",
+     "cn": "Leonard County"
+    },
+    {
+     "n": 53,
+     "id": "xero-food-mart-buckskin-swamp-1",
+     "name": "Xero Food Mart",
+     "area": "Buckskin Swamp",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 54,
+     "id": "xero-food-mart-buckskin-swamp-2",
+     "name": "Xero Food Mart",
+     "area": "Buckskin Swamp",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 55,
+     "id": "xero-food-mart-south-kelly-county",
+     "name": "Xero Food Mart",
+     "area": "South Kelly County",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 56,
+     "id": "emerald-springs-country-store",
+     "name": "Emerald Springs Country Store",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 57,
+     "id": "tuckers-citrus-farms",
+     "name": "Tucker's Citrus Farms",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 58,
+     "id": "247-emerald-springs",
+     "name": "247",
+     "area": "Emerald Springs",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 59,
+     "id": "xero-food-mart-ambrosia",
+     "name": "Xero Food Mart",
+     "area": "Ambrosia",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 60,
+     "id": "cane-grocery",
+     "name": "Cane Grocery",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 61,
+     "id": "bunch-farms-country-store",
+     "name": "Bunch Farms Country Store",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 62,
+     "id": "alpha-convenience-store-gellhorn",
+     "name": "Alpha Convenience Store",
+     "area": "Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 63,
+     "id": "sarenas-bargain-store",
+     "name": "Sarena's Bargain Store",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 64,
+     "id": "247-port-gellhorn",
+     "name": "247",
+     "area": "Port Gellhorn",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 65,
+     "id": "dales-shopwell",
+     "name": "Dale's Shopwell",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 66,
+     "id": "eager-beaver-express",
+     "name": "Eager Beaver Express",
+     "county": "kelly",
+     "cn": "Kelly County"
+    },
+    {
+     "n": 67,
+     "id": "hucks-pump-n-go",
+     "name": "Huck's Pump N Go",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 68,
+     "id": "247-west-kalaga",
+     "name": "247",
+     "area": "West Kalaga",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 69,
+     "id": "redshaws-general-store",
+     "name": "Redshaw's General Store",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 70,
+     "id": "247-millport",
+     "name": "247",
+     "area": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 71,
+     "id": "xero-food-mart-millport",
+     "name": "Xero Food Mart",
+     "area": "Millport",
+     "county": "lummox",
+     "cn": "Lummox County"
+    },
+    {
+     "n": 72,
+     "id": "trotmans-supermarket",
+     "name": "Trotman's Supermarket",
+     "county": "lummox",
+     "cn": "Lummox County"
+    }
+   ]
   }
  ],
  "sources": [
@@ -579,6 +1711,16 @@
    "label": "PowerPyx: GTA 6 All Car Washes Locations",
    "url": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
    "note": "Read Nov 21, 2026 via ?p=371140. 6 car washes, all in Vice City; optional; repairing also cleans the car. Park N Glow has no area label. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Clothing Stores Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+   "note": "Read Nov 24, 2026 (modified Nov 20; ?p=371144). 67 stores in five types (17 Casual & Street, 11 Sportswear, 10 Formal, 24 Souvenir & Swimwear, 5 Thrift), county headings, area where given (\"Ocean Beach 1-4\" shown as Ocean Beach). Same brand usually sells the same clothes; most have a changing room; 15 saved outfits; clothes wait in the home wardrobe and can be kept in the car trunk; some Ammu-Nations and mod shops sell clothes; shoes are a separate store type (17 footwear stores). Stock 305 Ultimate Edition only (matches editionItems.json from Rockstar). Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Convenience Stores Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+   "note": "Read Nov 24, 2026 (modified Nov 18). 72 stores (10 Mariana, 37 Vice-Dale, 5 Leonard, 14 Kelly, 6 Lummox); area taken from the \"Name – Area\" part of the name (Balerso typo fixed to Balsero). Sell Zombix, pet food for animals you meet and groceries for the fridge at home. Map filter Food & Drink > Convenience Stores. Trusted source."
   }
  ]
 }

@@ -63,21 +63,33 @@
     {%- if not t.items.length %}
     <div class="empty"><p>No locations listed yet. We add them once a trusted source, or two that agree, shows where they are, so you won't be sent to the wrong place.</p></div>
     {%- endif %}
+    {%- set multi = t.itemSets.length > 1 %}
+    {%- if multi %}
+    <div class="filters" data-filter-group="col" role="group" aria-label="Filter by set">
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All · {{ t.items.length }}</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not found</button>
+      {%- for s in t.itemSets %}
+      <button type="button" class="fchip" data-filter="{{ s.slug }}" aria-pressed="false">{{ s.name }} · {{ s.count }}</button>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    <div{% if multi %} data-filter-list="col"{% endif %}>
     {%- for c in db.collectibles.counties %}
     {%- set here = t.items | where("county", c.slug) %}
     {%- if here.length %}
-    <div class="chapter">
+    <div class="chapter"{% if multi %} data-filter-parent{% endif %}>
       <h2 class="chapter-h"><a href="/collectibles/area/{{ c.slug }}/">{{ c.name }}</a><span>{{ here.length }}</span></h2>
       <ul class="items">
         {%- for i in here %}
         {%- set key = "col:" + t.slug + ":" + i.id %}
-        <li class="item" data-track-row id="{{ i.id }}">
+        {%- set sslug = "" %}{% for s in t.itemSets %}{% if s.name == i.set %}{% set sslug = s.slug %}{% endif %}{% endfor %}
+        <li class="item" data-track-row id="{{ i.id }}"{% if multi %} data-tags="{{ sslug or 'set-none' }}"{% endif %}>
           <input class="cb" type="checkbox" id="c-{{ t.slug }}-{{ i.id }}" data-track="{{ key }}" aria-label="Mark {{ i.name }} found">
           <span class="item-no">{% if i.n %}{{ i.n | pad }}{% else %}·{% endif %}</span>
           <div class="item-body">
             <label for="c-{{ t.slug }}-{{ i.id }}" class="item-name">{{ i.name }}</label>
             <p class="item-meta">{% if i.set %}<span>{{ i.set }}{% if i.n %} #{{ i.n }}{% endif %}</span>{% endif %}<span>{{ i.area }}</span>{% if i.who %}<span>{{ i.who }}</span>{% endif %}{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
-            <p>{{ i.where | md | safe }}</p>
+            {%- if i.where %}<p>{{ i.where | md | safe }}</p>{% endif %}
             {%- if i.mission %}<a class="more" href="/walkthrough/{{ i.mission }}/">Reachable during a mission</a>{% endif %}
           </div>
         </li>
@@ -86,6 +98,8 @@
     </div>
     {%- endif %}
     {%- endfor %}
+    </div>
+    {%- if multi %}<p class="nomatch" data-nomatch="col" hidden>Nothing left here for that filter.</p>{% endif %}
     {%- if t.items.length %}<button class="reset" type="button" data-reset="col:{{ t.slug }}:">Reset this set</button>{% endif %}
     <p class="lede" style="margin-top:22px">See all <a href="/collectibles/">collectible sets</a>, the <a href="/collectibles/#by-area">checklists by area</a>, the <a href="/map/#tracker">map tracker</a> or the <a href="/guides/100-percent-checklist/">100% checklist</a>.</p>
     {%- if t.updated %}<p class="stamp">Last updated {{ t.updated | niceDate }}</p>{% endif %}

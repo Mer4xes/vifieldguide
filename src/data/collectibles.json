@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-24",
   "types": [
     {
       "slug": "collectible-cards",
@@ -666,28 +666,34 @@
       "counterLabel": "WAiNK locations scanned",
       "how": [
         "Open WAiNK on your phone, point it at the spot and scan.",
-        "Scans come in four kinds: **landmarks**, **sculptures**, **curiosities** and **utility markings**.",
-        "The same app scans cars (for the vehicle count) and posters (for the unique playlists).",
+        "There are **31 landmarks**, **35 curiosities**, **23 sculptures** and **4 Peewees billboards**, plus the **No Flusher tags** sprayed around town (utility markings). Any 100 count.",
+        "The same app scans cars (for the vehicle count) and posters (for the [unique playlists](/collectibles/unique-playlists/)).",
         "Track them under Progress, Collections, WAiNK Locations."
       ],
       "items": [
         {
-          "id": "landmark-17",
-          "name": "Belpoint Lighthouse",
-          "county": "mariana-county",
-          "area": "Belpoint",
-          "where": "On the southern tip of Belpoint, the island west of Capri. Moor at the dock and walk to the settlement in the south.",
+          "id": "landmark-1",
+          "name": "Old Goliath",
+          "county": "kelly-county",
+          "area": "Ambrosia",
           "set": "Landmarks",
-          "n": 17
+          "n": 1
         },
         {
-          "id": "sculpture-7",
-          "name": "Triangler Sculpture",
+          "id": "landmark-2",
+          "name": "Vice City Sign",
+          "county": "vice-dale-county",
+          "area": "Three Toe Lake",
+          "set": "Landmarks",
+          "n": 2
+        },
+        {
+          "id": "landmark-4",
+          "name": "Bobcat Key Experimental Home",
           "county": "mariana-county",
-          "area": "Corsair Key",
-          "where": "A fish-shaped monument just off the coast of Corsair Key. Scan it from the shore or a boat.",
-          "set": "Sculptures",
-          "n": 7
+          "area": "Bobcat Key",
+          "set": "Landmarks",
+          "n": 4
         },
         {
           "id": "landmark-5",
@@ -708,6 +714,38 @@
           "n": 6
         },
         {
+          "id": "landmark-7",
+          "name": "IAA's Friends of Freedom",
+          "county": "vice-city",
+          "area": "Downtown",
+          "set": "Landmarks",
+          "n": 7
+        },
+        {
+          "id": "landmark-8",
+          "name": "Unidentified Building",
+          "county": "leonard-county",
+          "area": "Little Hardin Island",
+          "set": "Landmarks",
+          "n": 8
+        },
+        {
+          "id": "landmark-9",
+          "name": "Thicc Herbie",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "set": "Landmarks",
+          "n": 9
+        },
+        {
+          "id": "landmark-10",
+          "name": "Riquezas Keys Radome",
+          "county": "mariana-county",
+          "area": "Riquezas Keys",
+          "set": "Landmarks",
+          "n": 10
+        },
+        {
           "id": "landmark-11",
           "name": "Gellhorn Fun Fair",
           "county": "kelly-county",
@@ -715,6 +753,49 @@
           "where": "On Shore Dr, north of the Oyster Point Gas stop. Scan the old Ferris wheel.",
           "set": "Landmarks",
           "n": 11
+        },
+        {
+          "id": "landmark-periscope",
+          "name": "Downtown Periscope",
+          "county": "vice-city",
+          "area": "Downtown",
+          "where": "Near Catalan Blvd.",
+          "set": "Landmarks",
+          "n": 12
+        },
+        {
+          "id": "landmark-13",
+          "name": "St. Lucia Lighthouse",
+          "county": "leonard-county",
+          "area": "Little Hardin Island",
+          "set": "Landmarks",
+          "n": 13
+        },
+        {
+          "id": "landmark-skyride",
+          "name": "Sky Ride",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "East of the Emerald River. Trees hide part of it, but it's tall enough to spot.",
+          "set": "Landmarks",
+          "n": 14
+        },
+        {
+          "id": "landmark-15",
+          "name": "Pelican Valley Observation Tower",
+          "county": "mariana-county",
+          "area": "Grassrivers",
+          "set": "Landmarks",
+          "n": 15
+        },
+        {
+          "id": "landmark-17",
+          "name": "Belpoint Lighthouse",
+          "county": "mariana-county",
+          "area": "Belpoint",
+          "where": "On the southern tip of Belpoint, the island west of Capri. Moor at the dock and walk to the settlement in the south.",
+          "set": "Landmarks",
+          "n": 17
         },
         {
           "id": "landmark-18",
@@ -744,12 +825,21 @@
           "n": 22
         },
         {
-          "id": "landmark-periscope",
-          "name": "Downtown Periscope",
-          "county": "vice-city",
-          "area": "Downtown",
-          "where": "Near Catalan Blvd.",
-          "set": "Landmarks"
+          "id": "landmark-23",
+          "name": "Wild Hog Point Radar Base",
+          "county": "kelly-county",
+          "area": "Wild Hog Point",
+          "set": "Landmarks",
+          "n": 23
+        },
+        {
+          "id": "landmark-udder",
+          "name": "Howe Dairy Farm's Big Udder",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "A silo painted like a cow, just south of CR 62. You can see it from the highway.",
+          "set": "Landmarks",
+          "n": 24
         },
         {
           "id": "landmark-badger",
@@ -757,7 +847,57 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "where": "On Sunset Dr, across from Donnie's trailer.",
-          "set": "Landmarks"
+          "set": "Landmarks",
+          "n": 25
+        },
+        {
+          "id": "landmark-26",
+          "name": "Aqua Stadium",
+          "county": "vice-dale-county",
+          "area": "Gloriana Key",
+          "set": "Landmarks",
+          "n": 26
+        },
+        {
+          "id": "landmark-tucker",
+          "name": "Tucker's Citrus Farms Water Tower",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "At Tucker's Citrus Farms, east of Port Gellhorn.",
+          "set": "Landmarks",
+          "n": 27
+        },
+        {
+          "id": "landmark-28",
+          "name": "Sahara Arena",
+          "county": "vice-city",
+          "area": "Downtown",
+          "set": "Landmarks",
+          "n": 28
+        },
+        {
+          "id": "landmark-29",
+          "name": "Fleeca Field",
+          "county": "vice-city",
+          "area": "Rockridge",
+          "set": "Landmarks",
+          "n": 29
+        },
+        {
+          "id": "landmark-30",
+          "name": "Tallaloko Amphitheater",
+          "county": "lummox-county",
+          "area": "Lake Tallaloko",
+          "set": "Landmarks",
+          "n": 30
+        },
+        {
+          "id": "landmark-31",
+          "name": "Courtland Park Stadium",
+          "county": "vice-dale-county",
+          "area": "Catalan Key",
+          "set": "Landmarks",
+          "n": 31
         },
         {
           "id": "landmark-hoffman",
@@ -768,28 +908,84 @@
           "set": "Landmarks"
         },
         {
-          "id": "landmark-skyride",
-          "name": "Sky Ride",
+          "id": "curiosity-1",
+          "name": "Hovercraft Crash",
           "county": "kelly-county",
-          "area": "Emerald Springs",
-          "where": "East of the Emerald River. Trees hide part of it, but it's tall enough to spot.",
-          "set": "Landmarks"
+          "area": "Sandbars",
+          "set": "Curiosities",
+          "n": 1
         },
         {
-          "id": "landmark-udder",
-          "name": "Howe Dairy Farm's Big Udder",
-          "county": "kelly-county",
-          "area": "Emerald Springs",
-          "where": "A silo painted like a cow, just south of CR 62. You can see it from the highway.",
-          "set": "Landmarks"
+          "id": "curiosity-2",
+          "name": "Wreck of the Meerwunder",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "set": "Curiosities",
+          "n": 2
         },
         {
-          "id": "landmark-tucker",
-          "name": "Tucker's Citrus Farms Water Tower",
+          "id": "curiosity-3",
+          "name": "Anti Sugar Residence",
           "county": "kelly-county",
-          "area": "Emerald Springs",
-          "where": "At Tucker's Citrus Farms, east of Port Gellhorn.",
-          "set": "Landmarks"
+          "area": "Ambrosia",
+          "set": "Curiosities",
+          "n": 3
+        },
+        {
+          "id": "curiosity-4",
+          "name": "Derelict Spy Vessel",
+          "county": "mariana-county",
+          "area": "Permit Keys",
+          "set": "Curiosities",
+          "n": 4
+        },
+        {
+          "id": "curiosity-5",
+          "name": "Camp Moonflower",
+          "county": "kelly-county",
+          "area": "Emerald River",
+          "set": "Curiosities",
+          "n": 5
+        },
+        {
+          "id": "curiosity-6",
+          "name": "Dead Sharks",
+          "county": "mariana-county",
+          "area": "Wetman Bay",
+          "set": "Curiosities",
+          "n": 6
+        },
+        {
+          "id": "curiosity-7",
+          "name": "Fossilized Prints",
+          "county": "lummox-county",
+          "area": "Moreau",
+          "set": "Curiosities",
+          "n": 7
+        },
+        {
+          "id": "curiosity-8",
+          "name": "Beach Party Site",
+          "county": "mariana-county",
+          "area": "Permit Keys",
+          "set": "Curiosities",
+          "n": 8
+        },
+        {
+          "id": "curiosity-9",
+          "name": "Fairy Lane",
+          "county": "lummox-county",
+          "area": "Southwest Lummox County",
+          "set": "Curiosities",
+          "n": 9
+        },
+        {
+          "id": "curiosity-10",
+          "name": "Mermaid Display",
+          "county": "vice-dale-county",
+          "area": "Catalan Key",
+          "set": "Curiosities",
+          "n": 10
         },
         {
           "id": "curiosity-11",
@@ -801,6 +997,143 @@
           "n": 11
         },
         {
+          "id": "curiosity-12",
+          "name": "Intriguing Substance",
+          "county": "lummox-county",
+          "area": "Lake Tallaloko",
+          "set": "Curiosities",
+          "n": 12
+        },
+        {
+          "id": "curiosity-13",
+          "name": "Halloween House",
+          "county": "mariana-county",
+          "area": "Capri",
+          "set": "Curiosities",
+          "n": 13
+        },
+        {
+          "id": "curiosity-christmas",
+          "name": "Christmas House",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On Sunset Dr. You can't miss the festive lights.",
+          "set": "Curiosities",
+          "n": 14
+        },
+        {
+          "id": "curiosity-15",
+          "name": "Dino Golf",
+          "county": "kelly-county",
+          "area": "Frogswater",
+          "set": "Curiosities",
+          "n": 15
+        },
+        {
+          "id": "curiosity-16",
+          "name": "Noflusher Homestead",
+          "county": "mariana-county",
+          "area": "Wetman Bay",
+          "set": "Curiosities",
+          "n": 16
+        },
+        {
+          "id": "curiosity-17",
+          "name": "Deserted Home",
+          "county": "kelly-county",
+          "area": "Emerald River",
+          "set": "Curiosities",
+          "n": 17
+        },
+        {
+          "id": "curiosity-18",
+          "name": "Lovers Lookout",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "set": "Curiosities",
+          "n": 18
+        },
+        {
+          "id": "curiosity-19",
+          "name": "Pet Cemetery",
+          "county": "lummox-county",
+          "area": "Grayson",
+          "set": "Curiosities",
+          "n": 19
+        },
+        {
+          "id": "curiosity-20",
+          "name": "Desert Island Piano",
+          "county": "mariana-county",
+          "area": "Shoeless Keys",
+          "set": "Curiosities",
+          "n": 20
+        },
+        {
+          "id": "curiosity-21",
+          "name": "Promotional Sand Vehicles",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "set": "Curiosities",
+          "n": 21
+        },
+        {
+          "id": "curiosity-22",
+          "name": "Belville Topiary",
+          "county": "leonard-county",
+          "area": "Belville",
+          "set": "Curiosities",
+          "n": 22
+        },
+        {
+          "id": "curiosity-23",
+          "name": "Abismo Key Carcass",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "set": "Curiosities",
+          "n": 23
+        },
+        {
+          "id": "curiosity-24",
+          "name": "Wetman Bay Carcass",
+          "county": "mariana-county",
+          "area": "Wetman Bay",
+          "set": "Curiosities",
+          "n": 24
+        },
+        {
+          "id": "curiosity-25",
+          "name": "Goose Key Carcass",
+          "county": "mariana-county",
+          "area": "Mile Zero Air Station",
+          "set": "Curiosities",
+          "n": 25
+        },
+        {
+          "id": "curiosity-26",
+          "name": "C0-B8 Engine",
+          "county": "lummox-county",
+          "area": "Mac Alister Gold Mine",
+          "set": "Curiosities",
+          "n": 26
+        },
+        {
+          "id": "curiosity-27",
+          "name": "C0-B8 Debris",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "set": "Curiosities",
+          "n": 27
+        },
+        {
+          "id": "curiosity-28",
+          "name": "C0-B8 Fairing",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "set": "Curiosities",
+          "n": 28
+        },
+        {
           "id": "curiosity-29",
           "name": "Big Entrance",
           "county": "vice-beach",
@@ -810,12 +1143,44 @@
           "n": 29
         },
         {
-          "id": "curiosity-christmas",
-          "name": "Christmas House",
+          "id": "curiosity-30",
+          "name": "Fingerpost",
           "county": "mariana-county",
-          "area": "Key Lento",
-          "where": "On Sunset Dr. You can't miss the festive lights.",
-          "set": "Curiosities"
+          "area": "Permit Keys",
+          "set": "Curiosities",
+          "n": 30
+        },
+        {
+          "id": "curiosity-31",
+          "name": "Spaceship House",
+          "county": "kelly-county",
+          "area": "Ambrosia",
+          "set": "Curiosities",
+          "n": 31
+        },
+        {
+          "id": "curiosity-32",
+          "name": "Vibrant Pond",
+          "county": "mariana-county",
+          "area": "Cottonmouth Lake",
+          "set": "Curiosities",
+          "n": 32
+        },
+        {
+          "id": "curiosity-33",
+          "name": "Unidentified Animal Pen (UAP)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "set": "Curiosities",
+          "n": 33
+        },
+        {
+          "id": "curiosity-34",
+          "name": "Selkie Hole",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "set": "Curiosities",
+          "n": 34
         },
         {
           "id": "curiosity-plunge",
@@ -823,7 +1188,125 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "where": "Scan the mural on the back wall of the Plunge Masters dive centre on Sunset Dr.",
-          "set": "Curiosities"
+          "set": "Curiosities",
+          "n": 35
+        },
+        {
+          "id": "sculpture-1",
+          "name": "Leonida Snow",
+          "county": "vice-city",
+          "area": "Downtown",
+          "set": "Sculptures",
+          "n": 1
+        },
+        {
+          "id": "sculpture-oil",
+          "name": "Gimme All Your Oil",
+          "county": "vice-city",
+          "area": "Decor District",
+          "where": "On Catalan Blvd, southeast of the Blanc & Giroux jewelry store.",
+          "set": "Sculptures",
+          "n": 2
+        },
+        {
+          "id": "sculpture-3",
+          "name": "Flam Gummies",
+          "county": "vice-city",
+          "area": "Panos Plaza",
+          "set": "Sculptures",
+          "n": 3
+        },
+        {
+          "id": "sculpture-4",
+          "name": "Grassrivers Visitor Center Statue",
+          "county": "mariana-county",
+          "area": "Shoeless Keys",
+          "set": "Sculptures",
+          "n": 4
+        },
+        {
+          "id": "sculpture-trex",
+          "name": "Junkyard T-Rex",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "Off Sassafrass Rd north of the Kalaga Reservoir, east of Bret's hunting cabin.",
+          "set": "Sculptures",
+          "n": 5
+        },
+        {
+          "id": "sculpture-plaque",
+          "name": "Fatal Incursion Plaque",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the southwestern tip off the Sunbelt Hwy, west of the Barnacle Beauties salon.",
+          "set": "Sculptures",
+          "n": 6
+        },
+        {
+          "id": "sculpture-7",
+          "name": "Triangler Sculpture",
+          "county": "mariana-county",
+          "area": "Corsair Key",
+          "where": "A fish-shaped monument just off the coast of Corsair Key. Scan it from the shore or a boat.",
+          "set": "Sculptures",
+          "n": 7
+        },
+        {
+          "id": "sculpture-9",
+          "name": "Monument of Leonida",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "set": "Sculptures",
+          "n": 9
+        },
+        {
+          "id": "sculpture-10",
+          "name": "Mother Rushwood",
+          "county": "lummox-county",
+          "area": "Millport",
+          "set": "Sculptures",
+          "n": 10
+        },
+        {
+          "id": "sculpture-lure",
+          "name": "Large Lure",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In the park on Thompson Ave, right south of Lucciano's.",
+          "set": "Sculptures",
+          "n": 11
+        },
+        {
+          "id": "sculpture-12",
+          "name": "Catalan Blvd Garden",
+          "county": "vice-city",
+          "area": "Bayside",
+          "set": "Sculptures",
+          "n": 12
+        },
+        {
+          "id": "sculpture-13",
+          "name": "Colossus",
+          "county": "vice-city",
+          "area": "Peacock Bay",
+          "set": "Sculptures",
+          "n": 13
+        },
+        {
+          "id": "sculpture-14",
+          "name": "Blanco Memorial",
+          "county": "vice-beach",
+          "area": "Salton Memorial Island",
+          "set": "Sculptures",
+          "n": 14
+        },
+        {
+          "id": "sculpture-15",
+          "name": "Buckskin Swamp Totem",
+          "county": "kelly-county",
+          "area": "Buckskin Swamp",
+          "set": "Sculptures",
+          "n": 15
         },
         {
           "id": "sculpture-16",
@@ -833,6 +1316,22 @@
           "where": "On Catalan Blvd, west of Tequesta Retreat.",
           "set": "Sculptures",
           "n": 16
+        },
+        {
+          "id": "sculpture-17",
+          "name": "Thrillbilly Mascot",
+          "county": "kelly-county",
+          "area": "Frogswater",
+          "set": "Sculptures",
+          "n": 17
+        },
+        {
+          "id": "sculpture-18",
+          "name": "The Grand Turkey of Capri",
+          "county": "mariana-county",
+          "area": "Capri",
+          "set": "Sculptures",
+          "n": 18
         },
         {
           "id": "sculpture-19",
@@ -853,6 +1352,15 @@
           "n": 20
         },
         {
+          "id": "sculpture-whale",
+          "name": "The Wonder Whale",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "The whale south of The Wonder Whale shop, next to the Sunbelt Hwy.",
+          "set": "Sculptures",
+          "n": 21
+        },
+        {
           "id": "sculpture-22",
           "name": "Princess Robot Bubblegum Statue",
           "county": "vice-beach",
@@ -869,46 +1377,6 @@
           "where": "In the north of the canyon, just west of SR-73 and north of Port Gellhorn.",
           "set": "Sculptures",
           "n": 23
-        },
-        {
-          "id": "sculpture-oil",
-          "name": "Gimme All Your Oil",
-          "county": "vice-city",
-          "area": "Decor District",
-          "where": "On Catalan Blvd, southeast of the Blanc & Giroux jewelry store.",
-          "set": "Sculptures"
-        },
-        {
-          "id": "sculpture-trex",
-          "name": "Junkyard T-Rex",
-          "county": "lummox-county",
-          "area": "Mount Kalaga National Park",
-          "where": "Off Sassafrass Rd north of the Kalaga Reservoir, east of Bret's hunting cabin.",
-          "set": "Sculptures"
-        },
-        {
-          "id": "sculpture-plaque",
-          "name": "Fatal Incursion Plaque",
-          "county": "mariana-county",
-          "area": "Key Lento",
-          "where": "On the southwestern tip off the Sunbelt Hwy, west of the Barnacle Beauties salon.",
-          "set": "Sculptures"
-        },
-        {
-          "id": "sculpture-whale",
-          "name": "The Wonder Whale",
-          "county": "mariana-county",
-          "area": "Key Lento",
-          "where": "The whale south of The Wonder Whale shop, next to the Sunbelt Hwy.",
-          "set": "Sculptures"
-        },
-        {
-          "id": "sculpture-lure",
-          "name": "Large Lure",
-          "county": "vice-beach",
-          "area": "Ocean Beach",
-          "where": "In the park on Thompson Ave, right south of Lucciano's.",
-          "set": "Sculptures"
         },
         {
           "id": "noflusher-1",
@@ -943,8 +1411,14 @@
           "label": "Push Square: WAiNK landmark, curiosity, sculpture, No Flusher pages",
           "url": "https://www.pushsquare.com/guides/gta-6-waink-landmark-locations",
           "note": "Modified Nov 19, 2026. Unnumbered extras used. Fingerpost (Permit Keys, Southwind) left out: no county on our list."
+        },
+        {
+          "label": "PowerPyx: landmark, curiosity, sculpture pages (Nov 23 update)",
+          "url": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/",
+          "note": "Read Nov 24, 2026. Landmarks 27 of 31 (3, 16, 19, 20 blank; modified Nov 23 00:46), curiosities 35 of 35 (?p=374049, modified Nov 23 16:52), sculptures 22 of 23 (8 blank; ?p=374051, modified Nov 23 13:40). Names and County > Area only; no text hints, so new rows have no where line. Hub (?p=374045, Nov 22) lists 4 Peewees Billboards as the fourth set. Junkyard T-Rex: PowerPyx area Tallaloko vs Push Square Mount Kalaga National Park, kept as before. Hoffman Observatory (Push Square) not on the PowerPyx landmark list; may be one of the blanks. Page typos fixed: Rock Rudge > Rockridge, Mount Kalaga Nation Park, Lumox."
         }
-      ]
+      ],
+      "updated": "2026-11-24"
     },
     {
       "slug": "cocaine-flamingos",

@@ -256,7 +256,8 @@
     {
      "id": "grocery-shopper",
      "name": "Grocery Shopper",
-     "req": "Spend more than $250 at convenience or liquor stores in one day."
+     "req": "Spend more than $250 at convenience or liquor stores in one day.",
+     "u": "/guides/shops/#convenience-stores"
     },
     {
      "id": "well-armed",
@@ -278,7 +279,8 @@
     {
      "id": "well-dressed",
      "name": "Well Dressed",
-     "req": "Spend more than $5,000 on clothes."
+     "req": "Spend more than $5,000 on clothes.",
+     "u": "/guides/shops/#clothing-stores"
     },
     {
      "id": "custom-ride",

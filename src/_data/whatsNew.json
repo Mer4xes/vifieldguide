@@ -1,13 +1,30 @@
 [
  {
+  "date": "2026-11-24",
+  "tag": "Collectibles",
+  "title": "87 WAiNK scan spots mapped",
+  "text": "Most landmarks, every curiosity and nearly every sculpture, by county and area, with a set filter and ticks that save.",
+  "url": "/collectibles/waink-locations/",
+  "img": "/assets/img/region-vice-city.webp",
+  "cta": "Start scanning",
+  "pos": "60% 50%"
+ },
+ {
+  "date": "2026-11-24",
+  "tag": "Update",
+  "title": "Clothing and convenience stores",
+  "text": "All 67 clothing stores by type and 72 convenience stores join the shop finder, searchable by area.",
+  "url": "/guides/shops/#clothing-stores",
+  "img": "/assets/img/region-leonida-keys.webp"
+ },
+ {
   "date": "2026-11-23",
   "tag": "New guide",
   "title": "Fishing, hunting and the animal log",
   "text": "Lures, controls, why every fish goes back, Bret's hunts, and how to study all 255 animals, with a tick list.",
   "url": "/guides/fishing-and-hunting/",
   "img": "/assets/img/misc/act-fishing.webp",
-  "pos": "24% 50%",
-  "cta": "Read the guide"
+  "pos": "24% 50%"
  },
  {
   "date": "2026-11-23",
@@ -48,21 +65,5 @@
   "text": "The walkthrough is complete: all 93 story missions step by step, from the first job to the final choice.",
   "url": "/walkthrough/",
   "img": "/assets/img/art/jl-rooftop.webp"
- },
- {
-  "date": "2026-11-22",
-  "tag": "New guide",
-  "title": "All 397 stunts, sorted",
-  "text": "The four kinds of stunt, what 250 and 300 need, and tick lists for all 130 stunt jumps, every knife flight and every base jump.",
-  "url": "/guides/stunts/",
-  "img": "/assets/img/misc/act-heli.webp"
- },
- {
-  "date": "2026-11-22",
-  "tag": "Trophies",
-  "title": "A page for every trophy",
-  "text": "Open-world and collectible trophies now have their own page with the method, a tick box and related trophies.",
-  "url": "/trophies/",
-  "img": "/assets/img/art/jl-beach.webp"
  }
 ]
