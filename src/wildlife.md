@@ -8,7 +8,7 @@ description: "GTA 6 has more than 170 animal species, legendary animals to track
 summary: Leonida is the most alive map Rockstar has built. More than 170 animal species, rare and legendary animals to find, and weather that rolls across the map.
 glow: cyan
 image: /assets/img/full/wl-swamp.webp
-updated: 2026-11-23
+updated: 2026-11-24
 facts:
   - { k: Animal species, v: "170+", status: Confirmed }
   - { k: Bird types, v: "60+", status: Confirmed }
@@ -18,7 +18,7 @@ tldr:
   - "**The game is out.** The in-game animal log has **255 entries**. How to study animals, fish and hunt is in [fishing, hunting and the animal log](/guides/fishing-and-hunting/). This page keeps what Rockstar showed before launch."
   - "Leonida has **over 170 animal species**, including more than 60 birds and over 30 land mammals, plus fish and reptiles. Some have never appeared in a Rockstar game before."
   - "Like Red Dead Redemption 2, some animals are **Rare, Discoverable or Legendary**. Rockstar is keeping the legendary ones secret."
-  - "Weather is **local**: one part of the map can be sunny while a storm hits the next. **Tropical storms and hurricanes** are in."
+  - "Weather is **local**: one part of the map can be sunny while a storm hits the next. **Tropical storms and hurricanes** are in. Hurricanes switch on once you finish [Freddie's side job](/guides/side-contacts/#freddie)."
 sections:
   - title: Animals Rockstar has named
     kicker: On land
@@ -47,10 +47,12 @@ sections:
       - { t: Rain that stays, d: "Wet ground and puddles stick around after a shower, and the right light gives you rainbows.", status: Confirmed, src: Game Informer }
       - { t: Wind, d: "Sea breezes after sunset, updrafts and gusts around buildings move hair, debris, water and swamp grass.", status: Confirmed, src: Game Informer }
       - { t: Tropical storms and hurricanes, d: "Heavy cloud, strong wind, torrential rain, thunder and lightning. How often they hit and what they do to missions has not been said.", status: Confirmed, src: Game Informer }
+      - { t: Hurricanes come with a side job, d: "Hurricane weather is switched on by finishing Retest Freddie's Defenses, a side job at a prepper's bunker on Lake Leonida that's open in any chapter. A hurricane hits during the job itself.", status: Reported, src: "PowerPyx, Magic Game World" }
 sources:
   - { label: "Game Informer: Grand Theft Auto VI – Welcome to Leonida (cover story)", url: "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida", note: "Interviews with Rockstar's art and world teams. Sep 29, 2026." }
   - { label: "Game Informer: GTA VI includes over 170 animal species", url: "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species" }
   - { label: "Game Informer: GTA VI features tropical storms and hurricanes", url: "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-features-tropical-storms-and-hurricanes" }
   - { label: "GTABase: Game Informer preview details", url: "https://www.gtabase.com/articles/gta-6/gta-6-game-informer-previews-new-details-on-leonida-weather-more", note: "Animal traits and fur details." }
+  - { label: "PowerPyx: Retest Freddie's Defenses", url: "https://www.powerpyx.com/gta-6-retest-freddies-defenses-walkthrough/", note: "Nov 22-23, 2026. Finishing it unlocks hurricane weather. Cross-checked with Magic Game World." }
   - { label: "Rockstar Games: The Goodtime State – Vice City Collection", url: "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l" }
 ---

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-24",
  "total": 61,
  "types": {
   "player": "Player",
@@ -12,7 +12,7 @@
   {
    "id": "story",
    "n": "Finish the story",
-   "lede": "Four cheats, and the only ones that need nothing else.",
+   "lede": "Three cheats, and the only ones known to need nothing else.",
    "items": [
     {
      "id": "250-000",
@@ -66,22 +66,6 @@
       "D",
       "U",
       "D"
-     ]
-    },
-    {
-     "id": "cycle-weather",
-     "name": "Cycle Weather",
-     "does": "Changes the weather.",
-     "type": "world",
-     "unlock": "Finish the story.",
-     "code": [
-      "D",
-      "R",
-      "U",
-      "D",
-      "R",
-      "U",
-      "R"
      ]
     }
    ]
@@ -139,7 +123,19 @@
      "name": "Drunk",
      "does": "Gets you and your partner drunk.",
      "type": "player",
-     "unlock": "Spend $2,500 on alcohol."
+     "unlock": "Spend $2,500 on alcohol.",
+     "code": [
+      "U",
+      "L",
+      "R",
+      "U",
+      "U",
+      "L",
+      "R",
+      "U",
+      "L",
+      "R"
+     ]
     },
     {
      "id": "max-ammo",
@@ -405,7 +401,7 @@
      "name": "MTL Pumper",
      "does": "Spawns an MTL Pumper.",
      "type": "vehicle",
-     "unlock": "Not known yet.",
+     "unlock": "Discover it (it shows in the Progress menu).",
      "code": [
       "L",
       "U",
@@ -500,7 +496,19 @@
      "name": "Dark Mirror",
      "does": "Screen filter: the world turned upside down and black.",
      "type": "filter",
-     "unlock": "Make $500,000 selling vehicles."
+     "unlock": "Make $500,000 selling vehicles.",
+     "code": [
+      "D",
+      "D",
+      "U",
+      "R",
+      "R",
+      "U",
+      "L",
+      "L",
+      "R",
+      "L"
+     ]
     }
    ]
   },
@@ -566,7 +574,19 @@
      "name": "Videotape",
      "does": "Screen filter: old videotape.",
      "type": "filter",
-     "unlock": "Complete 50 activities with your partner."
+     "unlock": "Complete 50 activities with your partner.",
+     "code": [
+      "D",
+      "D",
+      "U",
+      "R",
+      "R",
+      "U",
+      "L",
+      "L",
+      "R",
+      "D"
+     ]
     }
    ]
   },
@@ -603,7 +623,16 @@
      "name": "Raise Wanted Level",
      "does": "Raises your wanted level.",
      "type": "player",
-     "unlock": "Lose a 3-star wanted level 50 times."
+     "unlock": "Lose a 3-star wanted level 50 times.",
+     "code": [
+      "L",
+      "D",
+      "R",
+      "D",
+      "U",
+      "R",
+      "U"
+     ]
     },
     {
      "id": "all-explosive-weapons",
@@ -691,6 +720,29 @@
      "unlock": "Steal 100 police vehicles."
     }
    ]
+  },
+  {
+   "id": "unsure",
+   "n": "Not settled yet",
+   "lede": "Guides disagree on what unlocks this one, so we leave it open until it is checked.",
+   "items": [
+    {
+     "id": "cycle-weather",
+     "name": "Cycle Weather",
+     "does": "Changes the weather.",
+     "type": "world",
+     "unlock": "Not settled yet: guides disagree on what unlocks it.",
+     "code": [
+      "D",
+      "R",
+      "U",
+      "D",
+      "R",
+      "U",
+      "R"
+     ]
+    }
+   ]
   }
  ],
  "sources": [
@@ -698,6 +750,16 @@
    "label": "PowerPyx: GTA 6 All Cheats",
    "url": "https://www.powerpyx.com/gta-6-all-cheats/",
    "note": "Read Nov 21, 2026 (page modified Nov 19). 61 cheats (10 player, 11 combat, 21 spawn vehicle, 3 environment, 16 screen filter) with unlock conditions; codes for 17 of them. Cheats list under Progress > Cheats, only after the story; enter on the phone: D-pad Up to open, hold L1/LB, press R1/RB, then the code. A cheat only works once its requirement is met. Cheats disable trophies and saving (no duration given). MTL Pumper unlock listed as unknown. Trusted source. PC Gamer and Press Start cheat lists could not be fetched this run (fetch permission not granted); an earlier run noted the two disagree on the trophy details, so the page only says trophies are blocked and to save first."
+  },
+  {
+   "label": "GamesRadar: All GTA 6 cheats and how to unlock them",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+   "note": "Read Nov 24, 2026 (last updated Nov 22, in progress). 61 cheats, codes for 19: every PowerPyx code matches, plus Drunk (U L R U U L R U L R), Raise Wanted Level (L D R D U R U), Videotape (D D U R R U L L R D) and Dark Mirror (D D U R R U L L R L). MTL Pumper: discover it in the Progress menu. Cheats switch off trophies/achievements and saving for the play session. Disagrees with PowerPyx on Cycle Weather's unlock (GamesRadar: reveal the whole map; PowerPyx: finish the story), so that unlock is shown as not settled. Trusted."
+  },
+  {
+   "label": "Vice / Red Bull cheat lists",
+   "url": "https://www.vice.com/en/article/gta-6-cheat-codes-list/",
+   "note": "Read Nov 24, 2026. Vice (Nov 19) and Red Bull (redbull.com/us-en/gta-6-cheat-codes, Nov 21) both give the Raise Wanted Level code and the MTL Pumper Progress-menu unlock, and both say Cycle Weather needs the story; neither has Drunk, Videotape or Dark Mirror codes. Cross-check only."
   }
  ]
 }

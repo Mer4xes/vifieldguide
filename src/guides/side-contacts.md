@@ -37,6 +37,12 @@ tldr:
 faq:
   - q: "How do you get Baited My Tackle in GTA 6?"
     a: "After Feng Shui in Chapter 1, Cal texts Jason a fishing challenge in Gambit Bay. Take a boat to the spot, drop anchor and fish with the Small Saltwater Lure until you land a stoplight parrotfish over 2 lbs, then send it to Cal. The trophy unlocks when you win."
+  - q: "How do you increase max stamina in GTA 6?"
+    a: "Finish The Final Flush, Dr. Merle's side job. Scan a No Flushers poster in a public bathroom with WAiNK, reply TRUTH to the text, then meet him at Frank's Waffles in Tequesta. When the job ends your maximum stamina goes up for good. It's open in any chapter and counts toward Strangers & Freaks."
+  - q: "How do you unlock hurricanes in GTA 6?"
+    a: "Finish Retest Freddie's Defenses. Freddie's compound is on the north side of Lake Leonida in Leonard County: get in once through the tunnel under the container on the east side and talk on the intercom, then come back when he messages and climb the water tower at the northeast corner. Hurricane weather is switched on once the job is done, and Freddie pays $10,000."
+  - q: "How do you get into Freddie's bunker in GTA 6?"
+    a: "The first time, use the loader on the east side to push the container off a hidden staircase and take the tunnel. On the second visit the tunnel is sealed, so climb the northeast water tower to its first level and jump onto the building inside. Watch for proximity mines (a red light and a beep) and shoot the drones from the roof."
   - q: "How many Strangers & Freaks are there in GTA 6?"
     a: "The trophy asks for 8 mission strands for strangers. Seven are known to count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. The eighth isn't confirmed yet, so check the trophy tracker after the last job of Kenton's, Bret's, Randy's, Dunk's or the Unknown Stuntman's strand."
   - q: "Which side missions don't count for Strangers & Freaks in GTA 6?"
@@ -82,6 +88,18 @@ faq:
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
+  - label: "PowerPyx: The Final Flush (Meet at Frank's Waffles)"
+    url: "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+    note: "Read Nov 24, 2026 (published Nov 22 18:54, modified 19:20 UTC). No Flushers S&F side quest, any chapter, Vice City > Tequesta, giver Dr. Merle, requirement scan a No Flusher poster (all over the map near bathrooms; example campground east side of Watson Bay), reply TRUTH, Frank's Waffles. Objectives: van, follow instructions, park on coast near facility, follow, enter facility, find tracker, follow, way down. No marker in the van; sewage treatment plant (page: Gloriana Key); worker at the gate -> Defuse; run quietly to the door; stairs to walkway console, buttons until all green, lever opens floor; Merle in chamber, press button on front; page then says you get in the chamber yourself; wake at current house; permanent stamina; counts for S&F. Trusted."
+  - label: "GamesRadar: The Final Flush and max stamina"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/"
+    note: "Read Nov 24, 2026 (published Nov 21). Poster 'Stop! Don't Flush' with QR in the men's toilet of the bathroom block, north tip of Corsair Key; scan with WAiNK, reply TRUTH; Frank's Waffles, Tequesta; Merle only at night (icon padlocked by day). Van, verbal directions, sewage plant (page: Hamlet), park on coast; gate, van driver -> Defuse; two workers -> Lie; stairs, panel, make the three left lights green, lever, staircase opens; Merle in chamber, press red button; page says do NOT step inside. Wake outside Jason's house, max stamina up. Trusted. Left out because the two disagree: the plant's area, whether you step into the chamber, where you wake; GamesRadar-only code 00-00-02 left out (earlier runs saw other codes)."
+  - label: "PowerPyx: Retest Freddie's Defenses"
+    url: "https://www.powerpyx.com/gta-6-retest-freddies-defenses-walkthrough/"
+    note: "Read Nov 24, 2026 (published Nov 22 19:08, modified Nov 23 15:02 UTC). S&F, any chapter, Leonard County > North Leonard County, north side of Lake Leonida, giver Freddie (doomsday prepper), Lucia or Jason. Pre-mission: east side containers + loader, push container, stairs, tunnel; proximity mines (red light, beep); two explosive drones from the roof; intercom; message after a few in-game days. Mission: tunnel sealed, automatic weapon, water tower NE corner first level, jump onto building; drones 2 then 3; door; tour, drink, podcast caller; hurricane, lockdown, stay or leave both complete; $10,000; unlocks hurricane weather. Trusted."
+  - label: "Magic Game World: Retest Freddie's Defenses"
+    url: "https://www.magicgameworld.com/gta-6-retest-freddies-defenses-walkthrough-find-both-entrances-and-unlock-hurricanes/"
+    note: "Read Nov 24, 2026 (Nov 23). Cross-check: agrees with PowerPyx on every step, the $10,000, hurricane unlock and S&F."
   - label: "PowerPyx: Gellhorn's Missing Tourists"
     url: "https://www.powerpyx.com/gta-6-gellhorns-missing-tourists-walkthrough/"
     note: "Read Nov 24, 2026 (published/modified Nov 23). Strangers & Freaks, Alvan West's questline, Ch2, Kelly County > Port Gellhorn, Lucia or Jason. Start: inspect a Missing Persons poster (Starlet Motel office; fallback on the wall outside 247 Port Gellhorn, south of Delights). Building directly north of Moses' shop, three lockers; leave via hole in NE corner, front shutter locks after. Bodies: C-shaped pond between airstrip and town (submerged car); junkyard east of Pay'n'Spray Port Gellhorn (pink car trunk); trailer park by water tower west of Hank's Waffles (floorboards). Report each. No reward; counts for S&F. Trusted source."
@@ -195,8 +213,10 @@ sources:
 | **Alvan West** | Takes calls on the Kelly County missing persons tip line | Chapter 2, a missing tourists poster in Port Gellhorn ([the case](#alvan)) | Counts toward Strangers & Freaks |
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
+| **Dr. Merle** | The No Flushers, a group that won't flush | Any chapter, a No Flushers poster in a public bathroom ([his one job](#merle)) | Counts toward Strangers & Freaks |
+| **Freddie** | Doomsday prepper with a bunker on Lake Leonida | Any chapter, his compound in North Leonard County ([his one job](#freddie)) | Counts toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["alvan","Missing tourists"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["merle","Dr. Merle"],["freddie","Freddie"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["alvan","Missing tourists"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
@@ -214,8 +234,8 @@ The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands fo
   ["alvan","Gellhorn's missing tourists","Chapter 2","Three bodies to find around Port Gellhorn, then a second part that needs both leads.","#alvan"],
   ["yago","Yago and the street races","Chapter 3","Four street-race jobs in Vice City. Two are Jason only and one is limited-time.","#yago"],
   ["pete","Pilot Pete's flying jobs","Chapter 4","Jason only: Pete's plane, then three timed delivery runs.","#pete"],
-  ["merle","Dr. Merle: The Final Flush","Any chapter","A one-job strand. We haven't written it up yet because the guides we trust don't agree on the details.",""],
-  ["freddie","Freddie: Retest Freddie's Defenses","Any chapter","A one-job strand. Not written up yet.",""]
+  ["merle","Dr. Merle: The Final Flush","Any chapter","One job, started from a No Flushers poster. It raises your maximum stamina for good.","#merle"],
+  ["freddie","Freddie: Retest Freddie's Defenses","Any chapter","Break into a prepper's compound in Leonard County twice. Pays $10,000 and switches hurricanes on.","#freddie"]
 ] %}
 <label class="tr" data-track-row for="sf-{{ c[0] }}"><input class="cb" type="checkbox" id="sf-{{ c[0] }}" data-track="sf:{{ c[0] }}"><div class="body"><div class="name">{% if c[4] %}<a href="{{ c[4] }}">{{ c[1] }}</a>{% else %}{{ c[1] }}{% endif %}</div><div class="desc"><b>{{ c[2] }}.</b> {{ c[3] }}</div></div><div class="side"><span class="need">Counts</span></div></label>
 {%- endfor %}
@@ -231,6 +251,24 @@ Cal is Jason's fishing buddy from Key Lento. Once you've finished [Feng Shui](/w
 
 <ol class="strand">
 <li><div class="strand-h">Catch a Bigger Fish <span class="chip plain">Chapter 1 on</span> <span class="flag">Jason</span></div><span class="strand-pay">Focus boost + trophy</span><p>You need a boat. If Jason's own isn't at the house, take one: the docks by the Rusty Anchor usually have a couple of fishing boats tied up. Head to the marked spot, open the vehicle menu and drop the <b>anchor</b> so you stay put. Take the rod out of your weapon wheel (bottom-right slot), keep the basic <b>Small Saltwater Lure</b> on and cast. Cal wants a <b>stoplight parrotfish over 2 lbs</b>: anything smaller doesn't count, so keep casting until one bites. When you land one big enough, send it to Cal (X / A) to win.</p></li>
+</ol>
+
+<h2 id="merle">Dr. Merle and The Final Flush</h2>
+
+Dr. Merle speaks for the **No Flushers**, a movement convinced that what you flush is being collected. His one job, **The Final Flush**, is open in any chapter for Jason or Lucia, counts toward **Strangers & Freaks** and ends with a **permanent rise in maximum stamina**, so you run and swim further for the rest of the game. That makes it worth doing early.
+
+<ol class="strand">
+<li><div class="strand-h">Find a No Flushers poster <span class="chip plain">Any chapter</span></div><span class="strand-pay">Starts the job</span><p>The handmade posters, with a QR code and a plea not to flush, hang in and around public bathrooms across the map, even ones you can't go into. Two to try: the bathroom block on the north tip of <b>Corsair Key</b> in Mariana County, and the campground on the east side of <b>Watson Bay</b>. Scan the poster with <b>WAiNK</b>. A text arrives from the movement: answer <b>TRUTH</b> and the meeting goes on the map.</p></li>
+<li><div class="strand-h">The Final Flush <span class="flag">Counts</span></div><span class="strand-pay">Max stamina up</span><p>Meet Dr. Merle at <b>Frank's Waffles</b> in Tequesta, Vice City. If the marker is locked and he isn't in his booth, come back at night. After the talk, get into his van. There's no route on the map: drive where he tells you, which ends at a <b>sewage treatment plant</b>, and park on the coast where he points. Follow him on foot. He opens a gate in the outer fence; when a worker drives up and asks questions, pick <b>Defuse</b> and he leaves. Get past the workers inside the grounds without alarming them and go in through the marked door. Merle is looking for something under the floor: climb the stairs to the walkway, use the <b>console</b>, press the buttons until all the lights on the left are green, then pull the <b>lever</b> to open the way down. In the room below, Merle climbs into a chamber and asks you to send him off: press the button on its front. The job then wraps up, you wake up back at home, and the stamina boost is yours.</p></li>
+</ol>
+
+<h2 id="freddie">Freddie's bunker</h2>
+
+Freddie is a doomsday prepper with a fortified compound on the **north side of Lake Leonida**, North Leonard County. His job, **Retest Freddie's Defenses**, is open in any chapter for Jason or Lucia, counts toward **Strangers & Freaks**, pays **$10,000** and is what **switches on hurricane weather** in the open world. It takes two visits, and the first one has no marker at all. Bring an automatic weapon for the drones.
+
+<ol class="strand">
+<li><div class="strand-h">First visit: the tunnel <span class="chip plain">Any chapter</span> <span class="flag">No marker</span></div><span class="strand-pay">Unlocks the job</span><p>Skip the front gate and go round to the <b>east side</b>, where shipping containers sit next to a loader. Get in the loader and shove the lone container on the ground out of the way to uncover a staircase, then follow the tunnel under the fence. The yard is mined: a <b>red light and a beep</b> mean a proximity mine, so walk round them or shoot them from a distance. As you near the bunker, two explosive drones lift off its roof; shoot them down before they reach you. Talk to Freddie on the <b>intercom</b>. He's impressed and says he'll be in touch.</p></li>
+<li><div class="strand-h">Retest Freddie's Defenses <span class="flag">Counts</span></div><span class="strand-pay">$10,000 + hurricanes</span><p>A few in-game days later Freddie messages you to come back. The tunnel is sealed this time. Climb the <b>water tower</b> at the northeast corner of the fence to its first level and drop onto the building inside. Same mines as before, and more drones near the bunker: two, then three. Focus helps you pick them off. Use the <b>bunker door</b>, and Freddie comes out to give you the tour, with a call to take on his podcast along the way. A hurricane rolls in and he seals the place up: stay or leave, either one finishes the job, and his $10,000 follows.</p></li>
 </ol>
 
 <h2 id="kirk">Kirk and the Skunk Ape</h2>

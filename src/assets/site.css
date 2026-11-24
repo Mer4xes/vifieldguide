@@ -1216,3 +1216,12 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .gar-table td:nth-child(3),.gar-table td:nth-child(4),.gar-table th:nth-child(3),.gar-table th:nth-child(4){text-align:right;white-space:nowrap}
 .gar-table .gar-sum td{font-weight:700;border-top:1px solid rgba(255,255,255,.18)}
 .chal-list .tr.gar-bonus{grid-template-columns:minmax(0,1fr) auto;cursor:default}
+/* ---------- cheats: codes at a glance ---------- */
+.codes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:14px 0 8px}
+.code-card{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:12px 14px;display:grid;gap:8px;align-content:start}
+.code-card .cc-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.code-card .cc-top b{font-size:15px}
+.code-card .code{display:flex;flex-wrap:wrap;gap:3px}
+.code-card .code span{display:inline-grid;place-items:center;min-width:20px;height:24px;padding:0 2px;border:1px solid var(--line);border-radius:7px;background:var(--ink);font-family:var(--mono);font-size:13px;color:var(--cyan);line-height:1}
+.code-card small{color:var(--muted);font-size:12.5px;line-height:1.4}
+.code-card .pin{font-family:var(--mono);font-size:10.5px;color:var(--faint);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}

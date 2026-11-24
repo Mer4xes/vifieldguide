@@ -2,11 +2,19 @@
  {
   "date": "2026-11-24",
   "tag": "Side content",
+  "title": "More stamina, and hurricanes",
+  "text": "Dr. Merle's Final Flush raises your stamina for good, and Freddie's bunker switches hurricanes on. Plus four new cheat codes.",
+  "url": "/guides/side-contacts/#merle",
+  "img": "/assets/img/misc/feat-storm.webp",
+  "cta": "Read both jobs"
+ },
+ {
+  "date": "2026-11-24",
+  "tag": "Side content",
   "title": "Kenton's seven treasure sets",
   "text": "Every wreck and dive site with the pieces in each set, how the metal detector works, and a tracker that saves.",
   "url": "/guides/side-contacts/#kenton-treasure",
   "img": "/assets/img/misc/act-scuba.webp",
-  "cta": "Start diving",
   "pos": "46% 55%"
  },
  {
@@ -31,8 +39,7 @@
   "title": "87 WAiNK scan spots mapped",
   "text": "Most landmarks, every curiosity and nearly every sculpture, by county and area, with a set filter and ticks that save.",
   "url": "/collectibles/waink-locations/",
-  "img": "/assets/img/region-vice-city.webp",
-  "pos": "60% 50%"
+  "img": "/assets/img/gal/vice-city-01.webp"
  },
  {
   "date": "2026-11-24",
@@ -58,13 +65,5 @@
   "text": "The first update since launch fixes crashes, missing phone calls, autosave and more. What changed, and what it means for you.",
   "url": "/guides/patch-notes/",
   "img": "/assets/img/misc/feat-phone.webp"
- },
- {
-  "date": "2026-11-23",
-  "tag": "New guide",
-  "title": "Cars: steal it, keep it, get it back",
-  "text": "What each tracker means, how to register a personal vehicle, and how Scooter Bros rescues a wrecked or impounded car.",
-  "url": "/guides/cars/",
-  "img": "/assets/img/misc/feat-heat.webp"
  }
 ]
