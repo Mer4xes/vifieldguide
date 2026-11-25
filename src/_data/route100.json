@@ -512,6 +512,12 @@
        "t": "**Pool at Delights Cabaret,** Port Gellhorn. Beat the opponent before the chapter ends, or wait until the club reopens later."
       },
       {
+       "k": "aliens",
+       "tag": "side",
+       "t": "**The alien secret.** Go alone after 2 AM to the dirt roads north-west of the Starlet Motel and look for an abandoned car with flashing lights. The dream and the rescue south of Hamlet can wait, but the reward (more maximum health, stamina and focus for both leads) helps with everything after. [Step by step](/guides/mysteries/#aliens).",
+       "track": "myst:alien-rescue"
+      },
+      {
        "k": "med-swamp",
        "tag": "collect",
        "t": "**Swamp meditation:** the wooden dock by the lookout tower in Buckskin Swamp. Do it with both Jason and Lucia."

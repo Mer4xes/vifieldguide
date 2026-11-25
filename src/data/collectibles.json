@@ -757,7 +757,8 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "where": "Inside The Rusty Bucket, in the toilet stall of The Captain's Log Room.",
-          "set": "Nine1Nine Dancers"
+          "set": "Nine1Nine Dancers",
+          "n": 1
         },
         {
           "id": "nine-georgia",
@@ -765,7 +766,8 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "where": "At Steven Strachan Construction on the Sunbelt Hwy. Go in the back door; the card is at the back of the room by a green container.",
-          "set": "Nine1Nine Dancers"
+          "set": "Nine1Nine Dancers",
+          "n": 17
         },
         {
           "id": "nine-braelynn",
@@ -773,7 +775,26 @@
           "county": "kelly-county",
           "area": "North Kelly County",
           "where": "At the Hoffman Observatory. Climb the car scrap on the outside to the platform above, go in, and look on the wooden platform beside the old magazines.",
-          "set": "Nine1Nine Dancers"
+          "set": "Nine1Nine Dancers",
+          "n": 6
+        },
+        {
+          "id": "nine-chrissie",
+          "name": "Chrissie",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In a trailer on Baywood Rd, east of Uncle Jack's Liquor. The door is already open; the card is pushed down the back of an armchair.",
+          "set": "Nine1Nine Dancers",
+          "n": 7
+        },
+        {
+          "id": "nine-jesenia",
+          "name": "Jesenia",
+          "county": "mariana-county",
+          "area": "Permit Keys",
+          "where": "Out on the water just north of Permit Keys, where a group of boats is having a party. Take a jet ski out; the card is on the table under the pink umbrella.",
+          "set": "Nine1Nine Dancers",
+          "n": 20
         },
         {
           "id": "ratface-10",
@@ -879,7 +900,7 @@
         {
           "label": "Push Square: card set pages",
           "url": "https://www.pushsquare.com/guides/gta-6-collectible-card-locations",
-          "note": "10 set pages, modified Nov 19, 2026. Extra cards with no number: Thelma (Delights), Aimie, Georgia, Braelynn (Nine1Nine), Malena at Kalaga (Jack of Hearts), Right Wing at Kalaga. Ichiro Yamada (LC Swingers, Port VC, Chapter 5 mission) left out: county unclear and mission-name spoiler."
+          "note": "10 set pages, modified Nov 19, 2026. Extra cards with no number: Thelma (Delights), Aimie, Georgia, Braelynn (Nine1Nine), Malena at Kalaga (Jack of Hearts), Right Wing at Kalaga. Ichiro Yamada (LC Swingers, Port VC, Chapter 5 mission) left out: county unclear and mission-name spoiler. Re-read Nov 25, 2026: NINE1NINE page (modified Nov 20) now has 5 with list numbers: #1 Aimie, #6 Braelynn, #7 Chrissie (Port Gellhorn trailer, Baywood Rd), #17 Georgia, #20 Jesenia (boat party north of Permit Keys); numbers fit PowerPyx's #30 Serena (alphabetical in-game list). Other set pages unchanged (Delights 3, Jack of Hearts 6, rest 1). Trusted source."
         },
         {
           "label": "PowerPyx: Vice City Flamingos",

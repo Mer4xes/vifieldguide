@@ -290,7 +290,7 @@ Freddie is a doomsday prepper with a fortified compound on the **north side of L
 
 <h2 id="kirk">Kirk and the Skunk Ape</h2>
 
-Kirk is a cryptid hunter in the Mariana County swamps, chasing a creature he calls the Skunk Ape, or Mr. Mangrove. His flyers, around Hamlet in Chapter 1, are what get you started. All three jobs happen **at night**, so sleep in a bed to skip ahead if you need to, and bring a flashlight. The strand counts toward **Strangers & Freaks**, and the last job is for **Lucia only**, so it can't happen before Chapter 2.
+Kirk is a cryptid hunter in the Mariana County swamps, chasing a creature he calls the Skunk Ape, or Mr. Mangrove. His flyers, around Hamlet in Chapter 1, are what get you started. All three jobs happen **at night**, so sleep in a bed to skip ahead if you need to, and bring a flashlight. The strand counts toward **Strangers & Freaks**, and the last job is for **Lucia only**, so it can't happen before Chapter 2. For the other things that go bump in the night, see [aliens and mysteries](/guides/mysteries/).
 
 <ol class="strand">
 <li><div class="strand-h">Search for the Skunk Ape <span class="chip plain">Chapter 1</span> <span class="flag">Night</span></div><span class="strand-pay">$1,000</span><p>Meet Kirk at his truck in the swamp and follow his drone through the woods. When he stops at a nesting site, talk it through, then search the circle he marks: the feeding site in the middle, then the claw marks on a tree a little east of it. The creature bolts and you can't catch it. Look over the effigy hanging at the edge of the woods, then run for Kirk's truck when a huge boar turns up. It always catches you near the truck; Kirk drives it off and pays you.</p></li>

@@ -1260,3 +1260,6 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .kguide:hover{border-color:var(--gold)}
 .kguide b{display:block;font-family:var(--display);font-weight:400;font-size:20px;letter-spacing:.02em;color:var(--gold)}
 .kguide span{display:block;font-size:14px;color:var(--muted);margin-top:4px}
+
+/* Mysteries guide: two link cards per row in the prose column */
+.cards.myst-cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}

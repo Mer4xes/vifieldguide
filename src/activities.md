@@ -55,6 +55,7 @@ sections:
       - { t: Firing range, d: "Lucia runs a timed course at a gun range.", status: Confirmed, src: "Extended Look" }
       - { t: Farms and ranches, d: "Livestock farms, agriculture and high-end ranches fill the north of the map.", status: Confirmed, src: "Game Informer", region: [mount-kalaga] }
       - { t: Hunting, d: "Hunt wildlife out in the wild and sell what you bring back for cash.", status: Reported, src: "Kotaku, TechRadar reviews", links: [{ l: "How hunting works with Bret", u: "/guides/fishing-and-hunting/#hunting" }, { l: "Wildlife and weather", u: "/wildlife/" }] }
+      - { t: UFO sightings, d: "Late at night in Kelly County, a car left by the roadside is the start of Leonida's strangest secret.", status: Reported, src: "GamesRadar, Game Rant, KeenGamer", links: [{ l: "The alien secret, step by step", u: "/guides/mysteries/#aliens" }, { l: "The Skunk Ape and other mysteries", u: "/guides/mysteries/#more" }] }
       - { t: Petting dogs, d: "Yes, you can pet the dog. You can also tell it off.", status: Confirmed, src: "Extended Look", links: [{ l: "Dogs on the Wildlife page", u: "/wildlife/#dogs" }] }
   - title: Ultimate Edition extras
     kicker: Only with the Ultimate Edition

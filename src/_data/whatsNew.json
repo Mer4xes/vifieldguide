@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Secrets",
+  "title": "The alien secret, step by step",
+  "text": "Where the UFO turns up, how to start the dream, how to read your own door code and the permanent health, stamina and focus boost.",
+  "url": "/guides/mysteries/",
+  "img": "/assets/img/full/grassrivers-08.webp",
+  "pos": "60% 50%",
+  "cta": "Find the aliens"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Weapons",
   "title": "Unique weapons and where they are",
   "text": "33 of the gold gun variants: free finds, gang hideout guns, story rewards and store exclusives, the two you can miss, and a checklist that saves.",
   "url": "/guides/unique-weapons/",
   "img": "/assets/img/full/ue-weapon-variants-01.webp",
-  "pos": "30% 50%",
-  "cta": "Find the guns"
+  "pos": "30% 50%"
  },
  {
   "date": "2026-11-25",
@@ -58,13 +67,5 @@
   "text": "Where the three missing tourists are, how the case ends, and a tracker for the strands that count for Strangers & Freaks.",
   "url": "/guides/side-contacts/#alvan",
   "img": "/assets/img/region-port-gellhorn.webp"
- },
- {
-  "date": "2026-11-24",
-  "tag": "New guide",
-  "title": "Every garage, and a hidden one",
-  "text": "All 15 garages with prices, areas and spaces, a Little Boxes tracker, and the five 1010 Murals that open a locked garage.",
-  "url": "/guides/garages/",
-  "img": "/assets/img/ed/vvc-vapid-stanier-01.webp"
  }
 ]
