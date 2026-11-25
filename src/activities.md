@@ -8,7 +8,7 @@ description: "Every GTA 6 activity confirmed before launch: scuba diving, base j
 summary: Everything Jason and Lucia can do between jobs that Rockstar has shown or talked about so far. Some activities also build their relationship.
 glow: cyan
 image: /assets/img/full/act-boats.webp
-updated: 2026-11-23
+updated: 2026-11-25
 details: true
 filters:
   - { k: vice-city, l: Vice City }
@@ -60,7 +60,7 @@ sections:
     kicker: Only with the Ultimate Edition
     lede: "These shops and side jobs only open for business with the Ultimate Edition. Full list on the [launch guide](/guides/launch-guide/#editions)."
     cards:
-      - { t: Classic Car Collection, img: /assets/img/ed/ue-wyman-car-collection-01.webp, full: /assets/img/full/ue-wyman-car-collection-01.webp, d: "Track down abandoned classics and project cars and restore them for the collector and fixer Wyman.", status: Confirmed, src: Rockstar, more: ["A special commission for Wyman, a collector and fixer.", "Only available with the Ultimate Edition."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
+      - { t: Classic Car Collection, img: /assets/img/ed/ue-wyman-car-collection-01.webp, full: /assets/img/full/ue-wyman-car-collection-01.webp, d: "Track down abandoned classics and project cars and restore them for the collector and fixer Wyman.", status: Confirmed, src: Rockstar, more: ["A special commission for Wyman, a collector and fixer.", "Five cars: four rebuilt from scrap you scan with WAiNK, $1,500 each, plus the Deviant.", "Only available with the Ultimate Edition."], links: [{ l: "All 15 scrap spots, car by car", u: "/guides/classic-cars/" }, { l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
       - { t: PTT Youngin$ compound, img: /assets/img/ed/ue-ptt-store-01.webp, full: /assets/img/full/ue-ptt-store-01.webp, d: "Raid a Southside Vice City gang compound for special items and contraband.", status: Confirmed, src: Rockstar, region: [vice-city], more: ["The compound is in Southside Vice City.", "Only available with the Ultimate Edition."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
       - { t: Electric Fang Tattoo, img: /assets/img/ed/ue-electric-fang-01.webp, full: /assets/img/full/ue-electric-fang-01.webp, d: "Over 50 tattoos designed by the artist collective FAILE.", status: Confirmed, src: Rockstar, more: ["A tattoo shop that only opens with the Ultimate Edition."], links: [{ l: "Everything in the Ultimate Edition", u: "/guides/launch-guide/#editions" }] }
 sources:

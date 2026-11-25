@@ -8,7 +8,7 @@ summary: All 15 garages in one list. The eight you buy for Little Boxes, cheapes
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-24
+updated: 2026-11-25
 facts:
   - { k: To buy, v: "8", status: Reported }
   - { k: All 8 cost, v: "$160,000", status: Reported }
@@ -106,3 +106,4 @@ Jason and Lucia each have **one personal vehicle** at a time. Every garage space
 - [Shops](/guides/shops/): mod shops and Pay 'n' Sprays by county, to tune what you park.
 - [Money guide](/guides/money/): where the $160,000 comes from.
 - [1010 Murals](/collectibles/1010-murals/): the five photos that open Southside Storage.
+- [Wyman's Classic Car Collection](/guides/classic-cars/): five Ultimate Edition classics that will want garage space.

@@ -15,7 +15,7 @@
     { "t": "One-Eyed Willie's", "tag": "Mod shop · Ultimate only", "img": "ue-one-eyed-willie-01", "d": "Off-road mods and hand-painted work in Lake Leonida." },
     { "t": "Goodtime Gear", "tag": "Looks", "img": "ue-goodtime-gear-01", "d": "Clothes and accessories themed on Macca the Gator, the Goodtime State's TV star." },
     { "t": "PTT Youngin$ Illegal Goods Store", "tag": "Gang compound", "img": "ue-ptt-store-01", "d": "Raid a loud Southside Vice City gang's compound for rare items and contraband." },
-    { "t": "Classic Car Collection", "tag": "Special commission", "img": "ue-wyman-car-collection-01", "d": "Find and restore abandoned classics for the collector Wyman." }
+    { "t": "Classic Car Collection", "tag": "Special commission", "img": "ue-wyman-car-collection-01", "d": "Find and restore abandoned classics for the collector Wyman.", "u": "/guides/classic-cars/" }
   ],
   "vintage": [
     { "t": "'55 Vapid Stanier + Shore Court garage", "tag": "Vehicle and garage", "img": "vvc-vapid-stanier-01", "d": "A classic sedan and a garage near Ocean Beach with a weapon locker and a stash for fencing." },

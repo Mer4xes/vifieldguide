@@ -1,12 +1,21 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Ultimate Edition",
+  "title": "Wyman's five classic cars",
+  "text": "Where every piece of scrap is for the Transgressor, Riata, Mamba GT and Kit Car, what Wyman charges, and a checklist that saves.",
+  "url": "/guides/classic-cars/",
+  "img": "/assets/img/full/ue-wyman-car-collection-01.webp",
+  "pos": "22% 50%",
+  "cta": "Find the cars"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Side content",
   "title": "Papa Audacity's stunt jobs",
   "text": "All six jobs of the Unknown Stuntman's strand, the seven AudaCity Stunts with a checklist, and the eighth Strangers & Freaks strand.",
   "url": "/guides/side-contacts/#audacity",
-  "img": "/assets/img/misc/act-bikes.webp",
-  "cta": "Start the strand"
+  "img": "/assets/img/misc/act-bikes.webp"
  },
  {
   "date": "2026-11-25",
@@ -56,13 +65,5 @@
   "text": "Most landmarks, every curiosity and nearly every sculpture, by county and area, with a set filter and ticks that save.",
   "url": "/collectibles/waink-locations/",
   "img": "/assets/img/gal/vice-city-01.webp"
- },
- {
-  "date": "2026-11-24",
-  "tag": "Update",
-  "title": "127 bars, train stations and more shops",
-  "text": "Every bar, 25 train stations and 15 electronics stores join the shoe stores, salons, tattoo studios and gas stations in the shop finder.",
-  "url": "/guides/shops/",
-  "img": "/assets/img/region-leonida-keys.webp"
  }
 ]

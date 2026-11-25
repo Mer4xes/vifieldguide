@@ -25,7 +25,7 @@
       {%- for c in editionItems.ultimate %}
       <article class="kcard has-img">
         <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="ultimate" alt="{{ c.t }}, Ultimate Edition" width="800" height="450" loading="lazy">
-        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p></div>
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{% if c.u %}<a href="{{ c.u }}">{{ c.t }}</a>{% else %}{{ c.t }}{% endif %}</h3><p>{{ c.d }}</p></div>
       </article>
       {%- endfor %}
     </div>
@@ -41,7 +41,7 @@
       {%- for c in editionItems.vintage %}
       <article class="kcard has-img">
         <img src="/assets/img/ed/{{ c.img }}.webp" data-full="/assets/img/full/{{ c.img }}.webp" data-zoom="vintage" alt="{{ c.t }}, Vintage Vice City Pack" width="800" height="450" loading="lazy">
-        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{{ c.t }}</h3><p>{{ c.d }}</p></div>
+        <div class="kbody"><p class="pin">{{ c.tag }}</p><h3>{% if c.u %}<a href="{{ c.u }}">{{ c.t }}</a>{% else %}{{ c.t }}{% endif %}</h3><p>{{ c.d }}</p></div>
       </article>
       {%- endfor %}
     </div>

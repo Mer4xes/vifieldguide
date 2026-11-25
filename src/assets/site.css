@@ -1237,3 +1237,13 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 #set-list{margin-top:18px}
 .castlist a{background:rgba(39,226,212,.1);border:1px solid rgba(39,226,212,.45);border-radius:999px;padding:6px 12px;font-size:14px;color:var(--cyan)}
 .castlist a::after{content:" ✓";font-size:12px}
+
+/* ---------- Wyman's classic cars (Nov 25) ---------- */
+.wy-head{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:18px;align-items:start;margin:12px 0 10px}
+.wy-head:not(:has(.wy-fig)){grid-template-columns:minmax(0,1fr)}
+.prose .wy-fig{margin:0}
+.prose .wy-fig img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line)}
+.prose .wy-txt .stunt-how{margin-top:0}
+.prose .wy-need{margin:10px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:15px}
+.chal-list .tr.wy-done .name{color:var(--cyan)}
+@media (max-width:640px){.wy-head{grid-template-columns:minmax(0,1fr)}}

@@ -223,6 +223,7 @@ sources:
 | **Pete Wozniak** (Pilot Pete) | Flies drug drops; hands his plane over to Jason | Chapter 4, a phone call to Jason early in the chapter ([his jobs](#pete)) | Counts toward Strangers & Freaks |
 | **Andy** | Cellerica, a wellness group selling vape sticks | Chapter 3, a call to Lucia, then an address in Belville ([the jobs](#andy)) | Road to Rehabilitation (hidden) |
 | **Billy** | Dirt-bike races and jobs | Chapter 2, [Thrillbillies](/walkthrough/thrillbillies/) after [Coffee Break](/walkthrough/coffee-break/) ([his jobs](#billy)) | The Lone Rider (hidden) |
+| **Wyman** | Collector and fixer; restores classic cars (Ultimate Edition) | Chapter 2, around [Thrillbillies](/walkthrough/thrillbillies/) ([his car collection](/guides/classic-cars/)) | |
 | **Kyle** | Farmer with a crop duster at McKittrick Farm | Chapter 2, a flyer outside the Starlet Motel reception ([his jobs](#kyle)) | Counts toward Strangers & Freaks |
 | **Alvan West** | Takes calls on the Kelly County missing persons tip line | Chapter 2, a missing tourists poster in Port Gellhorn ([the case](#alvan)) | Counts toward Strangers & Freaks |
 | **Yago** | Street racer in Vice City (Jason only) | Chapter 3, a street race after [Dealer's Choice](/walkthrough/dealers-choice/) ([his jobs](#yago)) | Counts toward Strangers & Freaks |

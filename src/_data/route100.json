@@ -465,6 +465,12 @@
        "m": 33
       },
       {
+       "k": "wyman-cars",
+       "tag": "side",
+       "t": "**Wyman's Classic Car Collection** (Ultimate Edition only). Once you have the Dominator buggy, Wyman texts about his first car. Scan the Transgressor's three pieces around Port Gellhorn now, and the Mamba GT's Kelly County ones when he asks; each car costs $1,500. [All 15 scrap spots](/guides/classic-cars/).",
+       "track": "wyman:transgressor:done"
+      },
+      {
        "m": 34
       },
       {
@@ -654,6 +660,12 @@
       {
        "m": 38,
        "n": "Gets you the [Pry Bar and Cut-Off Tool](/guides/equipment/#ch3): wooden crates and the yellow SCOOP containers."
+      },
+      {
+       "k": "wyman-kit-car",
+       "tag": "side",
+       "t": "**Reynolds Kit Car for Wyman** (Ultimate Edition). With the Cut-Off Tool you can open the SCOOP container at Wild Hog Point, the one piece of the Kit Car that was locked away. The Deviant follows without a hunt. [Kit Car spots](/guides/classic-cars/#kit-car).",
+       "track": "wyman:kit-car:done"
       },
       {
        "m": 39

@@ -1,0 +1,86 @@
+{
+  "note": "Wyman's Classic Car Collection (Ultimate Edition). Cars in the order Wyman asks for them. `spots` = scrap you scan with WAiNK; `where` is our own wording of what the sources agree on. Ticks: wyman:<car>:<spot id> and wyman:<car>:done. `src` is our record only and is never shown.",
+  "fee": 1500,
+  "cars": [
+    {
+      "id": "transgressor",
+      "name": "'67 Transgressor",
+      "make": "Sirius",
+      "img": "ue-wyman-car-collection-02",
+      "alt": "The teal Sirius muscle car from Wyman's collection, restored",
+      "kind": "Muscle car",
+      "region": "Port Gellhorn, Kelly County",
+      "lede": "Wyman's first text. All three pieces are in and around Port Gellhorn, so this one is quick while Kelly County is still home.",
+      "fee": 1500,
+      "spots": [
+        { "id": "trailer-park", "name": "Trailer park north of Sarena's", "area": "Port Gellhorn", "county": "Kelly County", "where": "Find Sarena's Bargain Store in the middle of town, cross the road to the north and get over the wall into the trailer park. The wreck sits in the open among the pigs and the junk." },
+        { "id": "sunflower-house", "name": "Garage behind the sunflower house", "area": "Northern Port Gellhorn", "county": "Kelly County", "where": "The house across the street from the Kolt & Associates stash house, west of Wasteland Off-Road, with sunflower ornaments in the front garden. Go up the right-hand side of the house to the open garage at the back." },
+        { "id": "dirt-merchants", "name": "Behind Dirt Merchants", "area": "Southern Port Gellhorn", "county": "Kelly County", "where": "Take the dirt track that runs behind the Dirt Merchants mod shop and follow the fence to the end. The last piece is by the broken fence back there." }
+      ]
+    },
+    {
+      "id": "riata",
+      "name": "'70 Riata",
+      "img": "ue-wyman-car-collection-03",
+      "alt": "The cream Riata 4x4 with orange stripes, muddy from the trail",
+      "kind": "Off-road 4x4",
+      "region": "The Keys, Mariana County",
+      "lede": "The second text sends you back down to the Keys. Expect a long drive from Kelly County; all three pieces are under or beside houses and old buildings near the water.",
+      "fee": 1500,
+      "spots": [
+        { "id": "key-lento", "name": "Under a stilt house in Key Lento", "area": "Key Lento", "county": "Mariana County", "where": "In the streets near the Key Lento police buildings, a short way from the Key Lento Mini Mart. The wreck is parked under a raised house." },
+        { "id": "southwind", "name": "Southwind, past the Xero Gas", "area": "Southwind (Mile Zero Air Station island)", "county": "Mariana County", "where": "On the island with the Mile Zero Air Station. Take the road east from the Xero Gas station to its end, just before the sea; the wreck is under the brown house there." },
+        { "id": "shoeless-keys", "name": "Old gas station, Shoeless Keys", "area": "Shoeless Keys", "county": "Mariana County", "where": "Just north of the Grassrivers Cafe & Deli, at the abandoned gas station. Look around the station building." }
+      ]
+    },
+    {
+      "id": "mamba-gt",
+      "name": "'64 Mamba GT",
+      "kind": "Roadster",
+      "region": "Kelly County and the north coast",
+      "lede": "Four pieces, spread from the prison to the far north coast. A fast car or a dirt bike makes the off-road stretches much easier.",
+      "fee": 1500,
+      "spots": [
+        { "id": "farmhouse", "name": "Farmhouse garage north of the prison", "area": "Gellhorn", "county": "Kelly County", "where": "On the east side of Gellhorn, north of the Leonida State Penitentiary. Head up the road east of the prison to a lone farmhouse behind a private gate and open its garage." },
+        { "id": "ambrosia", "name": "Alley garage in Ambrosia", "area": "Ambrosia", "county": "Kelly County", "where": "In central Ambrosia, near the Pay 'n' Spray and the Wyatt Motors garage. Go down the side of the Xero Gas station into the alley behind it and open the garage door there." },
+        { "id": "mud-club", "name": "In the pond at the Mud Club", "area": "Frogswater", "county": "Kelly County", "where": "Set your route to the Thrillbilly Mud Club's dirt track races. Just east of it is a small pond, and the car is half under water. You can scan it from the bank." },
+        { "id": "broken-bridge", "name": "Under the broken wooden bridge", "area": "Moreau", "county": "Lummox County", "where": "On the north coast between Bonanza and the Buck Creek Country Store. An old wooden bridge has collapsed into the gully, and the car is in the wreckage at the bottom." }
+      ]
+    },
+    {
+      "id": "kit-car",
+      "name": "Reynolds Kit Car",
+      "make": "Reynolds",
+      "img": "ue-wyman-car-collection-05",
+      "alt": "Close-up of the pale green Reynolds Kit Car's headlight and wire wheel",
+      "kind": "Sports car",
+      "region": "The city, Kelly County and Mariana County",
+      "lede": "Five pieces, and one of them is locked in a SCOOP shipping container, so you need the Cut-Off Tool from Meet the Heders in Chapter 3 before you can finish it.",
+      "needs": { "t": "Cut-Off Tool", "u": "/guides/equipment/#cut-off-tool", "m": "Meet the Heders", "mu": "/walkthrough/meet-the-heders/", "ch": "Chapter 3" },
+      "fee": 1500,
+      "spots": [
+        { "id": "willies", "name": "Willie's Service Center", "area": "East of the airport", "county": "", "where": "The building with a brown top half and a blue bottom half, just north of the 7th Avenue Garage. You have to break into the ground-floor garage, which sets off the alarm, so scan and get out." },
+        { "id": "casanova", "name": "Gated garage on Casanova Island", "area": "Casanova Island, Rialto Islands", "county": "", "where": "On the north side of the island, beside an empty lot between the villas. Push the gate open and the kit is right behind it." },
+        { "id": "wild-hog", "name": "SCOOP container at Wild Hog Point", "area": "Wild Hog Point", "county": "Kelly County", "where": "Out on the coast west of Port Gellhorn. Cut the lock on the yellow SCOOP container with the Cut-Off Tool and scan what's inside." },
+        { "id": "watson-bay", "name": "Behind Donnie's Auto Repair", "area": "Watson Bay", "county": "Mariana County", "where": "The closed-down repair shop next to the Watson Bay Pay 'n' Spray. Follow the path round the side of the building to the back." },
+        { "id": "capri", "name": "Locked garage in Capri", "area": "Capri", "county": "Mariana County", "where": "In the houses in northern Capri, across from a building site. Go up the driveway, break into the garage and scan the kit." }
+      ]
+    },
+    {
+      "id": "deviant",
+      "name": "'72 Deviant",
+      "img": "ue-wyman-car-collection-06",
+      "alt": "The red, white and blue Deviant with stars on the bonnet",
+      "kind": "Muscle car",
+      "region": "No scrap to find",
+      "lede": "The last car. Once the Kit Car is done, Wyman has this one ready without a hunt: wait for his call, pay what he asks and pick it up at his scrapyard.",
+      "spots": []
+    }
+  ],
+  "src": [
+    { "label": "Push Square: GTA 6 Wyman's Classic Car Locations", "url": "https://www.pushsquare.com/guides/gta-6-wymans-classic-car-locations", "note": "Published Nov 20, 2026 23:30 UTC, modified Nov 23 23:00, read Nov 25 (first ~40k chars verbatim, rest as a fetch summary). Trusted. Ultimate Edition only; starts after collecting the '67 Vapid Dominator in Chapter 2 (Paradise garage); Wyman texts; Exploration tab 'Find Cars for Wyman'; 5 cars, 15 scrap spots; $1,500 per car via BuckMe; register at Pay 'n' Spray for $100 or park in a garage, else it goes back to Wyman's scrapyard. Spot details per car. Deviant (summary): no scraps, Wyman calls, $1,000 fee (summary only, not used), pick up at scrapyard. Stats per car (one source, not used). Scrapyard 'edge of Capri' / 'Wyman's Auto Salvage' (summary only, not used)." },
+    { "label": "GamesRadar: Transgressor / Riata / Mamba GT / Reynolds locations for Wyman", "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-transgressor-locations-wyman/", "note": "Four pages, all published Nov 22, 2026, read Nov 25. Trusted. Also /gta-6-riata-locations-wyman/, /gta-6-mamba-gt-locations-wyman/, /gta-6-reynolds-locations-wyman/. Ultimate Edition only; after Thrillbillies (Ch2); Exploration tab; WAiNK scans; $1,500 via BuckMe; register for $100; a few in-game days before he asks for the money; uncollected car goes back to the scrapyard and can be collected later. Kit Car needs the Cut-Off Tool (Ch3). Not used: sell for $15,000 (one source); Mamba Ambrosia spot 'Leonard County' and colours; 'no need to climb down' at the bridge (PC Gamer says drop into the ravine); Willie's described as 'VCIA, east of the airport' (matches our 7th Avenue Garage area)." },
+    { "label": "PC Gamer: Transgressor / Riata / Mamba GT / Kit Car locations", "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-transgressor-locations/", "note": "Published Nov 21-23, 2026, read Nov 25. Trusted. Also /gta-6-riata-locations/, /gta-6-mamba-gt-locations/, /gta-6-kit-car-locations/ (Kit Car spots 4-5 and the Deviant only as a fetch summary). After Thrillbillies and collecting the Vapid Dominator; Wyman texts; $1,500 labour per car; collect at the scrapyard marker; Kit Car needs Meet the Heders' cut-off tool; Willie's Service Center break-in sets off an alarm; Deviant last, no hunt. Not used: police chopper at Shoeless Keys, cash in a box at the farmhouse, building colours." },
+    { "label": "Rockstar Games: Ultimate Edition contents (Classic Car Collection images)", "url": "https://www.rockstargames.com/VI", "note": "Official images ue-wyman-car-collection-01..06 already in the repo; 02 shows a Sirius badge, 03 Riata, 05 Reynolds badge, 06 Deviant script. Confirms the special commission is Ultimate Edition only." }
+  ]
+}

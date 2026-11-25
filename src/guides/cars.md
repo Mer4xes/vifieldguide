@@ -8,7 +8,7 @@ summary: Getting into a car, what its tracker means, how to make it yours, and h
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-24
+updated: 2026-11-25
 facts:
   - { k: Personal vehicle, v: "One each for Jason and Lucia", status: Reported }
   - { k: First registered car, v: "Chapter 2, Moses", status: Reported }
@@ -130,6 +130,6 @@ No car at all? Leonida has [25 train stations](/guides/shops/#train-stations), a
 
 <h2 id="trophies">Trophies and challenges</h2>
 
-- **[On the Spot](/trophies/on-the-spot/):** register 10 vehicles in the Scooter Bros app. Each needs a free garage space.
+- **[On the Spot](/trophies/on-the-spot/):** register 10 vehicles in the Scooter Bros app. Each needs a free garage space. With the Ultimate Edition, [Wyman's restored classics](/guides/classic-cars/) can be registered too.
 - **[Little Boxes](/trophies/little-boxes/):** buy all 8 garage properties ($160,000, [list and prices](/guides/garages/)), which also gives you the space for On the Spot.
 - **Carjacking Spree** and **Carjacking Pro** are car challenges: register or respray stolen cars from 10 makers in 30 minutes, and make $100,000 in a day selling stolen cars. See [challenges](/guides/challenges/#criminal).
