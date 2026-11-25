@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-24
+updated: 2026-11-25
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -97,6 +97,8 @@ The first rule matters more than any method: **cash in your pocket is not safe.*
 | **3** | Jewelry stores, Pay 'n' Spray car sales, small bank jobs, Randy's wish list | [Yasmani's jewelry jobs](/guides/side-contacts/#yasmani), Credit Check, the key cloner |
 | **4** | Large bank vaults | That's Where The Money Is, at the very end of the chapter |
 | **After the story** | Large bank vaults, again and again | — |
+
+> **Tip:** Papa Audacity's stunt jobs in Chapter 3 end with two windfalls: his **AudaCity Sandking**, which sells for over $10,000 if you don't want it, and about **$25,000** for your DacityCoin, if you sell it in the app before the bike jump at his launch party. [His strand](/guides/side-contacts/#audacity).
 
 <h2 id="cars">Stolen cars</h2>
 

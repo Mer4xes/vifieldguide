@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-24
+updated: 2026-11-25
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -25,14 +25,14 @@ labs:
   - { id: vicedale-1, area: "Vice-Dale", where: "The trailer in the middle of the area; climb in through the east window. No cook here, just a squatter.", pay: "2,500" }
 facts:
   - { k: Strangers & Freaks, v: "8 strands", status: Confirmed }
-  - { k: Counting strands known, v: "7 of 8", status: Reported }
+  - { k: Counting strands known, v: "8 of 8", status: Reported }
   - { k: Contact trophies, v: "7", status: Confirmed }
   - { k: Kitty Litter labs, v: "$2,000–$2,500 each", status: Reported }
   - { k: Moses's car jobs, v: "6 cars, $18,610 base", status: Reported }
   - { k: Kenton's treasure sets, v: "7, 5 needed for 100%", status: Reported }
 tldr:
   - "Side contacts run their own strands of jobs alongside the story. Several of them end with a **hidden trophy** for the final mission."
-  - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. Seven are known to count, with a [tracker](#strangers-and-freaks) for them; not every contact on this page is a stranger."
+  - "**Strangers & Freaks** (silver) needs 8 strands for strangers across Leonida. All eight that count are known now, with a [tracker](#strangers-and-freaks) for them; not every contact on this page is a stranger."
   - "The fences on this page are also how you turn stolen goods into money. See [fences](/guides/fences/)."
 faq:
   - q: "How do you get Baited My Tackle in GTA 6?"
@@ -44,7 +44,15 @@ faq:
   - q: "How do you get into Freddie's bunker in GTA 6?"
     a: "The first time, use the loader on the east side to push the container off a hidden staircase and take the tunnel. On the second visit the tunnel is sealed, so climb the northeast water tower to its first level and jump onto the building inside. Watch for proximity mines (a red light and a beep) and shoot the drones from the roof."
   - q: "How many Strangers & Freaks are there in GTA 6?"
-    a: "The trophy asks for 8 mission strands for strangers. Seven are known to count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. The eighth isn't confirmed yet, so check the trophy tracker after the last job of Kenton's, Bret's, Randy's, Dunk's or the Unknown Stuntman's strand."
+    a: "The trophy asks for 8 mission strands for strangers, and eight are known to count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Pilot Pete, Dr. Merle, Freddie and Papa Audacity (the Unknown Stuntman). Finish the last job of each and the trophy pops."
+  - q: "How do you start The Unknown Stuntman in GTA 6?"
+    a: "In Chapter 3, go to the park at the south end of Ocean Beach (a poster in the Bayside apartment lobby points there) and talk to Papa Audacity in his white suit. Fix the gas canister on his ramp, light the fuse on his bike, then give your details to the AudaCity engineer. Jason or Lucia can do it."
+  - q: "How do you beat x50 in Trial by Tire in GTA 6?"
+    a: "On the car park roof you have just over a minute. Go for the big jumps in the middle of the roof first, which add x10 each early on, and throw in flips for extra. Then finish with the leap of faith off the corner ramp into the water."
+  - q: "How do you get the AudaCity Sandking in GTA 6?"
+    a: "Finish Quit Your Job, Sell Your House, Papa Audacity's third job: after the helicopter, the skydive and the stadium stunt you drive him to hospital in his truck, and it's yours afterwards. Register it to keep it, or sell it for over $10,000."
+  - q: "When should you sell DacityCoin in GTA 6?"
+    a: "During The Audacity, Papa Audacity's launch party and the last job of his strand. The coin is worth the most just before the bike jump into the rooftop pool, so sell it in the phone app then, for about $25,000."
   - q: "Which side missions don't count for Strangers & Freaks in GTA 6?"
     a: "Cal, Shirley, Moses, Billy, Andy, Yasmani, Tyrone, Eddie Acosta and Shayna's jobs don't count toward the trophy, even though several of them have a trophy of their own."
   - q: "How do you start the missing persons quest in GTA 6?"
@@ -88,6 +96,12 @@ faq:
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
+  - label: "PowerPyx: Papa Audacity strand (six pages)"
+    url: "https://www.powerpyx.com/gta-6-the-unknown-stuntman-walkthrough/"
+    note: "Read Nov 25, 2026. The Unknown Stuntman (pub Nov 22, mod Nov 24): optional side mission, Ch3, no requirement, Lucia/Jason, Vice Beach > Ocean Beach park south end, poster in Bayside Apartment lobby, white outfit, gas canister on side of ramp, return, light fuse at front of bike, talk to engineer, Give Details; reward none, whole questline counts toward S&F. Trial by Tire (Meet the AudaCity Engineer, /gta-6-trial-by-tire-meet-the-audacity-engineer-walkthrough, mod Nov 24): Ch3, after Unknown Stuntman, few in-game days, same character (no switch), Vice City > La Perle, dirt bike, lower-floor course avoid pink box stacks, rooftop trial just over a minute past x50, big mid-roof jumps x10 each early, flips bonus, leap of faith corner ramp into water, swim back; reward none. Quit Your Job, Sell Your House (Help Papa Audacity, mod Nov 24): after Trial by Tire, Peacock Bay Condominiums, lift to roof, steal helicopter while pilot distracted, jump over Catalan Key, parachute, stadium, purple awning, carry him to his truck, drive to medical center, short chase, bridge jump; header reward AudaCity Sandking, body says keep or sell (over $10K). Character wording unclear (header Lucia/Jason, body 'with both'), so no character shown. AudaCity Stunts (/gta-6-audacity-stunts-walkthrough): after Quit Your Job, 7 spots (Dalton Island statue, Leonida Power and Light, Ocean Beach Parking, St. Vitus Medical Center, 'Mastadon Sand Mill' (name left out, spelling unclear), Downtown parachute, VCIA boats + VICE CITY sign); reset allowed; trespass warning at the sand mill; reward none. Catching a Whale (Help Papa Audacity, /gta-6-catching-a-whale-help-papa-audacity-walkthrough): after all stunts, Leonard County > Waning Sands, Sundown Airfield, plane route Leaf Links golf course, harbor stunts, Tequesta Retreat island loop, courthouse, cruise ship, Ocean Beach south end north along beach, climb, he flies, jump near yacht, cutscene landing; reward none. The Audacity (Attend the Launch Party, /gta-6-the-audacity-attend-the-launch-party-walkthrough): requires Catching a Whale, about a day later, Vice City > Tequesta (quest text names Neo Paloma Apartments, left out), engineers by the back lift, behind stage, helicopter ride, top of the jump, boost L3, rooftop pool, goons, lift, lose police, call him; ~$25,000 selling DacityCoin before the jump (page also mentions ~$3,000 more for waiting, contradictory, left out); counts for S&F. Trusted source. Fextralife's S&F page (edited Nov 25) has the same six jobs in the same order."
+  - label: "Magic Game World: Trial by Tire"
+    url: "https://www.magicgameworld.com/gta-6-trial-by-tire-walkthrough-reach-the-rooftop-and-beat-x50/"
+    note: "Read Nov 25, 2026 (Nov 24). Cross-check for Trial by Tire: Ch3 after The Unknown Stuntman, La Perle car park, same character, pink boxes, just over a minute for x50, x10 jumps, flips, corner ramp into the canal, call from Papa Audacity. Next job Quit Your Job, Sell Your House."
   - label: "PowerPyx: The Final Flush (Meet at Frank's Waffles)"
     url: "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
     note: "Read Nov 24, 2026 (published Nov 22 18:54, modified 19:20 UTC). No Flushers S&F side quest, any chapter, Vice City > Tequesta, giver Dr. Merle, requirement scan a No Flusher poster (all over the map near bathrooms; example campground east side of Watson Bay), reply TRUTH, Frank's Waffles. Objectives: van, follow instructions, park on coast near facility, follow, enter facility, find tracker, follow, way down. No marker in the van; sewage treatment plant (page: Gloriana Key); worker at the gate -> Defuse; run quietly to the door; stairs to walkway console, buttons until all green, lever opens floor; Merle in chamber, press button on front; page then says you get in the chamber yourself; wake at current house; permanent stamina; counts for S&F. Trusted."
@@ -215,15 +229,16 @@ sources:
 | **Eddie Acosta** | Throws a rooftop party in Vice City | Chapter 4, a text a few days after you meet him at the Y Hotel in Ocean Beach ([his one job](#eddie)) | Doesn't count toward Strangers & Freaks |
 | **Dr. Merle** | The No Flushers, a group that won't flush | Any chapter, a No Flushers poster in a public bathroom ([his one job](#merle)) | Counts toward Strangers & Freaks |
 | **Freddie** | Doomsday prepper with a bunker on Lake Leonida | Any chapter, his compound in North Leonard County ([his one job](#freddie)) | Counts toward Strangers & Freaks |
+| **Papa Audacity** | Stuntman with his own AudaCity brand and DacityCoin | Chapter 3, the park at the south end of Ocean Beach ([his jobs](#audacity)) | Counts toward Strangers & Freaks |
 
-<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["merle","Dr. Merle"],["freddie","Freddie"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["alvan","Missing tourists"],["moses","Moses"],["yago","Yago"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
+<nav class="strand-jump" aria-label="Jump to a strand"><span class="lab">Jump to</span>{% for j in [["cal","Cal"],["merle","Dr. Merle"],["freddie","Freddie"],["kirk","Kirk"],["billy","Billy"],["kyle","Kyle"],["alvan","Missing tourists"],["moses","Moses"],["yago","Yago"],["audacity","Papa Audacity"],["andy","Andy"],["yasmani","Yasmani"],["pete","Pilot Pete"],["kenton","Kenton"],["randy","Randy"],["tyrone","Tyrone"],["eddie","Eddie"],["bret","Bret"]] %}<a class="chip plain" href="#{{ j[0] }}">{{ j[1] }}</a>{% endfor %}</nav>
 
 <h2 id="strangers-and-freaks">Strangers & Freaks</h2>
 
-The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every side job counts: a strand only adds to the trophy when you finish its **last** job, and plenty of contacts, fences above all, don't count at all. Seven strands are known to count. Tick them off here as you finish them; the ticks are saved on this device and shared with the [100% route](/guides/100-percent-route/).
+The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands for strangers across Leonida. Not every side job counts: a strand only adds to the trophy when you finish its **last** job, and plenty of contacts, fences above all, don't count at all. All eight strands that count are known. Tick them off here as you finish them; the ticks are saved on this device and shared with the [100% route](/guides/100-percent-route/).
 
-<div class="progress" data-progress="sf:" data-total="7">
-<div class="row"><span class="lab">Known counting strands done</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
+<div class="progress" data-progress="sf:" data-total="8">
+<div class="row"><span class="lab">Counting strands done</span><span class="pct"><span data-done>0</span> / 8 · <span data-pct>0%</span></span></div>
 <div class="bar"><i></i></div>
 </div>
 
@@ -233,6 +248,7 @@ The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands fo
   ["kyle","Kyle and McKittrick Farm","Chapter 2 and 3","Three jobs for a farmer in Kelly County, from a flyer at the Starlet Motel.","#kyle"],
   ["alvan","Gellhorn's missing tourists","Chapter 2","Three bodies to find around Port Gellhorn, then a second part that needs both leads.","#alvan"],
   ["yago","Yago and the street races","Chapter 3","Four street-race jobs in Vice City. Two are Jason only and one is limited-time.","#yago"],
+  ["audacity","Papa Audacity, the Unknown Stuntman","Chapter 3","Six stunt jobs around Vice City, from a bike ramp in Ocean Beach to a rooftop pool. Pays out in a Sandking truck and DacityCoin cash.","#audacity"],
   ["pete","Pilot Pete's flying jobs","Chapter 4","Jason only: Pete's plane, then three timed delivery runs.","#pete"],
   ["merle","Dr. Merle: The Final Flush","Any chapter","One job, started from a No Flushers poster. It raises your maximum stamina for good.","#merle"],
   ["freddie","Freddie: Retest Freddie's Defenses","Any chapter","Break into a prepper's compound in Leonard County twice. Pays $10,000 and switches hurricanes on.","#freddie"]
@@ -241,7 +257,7 @@ The silver **Strangers & Freaks** trophy asks you to finish 8 mission strands fo
 {%- endfor %}
 </div>
 
-The **eighth** strand isn't confirmed yet. It has to be one of the strands nobody has pinned down either way: Kenton's dives, Bret's hunting decks, Randy's wish list, Dunk's robbery tips or the Unknown Stuntman. Check the trophy tracker before and after the last job of each.
+Those eight are enough for the trophy, so you don't need Kenton's dives, Bret's hunting decks, Randy's wish list or Dunk's robbery tips for it; finish them for their own rewards.
 
 These **don't count**, even where they have a trophy of their own: Cal, Shirley, [Moses](#moses), [Billy](#billy), [Andy](#andy), [Yasmani](#yasmani), [Tyrone](#tyrone), [Eddie Acosta](#eddie) and Shayna's one-off call (This Is a Free Call From…). Unless a job is marked missable, a strand you haven't finished is still there after the story.
 
@@ -356,6 +372,42 @@ Yago's strand is for Jason only and runs through Chapter 3 in Vice City. Each jo
 <li><div class="strand-h">Brother to Brother</div><span class="strand-pay">Yago's car</span><p>Knock on the back door of El Rincon Notorio in Little Cuba. A deal in west Vice City goes wrong: fight back to the car staying close to Yago, then chase him when he drives off. You keep his car, to store or sell.</p>
 <details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">How the strand ends</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><p>Yago turns out to be an undercover cop who chose not to arrest Jason. His car flips at the end of the chase, and you get to try to save him or leave him. He dies either way.</p></div></details></li>
 </ol>
+
+<h2 id="audacity">Papa Audacity, the Unknown Stuntman</h2>
+
+Papa Audacity is a daredevil with his own brand, **AudaCity**, a crew of engineers and a crypto coin, DacityCoin. His six jobs open in **Chapter 3**, once Vice City and Vice Beach are on the map, and every one of them is a stunt: bikes, a helicopter, parachutes and a plane. None of them pays much along the way, but the strand ends with the most valuable job of the lot, gives you his **AudaCity Sandking** truck, and the whole strand counts toward **Strangers & Freaks**. Either Jason or Lucia can take it on.
+
+> **Tip:** Each job arrives as a call or text from Papa Audacity a while after the last one, sometimes a few in-game days. If nothing comes, carry on with the story or other jobs and check back.
+
+<ol class="strand">
+<li><div class="strand-h">The Unknown Stuntman <span class="chip plain">Chapter 3</span> <span class="flag">Jason or Lucia</span></div><span class="strand-pay">No cash</span><p>A poster in the lobby of the Bayside apartment points you to him. Papa Audacity, in a white suit, is in the park at the <b>south end of Ocean Beach</b>. His ramp has a problem: walk to the gas canister on the side of the ramp at the far end of the track and fix it, then go back to him at the start and light the fuse at the front of his bike to send him off. Afterwards, talk to the AudaCity engineer standing nearby and pick <b>Give Details</b>.</p></li>
+<li><div class="strand-h">Trial by Tire <span class="flag">Same character</span></div><span class="strand-pay">No cash</span><p>The engineer gets in touch a few in-game days later and waits at a multi-storey car park in <b>La Perle</b>, Vice City. You play it as whoever did the first job. Ride the dirt bike round the course on the lower floor without hitting the stacks of pink boxes, then ride up to the next level. The <b>rooftop trial</b> is timed: you get a little over a minute to push your multiplier past <b>x50</b>. The big jumps in the middle of the roof are worth x10 each early on, and flips add more, so hit those first. Last comes the leap of faith: take the large ramp in the corner of the roof at full speed and land in the water, then swim back to the engineer.</p></li>
+<li><div class="strand-h">Quit Your Job, Sell Your House</div><span class="strand-pay">AudaCity Sandking</span><p>Meet at <b>Peacock Bay Condominiums</b> and ride the lift to the roof. While the pilot on the helipad is distracted, take his <b>helicopter</b> and fly to the jump point above <b>Catalan Key</b>. Jump, open the parachute and follow Papa Audacity down to the stadium. Watch his next stunt from the ground, then pick him up when he asks, carry him to his truck in the car park and drive him to the marked medical center. The police chase is short; a jump across the bridge shakes them. You keep the truck: register it, or sell it for over $10,000.</p></li>
+<li><div class="strand-h">AudaCity Stunts</div><span class="strand-pay">No cash</span><p>Papa Audacity calls soon after with seven stunt spots around the city. Five are bike jumps with a dirt bike waiting; the last two are bigger set pieces with an engineer on site. Any order works, and you can reset a jump that goes wrong. <a href="#audacity-stunts">The seven spots</a> are below with a checklist.</p></li>
+<li><div class="strand-h">Catching a Whale</div><span class="strand-pay">No cash</span><p>Once every stunt is done, Papa Audacity asks you to fly him. Pick up the plane at the <b>Sundown Airfield</b> in Waning Sands, Leonard County, and fly the route he calls out: around Leaf Links golf course, over the harbour (he does stunts on the wing, so fly steady and don't clip anything), a loop around the small island at Tequesta Retreat, a pass by the courthouse in the middle of the city, around the cruise ship in port, then low and level up the beach from the south end of Ocean Beach. Climb when he says, let him take the controls, then jump out over the harbour and glide towards the yacht. A cutscene lands you on it, so you don't need to aim precisely.</p></li>
+<li><div class="strand-h">The Audacity <span class="flag">Counts</span></div><span class="strand-pay">About $25,000</span><p>About a day after Catching a Whale, Papa Audacity invites you to his launch party at a building in <b>Tequesta</b>. Meet the engineers by the lift at the back of the building and ride up. Once the show begins, follow the engineer behind the stage, and after a helicopter ride follow Papa Audacity up to the top of the jump. Boost off the ramp on the bike (L3) and land in the hotel's <b>rooftop pool</b>. A gunfight follows: clear the goons, get to the lift on the far side of the pool, lose the police in any car, then phone Papa Audacity to finish. <b>Sell your DacityCoin in the phone app before the bike jump</b>: that's when it's worth the most, about $25,000.</p></li>
+</ol>
+
+<h3 id="audacity-stunts">The seven AudaCity Stunts</h3>
+
+<div class="progress" data-progress="audacity:" data-total="7">
+<div class="row"><span class="lab">AudaCity Stunts done</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["dalton","Dalton Island statue","Bike jump","The island has no road, so get there by boat, ferry or helicopter. Ride up the back of the gold statue and launch off it."],
+  ["power","Leonida Power and Light","Bike jump","Head north to the dirt ramp and jump the river. Resetting clears the traffic off the road."],
+  ["ocean-parking","Ocean Beach car park","Bike jump","Take the lift inside the entrance to the roof and jump down into the alley without hitting the walls of the buildings either side."],
+  ["st-vitus","St. Vitus Medical Center car park","Bike jump","Ride the lift by the road up to the roof, follow the roof road round to the northeast corner and jump north."],
+  ["sand-mill","Sand mill","Bike jump","A construction site: go through the hole in the sign and land on the highway. Don't hang around, or the workers report you for trespassing."],
+  ["downtown","Downtown rooftop","Parachute","Take the lift in the marked building to the roof and wait for the engineer. Grab the parachute, run off the end of the ramp, open it, follow the markers and land in or near the circle in the street."],
+  ["vcia","VCIA","Bike course","On the west side of the airport the engineer sets up a course: jump the line of boats, then make the big jump over the VICE CITY sign."]
+] %}
+<label class="tr" data-track-row for="audacity-{{ c[0] }}"><input class="cb" type="checkbox" id="audacity-{{ c[0] }}" data-track="audacity:{{ c[0] }}"><div class="body"><div class="name">{{ loop.index }}. {{ c[1] }}</div><div class="desc"><b>{{ c[2] }}.</b> {{ c[3] }}</div></div><div class="side"><span class="need">{{ c[2] }}</span></div></label>
+{%- endfor %}
+</div>
 
 <h2 id="andy">Andy and Cellerica</h2>
 

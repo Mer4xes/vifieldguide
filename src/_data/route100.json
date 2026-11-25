@@ -641,6 +641,17 @@
        "track": "sf:yago"
       },
       {
+       "k": "audacity-1",
+       "tag": "side",
+       "t": "**Papa Audacity's strand.** Jason or Lucia, from the park at the south end of Ocean Beach: The Unknown Stuntman, Trial by Tire (same character; beat x50 on the roof), Quit Your Job, Sell Your House (keep the AudaCity Sandking), then the seven AudaCity Stunts. [His jobs](/guides/side-contacts/#audacity)."
+      },
+      {
+       "k": "audacity-2",
+       "tag": "side",
+       "t": "**Catching a Whale, then The Audacity.** Sell your DacityCoin in the app before the bike jump at the launch party (about $25,000). The strand counts toward Strangers & Freaks.",
+       "track": "sf:audacity"
+      },
+      {
        "m": 38,
        "n": "Gets you the [Pry Bar and Cut-Off Tool](/guides/equipment/#ch3): wooden crates and the yellow SCOOP containers."
       },
@@ -1036,10 +1047,12 @@
        "m": 76
       },
       {
-       "m": 77
+       "m": 77,
+       "n": "Goes on the map with Abe's call (*Rafa's Kidnapping* in the mission list) once Jason has nothing else open."
       },
       {
-       "m": 78
+       "m": 78,
+       "n": "Goes on the map with Nate's call (*Nate Will Be in Touch*): finish Jason's open missions, then play as Lucia."
       },
       {
        "m": 79
@@ -1559,7 +1572,7 @@
        "k": "t-strangers",
        "track": "trophy:strangers-and-freaks",
        "tag": "trophy",
-       "t": "**Strangers & Freaks:** 8 strands. Seven are known to count: Kirk, Kyle, the missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. Cal, Shirley, Moses, Billy, Andy, Yasmani, Tyrone, Eddie and Shayna don't. The eighth is one of Kenton, Bret, Randy, Dunk or the Unknown Stuntman. [Strand tracker](/guides/side-contacts/#strangers-and-freaks)."
+       "t": "**Strangers & Freaks:** 8 strands, and all eight that count are known: Kirk, Kyle, the missing tourists, Yago, Papa Audacity, Pilot Pete, Dr. Merle and Freddie. Cal, Shirley, Moses, Billy, Andy, Yasmani, Tyrone, Eddie and Shayna don't. [Strand tracker](/guides/side-contacts/#strangers-and-freaks)."
       },
       {
        "k": "sf-merle",

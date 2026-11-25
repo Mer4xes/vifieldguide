@@ -8,7 +8,7 @@ giver: Andrés
 difficulty: 3
 summary: Andrés needs Jason and Lucia for a handover at a quarry that goes wrong. Lucia sneaks up to where the boy is held while Jason covers Andrés, then it turns into a long chase by car and bike. Pays $30,000 and the Family Matters trophy.
 description: "Child's Play (Rescue Rafa from Kidnappers) walkthrough for GTA 6: find Rafa with the binoculars, sneak up to him as Lucia, protect Andrés as Jason, get Rafa down the ladder, chase the convoy by car and bike, stop the helicopter and pull Rafa out of the wrecked SUV. $30,000 and Family Matters."
-updated: 2026-11-22
+updated: 2026-11-25
 objectives:
   - Go to the quarry
   - Drive to the deal
@@ -29,7 +29,7 @@ rewards:
   - { label: Trophy, value: "Family Matters" }
 faq:
   - q: "How do you unlock Child's Play in GTA 6?"
-    a: "Finish **Fresh Evidence**. Child's Play then starts at **Megamundo HQ** in Downtown Vice City, as Jason or Lucia. Andrés gives it."
+    a: "Finish **Fresh Evidence** and Jason's other open missions. Abe then phones Jason (the mission list calls this step *Rafa's Kidnapping*), and Child's Play goes on the map at **Megamundo HQ** in Downtown Vice City, to start as Jason or Lucia. Andrés gives it."
   - q: "Is Child's Play timed or missable?"
     a: "No. The map shows it like a limited-time job, but it doesn't run out. Once every other Jason and Lucia mission before **Power Play** is done, the game makes you play it. You can do it sooner."
   - q: "Where is Rafa in Child's Play?"
@@ -40,10 +40,13 @@ faq:
     a: "**$30,000** and the **Family Matters** trophy (a hidden bronze)."
 sources:
   - { label: "PowerPyx", url: "https://www.powerpyx.com/gta-6-childs-play-rescue-rafa-from-kidnappers-walkthrough", note: "Read Nov 22, 2026 (published Nov 20). Chapter 4, giver Andres, Lucia or Jason, start Vice City > Downtown at Megamundo HQ; requires Fresh Evidence. Reward $30,000 + Family Matters. Map shows it as if timed; forced once every other Jason and Lucia mission before Power Play is done; can be done earlier. 14 objectives (Go to the quarry ... Deal with Gustavo). Auto in a vehicle, quarry south of VCIA; stopped at the entrance, drive on, Lucia gets out; binoculars, tag with D-pad right, Rafa on the upper level of the building ahead with a row of red lights over the walkway; Lucia with silenced pistol, keep right by the buildings, centre of the metal structures, stairwell, ladder, south, stairs on the right, two guards come down the stairs (ignore), walkway to Rafa's door, two guards at the corner, door on the left, one guard inside; Jason protects Andres, group in front, back toward the cars, more from the building on the right; Lucia carries Rafa, worse aim; walkway north to the ladder, Rafa climbs down alone, deal with enemies on the walkways opposite; pick him up again, ground level, grabbed: mash Square / X, shoot the man holding Rafa; move south-east, Rafa drives a forklift, step on the platform to the right; car arrives, carry Rafa to Gustavo at the door; chase Gustavo, switch to Lucia to shoot; car flips, protect Andres; take a bike, switch to Lucia on the back, large truck, bikes on both sides, helicopter: shoot the pilot; Andres runs Gustavo off the road; SUV on the train tracks, mash R2 / RT seatbelt, rotate left stick, mash Circle / B; chase Gustavo to the highway, he fails to steal a car. Header says cement factory, steps say quarry (we say quarry). Spoiler: Gustavo, the Navarro family's head of security, was working with FAP and is killed; Rafa back with Petra and Andres; Abe has their new identities ready." }
+  - { label: "PowerPyx: Rafa's Kidnapping", url: "https://www.powerpyx.com/gta-6-rafas-kidnapping-walkthrough/", note: "Read Nov 25, 2026 (published Nov 24). Ch4 phone-call wait in the story list, no marker; after Adventures in Babysitting; finish Jason's other main missions incl. Watch It and Fresh Evidence; the call is from Abe Gonzalez (description suggests Andres); Child's Play marked right after. Trusted source." }
   - { label: "PowerPyx: full walkthrough list", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/", note: "Read Nov 22, 2026. Chapter 4 #23 Rafa's Kidnapping (Jason only, no page), #24 Fresh Evidence, #25 Child's Play (Rescue Rafa from Kidnappers), no label, #27 Power Play." }
 ---
 
 The job after [Fresh Evidence](/walkthrough/fresh-evidence/). Andrés's son Rafa has been taken, and the people holding him want a handover at a quarry. [Lucia](/characters/lucia-caminos/) does the sneaking, [Jason](/characters/jason-duval/) does the covering, and both of you end up in a chase across the city. Start it at **Megamundo HQ** in Downtown as either of them.
+
+> **Tip:** After [Adventures in Babysitting](/walkthrough/adventures-in-babysitting/) the mission list shows **Rafa's Kidnapping**. That's a phone call, not a mission: it comes from Abe once Jason has nothing else open, Fresh Evidence included, and it puts Child's Play on the map.
 
 > **Note:** The map marks Child's Play like a limited-time job, but it won't disappear. Once everything else for Jason and Lucia before [Power Play](/walkthrough/power-play/) is finished, the game simply makes you play it.
 

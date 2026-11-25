@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -342,7 +342,7 @@
     "open-world"
    ],
    "target": "8",
-   "how": "Finish 8 stranger strands. Seven are known to count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Pilot Pete, Dr. Merle and Freddie. Fences and several contacts with their own trophy don't, so for the eighth check the trophy tracker after each final mission.",
+   "how": "Finish 8 stranger strands. These eight count: Kirk, Kyle, Gellhorn's missing tourists, Yago, Papa Audacity (the Unknown Stuntman), Pilot Pete, Dr. Merle and Freddie. Fences and several contacts with their own trophy don't, so stick to these.",
    "link": "/guides/side-contacts/#strangers-and-freaks",
    "linkLabel": "Strangers & Freaks"
   },

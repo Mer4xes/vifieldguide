@@ -1,12 +1,20 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Side content",
+  "title": "Papa Audacity's stunt jobs",
+  "text": "All six jobs of the Unknown Stuntman's strand, the seven AudaCity Stunts with a checklist, and the eighth Strangers & Freaks strand.",
+  "url": "/guides/side-contacts/#audacity",
+  "img": "/assets/img/misc/act-bikes.webp",
+  "cta": "Start the strand"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Collectibles",
   "title": "Every Vice City Flamingos card",
   "text": "All 24 cards of the set that unlocks the Bubblegum cheat, in menu order, with a county-by-county plan and ticks that save.",
   "url": "/collectibles/collectible-cards/vice-city-flamingos/",
-  "img": "/assets/img/region-vice-city.webp",
-  "cta": "Find all 24"
+  "img": "/assets/img/region-vice-city.webp"
  },
  {
   "date": "2026-11-24",
@@ -29,7 +37,7 @@
   "date": "2026-11-24",
   "tag": "Side content",
   "title": "Port Gellhorn's missing tourists",
-  "text": "Where the three missing tourists are, how the case ends, and a tracker for the seven strands known to count for Strangers & Freaks.",
+  "text": "Where the three missing tourists are, how the case ends, and a tracker for the strands that count for Strangers & Freaks.",
   "url": "/guides/side-contacts/#alvan",
   "img": "/assets/img/region-port-gellhorn.webp"
  },
@@ -56,14 +64,5 @@
   "text": "Every bar, 25 train stations and 15 electronics stores join the shoe stores, salons, tattoo studios and gas stations in the shop finder.",
   "url": "/guides/shops/",
   "img": "/assets/img/region-leonida-keys.webp"
- },
- {
-  "date": "2026-11-23",
-  "tag": "New guide",
-  "title": "Fishing, hunting and the animal log",
-  "text": "Lures, controls, why every fish goes back, Bret's hunts, and how to study all 255 animals, with a tick list.",
-  "url": "/guides/fishing-and-hunting/",
-  "img": "/assets/img/misc/act-fishing.webp",
-  "pos": "24% 50%"
  }
 ]
