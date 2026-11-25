@@ -48,6 +48,6 @@ Four side jobs open at once, in any order. They are the easiest way to build up 
 - **Thrillbillies:** a dirt-bike race at the Thrillbilly Mud Club. Buy the outfit, rent a bike (the Sanchez is the better one) and don't finish last. First place pays $2,500. This starts Billy's strand.
 - **Hit Avery Pawn:** rob the pawn shop in Port Gellhorn. Smashing the cases brings the police right away. A scared employee can give you the code for the safe in the back. Sell the loot at Dunk's trailer.
 - **Hit Kingpin Bowling:** rob the bowling alley the Kolts have taken over. Heavily guarded, so bring your partner, armor, Zombix and sticky bombs for the safe. Taking all three valuables earns [Let's Go Bowling](/trophies/#lets-go-bowling).
-- **Impounded Vehicle:** Lucia's car is in the police lot next to the Port Gellhorn station. Drive through the fence, take it and lose two stars.
+- **Impounded Vehicle:** Lucia's car is in the police lot next to the Port Gellhorn station. Drive through the fence, take it and lose two stars ([step by step](/guides/optional-jobs/#impound)).
 
 > **Note:** You now need **$15,000** before the chapter can end. Keep the money in BuckMe. Vicki's [Afternoon Delight](/walkthrough/afternoon-delight/) pays the biggest chunk, and Jason can take a hunting job from Bret, Veteran Hunted, which pays $500 and a unique rifle.

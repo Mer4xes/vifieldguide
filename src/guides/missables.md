@@ -8,7 +8,7 @@ summary: The short list of things that disappear for good, sorted by the chapter
 order: 2
 glow: pink
 spoilerFree: true
-updated: 2026-11-21
+updated: 2026-11-25
 facts:
   - { k: Missable for 100%, v: "Nothing", status: Reported }
   - { k: Mission replay, v: "None", status: Reported }
@@ -21,7 +21,7 @@ faq:
   - q: "Are there missables in GTA 6?"
     a: "Yes, but none of them block 100% completion. You can lose a handful of collectibles that sit inside homes you move out of, a few limited-time optional jobs, Donnie's unique revolver in Don Gone, Boobie's bricks in Bricked Up and the later parts of the Dubious Provenance job."
   - q: "What is missable in Chapter 1 of GTA 6?"
-    a: "The five magazines in Jason's house, the balcony meditation with Lucia, Shirley's two optional jobs, Donnie's H&L .38 and any cash you carry. Recalibration is the point of no return, so save and bank your money before it."
+    a: "The five magazines in Jason's house, the balcony meditation with Lucia, Shirley's two optional jobs, Clock Out (if you turn Lucia's call down or miss her 4 PM deadline), Donnie's H&L .38 and any cash you carry. Recalibration is the point of no return, so save and bank your money before it."
   - q: "Which collectibles are missable in GTA 6?"
     a: "The ones inside homes you leave: five magazines at Jason's house (Chapter 1), two magazines and two collectible cards at the Starlet Motel (Chapter 2) and two magazines at the Bayside apartment (Chapter 3). The balcony meditation at Jason's house may also be gone after Chapter 1."
   - q: "Do you lose your money at the end of Chapter 1?"
@@ -42,7 +42,7 @@ sources:
   "magazines-books-comics": "Magazine",
   "collectible-cards": "Card",
   "meditation-spots": "Meditation",
-  "shirley-rum": "Optional job", "shirley-scooter": "Optional job", "yago-3": "Optional job", "free-call": "Optional job", "bad-driver": "Optional job",
+  "shirley-rum": "Optional job", "shirley-scooter": "Optional job", "clock-out": "Optional job", "yago-3": "Optional job", "free-call": "Optional job", "bad-driver": "Optional job",
   "donnie-38": "Weapon", "bank-ch1": "Cash", "bank-ch2": "Cash", "motel": "Home",
   "pool-delights": "Activity", "halifax": "Choice"
 } %}

@@ -217,7 +217,7 @@
       {
        "k": "lost-drugs",
        "tag": "side",
-       "t": "**Find the Lost Drugs.** Optional."
+       "t": "**Find the Lost Drugs.** Optional, Jason. A call after Down to Earth: four search zones in the Mariana County swamps, then drop the packages at Donnie's trailer. [Step by step](/guides/optional-jobs/#lost-drugs)."
       },
       {
        "k": "balcony",
@@ -233,11 +233,16 @@
       },
       {
        "k": "clock-out",
-       "tag": "side",
-       "t": "**Clock Out.** Optional."
+       "tag": "limited",
+       "t": "**Clock Out.** Optional, Jason. Lucia calls after Day Release, during the day: accept, and get to the Key Lento Community Center in a car before 4 PM, or it fails. The call doesn't come in every game. [Step by step](/guides/optional-jobs/#clock-out)."
       },
       {
        "m": 17
+      },
+      {
+       "k": "donnie-drugs",
+       "tag": "side",
+       "t": "**Donnie's Lost Drugs.** Optional, Jason, after Swamped. Take a boat out to the pink search area off Corsair Key, dive to Donnie's sunken boat and bring the bag to Brian's lockup for $1,200. [Step by step](/guides/optional-jobs/#donnie-drugs)."
       },
       {
        "m": 18
@@ -368,7 +373,7 @@
       {
        "k": "pick-up-gun",
        "tag": "side",
-       "t": "**Pick Up A Gun.** Optional."
+       "t": "**Pick Up A Gun.** Optional, Lucia. Buy a gun at Gellhorn Outfitters in Port Gellhorn, or take one out of the gun locker. [Optional jobs](/guides/optional-jobs/#pick-up-gun)."
       },
       {
        "m": 27,
@@ -451,7 +456,7 @@
       {
        "k": "impound",
        "tag": "side",
-       "t": "**Impounded Vehicle.**"
+       "t": "**Impounded Vehicle.** Drive through the police lot fence by the Port Gellhorn station, take Lucia's car and lose two stars. [Step by step](/guides/optional-jobs/#impound)."
       },
       {
        "k": "bret-1",
@@ -630,6 +635,11 @@
       },
       {
        "m": 37
+      },
+      {
+       "k": "get-wheels",
+       "tag": "side",
+       "t": "**Get Your Wheels.** Both cars were impounded after Chapter 2. Get one back with the Scooter Bros app, or register another car at a Pay 'n' Spray. [Optional jobs](/guides/optional-jobs/#get-wheels)."
       },
       {
        "k": "yago-1",
@@ -1022,13 +1032,23 @@
       {
        "k": "bad-driver",
        "tag": "limited",
-       "t": "**Bad Driver!** Optional. Andrea calls about Felipe after Party Hard; he's at a bar in Millport, Lummox County. Gone for good once Power Play starts."
+       "t": "**Bad Driver!** Optional. Andrea calls about Felipe after Party Hard; he's at a bar in Millport, Lummox County. Killing him pays $20,000; sparing him leads to Collect Felipe's Gift later. Gone for good once Power Play starts. [Step by step](/guides/optional-jobs/#bad-driver)."
       },
       {
        "m": 67
       },
       {
+       "k": "its-a-date",
+       "tag": "side",
+       "t": "**It's A Date!** Optional. Take Jason and Lucia together to the Courtyard Bar in Stockyard, buy a drink and walk back out. [Optional jobs](/guides/optional-jobs/#its-a-date)."
+      },
+      {
        "m": 68
+      },
+      {
+       "k": "drequan-gift",
+       "tag": "side",
+       "t": "**Dre'Quan's Gift.** A few in-game days after Photo/Shoot, pick up the KD's SFB 1000 race bike behind the Pay 'n' Spray in La Perle. Keep it if you have no fast bike yet. [Optional jobs](/guides/optional-jobs/#drequan-gift)."
       },
       {
        "k": "together-lock",

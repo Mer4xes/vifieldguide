@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Side jobs",
+  "title": "All 28 optional missions in order",
+  "text": "28 optional jobs in the order they open, the six you can miss, step-by-step help for the short ones and a checklist that saves.",
+  "url": "/guides/optional-jobs/",
+  "img": "/assets/img/full/leonida-keys-02.webp",
+  "pos": "50% 50%",
+  "cta": "See the list"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Secrets",
   "title": "The alien secret, step by step",
   "text": "Where the UFO turns up, how to start the dream, how to read your own door code and the permanent health, stamina and focus boost.",
   "url": "/guides/mysteries/",
   "img": "/assets/img/full/grassrivers-08.webp",
-  "pos": "60% 50%",
-  "cta": "Find the aliens"
+  "pos": "60% 50%"
  },
  {
   "date": "2026-11-25",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "chapters": [
   {
    "n": 1,
@@ -119,6 +119,10 @@
       {
        "t": "Meditation with Lucia",
        "u": "/trophies/#positive-mental-attitude"
+      },
+      {
+       "t": "Find the Lost Drugs (optional, Jason)",
+       "u": "/guides/optional-jobs/#lost-drugs"
       }
      ]
     },
@@ -128,11 +132,23 @@
     },
     {
      "t": "Day Release",
-     "no": 16
+     "no": 16,
+     "opens": [
+      {
+       "t": "Clock Out (optional, Jason, timed)",
+       "u": "/guides/optional-jobs/#clock-out"
+      }
+     ]
     },
     {
      "t": "Swamped",
-     "no": 17
+     "no": 17,
+     "opens": [
+      {
+       "t": "Donnie's Lost Drugs (optional, Jason)",
+       "u": "/guides/optional-jobs/#donnie-drugs"
+      }
+     ]
     },
     {
      "t": "Don Gone",
@@ -177,7 +193,13 @@
     },
     {
      "t": "Girls' Trip",
-     "no": 26
+     "no": 26,
+     "opens": [
+      {
+       "t": "Pick Up A Gun (optional, Lucia)",
+       "u": "/guides/optional-jobs/#pick-up-gun"
+      }
+     ]
     },
     {
      "t": "Moses",
@@ -255,7 +277,7 @@
       },
       {
        "t": "Impounded Vehicle",
-       "u": "/walkthrough/coffee-break/#step-4"
+       "u": "/guides/optional-jobs/#impound"
       },
       {
        "t": "Veteran Hunted (Bret, Jason only)",
@@ -311,6 +333,10 @@
       {
        "t": "Yago's street races (Jason only)",
        "u": "/guides/side-contacts/#yago"
+      },
+      {
+       "t": "Get Your Wheels (optional)",
+       "u": "/guides/optional-jobs/#get-wheels"
       }
      ]
     },
@@ -525,17 +551,29 @@
       },
       {
        "t": "Bad Driver! (optional, Andrea): missable, gone once Power Play starts",
-       "u": "/guides/missables/#chapter-4"
+       "u": "/guides/optional-jobs/#bad-driver"
       }
      ]
     },
     {
      "t": "Heavy Lifting",
-     "no": 67
+     "no": 67,
+     "opens": [
+      {
+       "t": "It's A Date! (optional, together)",
+       "u": "/guides/optional-jobs/#its-a-date"
+      }
+     ]
     },
     {
      "t": "Photo/Shoot",
-     "no": 68
+     "no": 68,
+     "opens": [
+      {
+       "t": "Dre'Quan's Gift (optional, a few days later)",
+       "u": "/guides/optional-jobs/#drequan-gift"
+      }
+     ]
     },
     {
      "t": "Making Gainz",

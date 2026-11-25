@@ -1,0 +1,320 @@
+{
+  "updated": "2026-11-25",
+  "chapters": [
+    {
+      "id": "ch1",
+      "n": "Chapter 1",
+      "title": "Chapter 1: Key Lento and the swamps"
+    },
+    {
+      "id": "ch2",
+      "n": "Chapter 2",
+      "title": "Chapter 2: the Starlet Motel"
+    },
+    {
+      "id": "ch3",
+      "n": "Chapter 3",
+      "title": "Chapter 3: Vice City"
+    },
+    {
+      "id": "ch4",
+      "n": "Chapter 4",
+      "title": "Chapter 4: Ocean Beach"
+    }
+  ],
+  "items": [
+    {
+      "id": "shirley-rum",
+      "ch": "ch1",
+      "track": "route:shirley-rum",
+      "name": "Get Shirley's Rum",
+      "when": "Between Pipework and Hey Arnold!",
+      "d": "A small job for Shirley, Jason's neighbour in Key Lento.",
+      "u": "/guides/missables/#chapter-1",
+      "pay": "Chapter 1 only",
+      "tags": "missable"
+    },
+    {
+      "id": "shirley-scooter",
+      "ch": "ch1",
+      "track": "route:shirley-scooter",
+      "name": "Steal the Scooter",
+      "when": "Between Pipework and Hey Arnold!",
+      "d": "Shirley's second job.",
+      "u": "/guides/missables/#chapter-1",
+      "pay": "Chapter 1 only",
+      "tags": "missable"
+    },
+    {
+      "id": "ch1-errands",
+      "ch": "ch1",
+      "track": "route:ch1-errands",
+      "name": "The errands before Coming Home",
+      "when": "After Feng Shui",
+      "d": "Pick up Groceries, Buy Flowers, Buy Lucia a Necklace, Get The Chop and Get Lucia's Clothes, all before you collect Lucia.",
+      "u": "/walkthrough/coming-home/",
+      "pay": "5 errands"
+    },
+    {
+      "id": "lost-drugs",
+      "ch": "ch1",
+      "track": "route:lost-drugs",
+      "name": "Find the Lost Drugs",
+      "when": "After Down to Earth · Jason",
+      "d": "Search four zones of the swamp for packages that beep.",
+      "u": "#lost-drugs",
+      "pay": "Fence goods"
+    },
+    {
+      "id": "clock-out",
+      "ch": "ch1",
+      "track": "route:clock-out",
+      "name": "Clock Out",
+      "when": "After Day Release · Jason",
+      "d": "Pick Lucia up from work before 4 PM.",
+      "u": "#clock-out",
+      "pay": "Timed",
+      "tags": "missable timed"
+    },
+    {
+      "id": "donnie-drugs",
+      "ch": "ch1",
+      "track": "route:donnie-drugs",
+      "name": "Donnie's Lost Drugs",
+      "when": "After Swamped · Jason",
+      "d": "Dive to Donnie's sunken boat off Corsair Key.",
+      "u": "#donnie-drugs",
+      "pay": "$1,200"
+    },
+    {
+      "id": "pick-up-gun",
+      "ch": "ch2",
+      "track": "route:pick-up-gun",
+      "name": "Pick Up A Gun",
+      "when": "After Girls' Trip · Lucia",
+      "d": "A quick stop at the gun store in Port Gellhorn.",
+      "u": "#pick-up-gun",
+      "pay": "A gun"
+    },
+    {
+      "id": "kyle-1",
+      "ch": "ch2",
+      "track": "route:kyle-1",
+      "name": "Check Out McKittrick Farm",
+      "when": "From Kyle's flyer at the motel",
+      "d": "Kyle's first job, the start of a Strangers & Freaks strand.",
+      "u": "/guides/side-contacts/#kyle",
+      "pay": "Strand"
+    },
+    {
+      "id": "kyle-2",
+      "ch": "ch2",
+      "track": "route:kyle-2",
+      "name": "Collect Chemicals for Kyle",
+      "when": "About a day after his first job",
+      "d": "Kyle's second job.",
+      "u": "/guides/side-contacts/#kyle",
+      "pay": "Strand"
+    },
+    {
+      "id": "thrillbillies",
+      "ch": "ch2",
+      "track": "mission:thrillbillies",
+      "name": "Thrillbillies",
+      "when": "After Coffee Break",
+      "d": "Billy's dirt-bike race at the Mud Club.",
+      "u": "/walkthrough/thrillbillies/",
+      "pay": "Up to $2,500"
+    },
+    {
+      "id": "twist-wrist",
+      "ch": "ch2",
+      "track": "mission:twist-wrist-smash-grab",
+      "name": "Twist Wrist, Smash, Grab",
+      "when": "After Thrillbillies",
+      "d": "Billy's second job.",
+      "u": "/walkthrough/twist-wrist-smash-grab/",
+      "pay": "Billy"
+    },
+    {
+      "id": "avery-pawn",
+      "ch": "ch2",
+      "track": "route:avery-pawn",
+      "name": "Hit Avery Pawn",
+      "when": "After Coffee Break",
+      "d": "Rob the pawn shop in Port Gellhorn.",
+      "u": "/walkthrough/coffee-break/#step-4",
+      "pay": "Loot"
+    },
+    {
+      "id": "kingpin",
+      "ch": "ch2",
+      "track": "route:kingpin",
+      "name": "Hit Kingpin Bowling",
+      "when": "After Coffee Break",
+      "d": "Rob the bowling alley the Kolts took over. A trophy depends on it.",
+      "u": "/walkthrough/coffee-break/#step-4",
+      "pay": "Trophy"
+    },
+    {
+      "id": "impound",
+      "ch": "ch2",
+      "track": "route:impound",
+      "name": "Impounded Vehicle",
+      "when": "After Coffee Break",
+      "d": "Take Lucia's car back from the police lot.",
+      "u": "#impound",
+      "pay": "Lucia's car"
+    },
+    {
+      "id": "bret-1",
+      "ch": "ch2",
+      "track": "route:bret-1",
+      "name": "Veteran Hunted",
+      "when": "After Coffee Break · Jason",
+      "d": "Bret's first hunt, which opens his Target Decks.",
+      "u": "/guides/side-contacts/#bret",
+      "pay": "$500 + rifle"
+    },
+    {
+      "id": "get-wheels",
+      "ch": "ch3",
+      "track": "route:get-wheels",
+      "name": "Get Your Wheels",
+      "when": "After Dealer's Choice",
+      "d": "Get a car of your own in Vice City.",
+      "u": "#get-wheels",
+      "pay": "A car"
+    },
+    {
+      "id": "yago-1",
+      "ch": "ch3",
+      "track": "route:yago-1",
+      "name": "Join a Street Race",
+      "when": "After Dealer's Choice · Jason",
+      "d": "Yago's first race in Salton.",
+      "u": "/guides/side-contacts/#yago",
+      "pay": "Strand"
+    },
+    {
+      "id": "kyle-3",
+      "ch": "ch3",
+      "track": "sf:kyle",
+      "name": "Buddy?",
+      "when": "Mid-chapter",
+      "d": "Kyle's last job. Finishing it counts toward Strangers & Freaks.",
+      "u": "/guides/side-contacts/#kyle",
+      "pay": "S&F"
+    },
+    {
+      "id": "yago-2",
+      "ch": "ch3",
+      "track": "route:yago-2",
+      "name": "Bumper to Bumper",
+      "when": "Mid-chapter · Jason",
+      "d": "Yago's second job, at his shop in Little Cuba.",
+      "u": "/guides/side-contacts/#yago",
+      "pay": "Strand"
+    },
+    {
+      "id": "yago-3",
+      "ch": "ch3",
+      "track": "route:yago-3",
+      "name": "Race Against Yago",
+      "when": "Later in the chapter · limited time",
+      "d": "Take it the moment it shows up.",
+      "u": "/guides/side-contacts/#yago",
+      "pay": "Timed",
+      "tags": "missable timed"
+    },
+    {
+      "id": "mall-rats",
+      "ch": "ch3",
+      "track": "route:mall-rats",
+      "name": "Mall Rats",
+      "when": "Late in the chapter · alone",
+      "d": "Billy's third job, a jewelry store in a mall.",
+      "u": "/guides/side-contacts/#billy",
+      "pay": "$12,000"
+    },
+    {
+      "id": "yago-4",
+      "ch": "ch3",
+      "track": "sf:yago",
+      "name": "Brother to Brother",
+      "when": "Late in the chapter",
+      "d": "Yago's last job. Finishing it counts toward Strangers & Freaks.",
+      "u": "/guides/side-contacts/#yago",
+      "pay": "S&F"
+    },
+    {
+      "id": "its-a-date",
+      "ch": "ch4",
+      "track": "route:its-a-date",
+      "name": "It's A Date!",
+      "when": "After Heavy Lifting · together",
+      "d": "A drink with your partner at the Courtyard Bar.",
+      "u": "#its-a-date",
+      "pay": "Relationship"
+    },
+    {
+      "id": "bad-driver",
+      "ch": "ch4",
+      "track": "route:bad-driver",
+      "name": "Bad Driver!",
+      "when": "After Party Hard",
+      "d": "Track down Felipe at a bar in Millport. Gone once Power Play starts.",
+      "u": "#bad-driver",
+      "pay": "$20,000 or a gift",
+      "tags": "missable"
+    },
+    {
+      "id": "eddie",
+      "ch": "ch4",
+      "track": "route:eddie",
+      "name": "Attend Eddie Acosta's Party",
+      "when": "A few days after you meet him · alone",
+      "d": "A rooftop party in Vice City.",
+      "u": "/guides/side-contacts/#eddie",
+      "pay": "Eddie"
+    },
+    {
+      "id": "drequan-gift",
+      "ch": "ch4",
+      "track": "route:drequan-gift",
+      "name": "Dre'Quan's Gift",
+      "when": "A few days after Photo/Shoot",
+      "d": "Pick up a race bike behind the Pay 'n' Spray in La Perle.",
+      "u": "#drequan-gift",
+      "pay": "KD's SFB 1000"
+    },
+    {
+      "id": "free-call",
+      "ch": "ch4",
+      "track": "route:free-call",
+      "name": "This Is a Free Call From…",
+      "when": "After Child's Play · Lucia · limited time",
+      "d": "Shayna's one-off call. Take it straight away.",
+      "u": "/guides/missables/#chapter-4",
+      "pay": "Timed",
+      "tags": "missable timed"
+    },
+    {
+      "id": "vault-intro",
+      "ch": "ch4",
+      "track": "route:vault-intro",
+      "name": "That's Where The Money Is…",
+      "when": "End of the chapter",
+      "d": "Opens the eight large bank vaults.",
+      "u": "/guides/robberies/",
+      "pay": "Bank vaults"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PowerPyx: GTA 6 Full Walkthrough - All Missions",
+      "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "note": "Read Nov 25, 2026 (modified Nov 25 02:33 UTC). Every Optional entry and its place in each chapter's order; hourglass icon for time-sensitive jobs; black icon with pink text = optional; completed optional missions aren't listed anywhere in the game; order can vary, a job may need other missions or a sleep first. Trusted source."
+    }
+  ]
+}
