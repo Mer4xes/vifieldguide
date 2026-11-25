@@ -67,6 +67,10 @@ faq:
     a: "Seven, and the 100% checklist needs five. Five sets are on shipwrecks around Key Lento and count as underwater discoveries too; Belpoint Strait and the Bobcat Dive Site are open dive sites that don't."
   - q: "Who is Randy in GTA 6?"
     a: "Randy Kozlov is a car fence with a dealership in Balsero. Lucia meets him in Chapter 3 when she delivers a car for Raul in Car Service. His first own job is a Zorrusso, which gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
+  - q: "Which cars are on Randy's wish list in GTA 6?"
+    a: "High-end sports and luxury cars: the Zorrusso, Coquette D10, Vitello, Infernus, Windsor Drop, Itali RSX, Jugular, Banshee, Growler, Paragon, Dubsta, Gauntlet Hellfire, Jubilee, Baller ST-D, Carbonizzare, Tempesta, Toros, Neon, Piccia Furia and Cypher. The list is on the map under Robberies, and Randy points you to the next car after each delivery."
+  - q: "Where is the Infernus for Randy in GTA 6?"
+    a: "In the police car park in Crosstown, Vice City, near the top of the building. Randy texts you a code for the stairwell door (5270). You need the key cloner, and the car has a tracker, so keep your speed up on the way to Randy."
   - q: "How do you unlock Yago's races in GTA 6?"
     a: "Finish Dealer's Choice in Chapter 3 as Jason. A few minutes later Manuel adds you to a group chat and the first street race shows up in Salton. Race Against Yago, the third job, is limited-time, so do it as soon as it appears."
   - q: "What are the safe codes for Yasmani's jewelry jobs in GTA 6?"
@@ -96,6 +100,18 @@ faq:
   - q: "How do you unlock The Lone Rider in GTA 6?"
     a: "Finish Billy's last job, Hometown Heroes, in Chapter 3. Before it come Thrillbillies, Twist Wrist, Smash, Grab, Mall Rats (solo) and The Impaler."
 sources:
+  - label: "PowerPyx: Randy's Wish List Car Locations"
+    url: "https://www.powerpyx.com/gta-6-randys-wish-list-car-locations-walkthrough"
+    note: "Read Nov 25, 2026 (published 20:55 UTC). Trusted. Starts after Clonin' Keys, Makin' GS; Map > Robberies > Randy's Wish List; Randy gives one location at a time, cars also spawn randomly; 16 cars listed (no total stated); fixed spots: Vitello Waning Sands mansion right garage (auto objective), Infernus Crosstown police lockup car park 7th floor, stair door code 5270 (auto objective), Windsor Drop/Paragon/Jubilee/RSX/Dubsta Bayside dealership west of Dynamix Fitness, Toros/Growler/Banshee Southside hexagonal showrooms (Banshee = Capitol Offense), Tempesta/Furia/Baller Rialto Islands driveways, Hellfire Capri hotel parking, Jugular Belville locked garage; gas station north of Randy's showroom to repair; damage lowers pay, condition bonus; questline continues with Dale Mamba. Per-car payouts ($3,150-$20,200) not used: Output Lag gives different figures."
+  - label: "Push Square: Randy's Wish List Vehicle Locations (WIP)"
+    url: "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+    note: "Modified Nov 23, 2026, read Nov 25. Trusted, but WIP and inconsistent (20 in text, tracker 0 of 15). Map > Robberies > Randy's Wish List; listed cars stolen elsewhere still count; Vitello Flamingo Pkwy, Waning Sands, right garage; Infernus Crosstown police station car park 7th level, tracker; Windsor Drop most likely Status Auto Imports, Bayside; Jugular Belville garage; RSX for sale at Status Auto Imports (summary); Furia, Hellfire (Hamlet junkyard), Toros, Jubilee, Dubsta, Baller, Growler spots disagree with PowerPyx, so left out; Mamba GT via Dale Mamba after several cars, Leaf Links mansion, key in bowl behind the sofa in the main building behind the pool. Truffade Thrax and the Delivery Day reward came only through a summary: not used."
+  - label: "GamesRadar: Pegassi Infernus for Randy"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-infernus/"
+    note: "Published Nov 25, 2026. Trusted. Infernus in the Crosstown police parking lot (8th level here vs 7th on PowerPyx/Push Square, so no floor given); Randy may text a code; key cloner; Randy gives more location info as you deliver more cars."
+  - label: "Output Lag, Beebom, Game Rant: Randy's wish list"
+    url: "https://outputlag.com/guides/gta-6-randy-wishlist-cars/"
+    note: "Read Nov 25, 2026. Second sources for the names: all three list the same 20 cars (PowerPyx's 16 plus Coquette D10, Neon, Carbonizzare, Cypher; Push Square has Coquette D10 and Neon too). Output Lag and Beebom: Coquette D10 through a Randy call about Waxman Island. Beebom: Banshee and Growler in Southside dealerships, Jugular Belville garage. Output Lag: repair at gas pumps near the showroom, condition bonus. Game Rant: save and reload to refresh. Locations that disagree with PowerPyx left out (Beebom: Vitello Starfish Island, Infernus NW Capri; Game Rant: most in Capri)."
   - label: "PowerPyx: Papa Audacity strand (six pages)"
     url: "https://www.powerpyx.com/gta-6-the-unknown-stuntman-walkthrough/"
     note: "Read Nov 25, 2026. The Unknown Stuntman (pub Nov 22, mod Nov 24): optional side mission, Ch3, no requirement, Lucia/Jason, Vice Beach > Ocean Beach park south end, poster in Bayside Apartment lobby, white outfit, gas canister on side of ramp, return, light fuse at front of bike, talk to engineer, Give Details; reward none, whole questline counts toward S&F. Trial by Tire (Meet the AudaCity Engineer, /gta-6-trial-by-tire-meet-the-audacity-engineer-walkthrough, mod Nov 24): Ch3, after Unknown Stuntman, few in-game days, same character (no switch), Vice City > La Perle, dirt bike, lower-floor course avoid pink box stacks, rooftop trial just over a minute past x50, big mid-roof jumps x10 each early, flips bonus, leap of faith corner ramp into water, swim back; reward none. Quit Your Job, Sell Your House (Help Papa Audacity, mod Nov 24): after Trial by Tire, Peacock Bay Condominiums, lift to roof, steal helicopter while pilot distracted, jump over Catalan Key, parachute, stadium, purple awning, carry him to his truck, drive to medical center, short chase, bridge jump; header reward AudaCity Sandking, body says keep or sell (over $10K). Character wording unclear (header Lucia/Jason, body 'with both'), so no character shown. AudaCity Stunts (/gta-6-audacity-stunts-walkthrough): after Quit Your Job, 7 spots (Dalton Island statue, Leonida Power and Light, Ocean Beach Parking, St. Vitus Medical Center, 'Mastadon Sand Mill' (name left out, spelling unclear), Downtown parachute, VCIA boats + VICE CITY sign); reset allowed; trespass warning at the sand mill; reward none. Catching a Whale (Help Papa Audacity, /gta-6-catching-a-whale-help-papa-audacity-walkthrough): after all stunts, Leonard County > Waning Sands, Sundown Airfield, plane route Leaf Links golf course, harbor stunts, Tequesta Retreat island loop, courthouse, cruise ship, Ocean Beach south end north along beach, climb, he flies, jump near yacht, cutscene landing; reward none. The Audacity (Attend the Launch Party, /gta-6-the-audacity-attend-the-launch-party-walkthrough): requires Catching a Whale, about a day later, Vice City > Tequesta (quest text names Neo Paloma Apartments, left out), engineers by the back lift, behind stage, helicopter ride, top of the jump, boost L3, rooftop pool, goons, lift, lose police, call him; ~$25,000 selling DacityCoin before the jump (page also mentions ~$3,000 more for waiting, contradictory, left out); counts for S&F. Trusted source. Fextralife's S&F page (edited Nov 25) has the same six jobs in the same order."
@@ -490,6 +506,51 @@ The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up
 <h2 id="randy">Randy and the key cloner</h2>
 
 Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **[Clonin' Keys, Makin' GS](/walkthrough/steal-the-zorrusso-for-randy/)**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
+
+<h3 id="randy-list">Randy's wish list</h3>
+
+The list sits on the map under **Robberies → Randy's Wish List**. Every car on it is a high-end model, most of them keyless, so bring the key cloner.
+
+- **Ask Randy for a lead.** After each delivery he points you to one more car on the list. The cars also turn up parked around the city, and he takes a listed car from wherever you found it.
+- **Expect a tracker.** Wish-list cars usually carry an Advanced Tracker, so keep your speed up all the way to his dealership in Balsero.
+- **Bring it in clean.** Damage cuts the payout and a car in good condition earns a bonus. There's a gas station just north of Randy's showroom where you can fix a car up before you hand it over.
+- **Not there?** Save and reload, and the cars in a showroom or street get swapped around.
+
+<div class="progress" data-progress="randy:" data-total="20">
+<div class="row"><span class="lab">Wish-list cars delivered</span><span class="pct"><span data-done>0</span> / 20 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["zorrusso","Granforma Zorrusso","Ocean Beach","Randy's first job, <a href='/walkthrough/steal-the-zorrusso-for-randy/'>Steal the Zorrusso for Randy</a>, is this car, and the key cloner goes onto your phone as it starts."],
+  ["coquette","Invetero Coquette D10","Waxman Island","Randy calls about this one himself and marks it for you."],
+  ["vitello","Pegassi Vitello","Waning Sands, Leonard County","In the right-hand garage of a mansion on the south-east tip of Waning Sands. Get over the fence, clone the key and leave through the front gate."],
+  ["infernus","Pegassi Infernus","Crosstown, Vice City","High up in the police car park in Crosstown, where seized cars are kept. Randy texts a code for the stairwell door (5270). Stay out of the officers' sight on the way up, and once you're out, keep moving: it has a tracker."],
+  ["windsor","Buckingham Windsor Drop","Bayside, Vice City","In the car dealership in Bayside (Status Auto Imports). The quickest way out is straight through the showroom wall or window."],
+  ["rsx","Grotti Itali RSX","Bayside, Vice City","In the same Bayside dealership as the Windsor Drop."],
+  ["jugular","Ocelot Jugular","Belville, Leonard County","In a locked garage next to a house in Belville."],
+  ["banshee","Bravado Banshee","Southside, Vice City","In the car showroom in Southside. Drive it out through the window to earn <a href='/trophies/capital-offense/'>Capital Offense</a>."],
+  ["growler","Pfister Growler","Southside, Vice City","At the car showrooms in Southside, near the Banshee."],
+  ["paragon","Ascot Paragon","",""],
+  ["dubsta","Benefactor Dubsta","",""],
+  ["hellfire","Bravado Gauntlet Hellfire","",""],
+  ["jubilee","Buckingham Jubilee","",""],
+  ["baller","Gallivanter Baller ST-D","",""],
+  ["carbonizzare","Grotti Carbonizzare","",""],
+  ["tempesta","Pegassi Tempesta","",""],
+  ["toros","Pegassi Toros","",""],
+  ["neon","Pfister Neon","",""],
+  ["furia","Piccia Furia","",""],
+  ["cypher","Ubermacht Cypher","",""]
+] %}
+<label class="tr" data-track-row for="randy-{{ c[0] }}"><input class="cb" type="checkbox" id="randy-{{ c[0] }}" data-track="randy:{{ c[0] }}"><div class="body"><div class="name">{{ c[1] }}</div><div class="desc">{% if c[2] %}<b>{{ c[2] }}.</b> {{ c[3] | safe }}{% else %}Ask Randy for the lead, or scan high-end cars with WAiNK as you drive around the city.{% endif %}</div></div></label>
+{%- endfor %}
+</div>
+
+> **Note:** These are the 20 cars we can place on Randy's list. The spots shown are the ones where you can count on finding the car; the rest move around, so ask Randy.
+
+> **Tip:** Once you've delivered a good part of the list, Randy adds a job of his own, **¡Dale Mamba!**, for a Mamba GT kept at a guarded mansion in Leaf Links, Vice Beach. Its key is inside the main house, behind the pool. Ultimate Edition owners can also rebuild one for [Wyman](/guides/classic-cars/#mamba-gt).
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 

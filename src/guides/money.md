@@ -119,7 +119,7 @@ The **key cloner** opens and starts **keyless** high-end cars, the ones the slim
 
 > **Watch out:** Cars that need the cloner often carry an **Advanced Tracker**, which tells the police where you are as soon as you slow down. Keep your speed up, or look for a car with a Standard Tracker or none. A car with a Standard Tracker can't be modded until you register it.
 
-With the cloner, Randy's **wish list** opens: a set of **high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. His last job earns **Supply & Demand** ([Randy on side contacts](/guides/side-contacts/#randy)).
+With the cloner, Randy's **wish list** opens: a set of **high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. Every car on the list, and the ones with a fixed spot, are in the [wish-list checklist](/guides/side-contacts/#randy-list). His last job earns **Supply & Demand** ([Randy on side contacts](/guides/side-contacts/#randy)).
 
 <h2 id="jewelry">Jewelry stores</h2>
 

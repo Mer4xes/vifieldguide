@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Cars",
+  "title": "Randy's wish list, car by car",
+  "text": "All 20 high-end cars Randy wants, where to find nine of them, how to bring them in clean, plus how nitrous works.",
+  "url": "/guides/side-contacts/#randy-list",
+  "img": "/assets/img/full/act-carmeet.webp",
+  "pos": "38% 60%",
+  "cta": "Open the checklist"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Side jobs",
   "title": "All 28 optional missions in order",
   "text": "28 optional jobs in the order they open, the six you can miss, step-by-step help for the short ones and a checklist that saves.",
   "url": "/guides/optional-jobs/",
   "img": "/assets/img/full/leonida-keys-02.webp",
-  "pos": "50% 50%",
-  "cta": "See the list"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-25",
@@ -68,13 +77,5 @@
   "url": "/guides/side-contacts/#kenton-treasure",
   "img": "/assets/img/misc/act-scuba.webp",
   "pos": "46% 55%"
- },
- {
-  "date": "2026-11-24",
-  "tag": "Side content",
-  "title": "Port Gellhorn's missing tourists",
-  "text": "Where the three missing tourists are, how the case ends, and a tracker for the strands that count for Strangers & Freaks.",
-  "url": "/guides/side-contacts/#alvan",
-  "img": "/assets/img/region-port-gellhorn.webp"
  }
 ]

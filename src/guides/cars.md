@@ -2,7 +2,7 @@
 title: Cars and personal vehicles
 headline: Steal It, Keep It, Get It Back
 kicker: Cars
-seoTitle: "GTA 6 Cars Guide: Personal Vehicles, Trackers, Scooter Bros and the Impound"
+seoTitle: "GTA 6 Cars Guide: Personal Vehicles, Trackers, Scooter Bros, Nitrous and the Impound"
 description: "How cars work in GTA 6: stealing with the Slim Jim and Key Cloner, what Standard and Advanced Trackers mean, registering a personal vehicle, Scooter Bros deliveries, getting a car out of the impound and keeping a stolen one safe."
 summary: Getting into a car, what its tracker means, how to make it yours, and how Scooter Bros brings it back when it's lost, wrecked or impounded.
 order: 4
@@ -30,9 +30,14 @@ faq:
     a: "Ditching a car to shake off a wanted level clears its heat, but the police usually tow it. Being wasted or busted while you're in your personal vehicle also sends it to the impound. The map index shows where it is under Personal."
   - q: "What does a tracker do in GTA 6?"
     a: "A **Standard Tracker** means you can't modify the car until it's registered to you. An **Advanced Tracker**, common on high-end cars, also tells the police where you are unless you're driving fast. Moses only buys cars with no tracker at all."
+  - q: "How do you use nitrous in GTA 6?"
+    a: "Have Nitrous Boost fitted at a mod shop (Performance, then Boost, $5,000), then hold the throttle fully down and press the left stick (L3 on PS5, LS on Xbox). A blue ring by the engine and fuel gauges shows how much is left. It drains in a few seconds and refills on its own."
   - q: "Can you keep a stolen car without registering it?"
     a: "Yes, but only while it survives. The map marks the last unowned car you left. Park it in a space outside a safehouse or in a garage to keep it; if it's destroyed, it's gone with everything in the trunk."
 sources:
+  - label: "GamesRadar: How to use NOS in GTA 6"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-nos-nitrous-boost/"
+    note: "Published Nov 25, 2026. Trusted. Hold L3/LS with R2/RT fully pressed (less than full throttle = horn); Nitrous Boost at any mod shop, Performance > Boost, $5,000, small speed/acceleration gains on some cars; few cars come with it, e.g. the Declasse Yosemite 1500 for Moses in Chapter 2 (keep it); blue ring icon next to engine health and fuel; short bursts, refills on its own."
   - label: "GamesRadar: GTA 6 personal vehicles explained"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/"
     note: "Published Nov 19, 2026, read Nov 23. Trusted. One personal vehicle each for Jason and Lucia; registration fee by make/model at Pay 'n' Spray and key contacts after their mission; tracker cars can't be registered until later in the story; more registrations with garage space; Scooter Bros summon (fee), recover destroyed (fee), impound retrieval (big fee, may lose stash bags); dumping a car to lose a wanted level clears vehicle heat but usually impounds it; wasted/busted in personal vehicle -> impound; map index Personal tab; unowned: last one marked, lost if destroyed with trunk; keep it in a safehouse parking space or garage; trunk: loadout, outfit change (lowers appearance heat), stash bags, hunting spoils."
@@ -127,6 +132,15 @@ You don't have to register a car to hold on to it, but you have to look after it
 Every vehicle runs on gas. A fuel gauge shows above the minimap. When it runs low it turns yellow and the map marks the gas stations nearby. A car that runs dry simply stops, so top up before a long chase or a getaway. There are [57 gas stations across Leonida](/guides/shops/#gas-stations), 26 of them in and around Vice City.
 
 No car at all? Leonida has [25 train stations](/guides/shops/#train-stations), at least one in every county. Wait on the platform and ride the train instead.
+
+<h2 id="nitrous">Nitrous</h2>
+
+Few cars come with nitrous fitted, but any [mod shop](/guides/shops/#mod-shops) will add it: **Performance → Boost → Nitrous Boost**, for **$5,000**. On some cars it also nudges speed and acceleration up a little. A car with a Standard Tracker has to be registered before a mod shop will touch it (see [trackers](#trackers)).
+
+- **To fire it,** hold the throttle all the way down (R2 / RT) and press the left stick (L3 / LS). With less than full throttle, the same button just sounds the horn.
+- **A blue ring** next to the engine and fuel gauges shows the charge. It empties in a few seconds, so use it in short bursts, and it fills up again on its own.
+- **One that comes fitted:** the Declasse Yosemite 1500 pickup Moses asks for in Chapter 2 ([Moses's jobs](/guides/side-contacts/#moses)). Worth keeping instead of selling.
+- After the story, 50 stunt jumps unlock the **Unlimited Nitrous** [cheat](/guides/cheats/).
 
 <h2 id="trophies">Trophies and challenges</h2>
 
