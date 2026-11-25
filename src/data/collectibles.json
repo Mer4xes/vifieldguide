@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "types": [
     {
       "slug": "collectible-cards",
@@ -36,6 +36,44 @@
         "The Legends of Ratface",
         "Right Wing: America's Hero",
         "Ed Comics Universe"
+      ],
+      "setPages": [
+        {
+          "name": "Vice City Flamingos",
+          "slug": "vice-city-flamingos",
+          "size": 24,
+          "title": "Vice City Flamingos cards",
+          "seoTitle": "GTA 6 Vice City Flamingos Card Locations: All 24 and the Bubblegum Cheat",
+          "description": "Where to find all 24 Vice City Flamingos collectible cards in GTA 6, in the in-game list order, with a county-by-county plan, a checklist that saves and what finishing the set unlocks (the Bubblegum cheat).",
+          "desc": "24 cards spread over seven counties, from the Keys to Port Gellhorn and the city. Finish it for the Bubblegum cheat.",
+          "reward": "Bubblegum cheat",
+          "rewardUrl": "/guides/cheats/#list",
+          "tips": [
+            "The list follows the in-game order under **Progress, Collections, Collectible Cards**, so the numbers here match the gaps you see in the menu.",
+            "Each player comes in several colours, and **every colour is its own card**: Angel Cienfuegos alone is three cards (Silver, Pink, Blue).",
+            "**Watson Bay** has three cards (10, 17 and 21), and **Port Gellhorn** two (1 and 16). Do them in one trip each.",
+            "Three spots need a **break-in** (1, 9 and 16) and two are **climbs** to the top of a tower (21, the Watson Bay water tower, and 24, the Ambrosia radio tower).",
+            "Your ticks here are shared with the [card checklist](/collectibles/collectible-cards/), the county checklists and the [100% route](/guides/100-percent-route/)."
+          ],
+          "faq": [
+            {
+              "q": "How many Vice City Flamingos cards are there in GTA 6?",
+              "a": "24. The Vice City Flamingos are one of the 18 card sets (480 cards in all). The numbers on this page follow the in-game list under Progress, Collections, Collectible Cards."
+            },
+            {
+              "q": "What do you get for completing the Vice City Flamingos set?",
+              "a": "The **Bubblegum** cheat, a purple and yellow screen filter with sparkles. The set also counts as one of the 3 complete sets for the Don't Touch My Deck trophy and one of the 15 that 100% completion needs."
+            },
+            {
+              "q": "When can you finish the Vice City Flamingos set?",
+              "a": "From Chapter 3. Six cards are in the Keys (open from Chapter 1) and seven in Kelly and Lummox County (Chapter 2), but the other eleven are in Vice City, Vice Beach, Vice-Dale and Leonard County, which open in Chapter 3."
+            },
+            {
+              "q": "Can you miss any Vice City Flamingos cards?",
+              "a": "None of the 24 is marked as missable, so you can collect the set at your own pace, including after the story."
+            }
+          ]
+        }
       ],
       "items": [
         {
@@ -102,13 +140,175 @@
           "n": 10
         },
         {
+          "id": "flamingos-1",
+          "name": "Sammy Woodsworth (White)",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "Force your way into the small garage that stands on its own. The card is on a cabinet on your left.",
+          "set": "Vice City Flamingos",
+          "n": 1
+        },
+        {
+          "id": "flamingos-2",
+          "name": "Jude Flores (White)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Out on the patio of Apartment 13.",
+          "set": "Vice City Flamingos",
+          "n": 2
+        },
+        {
+          "id": "flamingos-3",
+          "name": "Charlie Spears (White)",
+          "county": "vice-city",
+          "area": "Little Cuba",
+          "where": "Stuck to the fridge in the kitchen of the blue house.",
+          "set": "Vice City Flamingos",
+          "n": 3
+        },
+        {
+          "id": "flamingos-4",
+          "name": "Bill Norton (White)",
+          "county": "vice-dale-county",
+          "area": "Southside",
+          "where": "Up on the second-floor balcony of the E-Z Kwik, resting on the brick arch.",
+          "set": "Vice City Flamingos",
+          "n": 4
+        },
+        {
+          "id": "flamingos-5",
+          "name": "Thunder Lee (White)",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "On a bench in the dugout at the baseball field.",
+          "set": "Vice City Flamingos",
+          "n": 5
+        },
+        {
+          "id": "flamingos-6",
+          "name": "Julian Hall (White)",
+          "county": "vice-dale-county",
+          "area": "Balsero",
+          "where": "In the gas station's break room, on top of the microwave.",
+          "set": "Vice City Flamingos",
+          "n": 6
+        },
+        {
+          "id": "flamingos-7",
+          "name": "Angel Cienfuegos (Silver)",
+          "county": "leonard-county",
+          "area": "Belville",
+          "where": "In the garage of the house with a green Cellerica flag out front, on a cabinet.",
+          "set": "Vice City Flamingos",
+          "n": 7
+        },
+        {
+          "id": "flamingos-8",
+          "name": "Angel Cienfuegos (Pink)",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "where": "Behind the beach houses, on one of the fence posts along the wooden deck.",
+          "set": "Vice City Flamingos",
+          "n": 8
+        },
+        {
+          "id": "flamingos-9",
+          "name": "Angel Cienfuegos (Blue)",
+          "county": "kelly-county",
+          "area": "Buckskin Swamp",
+          "where": "Break into the gas station. The card is on the microwave in the staff room.",
+          "set": "Vice City Flamingos",
+          "n": 9
+        },
+        {
+          "id": "flamingos-10",
+          "name": "Elias Delgado (Silver)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "In the garage next to the JD's Fabrication warehouse, on a workbench.",
+          "set": "Vice City Flamingos",
+          "n": 10
+        },
+        {
+          "id": "flamingos-11",
+          "name": "Elias Delgado (Pink)",
+          "county": "vice-beach",
+          "area": "Ocean Beach",
+          "where": "In the back alley of a yellow condo block, under a couch.",
+          "set": "Vice City Flamingos",
+          "n": 11
+        },
+        {
+          "id": "flamingos-12",
+          "name": "Elias Delgado (Blue)",
+          "county": "kelly-county",
+          "area": "Emerald Springs",
+          "where": "On the railing of the little hut that stands over the river.",
+          "set": "Vice City Flamingos",
+          "n": 12
+        },
+        {
+          "id": "flamingos-13",
+          "name": "Harold Toye (Silver)",
+          "county": "lummox-county",
+          "area": "Grayson",
+          "where": "Along the side of a wooden house, under a rocking chair below a US flag.",
+          "set": "Vice City Flamingos",
+          "n": 13
+        },
+        {
+          "id": "flamingos-14",
+          "name": "Harold Toye (Pink)",
+          "county": "leonard-county",
+          "area": "Vinewood Beach",
+          "where": "On the south side of the island, on a shelf in the small garage beside the pink house.",
+          "set": "Vice City Flamingos",
+          "n": 14
+        },
+        {
+          "id": "flamingos-15",
+          "name": "Harold Toye (Blue)",
+          "county": "vice-city",
+          "area": "Peacock Bay",
+          "where": "Under a folding chair beside a garage with \"Keep Clear\" painted on its side.",
+          "set": "Vice City Flamingos",
+          "n": 15
+        },
+        {
+          "id": "flamingos-16",
+          "name": "Julian Cruz (Bronze)",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "Inside a mobile home you have to break into, on the bookshelf.",
+          "set": "Vice City Flamingos",
+          "n": 16
+        },
+        {
+          "id": "flamingos-17",
+          "name": "Julian Cruz (Silver)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "Behind a building with a few shops in it. Climb the scaffolding stairs, then go up to the balcony at the back.",
+          "set": "Vice City Flamingos",
+          "n": 17
+        },
+        {
           "id": "flamingos-18",
           "name": "Julian Cruz (Gold)",
           "county": "vice-city",
           "area": "Little Cuba",
-          "where": "In the building just south of Yasmani's shop. Walk the long hallway: the card is pinned to a board in a small office on its north side.",
+          "where": "In the Spire Theatre, right south of Yasmani's shop. Walk the long hallway: the card is pinned to a board in the small office on its north side.",
           "set": "Vice City Flamingos",
           "n": 18
+        },
+        {
+          "id": "flamingos-19",
+          "name": "Mateo Caballero (Bronze)",
+          "county": "kelly-county",
+          "area": "Frogswater",
+          "where": "In batting cage 2, next to Dino Golf.",
+          "set": "Vice City Flamingos",
+          "n": 19
         },
         {
           "id": "flamingos-20",
@@ -120,6 +320,24 @@
           "n": 20
         },
         {
+          "id": "flamingos-21",
+          "name": "Mateo Caballero (Gold)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "At the top of the Watson Bay water tower, in the eagle's nest. Climb the long ladder, then the short one above it.",
+          "set": "Vice City Flamingos",
+          "n": 21
+        },
+        {
+          "id": "flamingos-22",
+          "name": "Ulysses Whitlock (Bronze)",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "Behind Nola and Oscar's Seafood, in the small building between the two.",
+          "set": "Vice City Flamingos",
+          "n": 22
+        },
+        {
           "id": "flamingos-23",
           "name": "Ulysses Whitlock (Silver)",
           "county": "vice-city",
@@ -127,6 +345,15 @@
           "where": "Take the lift inside the Grand Majestic Gym building up to the roof. The card is on the helipad to the east, at the top of the spiral stairs.",
           "set": "Vice City Flamingos",
           "n": 23
+        },
+        {
+          "id": "flamingos-24",
+          "name": "Ulysses Whitlock (Gold)",
+          "county": "kelly-county",
+          "area": "Ambrosia",
+          "where": "At the top of the radio tower that looks over the baseball field.",
+          "set": "Vice City Flamingos",
+          "n": 24
         },
         {
           "id": "narcos-8",
@@ -653,6 +880,11 @@
           "label": "Push Square: card set pages",
           "url": "https://www.pushsquare.com/guides/gta-6-collectible-card-locations",
           "note": "10 set pages, modified Nov 19, 2026. Extra cards with no number: Thelma (Delights), Aimie, Georgia, Braelynn (Nine1Nine), Malena at Kalaga (Jack of Hearts), Right Wing at Kalaga. Ichiro Yamada (LC Swingers, Port VC, Chapter 5 mission) left out: county unclear and mission-name spoiler."
+        },
+        {
+          "label": "PowerPyx: Vice City Flamingos",
+          "url": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/",
+          "note": "Read Nov 25, 2026 via ?p=372968 (published Nov 18, modified Nov 25): all 24 cards with number, holder, colour, County > Area and spot, in in-game list order. PowerPyx files city areas under \"Vice-Dale County\"; ours follow counties.json (Little Cuba, La Perle, Tequesta, Peacock Bay = Vice City; Ocean Beach = Vice Beach; Southside, Balsero = Vice-Dale). #19 is written \"Kelly County, Frogswater\". #18 building named as the Spire Theatre. No missable flags. Trusted source."
         }
       ]
     },

@@ -55,6 +55,18 @@ export default function () {
     return { ...c, order: i + 1, items, areas, byType };
   });
   collectibles.liveCounties = collectibles.counties.filter((c) => c.items.length);
+  // One page per fully mapped set (types[].setPages): items in in-game list order, grouped plan by county.
+  const chNum = (w) => +(String(w || "").match(/\d+/) || [0])[0];
+  collectibles.setPages = collectibles.types.flatMap((t) => (t.setPages || []).map((sp) => {
+    const items = t.items.filter((i) => i.set === sp.name).sort((a, b) => (a.n || 0) - (b.n || 0))
+      .map((i) => ({ ...i, countyName: (collectibles.counties.find((c) => c.slug === i.county) || {}).name }));
+    const plan = collectibles.counties
+      .map((c) => ({ slug: c.slug, name: c.name, when: c.when, items: items.filter((i) => i.county === c.slug) }))
+      .filter((c) => c.items.length);
+    return { ...sp, type: t.slug, typeName: t.name, items, plan,
+      doneFrom: plan.reduce((m, c) => Math.max(m, chNum(c.when)), 0), updated: t.updated };
+  }));
+  for (const t of collectibles.types) t.setLinks = Object.fromEntries((t.setPages || []).map((sp) => [sp.name, `/collectibles/${t.slug}/${sp.slug}/`]));
   collectibles.total = collectibles.types.reduce((n, t) => n + (t.total || 0), 0);
   collectibles.mapped = collectibles.types.reduce((n, t) => n + t.items.length, 0);
 

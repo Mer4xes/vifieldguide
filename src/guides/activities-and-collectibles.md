@@ -82,7 +82,7 @@ You can meditate more than once, and Jason and Lucia can both meditate at the sa
 
 <h2 id="collectible-cards">Collectible cards</h2>
 
-There are **480 cards** in **18 sets**, hidden around the map. The sets are themed, including sports teams like the **Vice City Flamingos** (24 cards). **Don't Touch My Deck** needs 3 complete sets; the 100% checklist needs 15. Completing the Vice City Flamingos set also unlocks the **Bubblegum** cheat.
+There are **480 cards** in **18 sets**, hidden around the map. The sets are themed, including sports teams like the **Vice City Flamingos** (24 cards). **Don't Touch My Deck** needs 3 complete sets; the 100% checklist needs 15. Completing the Vice City Flamingos set also unlocks the **Bubblegum** cheat; [all 24 Flamingos cards are mapped](/collectibles/collectible-cards/vice-city-flamingos/).
 
 <h2 id="waink">WAiNK scans</h2>
 

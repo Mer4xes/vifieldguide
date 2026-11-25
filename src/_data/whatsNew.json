@@ -1,12 +1,20 @@
 [
  {
+  "date": "2026-11-25",
+  "tag": "Collectibles",
+  "title": "Every Vice City Flamingos card",
+  "text": "All 24 cards of the set that unlocks the Bubblegum cheat, in menu order, with a county-by-county plan and ticks that save.",
+  "url": "/collectibles/collectible-cards/vice-city-flamingos/",
+  "img": "/assets/img/region-vice-city.webp",
+  "cta": "Find all 24"
+ },
+ {
   "date": "2026-11-24",
   "tag": "Side content",
   "title": "More stamina, and hurricanes",
   "text": "Dr. Merle's Final Flush raises your stamina for good, and Freddie's bunker switches hurricanes on. Plus four new cheat codes.",
   "url": "/guides/side-contacts/#merle",
-  "img": "/assets/img/misc/feat-storm.webp",
-  "cta": "Read both jobs"
+  "img": "/assets/img/misc/feat-storm.webp"
  },
  {
   "date": "2026-11-24",
@@ -57,13 +65,5 @@
   "url": "/guides/fishing-and-hunting/",
   "img": "/assets/img/misc/act-fishing.webp",
   "pos": "24% 50%"
- },
- {
-  "date": "2026-11-23",
-  "tag": "Update",
-  "title": "Patch 01.002.002 is out",
-  "text": "The first update since launch fixes crashes, missing phone calls, autosave and more. What changed, and what it means for you.",
-  "url": "/guides/patch-notes/",
-  "img": "/assets/img/misc/feat-phone.webp"
  }
 ]

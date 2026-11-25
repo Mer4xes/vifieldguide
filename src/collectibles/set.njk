@@ -1,0 +1,101 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "db.collectibles.setPages", size: 1, alias: "s", addAllPagesToCollections: true },
+  permalink: (data) => `collectibles/${data.s.type}/${data.s.slug}/`,
+  eleventyComputed: {
+    crumbParent: (data) => ({ label: data.s.typeName, url: `/collectibles/${data.s.type}/` }),
+    title: (data) => data.s.title || data.s.name,
+    seoTitle: (data) => data.s.seoTitle,
+    description: (data) => data.s.description,
+    updated: (data) => data.s.updated || data.db.collectibles.updated,
+  },
+}
+---
+<header class="mast" style="--glow:var(--cyan)">
+  <div class="wrap">
+    <p class="kicker">{{ s.typeName }} · full set</p>
+    <h1>{{ s.title or s.name }}</h1>
+    <p class="tagline">{{ s.desc }}</p>
+    <div class="chips"><span class="chip rum dot">Reported</span></div>
+    <dl class="meta">
+      <div><dt>Cards</dt><dd>{{ s.size }}</dd></div>
+      <div><dt>Mapped</dt><dd>{{ s.items.length }}</dd></div>
+      <div><dt>Counties</dt><dd>{{ s.plan.length }}</dd></div>
+      {%- if s.doneFrom %}<div><dt>Done from</dt><dd>Chapter {{ s.doneFrom }}</dd></div>{% endif %}
+      {%- if s.reward %}<div class="wide"><dt>Reward</dt><dd>{% if s.rewardUrl %}<a href="{{ s.rewardUrl }}">{{ s.reward }}</a>{% else %}{{ s.reward }}{% endif %}</dd></div>{% endif %}
+    </dl>
+    <div class="progress" data-progress-in="#set-list">
+      <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ s.items.length }} · <span data-pct>0%</span></span></div>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="kicker">Plan it</p>
+    <h2 class="sec-h">County by county</h2>
+    <p class="lede">The cards by county, in the order the counties open. Each county links to its full checklist; use the chips further down to show one county at a time.</p>
+    <div class="setplan">
+      {%- for c in s.plan %}
+      <a class="setplan-c" href="/collectibles/area/{{ c.slug }}/">
+        <span class="setplan-n">{{ c.items.length }}</span>
+        <span class="setplan-t"><b>{{ c.name }}</b><small>{{ c.when }} · #{% for i in c.items %}{{ i.n }}{% if not loop.last %}, {% endif %}{% endfor %}</small></span>
+      </a>
+      {%- endfor %}
+    </div>
+    {%- if s.tips and s.tips.length %}
+    <h2 class="sec-h sm" style="margin-top:30px">Good to know</h2>
+    <ul class="howlist">
+      {%- for h in s.tips %}<li>{{ h | md | safe }}</li>{% endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="sec" id="list">
+  <div class="wrap">
+    <p class="kicker">Checklist</p>
+    <h2 class="sec-h">All {{ s.items.length }} cards in list order</h2>
+    <div class="filters" data-filter-group="set" role="group" aria-label="Filter by county">
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All · {{ s.items.length }}</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not found</button>
+      {%- for c in s.plan %}
+      <button type="button" class="fchip" data-filter="{{ c.slug }}" aria-pressed="false">{{ c.name }} · {{ c.items.length }}</button>
+      {%- endfor %}
+    </div>
+    <ul class="items" id="set-list" data-filter-list="set">
+      {%- for i in s.items %}
+      {%- set key = "col:" + s.type + ":" + i.id %}
+      <li class="item" data-track-row id="{{ i.id }}" data-tags="{{ i.county }}">
+        <input class="cb" type="checkbox" id="s-{{ i.id }}" data-track="{{ key }}" aria-label="Mark {{ i.name }} found">
+        <span class="item-no">{{ i.n | pad }}</span>
+        <div class="item-body">
+          <label for="s-{{ i.id }}" class="item-name">{{ i.name }}</label>
+          <p class="item-meta"><a class="tkind" href="/collectibles/area/{{ i.county }}/">{{ i.countyName }}</a><span>{{ i.area }}</span>{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
+          {%- if i.where %}<p>{{ i.where | md | safe }}</p>{% endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ul>
+    <p class="nomatch" data-nomatch="set" hidden>Nothing left here for that filter.</p>
+    <p class="lede" style="margin-top:22px">More: every <a href="/collectibles/{{ s.type }}/">{{ s.typeName | lower }}</a> we have mapped, the <a href="/collectibles/#by-area">checklists by area</a>, the <a href="/guides/cheats/">cheat list</a> and the <a href="/guides/100-percent-route/">100% route</a>.</p>
+    {%- if s.updated %}<p class="stamp">Last updated {{ s.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>
+
+{%- if s.faq and s.faq.length %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in s.faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ s.faq | faqld | safe }}</script>
+{%- endif %}

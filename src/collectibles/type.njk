@@ -52,7 +52,10 @@
     {%- endif %}
     {%- if t.sets and t.sets.length %}
     <h2 class="sec-h sm" style="margin-top:30px">The {{ t.sets.length }} sets</h2>
-    <div class="castlist">{% for x in t.sets %}<span>{{ x }}</span>{% endfor %}</div>
+    <div class="castlist">{% for x in t.sets %}{% if t.setLinks[x] %}<a href="{{ t.setLinks[x] }}" title="Every card in this set is mapped">{{ x }}</a>{% else %}<span>{{ x }}</span>{% endif %}{% endfor %}</div>
+    {%- if t.setPages and t.setPages.length %}
+    <p class="lede" style="margin-top:12px">Fully mapped, with its own page: {% for sp in t.setPages %}<a href="{{ t.setLinks[sp.name] }}">{{ sp.name }}</a> ({{ sp.size }}{% if sp.reward %}, unlocks {{ sp.reward }}{% endif %}){% if not loop.last %}, {% endif %}{% endfor %}.</p>
+    {%- endif %}
     {%- endif %}
   </div>
 </section>

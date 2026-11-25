@@ -35,7 +35,8 @@
       "Manifest Canyon",
       "Emerald Springs",
       "North Kelly County",
-      "Ambrosia"
+      "Ambrosia",
+      "Frogswater"
     ],
     "lede": "Port Gellhorn and the Starlet Motel, where Chapter 2 is set, and the country round it: Buckskin Swamp, Manifest Canyon, Emerald Springs, Ambrosia and more. The motel items go when Chapter 2 ends."
   },
@@ -90,7 +91,8 @@
       "VCIA",
       "Hamlet",
       "Southside",
-      "Vespucci Island"
+      "Vespucci Island",
+      "Balsero"
     ],
     "lede": "Southside, Hamlet, Vespucci Island, the airport and the keys and stadiums round the city."
   },
@@ -100,7 +102,8 @@
     "when": "Chapter 3",
     "areas": [
       "Belville",
-      "Waning Sands"
+      "Waning Sands",
+      "Vinewood Beach"
     ],
     "lede": "Belville, where Andy's jobs take Lucia in Chapter 3, Waning Sands on the coast and Little Hardin Island."
   }
