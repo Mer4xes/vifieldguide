@@ -8,7 +8,7 @@ summary: All 39 illegal operations sorted by gang, how to find and clear them, a
 order: 4
 glow: pink
 spoilerFree: true
-updated: 2026-11-21
+updated: 2026-11-25
 facts:
   - { k: Operations, v: "39", status: Reported }
   - { k: Groups, v: "8 gangs + other criminals", status: Reported }
@@ -41,7 +41,7 @@ sources:
     note: "Pest Control text from the trophy list (Confirmed). Pinhole unlock from cheats.json (PowerPyx All Cheats)."
 ---
 
-> **Note:** Areas aren't listed yet.
+> **Note:** Areas are listed for the operations we can place so far. Where we know the unique weapon inside, it's linked; the full list is in the [unique weapons guide](/guides/unique-weapons/#gang).
 
 <div class="progress" data-progress="gangop:" data-total="{{ gangOps.total }}">
 <div class="row"><span class="lab">Operations you've cleared</span><span class="pct"><span data-done>0</span> / {{ gangOps.total }} · <span data-pct>0%</span></span></div>
@@ -81,7 +81,7 @@ sources:
 {%- for g in gangOps.groups %}
 <h3 class="chal-h" id="{{ g.id }}" data-tags="head">{{ g.n }} <small>{{ g.items.length }} operation{% if g.items.length != 1 %}s{% endif %}</small></h3>
 {%- for i in g.items %}
-<label class="tr" data-track-row for="go-{{ i.id }}" data-tags="{{ g.id }}" data-text="{{ (i.name + ' ' + g.n) | lower }}"><input class="cb" type="checkbox" id="go-{{ i.id }}" data-track="gangop:{{ g.id }}:{{ i.id }}"><div class="body"><div class="name">{{ i.name }}</div></div><div class="side"><span class="need">#{{ i.n }}</span></div></label>
+<label class="tr" data-track-row id="{{ i.id }}" for="go-{{ i.id }}" data-tags="{{ g.id }}" data-text="{{ (i.name + ' ' + g.n + ' ' + (i.area or '')) | lower }}{% for w in i.weapons or [] %} {{ w.name | lower }}{% endfor %}"><input class="cb" type="checkbox" id="go-{{ i.id }}" data-track="gangop:{{ g.id }}:{{ i.id }}"><div class="body"><div class="name">{{ i.name }}</div>{% if i.area or i.weapons %}<span class="go-meta">{% if i.area %}{{ i.area }}{% endif %}{% if i.area and i.weapons %} · {% endif %}{% if i.weapons %}Unique weapon: {% for w in i.weapons %}<a href="/guides/unique-weapons/#{{ w.id }}">{{ w.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</span>{% endif %}</div><div class="side"><span class="need">#{{ i.n }}</span></div></label>
 {%- endfor %}
 {%- endfor %}
 </div>
@@ -101,4 +101,5 @@ sources:
 
 - [Robberies](/guides/activities-and-collectibles/#robberies): bank jobs, stick ups, Smash 'N' Grabs and vaults, with what 100% wants of each.
 - [Fences](/guides/fences/): who buys the narcotics you find inside.
+- [Unique weapons](/guides/unique-weapons/): the gold guns, including the ones inside these operations.
 - [Money guide](/guides/money/), the [100% checklist](/guides/100-percent-checklist/), the [cheats](/guides/cheats/) and the [trophy list](/trophies/).

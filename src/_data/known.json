@@ -166,6 +166,23 @@
         "d": "A one-seat car Moses asks for, taken from a group of drivers in Buckskin Swamp, Kelly County.",
         "u": "/guides/side-contacts/#moses"
       }
+    ],
+    "guides": [
+      {
+        "t": "Cars",
+        "d": "Stealing, registering and keeping cars.",
+        "u": "/guides/cars/"
+      },
+      {
+        "t": "Garages",
+        "d": "Every garage, price and parking space.",
+        "u": "/guides/garages/"
+      },
+      {
+        "t": "Wyman's classic cars",
+        "d": "The Ultimate Edition's five classics.",
+        "u": "/guides/classic-cars/"
+      }
     ]
   },
   "weapons": {
@@ -226,6 +243,12 @@
     ],
     "found": [
       {
+        "t": "Assassin Nipper .38",
+        "tag": "Unique pistol · Free find",
+        "d": "A silenced pistol in a hidden hatch on a derelict spy boat in the Permit Keys. No fight needed.",
+        "u": "/guides/unique-weapons/#assassin-nipper-38"
+      },
+      {
         "t": "Donnie's H&L .38",
         "tag": "Unique revolver · Chapter 1",
         "d": "In the trunk of Donnie's car in Don Gone. Missable: take it before the car is gone.",
@@ -254,6 +277,23 @@
         "tag": "Tool · Chapter 2",
         "d": "Moses gives it to Lucia. Opens locked car doors.",
         "u": "/walkthrough/moses/"
+      }
+    ],
+    "guides": [
+      {
+        "t": "Unique weapons",
+        "d": "33 gold gun variants with where to find them, and a checklist.",
+        "u": "/guides/unique-weapons/"
+      },
+      {
+        "t": "Gun stores",
+        "d": "Every Ammu-Nation by county.",
+        "u": "/guides/shops/#ammu-nation"
+      },
+      {
+        "t": "Equipment",
+        "d": "Tools, gadgets and what they open.",
+        "u": "/guides/equipment/"
       }
     ]
   }

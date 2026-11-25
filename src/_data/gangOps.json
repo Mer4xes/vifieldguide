@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-25",
  "total": 39,
  "groups": [
   {
@@ -9,17 +9,37 @@
     {
      "n": 1,
      "id": "fishing-shacks",
-     "name": "Fishing Shacks"
+     "name": "Fishing Shacks",
+     "area": "Wetman Bay",
+     "weapons": [
+      {
+       "id": "kingfishers-w-22",
+       "name": "Kingfishers W-22"
+      }
+     ]
     },
     {
      "n": 2,
      "id": "sunrise-rv-park",
-     "name": "Sunrise RV Park"
+     "name": "Sunrise RV Park",
+     "area": "Cottonmouth Lake",
+     "weapons": [
+      {
+       "id": "kingfishers-akulus",
+       "name": "Kingfishers Akulus"
+      }
+     ]
     },
     {
      "n": 3,
      "id": "manatee-motel",
-     "name": "Manatee Motel"
+     "name": "Manatee Motel",
+     "weapons": [
+      {
+       "id": "kingfishers-laird-350",
+       "name": "Kingfishers Laird 350"
+      }
+     ]
     }
    ]
   },
@@ -30,17 +50,38 @@
     {
      "n": 4,
      "id": "kingpin-bowling",
-     "name": "Kingpin Bowling"
+     "name": "Kingpin Bowling",
+     "area": "Port Gellhorn",
+     "weapons": [
+      {
+       "id": "gutterball-moreland-850",
+       "name": "Gutterball Moreland 850"
+      }
+     ]
     },
     {
      "n": 5,
      "id": "june-warehouse",
-     "name": "June Warehouse"
+     "name": "June Warehouse",
+     "area": "Port Gellhorn",
+     "weapons": [
+      {
+       "id": "kolt-associates-vatra",
+       "name": "Kolt & Associates Vatra"
+      }
+     ]
     },
     {
      "n": 6,
      "id": "la-cascara-motel",
-     "name": "La Cascara Motel"
+     "name": "La Cascara Motel",
+     "area": "Port Gellhorn",
+     "weapons": [
+      {
+       "id": "scrapper-vf5c",
+       "name": "Scrapper VF5C"
+      }
+     ]
     },
     {
      "n": 7,
@@ -50,7 +91,13 @@
     {
      "n": 8,
      "id": "stash-house",
-     "name": "Stash House"
+     "name": "Stash House",
+     "weapons": [
+      {
+       "id": "kolt-associates-556",
+       "name": "Kolt & Associates 556"
+      }
+     ]
     }
    ]
   },
@@ -166,7 +213,14 @@
     {
      "n": 24,
      "id": "saber-shipping-yard",
-     "name": "Saber Shipping Yard"
+     "name": "Saber Shipping Yard",
+     "area": "Little Cuba",
+     "weapons": [
+      {
+       "id": "the-guardian-es18",
+       "name": "The Guardian ES18"
+      }
+     ]
     },
     {
      "n": 25,
@@ -207,7 +261,14 @@
     {
      "n": 31,
      "id": "leonida-carrier-warehouse",
-     "name": "Leonida Carrier Warehouse"
+     "name": "Leonida Carrier Warehouse",
+     "area": "Balsero",
+     "weapons": [
+      {
+       "id": "grx-556",
+       "name": "GRX 556"
+      }
+     ]
     },
     {
      "n": 32,
@@ -257,6 +318,11 @@
    "label": "PowerPyx: GTA 6 All Illegal Gang Operations Locations",
    "url": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
    "note": "Read Nov 21, 2026 (published Nov 18, modified Nov 20). 39 operations numbered 1-39 in nine groups (Kingfishers 3, Kolts & Associates 5, M7 2, La Polilla Negra 2, Final Chapter 4, San4San 5, PTT Youngin$ 2, Guardia Brothers 3, Other Criminals 13). Ultimate Edition-only Illegal Goods Store (PTT Youngin$) not counted for 100% and not tracked in the Gangs menu. Yellow map icon once you enter; Map > Robberies (money bag) > Illegal Operations filter; unvisited shown as Robbery Opportunity; Progress > Gangs shows discovered/completed per gang; hover icon for key valuables (unique weapon variants, luxury watches, safe with cash), take all for completion; narcotics to fence; grayed out after, respawns after time. Gives no county/area per location, so none shown. Trusted source."
+  },
+  {
+   "label": "Unique weapon sources (see uniqueWeapons.json)",
+   "url": "/guides/unique-weapons/",
+   "note": "Nov 25, 2026: areas for 7 operations where two independent unique-weapon guides agree (Detonated with Screen Rant, Space4games or Output Lag): Fishing Shacks Wetman Bay, Sunrise RV Park by Cottonmouth Lake, Kingpin Bowling / June Warehouse / La Cascara Motel Port Gellhorn, Saber Shipping Yard Little Cuba, Leonida Carrier Warehouse Balsero. Manatee Motel (Gullet Marsh vs south of Hamlet), Biker Hideout (east of Ambrosia vs Leonard County) and Stash House left without an area."
   }
  ]
 }

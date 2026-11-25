@@ -4,7 +4,7 @@ chapter: Chapter 1
 protagonist: jason
 region: leonida-keys
 summary: Clear out Donnie's trailer and make his car disappear. Check the trunk first; there is a gun in there you can't get later.
-updated: 2026-11-18
+updated: 2026-11-25
 missables:
   - "**Donnie's H&L .38**, a unique revolver, is in the trunk of Donnie's car. Take it before you get rid of the car, or it is gone for good."
 objectives:
@@ -38,7 +38,7 @@ Three men are waiting for you when you step out. Fight them, or get to the car a
 
 Before anything happens to the car, open the trunk and take **Donnie's H&L .38**.
 
-> **Missable:** The revolver is only in this car. Once the car is destroyed, you can't get it.
+> **Missable:** The revolver is only in this car. Once the car is destroyed, you can't get it. The other unique weapons, and where they are, are in the [unique weapons guide](/guides/unique-weapons/).
 
 ## Lose the car
 

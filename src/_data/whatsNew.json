@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-25",
+  "tag": "Weapons",
+  "title": "Unique weapons and where they are",
+  "text": "33 of the gold gun variants: free finds, gang hideout guns, story rewards and store exclusives, the two you can miss, and a checklist that saves.",
+  "url": "/guides/unique-weapons/",
+  "img": "/assets/img/full/ue-weapon-variants-01.webp",
+  "pos": "30% 50%",
+  "cta": "Find the guns"
+ },
+ {
+  "date": "2026-11-25",
   "tag": "Ultimate Edition",
   "title": "Wyman's five classic cars",
   "text": "Where every piece of scrap is for the Transgressor, Riata, Mamba GT and Kit Car, what Wyman charges, and a checklist that saves.",
   "url": "/guides/classic-cars/",
   "img": "/assets/img/full/ue-wyman-car-collection-01.webp",
-  "pos": "22% 50%",
-  "cta": "Find the cars"
+  "pos": "22% 50%"
  },
  {
   "date": "2026-11-25",
@@ -57,13 +66,5 @@
   "text": "All 15 garages with prices, areas and spaces, a Little Boxes tracker, and the five 1010 Murals that open a locked garage.",
   "url": "/guides/garages/",
   "img": "/assets/img/ed/vvc-vapid-stanier-01.webp"
- },
- {
-  "date": "2026-11-24",
-  "tag": "Collectibles",
-  "title": "87 WAiNK scan spots mapped",
-  "text": "Most landmarks, every curiosity and nearly every sculpture, by county and area, with a set filter and ticks that save.",
-  "url": "/collectibles/waink-locations/",
-  "img": "/assets/img/gal/vice-city-01.webp"
  }
 ]

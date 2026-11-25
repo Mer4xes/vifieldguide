@@ -8,7 +8,7 @@ summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 ta
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-24
+updated: 2026-11-25
 facts:
   - { k: Ammu-Nation, v: "24", status: Reported }
   - { k: Clothing stores, v: "67", status: Reported }
@@ -88,7 +88,7 @@ sources:
 <h2 id="what">What each shop is for</h2>
 
 <div class="shop-what">
-<div class="shop-what-c"><h3>Ammu-Nation</h3><p>Weapons, ammo, body armour and parachutes. Every store has at least one unique weapon variant. The map icon shows the store type: <b>Limited</b>, <b>Standard</b>, <b>Hunting</b> or <b>Expanded</b>, which has the biggest range.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#shopping">Well Armed, Stylishly Armed, Heavily Armed</a></p></div>
+<div class="shop-what-c"><h3>Ammu-Nation</h3><p>Weapons, ammo, body armour and parachutes. Every store has at least one <a href="/guides/unique-weapons/">unique weapon variant</a>. The map icon shows the store type: <b>Limited</b>, <b>Standard</b>, <b>Hunting</b> or <b>Expanded</b>, which has the biggest range.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#shopping">Well Armed, Stylishly Armed, Heavily Armed</a></p></div>
 <div class="shop-what-c"><h3>Mod shops</h3><p>Performance parts and visual mods. Each shop is built around one kind of vehicle, so take a lowrider to the lowrider shop and a dirt bike to the dirt bike shop.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#shopping">Vehicle Modder, Custom Ride, Serious Modder</a></p></div>
 <div class="shop-what-c"><h3>Pay 'n' Spray</h3><p>Repairs the car and changes its colour so the police lose track of it. After <a href="/walkthrough/welcome-to-vice-city/">Welcome to Vice City</a> you can buy and register cars there too, and in Chapter 3 cars with a Standard Tracker <a href="/guides/fences/">sell</a> at any of them. More in <a href="/guides/cars/">cars and trackers</a>.</p><p class="shop-ch">Challenges: <a href="/guides/challenges/#criminal">Carjacking, Carjacking Spree, Carjacking Pro</a></p></div>
 <div class="shop-what-c"><h3>Clothing stores</h3><p>Five kinds: <b>casual and street</b>, <b>sportswear</b>, <b>formal</b>, <b>souvenir and swimwear</b> and <b>thrift</b>. The map tooltip shows the type and brand, and branches of one brand carry the same range. Most have a changing room, you can save 15 outfits, and new clothes go to the wardrobe at home. Some gun stores and mod shops sell clothes too; shoes have their own stores.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Well Dressed</a></p></div>
@@ -138,6 +138,7 @@ sources:
 
 <h2 id="more">Related</h2>
 
+- [Unique weapons](/guides/unique-weapons/#shop): the gold guns, including the gun store exclusives we can place so far.
 - [All 80 challenges](/guides/challenges/#shopping): the Shopping group is mostly done at these shops.
 - [Discovered Styles](/collectibles/discovered-styles/): the tattoo magazines and watches that count for 100%.
 - [Pool opponents](/guides/races-and-ranges/#pool): several of them wait in bars on this list, such as The Rusty Anchor, Zotico's, The Thirsty Wolf and Jacob's Tavern.

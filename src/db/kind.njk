@@ -56,6 +56,14 @@
       {%- endfor %}
     </div>
     {%- endif %}
+    {%- if kn.guides and kn.guides.length %}
+    <h2 class="sec-h sm" style="margin-top:34px">Guides</h2>
+    <div class="kguides">
+      {%- for g in kn.guides %}
+      <a class="kguide" href="{{ g.u }}"><b>{{ g.t }}</b><span>{{ g.d }}</span></a>
+      {%- endfor %}
+    </div>
+    {%- endif %}
     {%- if kn.seen %}
     <h2 class="sec-h sm" style="margin-top:34px">Types seen in official footage</h2>
     <div class="castlist">{% for p in kn.seen %}<span>{{ p }}</span>{% endfor %}</div>

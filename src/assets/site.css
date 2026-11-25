@@ -1247,3 +1247,16 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 .prose .wy-need{margin:10px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:15px}
 .chal-list .tr.wy-done .name{color:var(--cyan)}
 @media (max-width:640px){.wy-head{grid-template-columns:minmax(0,1fr)}}
+
+/* Unique weapons guide (/guides/unique-weapons/) and weapon notes on gang operations */
+.chip.miss{color:var(--pink);font-size:9.5px;padding:1px 7px;margin-left:6px;vertical-align:2px}
+.uw-meta{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--gold);margin-top:3px;text-transform:uppercase}
+.uw-row .desc a{white-space:nowrap}
+.gangop-list .go-meta{display:block;font-size:13px;color:var(--muted);margin-top:3px}
+.gangop-list .go-meta a{color:var(--gold)}
+/* Guide links on /weapons/ and /vehicles/ */
+.kguides{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
+.kguide{display:block;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:inherit;transition:border-color .15s}
+.kguide:hover{border-color:var(--gold)}
+.kguide b{display:block;font-family:var(--display);font-weight:400;font-size:20px;letter-spacing:.02em;color:var(--gold)}
+.kguide span{display:block;font-size:14px;color:var(--muted);margin-top:4px}
