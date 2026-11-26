@@ -1263,3 +1263,35 @@ a.arc-t:hover{color:var(--cyan);text-decoration:none}
 
 /* Mysteries guide: two link cards per row in the prose column */
 .cards.myst-cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+
+/* Chapter overview pages (/walkthrough/chapter-N/) */
+.chnav-wrap{padding-top:18px;padding-bottom:0}
+.chnav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.chnav-a{display:grid;gap:3px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;color:inherit;min-width:0}
+.chnav-a:hover{text-decoration:none;border-color:var(--faint)}
+.chnav-a .k{font-family:var(--mono);font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan)}
+.chnav-a .t{font-size:13.5px;font-weight:700;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chnav-a.is-on{border-color:rgba(255,46,136,.55);background:linear-gradient(180deg,rgba(255,46,136,.1),var(--surface) 70%)}
+.chnav-a.is-on .k{color:var(--pink)}
+@media(max-width:720px){.chnav{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.chnav-a{padding:9px 6px;text-align:center}.chnav-a .t{display:none}.chnav-a .k{font-size:10px;letter-spacing:.06em}}
+.ch-end{margin:0 0 30px}
+.ch-before .tipcard p{color:var(--fg)}
+.chm-list{margin-top:20px}
+.mrow.chm{align-items:start}
+.mrow.chm>.cb,.mrow.chm>.mrow-no,.mrow.chm>.mrow-title,.mrow.chm>.mrow-tags{align-self:center}
+.chm-body{grid-column:3/-1;display:grid;gap:6px;margin-top:-4px}
+.chm-meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--faint)}
+.chm-meta a{color:var(--cyan)}
+.chm-meta .dots{color:var(--gold);letter-spacing:.15em}
+.chm-sum{color:var(--muted);font-size:14.5px}
+.chm-warn{font-size:13.5px}
+.chm-warn a{color:var(--gold)}
+.chm-warn a::before{content:"⚠ ";}
+.mrow.chm.is-done .chm-sum{color:var(--faint)}
+html.hide-ahead .mrow.chm:not(.is-done):not(.is-next) .chm-sum{filter:blur(6px)}
+.chm-opens{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:8px;margin-top:22px}
+.chm-opens li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:baseline;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14.5px}
+.chm-opens .mno{font-size:10.5px;letter-spacing:.1em;white-space:nowrap}
+.chpager{margin-top:22px}
+@media(max-width:520px){.chm-body{grid-column:1/-1;margin-top:0}}
+.chapter-h a.ch-ov{color:var(--cyan);letter-spacing:.06em}

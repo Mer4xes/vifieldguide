@@ -30,7 +30,7 @@ crumbParent:
       {%- if unlocks %}<div><dt>Unlocks</dt><dd>{{ unlocks }}</dd></div>{% endif %}
       {%- if difficulty %}<div><dt>Difficulty</dt><dd><span class="dots" aria-hidden="true">{% for i in range(0, 3) %}{% if i < difficulty %}●{% else %}○{% endif %}{% endfor %}</span> {{ diffNames[difficulty - 1] }}</dd></div>{% endif %}
       {%- if time %}<div><dt>Time</dt><dd>{{ time }}</dd></div>{% endif %}
-      {%- if se %}<div><dt>Story order</dt><dd><a href="/walkthrough/#chapter-{{ se.chapter }}">{{ se.pos }} of {{ se.of }} in Chapter {{ se.chapter }}</a></dd></div>{% endif %}
+      {%- if se %}<div><dt>Story order</dt><dd><a href="/walkthrough/chapter-{{ se.chapter }}/">{{ se.pos }} of {{ se.of }} in Chapter {{ se.chapter }}</a></dd></div>{% endif %}
     </dl>
     {%- if nSteps %}
     <div class="progress" data-progress="step:{{ slug }}:" data-total="{{ nSteps }}">

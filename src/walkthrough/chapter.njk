@@ -1,0 +1,197 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: { data: "chapters.items", size: 1, alias: "ch", addAllPagesToCollections: true },
+  permalink: (data) => `walkthrough/chapter-${data.ch.n}/`,
+  crumbParent: { label: "Walkthrough", url: "/walkthrough/" },
+  sources: [
+    { label: "Built from our own pages", note: "Every fact here is already on the site: storyMissions.json (order, who, opens, warnings), mission front matter (giver, area, difficulty, summary, missables), route100.json (limited items), optionalJobs.json, chapters.json (own-words summaries of the walkthrough, route and missables FAQs). No new facts added Nov 26, 2026." }
+  ],
+  eleventyComputed: {
+    title: (data) => `Chapter ${data.ch.n}: ${data.ch.name}`,
+    updated: (data) => data.chapters.updated,
+    seoTitle: (data) => `GTA 6 Chapter ${data.ch.n} Walkthrough: All ${data.storyMissions.chapters[data.ch.n - 1].missions.length} Missions, Missables and How It Ends`,
+    description: (data) => {
+      const c = data.storyMissions.chapters[data.ch.n - 1].missions;
+      return `GTA 6 Chapter ${data.ch.n} (${data.ch.name}) at a glance: all ${c.length} story missions in order (${c[0].no} to ${c[c.length - 1].no}), who you play, what opens up, what you can miss and what to do before the chapter ends.`;
+    },
+  },
+}
+---
+{%- set chData = storyMissions.chapters[ch.n - 1] %}
+{%- set list = chData.missions %}
+{%- set missions = collections.missions %}
+{%- set whoShort = { jason: "Jason", lucia: "Lucia", both: "Both" } %}
+{%- set diffNames = ["Intro", "Medium", "Hard"] %}
+{%- set skip = ["read-remote", "pool-delights", "bank-ch2"] %}
+{%- set chs = route100 | missablesByChapter(storyMissions, skip) %}
+{%- set miss = chs[ch.n - 1] if ch.n <= chs.length else null %}
+{%- set opt = optionalJobs.items | where("ch", "ch" + ch.n) %}
+{%- set nGuides = list | guidesIn(missions) %}
+{%- set first = list | first %}
+{%- set last = list | last %}
+{%- set kinds = {
+  "magazines-books-comics": "Magazine", "collectible-cards": "Card", "meditation-spots": "Meditation",
+  "shirley-rum": "Optional job", "shirley-scooter": "Optional job", "clock-out": "Optional job", "yago-3": "Optional job", "free-call": "Optional job", "bad-driver": "Optional job",
+  "donnie-38": "Weapon", "bank-ch1": "Cash", "motel": "Home", "halifax": "Choice"
+} %}
+{%- set faqAll = [{ q: "How many missions are in Chapter " + ch.n + " of GTA 6?", a: list.length + " story missions, numbers " + first.no + " to " + last.no + " in the order of the in-game story recap." + (" Every one has a step-by-step guide here." if nGuides == list.length else "") }] if not ch.spoiler else [] %}
+{%- set faqAll = faqAll.concat(ch.faq) %}
+
+<header class="mast photo" style="--glow:var(--{{ ch.glow or 'pink' }})">
+  <img class="mast-img" src="{{ ch.image }}" alt="" width="1600" height="900" fetchpriority="high">
+  <div class="wrap">
+    <p class="kicker">GTA 6 walkthrough · Chapter {{ ch.n }} of {{ storyMissions.chapters.length }}</p>
+    <h1>Chapter {{ ch.n }}: {{ ch.name }}</h1>
+    <p class="tagline">{{ ch.intro }}</p>
+    <div class="chips"><span class="chip ok dot">{% if ch.spoiler %}Mission names behind spoilers{% else %}Spoiler-free{% endif %}</span><span class="chip plain">Updated {{ chapters.updated | niceDate }}</span></div>
+    <div class="facts">
+      <div class="fact"><div class="k">Story missions</div><div class="v sm">{{ list.length }} <span class="u">({{ first.no }}–{{ last.no }})</span></div></div>
+      <div class="fact"><div class="k">You play</div><div class="v sm">{{ ch.play }}</div></div>
+      <div class="fact"><div class="k">Home</div><div class="v sm">{{ ch.home }}</div></div>
+      <div class="fact"><div class="k">Where</div><div class="v sm">{{ ch.where }}</div></div>
+      <div class="fact"><div class="k">Optional jobs</div><div class="v sm">{% if opt.length %}{{ opt.length }}{% else %}None listed{% endif %}</div></div>
+      <div class="fact"><div class="k">Can be missed</div><div class="v sm">{% if miss and miss.n %}{{ miss.n }} item{% if miss.n != 1 %}s{% endif %}{% else %}Nothing{% endif %}</div></div>
+    </div>
+    <div class="progress" data-progress-in="#ch-missions">
+      <div class="row"><span class="lab">Chapter {{ ch.n }} progress</span><span class="pct"><span data-done>0</span> / {{ list.length }} missions</span></div>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+  <span class="credit">Image: Rockstar Games</span>
+</header>
+
+<nav class="sec sec-tight chnav-wrap" aria-label="Chapters">
+  <div class="wrap">
+    <div class="chnav">
+      {%- for c in chapters.items %}
+      <a class="chnav-a{% if c.n == ch.n %} is-on{% endif %}" href="/walkthrough/chapter-{{ c.n }}/"{% if c.n == ch.n %} aria-current="page"{% endif %}><span class="k">Chapter {{ c.n }}</span><span class="t">{{ c.name }}</span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</nav>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="tip warn ch-end"><span class="lab">How it ends</span><div class="tip-body"><p>{{ ch.end }}</p></div></div>
+    <p class="kicker">Before you move on</p>
+    <h2 class="sec-h">Do these before Chapter {{ ch.n }} ends</h2>
+    <div class="tips ch-before">
+      {%- for b in ch.before %}
+      <div class="tipcard"><div class="n">{{ loop.index | pad }}</div><p>{{ b | md | safe }}</p></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="missions">
+  <div class="wrap">
+    <p class="kicker">Story missions</p>
+    <h2 class="sec-h">All {{ list.length }} missions in order</h2>
+    <p class="lede">Tick a mission off here or on the <a href="/walkthrough/">walkthrough list</a>; both pages share your progress. Every title opens its step-by-step guide.</p>
+    {%- if ch.spoiler %}<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Final chapter mission names and summaries</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body">{% endif %}
+    <ol class="mlist chm-list" id="ch-missions">
+      {%- for m in list %}
+      {%- set ms = m.t | slugify %}
+      {%- set mp = (missions | where("data.slug", ms))[0] %}
+      {%- set who = (mp.data.protagonist if mp else m.who) %}
+      {%- set rd = (regions | where("slug", mp.data.region) | first) if (mp and mp.data.region) else null %}
+      <li class="mrow chm" data-track-row>
+        <input class="cb" type="checkbox" id="chm-{{ ms }}" data-track="mission:{{ ms }}" aria-label="Mark {{ m.t }} complete">
+        <span class="mrow-no">{{ m.no | pad }}</span>
+        {%- if mp %}<a class="mrow-title" href="{{ mp.url }}"><span class="t">{{ m.t }}</span></a>{% else %}<span class="mrow-title"><span class="t">{{ m.t }}</span></span>{% endif %}
+        <span class="mrow-tags">
+          {%- if mp and mp.data.missables and mp.data.missables.length %}<span class="flag">Missable</span>{% endif %}
+          {%- if mp and mp.data.choices and mp.data.choices.length %}<a class="flag choice-flag" href="{{ mp.url }}#choices">Choice</a>{% endif %}
+          {%- if m.warn and not m.warn.k %}<a class="flag hid" href="{{ m.warn.u }}">No return</a>{% endif %}
+          {%- if who %}<span class="chip who {{ who }}">{{ whoShort[who] }}</span>{% endif %}
+        </span>
+        {%- if mp %}
+        <div class="chm-body">
+          <p class="chm-meta">{% if mp.data.giver %}<span>{{ mp.data.giver }}</span>{% endif %}{% if rd %}<a href="/map/{{ rd.slug }}/">{{ rd.short or rd.name }}</a>{% endif %}{% if mp.data.difficulty %}<span><span class="dots" aria-hidden="true">{% for i in range(0, 3) %}{% if i < mp.data.difficulty %}●{% else %}○{% endif %}{% endfor %}</span> {{ diffNames[mp.data.difficulty - 1] }}</span>{% endif %}</p>
+          {%- if mp.data.summary %}<p class="chm-sum">{{ mp.data.summary }}</p>{% endif %}
+          {%- if m.warn %}<p class="chm-warn"><a href="{{ m.warn.u }}">{{ m.warn.t }}</a></p>{% endif %}
+        </div>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+    {%- if ch.spoiler %}</div></details>{% endif %}
+  </div>
+</section>
+
+{%- set opens = [] %}
+{%- for m in list %}{% for o in m.opens or [] %}{% set opens = (opens.push({ o: o, no: m.no }), opens) %}{% endfor %}{% endfor %}
+{%- if opens.length and not ch.spoiler %}
+<section class="sec" id="opens">
+  <div class="wrap">
+    <p class="kicker">Unlocks</p>
+    <h2 class="sec-h">What opens up in Chapter {{ ch.n }}</h2>
+    <ul class="chm-opens">
+      {%- for x in opens %}
+      <li><span class="mno">After {{ x.no | pad }}</span>{% if x.o.u %}<a href="{{ x.o.u }}">{{ x.o.t }}</a>{% else %}<span>{{ x.o.t }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
+
+{%- if miss and miss.n %}
+<section class="sec" id="missables">
+  <div class="wrap">
+    <p class="kicker">Missables</p>
+    <h2 class="sec-h">What you can lose in Chapter {{ ch.n }}</h2>
+    <p class="lede">None of these count toward 100%, but they're gone once the chapter moves past them. Ticks are shared with the <a href="/guides/missables/#{{ miss.id }}">missables list</a> and the <a href="/guides/100-percent-route/#{{ miss.id }}">100% route</a>.</p>
+    <div class="pnr route">
+      <ul class="track">
+        {%- for it in miss.items %}
+        {%- set ctype = it.track.split(":")[1] if (it.track and it.track.indexOf("col:") == 0) else "" %}
+        <li data-track-row><label><input class="cb" type="checkbox" data-track="{{ it.track or ('route:' + it.k) }}"><span class="txt">{{ it.t | md | safe }}</span><span class="goal rt rt-limited">{{ (kinds[ctype] if ctype else kinds[it.k]) or "Limited" }}</span></label></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if opt.length %}
+<section class="sec" id="optional">
+  <div class="wrap">
+    <p class="kicker">Side content</p>
+    <h2 class="sec-h">Optional jobs in Chapter {{ ch.n }}</h2>
+    <p class="lede">The optional missions that open between story missions this chapter, in order. More detail on <a href="/guides/optional-jobs/#{{ 'ch' + ch.n }}">Optional missions</a>.</p>
+    <div class="trophies chal-list">
+      {%- for j in opt %}
+      <label class="tr" data-track-row for="cho-{{ j.id }}"><input class="cb" type="checkbox" id="cho-{{ j.id }}" data-track="{{ j.track }}" aria-label="Mark {{ j.name }} done"><div class="body"><div class="name"><a href="{{ j.u }}">{{ j.name }}</a>{% if j.tags and 'missable' in j.tags %} <span class="chip miss">Missable</span>{% endif %}</div><div class="uw-meta">{{ j.when }}</div><div class="desc">{{ j.d }}</div></div><div class="side"><span class="need">{{ j.pay }}</span></div></label>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sec">
+  <div class="wrap">
+    <div class="cards three">
+      <a class="card link" href="/guides/100-percent-route/#chapter-{{ ch.n }}"><span class="pin">Completion</span><h3>100% route, Chapter {{ ch.n }}</h3><p>Every mission, side job, collectible and challenge for this chapter, in the order to do them.</p></a>
+      <a class="card link" href="/guides/missables/"><span class="pin">Don't lose it</span><h3>All missables</h3><p>Everything that disappears for good, chapter by chapter.</p></a>
+      <a class="card link" href="/guides/side-contacts/"><span class="pin">Side strands</span><h3>Side contacts</h3><p>Every stranger and contact, when they call and what they pay.</p></a>
+    </div>
+    <nav class="pager chpager" aria-label="Chapter navigation">
+      {%- if ch.n > 1 %}<a class="pg prev" href="/walkthrough/chapter-{{ ch.n - 1 }}/"><span class="l">Previous chapter</span><span class="t">Chapter {{ ch.n - 1 }}</span></a>{% else %}<a class="pg prev" href="/walkthrough/"><span class="l">Back to</span><span class="t">All missions</span></a>{% endif %}
+      {%- if ch.n < chapters.items.length %}<a class="pg next" href="/walkthrough/chapter-{{ ch.n + 1 }}/"><span class="l">Next chapter</span><span class="t">Chapter {{ ch.n + 1 }}</span></a>{% else %}<a class="pg next" href="/guides/after-the-story/"><span class="l">After the credits</span><span class="t">After the story</span></a>{% endif %}
+    </nav>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Chapter {{ ch.n }} questions</h2>
+    <div class="faq">
+      {%- for q in faqAll %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ faqAll | faqld | safe }}</script>

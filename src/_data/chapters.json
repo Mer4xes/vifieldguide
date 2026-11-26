@@ -1,0 +1,161 @@
+{
+  "note": "One overview page per story chapter at /walkthrough/chapter-<n>/ (src/walkthrough/chapter.njk). Built only from facts already on the site: storyMissions.json, mission front matter, route100.json, optionalJobs.json, the walkthrough and missables FAQs. Keep in step with those when they change.",
+  "updated": "2026-11-26",
+  "items": [
+    {
+      "n": 1,
+      "name": "Just Like Paradise",
+      "glow": "cyan",
+      "image": "/assets/img/full/leonida-keys-03.webp",
+      "where": "Leonida Keys",
+      "home": "Jason's house in Key Lento",
+      "play": "Lucia in the Prologue, then Jason",
+      "intro": "The Prologue puts you in Lucia's shoes for one job, then the game hands you Jason and the Leonida Keys. This chapter is the tutorial stretch: small jobs for Brian and Cal, your first money, the BuckMe app, fences and fishing. It ends with a run of missions you can't step out of, and Jason's house is gone after them.",
+      "end": "Recalibration is the point of no return. After it the story runs straight through the last three missions with no free roam.",
+      "before": [
+        "Make a manual save in a slot of its own before Recalibration, and keep it.",
+        "Bank the cash you carry; money in your pocket is lost. Family Savings is the safe place for it.",
+        "Read the five magazines in Jason's house and do the balcony meditation with Lucia while you still live there.",
+        "Do Shirley's two jobs and, if Lucia calls, Clock Out before her 4 PM deadline."
+      ],
+      "faq": [
+        {
+          "q": "How do you finish Chapter 1 in GTA 6?",
+          "a": "Play the story through Recalibration. After it, Tourist Trap, Home Sweet Home and Discharge Time follow one after another with no free roam, and the chapter ends with the last of them."
+        },
+        {
+          "q": "Who do you play as in Chapter 1?",
+          "a": "Lucia for the Prologue only. Everything after that is Jason, with Lucia along for some missions."
+        },
+        {
+          "q": "What can you miss in Chapter 1?",
+          "a": "The five magazines in Jason's house, the balcony meditation, Shirley's two jobs, Clock Out, Donnie's revolver in Don Gone and any cash you haven't banked. [All Chapter 1 missables](/guides/missables/#chapter-1)."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Paradise Lost",
+      "glow": "pink",
+      "image": "/assets/img/full/art-jl-motel.webp",
+      "where": "Port Gellhorn, Kelly County",
+      "home": "The Starlet Motel",
+      "play": "Lucia until Coffee Break, then both",
+      "intro": "Lucia carries the first half of the chapter around Port Gellhorn, with the Starlet Motel as home. From Coffee Break you can switch between her and Jason whenever you like. Along the way most of the side jobs open up: Moses's cars, Billy, Dunk, Bret's hunts and the first store robberies.",
+      "end": "Checking Out closes the chapter. It only appears once every other Chapter 2 mission is done and you have $15,000 saved, and the motel stops being your home after it.",
+      "before": [
+        "Have $15,000 put away, ideally in BuckMe, so Checking Out can open.",
+        "Grab the two magazines and two collectible cards inside the Starlet Motel before you check out.",
+        "Make a manual save in its own slot before Checking Out: it is your way back to Chapter 2 free roam.",
+        "Finish the Kelly County side jobs you want while you're based there."
+      ],
+      "faq": [
+        {
+          "q": "How do you end Chapter 2 in GTA 6?",
+          "a": "Finish every other Chapter 2 story mission and save up $15,000. Checking Out then opens at the Starlet Motel and ends the chapter."
+        },
+        {
+          "q": "When can you switch characters in GTA 6?",
+          "a": "From Coffee Break, mission 31. Before it the chapter is played as Lucia."
+        },
+        {
+          "q": "What can you miss in Chapter 2?",
+          "a": "Collectibles inside the Starlet Motel (two magazines and two cards) and anything you planned to do from the motel. [All Chapter 2 missables](/guides/missables/#chapter-2)."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Tits Ass Drug Money",
+      "glow": "violet",
+      "image": "/assets/img/full/vice-city-01.webp",
+      "where": "Vice City",
+      "home": "The Bayside apartment",
+      "play": "Jason and Lucia, switching freely",
+      "intro": "Vice City opens, and with it most of what the city has to offer between missions: Pay 'n' Spray, jewelry stores, bank jobs, payday loans, Yago's races and most of the fences. It's the longest chapter, and it builds up to a heist with a lot of setup jobs on the way.",
+      "end": "The Cartel Heist is the last mission. The Bayside apartment is no longer home once the chapter ends.",
+      "before": [
+        "Read the two magazines in the Bayside apartment before the chapter ends.",
+        "Keep the crates from Company Property and plant every charge you can in Hidden Charges: each one adds time to The Cartel Heist.",
+        "Make a manual save in its own slot before The Cartel Heist."
+      ],
+      "faq": [
+        {
+          "q": "How many missions are there before the Chapter 3 heist?",
+          "a": "Chapter 3 has 26 story missions, and The Cartel Heist is the last of them. Several earlier ones are setup jobs for it."
+        },
+        {
+          "q": "What opens up in Chapter 3?",
+          "a": "Buying and registering cars at Pay 'n' Spray, Yago's street races, Tyrone's jobs, Randy buying stolen cars, Yasmani's jewelry jobs, small bank jobs, payday loans and the key cloner."
+        },
+        {
+          "q": "What can you miss in Chapter 3?",
+          "a": "The two magazines in the Bayside apartment. [All Chapter 3 missables](/guides/missables/#chapter-3)."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "name": "Vice City, Baby",
+      "glow": "pink",
+      "image": "/assets/img/full/vice-city-02.webp",
+      "where": "Vice City",
+      "home": "Room 701 at the Y Hotel",
+      "play": "Separate Jason and Lucia strands",
+      "intro": "The story moves into the Y Hotel in Ocean Beach and then splits: Jason and Lucia each get their own strand of missions that run side by side, ahead of the chapter's big heist. There's a fee to pay along the way and a stretch where the two of them can't be seen together.",
+      "end": "Sunset is the second point of no return. Once it starts, the story runs on into Chapter 5 and the open world doesn't come back until most of that chapter is done.",
+      "before": [
+        "Take This Is a Free Call From… as Lucia as soon as it appears: it's limited-time.",
+        "Send Abe's law firm $75,000 through BuckMe after Party Hard, or the story won't move on.",
+        "Do anything that needs Jason and Lucia together before Making Gainz; they can't be seen together in public until VCIA Takedown.",
+        "Finish Bad Driver! before Power Play starts.",
+        "Make a manual save and finish your free-roam plans before Sunset."
+      ],
+      "faq": [
+        {
+          "q": "How do you play Jason and Lucia separately in Chapter 4?",
+          "a": "The chapter splits into a Jason strand and a Lucia strand. Missions for each show up side by side, and the [walkthrough list](/walkthrough/) can filter to one of them."
+        },
+        {
+          "q": "Do you have to pay Abe in Chapter 4?",
+          "a": "Yes. After Party Hard, Abe's law firm wants $75,000 through BuckMe, and the story doesn't go on until it's paid."
+        },
+        {
+          "q": "What can you miss in Chapter 4?",
+          "a": "Two optional jobs: This Is a Free Call From… (Lucia, limited-time) and Bad Driver!, which is gone once Power Play starts. Francisco's LMG-6 in VCIA Takedown is only yours if you pick it up in the last fight. [All Chapter 4 missables](/guides/missables/#chapter-4)."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "name": "Top of the World, Ma",
+      "glow": "gold",
+      "image": "/assets/img/full/vice-city-03.webp",
+      "where": "Vice City",
+      "home": "The Tequesta Retreat penthouse",
+      "play": "Jason and Lucia",
+      "spoiler": true,
+      "intro": "The final chapter is seven missions, mostly in a row. Their names give the ending away, so they are hidden behind a spoiler block below. The open world comes back near the end, and there's one more fee to pay before the last two missions.",
+      "end": "The last two missions run back to back. After the credits you're put back in free roam just before the second-to-last one, so nothing is lost.",
+      "before": [
+        "Have $150,000 ready for Abe's office: the second-to-last mission doesn't open until it's paid through BuckMe.",
+        "Move your money into Family Savings before the second-to-last mission. Anything outside it is lost when the ending starts.",
+        "Make a manual save in a slot of its own before the last two missions; there's no mission replay."
+      ],
+      "faq": [
+        {
+          "q": "How many missions are in Chapter 5 of GTA 6?",
+          "a": "Seven, missions 87 to 93. The last two run back to back."
+        },
+        {
+          "q": "Can you keep playing after the GTA 6 story?",
+          "a": "Yes. After the credits the game puts you back in free roam just before the second-to-last mission, with your Family Savings, the 100% checklist and the cheats list. [After the story](/guides/after-the-story/)."
+        },
+        {
+          "q": "Do you lose money at the end of GTA 6?",
+          "a": "Money outside Family Savings is lost once the ending starts. Move it there first. [Money guide](/guides/money/#keep-it)."
+        }
+      ]
+    }
+  ]
+}

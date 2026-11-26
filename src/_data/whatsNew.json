@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Walkthrough",
+  "title": "One page per chapter",
+  "text": "Each of the five chapters on one page: every mission in order, what opens up, what you can lose and what to do before it ends.",
+  "url": "/walkthrough/chapter-1/",
+  "img": "/assets/img/full/leonida-keys-03.webp",
+  "pos": "50% 50%",
+  "cta": "Start with Chapter 1"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Beginners",
   "title": "Beginner tips: saving, travel and the police",
   "text": "How saving works with no mission replay, every paid way to get around, auto drive, the map index and how to shake the police.",
   "url": "/guides/beginner-tips/",
   "img": "/assets/img/full/feat-heat.webp",
-  "pos": "50% 50%",
-  "cta": "Read the tips"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
@@ -70,13 +79,5 @@
   "text": "All six jobs of the Unknown Stuntman's strand, the seven AudaCity Stunts with a checklist, and the eighth Strangers & Freaks strand.",
   "url": "/guides/side-contacts/#audacity",
   "img": "/assets/img/misc/act-bikes.webp"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Collectibles",
-  "title": "Every Vice City Flamingos card",
-  "text": "All 24 cards of the set that unlocks the Bubblegum cheat, in menu order, with a county-by-county plan and ticks that save.",
-  "url": "/collectibles/collectible-cards/vice-city-flamingos/",
-  "img": "/assets/img/region-vice-city.webp"
  }
 ]
