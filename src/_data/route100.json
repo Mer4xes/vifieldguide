@@ -631,7 +631,7 @@
       },
       {
        "c": "exploration:underwater-discoveries",
-       "n": "The checklist wants all 33."
+       "n": "The checklist wants all 33; 29 of them are around the Keys."
       },
       {
        "m": 37
@@ -1397,7 +1397,7 @@
        "k": "fr-under",
        "track": "pct:underwater-discoveries-found",
        "tag": "collect",
-       "t": "**Underwater discoveries.**",
+       "t": "**Underwater discoveries.** 29 are around the Keys; the other four are two off Port Gellhorn, one off Gloriana Key and one off Little Hardin Island. [All 33](/collectibles/underwater-discoveries/).",
        "g": "33 of 33"
       },
       {

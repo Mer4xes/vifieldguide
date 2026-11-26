@@ -108,3 +108,18 @@
     {%- if t.updated %}<p class="stamp">Last updated {{ t.updated | niceDate }}</p>{% endif %}
   </div>
 </section>
+
+{%- if t.faq and t.faq.length %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in t.faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ t.faq | faqld | safe }}</script>
+{%- endif %}

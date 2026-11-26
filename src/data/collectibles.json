@@ -2004,65 +2004,285 @@
           "url": "https://www.pushsquare.com/guides/gta-6-meditation-locations",
           "note": "All 10 spots from PowerPyx (modified Nov 19); Push Square agrees on the six it lists. Waterfall: PowerPyx NW of Tallaloko, Push Square East Lummox, east of Killtelligence Provisions."
         }
+      ],
+      "faq": [
+        {
+          "q": "How many meditation spots are there in GTA 6?",
+          "a": "18 meditations at 10 locations. Most locations count once for Jason and once for Lucia, and the last one, on the peak of Mount Kalaga, only shows up once all the others are done."
+        },
+        {
+          "q": "How many meditations do you need for 100% and the trophy?",
+          "a": "The 100% checklist needs 15. The Positive Mental Attitude trophy needs all 18."
+        },
+        {
+          "q": "Can you miss a meditation?",
+          "a": "Lucia offers one at Jason's house in Chapter 1, after [Down to Earth](/walkthrough/down-to-earth/). It can't be done once Chapter 2 starts, so accept it if she asks."
+        },
+        {
+          "q": "What do meditations unlock?",
+          "a": "Fifty meditations unlock the Fast Forward cheat. See the [cheat list](/guides/cheats/)."
+        }
       ]
     },
     {
       "slug": "underwater-discoveries",
       "name": "Underwater Discoveries",
-      "desc": "Wrecks and other sights on the sea floor.",
+      "desc": "Wrecks, research stations, reefs and odd sights on the sea floor. 29 of the 33 are around the Keys.",
       "total": 33,
       "unit": "discoveries",
       "need": "33",
       "counter": "explore:underwater",
       "counterLabel": "Underwater discoveries",
       "how": [
-        "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1. The first wrecks are all off Key Lento.",
-        "Pick up the treasure on a wreck for Kenton. The 100% checklist wants every discovery.",
-        "Kenton also has two open dive sites, Belpoint Strait and the Bobcat Dive Site. Their treasure counts toward his sets but they aren't underwater discoveries. Every set and its pieces are in [Kenton's treasure tracker](/guides/side-contacts/#kenton-treasure).",
-        "Track them under Progress, Collections, Exploration, Underwater Discoveries."
+        "Diving opens with Kenton in [Island Dreams](/walkthrough/island-dreams/) in Chapter 1, which also gives you the metal detector.",
+        "Take a boat to the spot and dive. Some boats carry scuba gear on the back: put it on first so you don't run out of air.",
+        "**29 of the 33 are in Mariana County**, in the sea around the Keys. The other four are two off Port Gellhorn in Kelly County, one off Gloriana Key and one off Little Hardin Island in Leonard County. Most of the Keys wrecks and reefs have no exact spot on this page yet: turn on the map's Exploration filter and sweep the Keys by boat.",
+        "There are four kinds: Kenton's six treasure wrecks, five Burg research facilities, thirteen wrecked ships, planes and a helicopter, and nine reefs, carcasses and sculptures. Use the chips above the list to see one kind.",
+        "The three Burg facilities in Mariana County are west of Mile Zero Air Station (south of the Riquezas Keys), just north of Mile Zero Air Station, and east of Key Lento close to Kenton's shop.",
+        "The 100% checklist wants all 33. Kenton's two open dive sites, Belpoint Strait and the Bobcat Dive Site, hold treasure for his sets but aren't underwater discoveries. Every set and its pieces are in [Kenton's treasure tracker](/guides/side-contacts/#kenton-treasure).",
+        "Track them under Progress, Collections, Exploration, Points of Interest, Underwater Discoveries. On the map, the Exploration filter (magnifying glass) shows them."
       ],
       "items": [
         {
-          "id": "ocio",
-          "name": "Nuestra Señora Del Ocio",
+          "id": "burg-1",
+          "name": "Burg Facility 1",
           "county": "mariana-county",
-          "area": "Waters off Key Lento",
-          "where": "Off Key Lento. You find it in Island Dreams, Kenton's first dive. Clear it by picking up its 10 doubloons."
+          "area": "Around the Keys",
+          "set": "Burg facilities"
         },
         {
-          "id": "noche",
-          "name": "Nuestra Señora De La Noche",
+          "id": "wrecked-galleon",
+          "name": "Wrecked Galleon",
           "county": "mariana-county",
-          "area": "Waters off Key Lento",
-          "where": "South of Key Lento. Seven treasures for Kenton."
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "private-jet",
+          "name": "Downed Private Jet",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "coral-farm",
+          "name": "Coral Farm",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
         },
         {
           "id": "etica-laxa",
           "name": "Nuestra Señora De La Ética Laxa",
           "county": "mariana-county",
           "area": "Waters off Key Lento",
-          "where": "South of Key Lento and Abismo Key. Five treasures."
+          "where": "South of Key Lento and Abismo Key. Five treasures.",
+          "set": "Kenton wrecks"
         },
         {
-          "id": "cinco-torres",
-          "name": "Urca De Cinco Torres",
+          "id": "noche",
+          "name": "Nuestra Señora De La Noche",
           "county": "mariana-county",
           "area": "Waters off Key Lento",
-          "where": "Off the southeast coast of Key Lento, by a group of green islands. Six treasures."
+          "where": "South of Key Lento. Seven treasures for Kenton.",
+          "set": "Kenton wrecks"
+        },
+        {
+          "id": "fishing-vessel",
+          "name": "Sunken Fishing Vessel",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
         },
         {
           "id": "lujuriosa",
           "name": "Nuestra Señora Lujuriosa",
           "county": "mariana-county",
           "area": "Waters off Key Lento",
-          "where": "By the same green islands off southeast Key Lento. Six treasures."
+          "where": "By the same green islands off southeast Key Lento. Six treasures.",
+          "set": "Kenton wrecks"
+        },
+        {
+          "id": "cinco-torres",
+          "name": "Urca De Cinco Torres",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "Off the southeast coast of Key Lento, by a group of green islands. Six treasures.",
+          "set": "Kenton wrecks"
+        },
+        {
+          "id": "submarine",
+          "name": "Wrecked Submarine",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
         },
         {
           "id": "santa-sierra",
           "name": "Urca De Santa Sierra",
           "county": "mariana-county",
           "area": "Waters off Key Lento",
-          "where": "East of Key Lento. Six treasures."
+          "where": "East of Key Lento. Six treasures.",
+          "set": "Kenton wrecks"
+        },
+        {
+          "id": "burg-5",
+          "name": "Burg Facility 5",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Burg facilities"
+        },
+        {
+          "id": "passenger-jet",
+          "name": "Sunken Passenger Jet",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "old-shipwreck",
+          "name": "Old Shipwreck",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "fishing-boat",
+          "name": "Submerged Fishing Boat",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "freighter",
+          "name": "Freighter Wreck",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "helicopter",
+          "name": "Sunken Helicopter",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "sailing-ship",
+          "name": "Wrecked Sailing Ship",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "yacht",
+          "name": "Sunken Yacht",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "sailboat",
+          "name": "Sailboat Wreck",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "fighter-plane",
+          "name": "Sunken Fighter Plane",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Wrecks"
+        },
+        {
+          "id": "ocio",
+          "name": "Nuestra Señora Del Ocio",
+          "county": "mariana-county",
+          "area": "Waters off Key Lento",
+          "where": "East of Key Lento, beyond the little island north-east of Kenton's shop. You find it in Island Dreams, Kenton's first dive. Clear it by picking up its 10 doubloons.",
+          "set": "Kenton wrecks"
+        },
+        {
+          "id": "underwater-hotel",
+          "name": "Underwater Hotel",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "trolley-car-reefs",
+          "name": "Trolley Car Reefs",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "burg-4",
+          "name": "Burg Facility 4",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Burg facilities"
+        },
+        {
+          "id": "leonida-bay-carcass",
+          "name": "Leonida Bay Carcass",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "bobcat-key-carcass",
+          "name": "Bobcat Key Carcass",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "aquatic-bones",
+          "name": "Aquatic Bones",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "capri-sound-carcass",
+          "name": "Capri Sound Carcass",
+          "county": "mariana-county",
+          "area": "Around the Keys",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "burg-3",
+          "name": "Burg Facility 3",
+          "county": "kelly-county",
+          "area": "Wild Hog Point",
+          "where": "Deep in the sea off the Kelly County coast, west of Wild Hog Point.",
+          "set": "Burg facilities"
+        },
+        {
+          "id": "selfie-circle",
+          "name": "Selfie Circle",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In the sea off the Port Gellhorn coast.",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "kraken",
+          "name": "Kraken Sculpture",
+          "county": "vice-dale-county",
+          "area": "Gloriana Key",
+          "where": "On the seabed south-east of Gloriana Key: steel tentacles wrapped round a broken ship.",
+          "set": "Reefs and sights"
+        },
+        {
+          "id": "burg-2",
+          "name": "Burg Facility 2",
+          "county": "leonard-county",
+          "area": "Little Hardin Island",
+          "where": "Off the Leonard County coast at the far eastern edge of the map, east of Little Hardin Island.",
+          "set": "Burg facilities"
         }
       ],
       "sources": [
@@ -2075,9 +2295,45 @@
           "label": "Push Square: underwater discoveries and Kenton's treasures",
           "url": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures",
           "note": "Trusted source, 6 of 33 wrecks, published Nov 18, 2026. Replaces the Nov 20 decision to leave them out. Re-read Nov 24, 2026 (modified Nov 20): still 6 of 33; Belpoint Strait and Bobcat Dive Site hold Kenton sets but are not discoveries."
+        },
+        {
+          "label": "PowerPyx: All Underwater Discoveries",
+          "url": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations",
+          "note": "Trusted. Published/modified Nov 25, 2026. All 33 names by county (Mariana 29, Kelly 2, Vice-Dale 1, Leonard 1), scuba gear on boats, Progress and map paths. Locations are image-only; no area labels."
+        },
+        {
+          "label": "Tech4Gamers + Game-Checklists (cross-check)",
+          "url": "https://game-checklists.com/gta6/underwater-discoveries-checklist/",
+          "note": "Read Nov 26, 2026 (both updated Nov 25); also https://gta.tech4gamers.com/gta-6/collectibles/underwater-discoveries/. Agree on: Burg 2 east of Little Hardin Island, Burg 3 west of Wild Hog Point, Selfie Circle off Port Gellhorn, Kraken SE of Gloriana Key, three Mariana Burg spots (only T4G numbers them, so numbers not assigned), Ocio east of Key Lento, kind groups 6/5/13/9. Left out: safe code 80085 and meteorite (wording shared, gta6bugs derivative), T4G's Burg numbering for 1/4/5."
         }
       ],
-      "updated": "2026-11-24"
+      "updated": "2026-11-26",
+      "faq": [
+        {
+          "q": "How many underwater discoveries are there in GTA 6?",
+          "a": "33. Twenty-nine are in Mariana County around the Keys, two are off Port Gellhorn in Kelly County, one is off Gloriana Key and one is off Little Hardin Island in Leonard County. The 100% checklist wants all of them."
+        },
+        {
+          "q": "When can you start diving for underwater discoveries?",
+          "a": "From [Island Dreams](/walkthrough/island-dreams/), Kenton's first job in Chapter 1. It gives you the metal detector, and the first wreck, Nuestra Señora Del Ocio, is part of that mission."
+        },
+        {
+          "q": "Do you need scuba gear?",
+          "a": "It helps a lot. Some boats carry scuba gear on the back; put it on before you dive so you have enough air to reach the deeper wrecks."
+        },
+        {
+          "q": "Do Kenton's dive sites count as underwater discoveries?",
+          "a": "His six treasure wrecks do. His two open dive sites, Belpoint Strait and the Bobcat Dive Site, don't, though their treasure still counts toward his sets. See [Kenton's treasure tracker](/guides/side-contacts/#kenton-treasure)."
+        },
+        {
+          "q": "Where are the Burg facilities?",
+          "a": "There are five. Three are in Mariana County: west of Mile Zero Air Station (south of the Riquezas Keys), just north of Mile Zero Air Station, and east of Key Lento near Kenton's shop. One is west of Wild Hog Point off the Kelly County coast, and one is far out east of Little Hardin Island in Leonard County."
+        },
+        {
+          "q": "Where do you track underwater discoveries?",
+          "a": "Under Progress, Collections, Exploration, Points of Interest, Underwater Discoveries. The map's Exploration filter (the magnifying glass) shows them too."
+        }
+      ]
     },
     {
       "slug": "magazines-books-comics",

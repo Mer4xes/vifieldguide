@@ -10,6 +10,15 @@
   "cta": "Read the tips"
  },
  {
+  "date": "2026-11-26",
+  "tag": "Collectibles",
+  "title": "All 33 underwater discoveries",
+  "text": "Every wreck, Burg facility and reef on the sea floor, sorted by county and kind, with a checklist that saves.",
+  "url": "/collectibles/underwater-discoveries/",
+  "img": "/assets/img/full/act-boats.webp",
+  "pos": "50% 50%"
+ },
+ {
   "date": "2026-11-25",
   "tag": "Cars",
   "title": "Randy's wish list, car by car",
@@ -69,13 +78,5 @@
   "text": "All 24 cards of the set that unlocks the Bubblegum cheat, in menu order, with a county-by-county plan and ticks that save.",
   "url": "/collectibles/collectible-cards/vice-city-flamingos/",
   "img": "/assets/img/region-vice-city.webp"
- },
- {
-  "date": "2026-11-24",
-  "tag": "Side content",
-  "title": "More stamina, and hurricanes",
-  "text": "Dr. Merle's Final Flush raises your stamina for good, and Freddie's bunker switches hurricanes on. Plus four new cheat codes.",
-  "url": "/guides/side-contacts/#merle",
-  "img": "/assets/img/misc/feat-storm.webp"
  }
 ]

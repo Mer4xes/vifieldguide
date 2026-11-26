@@ -116,7 +116,7 @@ Pink flamingo ornaments placed around the map. Shoot one and it drops a parcel o
 
 <h2 id="underwater">Diving and underwater discoveries</h2>
 
-Treasure diving opens with **Kenton** in [Island Dreams](/walkthrough/island-dreams/). Dive with the metal detector: it signals green and beeps faster as you close in. The 100% checklist counts 33 underwater discoveries and 5 of Kenton's 7 sets, and Kenton's final mission earns **This Was No Boat Accident**.
+Treasure diving opens with **Kenton** in [Island Dreams](/walkthrough/island-dreams/). Dive with the metal detector: it signals green and beeps faster as you close in. The 100% checklist counts all 33 [underwater discoveries](/collectibles/underwater-discoveries/) (29 of them around the Keys) and 5 of Kenton's 7 sets, and Kenton's final mission earns **This Was No Boat Accident**.
 
 <h2 id="reading">Magazines, books and comics</h2>
 
