@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-26",
  "sources": [
   {
    "label": "PowerPyx: GTA 6 All Knife Flight Locations",
@@ -15,6 +15,11 @@
    "label": "PowerPyx: GTA 6 All Stunt Jump Locations",
    "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
    "note": "Read Nov 23, 2026 (republished Nov 23 04:13 UTC, no longer marked work in progress) as verbatim text to the end: all 130 named, Mariana County 17, Vice-Dale County 55, Leonard County 13, Kelly County 29, Lummox County 16. The 82 we already had all match. Names only, no text hints (locations are images). Hover the map icon for the jump's challenge; the challenge is not needed for 100%. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Under the Bridges Locations",
+   "url": "https://www.powerpyx.com/gta-6-all-under-the-bridges-locations",
+   "note": "Read Nov 26, 2026 (published Nov 26 20:02, modified 20:23 UTC). Trusted. 202 names by county: Mariana 35, Vice-Dale 67 (whole city), Leonard 32, Kelly 51, Lummox 17; names only, locations are images (far/close). Count toward Cunning Stunts (250) and the 100% checklist (300 of 397). Mariana and Vice-Dale 1-65 read as verbatim text; Vice-Dale 66-67, Leonard, Kelly and Lummox came through as fetch extracts, read in three separate fetches that matched name for name. Vice-Dale 66 is 'S-17 Canal' + 'Drawbridge Central' (verbatim start + extract), next to Drawbridge South (VD 67) and Drawbridge North (Leonard 1)."
   }
  ],
  "kinds": [
@@ -894,9 +899,853 @@
    "id": "bridge",
    "n": "Under the bridge",
    "total": 202,
-   "how": "Fly under a bridge.",
-   "groups": [],
-   "mapped": 0
+   "how": "Fly under the bridge, overpass or other structure the spot is named after.",
+   "groups": [
+    {
+     "id": "mariana-county",
+     "n": "Mariana County",
+     "total": 35,
+     "items": [
+      {
+       "id": "atlee-river",
+       "name": "Atlee River"
+      },
+      {
+       "id": "bluegrass-north",
+       "name": "Bluegrass North"
+      },
+      {
+       "id": "bluegrass-south",
+       "name": "Bluegrass South"
+      },
+      {
+       "id": "bobcat-key-central",
+       "name": "Bobcat Key Central"
+      },
+      {
+       "id": "bobcat-key-north",
+       "name": "Bobcat Key North"
+      },
+      {
+       "id": "bobcat-key-south",
+       "name": "Bobcat Key South"
+      },
+      {
+       "id": "breakwater-quarry",
+       "name": "Breakwater Quarry"
+      },
+      {
+       "id": "capri-island",
+       "name": "Capri Island"
+      },
+      {
+       "id": "caprice-city-canal",
+       "name": "Caprice City Canal"
+      },
+      {
+       "id": "east-big-pine",
+       "name": "East Big Pine"
+      },
+      {
+       "id": "east-watson-bay",
+       "name": "East Watson Bay"
+      },
+      {
+       "id": "fuzzard-drain-canal-railroad-west",
+       "name": "Fuzzard Drain Canal Railroad West"
+      },
+      {
+       "id": "gavins-creek-east",
+       "name": "Gavin's Creek East"
+      },
+      {
+       "id": "gavins-creek-west",
+       "name": "Gavin's Creek West"
+      },
+      {
+       "id": "goliath-global-quarry",
+       "name": "Goliath Global Quarry"
+      },
+      {
+       "id": "isla-maldia",
+       "name": "Isla Maldia"
+      },
+      {
+       "id": "keylime-causeway",
+       "name": "Keylime Causeway"
+      },
+      {
+       "id": "lento-causeway",
+       "name": "Lento Causeway"
+      },
+      {
+       "id": "nehrling-river-east",
+       "name": "Nehrling River East"
+      },
+      {
+       "id": "nehrling-river-railroad",
+       "name": "Nehrling River Railroad"
+      },
+      {
+       "id": "nehrling-river-west",
+       "name": "Nehrling River West"
+      },
+      {
+       "id": "north-isla-maldia",
+       "name": "North Isla Maldia"
+      },
+      {
+       "id": "north-key-lento",
+       "name": "North Key Lento"
+      },
+      {
+       "id": "north-mariana-county-overpass",
+       "name": "North Mariana County Overpass"
+      },
+      {
+       "id": "north-mariana-county-railroad-southeast",
+       "name": "North Mariana County Railroad Southeast"
+      },
+      {
+       "id": "north-mariana-county-railroad-southwest",
+       "name": "North Mariana County Railroad Southwest"
+      },
+      {
+       "id": "north-mariana-county-railroad-west",
+       "name": "North Mariana County Railroad West"
+      },
+      {
+       "id": "north-watson-bay",
+       "name": "North Watson Bay"
+      },
+      {
+       "id": "old-fort-road-bridge",
+       "name": "Old Fort Road Bridge"
+      },
+      {
+       "id": "permit-causeway",
+       "name": "Permit Causeway"
+      },
+      {
+       "id": "saltrock-bridge",
+       "name": "Saltrock Bridge"
+      },
+      {
+       "id": "seabell-avenue",
+       "name": "Seabell Avenue"
+      },
+      {
+       "id": "snd-station-footbridge",
+       "name": "SND Station Footbridge"
+      },
+      {
+       "id": "south-isla-maldia",
+       "name": "South Isla Maldia"
+      },
+      {
+       "id": "watson-bay",
+       "name": "Watson Bay"
+      }
+     ]
+    },
+    {
+     "id": "vice-dale-county",
+     "n": "Vice-Dale County",
+     "total": 67,
+     "items": [
+      {
+       "id": "ajax-gym-lawton-theater",
+       "name": "Ajax Gym/Lawton Theater"
+      },
+      {
+       "id": "atlantic-avenue",
+       "name": "Atlantic Avenue"
+      },
+      {
+       "id": "atlantic-causeway",
+       "name": "Atlantic Causeway"
+      },
+      {
+       "id": "balsero-overpass-central",
+       "name": "Balsero Overpass Central"
+      },
+      {
+       "id": "balsero-overpass-east",
+       "name": "Balsero Overpass East"
+      },
+      {
+       "id": "balsero-overpass-south",
+       "name": "Balsero Overpass South"
+      },
+      {
+       "id": "balsero-overpass-west",
+       "name": "Balsero Overpass West"
+      },
+      {
+       "id": "bluegrass-railroad-bridge",
+       "name": "Bluegrass Railroad Bridge"
+      },
+      {
+       "id": "bonita-court-footbridge",
+       "name": "Bonita Court Footbridge"
+      },
+      {
+       "id": "bright-maw-pass",
+       "name": "Bright Maw Pass"
+      },
+      {
+       "id": "cargo-road",
+       "name": "Cargo Road"
+      },
+      {
+       "id": "casanova-island-bridge",
+       "name": "Casanova Island Bridge"
+      },
+      {
+       "id": "catalan-boulevard",
+       "name": "Catalan Boulevard"
+      },
+      {
+       "id": "catalan-key-east",
+       "name": "Catalan Key East"
+      },
+      {
+       "id": "catalan-key-south",
+       "name": "Catalan Key South"
+      },
+      {
+       "id": "catalan-key-west",
+       "name": "Catalan Key West"
+      },
+      {
+       "id": "del-rio-boulevard",
+       "name": "Del Rio Boulevard"
+      },
+      {
+       "id": "delamore-bridge",
+       "name": "Delamore Bridge"
+      },
+      {
+       "id": "downtown-southeast",
+       "name": "Downtown Southeast"
+      },
+      {
+       "id": "downtown-southwest",
+       "name": "Downtown Southwest"
+      },
+      {
+       "id": "emory-avenue",
+       "name": "Emory Avenue"
+      },
+      {
+       "id": "flamingo-parkway-north",
+       "name": "Flamingo Parkway North"
+      },
+      {
+       "id": "flamingo-parkway-south",
+       "name": "Flamingo Parkway South"
+      },
+      {
+       "id": "fleeca-field-stadium",
+       "name": "Fleeca Field Stadium"
+      },
+      {
+       "id": "fuzzard-drain-canal",
+       "name": "Fuzzard Drain Canal"
+      },
+      {
+       "id": "fuzzard-drain-canal-railroad-east",
+       "name": "Fuzzard Drain Canal Railroad East"
+      },
+      {
+       "id": "gloriana-key-north",
+       "name": "Gloriana Key North"
+      },
+      {
+       "id": "gloriana-key-west",
+       "name": "Gloriana Key West"
+      },
+      {
+       "id": "hamlet-overpass",
+       "name": "Hamlet Overpass"
+      },
+      {
+       "id": "leonida-auto-world",
+       "name": "Leonida Auto World"
+      },
+      {
+       "id": "leonida-canal-southeast",
+       "name": "Leonida Canal Southeast"
+      },
+      {
+       "id": "leonida-canal-southwest",
+       "name": "Leonida Canal Southwest"
+      },
+      {
+       "id": "leonida-power-and-light",
+       "name": "Leonida Power And Light"
+      },
+      {
+       "id": "macalister-causeway",
+       "name": "Macalister Causeway"
+      },
+      {
+       "id": "mariposa-avenue",
+       "name": "Mariposa Avenue"
+      },
+      {
+       "id": "muspachee-river-east",
+       "name": "Muspachee River East"
+      },
+      {
+       "id": "oleander-boulevard",
+       "name": "Oleander Boulevard"
+      },
+      {
+       "id": "oleander-bridge",
+       "name": "Oleander Bridge"
+      },
+      {
+       "id": "omega-parkway",
+       "name": "Omega Parkway"
+      },
+      {
+       "id": "pelican-river",
+       "name": "Pelican River"
+      },
+      {
+       "id": "port-vc-bridge",
+       "name": "Port VC Bridge"
+      },
+      {
+       "id": "rivo-bridge",
+       "name": "Rivo Bridge"
+      },
+      {
+       "id": "ron-gas-balsero",
+       "name": "Ron Gas – Balsero"
+      },
+      {
+       "id": "s-17-canal-drawbridge-central",
+       "name": "S-17 Canal Drawbridge Central"
+      },
+      {
+       "id": "s-17-canal-drawbridge-south",
+       "name": "S-17 Canal Drawbridge South"
+      },
+      {
+       "id": "s-17-canal-swing-bridge",
+       "name": "S-17 Canal Swing Bridge"
+      },
+      {
+       "id": "salton-overpass",
+       "name": "Salton Overpass"
+      },
+      {
+       "id": "south-vice-dale-county-overpass",
+       "name": "South Vice-Dale County Overpass"
+      },
+      {
+       "id": "southside-west",
+       "name": "Southside West"
+      },
+      {
+       "id": "starfish-island",
+       "name": "Starfish Island"
+      },
+      {
+       "id": "tequesta-bridge",
+       "name": "Tequesta Bridge"
+      },
+      {
+       "id": "tidal-avenue",
+       "name": "Tidal Avenue"
+      },
+      {
+       "id": "tisha-wocka-flea-market-bridge",
+       "name": "Tisha-Wocka Flea Market Bridge"
+      },
+      {
+       "id": "tisha-wocka-flea-market-central",
+       "name": "Tisha-Wocka Flea Market Central"
+      },
+      {
+       "id": "tisha-wocka-flea-market-east",
+       "name": "Tisha-Wocka Flea Market East"
+      },
+      {
+       "id": "tisha-wocka-flea-market-west",
+       "name": "Tisha-Wocka Flea Market West"
+      },
+      {
+       "id": "vice-river-north",
+       "name": "Vice River North"
+      },
+      {
+       "id": "vice-river-south",
+       "name": "Vice River South"
+      },
+      {
+       "id": "vineyard-drive-east",
+       "name": "Vineyard Drive East"
+      },
+      {
+       "id": "vineyard-drive-west",
+       "name": "Vineyard Drive West"
+      },
+      {
+       "id": "washington-beach-footbridge",
+       "name": "Washington Beach Footbridge"
+      },
+      {
+       "id": "washington-beach-west",
+       "name": "Washington Beach West"
+      },
+      {
+       "id": "waxman-island-east",
+       "name": "Waxman Island East"
+      },
+      {
+       "id": "west-royale-street",
+       "name": "West Royale Street"
+      },
+      {
+       "id": "west-vice-dale-county-north",
+       "name": "West Vice-Dale County North"
+      },
+      {
+       "id": "west-vice-dale-county-northeast",
+       "name": "West Vice-Dale County Northeast"
+      },
+      {
+       "id": "west-vice-dale-county-south",
+       "name": "West Vice-Dale County South"
+      }
+     ]
+    },
+    {
+     "id": "leonard-county",
+     "n": "Leonard County",
+     "total": 32,
+     "items": [
+      {
+       "id": "ambrosia-east-railroad-south",
+       "name": "Ambrosia East Railroad South"
+      },
+      {
+       "id": "belville-canal-east",
+       "name": "Belville Canal East"
+      },
+      {
+       "id": "belville-canal-north",
+       "name": "Belville Canal North"
+      },
+      {
+       "id": "belville-canal-railroad",
+       "name": "Belville Canal Railroad"
+      },
+      {
+       "id": "belville-canal-south",
+       "name": "Belville Canal South"
+      },
+      {
+       "id": "belville-east-overpass",
+       "name": "Belville East Overpass"
+      },
+      {
+       "id": "belville-east-railroad",
+       "name": "Belville East Railroad"
+      },
+      {
+       "id": "belville-north-railroad",
+       "name": "Belville North Railroad"
+      },
+      {
+       "id": "belville-town-overpass",
+       "name": "Belville Town Overpass"
+      },
+      {
+       "id": "caledonia-boulevard",
+       "name": "Caledonia Boulevard"
+      },
+      {
+       "id": "county-route-62",
+       "name": "County Route 62"
+      },
+      {
+       "id": "evergreen-mall-bridge",
+       "name": "Evergreen Mall Bridge"
+      },
+      {
+       "id": "leith-river-central",
+       "name": "Leith River Central"
+      },
+      {
+       "id": "leith-river-north",
+       "name": "Leith River North"
+      },
+      {
+       "id": "leith-river-south",
+       "name": "Leith River South"
+      },
+      {
+       "id": "north-leonard-county-overpass",
+       "name": "North Leonard County Overpass"
+      },
+      {
+       "id": "north-leonard-county-railway",
+       "name": "North Leonard County Railway"
+      },
+      {
+       "id": "richard-barebone-overpass-east",
+       "name": "Richard Barebone Overpass East"
+      },
+      {
+       "id": "richard-barebone-overpass-west",
+       "name": "Richard Barebone Overpass West"
+      },
+      {
+       "id": "s-17-canal-drawbridge-north",
+       "name": "S-17 Canal Drawbridge North"
+      },
+      {
+       "id": "south-leonard-county-railroad-north",
+       "name": "South Leonard County Railroad North"
+      },
+      {
+       "id": "south-leonard-county-railroad-south",
+       "name": "South Leonard County Railroad South"
+      },
+      {
+       "id": "tybee-channel-central",
+       "name": "Tybee Channel Central"
+      },
+      {
+       "id": "tybee-channel-mouth-east",
+       "name": "Tybee Channel Mouth East"
+      },
+      {
+       "id": "tybee-channel-north",
+       "name": "Tybee Channel North"
+      },
+      {
+       "id": "tybee-channel-railroad-north",
+       "name": "Tybee Channel Railroad North"
+      },
+      {
+       "id": "tybee-channel-railroad-south",
+       "name": "Tybee Channel Railroad South"
+      },
+      {
+       "id": "tybee-channel-south",
+       "name": "Tybee Channel South"
+      },
+      {
+       "id": "waning-sands-central",
+       "name": "Waning Sands Central"
+      },
+      {
+       "id": "waning-sands-overpass",
+       "name": "Waning Sands Overpass"
+      },
+      {
+       "id": "waning-sands-railroad",
+       "name": "Waning Sands Railroad"
+      },
+      {
+       "id": "west-mall-drive",
+       "name": "West Mall Drive"
+      }
+     ]
+    },
+    {
+     "id": "kelly-county",
+     "n": "Kelly County",
+     "total": 51,
+     "items": [
+      {
+       "id": "allied-crystal-pipeline",
+       "name": "Allied Crystal Pipeline"
+      },
+      {
+       "id": "ambrosia-east-railroad-north",
+       "name": "Ambrosia East Railroad North"
+      },
+      {
+       "id": "buckskin-swamp-channels",
+       "name": "Buckskin Swamp Channels"
+      },
+      {
+       "id": "buckskin-swamp-southeast",
+       "name": "Buckskin Swamp Southeast"
+      },
+      {
+       "id": "buckskin-swamp-southwest",
+       "name": "Buckskin Swamp Southwest"
+      },
+      {
+       "id": "capri-bay-railroad",
+       "name": "Capri Bay Railroad"
+      },
+      {
+       "id": "chepalle-billboard",
+       "name": "Chepalle Billboard"
+      },
+      {
+       "id": "draper-island-bridge",
+       "name": "Draper Island Bridge"
+      },
+      {
+       "id": "draper-island-east",
+       "name": "Draper Island East"
+      },
+      {
+       "id": "draper-island-south",
+       "name": "Draper Island South"
+      },
+      {
+       "id": "emerald-bridge",
+       "name": "Emerald Bridge"
+      },
+      {
+       "id": "gellhorn-international-raceway",
+       "name": "Gellhorn International Raceway"
+      },
+      {
+       "id": "gellhorn-rally-x",
+       "name": "Gellhorn Rally X"
+      },
+      {
+       "id": "gowing-railroad-bridge",
+       "name": "Gowing Railroad Bridge"
+      },
+      {
+       "id": "graffiti-bridge",
+       "name": "Graffiti Bridge"
+      },
+      {
+       "id": "kalaga-river",
+       "name": "Kalaga River"
+      },
+      {
+       "id": "kalaga-river-mouth",
+       "name": "Kalaga River Mouth"
+      },
+      {
+       "id": "kalaga-river-railroad",
+       "name": "Kalaga River Railroad"
+      },
+      {
+       "id": "kelly-river-north",
+       "name": "Kelly River North"
+      },
+      {
+       "id": "kelly-river-railroad-east",
+       "name": "Kelly River Railroad East"
+      },
+      {
+       "id": "kelly-river-railroad-west",
+       "name": "Kelly River Railroad West"
+      },
+      {
+       "id": "kelly-river-south",
+       "name": "Kelly River South"
+      },
+      {
+       "id": "leonida-canal",
+       "name": "Leonida Canal"
+      },
+      {
+       "id": "leonida-canal-north",
+       "name": "Leonida Canal North"
+      },
+      {
+       "id": "leonida-canal-railroad",
+       "name": "Leonida Canal Railroad"
+      },
+      {
+       "id": "leonida-canal-south",
+       "name": "Leonida Canal South"
+      },
+      {
+       "id": "muspachee-river-west",
+       "name": "Muspachee River West"
+      },
+      {
+       "id": "north-frogswater-railroad",
+       "name": "North Frogswater Railroad"
+      },
+      {
+       "id": "north-gellhorn-overpass",
+       "name": "North Gellhorn Overpass"
+      },
+      {
+       "id": "north-kelly-county-overpass-east",
+       "name": "North Kelly County Overpass East"
+      },
+      {
+       "id": "north-kelly-county-overpass-west",
+       "name": "North Kelly County Overpass West"
+      },
+      {
+       "id": "north-leonard-county-overpass-north",
+       "name": "North Leonard County Overpass North"
+      },
+      {
+       "id": "providence-canyon-railroad",
+       "name": "Providence Canyon Railroad"
+      },
+      {
+       "id": "raceway-overpass-central",
+       "name": "Raceway Overpass Central"
+      },
+      {
+       "id": "raceway-overpass-east",
+       "name": "Raceway Overpass East"
+      },
+      {
+       "id": "raceway-overpass-north",
+       "name": "Raceway Overpass North"
+      },
+      {
+       "id": "raceway-overpass-south",
+       "name": "Raceway Overpass South"
+      },
+      {
+       "id": "raceway-paddock-bridge",
+       "name": "Raceway Paddock Bridge"
+      },
+      {
+       "id": "raceway-parking",
+       "name": "Raceway Parking"
+      },
+      {
+       "id": "raceway-stands",
+       "name": "Raceway Stands"
+      },
+      {
+       "id": "saputka-river",
+       "name": "Saputka River"
+      },
+      {
+       "id": "saputka-river-east",
+       "name": "Saputka River East"
+      },
+      {
+       "id": "saputka-river-mouth",
+       "name": "Saputka River Mouth"
+      },
+      {
+       "id": "saputka-river-railroad",
+       "name": "Saputka River Railroad"
+      },
+      {
+       "id": "saputka-river-railroad-east",
+       "name": "Saputka River Railroad East"
+      },
+      {
+       "id": "saputka-river-railroad-north",
+       "name": "Saputka River Railroad North"
+      },
+      {
+       "id": "saputka-river-railroad-west",
+       "name": "Saputka River Railroad West"
+      },
+      {
+       "id": "saputka-river-west",
+       "name": "Saputka River West"
+      },
+      {
+       "id": "south-kelly-county-overpass",
+       "name": "South Kelly County Overpass"
+      },
+      {
+       "id": "terrapin-road",
+       "name": "Terrapin Road"
+      },
+      {
+       "id": "xero-billboard",
+       "name": "Xero Billboard"
+      }
+     ]
+    },
+    {
+     "id": "lummox-county",
+     "n": "Lummox County",
+     "total": 17,
+     "items": [
+      {
+       "id": "east-lummox-county-overpass",
+       "name": "East Lummox County Overpass"
+      },
+      {
+       "id": "interstate-297-overpass",
+       "name": "Interstate 297 Overpass"
+      },
+      {
+       "id": "kalaga-reservoir",
+       "name": "Kalaga Reservoir"
+      },
+      {
+       "id": "kalaga-river-south",
+       "name": "Kalaga River South"
+      },
+      {
+       "id": "macalister-gold-mine",
+       "name": "Macalister Gold Mine"
+      },
+      {
+       "id": "macalister-river-central",
+       "name": "Macalister River Central"
+      },
+      {
+       "id": "macalister-river-north",
+       "name": "Macalister River North"
+      },
+      {
+       "id": "millport-overpass",
+       "name": "Millport Overpass"
+      },
+      {
+       "id": "north-kalaga-bridge",
+       "name": "North Kalaga Bridge"
+      },
+      {
+       "id": "south-kalaga-overpass",
+       "name": "South Kalaga Overpass"
+      },
+      {
+       "id": "tallaloko-river",
+       "name": "Tallaloko River"
+      },
+      {
+       "id": "west-kalaga-overpass-north",
+       "name": "West Kalaga Overpass North"
+      },
+      {
+       "id": "west-kalaga-overpass-south",
+       "name": "West Kalaga Overpass South"
+      },
+      {
+       "id": "west-kalaga-overpass-west",
+       "name": "West Kalaga Overpass West"
+      },
+      {
+       "id": "west-moreau-overpass",
+       "name": "West Moreau Overpass"
+      },
+      {
+       "id": "west-moreau-railroad-north",
+       "name": "West Moreau Railroad North"
+      },
+      {
+       "id": "west-moreau-railroad-south",
+       "name": "West Moreau Railroad South"
+      }
+     ]
+    }
+   ],
+   "mapped": 202
   }
  ]
 }

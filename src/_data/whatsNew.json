@@ -1,19 +1,28 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Stunts",
+  "title": "All 202 under the bridge spots",
+  "text": "Every bridge to fly under, by county, in the stunt checklist next to the jumps, knife flights and base jumps. Ticks count toward the 300 for 100%.",
+  "url": "/guides/stunts/#bridge",
+  "img": "/assets/img/full/act-heli.webp",
+  "pos": "50% 50%",
+  "cta": "Open the stunt checklist"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Guide",
   "title": "Stats, workouts and all nine gyms",
   "text": "How to raise Strength, Cardio and Focus, the workout controls, every gym with its membership price, and the ten fitness challenges to tick off.",
   "url": "/guides/fitness/",
   "img": "/assets/img/full/act-gym.webp",
-  "pos": "50% 50%",
-  "cta": "Read the fitness guide"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
   "tag": "Vehicles",
   "title": "Vehicle checklist for 100%",
-  "text": "Every vehicle class with its count, 142 base models to tick off by name, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
+  "text": "Every vehicle class with its count, 168 base models to tick off by name, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
   "url": "/vehicles/",
   "img": "/assets/img/full/act-carmeet.webp",
   "pos": "50% 50%"
@@ -62,14 +71,5 @@
   "url": "/guides/side-contacts/#randy-list",
   "img": "/assets/img/full/act-carmeet.webp",
   "pos": "38% 60%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Side jobs",
-  "title": "All 28 optional missions in order",
-  "text": "28 optional jobs in the order they open, the six you can miss, step-by-step help for the short ones and a checklist that saves.",
-  "url": "/guides/optional-jobs/",
-  "img": "/assets/img/full/leonida-keys-02.webp",
-  "pos": "50% 50%"
  }
 ]

@@ -108,7 +108,7 @@ There are two ranges, **Griffin Shooting Range** and **Rodgers Ranch**, and thei
 
 <h2 id="stunts">Stunts</h2>
 
-There are **397 stunts** of four kinds: 130 stunt jumps, 202 under the bridge, 40 knife flights (a plane on its side between two towers) and 25 base jumps. **Cunning Stunts** needs 250 and the 100% checklist 300, in any mix, so the trophy pops on the way. 50 stunt jumps also unlock the **unlimited nitrous** cheat. Stunt jumps, knife flights and base jumps only add up to 195, so you can't reach 300 without at least 105 under the bridge stunts. Checklists for all 130 stunt jumps, every knife flight and every base jump are in the [stunts guide](/guides/stunts/).
+There are **397 stunts** of four kinds: 130 stunt jumps, 202 under the bridge, 40 knife flights (a plane on its side between two towers) and 25 base jumps. **Cunning Stunts** needs 250 and the 100% checklist 300, in any mix, so the trophy pops on the way. 50 stunt jumps also unlock the **unlimited nitrous** cheat. Stunt jumps, knife flights and base jumps only add up to 195, so you can't reach 300 without at least 105 under the bridge stunts. Checklists for all 397, from the 202 under the bridge spots to every base jump, are in the [stunts guide](/guides/stunts/).
 
 <h2 id="cocaine-flamingos">Cocaine Flamingos</h2>
 

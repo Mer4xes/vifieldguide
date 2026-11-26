@@ -2,13 +2,13 @@
 title: Stunts
 headline: All 397 Stunts, and the Easiest Way to 300
 kicker: Activities
-seoTitle: "GTA 6 Stunts: All 130 Stunt Jumps, 40 Knife Flights and 25 Base Jumps"
-description: "GTA 6 stunts explained: the four kinds (130 stunt jumps, 202 under the bridge, 40 knife flights, 25 base jumps), what Cunning Stunts and 100% need, how to track them, and a checklist of all 130 stunt jumps, 40 knife flights and 25 base jumps by region."
-summary: The four kinds of stunt, how many of each there are, what the trophy and the 100% checklist want, and tick-box lists of all 130 stunt jumps, 40 knife flights and 25 base jumps.
+seoTitle: "GTA 6 Stunts: All 202 Under the Bridge Spots, 130 Stunt Jumps, 40 Knife Flights and 25 Base Jumps"
+description: "GTA 6 stunts explained: the four kinds (130 stunt jumps, 202 under the bridge, 40 knife flights, 25 base jumps), what Cunning Stunts and 100% need, how to track them, and a checklist of all 397 by region, including every under the bridge spot."
+summary: "The four kinds of stunt, how many of each there are, what the trophy and the 100% checklist want, and tick-box lists of all 397 by region: 202 under the bridge spots, 130 stunt jumps, 40 knife flights and 25 base jumps."
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-26
 facts:
   - { k: Stunts in the game, v: "397", status: Reported }
   - { k: Cunning Stunts, v: "250", status: Confirmed }
@@ -19,7 +19,7 @@ tldr:
   - "**There are 397 stunts of four kinds:** 130 stunt jumps, 202 under the bridge, 40 knife flights and 25 base jumps."
   - "**Any mix counts.** Cunning Stunts pops at 250 and the 100% checklist stops at 300, so you can skip the 97 you like least."
   - "**Knife flights** are all in Vice City and Vice Beach: fly a plane on its side between two towers. **Base jumps** are parachute courses through rings, and finishing in any time counts."
-  - "**You can't skip under the bridge.** The other three kinds add up to 195, so you need at least 55 under the bridge stunts for the trophy and 105 for 100%."
+  - "**You can't skip under the bridge.** The other three kinds add up to 195, so you need at least 55 under the bridge stunts for the trophy and 105 for 100%. Vice-Dale County alone has 67 and Kelly County 51."
   - "**Track them** under Progress › Activities › Stunts, or on the map under Exploration › Stunt Spots once you've found the first of a kind."
 faq:
   - q: "How many stunts are there in GTA 6?"
@@ -30,6 +30,8 @@ faq:
     a: "Take any plane to one of the 40 spots in Vice City or Vice Beach and fly between the two towers with the plane rolled on its side, one wingtip pointing at the sky and the other at the ground."
   - q: "Can you get 100% without under the bridge stunts?"
     a: "No. Stunt jumps, knife flights and base jumps add up to 195 (130 + 40 + 25), so even with all of them you still need 55 under the bridge stunts for Cunning Stunts and 105 for the 300 on the 100% checklist."
+  - q: "Where are the under the bridge stunts in GTA 6?"
+    a: "All five counties have them: 35 in Mariana County, 67 in Vice-Dale County (which takes in Vice City), 32 in Leonard County, 51 in Kelly County and 17 in Lummox County. Each one has its own name, the same as on the map under Stunt Spots, and all 202 are in the checklist on this page."
   - q: "How many stunt jumps are in each region?"
     a: "130 in all: 17 in Mariana County, 55 in Vice-Dale County (which takes in Vice City), 13 in Leonard County, 29 in Kelly County and 16 in Lummox County. Every one is named in the checklist on this page."
   - q: "Do you need to beat the par time on base jumps?"
@@ -42,6 +44,9 @@ sources:
   - label: "PowerPyx: knife flights, base jumps and stunt jumps"
     url: "https://www.powerpyx.com/gta-6-all-knife-flight-locations/"
     note: "Read Nov 22, 2026. Three location pages (knife flights modified Nov 21, base jumps Nov 21, stunt jumps republished Nov 23, all 130 named). Names, regions, counts, tracking and how each kind works. Full notes in src/_data/stunts.json. Trusted source."
+  - label: "PowerPyx: under the bridges"
+    url: "https://www.powerpyx.com/gta-6-all-under-the-bridges-locations"
+    note: "Read Nov 26, 2026 (published Nov 26 20:02 UTC). All 202 names by county. Full notes in src/_data/stunts.json. Trusted source."
   - label: "Our trophy data"
     url: "/trophies/cunning-stunts/"
     note: "Cunning Stunts: Complete 250 Stunts (Confirmed)."
@@ -119,7 +124,7 @@ sources:
 </div>
 <p class="nomatch" data-nomatch="stunt" hidden>Nothing left for that filter.</p>
 
-> **Note:** The 202 under the bridge spots aren't listed yet. We add them once they're confirmed. In the stunt jump list the city's jumps sit under Vice-Dale County, and Lake Leonida Lock is split between Leonard and Kelly County. Ticks here are saved in this browser only.
+> **Note:** Most under the bridge names point at the road, river, canal or railway nearby, so check the map's Stunt Spots filter for the exact bridge. In the under the bridge and stunt jump lists the city's spots sit under Vice-Dale County, and in the stunt jump list Lake Leonida Lock is split between Leonard and Kelly County. Ticks here are saved in this browser only.
 
 <button class="reset" type="button" data-reset="stunt:">Reset the stunt lists</button>
 
