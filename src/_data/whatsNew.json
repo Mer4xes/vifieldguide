@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Guide",
+  "title": "Stats, workouts and all nine gyms",
+  "text": "How to raise Strength, Cardio and Focus, the workout controls, every gym with its membership price, and the ten fitness challenges to tick off.",
+  "url": "/guides/fitness/",
+  "img": "/assets/img/full/act-gym.webp",
+  "pos": "50% 50%",
+  "cta": "Read the fitness guide"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Vehicles",
   "title": "Vehicle checklist for 100%",
-  "text": "Every vehicle class with its count, 134 base models to tick off by name, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
+  "text": "Every vehicle class with its count, 142 base models to tick off by name, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
   "url": "/vehicles/",
   "img": "/assets/img/full/act-carmeet.webp",
-  "pos": "50% 50%",
-  "cta": "Open the vehicle list"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
@@ -62,14 +71,5 @@
   "url": "/guides/optional-jobs/",
   "img": "/assets/img/full/leonida-keys-02.webp",
   "pos": "50% 50%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Secrets",
-  "title": "The alien secret, step by step",
-  "text": "Where the UFO turns up, how to start the dream, how to read your own door code and the permanent health, stamina and focus boost.",
-  "url": "/guides/mysteries/",
-  "img": "/assets/img/full/grassrivers-08.webp",
-  "pos": "60% 50%"
  }
 ]

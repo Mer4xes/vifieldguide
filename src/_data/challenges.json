@@ -195,7 +195,7 @@
      "id": "gym-member",
      "name": "Gym Member",
      "req": "Join any gym.",
-     "u": "/activities/#gyms"
+     "u": "/guides/fitness/#gyms"
     },
     {
      "id": "foot-travel",
@@ -215,17 +215,20 @@
     {
      "id": "balanced-workout",
      "name": "Balanced Workout",
-     "req": "Use every type of gym equipment in one day."
+     "req": "Use every type of gym equipment in one day.",
+     "u": "/guides/fitness/#workouts"
     },
     {
      "id": "strength-regime",
      "name": "Strength Regime",
-     "req": "Keep Jason and Lucia both at Strength Level 4 for 5 days in a row."
+     "req": "Keep Jason and Lucia both at Strength Level 4 for 5 days in a row.",
+     "u": "/guides/fitness/#workouts"
     },
     {
      "id": "cardio-regime",
      "name": "Cardio Regime",
-     "req": "Keep Jason and Lucia both at Cardio Level 4 for 5 days in a row."
+     "req": "Keep Jason and Lucia both at Cardio Level 4 for 5 days in a row.",
+     "u": "/guides/fitness/#workouts"
     },
     {
      "id": "waning-sands-run",

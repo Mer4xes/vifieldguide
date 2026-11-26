@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-26",
  "counties": [
   {
    "id": "mariana",
@@ -3605,6 +3605,94 @@
    ]
   },
   {
+   "id": "gyms",
+   "n": "Gyms",
+   "short": "Gym",
+   "items": [
+    {
+     "n": 1,
+     "id": "grand-majestic-gym",
+     "name": "Grand Majestic Gym",
+     "county": "vicedale",
+     "kind": "$250",
+     "area": "Tequesta",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 2,
+     "id": "vice-seven-condominiums-gym",
+     "name": "Vice Seven Condominiums Gym",
+     "county": "vicedale",
+     "kind": "$450",
+     "area": "Tequesta",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 3,
+     "id": "zenith",
+     "name": "Zenith",
+     "county": "vicedale",
+     "kind": "$750",
+     "area": "Downtown",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 4,
+     "id": "dynamix-fitness",
+     "name": "Dynamix Fitness",
+     "county": "vicedale",
+     "kind": "$600",
+     "area": "Bayside",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 5,
+     "id": "venus-fitness",
+     "name": "Venus Fitness",
+     "county": "vicedale",
+     "kind": "$600",
+     "area": "Ocean Beach",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 6,
+     "id": "muscle-sands",
+     "name": "Muscle Sands",
+     "county": "vicedale",
+     "kind": "Free",
+     "area": "Ocean Beach",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 7,
+     "id": "y-hotel-fitness-club",
+     "name": "Y Hotel Fitness Club",
+     "county": "vicedale",
+     "kind": "$1,200",
+     "area": "Washington Beach",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 8,
+     "id": "ajax-gym",
+     "name": "Ajax Gym / Lawton Theater",
+     "county": "vicedale",
+     "kind": "$1,800",
+     "area": "Oldby Island",
+     "cn": "Vice City and Vice-Dale"
+    },
+    {
+     "n": 9,
+     "id": "aichi-condominiums-outdoor-gym",
+     "name": "Aichi Condominiums Outdoor Gym",
+     "county": "vicedale",
+     "kind": "$950",
+     "area": "Washington Beach",
+     "cn": "Vice City and Vice-Dale"
+    }
+   ]
+  },
+  {
    "id": "train-stations",
    "n": "Train stations",
    "short": "Train station",
@@ -3852,6 +3940,16 @@
    "label": "PowerPyx: GTA 6 All Bar Locations",
    "url": "https://www.powerpyx.com/gta-6-all-bar-locations/",
    "note": "Read Nov 24, 2026 (published and modified Nov 18). States 122 bars (the map counter), lists 127 (Mariana 13, Vice-Dale 103, Leonard 2, Kelly 7, Lummox 2); a few marked bars are not counted by the map tracker. Only Ocean Beach (#44-103 of Vice-Dale) has an area label. Blue drink icon; Map > Food & Drink > Bars has a list and counter. Bars sell alcoholic drinks to buy and drink. \"The Shores Poolsie Bar\" typo corrected. Trusted source."
+  },
+  {
+   "label": "PowerPyx: GTA 6 All Gym Locations (Fitness Centers)",
+   "url": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+   "note": "Published Nov 20 03:17, modified Nov 20 16:19 UTC, read Nov 26. Trusted. 9 gyms, all in Vice City, in this order with one-time membership fees: Grand Majestic Gym $250, Vice Seven Condominiums Gym $450, Zenith $750, Dynamix Fitness $600, Venus Fitness $600, Muscle Sands $0, Y Hotel Fitness Club $1200, Ajax Gym / Lawton Theater $1800, Aichi Condominiums Outdoor Gym $950. Pay once, use as often as you like; blue dumbbell icon once the map is uncovered; Map > Activities > Fitness > Gyms lists them; Jason's house has basic workout equipment but no cardio equipment. No areas (image-only)."
+  },
+  {
+   "label": "Magic Game World + GamesHorizon: GTA 6 gym locations",
+   "url": "https://www.magicgameworld.com/gta-6-gym-locations-all-9-vice-city-gyms-and-membership-prices/",
+   "note": "Magic Game World Nov 22; GamesHorizon (gameshorizon.com/guides/gta-6-all-9-gym-locations/) Nov 24, updated Nov 25; read Nov 26. Independent wording, agree on all nine areas and prices: Grand Majestic + Vice Seven = Tequesta, Zenith = Downtown, Dynamix = Bayside, Venus + Muscle Sands = Ocean Beach, Y Hotel + Aichi = Washington Beach, Ajax = Oldby Island. Used for areas only. Left out: shared membership for both characters (Magic Game World only), per-gym floors and amenities. G2A's fitness guide is marked sponsored: not used."
   }
  ]
 }

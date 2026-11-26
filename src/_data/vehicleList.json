@@ -73,8 +73,17 @@
       "n": "Off-road",
       "group": "cars",
       "count": 8,
-      "lede": "",
-      "items": []
+      "lede": "Buggies and other off-roaders, from the ’73 BF Injection to the HVY Wastelander.",
+      "items": [
+        "’77 BF Bandito",
+        "’67 Vapid Dominator Buggy",
+        "MER-CAN Blast",
+        "’73 BF Injection",
+        "Vapid Marshall",
+        "Mer-CAN Outlaw",
+        "Bravado Swamp Blaster",
+        "HVY Wastelander"
+      ]
     },
     {
       "id": "pickups",
@@ -456,7 +465,7 @@
     {
       "label": "PowerPyx class pages",
       "url": "https://www.powerpyx.com/gta-6-all-coupes/",
-      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle, off-road, sedans, supercars, SUVs, vans and watercraft pages exist but were not in search results, so their names are not listed yet."
+      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, off-road (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 8 names, no spots, they drive around at random), bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle, sedans, supercars, SUVs, vans and watercraft pages exist but were not in search results, so their names are not listed yet."
     }
   ]
 }

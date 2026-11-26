@@ -2,13 +2,13 @@
 title: Shop locations
 headline: Guns, Clothes, Mods and Snacks
 kicker: Shops
-seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Salons, Tattoos, Bars, Gas and Train Stations"
-description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, electronics store, gas station, train station, convenience store, bar, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
-summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 15 electronics stores, 72 convenience stores, 127 bars, 57 gas stations, 25 train stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
+seoTitle: "GTA 6 Shop Locations: Ammu-Nation, Clothing, Salons, Tattoos, Bars, Gyms, Gas and Train Stations"
+description: "Where to find every Ammu-Nation, clothing and shoe store, hair salon, tattoo studio, electronics store, gas station, train station, convenience store, bar, gym, mod shop, Pay 'n' Spray and car wash in GTA 6, by county, with what each one sells and the challenges they count toward."
+summary: All 24 gun stores, 67 clothing stores, 17 shoe stores, 18 salons, 11 tattoo studios, 15 electronics stores, 72 convenience stores, 127 bars, 9 gyms, 57 gas stations, 25 train stations, 14 mod shops, 19 Pay 'n' Sprays and 6 car washes, sorted by county, with what each shop is good for and the challenges you finish there.
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 facts:
   - { k: Ammu-Nation, v: "24", status: Reported }
   - { k: Clothing stores, v: "67", status: Reported }
@@ -18,6 +18,7 @@ facts:
   - { k: Electronics stores, v: "15", status: Reported }
   - { k: Convenience stores, v: "72", status: Reported }
   - { k: Bars, v: "127", status: Reported }
+  - { k: Gyms, v: "9", status: Reported }
   - { k: Gas stations, v: "57", status: Reported }
   - { k: Train stations, v: "25", status: Reported }
   - { k: Mod shops, v: "14", status: Reported }
@@ -35,6 +36,7 @@ tldr:
   - "**Trains run in all five counties**, from 25 stations. Wait on the platform for one to pull in; it's also how you do the Rail Tour challenge."
   - "**Convenience stores are where you stock up on Zombix**, the healing item, plus pet food and groceries for the fridge at home."
   - "**There are well over a hundred bars**, most of them hotel pool and rooftop bars on Ocean Beach. The map filter counts 122; a few more are marked but left out of the counter."
+  - "**All nine gyms are in Vice City.** Membership is a one-time fee, from free at Muscle Sands on Ocean Beach to $1,800 at Ajax Gym."
 faq:
   - q: "How many Ammu-Nation stores are there in GTA 6?"
     a: "24. Five are in Mariana County, 14 in and around Vice City, one in Leonard County, three in Kelly County and one in Lummox County. The map icon shows whether a store is Limited, Standard, Hunting or Expanded."
@@ -68,7 +70,12 @@ faq:
     a: "The map counter under Food & Drink tracks 122, but 127 places are marked as bars: 13 in Mariana County, 103 in and around Vice City (60 of them on Ocean Beach), two in Leonard County, seven in Kelly County and two in Lummox County. You buy a drink and drink it there."
   - q: "Do you need car washes in GTA 6?"
     a: "No, they're optional. All six are in Vice City, and repairing a car at a Pay 'n' Spray or mod shop cleans it anyway."
+  - q: "How many gyms are there in GTA 6?"
+    a: "Nine, all in Vice City: Grand Majestic Gym ($250) and Vice Seven Condominiums Gym ($450) in Tequesta, Zenith ($750) Downtown, Dynamix Fitness ($600) in Bayside, Venus Fitness ($600) and the free Muscle Sands on Ocean Beach, Y Hotel Fitness Club ($1,200) and Aichi Condominiums Outdoor Gym ($950) on Washington Beach, and Ajax Gym ($1,800) on Oldby Island. You pay once and train as often as you like."
 sources:
+  - label: "PowerPyx: GTA 6 All Gym Locations (Fitness Centers)"
+    url: "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+    note: "Published Nov 20, modified Nov 20 16:19 UTC, read Nov 26. Trusted. 9 gyms in Vice City with one-time fees; blue dumbbell icon; Map > Activities > Fitness > Gyms. Areas from Magic Game World + GamesHorizon, which agree on all nine (see shops.json sources)."
   - label: "PowerPyx: shop location pages"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
     note: "Ammu-Nation, mod shop, Pay 'n' Spray and car wash pages read Nov 21, 2026; clothing, convenience, footwear, salon, tattoo, gas station, electronics, train station and bar pages Nov 24. Full list in src/_data/shops.json. Trusted source."
@@ -99,6 +106,7 @@ sources:
 <div class="shop-what-c"><h3>Gas stations</h3><p>Every vehicle uses fuel. The gauge sits above the minimap; when it turns yellow the map marks the nearest stations, and an empty tank leaves you stranded. Blue petrol icons, and a counter under Vehicles in the map filter.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Road Trip</a> lets you leave the car only to refuel</p></div>
 <div class="shop-what-c"><h3>Convenience stores</h3><p>Zombix to heal, pet food for the animals you meet, and groceries for the fridge at home. Look for the blue shopping bag icon, or filter the map under Food &amp; Drink.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#shopping">Grocery Shopper</a></p></div>
 <div class="shop-what-c"><h3>Bars</h3><p>Buy a drink and have it at the bar. The blue drink icon marks them, and the map filter lists them under Food &amp; Drink (the cutlery icon) with a counter of 122, though a few more marked bars sit outside that count. Ocean Beach alone has 60, mostly hotel pool and rooftop bars.</p><p class="shop-ch">See also: <a href="/guides/races-and-ranges/#pool">pool opponents</a>, several of whom wait in bars</p></div>
+<div class="shop-what-c"><h3>Gyms</h3><p>Nine fitness centers, all in Vice City, from the free outdoor gym at Muscle Sands to the $1,800 Ajax Gym. You pay once and can train there as often as you like. Blue dumbbell icons; the map filter lists them under Activities, Fitness. Treadmills and bikes here are the quickest way to build Cardio.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#fitness">Gym Member</a>. How training works: <a href="/guides/fitness/">stats and fitness</a></p></div>
 <div class="shop-what-c"><h3>Train stations</h3><p>Ride the train around the map, much like taking the bus: go to a station and wait for the train to come in. The blue train icon marks them, with a counter under Vehicles in the map filter. Every county has at least one.</p><p class="shop-ch">Challenge: <a href="/guides/challenges/#exploration">Rail Tour</a> wants a mile by train in all five counties in one day</p></div>
 <div class="shop-what-c"><h3>Car washes</h3><p>Purely cosmetic and optional. All six are in Vice City, and any repair cleans the car as well, so you never have to go out of your way for one.</p></div>
 </div>
@@ -142,5 +150,6 @@ sources:
 - [All 80 challenges](/guides/challenges/#shopping): the Shopping group is mostly done at these shops.
 - [Discovered Styles](/collectibles/discovered-styles/): the tattoo magazines and watches that count for 100%.
 - [Pool opponents](/guides/races-and-ranges/#pool): several of them wait in bars on this list, such as The Rusty Anchor, Zotico's, The Thirsty Wolf and Jacob's Tavern.
+- [Stats and fitness](/guides/fitness/): what each gym costs and how to train Strength, Cardio and Focus.
 - [Fences](/guides/fences/): who buys stolen cars, and when Pay 'n' Spray joins them.
 - [Money guide](/guides/money/), the [100% checklist](/guides/100-percent-checklist/) and the [launch guide](/guides/launch-guide/#editions) for what the Ultimate Edition adds.

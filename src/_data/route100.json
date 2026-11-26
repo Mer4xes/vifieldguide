@@ -539,14 +539,14 @@
       },
       {
        "c": "fitness:gym-member",
-       "n": "A gym can be joined with your partner from Coffee Break on."
+       "n": "A gym can be joined with your partner from Coffee Break on. All nine are in Vice City and Muscle Sands on Ocean Beach is free: see [stats and fitness](/guides/fitness/#gyms)."
       },
       {
        "c": "fitness:balanced-workout"
       },
       {
        "c": "fitness:strength-regime",
-       "n": "While one of you works out, the other trains too."
+       "n": "While one of you works out, the other trains too. [How training works](/guides/fitness/#workouts)."
       },
       {
        "c": "fitness:cardio-regime"
