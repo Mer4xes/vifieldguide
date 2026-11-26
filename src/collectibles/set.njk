@@ -75,6 +75,7 @@
           <label for="s-{{ i.id }}" class="item-name">{{ i.name }}</label>
           <p class="item-meta"><a class="tkind" href="/collectibles/area/{{ i.county }}/">{{ i.countyName }}</a><span>{{ i.area }}</span>{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
           {%- if i.where %}<p>{{ i.where | md | safe }}</p>{% endif %}
+              {%- include "partials/shots.njk" %}
         </div>
       </li>
       {%- endfor %}

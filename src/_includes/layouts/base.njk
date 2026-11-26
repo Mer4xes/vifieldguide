@@ -103,7 +103,7 @@
     <div class="foot-cols">
       <div>
         <p class="foot-brand">The VI Field Guide</p>
-        <p class="foot-note">Checklists and progress are saved in this browser only and never sent anywhere.</p>
+        <p class="foot-note">Checklists and progress are saved in this browser only and never sent anywhere. <a href="/progress/">Move them to another device</a>.</p>
         {%- if site.social and site.social.length %}
         <p class="foot-social">Follow:{% for s in site.social %} <a href="{{ s.url }}" rel="me noopener" target="_blank">{{ s.label }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}</p>
         {%- endif %}
@@ -111,44 +111,55 @@
         <p class="foot-donate"><a class="btn-donate" href="{{ site.donate.url }}" rel="noopener" target="_blank">♥ {{ site.donate.label }}</a><span>Free to use. If it helped, a small tip keeps it going.</span></p>
         {%- endif %}
       </div>
-      <nav class="foot-links" aria-label="More">
-        <a href="/guides/launch-guide/">Launch guide</a>
-        <a href="/guides/beginner-tips/">Beginner tips</a>
-        <a href="/guides/patch-notes/">Patch notes</a>
-        <a href="/guides/100-percent-checklist/">100% checklist</a>
-        <a href="/guides/100-percent-route/">100% route</a>
-        <a href="/guides/missables/">Missables</a>
-        <a href="/guides/after-the-story/">After the story</a>
-        <a href="/guides/challenges/">All 80 challenges</a>
-        <a href="/guides/cheats/">All 61 cheats</a>
-        <a href="/guides/gang-operations/">Gang operations</a>
-        <a href="/guides/stunts/">Stunts</a>
-        <a href="/guides/robberies/">Robberies</a>
-        <a href="/guides/races-and-ranges/">Races and ranges</a>
-        <a href="/guides/fishing-and-hunting/">Fishing and hunting</a>
-        <a href="/guides/fitness/">Stats and fitness</a>
-        <a href="/guides/shops/">Shop locations</a>
-        <a href="/guides/equipment/">All 12 tools</a>
-        <a href="/guides/activities-and-collectibles/">Activities and collectibles</a>
-        <a href="/collectibles/#by-area">Collectibles by area</a>
-        <a href="/guides/optional-jobs/">Optional missions</a>
-        <a href="/guides/side-contacts/">Side contacts</a>
-        <a href="/guides/mysteries/">Aliens and mysteries</a>
-        <a href="/guides/cars/">Cars and trackers</a>
-        <a href="/guides/garages/">Garages</a>
-        <a href="/guides/fences/">Fences</a>
-        <a href="/guides/money/">Money guide</a>
-        <a href="/guides/story-choices/">Story choices</a>
-        <a href="/guides/mission-rewards/">Mission rewards</a>
-        <a href="/characters/">Characters</a>
-        <a href="/videos/">Trailers and videos</a>
-        <a href="/how-it-plays/">How it plays</a>
-        <a href="/activities/">Activities</a>
-        <a href="/wildlife/">Wildlife and weather</a>
-        <a href="/music/">Music</a>
-        <a href="/search/">Search</a>
-        <a href="/about/">About and spoiler policy</a>
-        <a href="/contact/">Contact</a>
+      <nav class="foot-groups" aria-label="More">
+        <div class="foot-g"><p class="foot-h">Story</p>
+          <a href="/walkthrough/">Walkthrough</a>
+          <a href="/guides/100-percent-route/">100% route</a>
+          <a href="/guides/missables/">Missables</a>
+          <a href="/guides/optional-jobs/">Optional missions</a>
+          <a href="/guides/side-contacts/">Side contacts</a>
+          <a href="/guides/story-choices/">Story choices</a>
+          <a href="/guides/mission-rewards/">Mission rewards</a>
+          <a href="/guides/after-the-story/">After the story</a>
+          <a href="/characters/">Characters</a>
+        </div>
+        <div class="foot-g"><p class="foot-h">100% and trophies</p>
+          <a href="/trophies/">Trophies</a>
+          <a href="/guides/100-percent-checklist/">100% checklist</a>
+          <a href="/collectibles/#by-area">Collectibles by area</a>
+          <a href="/guides/challenges/">All 80 challenges</a>
+          <a href="/guides/stunts/">Stunts</a>
+          <a href="/guides/robberies/">Robberies</a>
+          <a href="/guides/races-and-ranges/">Races and ranges</a>
+          <a href="/guides/gang-operations/">Gang operations</a>
+          <a href="/guides/fishing-and-hunting/">Fishing and hunting</a>
+          <a href="/guides/mysteries/">Aliens and mysteries</a>
+        </div>
+        <div class="foot-g"><p class="foot-h">Money and gear</p>
+          <a href="/guides/money/">Money guide</a>
+          <a href="/guides/fences/">Fences</a>
+          <a href="/guides/cars/">Cars and trackers</a>
+          <a href="/guides/garages/">Garages</a>
+          <a href="/guides/shops/">Shop locations</a>
+          <a href="/guides/equipment/">All 12 tools</a>
+          <a href="/guides/fitness/">Stats and fitness</a>
+          <a href="/guides/cheats/">All 61 cheats</a>
+          <a href="/guides/activities-and-collectibles/">Activities and collectibles</a>
+        </div>
+        <div class="foot-g"><p class="foot-h">The game and this site</p>
+          <a href="/guides/beginner-tips/">Beginner tips</a>
+          <a href="/guides/launch-guide/">Launch guide</a>
+          <a href="/guides/patch-notes/">Patch notes</a>
+          <a href="/how-it-plays/">How it plays</a>
+          <a href="/activities/">Activities</a>
+          <a href="/wildlife/">Wildlife and weather</a>
+          <a href="/music/">Music</a>
+          <a href="/videos/">Trailers and videos</a>
+          <a href="/search/">Search</a>
+          <a href="/progress/">Move your progress</a>
+          <a href="/about/">About and spoiler policy</a>
+          <a href="/contact/">Contact</a>
+        </div>
       </nav>
     </div>
     <p class="disc">{{ site.disclaimer }}</p>

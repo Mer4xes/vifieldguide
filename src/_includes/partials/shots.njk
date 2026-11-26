@@ -1,0 +1,8 @@
+{#- Own in-game shots for one collectible (item `i`, set by the caller). Files are picked up by db.js. -#}
+{%- if i.shots %}
+<div class="shots">
+  {%- for s in i.shots %}
+  <figure><img src="{{ s.src }}" alt="{{ i.name }}: {{ s.label | lower }}" loading="lazy" decoding="async" width="640" height="360" data-zoom="shot-{{ i.id }}" data-credit="Image: captured in-game"><figcaption>{{ s.label }}</figcaption></figure>
+  {%- endfor %}
+</div>
+{%- endif %}

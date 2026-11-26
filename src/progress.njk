@@ -1,0 +1,31 @@
+---
+layout: layouts/page.njk
+title: Move your progress
+headline: Move Your Progress
+kicker: Your checklists
+seoTitle: "Move Your GTA 6 Checklist Progress to Another Device"
+description: "Copy your VI Field Guide ticks and counters from one device to another with a code. No account, and nothing is sent anywhere."
+summary: Your ticks live in this browser only. Copy a code here, paste it on your other device, and both carry the same progress. No account needed.
+glow: cyan
+hideRating: true
+updated: 2026-11-26
+---
+<div class="xfer" data-xfer>
+  <h2>1. On the device that has your progress</h2>
+  <p>Copy this code. It holds every tick and counter saved in this browser: <b data-xfer-sum></b>.</p>
+  <textarea data-xfer-out readonly rows="4" aria-label="Your progress code"></textarea>
+  <p><button type="button" class="btn primary" data-xfer-copy>Copy code</button></p>
+
+  <h2>2. On the other device</h2>
+  <p>Open this page there, paste the code and press Add. Send it to yourself any way you like: a note, an email, a message.</p>
+  <textarea data-xfer-in rows="4" placeholder="Paste a progress code here" aria-label="Paste a progress code"></textarea>
+  <p><button type="button" class="btn" data-xfer-load>Add to this device</button></p>
+  <p class="xfer-msg" data-xfer-msg role="status" aria-live="polite"></p>
+
+  <h2>What happens</h2>
+  <ul>
+    <li><b>Nothing is removed.</b> Anything ticked on either device ends up ticked, and each counter keeps the higher number.</li>
+    <li><b>It is a copy, not a sync.</b> Do it again whenever you want the other device to catch up.</li>
+    <li><b>Nothing leaves your browser.</b> The code is your progress written out as text. There is no account and no server.</li>
+  </ul>
+</div>

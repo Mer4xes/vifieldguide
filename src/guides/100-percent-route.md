@@ -60,14 +60,17 @@ sources:
     note: "Trophy targets. Nov 18, 2026."
 ---
 
-This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions, the [challenges](/guides/challenges/) and the [collectibles](/collectibles/#by-area) of the county you are in at that point. Open a county to see every mapped card, WAiNK scan, hoop, flamingo, magazine and meditation spot there, with where to find it. After the credits comes the free roam clean-up. Ticks are saved in this browser and shared with the walkthrough, the challenge list, the trophy list, the collectible checklists and the [100% checklist](/guides/100-percent-checklist/). Only want the things that can slip away? They are on one page in [Missables](/guides/missables/).
+This is the whole game as one list. Missions are in story order, and around them sit the side jobs, the limited-time missions, the [challenges](/guides/challenges/) and the [collectibles](/collectibles/#by-area) of the county you are in at that point. Open a county to see every mapped card, WAiNK scan, hoop, flamingo, magazine and meditation spot there, with where to find it. After the credits comes the free roam clean-up. Ticks are saved in this browser ([move them to another device](/progress/)) and shared with the walkthrough, the challenge list, the trophy list, the collectible checklists and the [100% checklist](/guides/100-percent-checklist/). Only want the things that can slip away? They are on one page in [Missables](/guides/missables/).
 
 > **Note:** **Where each challenge sits is our suggestion**, worked out from its requirement and what the game has opened by then.
 
 > **Watch out:** Don't use cheats on this save. They switch off trophies and saving while active.
 
+<div class="route-bar">
+<div class="route-acts"><button type="button" class="fchip route-next" data-route-next>Next up ↓</button><button type="button" class="fchip" data-route-hide aria-pressed="false">Hide done</button></div>
 <div class="route-jump">
-{%- for p in route100.parts %}<a class="chip plain" href="#{{ p.id }}">{{ p.title.split(":")[0] }}</a>{% endfor %}
+{%- for p in route100.parts %}<a class="chip plain" href="#{{ p.id }}">{{ p.title.split(":")[0] }} <i>0/0</i></a>{% endfor %}
+</div>
 </div>
 
 <h2 id="habits">Habits from the first minute</h2>

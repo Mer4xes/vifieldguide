@@ -1322,3 +1322,37 @@ html.hide-ahead .mrow.chm:not(.is-done):not(.is-next) .chm-sum{filter:blur(6px)}
 .veh-styles span{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;color:#ded4e4}
 .veh-styles b{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-left:4px}
 .filters .fchip small{font-family:var(--mono);font-size:11px;opacity:.7;margin-left:3px}
+
+/* Own in-game shots on collectible rows (Nov 26) */
+.shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px;max-width:560px}
+.shots figure{margin:0}
+.shots img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;margin-top:0 !important;cursor:zoom-in}
+.shots figcaption{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--faint);margin-top:4px}
+
+/* 100% route: sticky bar (Nov 26) */
+.route-bar{position:sticky;top:var(--nav-h);z-index:40;margin:18px -12px 10px;padding:9px 12px;background:rgba(10,7,16,.92);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:grid;gap:8px}
+.route-bar .route-jump{margin:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.route-bar .route-jump::-webkit-scrollbar{display:none}
+.route-bar .route-jump .chip{flex:none;white-space:nowrap}
+.route-bar .route-jump .chip i{font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-left:5px}
+.route-bar .route-jump .chip.is-full{border-color:var(--cyan)}
+.route-bar .route-jump .chip.is-full i{color:var(--cyan)}
+.route-acts{display:flex;gap:8px}
+.route-acts .route-next{border-color:var(--pink);color:var(--fg)}
+.prose h2[id]{scroll-margin-top:calc(var(--nav-h) + 110px)}
+.route-hide-done .pnr.route [data-track-row].is-done{display:none}
+.track li.is-flash{outline:2px solid var(--pink);outline-offset:2px}
+
+/* Footer link groups (Nov 26) */
+.foot-groups{display:grid;grid-template-columns:repeat(4,auto);gap:22px 34px;font-size:14px;font-weight:600;align-content:start}
+.foot-g{display:grid;gap:6px;align-content:start}
+.foot-h{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:3px}
+@media(max-width:900px){.foot-groups{grid-template-columns:repeat(2,minmax(0,1fr));width:100%}}
+
+/* Move your progress (Nov 26) */
+.xfer textarea{width:100%;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:12px;
+  font-family:var(--mono);font-size:12px;line-height:1.5;resize:vertical;word-break:break-all}
+.xfer textarea:focus{outline:none;border-color:var(--cyan)}
+.xfer-msg{font-weight:700;color:var(--cyan);min-height:1.5em}
+.xfer-msg.bad{color:var(--gold)}

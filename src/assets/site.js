@@ -267,7 +267,7 @@ document.addEventListener("click", (e) => {
     const el = set[i];
     big.src = el.dataset.full || el.currentSrc || el.src;
     big.alt = el.alt;
-    cap.textContent = (set.length > 1 ? (i + 1) + " / " + set.length + " · " : "") + "Image: Rockstar Games";
+    cap.textContent = (set.length > 1 ? (i + 1) + " / " + set.length + " · " : "") + (el.dataset.credit || "Image: Rockstar Games");
     lb.querySelector(".lb-prev").hidden = lb.querySelector(".lb-next").hidden = set.length < 2;
   };
   const close = () => { lb.classList.remove("open"); document.body.style.overflow = ""; if (last) last.focus?.(); };
@@ -749,4 +749,104 @@ document.addEventListener("click", (e) => {
       .catch(() => { thanks.hidden = false; thanks.textContent = "Couldn't send that. Please try again, or use the contact form."; })
       .finally(() => { send.disabled = false; });
   });
+})();
+
+// 100% route: sticky bar with progress per part, "Next up" and "Hide done".
+(() => {
+  const bar = document.querySelector(".route-bar");
+  if (!bar) return;
+  const K = "vfg.route.v1";
+  const chips = [...bar.querySelectorAll("a[href^='#']")];
+  const ids = chips.map((c) => c.getAttribute("href").slice(1));
+  const nodes = [...document.querySelectorAll("h2[id], input[data-track]")];
+  const parts = {};
+  let cur = null;
+  nodes.forEach((n) => {
+    if (n.tagName === "H2") cur = ids.includes(n.id) ? (parts[n.id] = []) : null;
+    else if (cur) cur.push(n);
+  });
+  const paint = () => chips.forEach((c) => {
+    const boxes = parts[c.getAttribute("href").slice(1)] || [];
+    const done = boxes.filter((b) => b.checked).length;
+    c.querySelector("i").textContent = done + "/" + boxes.length;
+    c.classList.toggle("is-full", boxes.length > 0 && done === boxes.length);
+  });
+  const hide = bar.querySelector("[data-route-hide]");
+  const setHide = (on) => {
+    document.body.classList.toggle("route-hide-done", on);
+    hide.setAttribute("aria-pressed", on ? "true" : "false");
+    hide.classList.toggle("is-on", on);
+  };
+  let on = false;
+  try { on = localStorage.getItem(K) === "1"; } catch (e) {}
+  setHide(on);
+  hide.addEventListener("click", () => {
+    on = !on; setHide(on);
+    try { localStorage.setItem(K, on ? "1" : "0"); } catch (e) {}
+  });
+  bar.querySelector("[data-route-next]").addEventListener("click", () => {
+    const box = ids.flatMap((id) => parts[id] || []).find((b) => !b.checked);
+    if (!box) return;
+    const closed = box.closest("details:not([open])");
+    const row = closed ? closed.closest("li") : box.closest("[data-track-row]");
+    row.scrollIntoView({ block: "center", behavior: "smooth" });
+    row.classList.add("is-flash");
+    setTimeout(() => row.classList.remove("is-flash"), 1600);
+  });
+  document.addEventListener("change", () => setTimeout(paint, 0));
+  window.addEventListener("pageshow", () => setTimeout(paint, 0));
+  window.addEventListener("storage", () => setTimeout(paint, 0));
+  document.addEventListener("DOMContentLoaded", paint);
+  paint();
+})();
+
+// /progress/: move ticks and counters to another device with a code (nothing is sent anywhere).
+(() => {
+  const box = document.querySelector("[data-xfer]");
+  if (!box) return;
+  const KEYS = ["vfg.progress.v1", "vfg.counts.v1", "vfg.prefs.v1", "vfg.route.v1"];
+  const out = box.querySelector("[data-xfer-out]"), inp = box.querySelector("[data-xfer-in]");
+  const msg = box.querySelector("[data-xfer-msg]"), sum = box.querySelector("[data-xfer-sum]");
+  const get = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  const obj = (k) => { try { return JSON.parse(get(k) || "{}") || {}; } catch (e) { return {}; } };
+  const enc = (s) => btoa(unescape(encodeURIComponent(s)));
+  const dec = (s) => decodeURIComponent(escape(atob(s)));
+  const say = (t, bad) => { msg.textContent = t; msg.classList.toggle("bad", !!bad); };
+  const build = () => {
+    const data = { v: 1 };
+    KEYS.forEach((k) => { const v = get(k); if (v != null) data[k] = v; });
+    out.value = "VFG1." + enc(JSON.stringify(data));
+    const ticks = Object.values(obj(KEYS[0])).filter(Boolean).length;
+    const counts = Object.values(obj(KEYS[1])).reduce((n, v) => n + (v | 0), 0);
+    sum.textContent = ticks + " ticks and " + counts + " counted on this device";
+  };
+  box.querySelector("[data-xfer-copy]").addEventListener("click", () => {
+    out.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(out.value) : Promise.reject())
+      .then(() => say("Code copied. Paste it on the other device."))
+      .catch(() => { try { document.execCommand("copy"); say("Code copied. Paste it on the other device."); } catch (e) { say("Select the code and copy it by hand.", true); } });
+  });
+  box.querySelector("[data-xfer-load]").addEventListener("click", () => {
+    let data;
+    try {
+      const raw = inp.value.trim();
+      if (raw.indexOf("VFG1.") !== 0) throw 0;
+      data = JSON.parse(dec(raw.slice(5)));
+      if (!data || data.v !== 1) throw 0;
+    } catch (e) { return say("That doesn't look like a progress code. Copy the whole code and try again.", true); }
+    try {
+      // Merge, never remove: a tick on either device stays ticked, counters keep the higher number.
+      const ticks = obj(KEYS[0]), theirs = JSON.parse(data[KEYS[0]] || "{}");
+      let added = 0;
+      Object.keys(theirs).forEach((k) => { if (theirs[k] && !ticks[k]) { ticks[k] = theirs[k]; added++; } });
+      localStorage.setItem(KEYS[0], JSON.stringify(ticks));
+      const counts = obj(KEYS[1]), tc = JSON.parse(data[KEYS[1]] || "{}");
+      Object.keys(tc).forEach((k) => { counts[k] = Math.max(counts[k] | 0, tc[k] | 0); });
+      localStorage.setItem(KEYS[1], JSON.stringify(counts));
+      inp.value = "";
+      build();
+      say("Done. " + added + " new tick" + (added === 1 ? "" : "s") + " added to this device.");
+    } catch (e) { say("This browser wouldn't save the progress (private mode or storage is full).", true); }
+  });
+  build();
 })();

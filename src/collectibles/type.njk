@@ -93,6 +93,7 @@
             <label for="c-{{ t.slug }}-{{ i.id }}" class="item-name">{{ i.name }}</label>
             <p class="item-meta">{% if i.set %}<span>{{ i.set }}{% if i.n %} #{{ i.n }}{% endif %}</span>{% endif %}<span>{{ i.area }}</span>{% if i.who %}<span>{{ i.who }}</span>{% endif %}{% if i.missable %}<span class="miss">Missable · {{ i.missable }}</span>{% endif %}</p>
             {%- if i.where %}<p>{{ i.where | md | safe }}</p>{% endif %}
+              {%- include "partials/shots.njk" %}
             {%- if i.mission %}<a class="more" href="/walkthrough/{{ i.mission }}/">Reachable during a mission</a>{% endif %}
           </div>
         </li>

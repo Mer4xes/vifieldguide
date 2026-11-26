@@ -27,10 +27,19 @@ export default function () {
   const tracker = JSON.parse(fs.readFileSync(new URL("./tracker.json", import.meta.url), "utf8"));
   const ctrs = {};
   for (const g of tracker.groups) for (const it of g.items) ctrs[`${g.id}:${it.id}`] = it;
+  // Hauk's own in-game shots: src/assets/img/shots/col/<type>/<id>-map|place|close.webp.
+  // An item gets `shots` (in that order) for the files that exist; nothing to edit in the data.
+  const shotDir = new URL("../assets/img/shots/col/", import.meta.url);
+  const SHOTS = [["map", "Map"], ["place", "Where it is"], ["close", "Close-up"]];
+  const withShots = (type, it) => {
+    const shots = SHOTS.filter(([k]) => fs.existsSync(new URL(`${type}/${it.id}-${k}.webp`, shotDir)))
+      .map(([k, label]) => ({ k, label, src: `/assets/img/shots/col/${type}/${it.id}-${k}.webp` }));
+    return shots.length ? { ...it, shots } : it;
+  };
   collectibles.types = collectibles.types.map((t) => ({
     ...t,
     ctr: t.counter ? { key: t.counter, ...ctrs[t.counter] } : null,
-    items: t.items || [],
+    items: (t.items || []).map((it) => withShots(t.slug, it)),
     regions: [...new Set((t.items || []).map((i) => i.region).filter(Boolean))],
     // Sets that have mapped items, in data order, for the set filter chips on the type page.
     itemSets: [...new Set((t.items || []).map((i) => i.set).filter(Boolean))].map((name) => ({
