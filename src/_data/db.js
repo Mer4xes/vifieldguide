@@ -85,8 +85,9 @@ export default function () {
       singular: "weapon",
       headline: "Arsenal",
       glow: "gold",
-      intro: "Every weapon we have used, with where to get it and what it is good for.",
-      seoTitle: "GTA 6 Weapons: Every Gun and Where to Get It",
+      intro: "All 66 standard weapons by class, where to buy them and a checklist for the 50 that 100% asks for.",
+      seoTitle: "GTA 6 Weapons List: All 66 Guns and Explosives by Class",
+      description: "Every GTA 6 standard weapon: 53 guns in seven classes, 4 explosives and 9 melee weapons, which ones only Expanded Ammu-Nations sell, and a checklist for the 50 of 66 that 100% needs.",
     },
   };
   const kinds = Object.keys(kindMeta).map((slug) => {

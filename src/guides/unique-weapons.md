@@ -8,7 +8,7 @@ summary: The named gold guns, where each one is and how to get it, from free fin
 order: 4
 glow: gold
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 image: /assets/img/full/ue-weapon-variants-01.webp
 facts:
   - { k: Variants in the menu, v: "127", status: Reported }
@@ -110,4 +110,4 @@ sources:
 - [Shops](/guides/shops/#ammu-nation): every Ammu-Nation by county. Each one sells a variant of its own.
 - [Mission rewards](/guides/mission-rewards/): every weapon, car and payout the story hands out.
 - [Missables](/guides/missables/): the two weapons above and everything else you can lose.
-- [Weapons](/weapons/) and [equipment](/guides/equipment/).
+- [All 66 standard weapons](/weapons/) with a checklist, and [equipment](/guides/equipment/).

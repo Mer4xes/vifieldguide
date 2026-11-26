@@ -8,7 +8,7 @@ summary: Everything the game counts toward 100%, with the number you need and th
 order: 2
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-26
 facts:
   - { k: Items, v: "35", status: Reported }
   - { k: Shows up, v: "After the credits", status: Reported }
@@ -95,7 +95,7 @@ The game keeps a 100% checklist with 35 items. It only appears once the credits 
 
 <div class="trophies pctlist">
 <label class="tr" data-track-row for="p-base-model-vehicles"><input class="cb" type="checkbox" id="p-base-model-vehicles" data-track="pct:base-model-vehicles"><div class="body"><div class="name">Base model vehicles</div><div class="desc">Whip It Good needs 100 discovered. Scan them with WAiNK; <a href="/guides/activities-and-collectibles/#study-and-scan">how</a>.</div></div><div class="side"><span class="need">200</span><span class="of">of 277</span></div></label>
-<label class="tr" data-track-row for="p-standard-issue-weapons"><input class="cb" type="checkbox" id="p-standard-issue-weapons" data-track="pct:standard-issue-weapons"><div class="body"><div class="name">Standard issue weapons</div><div class="desc">Buy them at Ammu-Nation.</div></div><div class="side"><span class="need">50</span><span class="of">of 66</span></div></label>
+<label class="tr" data-track-row for="p-standard-issue-weapons"><input class="cb" type="checkbox" id="p-standard-issue-weapons" data-track="pct:standard-issue-weapons"><div class="body"><div class="name">Standard issue weapons</div><div class="desc">Buy them at Ammu-Nation; variants don't count. <a href="/weapons/">All 66 by class</a>.</div></div><div class="side"><span class="need">50</span><span class="of">of 66</span></div></label>
 <label class="tr" data-track-row for="p-animals"><input class="cb" type="checkbox" id="p-animals" data-track="pct:animals"><div class="body"><div class="name">Animals</div><div class="desc">Study them through binoculars. <a href="/guides/activities-and-collectibles/#study-and-scan">How</a>.</div></div><div class="side"><span class="need">100</span><span class="of">of 255</span></div></label>
 </div>
 

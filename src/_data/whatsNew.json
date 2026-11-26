@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Weapons",
+  "title": "All 66 weapons, with a checklist",
+  "text": "Every standard gun and explosive by class, which ones only the Expanded gun stores sell, and a tracker for the 50 that 100% needs.",
+  "url": "/weapons/",
+  "img": "/assets/img/full/ue-hawk-and-little-morgan-revolvers-01.webp",
+  "pos": "72% 50%",
+  "cta": "Open the weapons list"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Walkthrough",
   "title": "One page per chapter",
   "text": "Each of the five chapters on one page: every mission in order, what opens up, what you can lose and what to do before it ends.",
   "url": "/walkthrough/chapter-1/",
   "img": "/assets/img/full/leonida-keys-03.webp",
-  "pos": "50% 50%",
-  "cta": "Start with Chapter 1"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
@@ -62,22 +71,5 @@
   "url": "/guides/unique-weapons/",
   "img": "/assets/img/full/ue-weapon-variants-01.webp",
   "pos": "30% 50%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Ultimate Edition",
-  "title": "Wyman's five classic cars",
-  "text": "Where every piece of scrap is for the Transgressor, Riata, Mamba GT and Kit Car, what Wyman charges, and a checklist that saves.",
-  "url": "/guides/classic-cars/",
-  "img": "/assets/img/full/ue-wyman-car-collection-01.webp",
-  "pos": "22% 50%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Side content",
-  "title": "Papa Audacity's stunt jobs",
-  "text": "All six jobs of the Unknown Stuntman's strand, the seven AudaCity Stunts with a checklist, and the eighth Strangers & Freaks strand.",
-  "url": "/guides/side-contacts/#audacity",
-  "img": "/assets/img/misc/act-bikes.webp"
  }
 ]

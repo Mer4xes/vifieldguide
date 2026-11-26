@@ -6,7 +6,7 @@
   eleventyComputed: {
     title: (data) => data.k.name,
     seoTitle: (data) => data.k.seoTitle,
-    description: (data) => `${data.k.intro} Stats, prices and locations for GTA 6 ${data.k.slug}.`,
+    description: (data) => data.k.description || `${data.k.intro} Stats, prices and locations for GTA 6 ${data.k.slug}.`,
     sample: (data) => !!data.k.sample,
     updated: (data) => data.k.updated,
   },
@@ -21,6 +21,9 @@
 </header>
 
 {%- if not k.items.length %}
+{%- if k.slug == "weapons" and weaponList.classes %}
+{%- include "partials/weapon-list.njk" %}
+{%- else %}
 <section class="sec">
   <div class="wrap">
     <div class="empty">
@@ -30,6 +33,7 @@
     </div>
   </div>
 </section>
+{%- endif %}
 {%- set kn = known[k.slug] %}
 {%- if kn %}
 <section class="sec">
@@ -105,4 +109,18 @@
     <p class="nomatch" data-nomatch="{{ k.slug }}" hidden>Nothing matches. Clear the search or pick another class.</p>
   </div>
 </section>
+{%- endif %}
+{%- if k.slug == "weapons" and weaponList.faq and not k.items.length %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in weaponList.faq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">{{ weaponList.faq | faqld | safe }}</script>
 {%- endif %}

@@ -1,0 +1,56 @@
+{%- set wl = weaponList %}
+{%- set listed = 0 %}{% for c in wl.classes %}{% set listed = listed + c.items.length %}{% endfor %}
+<section class="sec" id="standard">
+  <div class="wrap">
+    <p class="kicker">Standard weapons</p>
+    <h2 class="sec-h">All {{ wl.total }} weapons, by class</h2>
+    <p class="lede">GTA 6 has {{ wl.total }} standard weapons: 53 guns, {{ wl.melee }} melee weapons and 4 explosives. Tick what you own as you go. <b>100% needs any {{ wl.need }}</b> of the {{ wl.total }}, and you can check your count in the pause menu under <b>Progress › Weapons</b>. Named variants are counted apart and have <a href="/guides/unique-weapons/">their own guide</a>.</p>
+
+    <div class="chal-cats wpn-cats">
+      <a class="chal-cat" href="#standard" data-progress="wpn:" data-total="{{ wl.need }}"><span class="lab">Toward 100%</span><span class="pct"><span data-done>0</span>/{{ wl.need }}</span><span class="bar"><i></i></span></a>
+      {%- for c in wl.classes %}
+      <a class="chal-cat" href="#w-{{ c.id }}" data-progress="wpn:{{ c.id }}:" data-total="{{ c.items.length }}"><span class="lab">{{ c.n }}</span><span class="pct"><span data-done>0</span>/{{ c.items.length }}</span><span class="bar"><i></i></span></a>
+      {%- endfor %}
+    </div>
+
+    <div class="wpn-how">
+      <p><b>Where to buy.</b> Every <a href="/guides/shops/#ammu-nation">Ammu-Nation</a> sells guns, melee weapons and explosives, and a store adds more to its shelves as you buy from it. The six <b>Expanded</b> stores carry the most, and they are the only ones with machine guns, sniper rifles and launchers. Hover over a gun store's map icon to see its type.</p>
+      <p><b>Where they're kept.</b> Weapons you've bought and variants you've found wait in the <b>weapon locker</b> at any Ammu-Nation, and you can also take them out of your vehicle's trunk.</p>
+      <p><b>Free ones.</b> Grab what enemies drop: it counts as soon as you pick it up.</p>
+    </div>
+
+    <div class="finder">
+      <label class="vh" for="q-wpn">Search weapons</label>
+      <input class="search" type="search" id="q-wpn" data-search="wpn" placeholder="Search {{ listed }} weapons" autocomplete="off">
+      <div class="filters" data-filter-group="wpn" role="group" aria-label="Filter weapons">
+        <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
+        <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not owned</button>
+        <button type="button" class="fchip" data-filter="expanded" aria-pressed="false">Expanded stores only</button>
+        {%- for c in wl.classes %}
+        <button type="button" class="fchip" data-filter="{{ c.id }}" aria-pressed="false">{{ c.n }}</button>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <div data-filter-list="wpn">
+      {%- for c in wl.classes %}
+      <div class="wpn-class" data-filter-parent>
+        <h3 class="chal-h" id="w-{{ c.id }}">{{ c.n }} <small class="wpn-n">{{ c.items.length }}</small></h3>
+        <p class="wpn-lede">{{ c.lede }}</p>
+        <div class="wpn-grid">
+          {%- for w in c.items %}
+          {%- set wid = w | slugify %}
+          <label class="tr wpn" data-track-row for="wpn-{{ wid }}" data-tags="{{ c.id }}{% if c.expanded %} expanded{% endif %}" data-text="{{ w | lower }} {{ c.n | lower }}"><input class="cb" type="checkbox" id="wpn-{{ wid }}" data-track="wpn:{{ c.id }}:{{ wid }}" aria-label="Mark {{ w }} owned"><div class="body"><div class="name">{{ w }}</div></div>{% if c.expanded %}<div class="side"><span class="pin">Expanded</span></div>{% endif %}</label>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="wpn" hidden>Nothing left for that filter.</p>
+    <p class="wpn-melee">The {{ wl.melee }} melee weapons count toward the {{ wl.total }} as well; they are not listed here yet.</p>
+    <button class="reset" type="button" data-reset="wpn:">Reset this list</button>
+    <p class="lede" style="margin-top:22px">Ticking 50 here doesn't tick the line on the <a href="/guides/100-percent-checklist/">100% checklist</a>; do that once the game's own counter shows it. The <a href="/guides/100-percent-route/">100% route</a> has the same line.</p>
+    {%- if wl.updated %}<p class="stamp">Last updated {{ wl.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>
+

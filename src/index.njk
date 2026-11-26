@@ -12,7 +12,7 @@ updated: 2026-11-23
   { title: "Trophies", url: "/trophies/", n: db.trophies.items.length, unit: "trophies", text: "The full list and a clean route to the platinum." },
   { title: "Collectibles", url: "/collectibles/", n: db.collectibles.types.length, unit: "sets", text: "Every set, how many there are and what 100% needs." },
   { title: "Vehicles", url: "/vehicles/", n: vehicles.items.length, unit: "vehicles", text: "Where to find each ride and how it handles." },
-  { title: "Weapons", url: "/weapons/", n: weapons.items.length, unit: "weapons", text: "What each gun is good for and where to get it." },
+  { title: "Weapons", url: "/weapons/", n: (weaponList.total if weaponList.classes else weapons.items.length), unit: "weapons", text: "Every standard weapon by class, where to buy it and a checklist for 100%." },
   { title: "Map", url: "/map/", n: regions.length, unit: "regions", text: "The regions of Leonida and what is in each one." },
   { title: "Guides", url: "/guides/", n: collections.guides.length, unit: "guides", text: "Launch details, first steps, money and more." },
   { title: "Videos", url: "/videos/", n: videos.length, unit: "videos", text: "Every official trailer and video from Rockstar." }
@@ -92,7 +92,7 @@ updated: 2026-11-23
         { u: "/wildlife/", img: "wl-gator", t: "Wildlife and weather", n: "170+ species" },
         { u: "/map/", img: "act-boats", t: "Places", n: "6 regions, 56 screenshots" },
         { u: "/vehicles/", img: "act-carmeet", t: "Vehicles", n: known.vehicles.items.length + " named so far" },
-        { u: "/weapons/", img: "feat-heat", t: "Weapons", n: known.weapons.items.length + " named so far" },
+        { u: "/weapons/", img: "feat-heat", t: "Weapons", n: weaponList.total + " standard weapons" },
         { u: "/music/", img: "music-radio", t: "Music", n: "6 stations, 2 albums" },
         { u: "/characters/", img: "music-studio", t: "Characters", n: cast.length + " confirmed" },
         { u: "/guides/launch-guide/", img: "act-heli", t: "Editions and launch", n: "Ultimate vs Standard" },

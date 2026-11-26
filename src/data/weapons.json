@@ -1,52 +1,24 @@
 {
-  "sample": true,
-  "updated": "2026-11-17",
+  "updated": "2026-11-26",
   "stats": [
-    { "key": "damage", "label": "Damage" },
-    { "key": "range", "label": "Range" },
-    { "key": "fireRate", "label": "Fire rate" },
-    { "key": "clip", "label": "Clip", "max": 50 }
-  ],
-  "items": [
     {
-      "slug": "carbine-rifle",
-      "name": "Carbine Rifle",
-      "class": "Rifle",
-      "blurb": "The reliable workhorse",
-      "stats": { "damage": 55, "range": 75, "fireRate": 70, "clip": 30 },
-      "price": "$3,200",
-      "howToGet": "Sold at gun stores after the first few story missions.",
-      "note": "The do-everything gun. If you only carry one, carry this."
+      "key": "damage",
+      "label": "Damage"
     },
     {
-      "slug": "pump-shotgun",
-      "name": "Pump Shotgun",
-      "class": "Shotgun",
-      "blurb": "Close-quarters stopper",
-      "stats": { "damage": 85, "range": 25, "fireRate": 25, "clip": 8 },
-      "price": "$1,500",
-      "howToGet": "Sold at gun stores from the start. Police cruisers carry one too.",
-      "note": "Brutal indoors and in alleys. Useless across a parking lot."
+      "key": "range",
+      "label": "Range"
     },
     {
-      "slug": "micro-smg",
-      "name": "Micro SMG",
-      "class": "SMG",
-      "blurb": "Run-and-gun and drive-bys",
-      "stats": { "damage": 35, "range": 40, "fireRate": 85, "clip": 30 },
-      "price": "$1,100",
-      "howToGet": "Sold at gun stores from the start.",
-      "note": "Shreds up close and fires from a vehicle. The escape artist's pick."
+      "key": "fireRate",
+      "label": "Fire rate"
     },
     {
-      "slug": "marksman-rifle",
-      "name": "Marksman Rifle",
-      "class": "Sniper",
-      "blurb": "Reach out and touch",
-      "stats": { "damage": 80, "range": 95, "fireRate": 30, "clip": 8 },
-      "price": "$6,500",
-      "howToGet": "Unlocks at gun stores midway through the story.",
-      "note": "For picking targets off before a fight starts. Slow, but it ends arguments."
+      "key": "clip",
+      "label": "Clip",
+      "max": 50
     }
-  ]
+  ],
+  "items": [],
+  "note": "Per-weapon pages (stats, price, where to get it) go in items. The standard weapon list and checklist on /weapons/ come from src/_data/weaponList.json."
 }

@@ -1,0 +1,173 @@
+{
+  "updated": "2026-11-26",
+  "total": 66,
+  "need": 50,
+  "melee": 9,
+  "classes": [
+    {
+      "id": "handguns",
+      "n": "Handguns",
+      "lede": "Pistols and revolvers. Jason carries the Girardi ES9 and Lucia the Klose K17.",
+      "items": [
+        "Scorpio Nipper .38",
+        "Klose K17",
+        "Duke 1922",
+        "Girardi ES9",
+        "Girardi ES18",
+        "Klose K17 MCD",
+        "Schlamm DRX",
+        "Fairview Kalinga .50",
+        "Hawk & Little .38",
+        "Duke Mustang .357",
+        "Wortham WCR1",
+        "Scorpio Akulus",
+        "Hawk & Little Morgan"
+      ]
+    },
+    {
+      "id": "smgs",
+      "n": "SMGs",
+      "lede": "Eight submachine guns.",
+      "items": [
+        "Vom Feuer VF5",
+        "Wortham W-10",
+        "Zhang Wu Type 9",
+        "Deever Tech DSG",
+        "Vom Feuer VF5C",
+        "Schlamm DW-9",
+        "BZI Vatra",
+        "ADB PD-90"
+      ]
+    },
+    {
+      "id": "shotguns",
+      "n": "Shotguns",
+      "lede": "Eleven shotguns, as many as there are rifles.",
+      "items": [
+        "Mason & Keen Longshot",
+        "Fortune & Son Moreland 850",
+        "Girardi Verro",
+        "Girardi AZ1200",
+        "Fortune & Son Gorse 425",
+        "Shrewsbury Drifter",
+        "Shrewsbury Hobo",
+        "Mason & Keen Shortstraw",
+        "Goodwin Comshot 12",
+        "Girardi Super400",
+        "Kozlov KVGA-12"
+      ]
+    },
+    {
+      "id": "rifles",
+      "n": "Rifles",
+      "lede": "Assault and tactical rifles, plus the Wortham W-22, a small-game rifle.",
+      "items": [
+        "Kozlov KZ-59",
+        "Hillinger Heathen",
+        "Duke 556",
+        "Kozlov Hind",
+        "Vom Feuer VF-G1",
+        "ADB FRA",
+        "Wortham W-22",
+        "Hillinger M306",
+        "Hawk & Little Mediator",
+        "Wortham W-14",
+        "Hillinger M306 TMR"
+      ]
+    },
+    {
+      "id": "machine-guns",
+      "n": "Machine guns",
+      "lede": "Only the Expanded gun stores sell these.",
+      "expanded": true,
+      "items": [
+        "Goodwin LMG 6",
+        "ADB M350"
+      ]
+    },
+    {
+      "id": "snipers",
+      "n": "Sniper rifles",
+      "lede": "Only the Expanded gun stores sell these.",
+      "expanded": true,
+      "items": [
+        "Fairview FF-SR",
+        "Shrewsbury SM-69",
+        "Shrewsbury SMS-01",
+        "Fortune & Son Laird 350",
+        "Fairview FF-50"
+      ]
+    },
+    {
+      "id": "launchers",
+      "n": "Launchers",
+      "lede": "Grenade and rocket launchers, again only at the Expanded gun stores.",
+      "expanded": true,
+      "items": [
+        "Hillinger Boomer",
+        "Deever Tech GLR40",
+        "Hauners H-AT"
+      ]
+    },
+    {
+      "id": "explosives",
+      "n": "Explosives",
+      "lede": "Thrown weapons. They count toward the 66 like any gun.",
+      "items": [
+        "Flash Grenade",
+        "Frag Grenade",
+        "Molotov",
+        "Sticky Bomb"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many weapons are there in GTA 6?",
+      "a": "66 standard weapons: 53 guns, 9 melee weapons and 4 explosives. On top of those come the named weapon variants, which are tracked separately and listed in the [unique weapons guide](/guides/unique-weapons/)."
+    },
+    {
+      "q": "How many weapons do you need for 100% in GTA 6?",
+      "a": "Any 50 of the 66 standard weapons. Variants don't count. The quickest way is to buy what you're missing at one of the six Expanded gun stores, and to pick up what enemies drop along the way."
+    },
+    {
+      "q": "Where can I see which weapons I have unlocked?",
+      "a": "In the pause menu under **Progress › Weapons**. It counts standard weapons and variants apart."
+    },
+    {
+      "q": "Where do you buy sniper rifles and launchers in GTA 6?",
+      "a": "Only at the Expanded Ammu-Nation stores. They also carry the two machine guns. There are six of them; hover over a gun store's map icon to see its type, or check the [list of gun stores by county](/guides/shops/#ammu-nation)."
+    },
+    {
+      "q": "Where do my weapons go in GTA 6?",
+      "a": "Weapons you've bought and variants you've found wait in the weapon locker at any Ammu-Nation, and you can also take them from your vehicle's trunk."
+    }
+  ],
+  "sources": [
+    {
+      "label": "PowerPyx: GTA 6 All Weapons",
+      "url": "https://www.powerpyx.com/gta-6-all-weapons",
+      "note": "Read Nov 26, 2026 (published 08:40, modified 08:55 UTC). Trusted. 66 standard weapons (53 guns, 9 melee, 4 explosives) plus variants; 100% needs any 50 of the 66, variants excluded; Progress > Weapons; Ammu-Nation sells guns, melee and explosives, Expanded stores have the most; bought weapons and found variants in the Ammu-Nation weapon locker or the vehicle trunk. Gun names in one numbered list without classes. Spellings DZI Vatra and Haunser H-AT disagree with the other sources (BZI Vatra, Hauners H-AT), so the shared spelling is used. Its variant total (130) differs from PC Gamer's 127, so it is not used. Its melee list (bat, knuckles, hammer, golf club, knife, heavy-duty blade, wrench, pool cue, switchblade) disagrees with the knife/baton lists on game-checklists and howtovideogame, so melee names are left out."
+    },
+    {
+      "label": "game-checklists.com: All Weapons & Equipment Checklist",
+      "url": "https://game-checklists.com/gta6/weapons-checklist/",
+      "note": "Updated Nov 26, 2026. 66 = 53 guns + 9 melee + 4 explosives, 50 for 100%. Class headings (pistols 13, SMGs 8, shotguns 11, rifles 11, machine guns 2, snipers 5, heavy 3) used where howtovideogame agrees; snipers from SMS-01 onward and heavy came only as a fetch summary. Prices on this page only, so not used."
+    },
+    {
+      "label": "howtovideogame.com: GTA 6 every weapon, class by class",
+      "url": "https://howtovideogame.com/gta-6-weapons-list/",
+      "note": "Published Nov 24, 2026. Class lists agree with game-checklists for every gun it names (leaves out H&L Morgan and SMS-01). Gun stores expand their stock as you buy more."
+    },
+    {
+      "label": "gtapilot.com: GTA 6 weapons",
+      "url": "https://gtapilot.com/gta-6/weapons",
+      "note": "Updated Nov 21, 2026. 66 standard weapons; handguns list includes H&L Morgan; SMS-01 listed as a sniper; snipers and launchers only at Expanded stores."
+    },
+    {
+      "label": "PowerPyx: GTA 6 All Ammu-Nation Gun Stores Locations",
+      "url": "https://www.powerpyx.com/?p=371141",
+      "note": "Read Nov 21, 2026. Expanded stores carry LMGs, snipers and grenade/rocket launchers; 6 of the 24 stores are Expanded."
+    }
+  ]
+}
