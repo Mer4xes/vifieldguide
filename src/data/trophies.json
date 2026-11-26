@@ -474,7 +474,7 @@
     "collectibles"
    ],
    "target": "100",
-   "how": "Scanning a car with WAiNK counts as discovering it; you don't have to drive it. Hold D-Pad Up to open WAiNK fast, then R1/RB to scan; boats and aircraft count too. The 100% checklist wants 200 base models.",
+   "how": "Scanning a car with WAiNK counts as discovering it; you don't have to drive it. Hold D-Pad Up to open WAiNK fast, then R1/RB to scan; boats and aircraft count too. Driving a vehicle once counts as well. The 100% checklist wants 200 base models; [all 277 by class](/vehicles/).",
    "link": "/guides/activities-and-collectibles/#study-and-scan",
    "linkLabel": "WAiNK scans"
   },

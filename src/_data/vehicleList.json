@@ -1,0 +1,462 @@
+{
+  "updated": "2026-11-26",
+  "total": 277,
+  "need": 200,
+  "trophy": 100,
+  "standouts": 280,
+  "all": 557,
+  "groups": [
+    {
+      "id": "cars",
+      "n": "Cars",
+      "count": 157
+    },
+    {
+      "id": "bikes",
+      "n": "Bikes",
+      "count": 29
+    },
+    {
+      "id": "watercraft",
+      "n": "Watercraft",
+      "count": 28
+    },
+    {
+      "id": "aircraft",
+      "n": "Aircraft",
+      "count": 16
+    },
+    {
+      "id": "service",
+      "n": "Service",
+      "count": 47
+    }
+  ],
+  "classes": [
+    {
+      "id": "coupes",
+      "n": "Coupes",
+      "group": "cars",
+      "count": 18,
+      "lede": "Two-door cars, from the ’85 Futo and Blista to the Windsor Drop.",
+      "items": [
+        "Declasse Akane",
+        "Übermacht Apoc",
+        "’93 Dundreary Arcturus",
+        "’85 Dinka Blista",
+        "Übermacht Cypher",
+        "Obey 8F Drafter",
+        "’90 Annis Elegy",
+        "Fathom FR36",
+        "’85 Karin Futo",
+        "’32 Vapid Hustler",
+        "’90 Willard Lasso",
+        "Ascot Paragon",
+        "Maibatsu Penumbra",
+        "’97 Maibatsu Penumbra FF",
+        "’82 Imponte Ruiner",
+        "Benefactor Schutzen",
+        "Emperor Vectre",
+        "Buckingham Windsor Drop"
+      ]
+    },
+    {
+      "id": "muscle",
+      "n": "Muscle cars",
+      "group": "cars",
+      "count": 26,
+      "lede": "",
+      "items": []
+    },
+    {
+      "id": "off-road",
+      "n": "Off-road",
+      "group": "cars",
+      "count": 8,
+      "lede": "",
+      "items": []
+    },
+    {
+      "id": "pickups",
+      "n": "Pickups",
+      "group": "cars",
+      "count": 17,
+      "lede": "Pickup trucks, with four versions of the Bravado Bison alone.",
+      "items": [
+        "Bravado Bison",
+        "Bravado Bison 1800",
+        "Bravado Bison 3800",
+        "’95 Bravado Bison 900",
+        "’84 Declasse Bobcat XL",
+        "Vapid Caracara 4×4",
+        "Karin Contender",
+        "Vapid Montagne Pickup",
+        "’86 Declasse Rancher",
+        "’84 Karin Rebel",
+        "Vapid Reclaimer",
+        "’70 Vapid Reclaimer",
+        "Vapid Riata",
+        "Vapid Sandking XL",
+        "Vapid Sandking XT",
+        "’81 Declasse Walton",
+        "Declasse Yosemite 1500"
+      ]
+    },
+    {
+      "id": "sedans",
+      "n": "Sedans",
+      "group": "cars",
+      "count": 29,
+      "lede": "The biggest class in the game.",
+      "items": []
+    },
+    {
+      "id": "sports",
+      "n": "Sports cars",
+      "group": "cars",
+      "count": 13,
+      "lede": "Fast two-seaters. The Banshee, Growler and Coquette D10 are also on [Randy’s wish list](/guides/side-contacts/#randy-list).",
+      "items": [
+        "Bravado Banshee",
+        "Grotti Carbonizzare",
+        "Pfister Comet S2",
+        "’88 Pfister Comet",
+        "Invetero Coquette",
+        "Invetero Coquette D10",
+        "Pfister Growler",
+        "’64 Declasse Mamba GT",
+        "Pfister Neon",
+        "Benefactor Schafter V12",
+        "’85 Übermacht Sentinel",
+        "Emperor Sultan"
+      ]
+    },
+    {
+      "id": "super",
+      "n": "Supercars",
+      "group": "cars",
+      "count": 9,
+      "lede": "",
+      "items": []
+    },
+    {
+      "id": "suvs",
+      "n": "SUVs",
+      "group": "cars",
+      "count": 23,
+      "lede": "",
+      "items": []
+    },
+    {
+      "id": "vans",
+      "n": "Vans",
+      "group": "cars",
+      "count": 14,
+      "lede": "",
+      "items": []
+    },
+    {
+      "id": "bikes",
+      "n": "Bikes",
+      "group": "bikes",
+      "count": 29,
+      "lede": "Motorbikes, plus bicycles such as the Tuff BMX.",
+      "items": [
+        "Endurex Aerobike",
+        "Principe Alvino V1",
+        "Western Zombie Bobber",
+        "Maibatsu Boomazoom",
+        "Bravado Aphid",
+        "LCC Avarus",
+        "Tuff BMX",
+        "Nagasaki Carbon RS",
+        "’72 Western Cliffhanger",
+        "Walter Cruiser",
+        "Walter Crusher",
+        "Dinka Double-T",
+        "Shift-E Fan-E",
+        "’72 Dinka Enduro",
+        "Del Perro Erode",
+        "Principe Esskey",
+        "Übermacht FCR 1000",
+        "Principe Lectro",
+        "Walter Lombike",
+        "Maibatsu Manchez",
+        "Western Nightblade",
+        "Nagasaki Nimbe",
+        "Taci Ragno",
+        "Maibatsu Sanchez",
+        "Del Perro Scorcher",
+        "Nagasaki SFB 1000",
+        "Western Sovereign 107",
+        "Nagasaki Street Blazer",
+        "Dinka Versus"
+      ]
+    },
+    {
+      "id": "watercraft",
+      "n": "Watercraft",
+      "group": "watercraft",
+      "count": 28,
+      "lede": "Boats of all kinds. Look around the Vice City harbor.",
+      "items": []
+    },
+    {
+      "id": "aircraft",
+      "n": "Aircraft",
+      "group": "aircraft",
+      "count": 16,
+      "lede": "Planes and helicopters. Helicopters sit on Vice City rooftops marked with an H on the map; planes wait at airstrips and Vice City International Airport.",
+      "items": [
+        "Bottcher 015A",
+        "Bottcher 020",
+        "Lapwing 300-H",
+        "Decker Crake",
+        "Mammoth Dodo",
+        "Bottcher Duster",
+        "Lapwing Mallard",
+        "Lapwing Mammatus",
+        "Buckingham Maverick",
+        "Lapwing Nimbus",
+        "Nagasaki Sea Sparrow",
+        "Buckingham Shamal",
+        "Lapwing Streamer 216-C",
+        "Buckingham Supervolito",
+        "Buckingham Swift",
+        "Buckingham Volatus"
+      ]
+    },
+    {
+      "id": "trucks",
+      "n": "Service trucks",
+      "group": "service",
+      "count": 11,
+      "lede": "Lorries and rigs. Service vehicles turn up at building sites and in industrial areas.",
+      "items": [
+        "’95 Interstate Benson",
+        "Cartright Biff",
+        "Declasse D7700",
+        "Vapid Guardian TX2",
+        "Cartright Hauler",
+        "Maibatsu Iota",
+        "Jobuilt MB2-10",
+        "Maibatsu Mule",
+        "MTL Packer",
+        "’81 Jobuilt Phantom Custom",
+        "Jobuilt Rubble"
+      ]
+    },
+    {
+      "id": "utility",
+      "n": "Utility",
+      "group": "service",
+      "count": 9,
+      "lede": "Small work vehicles, from the Airtug to the Telehandler.",
+      "items": [
+        "HVY Airtug",
+        "Maibatsu Caddy",
+        "’82 Maibatsu Caddy",
+        "Lifta",
+        "Brute Ripley",
+        "Brute Taco Van",
+        "TH42 Telehandler",
+        "’80 Interstate Yankee"
+      ]
+    },
+    {
+      "id": "emergency",
+      "n": "Emergency",
+      "group": "service",
+      "count": 7,
+      "lede": "The Ambulance, the Police Riot and the rest of the emergency fleet.",
+      "items": [
+        "Declasse Ambulance",
+        "Hauners Brigade",
+        "MTL Pumper",
+        "Dingus Garda",
+        "Brute Police Riot",
+        "’99 Interstate Stockade"
+      ]
+    },
+    {
+      "id": "military",
+      "n": "Military",
+      "group": "service",
+      "count": 8,
+      "lede": "Parked at Mile Zero Air Station, the base south of Key Lento, or sent after you at a high wanted level.",
+      "items": [
+        "Hauners APC",
+        "Bottcher Buzzard",
+        "Hauners Cargobob",
+        "Hauners P-996 Lazer",
+        "’92 Mammoth Patriot",
+        "Hauners Rhino Tank"
+      ]
+    },
+    {
+      "id": "industrial",
+      "n": "Industrial",
+      "group": "service",
+      "count": 6,
+      "lede": "Heavy machines such as the Bulldozer and the Excavator, found at building sites and in industrial areas.",
+      "items": [
+        "HVY Bulldozer",
+        "MTL CR5013",
+        "Dump",
+        "B3000 Excavator",
+        "Stanley Furrow TC 2350",
+        "’99 Jack Sheepe Fieldmaster"
+      ]
+    },
+    {
+      "id": "transport",
+      "n": "Transport",
+      "group": "service",
+      "count": 6,
+      "lede": "Buses, the Seacab and the Taxi.",
+      "items": [
+        "Whiffler Bus",
+        "Whiffler Dashound",
+        "Brute Rental Bus",
+        "Hulls Seacab",
+        "Taxi"
+      ]
+    }
+  ],
+  "standoutClasses": [
+    [
+      "Ultra-Luxe",
+      19
+    ],
+    [
+      "Street Racer",
+      16
+    ],
+    [
+      "Stock Car",
+      7
+    ],
+    [
+      "Race Bikes",
+      11
+    ],
+    [
+      "Demolition Derby",
+      6
+    ],
+    [
+      "Mudder",
+      6
+    ],
+    [
+      "Donks",
+      5
+    ],
+    [
+      "Lowriders",
+      5
+    ],
+    [
+      "Hot Rods",
+      10
+    ],
+    [
+      "Ripped & Shredded",
+      13
+    ],
+    [
+      "Retro",
+      20
+    ],
+    [
+      "All-Terrain",
+      17
+    ],
+    [
+      "Driveshaft Famous",
+      8
+    ],
+    [
+      "Chopper",
+      7
+    ],
+    [
+      "Topper",
+      6
+    ],
+    [
+      "Blinged Up",
+      15
+    ],
+    [
+      "Girlypop",
+      16
+    ],
+    [
+      "Patriot",
+      12
+    ],
+    [
+      "Swamp Style",
+      10
+    ],
+    [
+      "Leonida Man",
+      30
+    ],
+    [
+      "Fine Art",
+      17
+    ],
+    [
+      "Law & Order",
+      5
+    ],
+    [
+      "Clout Chaser",
+      8
+    ],
+    [
+      "Pedal Power",
+      6
+    ],
+    [
+      "Throwback",
+      5
+    ]
+  ],
+  "faq": [
+    {
+      "q": "How many vehicles are in GTA 6?",
+      "a": "557 at launch, counting the Ultimate Edition's extras. They split into 277 **base models**, the ordinary versions you see on the road, and 280 **Standout vehicles**, one-off builds in 25 styles that sit at fixed spots or come as rewards."
+    },
+    {
+      "q": "How many vehicles do you need for 100% in GTA 6?",
+      "a": "Any 200 of the 277 base models. Standout vehicles don't count toward 100% or any trophy. **Whip It Good** asks for 100 discovered vehicles, so you get it halfway there."
+    },
+    {
+      "q": "How do you discover a vehicle in GTA 6?",
+      "a": "Either drive it once or scan it with WAiNK: hold **D-pad Up** to open the scanner, aim at the vehicle and press **R1 / RB**. Scanning is quicker, and it works on parked and passing traffic, boats and aircraft. Your count is in the pause menu under **Progress › Vehicles**, in the same order as the lists on this page."
+    },
+    {
+      "q": "Where do you find planes, helicopters and boats in GTA 6?",
+      "a": "Helicopters sit on Vice City rooftops marked with an **H** on the map. Planes wait at airstrips and at Vice City International Airport. For boats and jet skis, go to the Vice City harbor. Military vehicles are at **Mile Zero Air Station** south of Key Lento, or come to you once your wanted level is high enough."
+    },
+    {
+      "q": "Do Standout vehicles count for anything?",
+      "a": "Not for 100% or trophies. They're one-offs in 25 styles, from Lowriders and Donks to Swamp Style, that sit at fixed spots or come as rewards, so collect the ones you like."
+    }
+  ],
+  "sources": [
+    {
+      "label": "PowerPyx: GTA 6 All Vehicles (Cars)",
+      "url": "https://www.powerpyx.com/gta-6-all-vehicles-cars",
+      "note": "Read Nov 26, 2026 (published Nov 25 22:06, modified 22:17 UTC). Trusted. 557 vehicles incl. Ultimate Edition exclusives = 277 base models + 280 Standouts; 100% = any 200 of 277 base models, Standouts not needed for trophies or 100%; scan with WAiNK (hold up) or drive once; base models drive around randomly; helicopters on Vice City rooftops marked H, planes at airstrips / VCIA, boats at the Vice City harbor, military at Mile Zero Air Station south of Key Lento or high wanted level, service vehicles at construction sites and industrial areas; Standouts at fixed spots or as rewards. Class counts: coupes 18, muscle 26, off-road 8, pickups 17, sedans 29, sports 13, super 9, SUVs 23, vans 14, bikes 29, watercraft 28, aircraft 16, service trucks 11, utility 9, emergency 7, military 8, industrial 6, transport 6. Standout classes and counts as listed."
+    },
+    {
+      "label": "PowerPyx class pages",
+      "url": "https://www.powerpyx.com/gta-6-all-coupes/",
+      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle, off-road, sedans, supercars, SUVs, vans and watercraft pages exist but were not in search results, so their names are not listed yet."
+    }
+  ]
+}

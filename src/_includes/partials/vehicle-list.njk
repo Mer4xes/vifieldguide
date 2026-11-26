@@ -1,0 +1,80 @@
+{%- set vl = vehicleList %}
+{%- set listed = 0 %}{% for c in vl.classes %}{% set listed = listed + c.items.length %}{% endfor %}
+<section class="sec" id="base-models">
+  <div class="wrap">
+    <p class="kicker">Base models</p>
+    <h2 class="sec-h">All {{ vl.total }} base models, by class</h2>
+    <p class="lede">GTA 6 has {{ vl.all }} vehicles: {{ vl.total }} <b>base models</b>, the everyday versions that drive around Leonida, and {{ vl.standouts }} one-off <a href="#standouts">Standout vehicles</a>. <b>100% needs any {{ vl.need }}</b> of the base models, and <a href="/trophies/whip-it-good/">Whip It Good</a> unlocks at {{ vl.trophy }}. Tick each one as you find it; the lists follow the order of the game's own <b>Progress › Vehicles</b> menu.</p>
+
+    <div class="chal-cats wpn-cats veh-cats">
+      <a class="chal-cat" href="#base-models" data-progress="veh:" data-total="{{ vl.need }}"><span class="lab">Toward 100%</span><span class="pct"><span data-done>0</span>/{{ vl.need }}</span><span class="bar"><i></i></span></a>
+      {%- for c in vl.classes %}{% if c.items.length %}
+      <a class="chal-cat" href="#v-{{ c.id }}" data-progress="veh:{{ c.id }}:" data-total="{{ c.items.length }}"><span class="lab">{{ c.n }}</span><span class="pct"><span data-done>0</span>/{{ c.items.length }}</span><span class="bar"><i></i></span></a>
+      {%- endif %}{% endfor %}
+    </div>
+
+    <div class="wpn-how">
+      <p><b>Scan, don't steal.</b> A vehicle counts once you've driven it or scanned it with WAiNK. Hold <b>D-pad Up</b> to open the scanner, aim and press <b>R1 / RB</b>; it works on passing traffic, parked cars, boats and aircraft. <a href="/guides/activities-and-collectibles/#study-and-scan">More on scanning</a>.</p>
+      <p><b>Where to look.</b> Base models spawn at random in traffic, so keep scanning as you play. Helicopters sit on Vice City rooftops marked <b>H</b> on the map, planes at airstrips and Vice City International Airport, boats at the Vice City harbor, and military vehicles at Mile Zero Air Station south of Key Lento. Work trucks and machines show up at building sites and in industrial areas.</p>
+      <p><b>Keeping one.</b> Stealing, registering and storing cars are in the <a href="/guides/cars/">cars guide</a>; parking spaces are in <a href="/guides/garages/">garages</a>.</p>
+    </div>
+
+    <div class="finder">
+      <label class="vh" for="q-veh">Search vehicles</label>
+      <input class="search" type="search" id="q-veh" data-search="veh" placeholder="Search {{ listed }} vehicles" autocomplete="off">
+      <div class="filters" data-filter-group="veh" role="group" aria-label="Filter vehicles">
+        <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All</button>
+        <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not found yet</button>
+        {%- for g in vl.groups %}
+        <button type="button" class="fchip" data-filter="{{ g.id }}" aria-pressed="false">{{ g.n }} <small>{{ g.count }}</small></button>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <div data-filter-list="veh">
+      {%- for c in vl.classes %}
+      {%- if c.items.length %}
+      <div class="wpn-class" data-filter-parent>
+        <h3 class="chal-h" id="v-{{ c.id }}">{{ c.n }} <small class="wpn-n">{{ c.count }}</small></h3>
+        {%- if c.lede %}<p class="wpn-lede">{{ c.lede | md | safe }}</p>{% endif %}
+        <div class="wpn-grid">
+          {%- for v in c.items %}
+          {%- set vid = v | replace("’", "") | slugify %}
+          <label class="tr wpn" data-track-row for="veh-{{ c.id }}-{{ vid }}" data-tags="{{ c.id }} {{ c.group }}" data-text="{{ v | lower }} {{ c.n | lower }}"><input class="cb" type="checkbox" id="veh-{{ c.id }}-{{ vid }}" data-track="veh:{{ c.id }}:{{ vid }}" aria-label="Mark {{ v }} found"><div class="body"><div class="name">{{ v }}</div></div></label>
+          {%- endfor %}
+        </div>
+        {%- if c.items.length < c.count %}<p class="veh-gap">{{ c.count - c.items.length }} more in this class {{ "isn't" if (c.count - c.items.length) == 1 else "aren't" }} named on this page yet.</p>{% endif %}
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="veh" hidden>Nothing left for that filter.</p>
+
+    {%- set todoN = 0 %}{% for c in vl.classes %}{% if not c.items.length %}{% set todoN = todoN + 1 %}{% endif %}{% endfor %}
+    {%- if todoN %}
+    <h3 class="chal-h" id="v-more">Still to be listed</h3>
+    <p class="wpn-lede">These classes are counted, but their names aren't on this page yet. They go in as soon as we have them, and your ticks above stay put.</p>
+    <div class="veh-todo">
+      {%- for c in vl.classes %}{% if not c.items.length %}
+      <div class="veh-tile" id="v-{{ c.id }}"><b>{{ c.count }}</b><span>{{ c.n }}</span>{% if c.lede %}<small>{{ c.lede | md | safe }}</small>{% endif %}</div>
+      {%- endif %}{% endfor %}
+    </div>
+    {%- endif %}
+
+    <button class="reset" type="button" data-reset="veh:">Reset this list</button>
+    <p class="lede" style="margin-top:22px">Ticks here don't tick the line on the <a href="/guides/100-percent-checklist/">100% checklist</a>; do that once the game's own counter reaches {{ vl.need }}. The <a href="/guides/100-percent-route/">100% route</a> has the same line.</p>
+  </div>
+</section>
+
+<section class="sec" id="standouts">
+  <div class="wrap">
+    <p class="kicker">Standout vehicles</p>
+    <h2 class="sec-h">{{ vl.standouts }} one-offs in {{ vl.standoutClasses.length }} styles</h2>
+    <p class="lede">Standouts are one-off vehicles grouped by style. They don't drive around in traffic: each one sits at a fixed spot or comes as a reward. None of them count toward 100% or any trophy, so chase the ones you like.</p>
+    <div class="veh-styles">
+      {%- for s in vl.standoutClasses %}<span>{{ s[0] }} <b>{{ s[1] }}</b></span>{% endfor %}
+    </div>
+    <p class="wpn-lede" style="margin-top:14px">Cars that people ask you for or give you are in <a href="/guides/classic-cars/">Wyman's classic cars</a>, <a href="/guides/side-contacts/#randy-list">Randy's wish list</a> and <a href="/guides/side-contacts/#moses">Moses's strand</a>.</p>
+    {%- if vl.updated %}<p class="stamp">Last updated {{ vl.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>

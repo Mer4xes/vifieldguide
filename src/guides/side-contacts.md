@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -64,7 +64,7 @@ faq:
   - q: "How do you find Kenton's treasures in GTA 6?"
     a: "Take Kenton's boat, the Huntress, from Island Dreams in Key Lento, put on scuba gear and dive at one of his wrecks or dive sites. Equip the metal detector with L1 / LB, pan with the right stick and swim slowly toward the beeps until you can pick the piece up. Kenton pays a little per piece and much more for a full set."
   - q: "How many Kenton treasure sets are there in GTA 6?"
-    a: "Seven, and the 100% checklist needs five. Five sets are on shipwrecks around Key Lento and count as underwater discoveries too; Belpoint Strait and the Bobcat Dive Site are open dive sites that don't."
+    a: "Seven, with 41 pieces between them, and the 100% checklist needs five. Five sets are on shipwrecks around Key Lento and count as underwater discoveries too; Belpoint Strait and the Bobcat Dive Site are open dive sites that don't. They open in stages: three after Island Dreams, three more once Kenton calls you to check in with him, and the last after his Chapter 3 job."
   - q: "Who is Randy in GTA 6?"
     a: "Randy Kozlov is a car fence with a dealership in Balsero. Lucia meets him in Chapter 3 when she delivers a car for Raul in Car Service. His first own job is a Zorrusso, which gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
   - q: "Which cars are on Randy's wish list in GTA 6?"
@@ -145,6 +145,9 @@ sources:
   - label: "PowerPyx: Catch A Bigger Fish (Cal)"
     url: "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/"
     note: "Read Nov 22, 2026 (published/modified Nov 19, full page text). Mariana County > Gambit Bay, giver Cal, requires Feng Shui (Ch1), Jason, reward Focus increase + Baited My Tackle. Steal a boat (Jason's boat gone after Ch1; docks near The Rusty Anchor), anchor from the vehicle menu, rod in bottom-right slot, Small Saltwater Lure, stoplight parrotfish over 2 lbs, send to Cal with X/A. Author's reply in comments: disappears for a while in the story, comes back, doable after the story. Only Cal entry in PowerPyx's side-mission list. Trusted source."
+  - label: "PowerPyx: All Kenton Sets Locations (Search the Dive Sites)"
+    url: "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites"
+    note: "Read Nov 26, 2026 (published 04:48, modified 05:39 UTC). Trusted. 7 sets / shipwrecks, 5-7 treasures each, 41 in all; at least 5 for 100%; purple chest icons after Island Dreams, the first wreck in that mission doesn't count; icons show progress per site; after the first 3 sets Kenton calls (Check in With Kenton) and opens the next 3; the 7th after Maritime Dispute (Chapter 3); boat + scuba + metal detector from the item wheel; Progress > Contacts > Kenton Rees > Shipwrecks Cleared; sell treasures to Kenton. Set names and pieces match ours. Bobcat Dive Site on the Mariana coast, further west; tip: boats with scuba gear at Watson Bay or Capri. No reward for all sets stated."
   - label: "Push Square: underwater discoveries and Kenton's treasures (WIP)"
     url: "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures"
     note: "Read Nov 24, 2026 (modified Nov 20 17:25 UTC; 6 discoveries, 8 entries). Huntress at Island Dreams; Rugger Fortune after Maritime Disputes / This Was No Boat Accident; autopilot Triangle twice; anchor hold Left, vehicle menu; scuba gear at Island Dreams or either boat; metal detector L1, right stick, beeps, swim slowly; small pay per piece, big pay per finished set; Progress > Collections > Kenton's Treasures. Ocio: Island Dreams, 10 doubloons. Sets: Noche 7, Etica Laxa 5, Cinco Torres 6, Lujuriosa 6, Santa Sierra 6, Belpoint Strait 5 (no wreck, not a discovery), Bobcat Dive Site 6 (no wreck, not a discovery); item names as listed. No payouts. Set total 7 and 5 for 100% from our existing checklist data. Trusted source."
@@ -480,7 +483,7 @@ Kenton's dives start in [Island Dreams](/walkthrough/island-dreams/). You search
 <li><b>Sell to Kenton.</b> He pays a little for each piece the first time you bring it in, and a lot more once a whole set is in, so finish sets before you cash in. A message tells you when a set is complete, and the menu shows each set under Progress, Collections, Kenton's Treasures.</li>
 </ol>
 
-The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up its 10 doubloons to clear it from the map. The seven sets below are the ones Kenton pays for. The first five are shipwrecks that also count as underwater discoveries; the last two are open dive sites with no wreck, and they don't.
+The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up its 10 doubloons to clear it from the map. It doesn't count toward the seven. Kenton marks his other sites with purple chest icons, and each icon shows how many pieces you still need there. The seven sets below are the ones Kenton pays for. The first five are shipwrecks that also count as underwater discoveries; the last two are open dive sites with no wreck, and they don't.
 
 <div class="progress" data-progress="kenton:" data-total="7">
 <div class="row"><span class="lab">Kenton sets you've finished</span><span class="pct"><span data-done>0</span> / 7 · <span data-pct>0%</span></span></div>
@@ -501,7 +504,9 @@ The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up
 {%- endfor %}
 </div>
 
-> **Tip:** All seven are in Mariana County, so you can work through them in Chapter 1 while Key Lento is home. Kenton leaves the map when the chapter ends; when he's back later, carry on where you stopped.
+> **Note:** Kenton doesn't open all seven at once. The first three appear after Island Dreams. Clear them and he calls you to **check in with him**, which opens three more. The seventh opens after his job in Chapter 3.
+
+> **Tip:** All seven are in Mariana County, so dive whatever is open in Chapter 1 while Key Lento is home. Kenton leaves the map when the chapter ends; when he's back later, carry on where you stopped.
 
 <h2 id="randy">Randy and the key cloner</h2>
 

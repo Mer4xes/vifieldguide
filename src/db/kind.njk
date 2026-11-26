@@ -23,6 +23,8 @@
 {%- if not k.items.length %}
 {%- if k.slug == "weapons" and weaponList.classes %}
 {%- include "partials/weapon-list.njk" %}
+{%- elif k.slug == "vehicles" and vehicleList.classes %}
+{%- include "partials/vehicle-list.njk" %}
 {%- else %}
 <section class="sec">
   <div class="wrap">
@@ -110,17 +112,18 @@
   </div>
 </section>
 {%- endif %}
-{%- if k.slug == "weapons" and weaponList.faq and not k.items.length %}
+{%- set kfaq = (weaponList.faq if k.slug == "weapons" else vehicleList.faq) %}
+{%- if kfaq and not k.items.length %}
 <section class="sec" id="faq">
   <div class="wrap">
     <p class="kicker">FAQ</p>
     <h2 class="sec-h">Quick answers</h2>
     <div class="faq">
-      {%- for q in weaponList.faq %}
+      {%- for q in kfaq %}
       <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
       {%- endfor %}
     </div>
   </div>
 </section>
-<script type="application/ld+json">{{ weaponList.faq | faqld | safe }}</script>
+<script type="application/ld+json">{{ kfaq | faqld | safe }}</script>
 {%- endif %}

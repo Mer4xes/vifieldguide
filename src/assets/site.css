@@ -1311,3 +1311,14 @@ html.hide-ahead .mrow.chm:not(.is-done):not(.is-next) .chm-sum{filter:blur(6px)}
 .wpn-melee{color:var(--muted);font-size:14px;margin-top:18px}
 @media (max-width:520px){.wpn-cats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:520px){.wpn-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wpn-grid .tr{grid-template-columns:20px minmax(0,1fr);gap:9px;padding:10px 11px}.wpn-grid .tr .name{font-size:14px}.wpn-grid .side{display:none}}
+/* Vehicle list (/vehicles/) */
+.veh-gap{color:var(--faint);font-size:13px;margin:8px 0 0}
+.veh-todo{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:10px 0 18px}
+.veh-tile{display:grid;gap:2px;align-content:start;background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:14px 16px}
+.veh-tile b{font-family:var(--mono);font-size:22px;color:var(--cyan);line-height:1}
+.veh-tile span{font-weight:700}
+.veh-tile small{color:var(--muted);font-size:13px}
+.veh-styles{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.veh-styles span{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;color:#ded4e4}
+.veh-styles b{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-left:4px}
+.filters .fchip small{font-family:var(--mono);font-size:11px;opacity:.7;margin-left:3px}

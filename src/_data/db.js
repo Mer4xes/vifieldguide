@@ -77,8 +77,9 @@ export default function () {
       singular: "vehicle",
       headline: "Rides",
       glow: "violet",
-      intro: "Every vehicle we have driven, with where to get it and how it handles.",
-      seoTitle: "GTA 6 Vehicles: Every Car, Bike and Boat",
+      intro: "All 277 base models by class with a checklist for the 200 that 100% asks for, plus the 280 Standout vehicles.",
+      seoTitle: "GTA 6 Vehicles List: All 277 Base Models and Checklist",
+      description: "Every GTA 6 vehicle class: 277 base models (cars, bikes, boats, aircraft and service vehicles) with a checklist for the 200 that 100% needs, how scanning works, where to find aircraft, boats and military vehicles, and the 280 Standouts.",
     },
     weapons: {
       name: "Weapons",

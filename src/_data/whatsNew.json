@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Vehicles",
+  "title": "Vehicle checklist for 100%",
+  "text": "Every vehicle class with its count, 134 base models to tick off by name, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
+  "url": "/vehicles/",
+  "img": "/assets/img/full/act-carmeet.webp",
+  "pos": "50% 50%",
+  "cta": "Open the vehicle list"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Weapons",
   "title": "All 66 weapons, with a checklist",
   "text": "Every standard gun and explosive by class, which ones only the Expanded gun stores sell, and a tracker for the 50 that 100% needs.",
   "url": "/weapons/",
   "img": "/assets/img/full/ue-hawk-and-little-morgan-revolvers-01.webp",
-  "pos": "72% 50%",
-  "cta": "Open the weapons list"
+  "pos": "72% 50%"
  },
  {
   "date": "2026-11-26",
@@ -62,14 +71,5 @@
   "url": "/guides/mysteries/",
   "img": "/assets/img/full/grassrivers-08.webp",
   "pos": "60% 50%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Weapons",
-  "title": "Unique weapons and where they are",
-  "text": "33 of the gold gun variants: free finds, gang hideout guns, story rewards and store exclusives, the two you can miss, and a checklist that saves.",
-  "url": "/guides/unique-weapons/",
-  "img": "/assets/img/full/ue-weapon-variants-01.webp",
-  "pos": "30% 50%"
  }
 ]

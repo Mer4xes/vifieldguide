@@ -150,7 +150,7 @@
       {
        "k": "kenton-start",
        "tag": "side",
-       "t": "**Start Kenton's dives.** After Island Dreams he calls, then shows up under a green KR icon in Key Lento. All seven of his treasure sets are in Mariana County, so this is the time to dive: [the sets and their pieces](/guides/side-contacts/#kenton-treasure). He drops off the map after Chapter 1 and returns later."
+       "t": "**Start Kenton's dives.** After Island Dreams he calls, then shows up under a green KR icon in Key Lento. All seven of his treasure sets are in Mariana County, so this is the time to dive. Three open first; clear them and he calls you to check in, which opens three more. The seventh waits until his Chapter 3 job. [The sets and their pieces](/guides/side-contacts/#kenton-treasure). He drops off the map after Chapter 1 and returns later."
       },
       {
        "c": "fitness:pro-swimmer",
@@ -627,7 +627,7 @@
       {
        "k": "kenton-back",
        "tag": "collect",
-       "t": "**Kenton is back.** Carry on diving."
+       "t": "**Kenton is back.** Carry on diving; his job this chapter opens the seventh treasure set."
       },
       {
        "c": "exploration:underwater-discoveries",
@@ -1652,7 +1652,7 @@
        "k": "fr-scan",
        "track": "pct:base-model-vehicles",
        "tag": "collect",
-       "t": "**Base model vehicles scanned**, and 100 animals studied.",
+       "t": "**Base model vehicles scanned**, and 100 animals studied. [Vehicle checklist by class](/vehicles/).",
        "g": "200 of 277"
       },
       {

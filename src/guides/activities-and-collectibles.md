@@ -8,7 +8,7 @@ summary: What there is to do and find in Leonida, how many of each the trophies 
 order: 3
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-26
 facts:
   - { k: Meditation spots, v: "18", status: Reported }
   - { k: Drone race locations, v: "14", status: Reported }
@@ -93,7 +93,7 @@ WAiNK is the phone app that scans things. Point it at landmarks, statues and art
 The game keeps an encyclopedia of the animals and vehicles you have logged. Neither needs hunting or stealing.
 
 - **Animals:** pick the binoculars from the weapon wheel, zoom in with D-Pad Up and hold **R1/RB** on an animal to study it. Every breed of dog and cat is its own entry. The 100% checklist wants **100 of 255**; studying is all the trophies ask for, and you never have to kill or skin anything. The **Zoologist** [challenge](/guides/challenges/) wants 20 species.
-- **Vehicles:** hold **D-Pad Up** to jump straight into WAiNK (quicker than going through the phone), look at a vehicle and scan it with **R1/RB**. Boats and aircraft count as well. The checklist wants **200 of 277** base models; the special Standout vehicles are a separate list and don't count toward it.
+- **Vehicles:** hold **D-Pad Up** to jump straight into WAiNK (quicker than going through the phone), look at a vehicle and scan it with **R1/RB**. Boats and aircraft count as well. The checklist wants **200 of 277** base models; the special Standout vehicles are a separate list and don't count toward it. The [vehicles page](/vehicles/) lists the base models by class with a tick list.
 - **Fastest way:** stand by a busy road and scan what drives past. Pickups are more common out in the countryside, supercars in Vice City.
 
 Both counts are in the pause menu under **Progress**, then **Vehicles** or **Animals**. The animal log's eight groups are listed in [fishing, hunting and the animal log](/guides/fishing-and-hunting/#animal-log).

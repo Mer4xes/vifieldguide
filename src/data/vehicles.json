@@ -1,56 +1,23 @@
 {
-  "sample": true,
-  "updated": "2026-11-17",
+  "updated": "2026-11-26",
   "stats": [
-    { "key": "speed", "label": "Speed" },
-    { "key": "accel", "label": "Accel" },
-    { "key": "handling", "label": "Handling" },
-    { "key": "braking", "label": "Braking" }
-  ],
-  "items": [
     {
-      "slug": "overflod-zenith",
-      "name": "Överflöd Zenith",
-      "class": "Super",
-      "blurb": "The top-end benchmark",
-      "stats": { "speed": 96, "accel": 92, "handling": 88, "braking": 84 },
-      "price": "$1,450,000",
-      "seats": 2,
-      "howToGet": "Buy it from the dealer site once you have a garage, or look for one parked outside the Ocean Beach hotels at night.",
-      "note": "The one to chase for pure pace. Expensive, and twitchy until you learn it."
+      "key": "speed",
+      "label": "Speed"
     },
     {
-      "slug": "pfister-astron-s",
-      "name": "Pfister Astron S",
-      "class": "Sports",
-      "blurb": "The sensible all-rounder",
-      "stats": { "speed": 82, "accel": 78, "handling": 84, "braking": 76 },
-      "price": "$185,000",
-      "seats": 2,
-      "howToGet": "Common in the richer parts of Vice City. Easy to find from the first hour.",
-      "note": "The best daily driver early on: fast enough, forgiving, and easy to find."
+      "key": "accel",
+      "label": "Accel"
     },
     {
-      "slug": "western-rampart",
-      "name": "Western Rampart",
-      "class": "Motorcycle",
-      "blurb": "For slipping through traffic",
-      "stats": { "speed": 88, "accel": 90, "handling": 72, "braking": 64 },
-      "price": "$42,000",
-      "seats": 2,
-      "howToGet": "Parked outside bars along the coast road.",
-      "note": "Best tool for losing a wanted level in the city. Just don't kiss a wall."
+      "key": "handling",
+      "label": "Handling"
     },
     {
-      "slug": "canis-everglade",
-      "name": "Canis Everglade",
-      "class": "Off-road",
-      "blurb": "Swamp and backcountry",
-      "stats": { "speed": 62, "accel": 66, "handling": 74, "braking": 78 },
-      "price": "$68,000",
-      "seats": 4,
-      "howToGet": "Spawns on the dirt roads around Grassrivers.",
-      "note": "Slow on tarmac, unstoppable in Grassrivers. Keep one for the wild regions."
+      "key": "braking",
+      "label": "Braking"
     }
-  ]
+  ],
+  "items": [],
+  "note": "Per-vehicle pages (stats, price, where to get it) go in items. The base model list and checklist on /vehicles/ come from src/_data/vehicleList.json."
 }

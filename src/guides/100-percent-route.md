@@ -72,7 +72,7 @@ This is the whole game as one list. Missions are in story order, and around them
 
 <h2 id="habits">Habits from the first minute</h2>
 
-- **Scan every new vehicle** with WAiNK, boats and aircraft too. The checklist wants 200 base models. [How](/guides/activities-and-collectibles/#study-and-scan).
+- **Scan every new vehicle** with WAiNK, boats and aircraft too. The checklist wants 200 base models. [How](/guides/activities-and-collectibles/#study-and-scan), and [the list by class](/vehicles/).
 - **Study every new animal** through the binoculars. You need 100, and you never have to hunt them.
 - **Do optional missions when they appear.** They count toward the 100 optional tasks.
 - **Start limited-time jobs at once.** They carry an hourglass on the map.
