@@ -29,7 +29,7 @@ faq:
   - q: "What is missable in Chapter 4 of GTA 6?"
     a: "Two optional jobs: This Is a Free Call From…, which is Lucia only and limited-time, and Bad Driver!, which Andrea gives you after Party Hard and which is gone once Power Play starts. In the heist mission VCIA Takedown, Francisco's LMG-6 is only yours if you pick it up during the last fight."
   - q: "Can you replay missions in GTA 6?"
-    a: "No. Keep manual saves at the start and end of each chapter in slots you don't overwrite. There are 15."
+    a: "No. Keep manual saves at the start and end of each chapter in slots you don't overwrite. There are 15. [How saving works](/guides/beginner-tips/#saving)."
 sources:
   - label: "Built from our own pages"
     note: "Every line on this page comes from data already on the site and recorded there: route100.json (limited items, PowerPyx 100% checklist, game-checklists missables, PowerPyx collectible pages), collectibles.json (missable fields), storyMissions.json (chapter warnings) and mission front matter (missables, prep). No new facts added Nov 20, 2026."

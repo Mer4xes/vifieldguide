@@ -1,13 +1,22 @@
 [
  {
+  "date": "2026-11-26",
+  "tag": "Beginners",
+  "title": "Beginner tips: saving, travel and the police",
+  "text": "How saving works with no mission replay, every paid way to get around, auto drive, the map index and how to shake the police.",
+  "url": "/guides/beginner-tips/",
+  "img": "/assets/img/full/feat-heat.webp",
+  "pos": "50% 50%",
+  "cta": "Read the tips"
+ },
+ {
   "date": "2026-11-25",
   "tag": "Cars",
   "title": "Randy's wish list, car by car",
   "text": "All 20 high-end cars Randy wants, where to find nine of them, how to bring them in clean, plus how nitrous works.",
   "url": "/guides/side-contacts/#randy-list",
   "img": "/assets/img/full/act-carmeet.webp",
-  "pos": "38% 60%",
-  "cta": "Open the checklist"
+  "pos": "38% 60%"
  },
  {
   "date": "2026-11-25",
@@ -68,14 +77,5 @@
   "text": "Dr. Merle's Final Flush raises your stamina for good, and Freddie's bunker switches hurricanes on. Plus four new cheat codes.",
   "url": "/guides/side-contacts/#merle",
   "img": "/assets/img/misc/feat-storm.webp"
- },
- {
-  "date": "2026-11-24",
-  "tag": "Side content",
-  "title": "Kenton's seven treasure sets",
-  "text": "Every wreck and dive site with the pieces in each set, how the metal detector works, and a tracker that saves.",
-  "url": "/guides/side-contacts/#kenton-treasure",
-  "img": "/assets/img/misc/act-scuba.webp",
-  "pos": "46% 55%"
  }
 ]
