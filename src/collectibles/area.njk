@@ -73,8 +73,9 @@
       <h2 class="sec-h sm">Not on this list yet</h2>
       <p class="lede">The location guides we rely on are still being filled in, so this page covers only what has been pinned down. We add more as they're confirmed.</p>
       <ul class="klist one">
-        <li><b>Most collectible cards and flamingos, and some WAiNK scans.</b> Only some of the 480 cards and 125 flamingos have known locations so far. WAiNK is further along: most landmarks, curiosities and sculptures are mapped, but not the Peewees billboards or most No Flusher tags.</li>
-        <li><b>Basketball hoops.</b> 10 of the 100 are pinned down. Any court or driveway hoop you pass is worth a shot.</li>
+        <li><b>Most collectible cards and flamingos.</b> {{ (db.collectibles.types | where("slug", "collectible-cards") | first).items.length }} of the 480 cards and {{ (db.collectibles.types | where("slug", "cocaine-flamingos") | first).items.length }} of the 125 flamingos are on the site so far.</li>
+        <li><b>WAiNK scans.</b> Most landmarks, curiosities and sculptures and all four Peewees billboards are listed. Most No Flusher tags are not.</li>
+        <li><b>Basketball hoops.</b> {{ (db.collectibles.types | where("slug", "basketball-hoops") | first).items.length }} of the 100 are listed. Many sit under "Around {{ c.name }}" because only the county is known, and the city ones without a neighbourhood are on the <a href="/collectibles/basketball-hoops/">hoops page</a>.</li>
         <li><b>Underwater discoveries.</b> All 33 are listed, but most of the wrecks and reefs around the Keys have no exact spot yet. The map's Exploration filter shows them.</li>
       </ul>
     </div>

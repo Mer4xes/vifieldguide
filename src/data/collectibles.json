@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "types": [
     {
       "slug": "collectible-cards",
@@ -884,6 +884,108 @@
           "where": "In the big warehouse right west of the La Perle Pay 'n' Spray, on a couch against the south wall.",
           "set": "Ed Comics Universe",
           "n": 31
+        },
+        {
+          "id": "narcos-mcvee",
+          "name": "Nicky McVee (Silver)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "On the fridge inside a small house. Going in sets off the alarm, so be quick.",
+          "set": "Vice City Narcos"
+        },
+        {
+          "id": "futbol-juarez",
+          "name": "Lupin de Juarez",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside a home close to The Rusty Anchor. Walking in counts as a break-in.",
+          "set": "Vice City Club De Futbol"
+        },
+        {
+          "id": "penetrators-marcus-gold",
+          "name": "Noah Marcus (Gold)",
+          "county": "mariana-county",
+          "area": "Riquezas Keys",
+          "where": "On the island with the radar dome: climb the rusty lookout tower and the card is at the top.",
+          "set": "Liberty City Penetrators"
+        },
+        {
+          "id": "wrath-pearson",
+          "name": "Dartanyon Pearson",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside a house in the north of Key Lento, on the shelf over the fireplace. It counts as a break-in.",
+          "set": "Liberty City Wrath"
+        },
+        {
+          "id": "corkers-clemmons",
+          "name": "Jonah Clemmons (Silver)",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "In the bedroom furthest from the door of a small house. Breaking in gets you reported.",
+          "set": "Los Santos Corkers"
+        },
+        {
+          "id": "panic-lopez",
+          "name": "Santiago Lopez",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In the trailer just west of Jason's house, in the bedroom, by a box of ammo on the nightstand.",
+          "set": "Los Santos Panic"
+        },
+        {
+          "id": "pounders-beach",
+          "name": "Granian Beach",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "In the bedroom of a house on Kingston Rd, at the north end of town.",
+          "set": "Los Santos Pounders"
+        },
+        {
+          "id": "hooker-drake-silver",
+          "name": "Drake (Silver)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On a small island just off the Key Lento coast, at a campsite, beside the sun lounger.",
+          "set": "America's Next Top Hooker"
+        },
+        {
+          "id": "delights-chip",
+          "name": "Chip",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "Inside a house on the west side, at the north end of Watson Bay.",
+          "set": "Delights Dancers"
+        },
+        {
+          "id": "hearts-monalisa-gold",
+          "name": "MonaLi$a (Gold)",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "where": "On a small island off Abismo Key, on the ground beside a sun lounger.",
+          "set": "Jack of Hearts Dancers"
+        },
+        {
+          "id": "ed-femi-bronze",
+          "name": "Femi-Nemesis (Bronze)",
+          "county": "mariana-county",
+          "area": "Maroon Key",
+          "where": "On the road out to the blimp, climb the rusty observation tower. The card is at the top.",
+          "set": "Ed Comics Universe"
+        },
+        {
+          "id": "immigrantasma-abismo",
+          "name": "Immigrantasma",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "where": "In the women's public toilets on Abismo Key, by the western bridge."
+        },
+        {
+          "id": "powers-starlet",
+          "name": "Bryson Powers",
+          "county": "kelly-county",
+          "area": "Gellhorn",
+          "where": "Starlet Motel laundry room, on top of a washing machine. Pick it up while you live at the motel."
         }
       ],
       "sources": [
@@ -906,6 +1008,11 @@
           "label": "PowerPyx: Vice City Flamingos",
           "url": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/",
           "note": "Read Nov 25, 2026 via ?p=372968 (published Nov 18, modified Nov 25): all 24 cards with number, holder, colour, County > Area and spot, in in-game list order. PowerPyx files city areas under \"Vice-Dale County\"; ours follow counties.json (Little Cuba, La Perle, Tequesta, Peacock Bay = Vice City; Ocean Beach = Vice Beach; Southside, Balsero = Vice-Dale). #19 is written \"Kelly County, Frogswater\". #18 building named as the Spire Theatre. No missable flags. Trusted source."
+        },
+        {
+          "label": "Tech4Gamers + KeenGamer (two sources that agree)",
+          "url": "https://gta.tech4gamers.com/gta-6/collectibles/collectible-card-locations/",
+          "note": "Read Nov 26, 2026. Tech4Gamers (137 pickups, updated Nov 25) and keengamer.com all-collectible-cards (Nov 23, 58). Added 13 cards where both give the same card, area and spot (Santiago Lopez also on gta6heists; Femi-Nemesis Bronze is KeenGamer + GTADB; Chip is Tech4Gamers + the two flamingo pages). No list numbers. Immigrantasma and Bryson Powers have no set: the two disagree on it. Left out everything only one of them lists, and cards where they give different places (Leroy Rook, Xavier Gomez, Garth Buxton Standard, Danny McLean, Beverly)."
         }
       ]
     },
@@ -1189,6 +1296,7 @@
           "name": "Derelict Spy Vessel",
           "county": "mariana-county",
           "area": "Permit Keys",
+          "where": "On the beach at the southern tip of the southeasternmost island in the chain, one of the long, narrow ones.",
           "set": "Curiosities",
           "n": 4
         },
@@ -1205,6 +1313,7 @@
           "name": "Dead Sharks",
           "county": "mariana-county",
           "area": "Wetman Bay",
+          "where": "On the large island west of Cottonmouth Lake. A group of stranded sharks is hard to miss.",
           "set": "Curiosities",
           "n": 6
         },
@@ -1221,6 +1330,7 @@
           "name": "Beach Party Site",
           "county": "mariana-county",
           "area": "Permit Keys",
+          "where": "On the central island of the group, the one with a big patch of green. Scan the wooden hut with the orange Fizzazz sign.",
           "set": "Curiosities",
           "n": 8
         },
@@ -1287,6 +1397,7 @@
           "name": "Noflusher Homestead",
           "county": "mariana-county",
           "area": "Wetman Bay",
+          "where": "On the oddly shaped island west of Pelican Valley. Look for the body on a toilet, then scan the plain building beside it.",
           "set": "Curiosities",
           "n": 16
         },
@@ -1319,6 +1430,7 @@
           "name": "Desert Island Piano",
           "county": "mariana-county",
           "area": "Shoeless Keys",
+          "where": "On a very small island in the west of the Shoeless Keys, south of Cottonmouth Lake. The piano stands in the middle.",
           "set": "Curiosities",
           "n": 20
         },
@@ -1343,6 +1455,7 @@
           "name": "Abismo Key Carcass",
           "county": "mariana-county",
           "area": "Abismo Key",
+          "where": "On the southern shore of Abismo Key. Scan the animal carcass lying on the beach.",
           "set": "Curiosities",
           "n": 23
         },
@@ -1351,6 +1464,7 @@
           "name": "Wetman Bay Carcass",
           "county": "mariana-county",
           "area": "Wetman Bay",
+          "where": "On a small island in Wetman Bay. Mind the alligators.",
           "set": "Curiosities",
           "n": 24
         },
@@ -1400,6 +1514,7 @@
           "name": "Fingerpost",
           "county": "mariana-county",
           "area": "Permit Keys",
+          "where": "On the largest island, in its sandy northern part, just east of Barrage Gun Supply. The post stands in a clump of trees and bushes.",
           "set": "Curiosities",
           "n": 30
         },
@@ -1416,6 +1531,7 @@
           "name": "Vibrant Pond",
           "county": "mariana-county",
           "area": "Cottonmouth Lake",
+          "where": "Off Longneck Trl, by the sign that says swimming is not recommended.",
           "set": "Curiosities",
           "n": 32
         },
@@ -1474,6 +1590,7 @@
           "name": "Grassrivers Visitor Center Statue",
           "county": "mariana-county",
           "area": "Shoeless Keys",
+          "where": "Right next to the Grassrivers Cafe & Deli on Old Fort Rd, on its west side.",
           "set": "Sculptures",
           "n": 4
         },
@@ -1647,6 +1764,38 @@
           "area": "Ocean Beach",
           "where": "On the ground on Shore Dr, across the road from The Buckingham.",
           "set": "No Flusher Tags"
+        },
+        {
+          "id": "peewees-vice-dale",
+          "name": "Peewees billboard: Vice-Dale County",
+          "county": "vice-dale-county",
+          "area": "Balsero",
+          "where": "Northwest of Randy's Leonida Auto World, where US-35 runs on to US-10, west of the Ron Stop'n'Snack.",
+          "set": "Peewees Billboards"
+        },
+        {
+          "id": "peewees-mariana",
+          "name": "Peewees billboard: Mariana County",
+          "county": "mariana-county",
+          "area": "Grassrivers",
+          "where": "On US-82 at the northern edge of Grassrivers, west of Richardson Hunting Supplies.",
+          "set": "Peewees Billboards"
+        },
+        {
+          "id": "peewees-leonard",
+          "name": "Peewees billboard: Leonard County",
+          "county": "leonard-county",
+          "area": "Waning Sands",
+          "where": "In the northwest of Waning Sands, northeast of Lake Leonida, beside SR-27.",
+          "set": "Peewees Billboards"
+        },
+        {
+          "id": "peewees-lummox",
+          "name": "Peewees billboard: Lummox County",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "On the west side of the park, east of Grayson, beside US-628.",
+          "set": "Peewees Billboards"
         }
       ],
       "sources": [
@@ -1669,9 +1818,14 @@
           "label": "PowerPyx: landmark, curiosity, sculpture pages (Nov 23 update)",
           "url": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/",
           "note": "Read Nov 24, 2026. Landmarks 27 of 31 (3, 16, 19, 20 blank; modified Nov 23 00:46), curiosities 35 of 35 (?p=374049, modified Nov 23 16:52), sculptures 22 of 23 (8 blank; ?p=374051, modified Nov 23 13:40). Names and County > Area only; no text hints, so new rows have no where line. Hub (?p=374045, Nov 22) lists 4 Peewees Billboards as the fourth set. Junkyard T-Rex: PowerPyx area Tallaloko vs Push Square Mount Kalaga National Park, kept as before. Hoffman Observatory (Push Square) not on the PowerPyx landmark list; may be one of the blanks. Page typos fixed: Rock Rudge > Rockridge, Mount Kalaga Nation Park, Lumox."
+        },
+        {
+          "label": "Push Square: sculpture, curiosity and Peewees billboard pages",
+          "url": "https://www.pushsquare.com/guides/gta-6-peewees-billboard-locations-and-grand-prize-puzzle-solution",
+          "note": "Trusted. Read Nov 26, 2026 (sculptures and curiosities modified Nov 21, 12 each; Peewees published Nov 21). Where-lines added for sculpture 4 and curiosities 4, 6, 8, 16, 20, 23, 24, 30, 32; the four Peewees billboards are new rows. Hunt starts from Mr Enigma's sponsored Snapmatic post; reward is a Peewees T-shirt and cap. Push Square puts Dead Sharks and the Noflusher Homestead in Grassrivers, PowerPyx in Wetman Bay: area kept as PowerPyx."
         }
       ],
-      "updated": "2026-11-24"
+      "updated": "2026-11-26"
     },
     {
       "slug": "1010-murals",
@@ -1812,6 +1966,118 @@
           "county": "vice-city",
           "area": "La Perle",
           "where": "Northwest of the apartment block where Tyrone lives, on the ground in the middle of the C-shaped building."
+        },
+        {
+          "id": "kl-hydrant",
+          "name": "North Key Lento, by the hydrant",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the north end of Key Lento, on the ground between two trees next to a fire hydrant."
+        },
+        {
+          "id": "kl-decorated-house",
+          "name": "Decorated house",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the house in Key Lento that is covered in bright decorations. Check the beaks: only one of the flamingos out front is the real thing."
+        },
+        {
+          "id": "watson-north-garden",
+          "name": "North end, back garden",
+          "county": "mariana-county",
+          "area": "Watson Bay",
+          "where": "At the north end of Watson Bay, behind the house next door to the one that holds the Chip card (Delights Dancers)."
+        },
+        {
+          "id": "capri-halloween",
+          "name": "Halloween house",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "In the front garden of the house done up for Halloween, in the streets south of Tortoise Lake. The house is a WAiNK curiosity too."
+        },
+        {
+          "id": "capri-volcano-coffee",
+          "name": "West of Volcano Coffee Co.",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "In the front garden of the house just west of Volcano Coffee Co., among the lawn ornaments."
+        },
+        {
+          "id": "capri-sw-hotel",
+          "name": "Southwest Capri hotel",
+          "county": "mariana-county",
+          "area": "Capri",
+          "where": "In southwest Capri, in the garden beside a hotel entrance."
+        },
+        {
+          "id": "abismo-bridge-shore",
+          "name": "Shore by the bridge",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "where": "On the Abismo Key shore near the bridge to Key Lento, standing among other beach ornaments."
+        },
+        {
+          "id": "riquezas-radome",
+          "name": "Radar dome island",
+          "county": "mariana-county",
+          "area": "Riquezas Keys",
+          "where": "On the big southwestern island with the radar dome, inside one of the buildings there."
+        },
+        {
+          "id": "cottonmouth-sandbar",
+          "name": "Sandbar island",
+          "county": "mariana-county",
+          "area": "Cottonmouth Lake",
+          "where": "South of Cottonmouth Lake, on an island by the largest sandbar."
+        },
+        {
+          "id": "meerwunder-1",
+          "name": "Wreck of the Meerwunder (1 of 3)",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "Three flamingos stand on the beach right beside the stranded Meerwunder. This is the first."
+        },
+        {
+          "id": "meerwunder-2",
+          "name": "Wreck of the Meerwunder (2 of 3)",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "Same beach, beside the wreck."
+        },
+        {
+          "id": "meerwunder-3",
+          "name": "Wreck of the Meerwunder (3 of 3)",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "Same beach, beside the wreck."
+        },
+        {
+          "id": "featherstone-north-point",
+          "name": "Northern island, north point",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "On the beach at the northernmost tip of the northern Featherstone island."
+        },
+        {
+          "id": "featherstone-north-se",
+          "name": "Northern island, southeast shore",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "On the southeast shore of the northern Featherstone island."
+        },
+        {
+          "id": "featherstone-north-south",
+          "name": "Northern island, south beach",
+          "county": "lummox-county",
+          "area": "Featherstone Islands",
+          "where": "On the south beach of the northern Featherstone island."
+        },
+        {
+          "id": "pg-rubbish-island",
+          "name": "Rubbish heap island",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "On the small island just west of Port Gellhorn. Climb the big rubbish heap: it is at the top, under a dumped fridge."
         }
       ],
       "sources": [
@@ -1824,6 +2090,11 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/?p=373486",
           "note": "#8 La Perle C-shaped building. Read Nov 20 evening."
+        },
+        {
+          "label": "GTADB + GTA6Bugs (two sources that agree)",
+          "url": "https://gtadb.net/articles/gta-6-cocaine-flamingos-locations/",
+          "note": "Read Nov 26, 2026. GTADB (Nov 22, 50 spots) and gta6bugs.com/collectibles/cocaine-flamingos (updated Nov 25; cites IGN, Game-Checklists and others). Added only the 16 spots both describe the same way. Left out: GTADB-only spots (Belpoint lighthouse, wreck and north dock, other Key Lento gardens, Hamlet, Mile Zero, Goose Key island, Rockridge, Southside, eight more in Port Gellhorn, Buckskin Swamp, south of Waning Sands), street names only one gives, and which side of the sandbar. PowerPyx still 8/125 (modified Nov 23)."
         }
       ]
     },
@@ -2581,6 +2852,27 @@
           "where": "A Book Swap box in Ambrosia.",
           "n": 6,
           "set": "Book Swaps"
+        },
+        {
+          "id": "peche",
+          "name": "Pêche Magazine",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the party house on Dolphin Dr: go up the stairs and into the first bedroom on the left. It is on the bed."
+        },
+        {
+          "id": "trigger-happy",
+          "name": "Trigger Happy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In a beach house on Sunset Dr: take the stairs up and look on the corner of the dining table."
+        },
+        {
+          "id": "1159",
+          "name": "11:59 Survivalist Culture",
+          "county": "lummox-county",
+          "area": "Mount Kalaga National Park",
+          "where": "In the woods east of the Kalaga Reservoir, not far from Dawson Dam. Climb the ladder at the lookout point."
         }
       ],
       "sources": [
@@ -2598,6 +2890,11 @@
           "label": "PowerPyx",
           "url": "https://www.powerpyx.com/?p=374112",
           "note": "1-20 read Nov 20 evening; book swaps 1-7 (modified Nov 20)."
+        },
+        {
+          "label": "Push Square: Magazines, Books & Comics Locations",
+          "url": "https://www.pushsquare.com/guides/gta-6-magazines-books-and-comics-locations",
+          "note": "Trusted. Read Nov 26, 2026 (modified Nov 21, 16 of 27). New from it: Pêche Magazine, Trigger Happy (both Key Lento), 11:59 Survivalist Culture (Mount Kalaga NP). Its Foiled spot (Grassrivers fishing compound) differs from PowerPyx (Belville garage): ours stays as PowerPyx has it. PowerPyx still 20/27 (modified Nov 23)."
         }
       ]
     },
@@ -2795,6 +3092,542 @@
           "county": "vice-beach",
           "area": "Washington Beach",
           "where": "The second hoop on the same roof."
+        },
+        {
+          "id": "mar-blue-beach-house",
+          "name": "Blue beach house",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "At the edge of the driveway of a small blue beach house."
+        },
+        {
+          "id": "mar-yellow-beach-house",
+          "name": "Yellow beach house",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "At the edge of the driveway of a small yellow beach house."
+        },
+        {
+          "id": "mar-resort-pool",
+          "name": "Resort pool",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "Behind a resort, beside its swimming pool."
+        },
+        {
+          "id": "mar-before-bridge",
+          "name": "Before the bridge",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "Just off the main road, shortly before it crosses a bridge."
+        },
+        {
+          "id": "mar-trailer-garage",
+          "name": "White garage door with a trailer",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "Above a white garage door. A vehicle and a trailer are parked next to the building."
+        },
+        {
+          "id": "mar-dirt-track-shack",
+          "name": "Shack down a dirt track",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "Follow a short dirt track to a small shack. The hoop is on its first pillar on the left."
+        },
+        {
+          "id": "mar-jackals-field",
+          "name": "Jackal's Track and Football Field",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "Beside the Jackal's Track and Football Field, near a parked white pickup."
+        },
+        {
+          "id": "mar-yellow-open-garage",
+          "name": "Yellow house with an open garage",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "In front of a yellow house whose garage door stands open, to the right of the garage."
+        },
+        {
+          "id": "mar-tall-trees",
+          "name": "White garage by tall trees",
+          "county": "mariana-county",
+          "area": "Around Mariana County",
+          "where": "At the end of a drive, left of a garage with a white door, next to some tall trees."
+        },
+        {
+          "id": "hamlet-prison-east-1",
+          "name": "Hamlet Prison, east yard (1 of 2)",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "In the east courtyard of Hamlet Prison. The easy way in is to land a helicopter in the yard."
+        },
+        {
+          "id": "hamlet-prison-east-2",
+          "name": "Hamlet Prison, east yard (2 of 2)",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "The second hoop in the prison's east courtyard."
+        },
+        {
+          "id": "hamlet-prison-west-1",
+          "name": "Hamlet Prison, west yard (1 of 2)",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "In the west courtyard of Hamlet Prison, again easiest by helicopter."
+        },
+        {
+          "id": "hamlet-prison-west-2",
+          "name": "Hamlet Prison, west yard (2 of 2)",
+          "county": "vice-dale-county",
+          "area": "Hamlet",
+          "where": "The second hoop in the prison's west courtyard."
+        },
+        {
+          "id": "city-brown-garage-doors",
+          "name": "Mansion with two brown garage doors",
+          "area": "Vice City and Vice-Dale",
+          "where": "On the wall between two brown garage doors, at the side of a large mansion."
+        },
+        {
+          "id": "city-mansion-drive-right",
+          "name": "Mansion driveway, far right",
+          "area": "Vice City and Vice-Dale",
+          "where": "At the far right end of a mansion's driveway."
+        },
+        {
+          "id": "city-graffiti-courtyard",
+          "name": "Graffiti wall courtyard",
+          "area": "Vice City and Vice-Dale",
+          "where": "In a courtyard round the back, against a wall covered in graffiti."
+        },
+        {
+          "id": "city-hideout-garage",
+          "name": "Hideout car port",
+          "area": "Vice City and Vice-Dale",
+          "where": "Inside an enemy hideout, on a metal pillar that holds up an open car port. Expect a fight."
+        },
+        {
+          "id": "city-vice-fire-station",
+          "name": "City of Vice Fire Station",
+          "area": "Vice City and Vice-Dale",
+          "where": "On the wall of the City of Vice Fire Station."
+        },
+        {
+          "id": "city-metal-gates",
+          "name": "Courtyard by the metal gates",
+          "area": "Vice City and Vice-Dale",
+          "where": "In a courtyard, in front of metal gates and fencing."
+        },
+        {
+          "id": "city-yellow-building-kayak",
+          "name": "Yellow building with a kayak",
+          "area": "Vice City and Vice-Dale",
+          "where": "At the far end of a yellow building. A kayak sits next to it."
+        },
+        {
+          "id": "city-fire-rescue",
+          "name": "Vice-Dale County Fire Rescue Station",
+          "area": "Vice City and Vice-Dale",
+          "where": "Outside the Vice-Dale County Fire Rescue Station, between two garage doors, with a fire truck parked alongside."
+        },
+        {
+          "id": "city-ne-court-1",
+          "name": "Court on the northeast side (1 of 2)",
+          "area": "Vice City and Vice-Dale",
+          "where": "On a basketball court on the northeast side."
+        },
+        {
+          "id": "city-ne-court-2",
+          "name": "Court on the northeast side (2 of 2)",
+          "area": "Vice City and Vice-Dale",
+          "where": "The other hoop on the same court."
+        },
+        {
+          "id": "city-underpass-a-1",
+          "name": "First highway underpass (1 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Two courts sit side by side under the highway, with a hoop at each end. This is the first of the four."
+        },
+        {
+          "id": "city-underpass-a-2",
+          "name": "First highway underpass (2 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-underpass-a-3",
+          "name": "First highway underpass (3 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-underpass-a-4",
+          "name": "First highway underpass (4 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-blue-house-left",
+          "name": "Small blue house, end of the driveway",
+          "area": "Vice City and Vice-Dale",
+          "where": "Left of a small blue house, where its driveway ends."
+        },
+        {
+          "id": "city-yellow-house-drive",
+          "name": "Yellow house driveway",
+          "area": "Vice City and Vice-Dale",
+          "where": "Outside a yellow house, at the end of the driveway."
+        },
+        {
+          "id": "city-blue-house-corner",
+          "name": "Small blue house, driveway corner",
+          "area": "Vice City and Vice-Dale",
+          "where": "Next to another small blue house, on the corner of its driveway."
+        },
+        {
+          "id": "city-bare-with-me",
+          "name": "Bare With Me Gentleman's Club",
+          "area": "Vice City and Vice-Dale",
+          "where": "From the club's car park, go up the stairs and through the open doorway. The hoop is in the far corner."
+        },
+        {
+          "id": "city-roadside-courtyard",
+          "name": "Courtyard off the road",
+          "area": "Vice City and Vice-Dale",
+          "where": "In a courtyard you walk into straight from the road."
+        },
+        {
+          "id": "city-underpass-b-1",
+          "name": "Second highway underpass (1 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "A second pair of courts under the highway, again with a hoop at each end. This is the first of the four."
+        },
+        {
+          "id": "city-underpass-b-2",
+          "name": "Second highway underpass (2 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-underpass-b-3",
+          "name": "Second highway underpass (3 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-underpass-b-4",
+          "name": "Second highway underpass (4 of 4)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same pair of courts under the highway."
+        },
+        {
+          "id": "city-apartment-parking",
+          "name": "Apartment parking",
+          "area": "Vice City and Vice-Dale",
+          "where": "On a post in an apartment block's parking area, standing on a small patch of grass."
+        },
+        {
+          "id": "city-green-house-gazebo",
+          "name": "Green house backyard",
+          "area": "Vice City and Vice-Dale",
+          "where": "In the backyard of a green house, on a post beside a lawnmower and a small green and white gazebo."
+        },
+        {
+          "id": "city-apartment-picnic",
+          "name": "Apartment courtyard",
+          "area": "Vice City and Vice-Dale",
+          "where": "In an apartment courtyard, close to a picnic table."
+        },
+        {
+          "id": "city-eris-store",
+          "name": "Eris store",
+          "area": "Vice City and Vice-Dale",
+          "where": "Inside the Eris store, on the small court in the middle with red lights round it."
+        },
+        {
+          "id": "city-brick-driveway",
+          "name": "Brick driveway garage",
+          "area": "Vice City and Vice-Dale",
+          "where": "Near a garage on a brick-paved driveway."
+        },
+        {
+          "id": "city-roof-courts-1",
+          "name": "Roof courts (1 of 3)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Two courts on a roof hold three hoops between them. Take the stairwell at the side of the building, or land a helicopter."
+        },
+        {
+          "id": "city-roof-courts-2",
+          "name": "Roof courts (2 of 3)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same roof."
+        },
+        {
+          "id": "city-roof-courts-3",
+          "name": "Roof courts (3 of 3)",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same roof."
+        },
+        {
+          "id": "city-welfare-walkway",
+          "name": "Walkway by the welfare facilities",
+          "area": "Vice City and Vice-Dale",
+          "where": "At the end of a road, where the walkway finishes, across from the welfare facilities."
+        },
+        {
+          "id": "city-villa-garage-side",
+          "name": "Villa backyard, side of the garage",
+          "area": "Vice City and Vice-Dale",
+          "where": "One villa has three hoops in its backyard. This one is beside the garage."
+        },
+        {
+          "id": "city-villa-brown-door",
+          "name": "Villa backyard, brown garage door",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same villa, above the large brown garage door."
+        },
+        {
+          "id": "city-villa-drive-corner",
+          "name": "Villa backyard, driveway corner",
+          "area": "Vice City and Vice-Dale",
+          "where": "Same villa, in the corner of the driveway."
+        },
+        {
+          "id": "city-mansion-garden-1",
+          "name": "Mansion front garden court (1 of 2)",
+          "area": "Vice City and Vice-Dale",
+          "where": "A mansion has a court in its front garden with a hoop at each end."
+        },
+        {
+          "id": "city-mansion-garden-2",
+          "name": "Mansion front garden court (2 of 2)",
+          "area": "Vice City and Vice-Dale",
+          "where": "The other end of the same court."
+        },
+        {
+          "id": "city-mansion-front-drive",
+          "name": "Mansion front driveway",
+          "area": "Vice City and Vice-Dale",
+          "where": "At the side of the driveway in front of a mansion."
+        },
+        {
+          "id": "leo-blue-white-house",
+          "name": "Blue and white house",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Outside a blue and white house, next to its large garage."
+        },
+        {
+          "id": "leo-light-blue-house",
+          "name": "Light blue house",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Above the garage door of a light blue house."
+        },
+        {
+          "id": "leo-lake-park-1",
+          "name": "Lake park courts (1 of 4)",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "A park with a small lake has two courts, each with a hoop at both ends. This is the first of the four."
+        },
+        {
+          "id": "leo-lake-park-2",
+          "name": "Lake park courts (2 of 4)",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Same park."
+        },
+        {
+          "id": "leo-lake-park-3",
+          "name": "Lake park courts (3 of 4)",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Same park."
+        },
+        {
+          "id": "leo-lake-park-4",
+          "name": "Lake park courts (4 of 4)",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Same park."
+        },
+        {
+          "id": "leo-pink-villa",
+          "name": "Pink gated villa",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "On a small court in front of a pink villa with gates, next to the driveway."
+        },
+        {
+          "id": "leo-yellow-villa",
+          "name": "Yellow villa courtyard",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "In the courtyard of a yellow villa, across from the garage."
+        },
+        {
+          "id": "leo-white-house-drive",
+          "name": "White house driveway",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "On the driveway outside a white house."
+        },
+        {
+          "id": "leo-arched-villa",
+          "name": "White villa with arches",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "At the edge of the driveway of a white villa with arched openings."
+        },
+        {
+          "id": "leo-baller-world",
+          "name": "Baller World",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Hanging outside the Baller World basketball shop, to the right of the entrance."
+        },
+        {
+          "id": "leo-potted-plant",
+          "name": "End of the road, potted plant",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "At the end of a road, between two brick driveways, beside a large potted plant."
+        },
+        {
+          "id": "leo-white-house-end",
+          "name": "White house, end of the driveway",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "Where a white house's driveway ends."
+        },
+        {
+          "id": "leo-golf-cart-mansion",
+          "name": "Mansion with a golf cart",
+          "county": "leonard-county",
+          "area": "Around Leonard County",
+          "where": "In front of a mansion, next to a golf cart."
+        },
+        {
+          "id": "kel-end-of-road",
+          "name": "House at the end of the road",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Right of the last house on a road, outside its large white garage door."
+        },
+        {
+          "id": "kel-flag-garage",
+          "name": "Garage with a flag",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "On a backboard above a large white garage door. An American flag hangs above it."
+        },
+        {
+          "id": "kel-single-court-1",
+          "name": "Single court (1 of 2)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "A court on its own with a hoop at each end."
+        },
+        {
+          "id": "kel-single-court-2",
+          "name": "Single court (2 of 2)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "The other end of the same court."
+        },
+        {
+          "id": "kel-two-storey",
+          "name": "Two-storey house",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "On the driveway outside a two-storey house."
+        },
+        {
+          "id": "kel-side-driveway",
+          "name": "Side driveway",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Down the side of a house, on the driveway."
+        },
+        {
+          "id": "kel-twin-courts-1",
+          "name": "Twin courts (1 of 4)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Two courts next to each other, four hoops in all. This is the first."
+        },
+        {
+          "id": "kel-twin-courts-2",
+          "name": "Twin courts (2 of 4)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Same pair of courts."
+        },
+        {
+          "id": "kel-twin-courts-3",
+          "name": "Twin courts (3 of 4)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Same pair of courts."
+        },
+        {
+          "id": "kel-twin-courts-4",
+          "name": "Twin courts (4 of 4)",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "Same pair of courts."
+        },
+        {
+          "id": "pg-south",
+          "name": "South Port Gellhorn",
+          "county": "kelly-county",
+          "area": "Port Gellhorn",
+          "where": "In the south of Port Gellhorn. This is not the trailer park hoop, which is further north."
+        },
+        {
+          "id": "kel-state-prison",
+          "name": "Leonida State Prison",
+          "county": "kelly-county",
+          "area": "Around Kelly County",
+          "where": "In the yard of Leonida State Prison."
+        },
+        {
+          "id": "lum-greenhouse",
+          "name": "Greenhouse yard",
+          "county": "lummox-county",
+          "area": "Around Lummox County",
+          "where": "In a yard with greenhouses, in the far corner across from the garage."
+        },
+        {
+          "id": "lum-dog-house",
+          "name": "House with the dogs",
+          "county": "lummox-county",
+          "area": "Around Lummox County",
+          "where": "In the front garden of a house with a lot of dogs about."
+        },
+        {
+          "id": "lum-boatyard",
+          "name": "Boatyard",
+          "county": "lummox-county",
+          "area": "Around Lummox County",
+          "where": "In a boatyard, on the wall of a white building in the far corner, behind a white truck."
+        },
+        {
+          "id": "lum-red-shed",
+          "name": "Red roadside shed",
+          "county": "lummox-county",
+          "area": "Around Lummox County",
+          "where": "Inside a red shed at the side of the road, on the left wall as you walk in."
+        },
+        {
+          "id": "lum-sawmill",
+          "name": "Sawmill",
+          "county": "lummox-county",
+          "area": "Around Lummox County",
+          "where": "Fixed to the wall of a sawmill building."
         }
       ],
       "sources": [
@@ -2807,9 +3640,14 @@
           "label": "PowerPyx: All Basketball Hoop Locations",
           "url": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations",
           "note": "Read Nov 24, 2026 (published Nov 23 10:20, modified Nov 23 22:22 UTC). 100 hoops, 90 for 100%. County headings: Mariana 18, Vice-Dale 49 (covers the whole city incl. Ocean Beach, Washington Beach, Hamlet), Leonard 14, Kelly 14, Lummox 5. Every entry has a short description plus screenshots, but no area labels; only entries that name an area were added: #19 courtyard in Hamlet, #58 Ocean Beach park under big tree, #60-61 Washington Beach roof (heli). Clusters used in tips: #20-23 Hamlet Prison east/west courtyards (heli), #35-38 and #44-47 two courts under the highway, #55-57 roof courts, #70-73 Leonard park by small lake, #89-92 two Kelly courts, #95 Leonida State Prison yard. Matches ours: #8 Jason's house stairs, #88 Avery Allen & Co. Aviation Services. Not added: #94 south Port Gellhorn (may be our trailer park hoop), #78 Baller World and fire stations (no area). Trusted source."
+        },
+        {
+          "label": "PowerPyx: All Basketball Hoop Locations (full list)",
+          "url": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/",
+          "note": "Re-read Nov 26, 2026 (modified Nov 23 22:22 UTC). Trusted. Hauk asked for every mapped collectible, so all entries are in now, in our own words, 96 of 100. PowerPyx gives county headings only: hoops without an area sit under 'Around <county>', and city hoops (PowerPyx 'Vice-Dale' = whole city) have no county and area 'Vice City and Vice-Dale', so they show on the type page only. Game-Checklists (100 rows, Nov 25) was used to work out which PowerPyx entries are the Key Lento hoops we already had: left out #10/#16 (one is a Key Lento hoop), the eighth Key Lento hoop (Game-Checklists only: backyard opposite La Medusa) and #25/#54 (one is our Palladia Ln mansion). #93 = our trailer park hoop, #88 = Avery Allen."
         }
       ],
-      "updated": "2026-11-24"
+      "updated": "2026-11-26"
     }
   ]
 }

@@ -77,11 +77,12 @@
     </div>
     {%- endif %}
     <div{% if multi %} data-filter-list="col"{% endif %}>
-    {%- for c in db.collectibles.counties %}
-    {%- set here = t.items | where("county", c.slug) %}
+    {%- for c in t.byCounty %}
+    {%- set here = c.items %}
     {%- if here.length %}
     <div class="chapter"{% if multi %} data-filter-parent{% endif %}>
-      <h2 class="chapter-h"><a href="/collectibles/area/{{ c.slug }}/">{{ c.name }}</a><span>{{ here.length }}</span></h2>
+      <h2 class="chapter-h">{% if c.slug %}<a href="/collectibles/area/{{ c.slug }}/">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}<span>{{ here.length }}</span></h2>
+      {%- if not c.slug %}<p class="lede">These are in the city, but which neighbourhood each one is in isn't known yet, so they aren't on a county checklist.</p>{% endif %}
       <ul class="items">
         {%- for i in here %}
         {%- set key = "col:" + t.slug + ":" + i.id %}

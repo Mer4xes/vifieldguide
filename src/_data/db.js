@@ -63,6 +63,13 @@ export default function () {
       .filter((t) => t.count);
     return { ...c, order: i + 1, items, areas, byType };
   });
+  // Type pages: items grouped by county, plus one last group for items with no county yet
+  // (e.g. city hoops a source lists only as "Vice-Dale", which covers three of our counties).
+  for (const t of collectibles.types) {
+    t.byCounty = collectibles.counties.map((c) => ({ slug: c.slug, name: c.name, items: t.items.filter((i) => i.county === c.slug) }));
+    const loose = t.items.filter((i) => !i.county);
+    if (loose.length) t.byCounty.push({ slug: "", name: loose[0].area || "Not placed yet", items: loose });
+  }
   collectibles.liveCounties = collectibles.counties.filter((c) => c.items.length);
   // One page per fully mapped set (types[].setPages): items in in-game list order, grouped plan by county.
   const chNum = (w) => +(String(w || "").match(/\d+/) || [0])[0];
