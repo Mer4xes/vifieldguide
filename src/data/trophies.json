@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "source": {
   "label": "PSNProfiles: Grand Theft Auto VI trophies (synced from PSN)",
   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
@@ -316,9 +316,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "Finish Kenton's treasure-diving strand. It starts with Island Dreams in Chapter 1.",
-   "link": "/guides/side-contacts/#kenton",
-   "linkLabel": "Kenton and the shipwrecks"
+   "how": "Finish Kenton's treasure-diving strand. It starts with Island Dreams in Chapter 1. Jason clears three treasure sets and checks in at Kenton's shop, and in Chapter 3 Kenton calls with the job that earns this trophy.",
+   "link": "/guides/side-contacts/#kenton-jobs",
+   "linkLabel": "Kenton's jobs"
   },
   {
    "id": "the-lone-rider",
@@ -355,9 +355,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "Finish Randy's car strand. It starts in Chapter 3 with the Zorrusso job, which also gets you the key cloner.",
-   "link": "/guides/side-contacts/#randy",
-   "linkLabel": "Randy and the key cloner"
+   "how": "Finish Randy's car strand. It starts in Chapter 3 with the Zorrusso job, which also gets you the key cloner. Deliver his wish-list cars, do ¡Dale Mamba! along the way, then Mansion Thrax once the list is done; the trophy comes with the last job, Delivery Day.",
+   "link": "/guides/side-contacts/#randy-jobs",
+   "linkLabel": "Randy's jobs"
   },
   {
    "id": "spin-on-this",
@@ -663,7 +663,9 @@
     "open-world"
    ],
    "hidden": true,
-   "how": "From Chapter 2, go alone to the dirt roads north-west of the Starlet Motel in Kelly County after 2 AM. Look for a car at the roadside with its doors open and lights flashing (it isn't there every night: drive off and come back another night), follow the trail of clothes into the woods to the blue light, help the woman and head back to her car. The trophy pops when you're taken; the dream and the alien rescue that follow are optional.", "link": "/guides/mysteries/#aliens", "linkLabel": "The whole alien secret"
+   "how": "From Chapter 2, go alone to the dirt roads north-west of the Starlet Motel in Kelly County after 2 AM. Look for a car at the roadside with its doors open and lights flashing (it isn't there every night: drive off and come back another night), follow the trail of clothes into the woods to the blue light, help the woman and head back to her car. The trophy pops when you're taken; the dream and the alien rescue that follow are optional.",
+   "link": "/guides/mysteries/#aliens",
+   "linkLabel": "The whole alien secret"
   },
   {
    "id": "ten-pin",

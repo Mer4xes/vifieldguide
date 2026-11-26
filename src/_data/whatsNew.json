@@ -1,13 +1,22 @@
 [
  {
   "date": "2026-11-26",
+  "tag": "Side jobs",
+  "title": "Randy's car jobs and Kenton's last dive",
+  "text": "Randy's four jobs after the wish list with payouts and a tracker, when Advanced Tracker cars can be registered, Kenton's check-in and final job, and a new reward garage.",
+  "url": "/guides/side-contacts/#randy-jobs",
+  "img": "/assets/img/full/act-scuba.webp",
+  "pos": "50% 50%",
+  "cta": "Open Randy's jobs"
+ },
+ {
+  "date": "2026-11-26",
   "tag": "Stunts",
   "title": "All 202 under the bridge spots",
   "text": "Every bridge to fly under, by county, in the stunt checklist next to the jumps, knife flights and base jumps. Ticks count toward the 300 for 100%.",
   "url": "/guides/stunts/#bridge",
   "img": "/assets/img/full/act-heli.webp",
-  "pos": "50% 50%",
-  "cta": "Open the stunt checklist"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
@@ -62,14 +71,5 @@
   "url": "/collectibles/underwater-discoveries/",
   "img": "/assets/img/full/act-boats.webp",
   "pos": "50% 50%"
- },
- {
-  "date": "2026-11-25",
-  "tag": "Cars",
-  "title": "Randy's wish list, car by car",
-  "text": "All 20 high-end cars Randy wants, where to find nine of them, how to bring them in clean, plus how nitrous works.",
-  "url": "/guides/side-contacts/#randy-list",
-  "img": "/assets/img/full/act-carmeet.webp",
-  "pos": "38% 60%"
  }
 ]

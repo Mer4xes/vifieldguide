@@ -1,7 +1,9 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "sources": [
     { "label": "PowerPyx: GTA 6 All Garage Locations", "url": "https://www.powerpyx.com/gta-6-all-garage-locations/", "note": "Read Nov 24, 2026 via ?p=370534 (published Nov 18, modified Nov 22 20:32 UTC). Trusted. 13 garages: 8 bought in Vice City Real Estate after Daily Driver, 4 story rewards, 1 collectible reward (Southside Storage, 1010 Murals). Names, prices, parking spots, unlock missions. No areas. Page says 18 slots max (16 garages + 2 personal vehicles), but its own per-garage numbers add up to 17, so no total is shown. Spells 'Vela Rota Driver Garage'; every other source says Drive." },
+    { "label": "PowerPyx: GTA 6 All Garage Locations (update)", "url": "https://www.powerpyx.com/gta-6-all-garage-locations/", "note": "Read Nov 26, 2026 (modified Nov 26 00:24 UTC). Trusted. Now 14 garages: adds #14 Domestic Timbers, 1 spot, reward for finishing Randy's questline (Wish List > Dale Mamba > Mansion Thrax > Delivery Day), given with the Tempesta. No area on this page; Balsero from PowerPyx Collect the Tempesta (marked garage in Balsero). Page now says 20 slots = 18 from garages + 2 personal vehicles, which matches its per-garage spots (8 + 1 + 2 + 2 + 3 + 1 + 1 = 18)." },
+    { "label": "PowerPyx: GTA 6 Collect the Tempesta Walkthrough", "url": "https://www.powerpyx.com/gta-6-collect-the-tempesta-walkthrough", "note": "Read Nov 26, 2026 (published 00:26 UTC). Trusted. After Delivery Day Randy texts about an extra reward; marked garage in Balsero; Raul's Tempesta from Meet the Heders; sell ~$27,150 (good condition) or register $11,600; unlocks Domestic Timbers, 1 spot." },
     { "label": "Beebom: All GTA 6 garage locations and their prices", "url": "https://beebom.com/gta-6-garage-locations/", "note": "Nov 19, 2026. Same 8 + 4 with the same prices and unlocks; areas for each; Paradise and Shore Court as edition bonuses." },
     { "label": "Playnews: Garages GTA 6", "url": "https://www.playnews.gg/guides/garages-gta-6-ou-les-trouver-sur-la-carte-de-leonida-et-a-quel-prix", "note": "Nov 18, 2026. Areas for the 8 purchasable garages agree with Beebom (its Persistence Road and Vela Rota prices differ; PowerPyx's prices used)." },
     { "label": "Critical Hits: GTA 6 garagens", "url": "https://criticalhits.com.br/dicas/gta-6-localizacao-e-precos-das-garagens", "note": "Nov 19, 2026. Areas for all 14 incl. story garages (Thompson Court Ocean Beach, NE 15th Street Stockyard, Pegassi Residences Tequesta Retreat) agree with Beebom; prices agree with PowerPyx." },
@@ -11,7 +13,7 @@
   "groups": [
     { "id": "buy", "n": "Bought in the Vice City Real Estate app", "lede": "8 garages · $160,000 · Little Boxes" },
     { "id": "story", "n": "Given by the story", "lede": "4 garages · free" },
-    { "id": "reward", "n": "Collectible reward", "lede": "1 garage · free" },
+    { "id": "reward", "n": "Rewards", "lede": "2 garages · free" },
     { "id": "bonus", "n": "Edition bonuses", "lede": "2 garages · only with that edition or pack" }
   ],
   "items": [
@@ -28,6 +30,7 @@
     { "id": "ne-15th-street", "group": "story", "name": "NE 15th Street Garage", "spots": 2, "county": "Vice City", "area": "Stockyard", "unlock": "mission 91", "u": "/walkthrough/operation-savage-glory/", "chapter": "Chapter 5" },
     { "id": "pegassi-residences", "group": "story", "name": "Pegassi Residences Garage", "spots": 3, "county": "Vice City", "area": "Tequesta Retreat", "unlock": "mission 91", "u": "/walkthrough/operation-savage-glory/", "chapter": "Chapter 5", "note": "The most spaces of any garage on this list." },
     { "id": "southside-storage", "group": "reward", "name": "Southside Storage", "spots": 1, "county": "Vice City", "area": "South tip of Salton", "unlock": "all five 1010 Murals", "u": "/collectibles/1010-murals/", "note": "Locked with a keypad: the code is **1010**. The 1010 Cheetah is parked inside; register it to keep it, or sell it." },
+    { "id": "domestic-timbers", "group": "reward", "name": "Domestic Timbers", "spots": 1, "county": "Vice-Dale County", "area": "Balsero, near Randy's dealership", "unlock": "Randy's last job", "u": "/guides/side-contacts/#randy-jobs", "chapter": "Chapter 3", "note": "Randy leaves Raul's old **Pegassi Tempesta** in it for you. Sell the car for about $27,150 or register it for $11,600; the garage is yours either way." },
     { "id": "paradise-garage", "group": "bonus", "name": "Paradise Garage", "county": "Mariana County", "area": "Watson Bay", "unlock": "Ultimate Edition", "u": "/guides/launch-guide/#editions", "note": "Comes with the '67 Vapid Dominator Buggy, a weapon locker and a stash for fencing." },
     { "id": "shore-court", "group": "bonus", "name": "Shore Court Garage", "area": "Shore Drive, near Ocean Beach", "unlock": "Vintage Vice City Pack", "u": "/guides/launch-guide/#editions", "note": "The pre-order pack for anything bought before November 20. Comes with the '55 Vapid Stanier, a weapon locker and a stash for fencing." }
   ]

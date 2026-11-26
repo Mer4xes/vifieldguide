@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -119,7 +119,7 @@ The **key cloner** opens and starts **keyless** high-end cars, the ones the slim
 
 > **Watch out:** Cars that need the cloner often carry an **Advanced Tracker**, which tells the police where you are as soon as you slow down. Keep your speed up, or look for a car with a Standard Tracker or none. A car with a Standard Tracker can't be modded until you register it.
 
-With the cloner, Randy's **wish list** opens: a set of **high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. Every car on the list, and the ones with a fixed spot, are in the [wish-list checklist](/guides/side-contacts/#randy-list). His last job earns **Supply & Demand** ([Randy on side contacts](/guides/side-contacts/#randy)).
+With the cloner, Randy's **wish list** opens: a set of **high-end sports cars** that turn up around Vice City. Delivered in perfect condition they pay $30,000 or more each, so drive them in carefully. Every car on the list, and the ones with a fixed spot, are in the [wish-list checklist](/guides/side-contacts/#randy-list). Randy's own jobs pay well on top: **¡Dale Mamba!** $12,110 plus a bonus for condition, **Mansion Thrax** $31,510 and **Delivery Day** $25,000, and then he gives you Raul's Tempesta, worth about $27,150 if you sell it. The last job earns **Supply & Demand** ([Randy's jobs](/guides/side-contacts/#randy-jobs)).
 
 <h2 id="jewelry">Jewelry stores</h2>
 

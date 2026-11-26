@@ -8,7 +8,7 @@ summary: Getting into a car, what its tracker means, how to make it yours, and h
 order: 4
 glow: cyan
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 facts:
   - { k: Personal vehicle, v: "One each for Jason and Lucia", status: Reported }
   - { k: First registered car, v: "Chapter 2, Moses", status: Reported }
@@ -28,6 +28,8 @@ faq:
     a: "Use the Scooter Bros app on your phone. It delivers any registered vehicle to you and takes the one you don't want back to storage, recovers a destroyed personal vehicle, and gets one out of the police impound. Every one of those costs money, and the impound is the expensive one."
   - q: "Why was my car impounded in GTA 6?"
     a: "Ditching a car to shake off a wanted level clears its heat, but the police usually tow it. Being wasted or busted while you're in your personal vehicle also sends it to the impound. The map index shows where it is under Personal."
+  - q: "When can you register Advanced Tracker cars in GTA 6?"
+    a: "After Randy's Chapter 3 job ¡Dale Mamba!, which he offers once you've delivered about five cars from his wish list. Before that, only cars with no tracker (at Moses) and with a Standard Tracker (at a Pay 'n' Spray) can be registered."
   - q: "What does a tracker do in GTA 6?"
     a: "A **Standard Tracker** means you can't modify the car until it's registered to you. An **Advanced Tracker**, common on high-end cars, also tells the police where you are unless you're driving fast. Moses only buys cars with no tracker at all."
   - q: "How do you use nitrous in GTA 6?"
@@ -89,7 +91,7 @@ Before you touch a car, scan it with the **WAiNK** app (hold up on the D-pad). T
 | **None** | [Moses](/guides/fences/#cars) in Port Gellhorn, from Chapter 2 | At Moses, from Chapter 2 |
 | **Standard** | Any Pay 'n' Spray, from Chapter 3 | At a Pay 'n' Spray, after [Welcome to Vice City](/walkthrough/welcome-to-vice-city/) |
 
-Cars with an **Advanced Tracker** can be registered or sold at a Pay 'n' Spray too, but only once you're far enough into the story. We don't have the exact point yet.
+Cars with an **Advanced Tracker** can be registered and sold too, once you've finished Randy's job **¡Dale Mamba!** in Chapter 3. Randy offers it after you've delivered about five cars from his wish list; you don't need the whole list. [Randy's jobs](/guides/side-contacts/#randy-jobs).
 
 Randy at his dealership in Balsero buys stolen cars too, from [Car Service](/walkthrough/car-service/) in Chapter 3. What pays best, chapter by chapter, is in the [money guide](/guides/money/#cars).
 
@@ -102,7 +104,7 @@ Randy at his dealership in Balsero buys stolen cars too, from [Car Service](/wal
 | **Trunk** | Carries things, and is cleared if you're wasted or busted | Stores your gear, swaps your loadout and changes your outfit |
 | **Mods** | Not while it has a tracker | Yes |
 
-**Registering a car** makes it yours. Lucia's first one is in [Moses](/walkthrough/moses/): respray a car at his garage and register it in her name. From [Welcome to Vice City](/walkthrough/welcome-to-vice-city/) on you can drive a car into any **Pay 'n' Spray** and register it there; the fee depends on the make and model. At first only cars without a tracker can be registered; Standard Tracker cars follow after Welcome to Vice City, and Advanced Tracker cars later still.
+**Registering a car** makes it yours. Lucia's first one is in [Moses](/walkthrough/moses/): respray a car at his garage and register it in her name. From [Welcome to Vice City](/walkthrough/welcome-to-vice-city/) on you can drive a car into any **Pay 'n' Spray** and register it there; the fee depends on the make and model. At first only cars without a tracker can be registered; Standard Tracker cars follow after Welcome to Vice City, and Advanced Tracker cars after Randy's ¡Dale Mamba!.
 
 **Jason and Lucia each have one personal vehicle at a time.** To keep more cars in their names you need room to store them. Moses gives Lucia a free garage in Port Gellhorn after [Daily Driver](/walkthrough/daily-driver/), and the Vice City Real Estate app sells eight more; the story and the [1010 Murals](/collectibles/1010-murals/) add others. Every one is on the [garage list](/guides/garages/).
 

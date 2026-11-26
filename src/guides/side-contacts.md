@@ -67,6 +67,10 @@ faq:
     a: "Seven, with 41 pieces between them, and the 100% checklist needs five. Five sets are on shipwrecks around Key Lento and count as underwater discoveries too; Belpoint Strait and the Bobcat Dive Site are open dive sites that don't. They open in stages: three after Island Dreams, three more once Kenton calls you to check in with him, and the last after his Chapter 3 job."
   - q: "Who is Randy in GTA 6?"
     a: "Randy Kozlov is a car fence with a dealership in Balsero. Lucia meets him in Chapter 3 when she delivers a car for Raul in Car Service. His first own job is a Zorrusso, which gets you the key cloner for locked high-end cars. His final mission earns Supply & Demand."
+  - q: "How do you finish Randy's missions in GTA 6?"
+    a: "Deliver cars from his wish list. After about five he gives you ¡Dale Mamba! (a Mamba GT in Leaf Links, $12,110), which also lets you register Advanced Tracker cars. When the whole list is in he sends you after a Truffade Thrax on Dalton Island (Mansion Thrax, $31,510). Then Delivery Day ($25,000) ends the strand with Supply & Demand, and Randy leaves you Raul's Tempesta in the Domestic Timbers garage."
+  - q: "When does Kenton's last mission start in GTA 6?"
+    a: "In Chapter 3. Jason needs at least three of Kenton's treasure sets done and the check-in at his shop that follows them; Kenton then gets back in touch, and the job starts at his shop in Key Lento. It earns This Was No Boat Accident and opens his seventh dive site."
   - q: "Which cars are on Randy's wish list in GTA 6?"
     a: "High-end sports and luxury cars: the Zorrusso, Coquette D10, Vitello, Infernus, Windsor Drop, Itali RSX, Jugular, Banshee, Growler, Paragon, Dubsta, Gauntlet Hellfire, Jubilee, Baller ST-D, Carbonizzare, Tempesta, Toros, Neon, Piccia Furia and Cypher. The list is on the map under Robberies, and Randy points you to the next car after each delivery."
   - q: "Where is the Infernus for Randy in GTA 6?"
@@ -145,6 +149,27 @@ sources:
   - label: "PowerPyx: Catch A Bigger Fish (Cal)"
     url: "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/"
     note: "Read Nov 22, 2026 (published/modified Nov 19, full page text). Mariana County > Gambit Bay, giver Cal, requires Feng Shui (Ch1), Jason, reward Focus increase + Baited My Tackle. Steal a boat (Jason's boat gone after Ch1; docks near The Rusty Anchor), anchor from the vehicle menu, rod in bottom-right slot, Small Saltwater Lure, stoplight parrotfish over 2 lbs, send to Cal with X/A. Author's reply in comments: disappears for a while in the story, comes back, doable after the story. Only Cal entry in PowerPyx's side-mission list. Trusted source."
+  - label: "PowerPyx: Dale Mamba (Steal the Declasse Mamba GT)"
+    url: "https://www.powerpyx.com/gta-6-dale-mamba-steal-the-declasse-mamba-gt-walkthrough"
+    note: "Read Nov 26, 2026 (published Nov 25 20:56, modified Nov 26 00:28 UTC). Trusted. Optional, Chapter 3, Randy, Lucia/Jason, Vice Beach > Leaf Links; after about 5 wish-list cars Randy calls; $12,110 + condition bonus; Advanced Tracker cars can now be registered and sold; mansion at the south end of the area, guards (grab/melee), car in the driveway on the right before the main house, owner in the living room, key in the red tray behind the couch; deliver to Leonida Auto World. Order: Wish List > Dale Mamba > Mansion Thrax > Delivery Day > Collect the Tempesta."
+  - label: "PowerPyx: Mansion Thrax (Steal the Truffade Thrax)"
+    url: "https://www.powerpyx.com/gta-6-mansion-thrax-steal-the-truffade-thrax-walkthrough"
+    note: "Read Nov 26, 2026 (published Nov 25 22:26, modified Nov 26 00:28 UTC). Trusted. Needs the whole wish list (all other cars) and Dale Mamba; Randy calls about a day later; Vice Beach > Dalton Island, call Randy from the Dalton Island Club; ferry, boat or heli; car on the west side by the SPA SPLENDIDO arch, in the car park; black-suit security reports you, security + police; ferry on the north of the island, small roadblock if spotted; police at the ferry dock, lose them; deliver to marked garage (not named); $31,510."
+  - label: "PowerPyx: Delivery Day (Meet Randy)"
+    url: "https://www.powerpyx.com/gta-6-delivery-day-meet-randy-walkthrough"
+    note: "Read Nov 26, 2026 (published 00:03, modified 00:28 UTC). Trusted. After Mansion Thrax and the full wish list, Randy contacts you within a day; showroom in Balsero; Lucia/Jason; $25,000 + Supply & Demand; pick the Mamba or the Thrax, partner rides with Randy; follow (hold accelerate); gang members in vehicles, swap to the partner with Randy, SMG; Randy drives to the port, questline done."
+  - label: "PowerPyx: Collect the Tempesta"
+    url: "https://www.powerpyx.com/gta-6-collect-the-tempesta-walkthrough"
+    note: "Read Nov 26, 2026 (published 00:26 UTC). Trusted. After Delivery Day; Randy's gift; marked garage in Balsero; Raul's Tempesta from Meet the Heders; sell ~$27,150 (good condition) or register $11,600; unlocks Domestic Timbers garage, 1 spot."
+  - label: "PowerPyx: How to Register Advanced Tracker Cars"
+    url: "https://www.powerpyx.com/gta-6-how-to-register-advanced-tracker-cars"
+    note: "Read Nov 26, 2026 (published Nov 25 22:36 UTC). No tracker: after Moses (Ch2), at Moses' garage; Standard: early Chapter 3, any Pay 'n' Spray; Advanced: after Dale Mamba (5-7 wish-list cars first; the whole list isn't needed). No place or price for Advanced given."
+  - label: "PowerPyx: Check in with Kenton"
+    url: "https://www.powerpyx.com/gta-6-check-in-with-kenton-walkthrough/"
+    note: "Read Nov 26, 2026 (published 04:49 UTC). Trusted. Optional, Chapter 1, Key Lento, Jason; needs 3 Kenton sets; a cutscene at the shop; Kenton later marks the next 3 dive sites."
+  - label: "PowerPyx: Kenton's Chapter 3 job (Stop by Kenton's Shop)"
+    url: "https://www.powerpyx.com/gta-6-maritime-dispute-stop-by-kentons-shop-walkthrough"
+    note: "Read Nov 26, 2026 (published 04:50, modified 05:37 UTC). Trusted. Optional, Chapter 3, Kenton, Jason, Key Lento; needs 3 sets + the check-in; Kenton unavailable in Chapter 2, contacts Jason in Chapter 3. 13 objectives: Gambit Bay, find the cargo ship (binoculars), board, scuba from the platform, plane in a seabed valley south (detector, right turns, under a rock formation), balloons on crates, explosion then quick prompt for a spear gun, two divers on the way back, opening in the side, assault rifle on the left (no normal weapons), along the side to cargo bay D (through the middle where blocked), door left of the D wall, rescue Kenton, exit, surface. Reward: This Was No Boat Accident; no cash stated. PowerPyx names it Maritime Dispute, Push Square Maritime Disputes, so the site doesn't name it."
   - label: "PowerPyx: All Kenton Sets Locations (Search the Dive Sites)"
     url: "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites"
     note: "Read Nov 26, 2026 (published 04:48, modified 05:39 UTC). Trusted. 7 sets / shipwrecks, 5-7 treasures each, 41 in all; at least 5 for 100%; purple chest icons after Island Dreams, the first wreck in that mission doesn't count; icons show progress per site; after the first 3 sets Kenton calls (Check in With Kenton) and opens the next 3; the 7th after Maritime Dispute (Chapter 3); boat + scuba + metal detector from the item wheel; Progress > Contacts > Kenton Rees > Shipwrecks Cleared; sell treasures to Kenton. Set names and pieces match ours. Bobcat Dive Site on the Mariana coast, further west; tip: boats with scuba gear at Watson Bay or Capri. No reward for all sets stated."
@@ -508,6 +533,21 @@ The first wreck, **Nuestra Señora Del Ocio**, is part of Island Dreams: pick up
 
 > **Tip:** All seven are in Mariana County, so dive whatever is open in Chapter 1 while Key Lento is home. Kenton leaves the map when the chapter ends; when he's back later, carry on where you stopped.
 
+<h3 id="kenton-jobs">Kenton's jobs</h3>
+
+<ol class="strand">
+<li><div class="strand-h">Check in with Kenton <span class="chip plain">Chapter 1</span> <span class="flag">Jason</span></div><span class="strand-pay">3 more sites</span><p>Once you've finished the first three sets, Kenton asks Jason to stop by his shop in Key Lento. It's a short scene and nothing more; a while later he gets back in touch and marks the next three dive sites.</p></li>
+<li><div class="strand-h">His last job <span class="chip plain">Chapter 3</span> <span class="flag">Jason</span></div><span class="strand-pay">Trophy + 7th site</span><p>Kenton isn't around in Chapter 2. Some way into Chapter 3 he contacts Jason again; go to his shop in Key Lento to start. You need at least three sets done and the check-in above. Most of it is underwater, and on the ship you start without your own guns. Finishing it earns <b>This Was No Boat Accident</b> and opens the seventh treasure set.</p>
+<details class="spoiler"><summary><span class="sp-tag">Spoiler</span><span class="sp-what">Step by step</span><span class="sp-hint">Tap to reveal</span></summary><div class="sp-body"><ol>
+<li>Take Kenton's boat out toward Gambit Bay. About halfway the job moves on by itself, and Jason spots a cargo ship through binoculars. The boat pulls up alongside; climb the ladder.</li>
+<li>After the scene on deck, climb back down, put on the scuba gear on the platform and jump in.</li>
+<li>Swim down and south into a valley in the seabed. The metal detector points you to the pieces of a sunken plane: follow the valley, keep turning right and swim under the rock formation to reach it.</li>
+<li>Fix a balloon to each marked crate while gang divers close in. When the explosion comes, press the prompt quickly to take out a diver and take his spear gun. Two more divers wait on the swim back.</li>
+<li>Climb in through the opening in the ship's side. You have no guns, so grab the assault rifle on the left before the stairs. Work along the side of the ship toward cargo bay D, with enemies jumping out from cover; where the way is blocked, cut through the middle to the other side.</li>
+<li>At the wall marked D, turn left and use the door. Clear the room, reach Kenton and follow him to the exit, then hold the swim button to surface. A scene takes you back to dry land.</li>
+</ol></div></details></li>
+</ol>
+
 <h2 id="randy">Randy and the key cloner</h2>
 
 Randy wants specific cars. Lucia meets him in [Car Service](/walkthrough/car-service/), when she drops off Raul's Schafter at his dealership in Balsero, and from then on he buys stolen cars ([fences](/guides/fences/)). His first own job in Chapter 3, **[Clonin' Keys, Makin' GS](/walkthrough/steal-the-zorrusso-for-randy/)**, has you steal a Zorrusso, and the **key cloner** unlocks on your phone as it starts. The cloner opens and starts keyless high-end cars, and it opens Randy's wish list of high-end cars that pay well in perfect condition. How to use it, and what to watch for with trackers, is in the [money guide](/guides/money/#key-cloner). His last mission earns **Supply & Demand**.
@@ -555,7 +595,21 @@ The list sits on the map under **Robberies → Randy's Wish List**. Every car on
 
 > **Note:** These are the 20 cars we can place on Randy's list. The spots shown are the ones where you can count on finding the car; the rest move around, so ask Randy.
 
-> **Tip:** Once you've delivered a good part of the list, Randy adds a job of his own, **¡Dale Mamba!**, for a Mamba GT kept at a guarded mansion in Leaf Links, Vice Beach. Its key is inside the main house, behind the pool. Ultimate Edition owners can also rebuild one for [Wyman](/guides/classic-cars/#mamba-gt).
+<h3 id="randy-jobs">Randy's own jobs</h3>
+
+Alongside the list Randy has three jobs of his own, then a gift. Jason or Lucia can take any of them, and they come in this order:
+
+<div class="progress" data-progress="randyjob:" data-total="4">
+<div class="row"><span class="lab">Randy's jobs done</span><span class="pct"><span data-done>0</span> / 4 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+<label class="tr" data-track-row for="rj-mamba"><input class="cb" type="checkbox" id="rj-mamba" data-track="randyjob:mamba"><div class="body"><div class="name">1. ¡Dale Mamba!</div><div class="desc"><b>After about five cars.</b> Randy calls once you've delivered around five cars from the list. The pay is $12,110 plus a bonus for the car's condition. The Mamba GT sits in the driveway of a guarded mansion at the south end of Leaf Links, Vice Beach; call Randy when you get there. This one needs its real key: it's in a red tray behind the couch in the main house's living room, where the owner stands. The grounds are full of guards, so grab or knock them out quietly; the owner can be ignored or knocked out too. Take the key, get out to the driveway fast and deliver the car to Randy's Leonida Auto World. Finishing it also means you can now <a href="/guides/cars/#trackers">register and sell Advanced Tracker cars</a>. Ultimate Edition owners can also rebuild a Mamba GT for <a href="/guides/classic-cars/#mamba-gt">Wyman</a>.</div></div><div class="side"><span class="need">$12,110+</span></div></label>
+<label class="tr" data-track-row for="rj-thrax"><input class="cb" type="checkbox" id="rj-thrax" data-track="randyjob:thrax"><div class="body"><div class="name">2. Mansion Thrax</div><div class="desc"><b>After the whole list.</b> Once every other car on the list is delivered, Randy calls about a day later: he has found a Truffade Thrax on <b>Dalton Island</b>. Get over by ferry, boat or helicopter and call him from the club. The car is in the car park on the west side, by the section with the Spa Splendido arch. The men in black suits are the owner's security: if they see you they raise the alarm and security and police join in, so knock out the ones nearby before you take the car. Drive to the ferry on the north side of the island (if you were seen there's a small roadblock; drive straight through), lose the police waiting at the other end, then take the Thrax to the marked garage.</div></div><div class="side"><span class="need">$31,510</span></div></label>
+<label class="tr" data-track-row for="rj-delivery"><input class="cb" type="checkbox" id="rj-delivery" data-track="randyjob:delivery"><div class="body"><div class="name">3. Delivery Day</div><div class="desc">Randy is ready to ship the cars out and wants a hand at his showroom in Balsero. Take the Mamba or the Thrax while your partner rides with Randy in the other, and follow him (just hold the accelerator to keep up). When gang members come after you in cars, you switch to the partner beside Randy, who has an SMG: shoot the attackers until they stop coming. Randy drives on to the port and the strand is done, which earns <b>Supply &amp; Demand</b>.</div></div><div class="side"><span class="need">$25,000</span></div></label>
+<label class="tr" data-track-row for="rj-tempesta"><input class="cb" type="checkbox" id="rj-tempesta" data-track="randyjob:tempesta"><div class="body"><div class="name">4. Collect the Tempesta</div><div class="desc"><b>Randy's gift.</b> Shortly after Delivery Day Randy texts that he has left you something. At the marked garage in Balsero is the Pegassi Tempesta you once stole for Raul in <a href="/walkthrough/meet-the-heders/">Meet the Heders</a>. Sell it for about $27,150 in good condition or register it for $11,600. Either way the garage, <a href="/guides/garages/#domestic-timbers">Domestic Timbers</a> (one space), is now yours.</div></div><div class="side"><span class="need">Car + garage</span></div></label>
+</div>
 
 <h2 id="tyrone">Tyrone and the Kitty Litter labs</h2>
 

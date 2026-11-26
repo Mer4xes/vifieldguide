@@ -627,7 +627,7 @@
       {
        "k": "kenton-back",
        "tag": "collect",
-       "t": "**Kenton is back.** Carry on diving; his job this chapter opens the seventh treasure set."
+       "t": "**Kenton is back.** Carry on diving. With three sets done and the check-in at his shop behind you, he calls Jason with his last job, which opens the seventh treasure set. [Kenton's jobs](/guides/side-contacts/#kenton-jobs)."
       },
       {
        "c": "exploration:underwater-discoveries",
@@ -852,6 +852,18 @@
        "k": "randy-list",
        "tag": "side",
        "t": "**Randy's wish list.** High-end sports cars: scan a car with WAiNK to see if it is on the list, then deliver it to his garage (green RK icon, west Vice City). Vice Beach and Ocean Beach are good hunting grounds, and Randy points you to the next car after each delivery. The Vitello (Waning Sands) and Infernus (Crosstown police car park) have fixed spots. [Wish-list checklist](/guides/side-contacts/#randy-list)."
+      },
+      {
+       "k": "randy-mamba",
+       "tag": "side",
+       "track": "randyjob:mamba",
+       "t": "**¡Dale Mamba!** Randy calls after about five wish-list cars: a Mamba GT behind a guarded mansion in Leaf Links, with its key inside. Finishing it lets you register and sell cars with an Advanced Tracker. [Randy's jobs](/guides/side-contacts/#randy-jobs)."
+      },
+      {
+       "k": "randy-end",
+       "tag": "side",
+       "track": "randyjob:tempesta",
+       "t": "**Randy's last jobs.** Once the whole wish list is in: Mansion Thrax (a car on Dalton Island), then Delivery Day, then Randy leaves you the Tempesta and the Domestic Timbers garage in Balsero. [Randy's jobs](/guides/side-contacts/#randy-jobs)."
       },
       {
        "k": "mall-rats",

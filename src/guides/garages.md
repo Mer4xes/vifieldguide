@@ -3,25 +3,27 @@ title: Garages
 headline: Every Garage, Price and Parking Space
 kicker: Cars
 seoTitle: "GTA 6 Garages: All Locations, Prices and Parking Spaces"
-description: "Every GTA 6 garage: the 8 you buy in the Vice City Real Estate app ($160,000 for Little Boxes), the 4 the story gives you, the Southside Storage reward and the two edition bonus garages, with areas, prices and spaces."
-summary: All 15 garages in one list. The eight you buy for Little Boxes, cheapest first, the four the story hands you, the secret one behind a keypad and the two that come with an edition, with where each one is and how many cars it holds.
+description: "Every GTA 6 garage: the 8 you buy in the Vice City Real Estate app ($160,000 for Little Boxes), the 4 the story gives you, the Southside Storage and Domestic Timbers rewards and the two edition bonus garages, with areas, prices and spaces."
+summary: All 16 garages in one list. The eight you buy for Little Boxes, cheapest first, the four the story hands you, the secret one behind a keypad, Randy's thank-you garage and the two that come with an edition, with where each one is and how many cars it holds.
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-25
+updated: 2026-11-26
 facts:
   - { k: To buy, v: "8", status: Reported }
   - { k: All 8 cost, v: "$160,000", status: Reported }
-  - { k: Free, v: "5 + 2 bonus", status: Reported }
+  - { k: Free, v: "6 + 2 bonus", status: Reported }
+  - { k: Spaces in all, v: "18 + 2 outside", status: Reported }
   - { k: Buy them in, v: "Vice City Real Estate", status: Reported }
 tldr:
   - "**Eight garages are for sale** in the **Vice City Real Estate** app, which Lucia gets soon after [Daily Driver](/walkthrough/daily-driver/) in Chapter 2. They cost **$160,000** together, from $4,000 to $40,000, and each holds one car. Buying all eight earns [Little Boxes](/trophies/little-boxes/)."
   - "**The story gives you four more:** Port Gellhorn Station after Daily Driver, Thompson Court after Company Cars, and NE 15th Street and Pegassi Residences after mission 91 in Chapter 5. They hold one, two, two and three cars."
   - "**Southside Storage** is the reward for photographing all five [1010 Murals](/collectibles/1010-murals/). The keypad code is **1010**, and the 1010 Cheetah is waiting inside."
+  - "**Domestic Timbers** in Balsero is Randy's thank-you once his car jobs are done, with Raul's old Pegassi Tempesta parked inside. [Randy's jobs](/guides/side-contacts/#randy-jobs)."
   - "Garage space is what lets you [register more cars](/guides/cars/#personal) in Jason's and Lucia's names, and [On the Spot](/trophies/on-the-spot/) wants 10 registered vehicles."
 faq:
   - q: "How many garages are there in GTA 6?"
-    a: "13 for everyone: 8 you buy in the Vice City Real Estate app, 4 the story gives you and Southside Storage, the reward for the 1010 Murals. The Ultimate Edition adds Paradise Garage in Watson Bay and the Vintage Vice City Pack adds the Shore Court garage near Ocean Beach."
+    a: "14 for everyone: 8 you buy in the Vice City Real Estate app, 4 the story gives you, Southside Storage (the reward for the 1010 Murals) and Domestic Timbers (the reward for finishing Randy's car jobs). The Ultimate Edition adds Paradise Garage in Watson Bay and the Vintage Vice City Pack adds the Shore Court garage near Ocean Beach."
   - q: "How do you buy a garage in GTA 6?"
     a: "Through the Vice City Real Estate app on the phone. It's installed shortly after the Chapter 2 mission Daily Driver, when Moses also gives Lucia a garage in Port Gellhorn for free. All eight garages for sale are listed in the app."
   - q: "How much do all the garages cost in GTA 6?"
@@ -34,14 +36,16 @@ faq:
     a: "1010. The garage is at the south tip of Salton and is marked on your map once you've photographed all five 1010 Murals. The 1010 Cheetah is inside; register it to keep it, or sell it."
   - q: "Which GTA 6 garage holds the most cars?"
     a: "Pegassi Residences, with three spaces, which the story gives you after mission 91 in Chapter 5. Thompson Court and NE 15th Street hold two each; every garage you can buy holds one."
+  - q: "How many cars can you store in GTA 6?"
+    a: "18 in garages once you own all 14 that everyone can get: one each in the eight you buy, Port Gellhorn Station, Southside Storage and Domestic Timbers, two each at Thompson Court and NE 15th Street, and three at Pegassi Residences. Jason's and Lucia's personal vehicles parked outside make it 20. The edition bonus garages add more on top."
 sources:
-  - { label: "Garage data", url: "/guides/garages/", note: "See src/_data/garages.json for every source and what was taken from it. Read Nov 24, 2026." }
+  - { label: "Garage data", url: "/guides/garages/", note: "See src/_data/garages.json for every source and what was taken from it. Read Nov 24 and Nov 26, 2026." }
 ---
 
 <div class="chal-cats rob-cats">
 <a class="chal-cat" href="#buy" data-progress="garage:buy:" data-total="8"><span class="lab">Little Boxes</span><span class="pct"><span data-done>0</span>/8 bought</span><span class="bar"><i></i></span></a>
 <a class="chal-cat" href="#story" data-progress="garage:story:" data-total="4"><span class="lab">Story garages</span><span class="pct"><span data-done>0</span>/4</span><span class="bar"><i></i></span></a>
-<a class="chal-cat" href="#reward" data-progress="garage:reward:" data-total="1"><span class="lab">Southside Storage</span><span class="pct"><span data-done>0</span>/1</span><span class="bar"><i></i></span></a>
+<a class="chal-cat" href="#reward" data-progress="garage:reward:" data-total="2"><span class="lab">Rewards</span><span class="pct"><span data-done>0</span>/2</span><span class="bar"><i></i></span></a>
 </div>
 
 <h2 id="compare">The eight for sale, side by side</h2>
@@ -77,7 +81,7 @@ sources:
 {%- elif gr.id == "story" %}
 <p class="stunt-how">These are handed to you as you play; you don't buy them and they don't count for Little Boxes. Three of the four come late, in Chapters 4 and 5, so plan your garage space for <a href="/trophies/on-the-spot/">On the Spot</a> with the ones you buy.</p>
 {%- elif gr.id == "reward" %}
-<p class="stunt-how">Photograph all five <a href="/collectibles/1010-murals/">1010 Murals</a> and this garage is marked on the map. It doesn't count for Little Boxes.</p>
+<p class="stunt-how">Earned, not bought: one for photographing all five <a href="/collectibles/1010-murals/">1010 Murals</a>, one for finishing <a href="/guides/side-contacts/#randy-jobs">Randy's car jobs</a>. Neither counts for Little Boxes.</p>
 {%- else %}
 <p class="stunt-how">Only if you have the <a href="/guides/launch-guide/#editions">Ultimate Edition or the Vintage Vice City Pack</a>. Each comes with its own car, a weapon locker and a stash for <a href="/guides/fences/">fencing</a>.</p>
 {%- endif %}
@@ -86,7 +90,7 @@ sources:
 {%- if gr.id == "bonus" %}
 <div class="tr gar-bonus" id="{{ g.id }}" data-tags="{{ gr.id }}"><div class="body"><div class="name">{{ g.name }}</div><div class="desc">{{ g.area }}{% if g.county %} · {{ g.county }}{% endif %}. With the <a href="{{ g.u }}">{{ g.unlock }}</a>. {{ g.note | md | safe }}</div></div><div class="side"><span class="need">Bonus</span></div></div>
 {%- else %}
-<label class="tr" data-track-row id="{{ g.id }}" for="gar-{{ g.id }}" data-tags="{{ gr.id }}"><input class="cb" type="checkbox" id="gar-{{ g.id }}" data-track="garage:{{ gr.id }}:{{ g.id }}" aria-label="Mark {{ g.name }} owned"><div class="body"><div class="name">{{ g.name }}</div><div class="desc">{{ g.area }} · {{ g.county }}. {{ g.spots }} space{% if g.spots > 1 %}s{% endif %}.{% if g.unlock %} After <a href="{{ g.u }}">{{ g.unlock }}</a>{% if g.chapter %} ({{ g.chapter }}){% endif %}.{% endif %}{% if g.note %} {{ g.note | md | safe }}{% endif %}</div></div><div class="side"><span class="need">{% if g.price %}{{ g.price | usd }}{% else %}Free{% endif %}</span></div></label>
+<label class="tr" data-track-row id="{{ g.id }}" for="gar-{{ g.id }}" data-tags="{{ gr.id }}"><input class="cb" type="checkbox" id="gar-{{ g.id }}" data-track="garage:{{ gr.id }}:{{ g.id }}" aria-label="Mark {{ g.name }} owned"><div class="body"><div class="name">{{ g.name }}</div><div class="desc">{{ g.area }}{% if g.county %} · {{ g.county }}{% endif %}. {{ g.spots }} space{% if g.spots > 1 %}s{% endif %}.{% if g.unlock %} After <a href="{{ g.u }}">{{ g.unlock }}</a>{% if g.chapter %} ({{ g.chapter }}){% endif %}.{% endif %}{% if g.note %} {{ g.note | md | safe }}{% endif %}</div></div><div class="side"><span class="need">{% if g.price %}{{ g.price | usd }}{% else %}Free{% endif %}</span></div></label>
 {%- endif %}
 {%- endfor %}
 </div>
