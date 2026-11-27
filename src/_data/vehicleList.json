@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "total": 277,
   "need": 200,
   "trophy": 100,
@@ -180,8 +180,31 @@
       "n": "SUVs",
       "group": "cars",
       "count": 23,
-      "lede": "",
-      "items": []
+      "lede": "SUVs and 4x4s, from the Gallivanter Baller to two versions each of the Declasse Granger and the Vapid Montagne. They turn up at random in traffic.",
+      "items": [
+        "Vapid Aleutian",
+        "Karin Allander",
+        "Pfister Astron",
+        "Gallivanter Baller",
+        "Gallivanter Baller ST-D",
+        "Albany Cavalcade XL",
+        "’82 Canis Crawler",
+        "Bravado Dorado",
+        "Benefactor Dubsta",
+        "Declasse Granger",
+        "Declasse Granger 3600LX",
+        "Bravado Gresley XT",
+        "’95 Annis Hellion",
+        "Buckingham Jubilee",
+        "Canis Kamacho",
+        "Dundreary Landstalker XL",
+        "Canis Mesa",
+        "Vapid Montagne",
+        "Vapid Montagne XL",
+        "Übermacht Rebla GTS",
+        "Pegassi Toros",
+        "Benefactor XLS"
+      ]
     },
     {
       "id": "vans",
@@ -234,8 +257,36 @@
       "n": "Watercraft",
       "group": "watercraft",
       "count": 28,
-      "lede": "Boats of all kinds. Look around the Vice City harbor.",
-      "items": []
+      "lede": "Boats of every size, from the Crest Kayak and three Seasharks to the Airgator Airboat 09. They turn up at random; the Vice City harbor is the best place to start.",
+      "items": [
+        "Airgator Airboat 09",
+        "Seashark Azure",
+        "Blade 500",
+        "Calder CB69",
+        "Clario",
+        "Dingus Como",
+        "Calder Dibnah",
+        "Hulls Flatdeck",
+        "Rugger Fortune",
+        "Rugger Hemming",
+        "Seashark Hydroblast",
+        "Crest Kayak",
+        "Calder Marquis",
+        "Dingus Nepa",
+        "Hulls Pontoon",
+        "Lure Predator L20S",
+        "Lure Predator L35P",
+        "Rugger Rhode",
+        "Bombora S23 CSS",
+        "Hulls Sea Enchantress",
+        "Seashark Sedna",
+        "Calder Shasa",
+        "Speeder 700 GT",
+        "Shitzu Squalo",
+        "Nagasaki Tao",
+        "Calder Torlan",
+        "Calder Yakuruna"
+      ]
     },
     {
       "id": "aircraft",
@@ -479,6 +530,10 @@
       "a": "Helicopters sit on Vice City rooftops marked with an **H** on the map. Planes wait at airstrips and at Vice City International Airport. For boats and jet skis, go to the Vice City harbor. Military vehicles are at **Mile Zero Air Station** south of Key Lento, or come to you once your wanted level is high enough."
     },
     {
+      "q": "How many boats are in GTA 6?",
+      "a": "28 watercraft count as base models, from the Crest Kayak and the Airgator Airboat 09 to six Calder models and three Seasharks. They count under **Progress › Vehicles › Watercraft**, and scanning one with WAiNK is enough to discover it, so you never have to get on board."
+    },
+    {
       "q": "Do Standout vehicles count for anything?",
       "a": "Not for 100% or trophies. They're one-offs in 25 styles, from Lowriders and Donks to Swamp Style, that sit at fixed spots or come as rewards, so collect the ones you like."
     }
@@ -492,7 +547,7 @@
     {
       "label": "PowerPyx class pages",
       "url": "https://www.powerpyx.com/gta-6-all-coupes/",
-      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, off-road (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 8 names, no spots, they drive around at random), bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle cars (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 26 names, no '?' slots, they drive around at random). Sedans, supercars, SUVs, vans and watercraft pages exist but were not in search results, so their names are not listed yet."
+      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, off-road (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 8 names, no spots, they drive around at random), bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle cars (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 26 names, no '?' slots, they drive around at random). SUVs (read Nov 27: 22 names + '?' at slot 23) and watercraft (read Nov 27: 27 names + '?' at slot 7), both published Nov 25 20:08, modified 22:17 UTC. Sedans, supercars and vans pages exist but were not in search results, so their names are not listed yet."
     }
   ]
 }

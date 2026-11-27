@@ -8,7 +8,7 @@ summary: The latest GTA 6 version, what each update changed, how big it is on PS
 order: 1
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-27
 facts:
   - { k: Latest version, v: "01.002.002", status: Reported }
   - { k: Released, v: "Nov 23, 2026", status: Reported }
@@ -19,6 +19,7 @@ tldr:
   - "It fixes **crashes**, **phone calls that didn't come through** (including ones that unlock missions), **autosave**, a **wanted level you couldn't lose**, **partners not handing over bags for fences**, the **gym deadlift bar** and **weather that didn't change**."
   - "Stuck waiting for a call to start the next mission? **Install the update first.**"
   - "It rolls out in stages, so you may get it a few hours later than others."
+  - "Weather still stuck on PS5 after updating? Clearing the console's system cache from Safe Mode has helped players; [steps below](#weather)."
 faq:
   - q: "What is the latest GTA 6 update?"
     a: "Version 01.002.002, which started rolling out on November 23, 2026. It is about 604 MB on PS5 and about 1.6 GB on Xbox Series X|S, and it is the first update since the game came out."
@@ -30,9 +31,13 @@ faq:
     a: "On PS5, highlight the game, press Options and choose Check for Update. On Xbox, open My games & apps and look under Updates. The version number shows in the game's information on PS5."
   - q: "My next mission won't start because a call never came. What do I do?"
     a: "Install update 01.002.002. It fixes calls that didn't trigger, among them the ones that progress the story and unlock missions. Our walkthrough says on each mission page who contacts you and when."
+  - q: "Why is the weather always sunny in GTA 6?"
+    a: "Weather that never changes was one of the bugs update 01.002.002 set out to fix, but some PS5 players still get the same sunny skies for days. Players report that clearing the PS5 system cache from Safe Mode gets the weather moving again: turn the console off, hold the power button until the second beep, connect the controller by USB, press PS and choose Clear Cache and Rebuild Database, then Clear System Software Cache. Your saves stay where they are."
   - q: "Did GTA 6 have a day one patch?"
     a: "Two updates went out to preloaded copies before launch: 01.002.000 on November 13 and 01.002.001 from November 16. No notes were published for either of them."
 sources:
+  - label: "Weather workaround"
+    note: "GamesRadar (Nov 26, 2026, trusted): weather still stuck after the first update, PS5 fix from a player post: power off, hold power until it beeps for Safe Mode, clear system cache, restart. PlayStation LifeStyle (Nov 26, 20:02 UTC): same fix with Sony's menu names (Clear Cache and Rebuild Database > Clear System Software Cache), second beep, USB controller, PS button; saves not deleted; Rockstar has not confirmed it. Neither says whether Xbox is affected, so the page says PS5 only."
   - label: "Patch data"
     note: "Per-update sources are in src/_data/patches.json (Push Square, Vice, Game Rant, ComicBook.com, PlayStation LifeStyle, Tech Times, RockstarINTEL). The seven 01.002.002 fixes come from Game Rant and ComicBook.com, which agree; Game Rant attributes them to Rockstar's support page 'Grand Theft Auto VI Launch Updates', which a cloud run could not fetch. Nov 23, 2026."
 ---
@@ -68,6 +73,20 @@ sources:
 </article>
 {%- endfor %}
 </div>
+
+<h2 id="weather">Weather still stuck after updating (PS5)</h2>
+
+Update 01.002.002 lists a fix for weather that stays the same for too long, yet some PS5 players still see nothing but sun for days on end: no rain, fog or storms. The fix players have had luck with is clearing the console's system cache. It doesn't touch your saves.
+
+<ol class="cheat-steps">
+<li><b>Turn the PS5 off fully</b>, not into rest mode.</li>
+<li><b>Hold the power button</b> and let go after the second beep, about seven seconds in. The console starts in Safe Mode.</li>
+<li><b>Plug the controller in with a USB cable</b> and press the <b>PS</b> button.</li>
+<li>Pick <b>Clear Cache and Rebuild Database</b>, then <b>Clear System Software Cache</b>. The console restarts by itself.</li>
+<li><b>Start GTA 6</b> and play for a while out in the world; the weather can take some time to turn.</li>
+</ol>
+
+Rockstar hasn't said anything about this workaround yet, and there's no word on Xbox. When a later update deals with it, it goes at the top of this page. Hurricane weather is a separate unlock from [Freddie's strand](/guides/side-contacts/#freddie).
 
 <h2 id="check">How to check your version</h2>
 
