@@ -989,18 +989,18 @@
         },
         {
           "id": "delights-harley-kl",
-          "name": "Harley, Key Lento copy",
+          "name": "Harley (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "At the top of the Badger R&D Tower on Sunset Dr, out on the open landing, in the yellow box on the wall. This box doesn't hold the same card in every game: ours had Harley. Either copy of Harley counts.",
+          "where": "At the top of the Badger R&D Tower on Sunset Dr, out on the open landing, in the yellow box on the wall. This box doesn't hold the same card in every game: ours had Harley.",
           "set": "Delights Dancers"
         },
         {
           "id": "delights-nevaeh-kl",
-          "name": "Nevaeh, Key Lento copy",
+          "name": "Nevaeh (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "In a storeroom west of the highway, in the yellow box on a stack of pallets by the hatch. Either copy counts.",
+          "where": "In a storeroom west of the highway, in the yellow box on a stack of pallets by the hatch.",
           "set": "Delights Dancers"
         },
         {
@@ -1008,7 +1008,7 @@
           "name": "Right Wing (Bronze)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On a wooden deck at a building in the north of Key Lento, between the two main roads.",
+          "where": "On the roof of the gas station in the north of Key Lento.",
           "set": "Ed Comics Universe"
         },
         {
@@ -2827,7 +2827,7 @@
           "name": "Passion B.C.",
           "county": "vice-city",
           "area": "Bayside",
-          "where": "Bayside apartment: next to the bathtub. There is a second copy in Key Lento that never goes away.",
+          "where": "Bayside apartment: next to the bathtub.",
           "n": 10,
           "missable": "Chapter 3 only"
         },
@@ -2971,24 +2971,24 @@
         },
         {
           "id": "dicked-down-kl",
-          "name": "Dicked Down Deep in Space, Key Lento copy",
+          "name": "Dicked Down Deep in Space (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the round table of a patio seating area near the beach on the east side. You only need one copy of a title."
+          "where": "On the round table of a patio seating area near the beach on the east side."
         },
         {
           "id": "passion-bc-kl",
-          "name": "Passion B.C., Key Lento copy",
+          "name": "Passion B.C. (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the counter of the open-air bar by the water on the west side. You only need one copy, so this one saves you the Bayside one later."
+          "where": "On the counter of the open-air bar by the water on the west side."
         },
         {
           "id": "cowboys-prayer-kl",
-          "name": "The Cowboy's Prayer is to Die Young, Key Lento copy",
+          "name": "The Cowboy's Prayer is to Die Young (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "In the wood-panelled room with records on the wall, at the marina in the north of Key Lento. You only need one copy of a title."
+          "where": "In the wood-panelled room with records on the wall, at the marina in the north of Key Lento."
         }
       ],
       "sources": [
