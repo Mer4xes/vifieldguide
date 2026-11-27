@@ -3,7 +3,7 @@ title: 100% route
 headline: The 100% Route
 kicker: Completion
 seoTitle: "GTA 6 100% Route: The Best Order for 100% Completion and the Platinum"
-description: "An ordered 100% checklist for GTA 6: all 93 missions in order with side jobs, limited-time missions, suggested moments for the challenges and the collectibles in each county, then the free roam clean-up."
+description: "An ordered 100% checklist for GTA 6: every story mission in order with side jobs, limited-time missions, suggested moments for the challenges and the collectibles in each county, then the free roam clean-up."
 summary: Every mission in order, with the side jobs, limited-time missions, challenges and collectibles that fit around each one, then the free roam clean-up. Tick it off from the top.
 order: 2
 glow: gold

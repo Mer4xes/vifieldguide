@@ -3,12 +3,12 @@ layout: layouts/base.njk
 title: The VI Field Guide
 seoTitle: "GTA 6 Walkthrough and Guide: Missions, Trophies, Collectibles | The VI Field Guide"
 description: "Unofficial GTA 6 walkthrough and 100% guide. Story missions step by step, trophies, collectibles, vehicles and weapons. Spoiler-safe, with progress tracking."
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 {%- set vehicles = db.kinds[0] %}
 {%- set weapons = db.kinds[1] %}
 {%- set sections = [
-  { title: "Walkthrough", url: "/walkthrough/", n: (storyMissions.total or collections.missions.length), unit: "missions", text: "Every story mission in order with a tracker, and a step-by-step guide for " + collections.missions.length + " of them so far." },
+  { title: "Walkthrough", url: "/walkthrough/", n: storyMissions.chapters.length, unit: "chapters", text: ("Every story mission in order with a tracker and a step-by-step guide." if collections.missions.length >= storyMissions.total else "Every story mission in order with a tracker. Step-by-step guides are added as we write them.") },
   { title: "Trophies", url: "/trophies/", n: db.trophies.items.length, unit: "trophies", text: "The full list and a clean route to the platinum." },
   { title: "Collectibles", url: "/collectibles/", n: db.collectibles.types.length, unit: "sets", text: "Every set, how many there are and what 100% needs." },
   { title: "Vehicles", url: "/vehicles/", n: (vehicleList.total if vehicleList.classes else vehicles.items.length), unit: "base models", text: "Every vehicle class with a checklist for the 200 base models 100% needs." },
@@ -27,7 +27,7 @@ updated: 2026-11-23
   <div class="wrap hero-inner">
     <p class="eyebrow">Unofficial GTA 6 walkthrough and 100% guide</p>
     <h1>The&nbsp;<span class="vi">VI</span><br>Field Guide</h1>
-    <p class="hero-sub">Grand Theft Auto VI is out. {{ collections.missions.length }} of {{ storyMissions.total }} story missions are written up step by step, with a 100% route, every trophy and tick lists that keep your place.</p>
+    <p class="hero-sub">Grand Theft Auto VI is out. {% if collections.missions.length >= storyMissions.total %}Every story mission is{% else %}The story missions are being{% endif %} written up step by step, with a 100% route, every trophy and tick lists that keep your place.</p>
     <div class="btns">
       <a class="btn primary" href="/walkthrough/">Start the walkthrough</a>
       <a class="btn" href="/guides/100-percent-route/">The 100% route</a>
@@ -126,7 +126,7 @@ updated: 2026-11-23
     <p class="lede">Confirmed by Rockstar. Details and sources are in the <a href="/guides/launch-guide/">launch guide</a>.</p>
     <div class="facts">
       <div class="fact"><div class="k">Released</div><div class="v">Nov 19<br>2026</div></div>
-      <div class="fact"><div class="k">Story</div><div class="v sm">{{ storyMissions.total }} missions,<br><span class="u">5 chapters</span></div></div>
+      <div class="fact"><div class="k">Story</div><div class="v sm">5 chapters<br><button type="button" class="count-reveal" data-show="{{ storyMissions.total }} missions">Show mission count</button></div></div>
       <div class="fact"><div class="k">Platforms</div><div class="v sm">PS5 ·<br>Xbox <span class="u">Series X|S</span></div></div>
       <div class="fact"><div class="k">Download</div><div class="v sm">Up to<br><span class="u">212 GB</span></div></div>
       <div class="fact"><div class="k">Setting</div><div class="v sm">Leonida<br><span class="u">(Vice City)</span></div></div>

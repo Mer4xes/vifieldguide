@@ -12,6 +12,7 @@
      [data-pref="spoilers|hideAhead"]      toggle button for a saved preference
      details.spoiler                       opened/closed together by the spoilers preference
      [data-reveal]                         reveals one blurred row (.is-secret)
+     [data-show="93 missions"]             button that swaps itself for that text on tap
      [data-filter-group="x"] [data-filter] filter chips for [data-filter-list="x"] > [data-tags]
      [data-search="x"]                     text search over the same list (matches data-text)
      [data-filter-parent]                  inside a list: hidden when none of its [data-tags] rows show
@@ -67,6 +68,14 @@
       if (label) label.textContent = button.getAttribute(on ? "data-on" : "data-off");
     });
     if (prefs.spoilers) all("details.spoiler").forEach(function (d) { d.open = true; });
+    if (prefs.spoilers) all("[data-show]").forEach(showCount);
+  }
+  // [data-show="93 missions"]: a number some players count as a spoiler, shown on tap
+  function showCount(button) {
+    var span = document.createElement("span");
+    span.className = "count-shown";
+    span.textContent = button.getAttribute("data-show");
+    button.parentNode.replaceChild(span, button);
   }
 
   /* ----- progress ----- */
@@ -176,8 +185,9 @@
 
   document.addEventListener("click", function (e) {
     if (!e.target.closest) return;
-    var el = e.target.closest("[data-pref],[data-reset],[data-reveal],[data-filter],.menu-btn,.nav-links a");
+    var el = e.target.closest("[data-pref],[data-reset],[data-reveal],[data-show],[data-filter],.menu-btn,.nav-links a");
     if (!el) return;
+    if (el.hasAttribute("data-show")) { showCount(el); return; }
 
     if (el.hasAttribute("data-pref")) {
       var pref = el.getAttribute("data-pref");
