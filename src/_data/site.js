@@ -63,7 +63,7 @@ export default {
   indexNowKey: "a7f3c92e4b8d41f6a0c5e9d2b6481730",
 
   disclaimer:
-    "Unofficial fan guide. Grand Theft Auto and GTA VI are trademarks of Rockstar Games / Take-Two Interactive. This site is not affiliated with or endorsed by them. Screenshots and artwork are official Rockstar Games media.",
+    "Unofficial fan guide. Grand Theft Auto and GTA VI are trademarks of Rockstar Games / Take-Two Interactive. This site is not affiliated with or endorsed by them. Artwork and most screenshots are official Rockstar Games media; collectible location shots are captured in-game by the guide.",
 
   buildId: Date.now().toString(36),
 };

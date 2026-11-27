@@ -986,6 +986,69 @@
           "county": "kelly-county",
           "area": "Gellhorn",
           "where": "Starlet Motel laundry room, on top of a washing machine. Pick it up while you live at the motel."
+        },
+        {
+          "id": "delights-harley-kl",
+          "name": "Harley, Key Lento copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "At the top of the tall concrete tower, out on the open landing, in the yellow box on the wall. Either copy counts.",
+          "set": "Delights Dancers"
+        },
+        {
+          "id": "delights-nevaeh-kl",
+          "name": "Nevaeh, Key Lento copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In a storeroom west of the highway, in the yellow box on a stack of pallets by the hatch. Either copy counts.",
+          "set": "Delights Dancers"
+        },
+        {
+          "id": "ed-rightwing-bronze",
+          "name": "Right Wing (Bronze)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On a wooden deck at a building in the north of Key Lento, between the two main roads.",
+          "set": "Ed Comics Universe"
+        },
+        {
+          "id": "ratface-swallow-blue",
+          "name": "Death of Swallow (Blue)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside a house on the beach side of Key Lento, by the shelf unit in the living room.",
+          "set": "The Legends of Ratface"
+        },
+        {
+          "id": "educated-woman",
+          "name": "The Educated Woman",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Behind a house in the west of Key Lento, at the foot of the back steps next to a washing basket."
+        },
+        {
+          "id": "narcos-kasey",
+          "name": "Carl Kasey",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the picnic table beside the waterfront basketball court on the east side.",
+          "set": "Vice City Narcos"
+        },
+        {
+          "id": "manatees-macklerath-silver",
+          "name": "Georgie Macklerath (Silver)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the fridge in the kitchen of a house by the water on the east side.",
+          "set": "Vice City Manatees"
+        },
+        {
+          "id": "penetrators-herbert-orange",
+          "name": "Remy Herbert (Orange)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "Inside the fenced basketball court on Surfside Dr, on the ground in the corner by the gate.",
+          "set": "Liberty City Penetrators"
         }
       ],
       "sources": [
@@ -1013,6 +1076,11 @@
           "label": "Tech4Gamers + KeenGamer (two sources that agree)",
           "url": "https://gta.tech4gamers.com/gta-6/collectibles/collectible-card-locations/",
           "note": "Read Nov 26, 2026. Tech4Gamers (137 pickups, updated Nov 25) and keengamer.com all-collectible-cards (Nov 23, 58). Added 13 cards where both give the same card, area and spot (Santiago Lopez also on gta6heists; Femi-Nemesis Bronze is KeenGamer + GTADB; Chip is Tech4Gamers + the two flamingo pages). No list numbers. Immigrantasma and Bryson Powers have no set: the two disagree on it. Left out everything only one of them lists, and cards where they give different places (Leroy Rook, Xavier Gomez, Garth Buxton Standard, Danny McLean, Beverly)."
+        },
+        {
+          "label": "Hauk's own in-game captures (Nov 26-27)",
+          "url": "",
+          "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: delights-harley-kl, delights-nevaeh-kl, ed-rightwing-bronze, ratface-swallow-blue, educated-woman, narcos-kasey, manatees-macklerath-silver, penetrators-herbert-orange. Where-lines describe what the captures show; the maps carry no street names."
         }
       ]
     },
@@ -2078,6 +2146,27 @@
           "county": "kelly-county",
           "area": "Port Gellhorn",
           "where": "On the small island just west of Port Gellhorn. Climb the big rubbish heap: it is at the top, under a dumped fridge."
+        },
+        {
+          "id": "kl-house-corner",
+          "name": "House corner by the boat trailer",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the east side, standing at the corner of a house, right next to an empty boat trailer."
+        },
+        {
+          "id": "kl-garden-fence",
+          "name": "Garden by the fence",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the west shore, in the flowerbed between a wooden fence and the outside stairs of a house."
+        },
+        {
+          "id": "kl-rocks",
+          "name": "Rocks at the water",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the west shore, on the rocks right at the waterline behind the houses."
         }
       ],
       "sources": [
@@ -2095,6 +2184,11 @@
           "label": "GTADB + GTA6Bugs (two sources that agree)",
           "url": "https://gtadb.net/articles/gta-6-cocaine-flamingos-locations/",
           "note": "Read Nov 26, 2026. GTADB (Nov 22, 50 spots) and gta6bugs.com/collectibles/cocaine-flamingos (updated Nov 25; cites IGN, Game-Checklists and others). Added only the 16 spots both describe the same way. Left out: GTADB-only spots (Belpoint lighthouse, wreck and north dock, other Key Lento gardens, Hamlet, Mile Zero, Goose Key island, Rockridge, Southside, eight more in Port Gellhorn, Buckskin Swamp, south of Waning Sands), street names only one gives, and which side of the sandbar. PowerPyx still 8/125 (modified Nov 23)."
+        },
+        {
+          "label": "Hauk's own in-game captures (Nov 26-27)",
+          "url": "",
+          "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: kl-house-corner, kl-garden-fence, kl-rocks. Where-lines describe what the captures show; the maps carry no street names."
         }
       ]
     },
@@ -2732,7 +2826,7 @@
           "name": "Passion B.C.",
           "county": "vice-city",
           "area": "Bayside",
-          "where": "Bayside apartment: next to the bathtub.",
+          "where": "Bayside apartment: next to the bathtub. There is a second copy in Key Lento that never goes away.",
           "n": 10,
           "missable": "Chapter 3 only"
         },
@@ -2873,6 +2967,27 @@
           "county": "lummox-county",
           "area": "Mount Kalaga National Park",
           "where": "In the woods east of the Kalaga Reservoir, not far from Dawson Dam. Climb the ladder at the lookout point."
+        },
+        {
+          "id": "dicked-down-kl",
+          "name": "Dicked Down Deep in Space, Key Lento copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the round table of a patio seating area near the beach on the east side. You only need one copy of a title."
+        },
+        {
+          "id": "passion-bc-kl",
+          "name": "Passion B.C., Key Lento copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the counter of the open-air bar by the water on the west side. You only need one copy, so this one saves you the Bayside one later."
+        },
+        {
+          "id": "cowboys-prayer-kl",
+          "name": "The Cowboy's Prayer is to Die Young, Key Lento copy",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "In the wood-panelled room with records on the wall, at the marina in the north of Key Lento. You only need one copy of a title."
         }
       ],
       "sources": [
@@ -2895,6 +3010,11 @@
           "label": "Push Square: Magazines, Books & Comics Locations",
           "url": "https://www.pushsquare.com/guides/gta-6-magazines-books-and-comics-locations",
           "note": "Trusted. Read Nov 26, 2026 (modified Nov 21, 16 of 27). New from it: Pêche Magazine, Trigger Happy (both Key Lento), 11:59 Survivalist Culture (Mount Kalaga NP). Its Foiled spot (Grassrivers fishing compound) differs from PowerPyx (Belville garage): ours stays as PowerPyx has it. PowerPyx still 20/27 (modified Nov 23)."
+        },
+        {
+          "label": "Hauk's own in-game captures (Nov 26-27)",
+          "url": "",
+          "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: dicked-down-kl, passion-bc-kl, cowboys-prayer-kl. Where-lines describe what the captures show; the maps carry no street names."
         }
       ]
     },
@@ -2911,7 +3031,31 @@
         "Styles come in four groups: Jason's magazine tattoos, Lucia's magazine tattoos, shared magazine tattoos and luxury watches.",
         "Track them under Progress, Collections, Discovered Styles."
       ],
-      "items": []
+      "items": [
+        {
+          "id": "square-goatee",
+          "name": "Square Goatee (facial hair)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "who": "Jason",
+          "where": "A magazine on the bed in a house in the north of Key Lento, west of the highway. It counts under Jason's Magazine Styles."
+        },
+        {
+          "id": "sunset-blush",
+          "name": "Sunset Blush (makeup)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "who": "Lucia",
+          "where": "A magazine on the bed in a bedroom of a house on the west shore. It unlocks the look for Lucia at any salon."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Hauk's own in-game captures (Nov 26-27)",
+          "url": "",
+          "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: square-goatee, sunset-blush. Where-lines describe what the captures show; the maps carry no street names."
+        }
+      ]
     },
     {
       "slug": "unique-playlists",
@@ -3628,6 +3772,13 @@
           "county": "lummox-county",
           "area": "Around Lummox County",
           "where": "Fixed to the wall of a sawmill building."
+        },
+        {
+          "id": "kl-waterfront-court",
+          "name": "Waterfront court",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On the painted court by the water on the east side, next to the picnic tables."
         }
       ],
       "sources": [
@@ -3645,6 +3796,11 @@
           "label": "PowerPyx: All Basketball Hoop Locations (full list)",
           "url": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/",
           "note": "Re-read Nov 26, 2026 (modified Nov 23 22:22 UTC). Trusted. Hauk asked for every mapped collectible, so all entries are in now, in our own words, 96 of 100. PowerPyx gives county headings only: hoops without an area sit under 'Around <county>', and city hoops (PowerPyx 'Vice-Dale' = whole city) have no county and area 'Vice City and Vice-Dale', so they show on the type page only. Game-Checklists (100 rows, Nov 25) was used to work out which PowerPyx entries are the Key Lento hoops we already had: left out #10/#16 (one is a Key Lento hoop), the eighth Key Lento hoop (Game-Checklists only: backyard opposite La Medusa) and #25/#54 (one is our Palladia Ln mansion). #93 = our trailer park hoop, #88 = Avery Allen."
+        },
+        {
+          "label": "Hauk's own in-game captures (Nov 26-27)",
+          "url": "",
+          "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: kl-waterfront-court. Where-lines describe what the captures show; the maps carry no street names."
         }
       ],
       "updated": "2026-11-26"
