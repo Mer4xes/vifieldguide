@@ -992,7 +992,7 @@
           "name": "Harley, Key Lento copy",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "At the top of the tall concrete tower, out on the open landing, in the yellow box on the wall. Either copy counts.",
+          "where": "At the top of the Badger R&D Tower on Sunset Dr, out on the open landing, in the yellow box on the wall. This box doesn't hold the same card in every game: ours had Harley. Either copy of Harley counts.",
           "set": "Delights Dancers"
         },
         {
@@ -1024,7 +1024,8 @@
           "name": "The Educated Woman",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Behind a house in the west of Key Lento, at the foot of the back steps next to a washing basket."
+          "where": "Behind a house in the west of Key Lento, at the foot of the back steps next to a washing basket.",
+          "set": "Right Wing: America's Hero"
         },
         {
           "id": "narcos-kasey",
@@ -2782,7 +2783,7 @@
           "name": "Killer Prom",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "A Book Swap box in Key Lento.",
+          "where": "The Book Swap box on Dolphin Dr.",
           "n": 2,
           "set": "Book Swaps"
         },
@@ -3151,7 +3152,14 @@
           "name": "Dolphin Dr garage",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Above the garage of a smart house on Dolphin Dr."
+          "where": "Above the garage of a smart house further down Dolphin Dr, past the Book Swap box."
+        },
+        {
+          "id": "kl-dolphin-book-swap",
+          "name": "Dolphin Dr, by the Book Swap",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "where": "On a post beside the open garage of the house right next to the Book Swap box on Dolphin Dr."
         },
         {
           "id": "kl-jason",
@@ -3165,7 +3173,7 @@
           "name": "Peach Palm bend",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Above the garage of the house on the bend where Peach Palm Dr meets Scuttlebutt Dr."
+          "where": "Above the garage of the house on the bend where Peach Palm Dr meets Scuttlebutt Dr, next door to the party house."
         },
         {
           "id": "kl-sunset",
