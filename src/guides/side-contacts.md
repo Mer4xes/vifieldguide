@@ -212,6 +212,12 @@ sources:
   - label: "PowerPyx: Yasmani's Jewelry Jobs"
     url: "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/"
     note: "Stores, items, safe codes, Snap Gun. Nov 18, 2026. Trusted source."
+  - label: "PowerPyx: Yasmani's ATM Jobs"
+    url: "https://www.powerpyx.com/gta-6-yasmanis-atm-jobs-walkthrough/"
+    note: "Published Nov 27, 2026 01:52 UTC (modified 02:19), read Nov 27. Trusted. Chapter 3, Vice City > Little Cuba, giver Yasmani; needs Yasmani's Jewelry Jobs + Credit Check; Lucia or Jason; reward about $30,000-40,000 for all three; objectives Megamart ATM, Casino ATM, Xero Gas ATM; Yasmani sells tips, first one free, three full ATMs for 1 in-game day (missable, but later tips/jobs still come); winch: stolen tow truck, any truck with a winch rear bumper, or Yasmani's '86 Rancher behind his shop; back up to hook, drive to pull it out, drag until the cash trays fall out, right on the d-pad to unhook, melee or shoot, 4 trays per ATM ($ on minimap); sticky bomb on the casino ATM; marked bills to Yasmani (highest payout). Questline order: Jewelry Jobs, ATM Jobs, Payday Loan Jobs, Steal the Gold Blammer, Bank Jobs, That's Where the Money Is..., Tail the Security Van (later steps not written yet)."
+  - label: "PC Gamer: winched vehicle to steal ATMs"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-atm-winched-vehicle/"
+    note: "Published Nov 25, 2026, read Nov 27. Trusted. Cross-check: Dye Pack Jammer from Credit Check first, Yasmani's tips after all three jewelry thefts, three free tipped ATMs with a 24-hour window, about $11k per tipped ATM, winched truck behind Yasmani's shop, tow trucks or a mod-shop winch, crop-duster strip in Frogswater; alarm calls the police. Its 'vape shop in Little Cuba' for Yasmani's shop disagrees with our jewelry-jobs text (Ocean Beach), so the shop's area isn't repeated here."
   - label: "PowerPyx: Thrillbillies / Twist Wrist, Smash, Grab"
     url: "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/"
     note: "Billy's job order. Nov 18, 2026. Trusted source."
@@ -262,7 +268,7 @@ sources:
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
 | **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) ([labs and last job](#tyrone)) | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
-| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/) | |
+| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/), then his [ATM jobs](#yasmani-atm) | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Flies drug drops; hands his plane over to Jason | Chapter 4, a phone call to Jason early in the chapter ([his jobs](#pete)) | Counts toward Strangers & Freaks |
 | **Andy** | Cellerica, a wellness group selling vape sticks | Chapter 3, a call to Lucia, then an address in Belville ([the jobs](#andy)) | Road to Rehabilitation (hidden) |
@@ -482,6 +488,31 @@ After [Boobie Time](/walkthrough/boobie-time/) in Chapter 3, Yasmani gets in tou
 > **Tip:** Hand the first piece in straight away. Yasmani gives you the **[Snap Gun](/guides/equipment/#snap-gun)**, which opens doors without setting off the alarm, so the police take longer to arrive at the other two.
 
 The three pieces are worth $20,000 between them. Smash the display cases at the front for more; at the last two stores you can also slip out the back quietly instead. Jewelry stores count toward the Smash 'N' Grabs line in the [100% checklist](/guides/100-percent-checklist/), and his jobs open the other 17 for robbing: [all of them](/guides/robberies/#smash).
+
+<h3 id="yasmani-atm">Yasmani's ATM jobs</h3>
+
+Once his jewelry jobs and the story mission [Credit Check](/walkthrough/credit-check/) are both done, Yasmani gets in touch again, this time selling robbery tips. The first one is on the house: he marks **three full ATMs** on the map. Jason or Lucia can take it.
+
+> **Watch out:** The three ATMs are only full for **one in-game day**. Miss the window and the free money is gone, but nothing else is lost: his later tips and jobs still come.
+
+<div class="progress" data-progress="yasmani:atm-" data-total="3">
+<div class="row"><span class="lab">Tipped ATMs robbed</span><span class="pct"><span data-done>0</span> / 3 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+{%- for c in [
+  ["megamart","Megamart ATM","Hook it up, rip it off the wall and keep dragging it until the trays drop out."],
+  ["casino","Casino ATM","A sticky bomb stuck on or next to the machine bursts it open on the spot, so you don't have to drag it around."],
+  ["xero","Xero Gas ATM","Same drill as the Megamart: hook, pull, drag, smash."]
+] %}
+<label class="tr" data-track-row for="yasmani-atm-{{ c[0] }}"><input class="cb" type="checkbox" id="yasmani-atm-{{ c[0] }}" data-track="yasmani:atm-{{ c[0] }}"><div class="body"><div class="name">{{ c[1] }}</div><div class="desc">{{ c[2] | safe }}</div></div></label>
+{%- endfor %}
+</div>
+
+You need a vehicle with a **winch** on the back. Yasmani has one ready: his **'86 Rancher**, parked behind his shop, which you can borrow. Hook each ATM, tear it off the wall, drag it until its four cash trays fall out, then smash the trays and pick up the **marked bills**. The step-by-step is in [ATM theft](/guides/robberies/#atm).
+
+Take the bills from all three back to **Yasmani**, who pays the most for them. Expect about **$30,000 to $40,000** for the set. That ends the job, and his payday loan jobs are next ([payday loans](/guides/robberies/#payday)).
 
 <h2 id="pete">Pilot Pete's flying jobs</h2>
 

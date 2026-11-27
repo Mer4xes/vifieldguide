@@ -110,7 +110,7 @@
       "id": "dye-pack-jammer",
       "name": "Dye Pack Jammer",
       "group": "ch3",
-      "does": "Stops the dye packs hidden in marked bills from going off. You need it for bank and payday loan jobs.",
+      "does": "Stops the dye packs hidden in marked bills from going off. You need it for bank, payday loan and ATM jobs.",
       "use": "Works on its own once you have it.",
       "unlock": "Credit Check",
       "u": "/walkthrough/credit-check/"

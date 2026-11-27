@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-26
+updated: 2026-11-27
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -135,6 +135,8 @@ There are **22 bank jobs**: 14 small banks and 8 large ones with a vault. The **
 - Where they are: 9 in Vice City (Vice-Dale County), 3 in Mariana County, 1 in Leonard County and 1 in Kelly County. The best payers are Lombank Bayside, Lombank Ocean Beach and Druthers State Bank. [Every bank, with a tick list](/guides/robberies/#banks).
 
 Marked bills go to [Yasmani](/guides/fences/#jewelry). Laundering $250,000 of them earns **Dime on the Dollar**.
+
+> **Tip:** Once Credit Check and Yasmani's jewelry jobs are both done, his first robbery tip is free: three full ATMs for one in-game day, about **$30,000 to $40,000** together. Bring a vehicle with a winch ([Yasmani's ATM jobs](/guides/side-contacts/#yasmani-atm), [ATM theft](/guides/robberies/#atm)).
 
 <h2 id="vaults">Large bank vaults</h2>
 

@@ -8,7 +8,7 @@ summary: Tick lists for the robberies the 100% checklist counts one by one. Ever
 order: 5
 glow: pink
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-27
 facts:
   - { k: "Smash 'n' Grabs", v: "35 (34 for 100%)", status: Reported }
   - { k: Bank jobs, v: "22", status: Reported }
@@ -30,12 +30,17 @@ faq:
     a: "The two Lombank vaults in Downtown and Ocean Beach, at roughly $135,000 to $205,000 each. Among the small banks, Lombank Bayside, Lombank Ocean Beach and Druthers State Bank pay the most, about $15,000 to $45,000."
   - q: "Where are the payday loans in GTA 6?"
     a: "Quick Buck in Hamlet and La Perle, Payline Loans 247, Payday Loans stores in Southside, Little Cuba and Rockridge, and Cash Flow in Kelly County. They open after Credit Check in Chapter 3. The Little Cuba store pays the most, about $15,000 to $25,000."
+  - q: "How do you steal an ATM in GTA 6?"
+    a: "Get a vehicle with a winch (a tow truck, a truck with a winch fitted at a mod shop, or Yasmani's Rancher), back it up to an outside ATM until it hooks on, then drive off hard to rip it out. Drag it until the cash trays fall out, unhook, smash the trays and take the marked bills to a fence. Get the Dye Pack Jammer from Credit Check first, or the cash is ruined."
   - q: "How do you see which robberies you've done in GTA 6?"
     a: "Open the map and use the Robberies filter (the money bag icon). Done locations are bright green, the rest dark green. Hovering over a bank shows which of its objectives you've finished."
 sources:
   - label: "PowerPyx: Smash 'n' Grabs, bank jobs and payday loans"
     url: "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/"
     note: "Read Nov 23, 2026. Three location pages; full notes per page in src/_data/robberies.json. Trusted source."
+  - label: "ATM theft"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-steal-atm-winch/"
+    note: "GamesRadar (published Nov 26, 2026, trusted): wait for the Dye Pack Jammer from Credit Check or the cash bursts; winch via mod shop on a pick-up/large off-roader, or steal a tow truck; register your own truck for repeat use; only wall-mounted outside ATMs; reverse until it connects, gas to rip it out, drive hard to release the canisters, right on the d-pad to unhook, melee (or shoot, louder) the canisters, marked bills to a fence; Yasmani's three ATMs for one day. Cross-checked with PC Gamer (Nov 25) and PowerPyx Yasmani's ATM Jobs (Nov 27): alarm brings police, 4 cash trays, sticky bomb, $30k-40k for the three. Frogswater crop-duster strip truck from PC Gamer only (trusted)."
   - label: "Our trophy data"
     url: "/trophies/maximum-withdrawal/"
     note: "Maximum Withdrawal, Sneakthief, A Long Road (Confirmed)."
@@ -159,6 +164,29 @@ All three lists feed [A Long Road](/trophies/a-long-road/), the 100% trophy. Cre
 
 <button class="reset" type="button" data-reset="rob:">Reset the lists on this page</button>
 
+<h2 id="atm">ATM theft</h2>
+
+ATMs mounted on the outside wall of a building can be torn off and cracked open for **marked bills**. You can try it any time you have a winch, but wait for the [Dye Pack Jammer](/guides/equipment/#dye-pack-jammer) from [Credit Check](/walkthrough/credit-check/) in Chapter 3: before that, the dye packs go off and ruin the cash.
+
+**Getting a winch.** Any of these works:
+
+- **Steal a tow truck**, which has one already. A winched truck is also parked at the crop-duster airstrip in Frogswater, Kelly County.
+- **Fit one at a [mod shop](/guides/shops/#mod-shops)**: pick-ups and big off-roaders can take a winch on the rear bumper. If you'll do this often, register your own truck first and keep it as your ATM truck ([cars guide](/guides/cars/)).
+- **Borrow Yasmani's '86 Rancher** from behind his shop once his [ATM jobs](/guides/side-contacts/#yasmani-atm) start.
+
+<ol class="cheat-steps">
+<li><b>Back up to the ATM.</b> Reverse slowly until the winch hooks on by itself.</li>
+<li><b>Floor it.</b> The machine rips out of the wall and the alarm goes off, which brings the police, so put some distance behind you.</li>
+<li><b>Drag it hard.</b> Swerve and bash it into things. After a while it breaks and its four cash trays spill out; they show as $ icons on the minimap.</li>
+<li><b>Unhook</b> with right on the d-pad.</li>
+<li><b>Smash the trays.</b> Melee works and is quieter; shooting them works too but draws attention.</li>
+<li><b>Grab the marked bills</b> and get away. Sell them to Yasmani or another <a href="/guides/fences/">fence</a>.</li>
+</ol>
+
+> **Tip:** A sticky bomb stuck on or next to the ATM breaks it open straight away, so you can skip the drag.
+
+Yasmani's first tip is three full ATMs for one in-game day, worth about **$30,000 to $40,000** together.
+
 <h2 id="more">Related</h2>
 
 - [100% route](/guides/100-percent-route/): free roam block A is the robbery sweep.
@@ -166,3 +194,4 @@ All three lists feed [A Long Road](/trophies/a-long-road/), the 100% trophy. Cre
 - [Money guide](/guides/money/): which robberies pay best in each chapter.
 - [Fences](/guides/fences/): who buys jewelry, marked bills and the rest.
 - [Equipment](/guides/equipment/): the Snap Gun and Dye Pack Jammer these jobs lean on.
+- [Yasmani's ATM jobs](/guides/side-contacts/#yasmani-atm): three tipped ATMs with a one-day window.
