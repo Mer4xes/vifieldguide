@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-26
+updated: 2026-11-27
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -652,7 +652,7 @@ Eddie is a one-off. You first run into him at the Y Hotel pool in Chapter 4, in 
 
 <h2 id="bret">Bret and hunting</h2>
 
-Bret's hunting business hands out Target Decks, hunts for specific animals. The 100% checklist needs all 15, and **Fair Game** is for a unique animal he asks for.
+Bret's hunting business hands out Target Decks, hunts for specific animals. The 100% checklist needs all 15, and **Fair Game** is for a unique animal he asks for. The first three decks, with every animal and where to look, are on [fishing and hunting](/guides/fishing-and-hunting/#target-decks).
 
 Jason meets him in Chapter 2: after [Coffee Break](/walkthrough/coffee-break/) Bret texts Jason about a deer hunt in Lummox County, *Veteran Hunted*. Go alone. It pays $500 and a unique hunting rifle, the Killtelligence SM-69, and opens more hunting jobs.
 

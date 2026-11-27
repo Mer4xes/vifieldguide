@@ -8,7 +8,7 @@ summary: Every mission in order, with the side jobs, limited-time missions, chal
 order: 2
 glow: gold
 spoilerFree: true
-updated: 2026-11-26
+updated: 2026-11-27
 facts:
   - { k: Playthroughs, v: "One", status: Reported }
   - { k: Mission replay, v: "None", status: Reported }

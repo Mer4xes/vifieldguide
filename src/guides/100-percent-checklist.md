@@ -8,7 +8,7 @@ summary: Everything the game counts toward 100%, with the number you need and th
 order: 2
 glow: cyan
 spoilerFree: true
-updated: 2026-11-26
+updated: 2026-11-27
 facts:
   - { k: Items, v: "35", status: Reported }
   - { k: Shows up, v: "After the credits", status: Reported }
@@ -88,7 +88,7 @@ The game keeps a 100% checklist with 35 items. It only appears once the credits 
 <label class="tr" data-track-row for="p-drone-time-trials-completed"><input class="cb" type="checkbox" id="p-drone-time-trials-completed" data-track="pct:drone-time-trials-completed"><div class="body"><div class="name">Drone time trials completed</div><div class="desc">Top Fun: win a drone race at all 14 locations. Three at each of the 14 Top Fun locations. <a href="/guides/races-and-ranges/#drones">Par times</a>.</div></div><div class="side"><span class="need">42</span><span class="of">of 42</span></div></label>
 <label class="tr" data-track-row for="p-stunts-completed"><input class="cb" type="checkbox" id="p-stunts-completed" data-track="pct:stunts-completed"><div class="body"><div class="name">Stunts completed</div><div class="desc">Cunning Stunts needs 250. Stunt jumps, under the bridge, knife flights and base jumps all count, but without under the bridge the other three only reach 195, so you need at least 105 of those. <a href="/guides/stunts/">Checklists</a>.</div></div><div class="side"><span class="need">300</span><span class="of">of 397</span></div></label>
 <label class="tr" data-track-row for="p-challenges-completed"><input class="cb" type="checkbox" id="p-challenges-completed" data-track="pct:challenges-completed"><div class="body"><div class="name">Challenges completed</div><div class="desc">One Last Thing needs 50. Eight categories, <a href="/guides/challenges/">all 80 listed here</a>.</div></div><div class="side"><span class="need">70</span><span class="of">of 80</span></div></label>
-<label class="tr" data-track-row for="p-brets-target-decks"><input class="cb" type="checkbox" id="p-brets-target-decks" data-track="pct:brets-target-decks"><div class="body"><div class="name">Bret's target decks</div><div class="desc">Jason only. Bret's hunts start after <a href="/walkthrough/coffee-break/">Coffee Break</a> in Chapter 2.</div></div><div class="side"><span class="need">15</span><span class="of">of 15</span></div></label>
+<label class="tr" data-track-row for="p-brets-target-decks"><input class="cb" type="checkbox" id="p-brets-target-decks" data-track="pct:brets-target-decks"><div class="body"><div class="name">Bret's target decks</div><div class="desc">Jason only. Bret's hunts start after <a href="/walkthrough/coffee-break/">Coffee Break</a> in Chapter 2. <a href="/guides/fishing-and-hunting/#target-decks">The first three decks</a>.</div></div><div class="side"><span class="need">15</span><span class="of">of 15</span></div></label>
 </div>
 
 <h2 id="discovery">Discovery</h2>

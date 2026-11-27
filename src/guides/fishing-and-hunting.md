@@ -3,17 +3,18 @@ title: Fishing, hunting and the animal log
 headline: Fishing, Hunting and the Animal Log
 kicker: Activities
 seoTitle: "GTA 6 Fishing and Hunting Guide: Lures, Controls, All 35 Fish and the 255-Animal Log"
-description: "How fishing and hunting work in GTA 6: where to buy lures, the fishing controls, why every fish goes back, Bret's hunts and clean kills, and how to study all 255 animals in the Progress log, with every related challenge and trophy to tick off."
+description: "How fishing and hunting work in GTA 6: where to buy lures, the fishing controls, why every fish goes back, Bret's hunts, clean kills and his first Target Decks, and how to study all 255 animals in the Progress log, with every related challenge and trophy to tick off."
 summary: "Rod, lures and controls, what happens to the fish you catch, how Bret's hunting works, and how to fill the animal log, with a tick list for every fishing and hunting challenge and trophy."
 order: 6
 glow: cyan
 spoilerFree: true
-updated: 2026-11-23
+updated: 2026-11-27
 facts:
   - { k: Animals in the log, v: "255", status: Reported }
   - { k: Fish species, v: "35", status: Reported }
   - { k: Huntable animals, v: "61", status: Reported }
   - { k: Keep or sell fish, v: "No, catch and release", status: Reported }
+  - { k: Bret's Target Decks, v: "15 (Jason only)", status: Reported }
 tldr:
   - "**Fishing is open from free roam.** No mission unlocks it: walk onto a dock or take a boat out, pick the rod from the equipment slot of the weapon wheel and cast."
   - "**Every fish goes back.** You can't keep or sell what you catch in free roam. What you get is Focus, entries in the log, challenges and, at 100 fish, the **Fisheye** cheat."
@@ -30,6 +31,10 @@ faq:
     a: "There is nothing to unlock. Once you are in free roam you can fish from a dock, the shore or a boat. Cal's fishing challenge, for the Baited My Tackle trophy, opens after Feng Shui in Chapter 1."
   - q: "How do you unlock hunting in GTA 6?"
     a: "Play as Jason. After Coffee Break in Chapter 2, Bret texts him about a hunt in Lummox County called Veteran Hunted. Finish it and Bret starts buying what you hunt and handing out his Target Decks. Lucia can't start it."
+  - q: "What are Bret's Target Decks in GTA 6?"
+    a: "Hunting lists Bret sends Jason after Veteran Hunted: each deck names a few species with search areas on the map, and the next deck comes once you hand in the last one. There are 15 and the 100% checklist wants all of them. Only carcasses in Pristine or Good condition count, so go for one clean shot to the head or heart."
+  - q: "What animals are in Bret's first Target Deck?"
+    a: "Adrenal Glands and Venison asks for a Whitetail Buck and a Whitetail Doe, found in Mount Kalaga National Park and around the Abandoned Concrete Plant. The second deck is a white turkey (Leonida Wild White Tom), an Eastern Spotted Skunk and a Wild Boar; the third is a Cane Toad, a Nutria and a Nile Monitor from Buckskin Swamp and Pelican Valley."
   - q: "How do you add animals to the log in GTA 6?"
     a: "Get close, or use binoculars from far away, aim at the animal and hold R1/RB until the meter fills. Its species name comes up and it goes into Progress, Animals. Once studied, friendly animals can be petted too."
 sources:
@@ -57,6 +62,21 @@ sources:
   - label: "GamerFuzion: fishing and hunting guide"
     url: "https://www.gamerfuzion.com/gta-6-fishing-hunting-guide-how-to-fish-sell/"
     note: "Nov 19, 2026, read Nov 23. Bret texts Jason after Coffee Break, Jason only; Veteran Hunted in Lummox County; Bret marks hunting spots; Bret buys the animals; clean one-shot kill keeps the animal pristine and pays more; fish can't be kept or sold; fishing raises Focus. Rifle source conflicts with other pages (not used)."
+  - label: "Push Square: GTA 6 Bret's Hunting Target Deck locations (WIP)"
+    url: "https://www.pushsquare.com/guides/gta-6-brets-hunting-target-deck-locations"
+    note: "Published Nov 18, 2026, read Nov 27. Trusted. 15 decks; decks 1-3 with names, species and search areas (deck 3 has headings only); Pristine or Good only; Bret texts the next deck; SM-69 for deer/boar at range, Wortham W-22 for turkey and skunk; skunk after about 8 PM; scopes at most Ammu-Nation stores; a pickup for hauling. Its intro says 'two fully completed' decks while it shows three (the three agree with every other page)."
+  - label: "MetaForge: GTA 6 hunting guide"
+    url: "https://metaforge.app/gta-6/gta-6-hunting-guide"
+    note: "Nov 22, 2026, read Nov 27. Same three decks, species and areas (adds Kalaga River for deck 1, not used); brown turkey doesn't count; skunk at night; boar charge; W-22 per small animal (not used for deck 3: no second source); Bret collects big animals. Unique animal names (Piebald Whitetail Buck, Albino alligator) single-source, not used."
+  - label: "FinalBoss: Bret's Target Decks, first three sets"
+    url: "https://finalboss.io/gta-6-bret-hunting-decks"
+    note: "Nov 20, 2026, read Nov 27. Same three decks and areas; Jason only; bring a pickup; white turkey feathers; skunk after dark."
+  - label: "HowToVideoGame: How Bret's Target Decks work"
+    url: "https://howtovideogame.com/gta-6-bret-target-decks/"
+    note: "Nov 24, 2026, read Nov 27. Deck 1 (buck and doe, Mount Kalaga NP), card says Jason only; deck appears in the map's Activities list after Bret's text; truck bed for hauling; Bret has big kills collected. Payouts unknown."
+  - label: "GTA6Walk: hunting"
+    url: "https://www.gta6walk.com/activities/hunting/"
+    note: "Updated Nov 23, read Nov 27. Same three decks; Map > Activities > Target Deck; Bret collects big animals, you bring small ones. Partly built on Push Square, so only a pointer."
   - label: "Our own pages"
     url: "/guides/side-contacts/#bret"
     note: "Bret (Veteran Hunted, $500, Killtelligence SM-69, Target Decks 15, Fair Game), Cal (Baited My Tackle), challenges.json survival group, cheats.json (Fisheye: 100 fish), activities-and-collectibles study section (100 of 255), cars guide (trunk holds hunting spoils), shops.json (Chuck's Tackle & Shot, Mariana County)."
@@ -110,7 +130,28 @@ Hunting is where animals make you money, and it's **Jason's** job. Lucia can't s
 2. **Hunt and carry.** Carry what you kill back to your vehicle and put it in the trunk. Use a [personal vehicle](/guides/cars/#personal): if a stolen car is wrecked, whatever is in its trunk goes with it.
 3. **Sell to Bret.** He buys what you bring in. A clean kill pays more: use the weapon the animal's info suggests and drop it with one well-placed shot. Every extra body shot lowers what the carcass is worth.
 
-Bret also hands out **Target Decks**, hunts for particular animals. The 100% checklist wants all **15**, and **Fair Game** is for the unique animal he asks for. More on him on [side contacts](/guides/side-contacts/#bret).
+Bret also hands out **Target Decks**, hunts for particular animals. The 100% checklist wants all **15**, and **Fair Game** is for the unique animal he asks for. The first three are [below](#target-decks); more on him on [side contacts](/guides/side-contacts/#bret).
+
+<h3 id="target-decks">Bret's Target Decks</h3>
+
+A Target Deck is a shopping list from Bret: a few species, each with its own search area on the map. Once *Veteran Hunted* is done he texts Jason with the first deck, and the next one arrives after you hand in the last. Open decks are listed with the other activities on the map.
+
+- **Only Pristine or Good carcasses count.** One clean shot to the head or heart keeps an animal pristine. Study it first: the info card names the weapon that suits it.
+- **Pick the right rifle.** The SM-69 from *Veteran Hunted* is the one for deer and boar from range. Small game such as the turkey and the skunk wants the **Wortham W-22**, a small-game rifle. Scopes are sold at most [Ammu-Nation](/guides/shops/#ammu-nation) stores.
+- **Bring a pickup.** Small animals go in the back of your vehicle and you drive them to Bret yourself. For the big ones, Bret has them collected.
+
+<div class="progress" data-progress-in="#deck-list">
+<div class="row"><span class="lab">Decks done</span><span class="pct"><span data-done>0</span> / 3 listed · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list" id="deck-list">
+<label class="tr" data-track-row for="deck-1"><input class="cb" type="checkbox" id="deck-1" data-track="deck:1"><div class="body"><div class="name">1. Adrenal Glands and Venison</div><div class="desc"><b>Whitetail Buck</b> and <b>Whitetail Doe</b>. Search areas in Mount Kalaga National Park and around the Abandoned Concrete Plant. Take them with the SM-69 from a distance.</div></div><div class="side"><span class="pin">2 animals</span></div></label>
+<label class="tr" data-track-row for="deck-2"><input class="cb" type="checkbox" id="deck-2" data-track="deck:2"><div class="body"><div class="name">2. Hog Endocrine Glands</div><div class="desc"><b>Leonida Wild White Tom</b>, <b>Eastern Spotted Skunk</b> and <b>Wild Boar</b>, around Adler Creek, Bonanza and Mount Kalaga National Park. The tom is the turkey with white feathers; a brown one won't do. The skunk only comes out at night, from about 8 PM. Boar charge, so shoot them through a scope before they get close.</div></div><div class="side"><span class="pin">3 animals</span></div></label>
+<label class="tr" data-track-row for="deck-3"><input class="cb" type="checkbox" id="deck-3" data-track="deck:3"><div class="body"><div class="name">3. Cane Toad Venom Glands</div><div class="desc"><b>Cane Toad</b>, <b>Nutria</b> and <b>Nile Monitor</b>, in West and East Buckskin Swamp and Pelican Valley.</div></div><div class="side"><span class="pin">3 animals</span></div></label>
+</div>
+
+> **Note:** Decks 4 to 15 and what each deck pays aren't listed yet.
 
 > **Watch out:** **Hunting Spree** wants a boar, a rattlesnake and a panther within 15 minutes, without taking a hit from people or animals. Go in with full health and armour.
 
