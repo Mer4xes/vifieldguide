@@ -992,7 +992,7 @@
           "name": "Harley (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "At the top of the Badger R&D Tower on Sunset Dr, out on the open landing, in the yellow box on the wall. This box doesn't hold the same card in every game: ours had Harley.",
+          "where": "At the top of the Badger R&D Tower on Sunset Dr, out on the open landing, in the yellow box on the wall. The card in a yellow box can differ from game to game: ours held Harley.",
           "set": "Delights Dancers"
         },
         {
@@ -1000,7 +1000,7 @@
           "name": "Nevaeh (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "In a storeroom west of the highway, in the yellow box on a stack of pallets by the hatch.",
+          "where": "In the storeroom of the paint shop marked on the map, in the yellow box on the pallets. The card in a yellow box can differ from game to game: ours held Nevaeh.",
           "set": "Delights Dancers"
         },
         {
@@ -1008,7 +1008,7 @@
           "name": "Right Wing (Bronze)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the roof of the gas station in the north of Key Lento.",
+          "where": "On the roof over the pumps at the 247 gas station in Key Lento. Climb up at the back of the station, then jump across to the pump canopy.",
           "set": "Ed Comics Universe"
         },
         {
@@ -1022,10 +1022,10 @@
         },
         {
           "id": "educated-woman",
-          "name": "The Educated Woman",
+          "name": "The Educated Woman (White)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Behind a house in the west of Key Lento, at the foot of the back steps next to a washing basket.",
+          "where": "In the second trailer on the street south of Jason's house, outside by the back steps.",
           "set": "Right Wing: America's Hero"
         },
         {
@@ -2992,14 +2992,14 @@
           "name": "Passion B.C. (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the counter of the open-air bar by the water on the west side."
+          "where": "On the bar counter at the nudist resort west of Jason's house."
         },
         {
           "id": "cowboys-prayer-kl",
           "name": "The Cowboy's Prayer is to Die Young (Key Lento)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "In the wood-panelled room with records on the wall, at the marina in the north of Key Lento."
+          "where": "In Brian's office at the marina."
         }
       ],
       "sources": [
