@@ -898,7 +898,7 @@
           "name": "Lupin de Juarez",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Inside a home close to The Rusty Anchor. Walking in counts as a break-in.",
+          "where": "Inside the trailer east of The Rusty Anchor. Walking in counts as a break-in.",
           "set": "Vice City Club De Futbol"
         },
         {
@@ -1016,8 +1016,9 @@
           "name": "Death of Swallow (Blue)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Inside a house on the beach side of Key Lento, by the shelf unit in the living room.",
-          "set": "The Legends of Ratface"
+          "where": "In the yellow house with crime scene tape on Surfside Dr, in the southeast. Break in and look on the floor beside the smashed shelving unit, in the dining area behind the kitchen.",
+          "set": "The Legends of Ratface",
+          "n": 30
         },
         {
           "id": "educated-woman",
@@ -1032,7 +1033,7 @@
           "name": "Carl Kasey",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the picnic table beside the waterfront basketball court on the east side.",
+          "where": "At the public basketball court by the beach, on the picnic bench right next to the court.",
           "set": "Vice City Narcos"
         },
         {
@@ -1040,7 +1041,7 @@
           "name": "Georgie Macklerath (Silver)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the fridge in the kitchen of a house by the water on the east side.",
+          "where": "On the fridge in the kitchen of a yellow house on the waterfront. Walking in gets you reported, so be quick.",
           "set": "Vice City Manatees"
         },
         {
@@ -1048,7 +1049,7 @@
           "name": "Remy Herbert (Orange)",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "Inside the fenced basketball court on Surfside Dr, on the ground in the corner by the gate.",
+          "where": "In the fenced basketball court behind the Crastenburg Hotel on Surfside Dr, on the ground in a corner.",
           "set": "Liberty City Penetrators"
         }
       ],
@@ -1082,6 +1083,11 @@
           "label": "Hauk's own in-game captures (Nov 26-27)",
           "url": "",
           "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: delights-harley-kl, delights-nevaeh-kl, ed-rightwing-bronze, ratface-swallow-blue, educated-woman, narcos-kasey, manatees-macklerath-silver, penetrators-herbert-orange. Where-lines describe what the captures show; the maps carry no street names."
+        },
+        {
+          "label": "Push Square Ratface page, KeenGamer, Tech4Gamers, Game-Checklists (Key Lento cards, matched to Hauk's captures)",
+          "url": "https://www.pushsquare.com/guides/gta-6-the-legends-of-ratface-card-locations",
+          "note": "Read Nov 27, 2026. Hauk asked that where-lines for his captured items use online information that agrees with his photos. Death of Swallow (Blue) #30: Push Square (trusted) + showgamer/thegameswiki/theclick. Carl Kasey, Georgie Macklerath (Silver), Remy Herbert (Orange): KeenGamer + Game-Checklists agree and match the photos. Lupin de Juarez: Tech4Gamers + Game-Checklists (trailer east of The Rusty Anchor). No online location found for Right Wing (Bronze) on the gas station roof (Hauk's own words), The Educated Woman in Key Lento, or Harley/Nevaeh in Key Lento (online lists have Harley in Port Gellhorn and Nevaeh in Bonanza)."
         }
       ]
     },
@@ -2150,24 +2156,24 @@
         },
         {
           "id": "kl-house-corner",
-          "name": "House corner by the boat trailer",
+          "name": "White house on Surfside Dr",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the east side, standing at the corner of a house, right next to an empty boat trailer."
+          "where": "At the corner of a white house on Surfside Dr, just south of Key Lento Kahuna, next to an empty boat trailer."
         },
         {
           "id": "kl-garden-fence",
-          "name": "Garden by the fence",
+          "name": "Sunset Dr garden",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the west shore, in the flowerbed between a wooden fence and the outside stairs of a house."
+          "where": "In the garden of a waterfront house on Sunset Dr, in the flowerbed between the wooden fence and the outside stairs."
         },
         {
           "id": "kl-rocks",
-          "name": "Rocks at the water",
+          "name": "Sunset Dr shore",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the west shore, on the rocks right at the waterline behind the houses."
+          "where": "Behind the houses on Sunset Dr, on the rocks at the water's edge. Plastic flamingos float in the water just off the rocks."
         }
       ],
       "sources": [
@@ -2190,6 +2196,11 @@
           "label": "Hauk's own in-game captures (Nov 26-27)",
           "url": "",
           "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: kl-house-corner, kl-garden-fence, kl-rocks. Where-lines describe what the captures show; the maps carry no street names."
+        },
+        {
+          "label": "GTA6Bugs + GTADB Key Lento spots matched to Hauk's captures",
+          "url": "https://gta6bugs.com/collectibles/cocaine-flamingos",
+          "note": "Nov 27, 2026: the white house on Surfside Dr south of Key Lento Kahuna (GTA6Bugs; Hauk's map shows Surfside Dr), a waterfront garden on Sunset Dr and the shore with floating flamingos (GTADB) each match one of Hauk's three captures."
         }
       ]
     },
@@ -2827,7 +2838,7 @@
           "name": "Passion B.C.",
           "county": "vice-city",
           "area": "Bayside",
-          "where": "Bayside apartment: next to the bathtub.",
+          "where": "Bayside apartment: next to the bathtub. The same book can also be read in Key Lento.",
           "n": 10,
           "missable": "Chapter 3 only"
         },
@@ -3016,6 +3027,11 @@
           "label": "Hauk's own in-game captures (Nov 26-27)",
           "url": "",
           "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: dicked-down-kl, passion-bc-kl, cowboys-prayer-kl. Where-lines describe what the captures show; the maps carry no street names."
+        },
+        {
+          "label": "PowerPyx + Push Square: titles have more than one location",
+          "url": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+          "note": "Re-read Nov 27, 2026. Both say most titles can be read in several places and that missable spots can be bypassed elsewhere; neither lists the Key Lento spots Hauk captured for Dicked Down Deep in Space, Passion B.C. and The Cowboy's Prayer, so those where-lines describe his photos. Push Square puts The Cowboy's Prayer at the Grayson Motel reception (PowerPyx: building north of Taco Bomb): different spots for the same title."
         }
       ]
     },
@@ -3039,7 +3055,7 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "who": "Jason",
-          "where": "A magazine on the bed in a house in the north of Key Lento, west of the highway. It counts under Jason's Magazine Styles."
+          "where": "In the trailer east of The Rusty Anchor. Turn left inside, go into the bedroom and scan the magazine on the bed."
         },
         {
           "id": "sunset-blush",
@@ -3047,7 +3063,39 @@
           "county": "mariana-county",
           "area": "Key Lento",
           "who": "Lucia",
-          "where": "A magazine on the bed in a bedroom of a house on the west shore. It unlocks the look for Lucia at any salon."
+          "where": "In the aqua blue house on Sunset Dr, just north of the Christmas House. Go into the bedroom on the right and scan the magazine on the bed. Going in counts as a break-in."
+        },
+        {
+          "id": "red-braided-top-knot",
+          "name": "Red Braided Cornrows Top Knot (hair)",
+          "county": "mariana-county",
+          "area": "Key Lento",
+          "who": "Jason",
+          "where": "On top of the circular building that is closed to trespassers. Scan the poster next to the sun loungers."
+        },
+        {
+          "id": "pop-star",
+          "name": "Pop Star (makeup)",
+          "county": "mariana-county",
+          "area": "Abismo Key",
+          "who": "Lucia",
+          "where": "Near Abismo Key State Park, a little east of the car park. Go round the back of the building: it is on the ground by a chair, in front of the Staff Only door."
+        },
+        {
+          "id": "tower-tarot",
+          "name": "The Tower Tarot (tattoo)",
+          "county": "kelly-county",
+          "area": "North Kelly County",
+          "who": "Jason",
+          "where": "Hoffman Observatory, in the west. Climb the scrapped cars on the outside to the platform, go in, drop to the lower floor and scan the magazine on the mattress."
+        },
+        {
+          "id": "high-priestess-tarot",
+          "name": "The High Priestess Tarot (tattoo)",
+          "county": "kelly-county",
+          "area": "North Kelly County",
+          "who": "Lucia",
+          "where": "Hoffman Observatory, the same magazine on the mattress as The Tower Tarot."
         }
       ],
       "sources": [
@@ -3055,6 +3103,11 @@
           "label": "Hauk's own in-game captures (Nov 26-27)",
           "url": "",
           "note": "Primary source: Hauk photographed these himself in Key Lento (map, place, close-up in src/assets/img/shots/col/). New rows from them: square-goatee, sunset-blush. Where-lines describe what the captures show; the maps carry no street names."
+        },
+        {
+          "label": "Push Square: Magazine Style Locations (WIP)",
+          "url": "https://www.pushsquare.com/guides/gta-6-magazine-style-locations",
+          "note": "Trusted. Read Nov 27, 2026 (published Nov 26 17:55 UTC). 13 Jason + 15 Lucia + 17 magazine tattoos = 45 magazine styles. Six entries: Red Braided Cornrows Top Knot, Square Goatee, Sunset Blush, Pop Star, The Tower Tarot, The High Priestess Tarot. Square Goatee and Sunset Blush match Hauk's captures; Game Rant agrees on the Square Goatee trailer. Prices left out."
         }
       ]
     },
@@ -3783,10 +3836,10 @@
         },
         {
           "id": "kl-waterfront-court",
-          "name": "Waterfront court",
+          "name": "Beach court",
           "county": "mariana-county",
           "area": "Key Lento",
-          "where": "On the painted court by the water on the east side, next to the picnic tables."
+          "where": "On the public court by the beach on the east side, next to the picnic benches."
         }
       ],
       "sources": [
