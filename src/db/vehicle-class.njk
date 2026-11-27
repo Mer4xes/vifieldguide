@@ -1,0 +1,115 @@
+---js
+{
+  layout: "layouts/base.njk",
+  pagination: {
+    data: "vehicleList.classes",
+    size: 1,
+    alias: "c",
+    before: (classes) => classes.filter((c) => c.items && c.items.length),
+    addAllPagesToCollections: true,
+  },
+  permalink: (data) => `vehicles/${data.c.n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/`,
+  eleventyComputed: {
+    crumbParent: () => ({ label: "Vehicles", url: "/vehicles/" }),
+    title: (data) => `All ${data.c.count} ${data.c.n}`,
+    seoTitle: (data) => `GTA 6 All ${data.c.n} (${data.c.count}): Full List and Checklist`,
+    description: (data) => `Every ${data.c.n.toLowerCase()} in GTA 6: all ${data.c.count} in the order of the game's Progress menu, where to find them, how to add them to your Progress and a checklist that saves on your device.`,
+    updated: (data) => data.vehicleList.updated,
+  },
+}
+---
+{%- set vl = vehicleList %}
+{%- set lc = c.n | lower %}
+{%- set gap = c.count - c.items.length %}
+{%- set where = {
+  cars: "Cars in this class drive around at random in traffic and sit in parking lots, so the quickest way to fill it is to keep the scanner handy as you play. Busy parts of Vice City and Vice Beach give you the most traffic to scan.",
+  bikes: "Bikes turn up at random in traffic and parked along streets and beaches. Bicycles are easiest to find in the city and on the beachfront paths.",
+  watercraft: "Boats turn up at random on the water. The Vice City harbor is the best place to start, and marinas along the coast and the Keys have more moored up.",
+  aircraft: "Helicopters sit on Vice City rooftops marked with an H on the map, and planes wait at airstrips and Vice City International Airport. You can scan them from the ground.",
+  service: "Service vehicles show up at building sites and in industrial areas, emergency vehicles answer calls and chase you when you're wanted, and military vehicles are parked at Mile Zero Air Station south of Key Lento."
+} %}
+<header class="mast" style="--glow:var(--violet)">
+  <div class="wrap">
+    <p class="kicker">Vehicles · {{ c.n }}</p>
+    <h1>{{ c.n }}</h1>
+    <p class="tagline">{% if c.lede %}{{ c.lede | md | striptags }}{% else %}All {{ c.count }} {{ lc }} in GTA 6.{% endif %}</p>
+    <dl class="meta">
+      <div><dt>In this class</dt><dd>{{ c.count }}</dd></div>
+      <div><dt>Named here</dt><dd>{{ c.items.length }}</dd></div>
+      <div><dt>100% needs</dt><dd>{{ vl.need }} of {{ vl.total }}</dd></div>
+    </dl>
+    <div class="progress" data-progress-in="#vc-list">
+      <div class="row"><span class="lab">Found</span><span class="pct"><span data-done>0</span> / {{ c.items.length }} · <span data-pct>0%</span></span></div>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+</header>
+
+<section class="sec" id="list">
+  <div class="wrap">
+    <p class="kicker">Checklist</p>
+    <h2 class="sec-h">All {{ c.count }} {{ lc }} in Progress order</h2>
+    <p class="lede">The list follows the game's own <b>Progress › Vehicles</b> menu. Tick each one as you scan or drive it. Your ticks are the same ones as on the <a href="/vehicles/#v-{{ c.id }}">full vehicle checklist</a>, so they show up there too.</p>
+    <div class="filters" data-filter-group="vc" role="group" aria-label="Filter {{ lc }}">
+      <button type="button" class="fchip is-on" data-filter="*" aria-pressed="true">All · {{ c.items.length }}</button>
+      <button type="button" class="fchip" data-filter="todo" aria-pressed="false">Not found yet</button>
+    </div>
+    <div class="wpn-grid" id="vc-list" data-filter-list="vc">
+      {%- for v in c.items %}
+      {%- set vid = v | replace("’", "") | slugify %}
+      <label class="tr wpn" data-track-row for="vc-{{ c.id }}-{{ vid }}" data-tags="{{ c.id }}" data-text="{{ v | lower }}"><input class="cb" type="checkbox" id="vc-{{ c.id }}-{{ vid }}" data-track="veh:{{ c.id }}:{{ vid }}" aria-label="Mark {{ v }} found"><div class="body"><div class="name">{{ v }}</div></div></label>
+      {%- endfor %}
+    </div>
+    <p class="nomatch" data-nomatch="vc" hidden>You've found every one listed here.</p>
+    {%- if gap > 0 %}<p class="veh-gap">{{ gap }} more in this class {{ "isn't" if gap == 1 else "aren't" }} named on this page yet. {{ "It goes" if gap == 1 else "They go" }} in as soon as we have {{ "it" if gap == 1 else "them" }}.</p>{% endif %}
+    <button class="reset" type="button" data-reset="veh:{{ c.id }}:">Reset this class</button>
+  </div>
+</section>
+
+<section class="sec" id="where">
+  <div class="wrap">
+    <p class="kicker">Where to look</p>
+    <h2 class="sec-h">Finding {{ lc }}</h2>
+    <ul class="howlist">
+      <li>{{ where[c.group] }}</li>
+      <li><b>Scan, don't steal.</b> A vehicle counts once you've driven it or scanned it with WAiNK. Hold <b>D-pad Up</b> to open the scanner, aim and press <b>R1 / RB</b>. More in <a href="/guides/activities-and-collectibles/#study-and-scan">study and scan</a>.</li>
+      <li><b>Check what's missing</b> in the game under <b>Progress › Vehicles</b>; it lists this class in the same order as this page.</li>
+      <li>To keep one, see the <a href="/guides/cars/">cars guide</a> (stealing, registering, impound) and <a href="/guides/garages/">garages</a> for parking spaces.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="classes">
+  <div class="wrap">
+    <p class="kicker">Other classes</p>
+    <h2 class="sec-h sm">Every vehicle class</h2>
+    <div class="kguides vc-classes">
+      {%- for o in vl.classes %}{% if o.id != c.id %}
+      {%- if o.items.length %}
+      <a class="kguide" href="/vehicles/{{ o.n | lower | slugify }}/"><b>{{ o.n }}</b><span>{{ o.count }} in the class</span></a>
+      {%- else %}
+      <a class="kguide" href="/vehicles/#v-{{ o.id }}"><b>{{ o.n }}</b><span>{{ o.count }} in the class · names to come</span></a>
+      {%- endif %}
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{%- set vfaq = [
+  { q: "How many " + lc + " are in GTA 6?", a: "There are " + c.count + " " + lc + " in GTA 6. They are base models, so every one of them counts toward the " + vl.need + " vehicles that 100% completion asks for." },
+  { q: "Do " + lc + " count toward 100% in GTA 6?", a: "Yes. 100% needs any " + vl.need + " of the " + vl.total + " base models, from any class, and the Whip It Good trophy unlocks at " + vl.trophy + ". You don't need the whole class if you fill the count with other vehicles. Standout vehicles don't count." },
+  { q: "How do you add a vehicle to your Progress in GTA 6?", a: "Drive it once or scan it with the WAiNK app. Hold D-pad Up to open the scanner, aim at the vehicle and press R1 / RB. Scanning works on traffic, parked vehicles, boats and aircraft." }
+] %}
+<section class="sec" id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2 class="sec-h">Quick answers</h2>
+    <div class="faq">
+      {%- for q in vfaq %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ q.q }}</summary><div>{{ q.a | md | safe }}</div></details>
+      {%- endfor %}
+    </div>
+    {%- if vl.updated %}<p class="stamp">Last updated {{ vl.updated | niceDate }}</p>{% endif %}
+  </div>
+</section>
+<script type="application/ld+json">{{ vfaq | faqld | safe }}</script>

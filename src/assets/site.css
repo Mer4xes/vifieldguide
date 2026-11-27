@@ -1356,3 +1356,8 @@ html.hide-ahead .mrow.chm:not(.is-done):not(.is-next) .chm-sum{filter:blur(6px)}
 .xfer textarea:focus{outline:none;border-color:var(--cyan)}
 .xfer-msg{font-weight:700;color:var(--cyan);min-height:1.5em}
 .xfer-msg.bad{color:var(--gold)}
+
+/* ---------- vehicle class pages ---------- */
+.wpn-class .chal-h .vc-link{margin-left:10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--cyan);text-decoration:none;vertical-align:middle}
+.wpn-class .chal-h .vc-link:hover{text-decoration:underline}
+.vc-classes{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}

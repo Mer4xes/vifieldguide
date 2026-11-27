@@ -35,7 +35,7 @@
       {%- for c in vl.classes %}
       {%- if c.items.length %}
       <div class="wpn-class" data-filter-parent>
-        <h3 class="chal-h" id="v-{{ c.id }}">{{ c.n }} <small class="wpn-n">{{ c.count }}</small></h3>
+        <h3 class="chal-h" id="v-{{ c.id }}">{{ c.n }} <small class="wpn-n">{{ c.count }}</small><a class="vc-link" href="/vehicles/{{ c.n | lower | slugify }}/">Class page →</a></h3>
         {%- if c.lede %}<p class="wpn-lede">{{ c.lede | md | safe }}</p>{% endif %}
         <div class="wpn-grid">
           {%- for v in c.items %}
