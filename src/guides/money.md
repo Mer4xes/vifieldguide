@@ -8,7 +8,7 @@ summary: What pays in each chapter, when it opens, and how to keep the cash once
 order: 3
 glow: gold
 spoilerFree: true
-updated: 2026-11-27
+updated: 2026-11-28
 facts:
   - { k: Best early earner, v: "Cars for Moses", status: Reported }
   - { k: Small bank jobs, v: "14, from Credit Check", status: Reported }
@@ -148,7 +148,7 @@ The 8 large banks are where the big money is, roughly **$65,000 to $205,000** ea
 
 > **Watch out:** Robbing a vault gives you an **instant four-star wanted level**. Leave on a fast motorcycle that can weave through traffic, then swap to a different car so the police lose track of you.
 
-> **Tip:** Once you've robbed **2 payday loans**, Yasmani sells security-van tips for **$10,000**, which saves you hunting for a van.
+> **Tip:** After That's Where The Money Is, Yasmani sells a security-van tip for **$10,000**, which saves you hunting for a van and usually pays about **$100,000** in marked bills ([Tail the Security Van](/guides/side-contacts/#yasmani-jobs)). His Chapter 3 and 4 tips for payday loans, the Gold Blammer and small banks are on the same list.
 
 Robbing 5 vaults and getting away earns **Maximum Withdrawal**; the [100% checklist](/guides/100-percent-checklist/) wants all 8. The two Lombank vaults (Downtown and Ocean Beach) pay the most; [all eight](/guides/robberies/#vaults). After the story ends, the vaults are still the fastest money in the game: hit one, escape, bank the cash, repeat.
 

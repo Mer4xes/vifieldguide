@@ -8,7 +8,7 @@ summary: Tick lists for the robberies the 100% checklist counts one by one. Ever
 order: 5
 glow: pink
 spoilerFree: true
-updated: 2026-11-27
+updated: 2026-11-28
 facts:
   - { k: "Smash 'n' Grabs", v: "35 (34 for 100%)", status: Reported }
   - { k: Bank jobs, v: "22", status: Reported }
@@ -105,7 +105,7 @@ All three lists feed [A Long Road](/trophies/a-long-road/), the 100% trophy. Cre
 
 <div class="stunt-kind rr-sec" data-filter-parent>
 <h2 id="banks">Bank jobs</h2>
-<p class="stunt-how">Small banks have a <b>cash drawer and a safe</b>, and you need both. Large banks add a vault (below). Banks show a green bank icon on the map; hover over one to see which parts you've already taken. More on the money side in the <a href="/guides/money/#bank-jobs">money guide</a>.</p>
+<p class="stunt-how">Small banks have a <b>cash drawer and a safe</b>, and you need both. Large banks add a vault (below). Banks show a green bank icon on the map; hover over one to see which parts you've already taken. More on the money side in the <a href="/guides/money/#bank-jobs">money guide</a>. In Chapter 4 Yasmani sells small-bank tips that come with the safe code (<a href="/guides/side-contacts/#yasmani-jobs">his bank tip</a>).</p>
 {%- for g in ["Mariana County", "Vice City and Vice-Dale", "Leonard County", "Kelly County"] %}
 {%- set items = robberies.banks | where("group", g) %}
 <div data-filter-parent>
@@ -125,7 +125,7 @@ All three lists feed [A Long Road](/trophies/a-long-road/), the 100% trophy. Cre
 <li><b>Go in while it's open</b> and take the vault, the cash drawer and the safe.</li>
 <li><b>Expect four stars at once.</b> A fast motorbike gets you through traffic; swap to another vehicle once you're clear so the police lose your description.</li>
 </ol>
-<p class="stunt-how">Tired of hunting for vans? Yasmani sells security van tips for $10,000 (<a href="/guides/money/#vaults">when he starts</a>). Five vaults earn <a href="/trophies/maximum-withdrawal/">Maximum Withdrawal</a>; the checklist wants all eight.</p>
+<p class="stunt-how">Tired of hunting for vans? Yasmani sells a security van tip for $10,000 once That's Where The Money Is is done (<a href="/guides/side-contacts/#yasmani-jobs">Tail the Security Van</a>). Five vaults earn <a href="/trophies/maximum-withdrawal/">Maximum Withdrawal</a>; the checklist wants all eight.</p>
 {%- set items = robberies.banks | where("group", "Large banks") %}
 <div data-filter-parent>
 <p class="stunt-region">Large banks<span>{{ items | length }}</span></p>
@@ -144,7 +144,7 @@ All three lists feed [A Long Road](/trophies/a-long-road/), the 100% trophy. Cre
 <li><b>Go through to the back room</b> and empty the safe too.</li>
 <li><b>Lose the police.</b> The cash is marked bills, so take it to a fence once you have the Dye Pack Jammer.</li>
 </ol>
-<p class="stunt-how">Payday loans have a green hand icon on the map.</p>
+<p class="stunt-how">Payday loans have a green hand icon on the map. For $1,000 Yasmani tips you off to two that are holding extra cash that day (<a href="/guides/side-contacts/#yasmani-jobs">his payday loan tip</a>).</p>
 {%- for g in ["Vice City and Vice-Dale", "Kelly County"] %}
 {%- set items = robberies.payday | where("group", g) %}
 <div data-filter-parent>

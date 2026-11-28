@@ -828,6 +828,18 @@
        "t": "**Yasmani's ATM tip:** with Credit Check and his jewelry jobs done, he marks three full ATMs (Megamart, the casino, Xero Gas) for **one in-game day**. Pull them out with a winch truck and bring him the marked bills. [Yasmani's ATM jobs](/guides/side-contacts/#yasmani-atm)."
       },
       {
+       "k": "yasmani-payday",
+       "tag": "side",
+       "track": "yasmanijob:payday",
+       "t": "**Yasmani's payday loan tip** ($1,000): two payday loans marked for that day, about $12,000 a safe. Sell him the marked bills. [Yasmani's later tips](/guides/side-contacts/#yasmani-jobs)."
+      },
+      {
+       "k": "yasmani-gold",
+       "tag": "side",
+       "track": "yasmanijob:gold",
+       "t": "**Steal the Gold Blammer** for Yasmani: a necklace in one of four Rockridge shops, $15,000. Start with Vice City Gun & Pawn. Do it before the Chapter 4 bank vault mission, or the strand can skip it."
+      },
+      {
        "k": "lucia-payday",
        "tag": "side",
        "t": "**Rob the Little Cuba payday loan again as Lucia**, on her own, and leave on foot, not in a car. A hidden trophy depends on it."
@@ -1019,6 +1031,12 @@
        "tag": "side",
        "t": "**Pilot Pete.** Jason only. He calls early in the chapter. Passing the Torch, Backseat Pilot, then three timed Pete's Deliveries; they count toward Strangers & Freaks. [Pete's jobs](/guides/side-contacts/#pete).",
        "track": "sf:pete"
+      },
+      {
+       "k": "yasmani-banks",
+       "tag": "side",
+       "track": "yasmanijob:banks",
+       "t": "**Yasmani's bank tip:** a small bank plus its safe code, about $20,000 a safe. Take it before That's Where The Money Is at the end of the chapter, or the strand can skip it. [Yasmani's later tips](/guides/side-contacts/#yasmani-jobs)."
       }
      ]
     },
@@ -1137,6 +1155,12 @@
        "k": "vault-intro",
        "tag": "side",
        "t": "**That's Where The Money Is…** Optional, at the very end of the chapter. Opens the eight large bank vaults: tail a security van to the bank, go in while the vault is open and hand one bag to your partner. [Money guide](/guides/money/), [the eight banks](/guides/robberies/#vaults)."
+      },
+      {
+       "k": "yasmani-van",
+       "tag": "side",
+       "track": "yasmanijob:van",
+       "t": "**Tail the Security Van** for Yasmani: a $10,000 tip leads you to a vault, about $100,000 in marked bills. Stay well back from the van. The last of his jobs. [Yasmani's later tips](/guides/side-contacts/#yasmani-jobs)."
       },
       {
        "k": "t-max",

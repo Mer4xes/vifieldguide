@@ -8,7 +8,7 @@ summary: Who the side contacts are, what they want from Jason and Lucia, where y
 order: 4
 glow: violet
 spoilerFree: true
-updated: 2026-11-27
+updated: 2026-11-28
 labs:
   - { id: story, area: "Story lab", where: "A trailer giving off pink smoke, with two guards outside.", pay: "2,000" }
   - { id: balsero-1, area: "Balsero", n: 1, where: "A garage in a building on the north edge of the area, about three people inside. There's a paper to read just left of the door.", pay: "2,000" }
@@ -79,6 +79,10 @@ faq:
     a: "Finish Dealer's Choice in Chapter 3 as Jason. A few minutes later Manuel adds you to a group chat and the first street race shows up in Salton. Race Against Yago, the third job, is limited-time, so do it as soon as it appears."
   - q: "What are the safe codes for Yasmani's jewelry jobs in GTA 6?"
     a: "1680 at Casa de Empeno, 6815 at Richardson Jewelry and 0104 at Donovan Banks & Co."
+  - q: "Where is the Gold Blammer in GTA 6?"
+    a: "It's a gold necklace Yasmani asks for in Chapter 3, after his payday loan tip. It's in one of four shops in Rockridge; start with Vice City Gun & Pawn, where it sits in a locked case on the desk in the back room. Sell it to Yasmani for $15,000."
+  - q: "What are Yasmani's jobs in GTA 6, in order?"
+    a: "Jewelry Jobs, ATM Jobs, Payday Loan Jobs and Steal the Gold Blammer in Chapter 3, then Bank Jobs and Tail the Security Van in Chapter 4. The security van tip ($10,000) comes after the optional mission That's Where The Money Is."
   - q: "How do you start Kyle's missions in GTA 6?"
     a: "Read one of Kyle's flyers on the wall outside the Starlet Motel reception in Chapter 2. His first job, Check Out McKittrick Farm, then shows on the map."
   - q: "How do you start Eddie Acosta's party in GTA 6?"
@@ -215,6 +219,12 @@ sources:
   - label: "PowerPyx: Yasmani's ATM Jobs"
     url: "https://www.powerpyx.com/gta-6-yasmanis-atm-jobs-walkthrough/"
     note: "Published Nov 27, 2026 01:52 UTC (modified 02:19), read Nov 27. Trusted. Chapter 3, Vice City > Little Cuba, giver Yasmani; needs Yasmani's Jewelry Jobs + Credit Check; Lucia or Jason; reward about $30,000-40,000 for all three; objectives Megamart ATM, Casino ATM, Xero Gas ATM; Yasmani sells tips, first one free, three full ATMs for 1 in-game day (missable, but later tips/jobs still come); winch: stolen tow truck, any truck with a winch rear bumper, or Yasmani's '86 Rancher behind his shop; back up to hook, drive to pull it out, drag until the cash trays fall out, right on the d-pad to unhook, melee or shoot, 4 trays per ATM ($ on minimap); sticky bomb on the casino ATM; marked bills to Yasmani (highest payout). Questline order: Jewelry Jobs, ATM Jobs, Payday Loan Jobs, Steal the Gold Blammer, Bank Jobs, That's Where the Money Is..., Tail the Security Van (later steps not written yet)."
+  - label: "PowerPyx: Yasmani's later jobs"
+    url: "https://www.powerpyx.com/gta-6-yasmanis-payday-loan-jobs-walkthrough/"
+    note: "Read Nov 28, 2026. Trusted. All published Nov 27 01:53-01:56 UTC, modified 02:19-02:20, all Vice City > Little Cuba, giver Yasmani, Lucia/Jason, side missions. Payday Loan Jobs (Ch3): needs Jewelry Jobs + Credit Check, ATM jobs done or expired, $1,000 tip; 2 payday loans marked for that day (may be random); Snap Gun back door at some, keypad back door = explosives + instant alarm; small safe opened with a screwdriver; ~$12,000 per safe; sell to Yasmani. Steal the Gold Blammer (/gta-6-yasmani-steal-the-gold-blammer-walkthrough/, Ch3): after payday loan jobs, ask for more tips; necklace in one of 4 stores in Rockridge; page says it is specifically at Vice City Gun & Pawn; security, locked box on the desk in the back room; $15,000. Yasmani's Bank Jobs (/gta-6-yasmanis-bank-jobs-walkthrough/, Ch4): pay for a small-bank tip with a safe code; Snap Gun for the teller-area door; keypad back door needs a sticky bomb, alarm regardless; code saves a sticky bomb; destroy footage / turn off alarm where no keypad; ~$20,000 per safe; no bank named. Tail the Security Van (/gta-6-yasmani-tail-the-security-van-walkthrough, Ch4): needs That's Where the Money Is + $10,000 tip; stay far back or the driver won't stop; guard goes into the vault; keypad door, security shoots at once; marked bills cart, more than two bags, throw to partner or switch, back-room safe too; always 4 stars, police often outside; ~$100,000; last in the chain. Warning on all: finishing That's Where the Money Is first can skip to Tail the Security Van; nothing needed for completion is lost."
+  - label: "Game Rant: How to Steal the Gold Blammer"
+    url: "https://gamerant.com/gta-6-gold-blammer-yasmani-how-steal/"
+    note: "Nov 26, 2026, read Nov 28. Cross-check: $15,000 from Yasmani; four stores (Dorado Pawn, Emilio's Auto Center, La Madre Cafeteria, Vice City Gun & Pawn); found it in the case on the desk in Vice City Gun & Pawn's back office. It says the necklace's store is random and changes on reload, against PowerPyx (always Vice City Gun & Pawn), so the page only says to start there. The other three store names are Game Rant only, so they aren't named."
   - label: "PC Gamer: winched vehicle to steal ATMs"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-atm-winched-vehicle/"
     note: "Published Nov 25, 2026, read Nov 27. Trusted. Cross-check: Dye Pack Jammer from Credit Check first, Yasmani's tips after all three jewelry thefts, three free tipped ATMs with a 24-hour window, about $11k per tipped ATM, winched truck behind Yasmani's shop, tow trucks or a mod-shop winch, crop-duster strip in Frogswater; alarm calls the police. Its 'vape shop in Little Cuba' for Yasmani's shop disagrees with our jewelry-jobs text (Ocean Beach), so the shop's area isn't repeated here."
@@ -268,7 +278,7 @@ sources:
 | **Bret Vogel** | Killtelligence, a hunting business; Target Decks | Chapter 2, *Veteran Hunted* after [Coffee Break](/walkthrough/coffee-break/) (Jason only) | Fair Game (hidden): hunt a unique animal for him |
 | **Tyrone Russo** | Drug fence; wants a Kitty Litter operation shut down | Chapter 3, the missions [Tyrone](/walkthrough/tyrone/) and [Here, Kitty Kitty](/walkthrough/here-kitty-kitty/) ([labs and last job](#tyrone)) | Spin On This! (hidden) |
 | **Randy Kozlov** | Car fence with an export list | Chapter 3, [Car Service](/walkthrough/car-service/); his own jobs start with *Steal the Zorrusso for Randy* | Supply & Demand (hidden) |
-| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/), then his [ATM jobs](#yasmani-atm) | |
+| **Yasmani Cabrera** | Fence for jewelry and bills; robbery tips | Chapter 3, [Yasmani's Jewelry Jobs](#yasmani) after [Boobie Time](/walkthrough/boobie-time/), then his [ATM jobs](#yasmani-atm) and [later tips](#yasmani-jobs) up to the bank vaults | |
 | **Dunk Porter** | Drug fence; robbery tips | Chapter 2, [Girls' Trip](/walkthrough/girls-trip/); fence from [Slam Dunk](/walkthrough/slam-dunk/) | |
 | **Pete Wozniak** (Pilot Pete) | Flies drug drops; hands his plane over to Jason | Chapter 4, a phone call to Jason early in the chapter ([his jobs](#pete)) | Counts toward Strangers & Freaks |
 | **Andy** | Cellerica, a wellness group selling vape sticks | Chapter 3, a call to Lucia, then an address in Belville ([the jobs](#andy)) | Road to Rehabilitation (hidden) |
@@ -512,7 +522,25 @@ Once his jewelry jobs and the story mission [Credit Check](/walkthrough/credit-c
 
 You need a vehicle with a **winch** on the back. Yasmani has one ready: his **'86 Rancher**, parked behind his shop, which you can borrow. Hook each ATM, tear it off the wall, drag it until its four cash trays fall out, then smash the trays and pick up the **marked bills**. The step-by-step is in [ATM theft](/guides/robberies/#atm).
 
-Take the bills from all three back to **Yasmani**, who pays the most for them. Expect about **$30,000 to $40,000** for the set. That ends the job, and his payday loan jobs are next ([payday loans](/guides/robberies/#payday)).
+Take the bills from all three back to **Yasmani**, who pays the most for them. Expect about **$30,000 to $40,000** for the set. That ends the job. You can also let the day run out and skip it: his next tip still comes.
+
+<h3 id="yasmani-jobs">Yasmani's later tips</h3>
+
+After the ATMs Yasmani keeps selling tips, and each one you buy turns into a job. Jason or Lucia can take all of them, and every one ends back at his shop, where he buys the marked bills or the loot. They come in this order:
+
+> **Watch out:** Play his tips as soon as they come. If you finish the Chapter 4 optional mission **That's Where The Money Is…** first, the strand can jump straight to his last job and skip the Gold Blammer and the bank tip. Nothing you need for 100% or a trophy is lost that way, only the extra jobs.
+
+<div class="progress" data-progress="yasmanijob:" data-total="4">
+<div class="row"><span class="lab">Yasmani's tips done</span><span class="pct"><span data-done>0</span> / 4 · <span data-pct>0%</span></span></div>
+<div class="bar"><i></i></div>
+</div>
+
+<div class="trophies chal-list lab-list">
+<label class="tr" data-track-row for="yj-payday"><input class="cb" type="checkbox" id="yj-payday" data-track="yasmanijob:payday"><div class="body"><div class="name">1. Payday Loan Jobs</div><div class="desc"><b>Chapter 3, tip $1,000.</b> Once his jewelry jobs and <a href="/walkthrough/credit-check/">Credit Check</a> are done, pay Yasmani for a tip and he marks <b>two payday loan stores</b> that are holding a lot of cash that day (which two can vary). Where the back door has a plain lock, the <a href="/guides/equipment/#snap-gun">Snap Gun</a> gets you in without the alarm; a keypad door has to be blown open, and that sets the alarm off at once. Mind the security inside, then open the small safe in the back with a screwdriver and take the marked bills. Rob both, then sell the bills to Yasmani. <a href="/guides/robberies/#payday">All 7 payday loans</a>.</div></div><div class="side"><span class="need">~$12k a safe</span></div></label>
+<label class="tr" data-track-row for="yj-gold"><input class="cb" type="checkbox" id="yj-gold" data-track="yasmanijob:gold"><div class="body"><div class="name">2. Steal the Gold Blammer</div><div class="desc"><b>Chapter 3, after his payday loan tip.</b> Ask Yasmani for another tip and he tells you about a gold necklace, the Gold Blammer, kept in one of four shops in Rockridge; he doesn't know which. Start with <b>Vice City Gun &amp; Pawn</b>: the shop has armed security, so deal with them, go into the back room and open the locked case on the desk. If it isn't there, rob the other shops one by one until you find it. Sell the necklace to Yasmani.</div></div><div class="side"><span class="need">$15,000</span></div></label>
+<label class="tr" data-track-row for="yj-banks"><input class="cb" type="checkbox" id="yj-banks" data-track="yasmanijob:banks"><div class="body"><div class="name">3. Bank Jobs</div><div class="desc"><b>Chapter 4.</b> Yasmani now has tips on small banks. Pay him and he marks one bank and gives you the <b>safe code</b>, which saves you a sticky bomb. A locked door to the teller area opens quietly with the Snap Gun. A keypad door to the back needs a sticky bomb and always sets off the alarm; at a bank without one, destroy the security footage and switch the alarm off if the staff haven't raised it. Enter the code at the safe, then sell the marked bills to Yasmani. <a href="/guides/robberies/#banks">All 22 banks</a>.</div></div><div class="side"><span class="need">~$20k a safe</span></div></label>
+<label class="tr" data-track-row for="yj-van"><input class="cb" type="checkbox" id="yj-van" data-track="yasmanijob:van"><div class="body"><div class="name">4. Tail the Security Van</div><div class="desc"><b>Chapter 4, after That's Where The Money Is…, tip $10,000.</b> Go to the marked spot and follow the armored van to its bank. Hang well back: if the driver notices you, he won't stop. When the guard has gone inside to the vault, follow him in. The way to the back is usually a keypad door you have to break, and the guards in that room open fire straight away. The vault cart holds more than two bags of marked bills: throw one to your partner or switch to them to carry on loading, and take the back-room safe while you're there. A vault always brings four stars and the police are often outside already, so plan the getaway, then sell the bills to Yasmani. This is the last job in his strand. <a href="/guides/robberies/#vaults">All 8 vaults</a>.</div></div><div class="side"><span class="need">~$100k</span></div></label>
+</div>
 
 <h2 id="pete">Pilot Pete's flying jobs</h2>
 

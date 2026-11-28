@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "total": 277,
   "need": 200,
   "trophy": 100,
@@ -144,7 +144,37 @@
       "group": "cars",
       "count": 29,
       "lede": "The biggest class in the game.",
-      "items": []
+      "items": [
+        "Obey Animus",
+        "Karin Asterope GZ",
+        "Bravado Bogan",
+        "’07 Bravado Buffalo",
+        "’19 Bravado Buffalo",
+        "Dinka Chavos XS",
+        "’85 Albany Emperor",
+        "’98 Karin Feroci",
+        "BF Greta",
+        "’92 Willard Grouse",
+        "’80 Declasse Impaler",
+        "’29 Declasse Impaler",
+        "’95 Declasse Impaler SZ",
+        "Karin Intruder",
+        "Ocelot Jugular",
+        "Vapid Lowline",
+        "’71 Declasse Parkland",
+        "Schyster PMP 700",
+        "Albany Primo",
+        "Coil Raiden",
+        "Benefactor Schafter S",
+        "’98 Vapid Stanier",
+        "Vapid Stanier G2",
+        "Dinka Sugoi",
+        "’61 Sirius Sungrazer",
+        "Obey Tailgater S",
+        "Willard Transient",
+        "Albany V-STR",
+        "’85 Schyster Woodland"
+      ]
     },
     {
       "id": "sports",
@@ -572,7 +602,7 @@
     {
       "label": "PowerPyx class pages",
       "url": "https://www.powerpyx.com/gta-6-all-coupes/",
-      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, off-road (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 8 names, no spots, they drive around at random), bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle cars (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 26 names, no '?' slots, they drive around at random). SUVs (read Nov 27: 22 names + '?' at slot 23) and watercraft (read Nov 27: 27 names + '?' at slot 7), both published Nov 25 20:08, modified 22:17 UTC. Supercars (read Nov 27, later run: 9 names, no '?' slots, published Nov 25 20:08, modified 22:17 UTC; they drive around at random). Vans (read Nov 27, fourth run: 14 names, no '?' slots, published Nov 25 20:08, modified 22:17 UTC; they drive around at random). The sedans page exists but was not in search results, so its names are not listed yet."
+      "note": "Read Nov 26, 2026 (all published Nov 25 20:08, modified 22:17 UTC). Coupes, sports cars, pickups, off-road (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 8 names, no spots, they drive around at random), bikes, aircraft, military, emergency, service trucks, utility, industrial, transport (gta-6-all-<class> slugs). Names in the in-game Progress order. Unnamed '?' slots: sports 1, utility 1, emergency 1, military 2, transport 1. Muscle cars (published Nov 25 20:08, modified 22:17 UTC, read Nov 26: 26 names, no '?' slots, they drive around at random). SUVs (read Nov 27: 22 names + '?' at slot 23) and watercraft (read Nov 27: 27 names + '?' at slot 7), both published Nov 25 20:08, modified 22:17 UTC. Supercars (read Nov 27, later run: 9 names, no '?' slots, published Nov 25 20:08, modified 22:17 UTC; they drive around at random). Vans (read Nov 27, fourth run: 14 names, no '?' slots, published Nov 25 20:08, modified 22:17 UTC; they drive around at random). Sedans (read Nov 28: 29 names, no '?' slots, published Nov 25 20:08, modified 22:17 UTC; they drive around at random)."
     }
   ]
 }

@@ -1,13 +1,22 @@
 [
  {
+  "date": "2026-11-28",
+  "tag": "Side jobs",
+  "title": "Yasmani's robbery tips, start to finish",
+  "text": "All six of Yasmani's jobs in order, from payday loans and the Gold Blammer to bank safes and the security van, with payouts, a tracker and the one ordering trap.",
+  "url": "/guides/side-contacts/#yasmani-jobs",
+  "img": "/assets/img/full/art-jl-robbery.webp",
+  "pos": "50% 50%",
+  "cta": "Open Yasmani's tips"
+ },
+ {
   "date": "2026-11-26",
   "tag": "Side jobs",
   "title": "Randy's car jobs and Kenton's last dive",
   "text": "Randy's four jobs after the wish list with payouts and a tracker, when Advanced Tracker cars can be registered, Kenton's check-in and final job, and a new reward garage.",
   "url": "/guides/side-contacts/#randy-jobs",
   "img": "/assets/img/full/act-scuba.webp",
-  "pos": "50% 50%",
-  "cta": "Open Randy's jobs"
+  "pos": "50% 50%"
  },
  {
   "date": "2026-11-26",
@@ -31,7 +40,7 @@
   "date": "2026-11-26",
   "tag": "Vehicles",
   "title": "Vehicle checklist for 100%",
-  "text": "Every vehicle class with its count, 240 base models to tick off by name, a page per class, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
+  "text": "Every vehicle class with its count, 269 base models to tick off by name, a page per class, where to find aircraft, boats and military vehicles, and the 25 Standout styles.",
   "url": "/vehicles/",
   "img": "/assets/img/full/act-carmeet.webp",
   "pos": "50% 50%"
@@ -61,15 +70,6 @@
   "text": "How saving works with no mission replay, every paid way to get around, auto drive, the map index and how to shake the police.",
   "url": "/guides/beginner-tips/",
   "img": "/assets/img/full/feat-heat.webp",
-  "pos": "50% 50%"
- },
- {
-  "date": "2026-11-26",
-  "tag": "Collectibles",
-  "title": "All 33 underwater discoveries",
-  "text": "Every wreck, Burg facility and reef on the sea floor, sorted by county and kind, with a checklist that saves.",
-  "url": "/collectibles/underwater-discoveries/",
-  "img": "/assets/img/full/act-boats.webp",
   "pos": "50% 50%"
  }
 ]
